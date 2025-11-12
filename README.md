@@ -8,7 +8,6 @@
 
 ---
 
-## English
 
 ### 🌟 What is AI-Chef?
 
