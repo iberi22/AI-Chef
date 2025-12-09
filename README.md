@@ -54,6 +54,8 @@ AI-Chef is a modern, open-source recipe repository inspired by [HowToCook](https
 
 ### 📚 Documentation
 
+- [**Next Steps**](PROXIMOS_PASOS.md) - 🎯 Immediate action plan for translations and GitHub Pages
+- [Translation Guide](docs/TRANSLATION_GUIDE.md) - 🌍 Complete guide for Spanish translations
 - [CI/CD Workflows](docs/CI_CD.md) - Automated metadata extraction and branch protection
 - [Pre-commit Setup](docs/precommit.md) - Code quality hooks with Husky and lint-staged
 - [Contributing Guide](docs/contribuir.md) - How to add new recipes
