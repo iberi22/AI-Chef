@@ -39,18 +39,18 @@ Include context for Jules:
 #### Completed Tasks
 
 - ✅ **Security fixes** (Dec 9, 2025): Updated `js-yaml` (3.14.1 → 3.14.2) and `glob` to fix CVE-2025-64718 (moderate) and CVE-2025-64756 (high severity).
+- ✅ **Translation Script Fix** (Issue #37, PR #40, Dec 9, 2025): Updated Gemini model to `gemini-2.5-flash`. PR closed - change applied directly in main with minor correction (removed `models/` prefix).
+- ✅ **Astro Site Structure** (Issue #38, PR #41, Dec 9, 2025): Created complete `site/` directory with Astro 5.x configuration. Merged successfully!
 
 #### In Progress
 
-- 🔄 **Translation Script Fix** (Issue #37): Update Gemini model to `gemini-2.5-flash` for better free tier support
-- 🔄 **Astro Site Structure** (Issue #38): Create basic `site/` directory with Astro configuration files
-- 🔄 **GitHub Pages Deployment** (Issue #36): Add workflow for automatic Astro site deployment (blocked by #38)
+- 🔄 **GitHub Pages Deployment** (Issue #36, PR #39): Workflow created but needs fix for package-lock.json dependency before merge.
 
 #### Failed Tasks (Limitations Identified)
 
 - ❌ **Recipe Translation** (Issue #32, PR #34): Jules cannot create multiple new files due to environment restrictions. Error: "Unable to create files".
   - **Recommendation**: Create file structure manually first, then let Jules handle content translation.
-  
+
 - ❌ **GitHub Pages with Astro/Svelte** (Issue #33, PR #35): Empty PR with "known build issue". Task too complex for single iteration.
   - **Recommendation**: Break into smaller sub-tasks (setup Astro → add Svelte → configure GitHub Actions).
 
