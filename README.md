@@ -58,6 +58,17 @@ AI-Chef is a modern, open-source recipe repository inspired by [HowToCook](https
 - [Pre-commit Setup](docs/precommit.md) - Code quality hooks with Husky and lint-staged
 - [Contributing Guide](docs/contribuir.md) - How to add new recipes
 - [Vectorization for AI](docs/vectorizacion.md) - Using recipes with embeddings and RAG
+- [Agent Automation](AGENTS.md) - Gemini CLI and Jules bot configuration
+- [Security Updates](docs/SECURITY_UPDATES.md) - CVE fixes and security policy
+
+### 🔒 Security & Automation
+
+- **Dependabot**: Automated security updates for npm dependencies
+- **Jules Bot**: AI assistant for issue-based task automation (experimental)
+- **Auto-merge**: PRs with `automation` label are auto-approved when checks pass
+- **Security Audits**: Run `npm audit` on every PR
+
+See [AGENTS.md](AGENTS.md) for details on automation tools and best practices.
 
 ### 🛠️ Recipe Format
 
@@ -204,5 +215,3 @@ ls dishes/colombian/
 ---
 
 **Made with ❤️ for Global Cuisine & AI Agents**
-
-

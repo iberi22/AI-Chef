@@ -34,6 +34,28 @@ Include context for Jules:
 - Goal, acceptance criteria, constraints (languages, licenses), file paths.
 - Link to prior PRs or examples.
 
+### Jules Task History
+
+#### Completed Tasks
+
+- ✅ **Security fixes** (Dec 9, 2025): Updated `js-yaml` (3.14.1 → 3.14.2) and `glob` to fix CVE-2025-64718 (moderate) and CVE-2025-64756 (high severity).
+
+#### Failed Tasks (Limitations Identified)
+
+- ❌ **Recipe Translation** (Issue #32, PR #34): Jules cannot create multiple new files due to environment restrictions. Error: "Unable to create files".
+  - **Recommendation**: Create file structure manually first, then let Jules handle content translation.
+  
+- ❌ **GitHub Pages with Astro/Svelte** (Issue #33, PR #35): Empty PR with "known build issue". Task too complex for single iteration.
+  - **Recommendation**: Break into smaller sub-tasks (setup Astro → add Svelte → configure GitHub Actions).
+
+### Best Practices for Jules
+
+1. **Keep tasks atomic**: One clear goal per issue
+2. **Pre-create file structures**: If task requires many new files, create directory structure first
+3. **Provide examples**: Link to similar implementations
+4. **Avoid complex setups**: Don't ask Jules to scaffold entire frameworks in one go
+5. **Use checkpoints**: For large projects, use multiple issues with dependencies
+
 ## Batch selection
 
 - Script: `automation/queue/select_batch.py`
@@ -62,6 +84,7 @@ python automation/queue/select_batch.py \
 - Favor idempotent scripts and append-only JSONL artifacts.
 
 ## Auto-approve & Auto-merge
+
 - PRs labeled `automation` are auto-approved by a bot and auto-merge is enabled (squash).
 - Self-approval by the author is blocked by GitHub; the bot handles approval when the label is present.
 - Auto-merge only completes when all required checks are green, respecting branch protection.
