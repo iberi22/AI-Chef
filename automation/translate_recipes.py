@@ -10,7 +10,7 @@ Uso:
 
 Requisitos:
     pip install google-generativeai
-    
+
 Variables de entorno:
     GEMINI_API_KEY: Tu API key de Google AI Studio
 """
@@ -23,7 +23,7 @@ from typing import Optional
 import google.generativeai as genai
 
 # Configuración
-GEMINI_MODEL = "models/gemini-2.0-flash-lite"  # Modelo lite más económico para free tier
+GEMINI_MODEL = "gemini-2.5-flash"  # Modelo con mejor soporte en free tier
 TEMPERATURE = 0.2
 
 # Prompt de traducción
@@ -50,72 +50,72 @@ def setup_gemini_api(api_key: Optional[str] = None) -> None:
     """Configura la API de Gemini."""
     if api_key is None:
         api_key = os.getenv("GEMINI_API_KEY")
-    
+
     if not api_key:
         print("❌ Error: GEMINI_API_KEY no encontrada")
         print("Configura la variable de entorno o pasa --api-key")
         sys.exit(1)
-    
+
     genai.configure(api_key=api_key)
 
 
 def translate_recipe(content: str) -> str:
     """Traduce el contenido de una receta usando Gemini."""
     model = genai.GenerativeModel(GEMINI_MODEL)
-    
+
     prompt = TRANSLATION_PROMPT + content
-    
+
     response = model.generate_content(
         prompt,
         generation_config=genai.types.GenerationConfig(
             temperature=TEMPERATURE,
         )
     )
-    
+
     return response.text
 
 
 def process_recipe_file(input_path: Path, force: bool = False) -> bool:
     """
     Procesa un archivo de receta individual.
-    
+
     Args:
         input_path: Ruta al archivo de receta en chino
         force: Si True, sobreescribe archivos existentes
-    
+
     Returns:
         True si se tradujo exitosamente, False en caso contrario
     """
     # Verificar que es un archivo .md (no .es.md)
     if input_path.suffix != ".md" or ".es.md" in input_path.name:
         return False
-    
+
     # Generar nombre de archivo de salida
     output_path = input_path.with_suffix(".es.md")
-    
+
     # Verificar si ya existe
     if output_path.exists() and not force:
         print(f"⏭️  Saltando {input_path.name} (ya existe {output_path.name})")
         return False
-    
+
     try:
         # Leer contenido original
         print(f"📖 Leyendo {input_path.name}...")
         with open(input_path, "r", encoding="utf-8") as f:
             content = f.read()
-        
+
         # Traducir
         print(f"🔄 Traduciendo con Gemini...")
         translated = translate_recipe(content)
-        
+
         # Guardar traducción
         print(f"💾 Guardando {output_path.name}...")
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(translated)
-        
+
         print(f"✅ Traducción completada: {output_path.name}\n")
         return True
-        
+
     except Exception as e:
         print(f"❌ Error procesando {input_path.name}: {type(e).__name__}: {e}\n")
         import traceback
@@ -126,7 +126,7 @@ def process_recipe_file(input_path: Path, force: bool = False) -> bool:
 def find_recipe_files(base_path: Path) -> list[Path]:
     """Encuentra todos los archivos de recetas (chinos) en un directorio."""
     recipes = []
-    
+
     for md_file in base_path.rglob("*.md"):
         # Excluir archivos ya traducidos y archivos especiales
         if (
@@ -134,7 +134,7 @@ def find_recipe_files(base_path: Path) -> list[Path]:
             and md_file.name not in ["README.md", "CONTRIBUTING.md", "LICENSE.md"]
         ):
             recipes.append(md_file)
-    
+
     return recipes
 
 
@@ -173,24 +173,24 @@ def main():
         default=None,
         help="Limitar número de recetas a traducir (útil para pruebas)"
     )
-    
+
     args = parser.parse_args()
-    
+
     # Configurar API
     setup_gemini_api(args.api_key)
-    
+
     # Determinar qué archivos procesar
     recipes_to_process: list[Path] = []
-    
+
     if args.all:
         base_dir = Path("dishes")
         recipes_to_process = find_recipe_files(base_dir)
         print(f"🔍 Encontradas {len(recipes_to_process)} recetas en dishes/\n")
-        
+
     elif args.batch:
         recipes_to_process = find_recipe_files(args.batch)
         print(f"🔍 Encontradas {len(recipes_to_process)} recetas en {args.batch}\n")
-        
+
     elif args.input:
         if args.input.is_file():
             recipes_to_process = [args.input]
@@ -203,19 +203,19 @@ def main():
     else:
         parser.print_help()
         sys.exit(1)
-    
+
     # Aplicar límite si se especificó
     if args.limit:
         recipes_to_process = recipes_to_process[:args.limit]
         print(f"⚠️  Limitando a {args.limit} recetas\n")
-    
+
     # Procesar recetas
     total = len(recipes_to_process)
     success = 0
-    
+
     print(f"🚀 Iniciando traducción de {total} recetas...\n")
     print("=" * 60 + "\n")
-    
+
     for i, recipe_path in enumerate(recipes_to_process, 1):
         try:
             relative_path = recipe_path.relative_to(Path.cwd())
@@ -223,16 +223,16 @@ def main():
         except ValueError:
             # Si no se puede calcular ruta relativa, usar nombre del archivo
             print(f"[{i}/{total}] Procesando {recipe_path.name}...")
-        
+
         if process_recipe_file(recipe_path, force=args.force):
             success += 1
-    
+
     # Resumen
     print("=" * 60)
     print(f"\n✨ Traducción completada:")
     print(f"   - Exitosas: {success}/{total}")
     print(f"   - Fallidas: {total - success}/{total}")
-    
+
     if success > 0:
         print(f"\n💡 Siguiente paso: revisar las traducciones y hacer commit")
         print(f"   git add dishes/**/*.es.md")
