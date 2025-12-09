@@ -41,10 +41,7 @@ Include context for Jules:
 - ✅ **Security fixes** (Dec 9, 2025): Updated `js-yaml` (3.14.1 → 3.14.2) and `glob` to fix CVE-2025-64718 (moderate) and CVE-2025-64756 (high severity).
 - ✅ **Translation Script Fix** (Issue #37, PR #40, Dec 9, 2025): Updated Gemini model to `gemini-2.5-flash`. PR closed - change applied directly in main with minor correction (removed `models/` prefix).
 - ✅ **Astro Site Structure** (Issue #38, PR #41, Dec 9, 2025): Created complete `site/` directory with Astro 5.x configuration. Merged successfully!
-
-#### In Progress
-
-- 🔄 **GitHub Pages Deployment** (Issue #36, PR #39): Workflow created but needs fix for package-lock.json dependency before merge.
+- ✅ **GitHub Pages Deployment** (Issue #36, PR #39, Dec 9, 2025): Workflow created and merged. Required manual fix of package-lock.json dependency.
 
 #### Failed Tasks (Limitations Identified)
 
