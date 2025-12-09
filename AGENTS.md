@@ -40,6 +40,12 @@ Include context for Jules:
 
 - ✅ **Security fixes** (Dec 9, 2025): Updated `js-yaml` (3.14.1 → 3.14.2) and `glob` to fix CVE-2025-64718 (moderate) and CVE-2025-64756 (high severity).
 
+#### In Progress
+
+- 🔄 **Translation Script Fix** (Issue #37): Update Gemini model to `gemini-2.5-flash` for better free tier support
+- 🔄 **Astro Site Structure** (Issue #38): Create basic `site/` directory with Astro configuration files
+- 🔄 **GitHub Pages Deployment** (Issue #36): Add workflow for automatic Astro site deployment (blocked by #38)
+
 #### Failed Tasks (Limitations Identified)
 
 - ❌ **Recipe Translation** (Issue #32, PR #34): Jules cannot create multiple new files due to environment restrictions. Error: "Unable to create files".
@@ -48,13 +54,78 @@ Include context for Jules:
 - ❌ **GitHub Pages with Astro/Svelte** (Issue #33, PR #35): Empty PR with "known build issue". Task too complex for single iteration.
   - **Recommendation**: Break into smaller sub-tasks (setup Astro → add Svelte → configure GitHub Actions).
 
-### Best Practices for Jules
+### Best Practices for Jules (Updated Dec 9, 2025)
 
-1. **Keep tasks atomic**: One clear goal per issue
-2. **Pre-create file structures**: If task requires many new files, create directory structure first
-3. **Provide examples**: Link to similar implementations
-4. **Avoid complex setups**: Don't ask Jules to scaffold entire frameworks in one go
-5. **Use checkpoints**: For large projects, use multiple issues with dependencies
+#### ✅ What Works Well
+
+1. **Single-file modifications**: Editing existing files with clear instructions
+2. **Specific line changes**: "Change line X from Y to Z"
+3. **Configuration updates**: Updating constants, config values, dependencies
+4. **Bug fixes**: Well-defined errors with specific solutions
+5. **Provided content**: Copy-paste exact file contents in issue description
+
+#### ❌ What Doesn't Work
+
+1. **Multiple new files**: Creating 5+ new files in one task fails
+2. **Complex scaffolding**: Framework setup (Astro + Svelte + Actions)
+3. **Ambiguous tasks**: "Set up authentication system"
+4. **Large refactors**: Restructuring entire codebases
+5. **Research-heavy**: Tasks requiring exploration and decisions
+
+#### 📋 Issue Template for Success
+
+```markdown
+## Goal
+[One sentence: what should be accomplished]
+
+## Context
+[Why this is needed, what problem it solves]
+
+## Acceptance Criteria
+- [ ] Specific measurable outcome 1
+- [ ] Specific measurable outcome 2
+
+## File(s) to Create/Modify
+- `path/to/file.ext` (line X or new file)
+
+## Specific Changes Needed
+[Exact content or code snippets]
+
+## Testing
+[How to verify the changes work]
+
+## Important Constraints
+- [Language requirements]
+- [Don't modify X]
+- [Must preserve Y]
+```
+
+#### 🎯 Task Breakdown Strategy
+
+**Bad** (too broad):
+> "Create a recipe translation system with API integration and batch processing"
+
+**Good** (atomic tasks):
+
+1. Issue: "Fix script to use gemini-2.5-flash model (1 line change)"
+2. Issue: "Create site/ directory structure (5 config files, exact content provided)"
+3. Issue: "Add GitHub Actions workflow (1 file, exact YAML provided)"
+
+#### 🔗 Dependencies Between Issues
+
+When tasks depend on each other:
+
+- Mark with `**BLOCKED BY**: Issue #XYZ` in description
+- Jules will wait or inform you if dependency isn't met
+- Order: structure → content → automation
+
+### New Issues (Dec 9, 2025)
+
+Following improved practices, created:
+
+- **#37**: Translation script model fix (atomic, 1-line change)
+- **#38**: Astro site structure (5 files, all content provided)
+- **#36**: GitHub Pages workflow (1 file, blocked by #38)
 
 ## Batch selection
 

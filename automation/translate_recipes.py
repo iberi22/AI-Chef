@@ -23,7 +23,7 @@ from typing import Optional
 import google.generativeai as genai
 
 # Configuración
-GEMINI_MODEL = "gemini-1.5-flash"
+GEMINI_MODEL = "models/gemini-2.0-flash-lite"  # Modelo lite más económico para free tier
 TEMPERATURE = 0.2
 
 # Prompt de traducción
@@ -117,7 +117,9 @@ def process_recipe_file(input_path: Path, force: bool = False) -> bool:
         return True
         
     except Exception as e:
-        print(f"❌ Error procesando {input_path.name}: {e}\n")
+        print(f"❌ Error procesando {input_path.name}: {type(e).__name__}: {e}\n")
+        import traceback
+        traceback.print_exc()
         return False
 
 
@@ -215,7 +217,12 @@ def main():
     print("=" * 60 + "\n")
     
     for i, recipe_path in enumerate(recipes_to_process, 1):
-        print(f"[{i}/{total}] Procesando {recipe_path.relative_to(Path.cwd())}...")
+        try:
+            relative_path = recipe_path.relative_to(Path.cwd())
+            print(f"[{i}/{total}] Procesando {relative_path}...")
+        except ValueError:
+            # Si no se puede calcular ruta relativa, usar nombre del archivo
+            print(f"[{i}/{total}] Procesando {recipe_path.name}...")
         
         if process_recipe_file(recipe_path, force=args.force):
             success += 1
