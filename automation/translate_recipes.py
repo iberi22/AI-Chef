@@ -23,7 +23,7 @@ from typing import Optional
 import google.generativeai as genai
 
 # Configuración
-GEMINI_MODEL = "gemini-1.5-flash"
+GEMINI_MODEL = "models/gemini-2.5-flash"  # Modelo con mejor soporte en free tier
 TEMPERATURE = 0.2
 
 # Prompt de traducción
