@@ -151,16 +151,38 @@ function replaceLFSPointers(dir) {
       replaceLFSPointers(fullPath);
     } else if (entry.isFile() && /\.(jpg|jpeg|png|gif|webp)$/i.test(entry.name)) {
       try {
+        const stats = fs.statSync(fullPath);
         const buffer = fs.readFileSync(fullPath);
         const content = buffer.toString('utf8', 0, 100);
-        if (content.startsWith('version https://git-lfs.github.com/spec/v1')) {
+        
+        // Check if it's an LFS pointer (small file starting with version https://git-lfs...)
+        const isLFSPointer = stats.size < 200 && content.startsWith('version https://git-lfs.github.com/spec/v1');
+        
+        if (isLFSPointer) {
           console.log(`Post-process: Replacing LFS pointer ${fullPath}`);
+          
+          // Try to use the placeholder, if not available create a minimal PNG
           if (fs.existsSync(placeholderPath)) {
             fs.copyFileSync(placeholderPath, fullPath);
+          } else {
+            // Create a minimal 1x1 pixel PNG
+            const minimalPNG = Buffer.from([
+              0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A,
+              0x00, 0x00, 0x00, 0x0D, 0x49, 0x48, 0x44, 0x52,
+              0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01,
+              0x08, 0x06, 0x00, 0x00, 0x00, 0x1F, 0x15, 0xC4,
+              0x89, 0x00, 0x00, 0x00, 0x0A, 0x49, 0x44, 0x41,
+              0x54, 0x78, 0x9C, 0x63, 0x00, 0x01, 0x00, 0x00,
+              0x05, 0x00, 0x01, 0x0D, 0x0A, 0x2D, 0xB4, 0x00,
+              0x00, 0x00, 0x00, 0x49, 0x45, 0x4E, 0x44, 0xAE,
+              0x42, 0x60, 0x82
+            ]);
+            fs.writeFileSync(fullPath, minimalPNG);
+            console.log(`  Created minimal PNG placeholder`);
           }
         }
       } catch (e) {
-        // Ignore errors reading images
+        console.error(`Error checking ${fullPath}:`, e.message);
       }
     }
   }
