@@ -46,11 +46,11 @@ function getRecipeImage(recipe: any) {
         class="bg-surface border border-gray-800 rounded-none hover:border-primary transition-all duration-300 group relative overflow-hidden hover:shadow-neon flex flex-col"
       >
         <div class="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-primary to-secondary transform scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top z-10"></div>
-        
+
         {image ? (
           <div class="h-48 w-full overflow-hidden border-b border-gray-800 relative">
-            <img 
-              src={image.startsWith('http') ? image : (image.startsWith('/') ? image : `${baseUrl}/${image.replace(/^\.\//, '')}`)} 
+            <img
+              src={image.startsWith('http') ? image : (image.startsWith('/') ? image : `${baseUrl}/${image.replace(/^\.\//, '')}`)}
               alt={recipe.id}
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70 group-hover:opacity-100 grayscale group-hover:grayscale-0"
               onError="this.style.display='none'"

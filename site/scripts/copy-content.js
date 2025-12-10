@@ -59,13 +59,13 @@ function copyDir(src, destContent, destPublic, relativePath = '') {
       copyDir(srcPath, destContentPath, destPublicPath, newRelativePath);
     } else if (entry.isFile()) {
       const isImage = /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(entry.name);
-      
+
       if (isImage) {
         // Copy images to public/ (NOT to src/content/)
         try {
           const buffer = fs.readFileSync(srcPath);
           const content = buffer.toString('utf8', 0, 100);
-          
+
           if (content.startsWith('version https://git-lfs.github.com/spec/v1')) {
             console.log(`Replacing LFS pointer: ${entry.name}`);
             if (fs.existsSync(placeholderPath)) {
@@ -93,10 +93,10 @@ function copyDir(src, destContent, destPublic, relativePath = '') {
 
             // Clean the path
             let cleanPath = imgPath.replace(/^\.\//, '');
-            
+
             // Build the public URL
             const publicUrl = `${baseUrl}/dishes/${newRelativePath.replace(entry.name, '')}${cleanPath}`.replace(/\/+/g, '/');
-            
+
             console.log(`  Rewriting image path: ${imgPath} -> ${publicUrl}`);
             return `](${publicUrl})`;
           } catch (e) {

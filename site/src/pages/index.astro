@@ -58,10 +58,10 @@ const categoryImages = categories.reduce((acc, cat) => {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
             </div>
-            <input 
-                type="text" 
+            <input
+                type="text"
                 id="searchInput"
-                placeholder="Filtrar categorías..." 
+                placeholder="Filtrar categorías..."
                 class="w-full bg-dark border border-gray-800 text-light pl-12 pr-6 py-4 rounded-lg focus:outline-none focus:border-primary font-mono placeholder-gray-600 shadow-2xl transition-colors"
             >
         </div>
@@ -76,9 +76,9 @@ const categoryImages = categories.reduce((acc, cat) => {
         <!-- Background Image -->
         {categoryImages[category] ? (
             <div class="absolute inset-0">
-                <img 
-                    src={categoryImages[category]} 
-                    alt={category} 
+                <img
+                    src={categoryImages[category]}
+                    alt={category}
                     class="w-full h-full object-cover opacity-30 group-hover:opacity-20 group-hover:scale-110 transition-all duration-700 grayscale group-hover:grayscale-0"
                     loading="lazy"
                 />
@@ -102,7 +102,7 @@ const categoryImages = categories.reduce((acc, cat) => {
                         {recipesByCategory[category].length}
                     </span>
                 </div>
-                
+
                 <ul class="space-y-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-75">
                     {recipesByCategory[category].slice(0, 3).map((recipe) => (
                         <li>
@@ -135,7 +135,7 @@ const categoryImages = categories.reduce((acc, cat) => {
     if (searchInput && grid) {
         searchInput.addEventListener('input', (e) => {
             const term = e.target.value.toLowerCase();
-            
+
             cards.forEach((card) => {
                 const category = card.dataset.category || '';
                 if (category.includes(term)) {
