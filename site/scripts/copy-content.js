@@ -188,8 +188,4 @@ function replaceLFSPointers(dir) {
   }
 }
 
-console.log('Post-processing: Replacing any remaining LFS pointers...');
-replaceLFSPointers(dishesContentDir);
-replaceLFSPointers(tipsContentDir);
-
 console.log('Done.');
