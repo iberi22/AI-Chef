@@ -8,17 +8,17 @@ def fix_headings(directory):
                 filepath = os.path.join(root, file)
                 with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
-                
+
                 # Regex to find the first heading after frontmatter
                 # Frontmatter is between two ---
                 # We look for the first ### heading after the second ---
-                
+
                 # Split by frontmatter
                 parts = content.split('---', 2)
                 if len(parts) >= 3:
                     frontmatter = parts[1]
                     body = parts[2]
-                    
+
                     # Check if the first heading in body is ###
                     # We look for the first line starting with #
                     match = re.search(r'^\s*(#+)\s+(.*)', body, re.MULTILINE)
@@ -29,7 +29,7 @@ def fix_headings(directory):
                             # Be careful to only replace the first one found
                             new_body = re.sub(r'^\s*###\s+', '## ', body, count=1, flags=re.MULTILINE)
                             new_content = '---' + frontmatter + '---' + new_body
-                            
+
                             if new_content != content:
                                 print(f"Fixing {filepath}")
                                 with open(filepath, 'w', encoding='utf-8') as f:

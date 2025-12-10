@@ -27,7 +27,7 @@ fs.mkdirSync(tipsContentDir, { recursive: true });
 // Copy function
 function copyDir(src, dest) {
   if (!fs.existsSync(src)) return;
-  
+
   if (!fs.existsSync(dest)) {
     fs.mkdirSync(dest, { recursive: true });
   }
@@ -66,15 +66,15 @@ function copyDir(src, dest) {
       } else if (entry.name.endsWith('.md')) {
         // Read markdown content
         let content = fs.readFileSync(srcPath, 'utf8');
-        
+
         // Fix relative image paths and ensure they exist
         content = content.replace(/\]\((?!http|https|\/)([^)]+)\)/g, (match, imgPath) => {
             // imgPath is like "img/foo.jpg" or "./img/foo.jpg"
-            
+
             try {
               // Normalize path
               const targetPath = path.resolve(path.dirname(destPath), imgPath);
-              
+
               // Check if it exists
               if (!fs.existsSync(targetPath)) {
                   console.log(`Missing image: ${imgPath} in ${entry.name}. Creating placeholder.`);
@@ -85,7 +85,7 @@ function copyDir(src, dest) {
                       fs.copyFileSync(placeholderPath, targetPath);
                   }
               }
-              
+
               // Ensure it starts with ./ if it's relative
               if (!imgPath.startsWith('./') && !imgPath.startsWith('../')) {
                   return `](./${imgPath})`;
@@ -95,7 +95,7 @@ function copyDir(src, dest) {
             }
             return match;
         });
-        
+
         fs.writeFileSync(destPath, content);
       }
     }
@@ -108,7 +108,7 @@ if (fs.existsSync(dishesDir)) {
   for (const entry of entries) {
     const srcPath = path.join(dishesDir, entry.name);
     const destPath = path.join(dishesContentDir, entry.name);
-    
+
     if (entry.isDirectory()) {
       console.log(`Copying ${entry.name}...`);
       copyDir(srcPath, destPath);
@@ -126,7 +126,7 @@ if (fs.existsSync(tipsDir)) {
   for (const entry of entries) {
     const srcPath = path.join(tipsDir, entry.name);
     const destPath = path.join(tipsContentDir, entry.name);
-    
+
     if (entry.isDirectory()) {
       console.log(`Copying ${entry.name}...`);
       copyDir(srcPath, destPath);
