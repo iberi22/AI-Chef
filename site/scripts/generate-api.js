@@ -49,7 +49,7 @@ function extractCountry(filePath) {
   const parts = filePath.split(path.sep);
   const dishesIndex = parts.indexOf('dishes');
   if (dishesIndex === -1) return 'unknown';
-  
+
   const category = parts[dishesIndex + 1];
   return COUNTRY_MAPPING[category] || 'unknown';
 }
@@ -60,11 +60,11 @@ function extractCountry(filePath) {
 function parseRecipe(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const parsed = matter(content);
-  
+
   // Detect language from content
   const language = detectLanguage(parsed.content);
   const country = extractCountry(filePath);
-  
+
   // Extract title
   let title = parsed.data.title;
   if (!title) {
@@ -72,7 +72,7 @@ function parseRecipe(filePath) {
     const match = parsed.content.match(/^#\s+(.+)$/m);
     title = match ? match[1] : path.basename(filePath, '.md');
   }
-  
+
   // Build recipe object
   const recipe = {
     id: path.relative(dishesDir, filePath).replace(/\\/g, '/').replace('.md', ''),
@@ -90,7 +90,7 @@ function parseRecipe(filePath) {
     tags: parsed.data.tags || [],
     filePath: path.relative(repoRoot, filePath).replace(/\\/g, '/')
   };
-  
+
   return recipe;
 }
 
@@ -99,13 +99,13 @@ function parseRecipe(filePath) {
  */
 function scanRecipes() {
   const recipes = [];
-  
+
   function scanDir(dir) {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
-    
+
     for (const entry of entries) {
       const fullPath = path.join(dir, entry.name);
-      
+
       if (entry.isDirectory()) {
         scanDir(fullPath);
       } else if (entry.isFile() && entry.name.endsWith('.md') && entry.name !== 'README.md') {
@@ -118,7 +118,7 @@ function scanRecipes() {
       }
     }
   }
-  
+
   scanDir(dishesDir);
   return recipes;
 }
@@ -134,20 +134,20 @@ function groupRecipes(recipes) {
     withMetadata: recipes.filter(r => r.hasMetadata),
     withoutMetadata: recipes.filter(r => !r.hasMetadata)
   };
-  
+
   recipes.forEach(recipe => {
     // By language
     if (!grouped.byLanguage[recipe.language]) {
       grouped.byLanguage[recipe.language] = [];
     }
     grouped.byLanguage[recipe.language].push(recipe);
-    
+
     // By country
     if (!grouped.byCountry[recipe.country]) {
       grouped.byCountry[recipe.country] = [];
     }
     grouped.byCountry[recipe.country].push(recipe);
-    
+
     // By language and country
     const key = `${recipe.language}/${recipe.country}`;
     if (!grouped.byLanguageAndCountry[key]) {
@@ -155,7 +155,7 @@ function groupRecipes(recipes) {
     }
     grouped.byLanguageAndCountry[key].push(recipe);
   });
-  
+
   return grouped;
 }
 
@@ -166,21 +166,21 @@ function generateAPI() {
   console.log('🔍 Scanning recipes...');
   const recipes = scanRecipes();
   console.log(`✅ Found ${recipes.length} recipes`);
-  
+
   console.log('📊 Grouping recipes...');
   const grouped = groupRecipes(recipes);
-  
+
   console.log(`   - With metadata: ${grouped.withMetadata.length}`);
   console.log(`   - Without metadata: ${grouped.withoutMetadata.length}`);
-  
+
   // Clean and create API directory
   if (fs.existsSync(apiDir)) {
     fs.rmSync(apiDir, { recursive: true, force: true });
   }
   fs.mkdirSync(apiDir, { recursive: true });
-  
+
   console.log('\n📝 Generating API endpoints...');
-  
+
   // 1. Create index with all available endpoints
   const index = {
     totalRecipes: recipes.length,
@@ -200,68 +200,68 @@ function generateAPI() {
       withoutMetadata: '/api/without-metadata.json'
     }
   };
-  
+
   fs.writeFileSync(
     path.join(apiDir, 'index.json'),
     JSON.stringify(index, null, 2)
   );
   console.log('   ✓ /api/index.json');
-  
+
   // 2. All recipes
   fs.writeFileSync(
     path.join(apiDir, 'all.json'),
     JSON.stringify({ recipes, count: recipes.length }, null, 2)
   );
   console.log('   ✓ /api/all.json');
-  
+
   // 3. With/without metadata
   fs.writeFileSync(
     path.join(apiDir, 'with-metadata.json'),
     JSON.stringify({ recipes: grouped.withMetadata, count: grouped.withMetadata.length }, null, 2)
   );
   console.log('   ✓ /api/with-metadata.json');
-  
+
   fs.writeFileSync(
     path.join(apiDir, 'without-metadata.json'),
     JSON.stringify({ recipes: grouped.withoutMetadata, count: grouped.withoutMetadata.length }, null, 2)
   );
   console.log('   ✓ /api/without-metadata.json');
-  
+
   // 4. By language/country structure
   Object.entries(grouped.byLanguageAndCountry).forEach(([key, recipesList]) => {
     const [language, country] = key.split('/');
     const langDir = path.join(apiDir, language);
-    
+
     if (!fs.existsSync(langDir)) {
       fs.mkdirSync(langDir, { recursive: true });
     }
-    
+
     fs.writeFileSync(
       path.join(langDir, `${country}.json`),
       JSON.stringify({ recipes: recipesList, count: recipesList.length }, null, 2)
     );
     console.log(`   ✓ /api/${language}/${country}.json (${recipesList.length} recipes)`);
   });
-  
+
   // 5. Language index files
   Object.entries(grouped.byLanguage).forEach(([language, recipesList]) => {
     const langDir = path.join(apiDir, language);
-    
+
     if (!fs.existsSync(langDir)) {
       fs.mkdirSync(langDir, { recursive: true });
     }
-    
+
     fs.writeFileSync(
       path.join(langDir, 'index.json'),
       JSON.stringify({ recipes: recipesList, count: recipesList.length }, null, 2)
     );
     console.log(`   ✓ /api/${language}/index.json (${recipesList.length} recipes)`);
   });
-  
+
   // 6. Countries directory
   const countriesDir = path.join(apiDir, 'countries');
   fs.mkdirSync(countriesDir, { recursive: true });
-  
+
   Object.entries(grouped.byCountry).forEach(([country, recipesList]) => {
     fs.writeFileSync(
       path.join(countriesDir, `${country}.json`),
@@ -269,7 +269,7 @@ function generateAPI() {
     );
     console.log(`   ✓ /api/countries/${country}.json (${recipesList.length} recipes)`);
   });
-  
+
   console.log('\n✅ API generation complete!');
   console.log(`\n📍 Access your API at:`);
   console.log(`   https://iberi22.github.io/AI-Chef/api/index.json`);

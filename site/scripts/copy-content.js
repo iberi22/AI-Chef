@@ -8,123 +8,139 @@ const __dirname = path.dirname(__filename);
 // Root of the repo (parent of site/scripts)
 const repoRoot = path.resolve(__dirname, '../../');
 const dishesContentDir = path.resolve(__dirname, '../src/content/dishes');
+const dishesPublicDir = path.resolve(__dirname, '../public/dishes');
 const tipsContentDir = path.resolve(__dirname, '../src/content/tips');
+const tipsPublicDir = path.resolve(__dirname, '../public/tips');
 const dishesDir = path.join(repoRoot, 'dishes');
 const tipsDir = path.join(repoRoot, 'tips');
 const placeholderPath = path.join(repoRoot, 'dishes/colombian/nacionales/img/chorizo-2314640_640.jpg');
+const baseUrl = '/AI-Chef';
 
-// Ensure target directories exist
+// Clean existing directories
 if (fs.existsSync(dishesContentDir)) {
   fs.rmSync(dishesContentDir, { recursive: true, force: true });
 }
-fs.mkdirSync(dishesContentDir, { recursive: true });
-
+if (fs.existsSync(dishesPublicDir)) {
+  fs.rmSync(dishesPublicDir, { recursive: true, force: true });
+}
 if (fs.existsSync(tipsContentDir)) {
   fs.rmSync(tipsContentDir, { recursive: true, force: true });
 }
-fs.mkdirSync(tipsContentDir, { recursive: true });
+if (fs.existsSync(tipsPublicDir)) {
+  fs.rmSync(tipsPublicDir, { recursive: true, force: true });
+}
 
-// Copy function
-function copyDir(src, dest) {
+// Create target directories
+fs.mkdirSync(dishesContentDir, { recursive: true });
+fs.mkdirSync(dishesPublicDir, { recursive: true });
+fs.mkdirSync(tipsContentDir, { recursive: true });
+fs.mkdirSync(tipsPublicDir, { recursive: true });
+
+// Copy function - separates images and markdown
+function copyDir(src, destContent, destPublic, relativePath = '') {
   if (!fs.existsSync(src)) return;
 
-  if (!fs.existsSync(dest)) {
-    fs.mkdirSync(dest, { recursive: true });
+  if (!fs.existsSync(destContent)) {
+    fs.mkdirSync(destContent, { recursive: true });
+  }
+  if (!fs.existsSync(destPublic)) {
+    fs.mkdirSync(destPublic, { recursive: true });
   }
 
   const entries = fs.readdirSync(src, { withFileTypes: true });
 
   for (const entry of entries) {
     const srcPath = path.join(src, entry.name);
-    const destPath = path.join(dest, entry.name);
+    const destContentPath = path.join(destContent, entry.name);
+    const destPublicPath = path.join(destPublic, entry.name);
+    const newRelativePath = relativePath ? `${relativePath}/${entry.name}` : entry.name;
 
     if (entry.isDirectory()) {
-      copyDir(srcPath, destPath);
+      copyDir(srcPath, destContentPath, destPublicPath, newRelativePath);
     } else if (entry.isFile()) {
       const isImage = /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(entry.name);
+      
       if (isImage) {
+        // Copy images to public/ (NOT to src/content/)
         try {
-          // Check for Git LFS pointer
           const buffer = fs.readFileSync(srcPath);
-          const content = buffer.toString('utf8', 0, 100); // Read beginning
+          const content = buffer.toString('utf8', 0, 100);
+          
           if (content.startsWith('version https://git-lfs.github.com/spec/v1')) {
             console.log(`Replacing LFS pointer: ${entry.name}`);
-            // It's an LFS pointer, use placeholder
             if (fs.existsSync(placeholderPath)) {
-               fs.copyFileSync(placeholderPath, destPath);
+              fs.copyFileSync(placeholderPath, destPublicPath);
             } else {
-               // If placeholder missing, just copy original (will fail build likely, but best effort)
-               fs.copyFileSync(srcPath, destPath);
+              fs.copyFileSync(srcPath, destPublicPath);
             }
           } else {
-            // Real image
-            fs.copyFileSync(srcPath, destPath);
+            fs.copyFileSync(srcPath, destPublicPath);
           }
         } catch (e) {
           console.error(`Error processing image ${srcPath}:`, e);
         }
       } else if (entry.name.endsWith('.md')) {
-        // Read markdown content
+        // Copy markdown to src/content/ with updated image paths
         let content = fs.readFileSync(srcPath, 'utf8');
 
-        // Fix relative image paths and ensure they exist
-        content = content.replace(/\]\((?!http|https|\/)([^)]+)\)/g, (match, imgPath) => {
-            // imgPath is like "img/foo.jpg" or "./img/foo.jpg"
-
-            try {
-              // Normalize path
-              const targetPath = path.resolve(path.dirname(destPath), imgPath);
-
-              // Check if it exists
-              if (!fs.existsSync(targetPath)) {
-                  console.log(`Missing image: ${imgPath} in ${entry.name}. Creating placeholder.`);
-                  // Create directory if needed
-                  fs.mkdirSync(path.dirname(targetPath), { recursive: true });
-                  // Copy placeholder
-                  if (fs.existsSync(placeholderPath)) {
-                      fs.copyFileSync(placeholderPath, targetPath);
-                  }
-              }
-
-              // Ensure it starts with ./ if it's relative
-              if (!imgPath.startsWith('./') && !imgPath.startsWith('../')) {
-                  return `](./${imgPath})`;
-              }
-            } catch (e) {
-              console.error(`Error processing image path ${imgPath}:`, e);
+        // Replace relative image paths with absolute paths to /public
+        content = content.replace(/\]\((?!http|https|\/|#)([^)]+)\)/g, (match, imgPath) => {
+          try {
+            // Skip if it's a .md link
+            if (imgPath.endsWith('.md')) {
+              return match;
             }
+
+            // Clean the path
+            let cleanPath = imgPath.replace(/^\.\//, '');
+            
+            // Build the public URL
+            const publicUrl = `${baseUrl}/dishes/${newRelativePath.replace(entry.name, '')}${cleanPath}`.replace(/\/+/g, '/');
+            
+            console.log(`  Rewriting image path: ${imgPath} -> ${publicUrl}`);
+            return `](${publicUrl})`;
+          } catch (e) {
+            console.error(`Error rewriting path ${imgPath}:`, e);
             return match;
+          }
         });
 
-        fs.writeFileSync(destPath, content);
+        fs.writeFileSync(destContentPath, content);
       }
     }
   }
 }
 
-// Clean existing content directories first
-console.log('Cleaning existing content directories...');
+// Clean existing content and public directories first
+console.log('Cleaning existing directories...');
 if (fs.existsSync(dishesContentDir)) {
   fs.rmSync(dishesContentDir, { recursive: true, force: true });
 }
 if (fs.existsSync(tipsContentDir)) {
   fs.rmSync(tipsContentDir, { recursive: true, force: true });
 }
+if (fs.existsSync(dishesPublicDir)) {
+  fs.rmSync(dishesPublicDir, { recursive: true, force: true });
+}
+if (fs.existsSync(tipsPublicDir)) {
+  fs.rmSync(tipsPublicDir, { recursive: true, force: true });
+}
 
 // Recreate directories
 fs.mkdirSync(dishesContentDir, { recursive: true });
 fs.mkdirSync(tipsContentDir, { recursive: true });
+fs.mkdirSync(dishesPublicDir, { recursive: true });
+fs.mkdirSync(tipsPublicDir, { recursive: true });
 
-console.log('Copying dishes to site content...');
+console.log('Copying dishes to site content and public...');
 if (fs.existsSync(dishesDir)) {
   const entries = fs.readdirSync(dishesDir, { withFileTypes: true });
   for (const entry of entries) {
     const srcPath = path.join(dishesDir, entry.name);
-    const destPath = path.join(dishesContentDir, entry.name);
 
     if (entry.isDirectory()) {
       console.log(`Copying ${entry.name}...`);
-      copyDir(srcPath, destPath);
+      copyDir(srcPath, path.join(dishesContentDir, entry.name), path.join(dishesPublicDir, entry.name), entry.name);
     } else if (entry.isFile() && entry.name.endsWith('.md')) {
       fs.copyFileSync(srcPath, path.join(dishesContentDir, entry.name));
     }
@@ -133,72 +149,21 @@ if (fs.existsSync(dishesDir)) {
   console.error(`Dishes directory not found at ${dishesDir}`);
 }
 
-console.log('Copying tips to site content...');
+console.log('Copying tips to site content and public...');
 if (fs.existsSync(tipsDir)) {
   const entries = fs.readdirSync(tipsDir, { withFileTypes: true });
   for (const entry of entries) {
     const srcPath = path.join(tipsDir, entry.name);
-    const destPath = path.join(tipsContentDir, entry.name);
 
     if (entry.isDirectory()) {
       console.log(`Copying ${entry.name}...`);
-      copyDir(srcPath, destPath);
+      copyDir(srcPath, path.join(tipsContentDir, entry.name), path.join(tipsPublicDir, entry.name), entry.name);
     } else if (entry.isFile() && entry.name.endsWith('.md')) {
       fs.copyFileSync(srcPath, path.join(tipsContentDir, entry.name));
     }
   }
 } else {
   console.error(`Tips directory not found at ${tipsDir}`);
-}
-
-// Post-process: Replace any remaining LFS pointers with placeholder
-function replaceLFSPointers(dir) {
-  if (!fs.existsSync(dir)) return;
-  
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
-  
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name);
-    
-    if (entry.isDirectory()) {
-      replaceLFSPointers(fullPath);
-    } else if (entry.isFile() && /\.(jpg|jpeg|png|gif|webp)$/i.test(entry.name)) {
-      try {
-        const stats = fs.statSync(fullPath);
-        const buffer = fs.readFileSync(fullPath);
-        const content = buffer.toString('utf8', 0, 100);
-        
-        // Check if it's an LFS pointer (small file starting with version https://git-lfs...)
-        const isLFSPointer = stats.size < 200 && content.startsWith('version https://git-lfs.github.com/spec/v1');
-        
-        if (isLFSPointer) {
-          console.log(`Post-process: Replacing LFS pointer ${fullPath}`);
-          
-          // Try to use the placeholder, if not available create a minimal PNG
-          if (fs.existsSync(placeholderPath)) {
-            fs.copyFileSync(placeholderPath, fullPath);
-          } else {
-            // Create a minimal 1x1 pixel PNG
-            const minimalPNG = Buffer.from([
-              0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A,
-              0x00, 0x00, 0x00, 0x0D, 0x49, 0x48, 0x44, 0x52,
-              0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01,
-              0x08, 0x06, 0x00, 0x00, 0x00, 0x1F, 0x15, 0xC4,
-              0x89, 0x00, 0x00, 0x00, 0x0A, 0x49, 0x44, 0x41,
-              0x54, 0x78, 0x9C, 0x63, 0x00, 0x01, 0x00, 0x00,
-              0x05, 0x00, 0x01, 0x0D, 0x0A, 0x2D, 0xB4, 0x00,
-              0x00, 0x00, 0x00, 0x49, 0x45, 0x4E, 0x44, 0xAE,
-              0x42, 0x60, 0x82
-            ]);
-            fs.writeFileSync(fullPath, minimalPNG);
-            console.log(`  Created minimal PNG placeholder`);
-          }
-        }
-      } catch (e) {
-        console.error(`Error checking ${fullPath}:`, e.message);
-      }
-    }
-  }
 }
 
 console.log('Done.');
