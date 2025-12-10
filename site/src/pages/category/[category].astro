@@ -19,6 +19,15 @@ export async function getStaticPaths() {
 
 const { category, recipes } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL;
+
+function getRecipeImage(recipe: any) {
+  const body = recipe.body;
+  const mdMatch = body.match(/!\[.*?\]\((.*?)\)/);
+  if (mdMatch) return mdMatch[1];
+  const htmlMatch = body.match(/<img.*?src=["'](.*?)["']/);
+  if (htmlMatch) return htmlMatch[1];
+  return null;
+}
 ---
 
 <Layout title={`Recetas de ${category}`}>
@@ -29,19 +38,49 @@ const baseUrl = import.meta.env.BASE_URL;
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    {recipes.map((recipe) => (
+    {recipes.map((recipe) => {
+      const image = getRecipeImage(recipe);
+      return (
       <a
         href={`${baseUrl}/recipes/${recipe.slug}`}
-        class="bg-surface border border-gray-800 p-6 rounded-none hover:border-primary transition-all duration-300 group relative overflow-hidden hover:shadow-neon"
+        class="bg-surface border border-gray-800 rounded-none hover:border-primary transition-all duration-300 group relative overflow-hidden hover:shadow-neon flex flex-col"
       >
-        <div class="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-primary to-secondary transform scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top"></div>
-        <h3 class="text-xl font-bold text-light group-hover:text-primary transition-colors mb-2 font-mono pl-2">
-          {recipe.id.split('/').pop()?.replace('.md', '')}
-        </h3>
-        <p class="text-muted text-xs font-mono truncate pl-2 border-l border-gray-800 group-hover:border-primary/50 transition-colors">
-          {recipe.slug}
-        </p>
+        <div class="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-primary to-secondary transform scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top z-10"></div>
+        
+        {image ? (
+          <div class="h-48 w-full overflow-hidden border-b border-gray-800 relative">
+            <img 
+              src={image.startsWith('http') ? image : (image.startsWith('/') ? image : `${baseUrl}/${image.replace(/^\.\//, '')}`)} 
+              alt={recipe.id}
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70 group-hover:opacity-100 grayscale group-hover:grayscale-0"
+              onError="this.style.display='none'"
+            />
+            <div class="absolute inset-0 bg-dark/20 group-hover:bg-transparent transition-colors"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-80"></div>
+          </div>
+        ) : (
+          <div class="h-48 w-full bg-dark border-b border-gray-800 relative overflow-hidden">
+             <div class="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(68,68,68,.2)_50%,transparent_75%,transparent_100%)] bg-[length:250%_250%,100%_100%] bg-[position:-100%_0,0_0] animate-[shimmer_3s_infinite]"></div>
+             <div class="absolute inset-0 flex items-center justify-center text-gray-800 font-mono text-4xl opacity-20 select-none">
+               NO DATA
+             </div>
+          </div>
+        )}
+
+        <div class="p-6 relative flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-bold text-light group-hover:text-primary transition-colors mb-2 font-mono pl-2">
+              {recipe.id.split('/').pop()?.replace('.md', '')}
+            </h3>
+            <p class="text-muted text-xs font-mono truncate pl-2 border-l border-gray-800 group-hover:border-primary/50 transition-colors">
+              {recipe.slug}
+            </p>
+          </div>
+          <div class="mt-4 flex justify-end opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+             <span class="text-xs font-mono text-accent uppercase tracking-widest">Access &gt;&gt;</span>
+          </div>
+        </div>
       </a>
-    ))}
+    )})}
   </div>
 </Layout>
