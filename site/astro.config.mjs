@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
+import { passthroughImageService } from 'astro/config';
 
 export default defineConfig({
   site: 'https://iberi22.github.io',
@@ -8,6 +9,6 @@ export default defineConfig({
   integrations: [tailwind()],
   // Disable image optimization to avoid issues with Git LFS pointers
   image: {
-    service: { entrypoint: 'astro/assets/services/noop' }
+    service: passthroughImageService()
   }
 });
