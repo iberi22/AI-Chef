@@ -1,3 +1,3 @@
 # 7 星难度菜品
 
-* [无厨师机蜂蜜面包](./../dishes/dessert/无厨师机蜂蜜面包/无厨师机蜂蜜面包.md)
+* [alegrias](./../dishes/colombian/caribe/alegrias/alegrias.md)

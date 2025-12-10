@@ -1,5 +1,6 @@
 # 5 星难度菜品
 
+* [完美水煮蛋.es](./../dishes/breakfast/完美水煮蛋.es.md)
 * [完美水煮蛋](./../dishes/breakfast/完美水煮蛋.md)
 * [戚风蛋糕](./../dishes/dessert/戚风蛋糕/戚风蛋糕.md)
 * [无厨师机蜂蜜面包](./../dishes/dessert/无厨师机蜂蜜面包/无厨师机蜂蜜面包.md)
