@@ -1,0 +1,21 @@
+{
+  "recipes": [
+    {
+      "id": "template/示例菜/示例菜",
+      "title": "示例菜的做法",
+      "language": "chinese",
+      "country": "unknown",
+      "hasMetadata": false,
+      "metadata": {},
+      "category": [],
+      "difficulty": null,
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "mainIngredients": [],
+      "tags": [],
+      "filePath": "dishes/template/示例菜/示例菜.md"
+    }
+  ],
+  "count": 1
+}

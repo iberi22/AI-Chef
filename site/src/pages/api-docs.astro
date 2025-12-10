@@ -1,0 +1,188 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="API Documentation - AI Chef">
+  <div class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold mb-6 text-orange-600">🍳 API Documentation</h1>
+    
+    <p class="text-lg mb-8 text-gray-700">
+      Access all recipes programmatically through our JSON API. All endpoints return structured data
+      with recipe metadata, ingredients, and preparation details.
+    </p>
+
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8">
+      <p class="font-semibold text-blue-800">Base URL</p>
+      <code class="text-sm bg-white px-2 py-1 rounded">https://iberi22.github.io/AI-Chef/api/</code>
+    </div>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">📊 Main Endpoints</h2>
+      
+      <div class="space-y-4">
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/index.json</h3>
+          <p class="text-gray-600 mb-2">API index with statistics and available endpoints</p>
+          <a href="/AI-Chef/api/index.json" class="text-orange-500 hover:underline text-sm">→ View response</a>
+        </div>
+
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/all.json</h3>
+          <p class="text-gray-600 mb-2">All recipes (428 total)</p>
+          <a href="/AI-Chef/api/all.json" class="text-orange-500 hover:underline text-sm">→ View response</a>
+        </div>
+
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/with-metadata.json</h3>
+          <p class="text-gray-600 mb-2">Recipes with complete frontmatter metadata (Colombian, Peruvian)</p>
+          <a href="/AI-Chef/api/with-metadata.json" class="text-orange-500 hover:underline text-sm">→ View response</a>
+        </div>
+
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/without-metadata.json</h3>
+          <p class="text-gray-600 mb-2">Recipes without metadata (mainly Chinese recipes)</p>
+          <a href="/AI-Chef/api/without-metadata.json" class="text-orange-500 hover:underline text-sm">→ View response</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">🌍 By Language</h2>
+      
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/spanish/index.json</h3>
+          <p class="text-gray-600 mb-2">All Spanish recipes (103)</p>
+          <a href="/AI-Chef/api/spanish/index.json" class="text-orange-500 hover:underline text-sm">→ View</a>
+        </div>
+
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/chinese/index.json</h3>
+          <p class="text-gray-600 mb-2">All Chinese recipes (325)</p>
+          <a href="/AI-Chef/api/chinese/index.json" class="text-orange-500 hover:underline text-sm">→ View</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">🇨🇴🇨🇳🇵🇪 By Country</h2>
+      
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/spanish/colombia.json</h3>
+          <p class="text-gray-600 mb-2">Colombian recipes (101)</p>
+          <a href="/AI-Chef/api/spanish/colombia.json" class="text-orange-500 hover:underline text-sm">→ View</a>
+        </div>
+
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/chinese/china.json</h3>
+          <p class="text-gray-600 mb-2">Chinese recipes (324)</p>
+          <a href="/AI-Chef/api/chinese/china.json" class="text-orange-500 hover:underline text-sm">→ View</a>
+        </div>
+
+        <div class="border rounded-lg p-4 hover:shadow-md transition">
+          <h3 class="font-mono text-sm text-blue-600 mb-2">GET /api/spanish/peru.json</h3>
+          <p class="text-gray-600 mb-2">Peruvian recipes (1)</p>
+          <a href="/AI-Chef/api/spanish/peru.json" class="text-orange-500 hover:underline text-sm">→ View</a>
+        </div>
+      </div>
+
+      <div class="mt-4 p-4 bg-gray-50 rounded-lg">
+        <p class="text-sm text-gray-600 mb-2">Alternative: Country-agnostic endpoints</p>
+        <ul class="space-y-1 text-sm">
+          <li><code class="bg-white px-2 py-1 rounded">/api/countries/colombia.json</code></li>
+          <li><code class="bg-white px-2 py-1 rounded">/api/countries/china.json</code></li>
+          <li><code class="bg-white px-2 py-1 rounded">/api/countries/peru.json</code></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">📦 Response Schema</h2>
+      
+      <pre class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto text-sm"><code>{`{
+  "recipes": [
+    {
+      "id": "colombian/nacionales/chuzo",
+      "title": "Chuzo Colombiano (Brocheta Callejera)",
+      "language": "spanish",
+      "country": "colombia",
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Chuzo Colombiano...",
+        "region": "Nacional",
+        "categories": ["Snack", "Comida callejera"],
+        "difficulty": "★★☆☆☆",
+        "prep_time": "40 minutos",
+        "cook_time": "30 minutos",
+        "servings": 6
+      },
+      "category": ["Snack", "Comida callejera"],
+      "difficulty": "★★☆☆☆",
+      "prepTime": "40 minutos",
+      "cookTime": "30 minutos",
+      "servings": 6,
+      "mainIngredients": ["Carne de res", "Pollo", "Papa salada"],
+      "tags": ["colombiano", "tradicional", "chuzo"],
+      "filePath": "dishes/colombian/nacionales/chuzo.md"
+    }
+  ],
+  "count": 101
+}`}</code></pre>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">💡 Usage Examples</h2>
+      
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold mb-2 text-gray-700">JavaScript / Fetch API</h3>
+          <pre class="bg-gray-900 text-blue-300 p-4 rounded-lg overflow-x-auto text-sm"><code>{`fetch('https://iberi22.github.io/AI-Chef/api/spanish/colombia.json')
+  .then(res => res.json())
+  .then(data => {
+    console.log(\`Found \${data.count} Colombian recipes\`);
+    data.recipes.forEach(recipe => {
+      console.log(\`- \${recipe.title} (\${recipe.difficulty})\`);
+    });
+  });`}</code></pre>
+        </div>
+
+        <div>
+          <h3 class="font-semibold mb-2 text-gray-700">Python / Requests</h3>
+          <pre class="bg-gray-900 text-yellow-300 p-4 rounded-lg overflow-x-auto text-sm"><code>{`import requests
+
+response = requests.get(
+    'https://iberi22.github.io/AI-Chef/api/chinese/china.json'
+)
+data = response.json()
+
+print(f"Found {data['count']} Chinese recipes")
+for recipe in data['recipes']:
+    print(f"- {recipe['title']}")`}</code></pre>
+        </div>
+
+        <div>
+          <h3 class="font-semibold mb-2 text-gray-700">cURL</h3>
+          <pre class="bg-gray-900 text-green-300 p-4 rounded-lg overflow-x-auto text-sm"><code>curl https://iberi22.github.io/AI-Chef/api/index.json | jq '.languages'</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-orange-50 border-l-4 border-orange-500 p-6 rounded">
+      <h2 class="text-xl font-bold mb-3 text-orange-800">📝 Notes</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li><strong>Chinese recipes</strong> (325) don't have YAML frontmatter metadata</li>
+        <li><strong>Colombian & Peruvian recipes</strong> (103) have complete metadata</li>
+        <li>All endpoints support <strong>CORS</strong> - use from any domain</li>
+        <li>Data is <strong>static JSON</strong> - cached and fast</li>
+        <li>Updated on every deployment to GitHub Pages</li>
+      </ul>
+    </section>
+
+    <div class="mt-12 text-center">
+      <a href="/AI-Chef/" class="inline-block bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition">
+        ← Back to Recipes
+      </a>
+    </div>
+  </div>
+</Layout>

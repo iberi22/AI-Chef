@@ -1,0 +1,87 @@
+{
+  "recipes": [
+    {
+      "id": "template/plato-de-muestra/receta-ejemplo",
+      "title": "Nombre de la Receta",
+      "language": "spanish",
+      "country": "unknown",
+      "hasMetadata": true,
+      "metadata": {
+        "id": "receta-ejemplo",
+        "title": "Nombre de la Receta",
+        "description": "Una descripción concisa de la receta, destacando sus características principales.",
+        "category": [
+          "Desayuno",
+          "Almuerzo",
+          "Cena",
+          "Postre",
+          "Bebida",
+          "Snack",
+          "Salsa",
+          "Guarnición",
+          "Pan",
+          "Otro"
+        ],
+        "tags": [
+          "ejemplo",
+          "plantilla",
+          "cocina",
+          "español"
+        ],
+        "cuisine": [
+          "Colombiana",
+          "Peruana",
+          "Mexicana",
+          "China",
+          "Internacional"
+        ],
+        "prep_time": "15 minutos",
+        "cook_time": "30 minutos",
+        "servings": "4 personas",
+        "images": [
+          {
+            "url": "/images/receta-ejemplo/imagen1.webp",
+            "alt": "Descripción de la imagen 1"
+          },
+          {
+            "url": "/images/receta-ejemplo/imagen2.webp",
+            "alt": "Descripción de la imagen 2"
+          }
+        ],
+        "source": "Nombre del Libro/Sitio Web/Persona",
+        "source_url": "http://www.ejemplo.com/receta",
+        "license": "MIT"
+      },
+      "category": [],
+      "difficulty": null,
+      "prepTime": "15 minutos",
+      "cookTime": "30 minutos",
+      "servings": "4 personas",
+      "mainIngredients": [],
+      "tags": [
+        "ejemplo",
+        "plantilla",
+        "cocina",
+        "español"
+      ],
+      "filePath": "dishes/template/plato-de-muestra/receta-ejemplo.md"
+    },
+    {
+      "id": "template/示例菜/示例菜",
+      "title": "示例菜的做法",
+      "language": "chinese",
+      "country": "unknown",
+      "hasMetadata": false,
+      "metadata": {},
+      "category": [],
+      "difficulty": null,
+      "prepTime": null,
+      "cookTime": null,
+      "servings": null,
+      "mainIngredients": [],
+      "tags": [],
+      "filePath": "dishes/template/示例菜/示例菜.md"
+    }
+  ],
+  "count": 2
+}

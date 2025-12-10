@@ -1,0 +1,42 @@
+{
+  "totalRecipes": 428,
+  "languages": [
+    {
+      "language": "chinese",
+      "count": 325,
+      "endpoint": "/api/chinese/index.json"
+    },
+    {
+      "language": "spanish",
+      "count": 103,
+      "endpoint": "/api/spanish/index.json"
+    }
+  ],
+  "countries": [
+    {
+      "country": "china",
+      "count": 324,
+      "endpoint": "/api/countries/china.json"
+    },
+    {
+      "country": "colombia",
+      "count": 101,
+      "endpoint": "/api/countries/colombia.json"
+    },
+    {
+      "country": "peru",
+      "count": 1,
+      "endpoint": "/api/countries/peru.json"
+    },
+    {
+      "country": "unknown",
+      "count": 2,
+      "endpoint": "/api/countries/unknown.json"
+    }
+  ],
+  "endpoints": {
+    "all": "/api/all.json",
+    "withMetadata": "/api/with-metadata.json",
+    "withoutMetadata": "/api/without-metadata.json"
+  }
+}
