@@ -138,4 +138,36 @@ if (fs.existsSync(tipsDir)) {
   console.error(`Tips directory not found at ${tipsDir}`);
 }
 
+// Post-process: Replace any remaining LFS pointers with placeholder
+function replaceLFSPointers(dir) {
+  if (!fs.existsSync(dir)) return;
+  
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    
+    if (entry.isDirectory()) {
+      replaceLFSPointers(fullPath);
+    } else if (entry.isFile() && /\.(jpg|jpeg|png|gif|webp)$/i.test(entry.name)) {
+      try {
+        const buffer = fs.readFileSync(fullPath);
+        const content = buffer.toString('utf8', 0, 100);
+        if (content.startsWith('version https://git-lfs.github.com/spec/v1')) {
+          console.log(`Post-process: Replacing LFS pointer ${fullPath}`);
+          if (fs.existsSync(placeholderPath)) {
+            fs.copyFileSync(placeholderPath, fullPath);
+          }
+        }
+      } catch (e) {
+        // Ignore errors reading images
+      }
+    }
+  }
+}
+
+console.log('Post-processing: Replacing any remaining LFS pointers...');
+replaceLFSPointers(dishesContentDir);
+replaceLFSPointers(tipsContentDir);
+
 console.log('Done.');
