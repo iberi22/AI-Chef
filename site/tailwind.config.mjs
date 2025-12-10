@@ -13,7 +13,7 @@ export default {
 				muted: '#888888', // Gray text
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
+				sans: ['Inter', 'system-ui', 'sans-serif'],
 				mono: ['"Space Mono"', '"Courier New"', 'monospace'],
 			},
 			boxShadow: {

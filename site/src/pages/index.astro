@@ -16,63 +16,157 @@ const recipesByCategory = allRecipes.reduce((acc, recipe) => {
 
 const categories = Object.keys(recipesByCategory).sort();
 const baseUrl = import.meta.env.BASE_URL;
+
+// Helper to find image in category
+function findImage(recipes: any[]) {
+  for (const recipe of recipes) {
+    const body = recipe.body;
+    // Match markdown image ![alt](url) or HTML <img src="url">
+    const mdMatch = body.match(/!\[.*?\]\((.*?)\)/);
+    if (mdMatch && !mdMatch[1].endsWith('.svg')) return mdMatch[1]; // Avoid SVGs if possible
+    const htmlMatch = body.match(/<img.*?src=["'](.*?)["']/);
+    if (htmlMatch && !htmlMatch[1].endsWith('.svg')) return htmlMatch[1];
+  }
+  return null;
+}
+
+const categoryImages = categories.reduce((acc, cat) => {
+  acc[cat] = findImage(recipesByCategory[cat]);
+  return acc;
+}, {} as Record<string, string | null>);
 ---
 
 <Layout title="AI-Chef - Recetario Inteligente">
-  <div class="text-center mb-16 relative">
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-primary/20 blur-[100px] rounded-full pointer-events-none"></div>
-    <h1 class="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary via-white to-secondary mb-4 tracking-tighter">AI-Chef</h1>
-    <p class="text-xl text-muted font-mono uppercase tracking-widest">Colección de recetas curadas y mejoradas con IA</p>
+  <!-- Hero Section -->
+  <div class="relative py-24 text-center overflow-hidden">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 blur-[120px] rounded-full pointer-events-none"></div>
+    <div class="relative z-10 container mx-auto px-4">
+      <h1 class="text-6xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary via-white to-secondary mb-6 tracking-tighter font-mono animate-pulse-slow">
+        AI-CHEF
+      </h1>
+      <p class="text-xl md:text-2xl text-muted font-light max-w-2xl mx-auto mb-12 font-sans">
+        Colección de recetas curadas y mejoradas con <span class="text-primary font-semibold">Inteligencia Artificial</span>.
+        <span class="block text-xs mt-4 text-gray-500 font-mono uppercase tracking-[0.3em]">System Online • v2.0 • {allRecipes.length} Recipes</span>
+      </p>
+
+      <!-- Search Bar -->
+      <div class="max-w-xl mx-auto relative group">
+        <div class="absolute -inset-0.5 bg-gradient-to-r from-primary to-secondary rounded-lg blur opacity-30 group-hover:opacity-75 transition duration-500"></div>
+        <div class="relative flex items-center">
+            <div class="absolute left-4 text-gray-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+            <input 
+                type="text" 
+                id="searchInput"
+                placeholder="Filtrar categorías..." 
+                class="w-full bg-dark border border-gray-800 text-light pl-12 pr-6 py-4 rounded-lg focus:outline-none focus:border-primary font-mono placeholder-gray-600 shadow-2xl transition-colors"
+            >
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <!-- Categories Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20" id="categoriesGrid">
     {categories.map((category) => (
-      <div class="bg-surface border border-gray-800 hover:border-primary transition-all duration-300 rounded-none relative group hover:shadow-neon">
-        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-secondary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-        <div class="bg-dark/50 p-4 border-b border-gray-800 flex justify-between items-center">
-          <h2 class="text-xl font-bold text-light capitalize font-mono">
-            {category.replace(/_/g, ' ')}
-          </h2>
-          <span class="text-xs text-primary border border-primary/30 px-2 py-1 bg-primary/5">
-            {recipesByCategory[category].length}
-          </span>
+      <div class="category-card group relative h-80 bg-surface border border-gray-800 overflow-hidden hover:border-primary transition-all duration-500" data-category={category.toLowerCase()}>
+        <!-- Background Image -->
+        {categoryImages[category] ? (
+            <div class="absolute inset-0">
+                <img 
+                    src={categoryImages[category]} 
+                    alt={category} 
+                    class="w-full h-full object-cover opacity-30 group-hover:opacity-20 group-hover:scale-110 transition-all duration-700 grayscale group-hover:grayscale-0"
+                    loading="lazy"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-dark via-dark/90 to-transparent"></div>
+            </div>
+        ) : (
+            <div class="absolute inset-0 bg-surface opacity-50">
+                <div class="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(68,68,68,.2)_50%,transparent_75%,transparent_100%)] bg-[length:20px_20px]"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-dark via-dark/90 to-transparent"></div>
+            </div>
+        )}
+
+        <!-- Content -->
+        <div class="absolute inset-0 p-6 flex flex-col justify-end">
+            <div class="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+                <div class="flex justify-between items-end mb-4 border-b border-gray-700 pb-2 group-hover:border-primary transition-colors">
+                    <h2 class="text-3xl font-bold text-light capitalize font-mono tracking-tighter">
+                        {category.replace(/_/g, ' ')}
+                    </h2>
+                    <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded border border-primary/20">
+                        {recipesByCategory[category].length}
+                    </span>
+                </div>
+                
+                <ul class="space-y-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-75">
+                    {recipesByCategory[category].slice(0, 3).map((recipe) => (
+                        <li>
+                            <a href={`${baseUrl}/recipes/${recipe.slug}`} class="text-sm text-muted hover:text-white truncate block font-mono flex items-center gap-2 group/link">
+                                <span class="text-primary opacity-0 group-hover/link:opacity-100 transition-opacity">></span>
+                                {recipe.id.split('/').pop()?.replace('.md', '')}
+                            </a>
+                        </li>
+                    ))}
+                    {recipesByCategory[category].length > 3 && (
+                        <li>
+                            <a href={`${baseUrl}/category/${category}`} class="text-xs text-secondary hover:text-white uppercase tracking-widest mt-4 block font-bold">
+                                + Ver todas las recetas
+                            </a>
+                        </li>
+                    )}
+                </ul>
+            </div>
         </div>
-        <ul class="p-4 space-y-1 max-h-64 overflow-y-auto custom-scrollbar">
-          {recipesByCategory[category].slice(0, 5).map((recipe) => (
-            <li>
-              <a
-                href={`${baseUrl}/recipes/${recipe.slug}`}
-                class="block p-2 hover:bg-dark/50 hover:text-primary transition-colors text-muted truncate font-mono text-sm border-l-2 border-transparent hover:border-primary"
-              >
-                {recipe.id.split('/').pop()?.replace('.md', '') || recipe.slug}
-              </a>
-            </li>
-          ))}
-          {recipesByCategory[category].length > 5 && (
-            <li>
-              <a href={`${baseUrl}/category/${category}`} class="block text-center text-secondary text-xs mt-4 hover:text-white transition-colors uppercase tracking-widest border border-gray-800 hover:border-secondary py-2">
-                Ver todas ({recipesByCategory[category].length})
-              </a>
-            </li>
-          )}
-        </ul>
       </div>
     ))}
   </div>
 </Layout>
 
+<script>
+    const searchInput = document.getElementById('searchInput');
+    const grid = document.getElementById('categoriesGrid');
+    const cards = document.querySelectorAll('.category-card');
+
+    if (searchInput && grid) {
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            
+            cards.forEach((card) => {
+                const category = card.dataset.category || '';
+                if (category.includes(term)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    }
+</script>
+
 <style>
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 4px;
-  }
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: #111;
-  }
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #333;
-  }
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #00f0ff;
-  }
+    @keyframes pulse-slow {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+    }
+    .animate-pulse-slow {
+        animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: #111;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #333;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #00f0ff;
+    }
 </style>
 
