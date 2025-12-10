@@ -102,6 +102,19 @@ function copyDir(src, dest) {
   }
 }
 
+// Clean existing content directories first
+console.log('Cleaning existing content directories...');
+if (fs.existsSync(dishesContentDir)) {
+  fs.rmSync(dishesContentDir, { recursive: true, force: true });
+}
+if (fs.existsSync(tipsContentDir)) {
+  fs.rmSync(tipsContentDir, { recursive: true, force: true });
+}
+
+// Recreate directories
+fs.mkdirSync(dishesContentDir, { recursive: true });
+fs.mkdirSync(tipsContentDir, { recursive: true });
+
 console.log('Copying dishes to site content...');
 if (fs.existsSync(dishesDir)) {
   const entries = fs.readdirSync(dishesDir, { withFileTypes: true });
