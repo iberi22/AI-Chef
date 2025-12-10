@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=cocido+boyacense"
   - "https://www.tiktok.com/tag/cocidoboyacense"
 license: "MIT"
----
-
-### Cocido Boyacense
+---## Cocido Boyacense
 
 El Cocido Boyacense es uno de los platos más emblemáticos de Boyacá y la región andina de Colombia. Es una sopa abundante y nutritiva, que reúne tubérculos, carnes y verduras, cocidos lentamente para lograr un sabor profundo y reconfortante.
 

@@ -1,0 +1,490 @@
+
+> ai-chef-site@1.0.0 build
+> node scripts/copy-content.js && astro build
+
+Copying recipes from dishes to site content...
+Copying aquatic...
+Missing image: ./µêÉÕôü.jpg in Õ░ÅÚ¥ÖÞÖ¥.md. Creating placeholder.
+Replacing LFS pointer: µêÉÕôü.jpg
+Replacing LFS pointer: Õ╣▓þàÄÚÿ┐µá╣Õ╗Àþ║óÞÖ¥.jpg
+Replacing LFS pointer: µ▓╣þäûÕñºÞÖ¥.jpg
+Replacing LFS pointer: þâñÚ▒╝.jpg
+Replacing LFS pointer: µæåþøÿ.jpg
+Replacing LFS pointer: µö╣ÕêÇ.jpg
+Replacing LFS pointer: µ©àÞÆ©Ú▓êÚ▒╝.jpg
+Missing image: ./þÖ¢þü╝ÞÖ¥.webp in þÖ¢þü╝ÞÖ¥.md. Creating placeholder.
+Replacing LFS pointer: þÖ¢þü╝ÞÖ¥.webp
+Replacing LFS pointer: µêÉÕôü.jpg
+Missing image: ./ÞàîÕêÂ.jpg in þ│ûÚåïÚ▓ñÚ▒╝.md. Creating placeholder.
+Replacing LFS pointer: ÞàîÕêÂ.jpg
+Replacing LFS pointer: ÞèÑµ£½Ú╗äµ▓╣þ¢ùµ░ÅÞÖ¥.jpg
+Replacing LFS pointer: 10.jpg
+Replacing LFS pointer: Þæ▒µ▓╣µíéÚ▒╝.jpg
+Replacing LFS pointer: Þæ▒µ▓╣Ú▓êÚ▒╝.jpg
+Replacing LFS pointer: µÁÀÕÅé.jpeg
+Replacing LFS pointer: Þæ▒þâºµÁÀÕÅé.jpeg
+Missing image: ./Úà▒µ▒ü.jpeg in Þæ▒þâºµÁÀÕÅé.md. Creating placeholder.
+Missing image: ./Þæ▒þÖ¢.jpeg in Þæ▒þâºµÁÀÕÅé.md. Creating placeholder.
+Replacing LFS pointer: Þæ▒þÖ¢.jpeg
+Replacing LFS pointer: Úà▒µ▒ü.jpeg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 1.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 3.jpeg
+Replacing LFS pointer: ÚªÖþàÄþ┐ÿÕÿ┤Ú▒╝.jpeg
+Replacing LFS pointer: Ú▓ñÚ▒╝þéûþÖ¢ÞÅ£.jpeg
+Replacing LFS pointer: Ú│èÚ▒╝þéûÞ▒åÞàÉ.jpg
+Replacing LFS pointer: Ú╗äµ▓╣þàÄÞÖ¥.jpg
+Copying breakfast...
+Replacing LFS pointer: egg1.png
+Replacing LFS pointer: egg2.png
+Replacing LFS pointer: egg3.png
+Copying colombian...
+Missing image: tacacho_con_cecina/tacacho_con_cecina.md in README.md. Creating placeholder.
+Missing image: ./images/1.jpg in bandeja_paisa.md. Creating placeholder.
+Missing image: ./images/2.jpg in bandeja_paisa.md. Creating placeholder.
+Missing image: tamal_tolimense/tamal_tolimense.md in README.md. Creating placeholder.
+Missing image: aguapanela/aguapanela.md in README.md. Creating placeholder.
+Missing image: chicha/chicha.md in README.md. Creating placeholder.
+Missing image: lulada/lulada.md in README.md. Creating placeholder.
+Missing image: masato/masato.md in README.md. Creating placeholder.
+Missing image: salpicon/salpic├│n.md in README.md. Creating placeholder.
+Missing image: avena_colombiana/avena_colombiana.md in README.md. Creating placeholder.
+Missing image: champus/champus.md in README.md. Creating placeholder.
+Missing image: refajo/refajo.md in README.md. Creating placeholder.
+Missing image: canelazo/canelazo.md in README.md. Creating placeholder.
+Missing image: jugo_de_borojo/jugo_de_borojo.md in README.md. Creating placeholder.
+Missing image: sancocho_coste├▒o/sancocho_coste├▒o.md in README.md. Creating placeholder.
+Missing image: viudo_de_pescado/viudo_de_pescado.md in README.md. Creating placeholder.
+Missing image: aji_picante/aji_picante.md in README.md. Creating placeholder.
+Missing image: hogao/hogao.md in README.md. Creating placeholder.
+Missing image: salsa_rosada/salsa_rosada.md in README.md. Creating placeholder.
+Missing image: guacamole_colombiano/guacamole_colombiano.md in README.md. Creating placeholder.
+Missing image: suero_costeno/suero_costeno.md in README.md. Creating placeholder.
+Missing image: rondon/rondon.md in README.md. Creating placeholder.
+Missing image: sopa_de_cangrejo/sopa_de_cangrejo.md in README.md. Creating placeholder.
+Missing image: torta_de_calabaza/torta_de_calabaza.md in README.md. Creating placeholder.
+Missing image: ../../peruvian/arroz_con_pollo.md in arroz_con_pollo.md. Creating placeholder.
+Missing image: img/chorizo-2314640_640.jpg in chuzo.md. Creating placeholder.
+Missing image: salchipapa/salchipapa.md in README.md. Creating placeholder.
+Missing image: fritanga/fritanga.md in README.md. Creating placeholder.
+Missing image: papas_aborrajadas/papas_aborrajadas.md in README.md. Creating placeholder.
+Missing image: papas_rellenas/papas_rellenas.md in README.md. Creating placeholder.
+Missing image: chuzo_de_pollocarne/chuzo_de_pollocarne.md in README.md. Creating placeholder.
+Missing image: hamburguesa_colombiana/hamburguesa_colombiana.md in README.md. Creating placeholder.
+Missing image: perro_caliente_colombiano/perro_caliente_colombiano.md in README.md. Creating placeholder.
+Missing image: arequipe/arequipe.md in README.md. Creating placeholder.
+Missing image: cayeye/cayeye.md in README.md. Creating placeholder.
+Missing image: envueltos/envueltos.md in README.md. Creating placeholder.
+Missing image: mazamorra/mazamorra.md in README.md. Creating placeholder.
+Missing image: mote_de_queso/mote_de_queso.md in README.md. Creating placeholder.
+Missing image: postre_de_natas/postre_de_natas.md in README.md. Creating placeholder.
+Missing image: tamal_tolimense/tamal_tolimense.md in README.md. Creating placeholder.
+Missing image: sancocho_de_pescado/sancocho_de_pescado.md in README.md. Creating placeholder.
+Missing image: tapao_de_pescado/tapao_de_pescado.md in README.md. Creating placeholder.
+Missing image: tollo_ahumado/tollo_ahumado.md in README.md. Creating placeholder.
+Missing image: almoj├íbana/almoj├íbana.md in README.md. Creating placeholder.
+Missing image: pandebono/pandebono.md in README.md. Creating placeholder.
+Missing image: pan_de_yuca/pan_de_yuca.md in README.md. Creating placeholder.
+Missing image: mogolla/mogolla.md in README.md. Creating placeholder.
+Missing image: pan_ali├▒ado/pan_ali├▒ado.md in README.md. Creating placeholder.
+Missing image: pan_de_bono/pan_de_bono.md in README.md. Creating placeholder.
+Missing image: pan_de_queso/pan_de_queso.md in README.md. Creating placeholder.
+Missing image: pan_de_coco/pan_de_coco.md in README.md. Creating placeholder.
+Missing image: pan_de_maiz/pan_de_maiz.md in README.md. Creating placeholder.
+Missing image: pan_de_agua/pan_de_agua.md in README.md. Creating placeholder.
+Missing image: ./snacks/README.md in README.md. Creating placeholder.
+Missing image: empanadas/empanadas.md in README.md. Creating placeholder.
+Missing image: arepas_rellenas/arepas_rellenas.md in README.md. Creating placeholder.
+Missing image: bunuelos/bunuelos.md in README.md. Creating placeholder.
+Missing image: almojabanas/almojabanas.md in README.md. Creating placeholder.
+Missing image: pandebono/pandebono.md in README.md. Creating placeholder.
+Missing image: deditos_de_queso/deditos_de_queso.md in README.md. Creating placeholder.
+Missing image: carimanolas/carimanolas.md in README.md. Creating placeholder.
+Missing image: papas_rellenas/papas_rellenas.md in README.md. Creating placeholder.
+Missing image: aborrajados/aborrajados.md in README.md. Creating placeholder.
+Copying condiment...
+Replacing LFS pointer: ÕÅúµ░┤Ú©í+µ▓╣µ│╝Þ¥úÕ¡É.jpg
+Replacing LFS pointer: µ▓╣µ│╝Þ¥úÕ¡É.jpg
+Replacing LFS pointer: ÕüÜÕÑ¢þÜäÞìëÞÄôÚà▒.png
+Replacing LFS pointer: µ┤ùÕÑ¢þÜäÞìëÞÄô.jpeg
+Replacing LFS pointer: µÀÀÕÉêÕÑ¢þÜäÞìëÞÄô.jpeg
+Replacing LFS pointer: þå¼þà«þÜäÞìëÞÄô.jpeg
+Replacing LFS pointer: bottle.jpg
+Copying dessert...
+Missing image: ./ÕÅìµ▓ÖÞèïÕñ┤µêÉÕôü.jpg in ÕÅìµ▓ÖÞèïÕñ┤.md. Creating placeholder.
+Replacing LFS pointer: ÕÅìµ▓ÖÞèïÕñ┤µêÉÕôü.jpg
+Missing image: ./ÕÆûÕòíµñ░ÕÑÂÕå╗.png in ÕÆûÕòíµñ░ÕÑÂÕå╗.md. Creating placeholder.
+Replacing LFS pointer: ÕÆûÕòíµñ░ÕÑÂÕå╗.png
+Replacing LFS pointer: DSC08606.jpg
+Replacing LFS pointer: DSC08608.jpg
+Replacing LFS pointer: DSC08612.jpg
+Replacing LFS pointer: DSC08618.jpg
+Replacing LFS pointer: DSC08621.jpg
+Replacing LFS pointer: DSC08627.jpg
+Replacing LFS pointer: DSC08716.jpg
+Replacing LFS pointer: IMG_0269.jpg
+Replacing LFS pointer: IMG_1516.jpg
+Missing image: µÅÉµïëþ▒│ÞïÅµêÉÕôü.jpg in µÅÉµïëþ▒│ÞïÅ.md. Creating placeholder.
+Replacing LFS pointer: µÅÉµïëþ▒│ÞïÅµêÉÕôü.jpg
+Replacing LFS pointer: µùáÕÄ¿Õ©êµ£║Þ£éÞ££ÚØóÕîà.jpg
+Replacing LFS pointer: þé©Ú▓£ÕÑÂ.jpg
+Missing image: ./þâñÞøïµî×.png in þâñÞøïµî×.md. Creating placeholder.
+Replacing LFS pointer: þâñÞøïµî×.png
+Replacing LFS pointer: þÄøµá╝õ©¢þë╣ÚÑ╝Õ╣▓.jpg
+Missing image: ./Þèïµ│ÑÚø¬Õ¬ÜÕ¿ÿµêÉÕôü.jpg in Þèïµ│ÑÚø¬Õ¬ÜÕ¿ÿ.md. Creating placeholder.
+Replacing LFS pointer: Þèïµ│ÑÚø¬Õ¬ÜÕ¿ÿµêÉÕôü.jpg
+Missing image: ./Þï▒Õ╝ÅÕÅ©Õ║À.png in Þï▒Õ╝ÅÕÅ©Õ║À.md. Creating placeholder.
+Replacing LFS pointer: Þï▒Õ╝ÅÕÅ©Õ║À.png
+Missing image: ./Úà©ÕÑÂµäÅÕ╝ÅÕÑÂÕå╗.png in Úà©ÕÑÂµäÅÕ╝ÅÕÑÂÕå╗.md. Creating placeholder.
+Replacing LFS pointer: Úà©ÕÑÂµäÅÕ╝ÅÕÑÂÕå╗.png
+Missing image: ./Úø¬Þè▒ÚàÑµêÉÕôü.jpg in Úø¬Þè▒ÚàÑ.md. Creating placeholder.
+Replacing LFS pointer: Úø¬Þè▒ÚàÑµêÉÕôü.jpg
+Missing image: ./Ú¥ƒÞïôÞåÅµêÉÕôü.jpg in Ú¥ƒÞïôÞåÅ.md. Creating placeholder.
+Replacing LFS pointer: Ú¥ƒÞïôÞåÅµêÉÕôü.jpg
+Copying drink...
+Missing image: ./þƒ│Õçëþ▓ë(Õå░þ▓ë in Õå░þ▓ë.md. Creating placeholder.
+Replacing LFS pointer: þƒ│Õçëþ▓ë(Õå░þ▓ë)µêÉÕôü1.jpg
+Replacing LFS pointer: þƒ│Õçëþ▓ë(Õå░þ▓ë)µêÉÕôü2.jpg
+Replacing LFS pointer: kiwi-example.jpg
+Replacing LFS pointer: µƒáµ¬¼µ░┤.jpg
+Replacing LFS pointer: µ│░Õø¢µëïµáçþ║óÞîÂ.jpg
+Replacing LFS pointer: µÁÀÞ¥╣ÞÉ¢µùÑ.jpg
+Replacing LFS pointer: soda-version.jpg
+Replacing LFS pointer: tea-version.jpg
+Replacing LFS pointer: þáéþ│ûµñ░Õ¡ÉÕå░µ▓Ö-1.jpg
+Replacing LFS pointer: citrus-tea.jpg
+Missing image: ./ÞÅáÞÉØÕÆûÕòíþë╣Þ░â.png in ÞÅáÞÉØÕÆûÕòíþë╣Þ░â.md. Creating placeholder.
+Replacing LFS pointer: ÞÅáÞÉØÕÆûÕòíþë╣Þ░â.png
+Replacing LFS pointer: ÚàÆÚà┐þ▒│þ│ò.jpeg
+Replacing LFS pointer: ÚàÆÚà┐Úå¬þ│ƒ.jpeg
+Replacing LFS pointer: sour_plum_soup.jpg
+Replacing LFS pointer: gin-tonic.jpg
+Replacing LFS pointer: gin-fizz.jpg
+Copying meat_dish...
+Missing image: ./Õå£Õ«Âõ©ÇþóùÚªÖµêÉÕôü.jpg in Õå£Õ«Âõ©ÇþóùÚªÖ.md. Creating placeholder.
+Replacing LFS pointer: Õå£Õ«Âõ©ÇþóùÚªÖµêÉÕôü.jpg
+Replacing LFS pointer: Õå¼þô£Õ¢óþèÂ.jpg
+Missing image: ./Õå¼þô£Úà┐ÞéëµêÉÕôü.jpg in Õå¼þô£Úà┐Þéë.md. Creating placeholder.
+Missing image: ./ÞàîÕêÂÕÑ¢þÜäÕå¼þô£.jpg in Õå¼þô£Úà┐Þéë.md. Creating placeholder.
+Missing image: ./ÕìÀÞéë.jpg in Õå¼þô£Úà┐Þéë.md. Creating placeholder.
+Missing image: ./µæåþøÿ.jpg in Õå¼þô£Úà┐Þéë.md. Creating placeholder.
+Missing image: ./µëôÚ©íÞøï.jpg in Õå¼þô£Úà┐Þéë.md. Creating placeholder.
+Replacing LFS pointer: Õå¼þô£Úà┐ÞéëµêÉÕôü.jpg
+Replacing LFS pointer: ÕìÀÞéë.jpg
+Replacing LFS pointer: µëôÚ©íÞøï.jpg
+Replacing LFS pointer: µæåþøÿ.jpg
+Replacing LFS pointer: ÞàîÕêÂÕÑ¢þÜäÕå¼þô£.jpg
+Replacing LFS pointer: ÕçëµïîÚ©íõ©Ø.jpg
+Missing image: ./ÕçëµïîÚ©íõ©Ø_þä»µ░┤.jpg in ÕçëµïîÚ©íõ©Ø.md. Creating placeholder.
+Missing image: ./ÕçëµïîÚ©íõ©Ø_µÆò.jpg in ÕçëµïîÚ©íõ©Ø.md. Creating placeholder.
+Replacing LFS pointer: ÕçëµïîÚ©íõ©Ø_µÆò.jpg
+Replacing LFS pointer: ÕçëµïîÚ©íõ©Ø_þä»µ░┤.jpg
+Replacing LFS pointer: Õìñµ░┤.jpeg
+Replacing LFS pointer: ÕìñþëøÞéë.jpeg
+Missing image: ./../../condiment/þ│ûÞë▓.md in ÕìñÞÅ£.md. Creating placeholder.
+Missing image: ./þëøÞéëÚØó.jpeg in ÕìñÞÅ£.md. Creating placeholder.
+Replacing LFS pointer: þëøÞéëÚØó.jpeg
+Replacing LFS pointer: ÕÅúµ░┤Ú©í.jpg
+Replacing LFS pointer: 1.jpg
+Replacing LFS pointer: ÕÆûÕû▒ÞéÑþëø.jpg
+Replacing LFS pointer: ÕòñÚàÆÚ©¡.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Missing image: ./µÄÆÚ¬¿1.jpg in Õ£ƒÞ▒åþéûµÄÆÚ¬¿.md. Creating placeholder.
+Missing image: ./µÄÆÚ¬¿2.jpg in Õ£ƒÞ▒åþéûµÄÆÚ¬¿.md. Creating placeholder.
+Replacing LFS pointer: µÄÆÚ¬¿1.jpg
+Replacing LFS pointer: µÄÆÚ¬¿2.jpg
+Replacing LFS pointer: onepot.png
+Replacing LFS pointer: oven.jpg
+Replacing LFS pointer: Õº£þéÆÚ©í.jpg
+Replacing LFS pointer: Õ«½õ┐ØÚ©íõ©ü.jpg
+Missing image: ./µêÉÕôü.jpg in Õ░ÅþéÆÚ©íÞéØ.md. Creating placeholder.
+Replacing LFS pointer: µêÉÕôü.jpg
+Replacing LFS pointer: Õ░ÅþéÆÚ╗äþëøÞéë.jpg
+Replacing LFS pointer: Õ░ûÕÅ½þëøÞøÖ.jpg
+Replacing LFS pointer: ÕÇÆÕàÑþò¬ÞîäÞôë.png
+Missing image: ./ÕÀ┤Õƒ║µû»ÕØªþëøÞéëÕÆûÕû▒.png in ÕÀ┤Õƒ║µû»ÕØªþëøÞéëÕÆûÕû▒.md. Creating placeholder.
+Missing image: ./þò¬ÞîäÞôë.png in ÕÀ┤Õƒ║µû»ÕØªþëøÞéëÕÆûÕû▒.md. Creating placeholder.
+Missing image: ./þëøÞéë.png in ÕÀ┤Õƒ║µû»ÕØªþëøÞéëÕÆûÕû▒.md. Creating placeholder.
+Missing image: ./µ▓╣.png in ÕÀ┤Õƒ║µû»ÕØªþëøÞéëÕÆûÕû▒.md. Creating placeholder.
+Missing image: ./þ║ó.png in ÕÀ┤Õƒ║µû»ÕØªþëøÞéëÕÆûÕû▒.md. Creating placeholder.
+Replacing LFS pointer: ÕÀ┤Õƒ║µû»ÕØªþëøÞéëÕÆûÕû▒.png
+Replacing LFS pointer: µ▓╣.png
+Replacing LFS pointer: þëøÞéë.png
+Replacing LFS pointer: þò¬ÞîäÞôë.png
+Replacing LFS pointer: þ║ó.png
+Missing image: ./Õ╣▓þà©õ╗öÚ©íµêÉÕôü.jpg in Õ╣▓þà©õ╗öÚ©í.md. Creating placeholder.
+Replacing LFS pointer: Õ╣▓þà©õ╗öÚ©íµêÉÕôü.jpg
+Missing image: ./Õ╣┐Õ╝ÅÞÉØÕì£þëøÞà®.webp in Õ╣┐Õ╝ÅÞÉØÕì£þëøÞà®.md. Creating placeholder.
+Replacing LFS pointer: Õ╣┐Õ╝ÅÞÉØÕì£þëøÞà®.webp
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: ÕñºþøÿÚ©í.jpeg
+Replacing LFS pointer: ÕñºþøÿÚ©íþÜ«Õ©ªÚØó.jpeg
+Replacing LFS pointer: µùáÚ¬¿Ú©íþê¬.jpg
+Replacing LFS pointer: Õ£ƒÞ▒åÕêçþëç.jpeg
+Replacing LFS pointer: µƒ▒ÕÇÖþëøÞà®.jpeg
+Missing image: ./µƒ▒ÕÇÖþëøÞà®Úàìþ▒│ÚÑ¡.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þëøÞà®Úâ¿õ¢ì.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þóù1.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þóù2.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þóù3.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þóù4.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þóù5.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þóù6.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þóù7.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þëøÞà®þä»µ░┤.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þëøÞà®ÕêçÕØù.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þëøÞà®µ¡ñµùÂÕÅ»Õ╝ÇÕºïþéûþà«.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./þëøÞà®ÕàÑÚöà.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Missing image: ./Þ┐çµ╗ñµ▒ñµ▒ü.jpeg in µƒ▒ÕÇÖþëøÞà®.md. Creating placeholder.
+Replacing LFS pointer: µƒ▒ÕÇÖþëøÞà®Úàìþ▒│ÚÑ¡.jpeg
+Replacing LFS pointer: þëøÞà®ÕàÑÚöà.jpeg
+Replacing LFS pointer: þëøÞà®ÕêçÕØù.jpeg
+Replacing LFS pointer: þëøÞà®µ¡ñµùÂÕÅ»Õ╝ÇÕºïþéûþà«.jpeg
+Replacing LFS pointer: þëøÞà®þä»µ░┤.jpeg
+Replacing LFS pointer: þëøÞà®Úâ¿õ¢ì.jpeg
+Replacing LFS pointer: þóù1.jpeg
+Replacing LFS pointer: þóù2.jpeg
+Replacing LFS pointer: þóù3.jpeg
+Replacing LFS pointer: þóù4.jpeg
+Replacing LFS pointer: þóù5.jpeg
+Replacing LFS pointer: þóù6.jpeg
+Replacing LFS pointer: þóù7.jpeg
+Replacing LFS pointer: Þ┐çµ╗ñµ▒ñµ▒ü.jpeg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 3.jpeg
+Replacing LFS pointer: 4.jpeg
+Replacing LFS pointer: sznr1.jpg
+Replacing LFS pointer: sznr10.jpg
+Replacing LFS pointer: sznr11.jpg
+Replacing LFS pointer: sznr12.jpg
+Replacing LFS pointer: sznr2.jpg
+Replacing LFS pointer: sznr3.jpg
+Replacing LFS pointer: sznr4.jpg
+Replacing LFS pointer: sznr5.jpg
+Replacing LFS pointer: sznr6.jpg
+Replacing LFS pointer: sznr7.jpg
+Replacing LFS pointer: sznr8.jpg
+Replacing LFS pointer: sznr9.jpg
+Missing image: ./µ©àÞÆ©Ú│£Ú▒╝µêÉÕôüÕø¥.jpg in µ©àÞÆ©Ú│£Ú▒╝.md. Creating placeholder.
+Replacing LFS pointer: µ©àÞÆ©Ú│£Ú▒╝µêÉÕôüÕø¥.jpg
+Replacing LFS pointer: µ╣ûÕìùÕ«ÂÕ©©þ║óþâºÞéë.jpeg
+Replacing LFS pointer: stepÔæá´╝ÜÕçåÕñçþ▒│þ▓ë.jpg
+Replacing LFS pointer: stepÔæí´╝Üþà©þéÆÚ©¡Õ¡É.jpg
+Replacing LFS pointer: stepÔæó´╝Üþ▒│þ▓ëÞú╣Ú©¡.jpg
+Replacing LFS pointer: stepÔæú´╝ÜÚ½ÿÕÄïÚöàÞÆ©þà«.jpg
+Replacing LFS pointer: µ╣ÿþÑüþ▒│Õñ½Ú©¡.jpg
+Replacing LFS pointer: þëøµÄÆ.jpg
+Replacing LFS pointer: þî¬þÜ«Õå╗.jpg
+Replacing LFS pointer: þÿªÞéëÕ£ƒÞ▒åþëç.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: þ║óþâºþî¬Þ╣ä.jpg
+Replacing LFS pointer: 000.jpg
+Replacing LFS pointer: 001.jpg
+Replacing LFS pointer: þ¥èµÄÆþäûÚØó.jpg
+Replacing LFS pointer: result1.jpg
+Replacing LFS pointer: result2.jpg
+Replacing LFS pointer: result3.jpg
+Missing image: ./ÞèÑµ£½þ¢ùµ░ÅÞÖ¥µêÉÕôü.jpg in ÞèÑµ£½þ¢ùµ░ÅÞÖ¥.md. Creating placeholder.
+Replacing LFS pointer: ÞèÑµ£½þ¢ùµ░ÅÞÖ¥µêÉÕôü.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 3.jpeg
+Replacing LFS pointer: 4.jpeg
+Replacing LFS pointer: 5.jpeg
+Replacing LFS pointer: 6.jpeg
+Replacing LFS pointer: 7.jpeg
+Replacing LFS pointer: 1.png
+Replacing LFS pointer: 2.png
+Missing image: tips/advanced/µ▓╣µ©®Õêñµû¡µèÇÕÀº.md in ÞÖÄþÜ«ÞéÿÕ¡É.md. Creating placeholder.
+Replacing LFS pointer: ÞíÇµÁåÚ©¡(Õ¥«Þ¥ú).jpg
+Replacing LFS pointer: ÞíÇµÁåÚ©¡(þë╣Þ¥ú).jpg
+Missing image: ./ÞíÇµÁåÚ©¡(þë╣Þ¥ú in ÞíÇµÁåÚ©¡.md. Creating placeholder.
+Missing image: ./ÞíÇµÁåÚ©¡(Õ¥«Þ¥ú in ÞíÇµÁåÚ©¡.md. Creating placeholder.
+Replacing LFS pointer: abaaba_1.png
+Missing image: ./Þ▒åÞ▒ëÚ▓«Ú▒╝µ▓╣Ú║ªÞÅ£µêÉÕôü.jpg in Þ▒åÞ▒ëÚ▓«Ú▒╝µ▓╣Ú║ªÞÅ£.md. Creating placeholder.
+Replacing LFS pointer: Þ▒åÞ▒ëÚ▓«Ú▒╝µ▓╣Ú║ªÞÅ£µêÉÕôü.jpg
+Replacing LFS pointer: Þ▒ëµ▒üÞÆ©þÖ¢Ú▒ö.jpeg
+Replacing LFS pointer: Þ┤ÁÕÀ×Þ¥úÕ¡ÉÚ©í.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: Úà▒þëøÞéë.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: ÚØÆµñÆÕ£ƒÞ▒åþéÆÞéë.jpg
+Replacing LFS pointer: ÚªÖÕ╣▓Þè╣ÞÅ£þéÆÞéë.jpg
+Replacing LFS pointer: ÚªÖþàÄõ║öÞè▒Þéë.jpg
+Replacing LFS pointer: ÚªÖÞÅçµ╗æÚ©í.jpg
+Replacing LFS pointer: result1.jpg
+Replacing LFS pointer: result2.jpg
+Replacing LFS pointer: yxqz1.jpg
+Replacing LFS pointer: yxqz2.jpg
+Replacing LFS pointer: yxqz3.jpg
+Replacing LFS pointer: yxqz4.jpg
+Replacing LFS pointer: yxqz5.jpg
+Replacing LFS pointer: yxqz6.jpg
+Replacing LFS pointer: yxqz7.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: Ú╗æµñÆþëøµƒ│.jpg
+Replacing LFS pointer: Ú╗öÕ╝ÅÞàèÞéáÕ¿âÕ¿âÞÅ£.jpg
+Copying peruvian...
+Missing image: ../README.md in README.md. Creating placeholder.
+Missing image: ./sierra/README.md in README.md. Creating placeholder.
+Missing image: ./selva/README.md in README.md. Creating placeholder.
+Missing image: ./snacks/README.md in README.md. Creating placeholder.
+Copying semi-finished...
+Missing image: ./µçÆõ║║Þøïµî×.png in µçÆõ║║Þøïµî×.md. Creating placeholder.
+Replacing LFS pointer: µçÆõ║║Þøïµî×.png
+Replacing LFS pointer: þé©Þû»µØí.jpg
+Missing image: ./þ¥èµÄÆ.jpg in þ®║µ░öþé©Úöàþ¥èµÄÆ.md. Creating placeholder.
+Replacing LFS pointer: þ¥èµÄÆ.jpg
+Missing image: ./Ú©íþ┐àõ©¡_0.jpg in þ®║µ░öþé©ÚöàÚ©íþ┐àõ©¡.md. Creating placeholder.
+Missing image: ./Ú©íþ┐àõ©¡_1.jpg in þ®║µ░öþé©ÚöàÚ©íþ┐àõ©¡.md. Creating placeholder.
+Replacing LFS pointer: Ú©íþ┐àõ©¡_0.jpg
+Replacing LFS pointer: Ú©íþ┐àõ©¡_1.jpg
+Replacing LFS pointer: ÚÇƒÕå╗µ▒ñÕ£å.jpg
+Copying soup...
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 3.jpeg
+Missing image: ./µ▓ÖÕàëÚ▒╝Þ▒åÞàÉµ▒ñ.jpg in µÿéÕê║Ú▒╝Þ▒åÞàÉµ▒ñ.md. Creating placeholder.
+Missing image: ./µÿéÕê║Ú▒╝Þ▒åÞàÉµ▒ñ01.jpg in µÿéÕê║Ú▒╝Þ▒åÞàÉµ▒ñ.md. Creating placeholder.
+Missing image: ./µÿéÕê║Ú▒╝Þ▒åÞàÉµ▒ñ02.jpg in µÿéÕê║Ú▒╝Þ▒åÞàÉµ▒ñ.md. Creating placeholder.
+Replacing LFS pointer: µÿéÕê║Ú▒╝Þ▒åÞàÉµ▒ñ01.jpg
+Replacing LFS pointer: µÿéÕê║Ú▒╝Þ▒åÞàÉµ▒ñ02.jpg
+Replacing LFS pointer: µ▓ÖÕàëÚ▒╝Þ▒åÞàÉµ▒ñ.jpg
+Replacing LFS pointer: µ£▒ÚøÇµ▒ñ.jpg
+Replacing LFS pointer: þÄëþ▒│µÄÆÚ¬¿µ▒ñ.jpeg
+Replacing LFS pointer: þ¥èÞéëµ▒ñ.jpg
+Replacing LFS pointer: ÞÅîÞÅçþéûõ╣│Ú©¢.jpg
+Missing image: ./ÚôÂÞÇ│ÞÄ▓Õ¡Éþ▓Ñ.png in ÚôÂÞÇ│ÞÄ▓Õ¡Éþ▓Ñ.md. Creating placeholder.
+Replacing LFS pointer: ÚôÂÞÇ│ÞÄ▓Õ¡Éþ▓Ñ.png
+Replacing LFS pointer: ÚÖêþÜ«µÄÆÚ¬¿µ▒ñ.jpg
+Copying staple...
+Replacing LFS pointer: lf1.jpg
+Replacing LFS pointer: lf10.jpg
+Replacing LFS pointer: lf11.jpg
+Replacing LFS pointer: lf2.jpg
+Replacing LFS pointer: lf3.jpg
+Replacing LFS pointer: lf4.jpg
+Replacing LFS pointer: lf5.jpg
+Replacing LFS pointer: lf6.jpg
+Replacing LFS pointer: lf7.jpg
+Replacing LFS pointer: lf8.jpg
+Replacing LFS pointer: lf9.jpg
+Replacing LFS pointer: 1-1µêÉÕôü.jpg
+Replacing LFS pointer: 2-1Þ«¥Õñçþ«Çõ╗ï1.jpg
+Replacing LFS pointer: 2-2Þ«¥Õñçþ«Çõ╗ï2.jpg
+Replacing LFS pointer: 4-1ÚàÁÕñ┤1.jpg
+Replacing LFS pointer: 4-2ÚàÁÕñ┤2.jpg
+Replacing LFS pointer: 4-3ÚàÁÕñ┤3.jpg
+Replacing LFS pointer: 4-4µ¡ñµùÂþÜäÚØóÕøó.jpg
+Replacing LFS pointer: 4-5Þ¢¼þº╗Õê░Õ«╣ÕÖ¿Õåà.jpg
+Replacing LFS pointer: 4-6µêÉÕôüÚØóÕîà.jpg
+Replacing LFS pointer: 5-1µêÉÕôü.jpg
+Missing image: Õ¥«µ│óþéëÞàèÞéáþà▓õ╗öÚÑ¡.png in Õ¥«µ│óþéëÞàèÞéáþà▓õ╗öÚÑ¡.md. Creating placeholder.
+Replacing LFS pointer: Õ¥«µ│óþéëÞàèÞéáþà▓õ╗öÚÑ¡.png
+Replacing LFS pointer: final.jpg
+Replacing LFS pointer: sauce.jpg
+Replacing LFS pointer: spaghetti.jpg
+Replacing LFS pointer: veg.png
+Replacing LFS pointer: 001.jpeg
+Replacing LFS pointer: µêÉÕôü.jpg
+Missing image: ../þ▒│ÚÑ¡/þöÁÚÑ¡þà▓ÞÆ©þ▒│ÚÑ¡.md in µùÑÕ╝ÅÕÆûÕû▒ÚÑ¡.md. Creating placeholder.
+Replacing LFS pointer: µêÉÕôü.png
+Missing image: ./µ▓│ÕìùÞÆ©ÚØóµØí.png in µ▓│ÕìùÞÆ©ÚØóµØí.md. Creating placeholder.
+Replacing LFS pointer: µ▓│ÕìùÞÆ©ÚØóµØí.png
+Missing image: ./ÚÑ¡Õøó.png in þü½Þà┐ÚÑ¡Õøó.md. Creating placeholder.
+Replacing LFS pointer: ÚÑ¡Õøó.png
+Replacing LFS pointer: chaoliangfen.jpg
+Replacing LFS pointer: þéÆÕçëþ▓ëµêÉÕôü.jpg
+Replacing LFS pointer: a.jpg
+Replacing LFS pointer: µêÉÕôü.jpg
+Replacing LFS pointer: ÞèØÚ║╗þâºÚÑ╝.jpg
+Missing image: ./þöÁÚÑ¡þà▓õ©ëµûçÚ▒╝þéèÚÑ¡.webp in þöÁÚÑ¡þà▓õ©ëµûçÚ▒╝þéèÚÑ¡.md. Creating placeholder.
+Replacing LFS pointer: þöÁÚÑ¡þà▓õ©ëµûçÚ▒╝þéèÚÑ¡.webp
+Replacing LFS pointer: þ®║µ░öþé©ÚöàþàºþâºÚ©íÚÑ¡.jpg
+Replacing LFS pointer: rice_regularPot.jpeg
+Replacing LFS pointer: ÞÇüÕÅïþî¬Þéëþ▓ë.jpg
+Replacing LFS pointer: 1ÞîäþëçÞéëþëç.jpg
+Replacing LFS pointer: 2þ▒│þ▓ë250g.jpg
+Replacing LFS pointer: 3þ▒│þ▓ëÚØóþ▓ëÚ©íÞøï.jpg
+Replacing LFS pointer: 4µÀÀÕÉê.jpg
+Replacing LFS pointer: 5ÞÁÀÚöàþâºµ▓╣.jpg
+Replacing LFS pointer: 6Õ╝ÇÕºïþàÄ.jpg
+Replacing LFS pointer: 7µÆÆþøÉÕçåÕñçÞÁÀÚöà.jpg
+Replacing LFS pointer: ÞîäÕ¡ÉÞéëþàÄÚÑ╝.jpg
+Replacing LFS pointer: food.jpg
+Replacing LFS pointer: fryEgg.jpg
+Replacing LFS pointer: pretreatFood.jpg
+Replacing LFS pointer: tomato.jpg
+Replacing LFS pointer: tomatoNoodle.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Missing image: ./Úƒ®Õ╝ÅµïîÚÑ¡.png in Úƒ®Õ╝ÅµïîÚÑ¡.md. Creating placeholder.
+Replacing LFS pointer: Úƒ®Õ╝ÅµïîÚÑ¡.png
+Replacing LFS pointer: þ▒│ÚÑ¡.jpg
+Copying template...
+Replacing LFS pointer: þñ║õ¥ïÞÅ£.jpg
+Copying vegetable_dish...
+Missing image: ./õ©èµ▒ñÕ¿âÕ¿âÞÅ£.png in õ©èµ▒ñÕ¿âÕ¿âÞÅ£.md. Creating placeholder.
+Replacing LFS pointer: õ©èµ▒ñÕ¿âÕ¿âÞÅ£.png
+Replacing LFS pointer: 1.jpg
+Replacing LFS pointer: 10.jpg
+Replacing LFS pointer: 2.jpg
+Replacing LFS pointer: 3.jpg
+Replacing LFS pointer: 4.jpg
+Replacing LFS pointer: 5.jpg
+Replacing LFS pointer: 6.jpg
+Replacing LFS pointer: 7.jpg
+Replacing LFS pointer: 8.jpg
+Replacing LFS pointer: 9.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 1.jpg
+Replacing LFS pointer: Õ░ÅþéÆÞùòõ©ü.jpg
+Replacing LFS pointer: Õ╣▓ÚöàÞè▒ÞÅ£.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 3.jpeg
+Replacing LFS pointer: 4.jpeg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 3.jpeg
+Replacing LFS pointer: 4.jpeg
+Replacing LFS pointer: µñÆþøÉþÄëþ▒│.jpeg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: þéÆµ╗æÞøï.jpg
+Replacing LFS pointer: þâñÞîäÕ¡É.jpg
+Replacing LFS pointer: þÖ¢þü╝ÞÅ£Õ┐â.jpg
+Replacing LFS pointer: þü½Õ▒▒ÚúÿÚø¬.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: Þè╣ÞÅ£µïîÞîÂµáæÞÅç.jpg
+Missing image: ./Úù¢µÿƒÞîÂµáæÞÅç.jpg in Þè╣ÞÅ£µïîÞîÂµáæÞÅç.md. Creating placeholder.
+Replacing LFS pointer: Úù¢µÿƒÞîÂµáæÞÅç.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 3.jpeg
+Replacing LFS pointer: ÞÅáÞÅ£þéÆÚ©íÞøï.jpg
+Replacing LFS pointer: ÞÖÄþÜ«ÚØÆµñÆ.jpg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: 2.jpeg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: ÞÑ┐Þæ½ÞèªþéÆÚ©íÞøï.jpeg
+Replacing LFS pointer: 1.jpeg
+Replacing LFS pointer: Õ¥«µ│óþéëÚ©íÞøïþ¥╣.jpg
+Replacing LFS pointer: Ú©íÞøïþ¥╣.jpg
+Done.
+
+Auto-generating collections for folders in "src/content/" that are not defined as collections.
+This is deprecated, so you should define these collections yourself in "src/content.config.ts".
+The following collections have been auto-generated: dishes, tips
+
+[2m12:11:29[22m [34m[content][39m Syncing content

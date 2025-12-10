@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=carimañolas"
   - "https://www.tiktok.com/tag/carimañolas"
 license: "MIT"
----
-
-### Carimañolas
+---## Carimañolas
 
 Las Carimañolas son un pasaboca tradicional de la región Caribe colombiana, especialmente en la costa norte. Se elaboran con masa de yuca rellena de carne o queso y se fríen hasta quedar doradas y crujientes. Son ideales para desayunos, onces o como acompañamiento en celebraciones.
 

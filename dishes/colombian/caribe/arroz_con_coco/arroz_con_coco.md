@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=arroz+con+coco"
   - "https://www.tiktok.com/tag/arrozconcoco"
 license: "MIT"
----
-
-### Arroz con Coco
+---## Arroz con Coco
 
 El Arroz con Coco es un acompañamiento y plato típico de la región Caribe colombiana, especialmente servido con pescados y mariscos. Su sabor dulce y salado, junto con el aroma a coco tostado, lo convierten en un clásico infaltable en la mesa costeña.
 

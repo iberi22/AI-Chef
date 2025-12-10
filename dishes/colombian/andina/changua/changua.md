@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=changua"
   - "https://www.tiktok.com/tag/changua"
 license: "MIT"
----
-
-### Changua
+---## Changua
 
 La Changua es una sopa de desayuno tradicional de la región andina, especialmente popular en Bogotá y Boyacá. Se prepara a base de leche, agua, huevo y cebolla, y se sirve con pan (calado) en el mismo tazón. Es reconfortante, suave y perfecta para los días fríos.
 

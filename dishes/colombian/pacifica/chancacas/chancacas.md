@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=chancacas+pacifico"
   - "https://www.tiktok.com/tag/chancacas"
 license: "MIT"
----
-
-### Chancacas (Cocadas del Pacífico)
+---## Chancacas (Cocadas del Pacífico)
 
 Las Chancacas, también conocidas como cocadas del Pacífico, son un dulce tradicional de la región Pacífica colombiana, especialmente popular en Buenaventura y Tumaco. Se preparan con coco rallado, panela y especias, formando bocados dulces y aromáticos que son parte esencial de la cultura festiva afrocolombiana.
 

@@ -56,7 +56,7 @@ Cooking is like learning programming, first you need to recognize professional t
 
 【Bake (hōng)】After seasoning or processing dim sum or food, put into oven to cook.
 
-【Stir-fry (biān)】Same as 煏(bì), old miswritten as "whip" or "fire convenience", similar to "熯(rǎn)", refers to putting food into hot wok, continuously stir-fry, make the moisture in food slightly dry and remove off-flavor; or through this to concentrate fresh flavor to eat.
+【Stir-fry (biān)】Same as煏(bì), old miswritten as "whip" or "fire convenience", similar to "熯(rǎn)", refers to putting food into hot wok, continuously stir-fry, make the moisture in food slightly dry and remove off-flavor; or through this to concentrate fresh flavor to eat.
 
 【Velvet (liū)】Northern cooking term, similar to Cantonese "thicken", that is, using cornstarch to thicken sour-sweet sauce to make fried food tender and delicious.
 

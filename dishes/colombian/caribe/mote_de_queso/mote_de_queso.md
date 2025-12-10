@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=mote+de+queso"
   - "https://www.tiktok.com/tag/motedequeso"
 license: "MIT"
----
-
-### Mote de Queso
+---## Mote de Queso
 
 El Mote de Queso es una sopa cremosa y emblemática de la región Caribe, especialmente popular en Córdoba y Sucre. Se prepara con ñame, queso costeño y suero, resultando en un plato reconfortante, salado y ligeramente ácido, ideal para celebraciones y almuerzos familiares.
 

@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=sancocho+costeño"
   - "https://www.tiktok.com/tag/sancochocosteño"
 license: "MIT"
----
-
-### Sancocho Costeño
+---## Sancocho Costeño
 
 El Sancocho Costeño es uno de los platos más representativos de la región Caribe colombiana. Es una sopa abundante y festiva, preparada con variedad de carnes, tubérculos y plátano, y servida en grandes reuniones familiares o celebraciones.
 

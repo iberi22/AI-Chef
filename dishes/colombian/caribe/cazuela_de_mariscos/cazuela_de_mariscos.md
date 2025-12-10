@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=cazuela+de+mariscos"
   - "https://www.tiktok.com/tag/cazuelademariscos"
 license: "MIT"
----
-
-### Cazuela de Mariscos
+---## Cazuela de Mariscos
 
 La Cazuela de Mariscos es un plato icónico de la región Caribe colombiana, especialmente en ciudades costeras como Cartagena y Barranquilla. Es una sopa cremosa y aromática, repleta de mariscos frescos, leche de coco y especias, perfecta para celebraciones y ocasiones especiales.
 

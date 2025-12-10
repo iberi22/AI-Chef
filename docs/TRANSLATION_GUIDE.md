@@ -280,5 +280,5 @@ Por favor abre un **Issue** o **Pull Request** en:
 
 ---
 
-**Última actualización:** Diciembre 2025  
+**Última actualización:** Diciembre 2025
 **Idiomas disponibles:** Español (es), próximamente Inglés (en), Portugués (pt)

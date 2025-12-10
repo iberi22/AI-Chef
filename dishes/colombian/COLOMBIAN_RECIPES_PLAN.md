@@ -1,31 +1,8 @@
-# Gestión de Tareas: Recetario Colombiano Enriquecido
+# 🚀 Fase Actual: Región Andina - Enriquecimiento de Recetas
 
-_Última actualización: 2025-07-07_
+## Metodología de Investigación y Enriquecimiento
 
-## 🎯 Resumen Ejecutivo y Estado Actual
-
-**Estado General:** [100% - Todas las regiones principales (Andina, Caribe, Pacífica, Orinoquía, Amazonía, Insular) han sido revisadas y estandarizadas en cuanto a lints MD025 y estructura. Las nuevas categorías y bloques de recetas principales también están alineadas al estándar.]
-
-El proyecto se encuentra en la fase final de enriquecimiento de contenido. Se ha completado la investigación de recetas base para las 6 regiones de Colombia y se ha aplicado el análisis nutricional detallado a todas las recetas principales.
-
-**Progreso por Componente:**
-
-- [✅] 🏗️ Estructura de Carpetas: 100%
-- [✅] 🔗 Investigación de Datos: 100%
-- [✅] 🎨 Redacción de Recetas: 100%
-- [✅] 🧪 Revisión y Calidad: 100%
-- [✅] 📚 Documentación del Proyecto: 100%
-- [⚙️] 🎨 Redacción de Recetas: 5%
-- [⬜] 🧪 Revisión y Calidad: 0%
-- [⚙️] 📚 Documentación del Proyecto: 50%
-
----
-
-## 🚀 Fase Actual: Región Andina - Enriquecimiento de Recetas
-
-### Metodología de Investigación y Enriquecimiento
-
-#### 🆕 Enfoque de estandarización robusta y enriquecimiento (2025)
+### 🆕 Enfoque de estandarización robusta y enriquecimiento (2025)
 
 A partir de julio de 2025 se implementa un proceso exhaustivo y ordenado para cada receta, asegurando máxima calidad y compatibilidad internacional:
 
@@ -78,9 +55,7 @@ Cada receta debe clasificarse y documentarse bajo las siguientes categorías:
 
 **Ejemplo de documentación para una receta:**
 
----
-
-### Categorización Sensorial y de Uso
+---## Categorización Sensorial y de Uso
 
 - **Tipo de plato:** Plato fuerte
 - **Perfil de sabor dominante:** Salado, Umami

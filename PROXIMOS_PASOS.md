@@ -172,7 +172,7 @@ site/
 
    ```markdown
    Título: [Jules] Add Astro component for recipe display
-   
+
    Descripción:
    Create a single Astro component in site/src/components/RecipeCard.astro
    that displays a recipe card with:
@@ -180,7 +180,7 @@ site/
    - Difficulty (stars)
    - Cooking time
    - Link to full recipe
-   
+
    Use TypeScript and follow Astro best practices.
    ```
 
@@ -384,5 +384,5 @@ python automation/translate_recipes.py --api-key "tu-api-key" --input ...
 
 ---
 
-**Última actualización:** Diciembre 2025  
+**Última actualización:** Diciembre 2025
 **Siguiente revisión:** Después de completar traducciones de categorías prioritarias

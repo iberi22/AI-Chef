@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=aborrajados+de+pescado"
   - "https://www.tiktok.com/tag/aborrajadosdepescado"
 license: "MIT"
----
-
-### Aborrajados de Pescado
+---## Aborrajados de Pescado
 
 Los Aborrajados de Pescado son una delicia tradicional del Pacífico colombiano, especialmente en las zonas costeras de Nariño y Cauca. Consisten en trozos de pescado fresco envueltos en una masa de plátano maduro y fritos hasta quedar dorados y crujientes. Son populares como entrada, snack o acompañamiento en celebraciones familiares.
 

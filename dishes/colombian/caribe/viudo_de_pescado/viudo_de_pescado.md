@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=viudo+de+pescado"
   - "https://www.tiktok.com/tag/viudodepescado"
 license: "MIT"
----
-
-### Viudo de Pescado
+---## Viudo de Pescado
 
 El Viudo de Pescado es un plato tradicional de la región Caribe y de los ríos colombianos, especialmente preparado en festividades y reuniones familiares. Consiste en pescado de río cocido con yuca, plátano y verduras, servido en caldo aromático y acompañado de arroz blanco y ají.
 

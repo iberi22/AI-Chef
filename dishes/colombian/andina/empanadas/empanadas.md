@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=empanadas+colombianas"
   - "https://www.tiktok.com/tag/empanadascolombianas"
 license: "MIT"
----
-
-### Empanadas Andinas
+---## Empanadas Andinas
 
 Las empanadas andinas son uno de los pasabocas más populares de la región, crujientes por fuera y rellenas de una mezcla sabrosa de carne, papa y condimentos. Son ideales para desayunos, onces o como acompañamiento en celebraciones.
 

@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=ceviche+de+camaron"
   - "https://www.tiktok.com/tag/cevichedecamaron"
 license: "MIT"
----
-
-### Ceviche de Camarón
+---## Ceviche de Camarón
 
 El Ceviche de Camarón es un plato fresco y vibrante de la región Caribe colombiana, especialmente popular en Cartagena y Santa Marta. Consiste en camarones cocidos en jugo de limón, mezclados con cebolla, tomate, cilantro y ají, servidos fríos como entrada o snack refrescante.
 

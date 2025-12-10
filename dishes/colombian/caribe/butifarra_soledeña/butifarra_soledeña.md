@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=butifarra+soledeña"
   - "https://www.tiktok.com/tag/butifarrasoledeña"
 license: "MIT"
----
-
-### Butifarra Soledeña
+---## Butifarra Soledeña
 
 La Butifarra Soledeña es un embutido típico de Soledad, Atlántico, y un ícono de la gastronomía de la región Caribe colombiana. Es una pequeña salchicha de carne de res y cerdo, sazonada y cocida, que se sirve tradicionalmente con bollo de yuca y limón.
 

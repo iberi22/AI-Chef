@@ -24,9 +24,7 @@ sources:
   - "https://www.youtube.com/results?search_query=arepa+de+huevo"
   - "https://www.tiktok.com/tag/arepadehuevo"
 license: "MIT"
----
-
-### Arepa de Huevo
+---## Arepa de Huevo
 
 La Arepa de Huevo es uno de los íconos de la gastronomía costeña colombiana, especialmente popular en Barranquilla y Cartagena. Es una arepa de maíz frita, rellena con huevo y, a veces, carne, crujiente por fuera y suave por dentro. Ideal para desayunos, meriendas o como pasaboca en celebraciones.
 
