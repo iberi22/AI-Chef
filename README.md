@@ -16,18 +16,18 @@
 
 ## 本地部署
 
-如果需要在本地部署菜谱 Web 服务，可以在安装 Docker 后运行下面命令：
+如果需要在本地部署菜谱Web服务，可以在安装Docker后运行下面命令：
 
 ```bash
 docker pull ghcr.io/anduin2017/how-to-cook:latest
 docker run -d -p 5000:80 ghcr.io/anduin2017/how-to-cook:latest
 ```
 
-如需下载 PDF 版本，可以在浏览器中访问 [/document.pdf](https://cook.aiursoft.cn/document.pdf)
+如需下载PDF版本，可以在浏览器中访问 [/document.pdf](https://cook.aiursoft.cn/document.pdf)
 
 ## 如何贡献
 
-针对发现的问题，直接修改并提交 Pull request 即可。
+针对发现的问题，直接修改并提交Pull request即可。
 
 在写新菜谱时，请复制并修改已有的菜谱模板: [示例菜](https://github.com/Anduin2017/HowToCook/blob/master/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
 
