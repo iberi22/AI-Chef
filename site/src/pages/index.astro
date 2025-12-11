@@ -33,10 +33,10 @@ const baseUrl = import.meta.env.BASE_URL;
       <div class="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-6 lg:px-10">
         <!-- Logo -->
         <div class="flex items-center gap-4">
-          <div class="flex size-10 items-center justify-center rounded-xl bg-primary text-black shadow-neon">
+          <div class="flex size-10 items-center justify-center rounded-xl bg-primary/10 border border-primary/20 text-primary shadow-neon">
             <span class="material-symbols-outlined">smart_toy</span>
           </div>
-          <h2 class="hidden text-xl font-bold tracking-tight md:block">AI-Chef</h2>
+          <h2 class="hidden text-xl font-bold tracking-tight md:block bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">AI-Chef</h2>
         </div>
         <!-- Search -->
         <div class="mx-4 hidden max-w-md flex-1 md:block">
@@ -74,13 +74,14 @@ const baseUrl = import.meta.env.BASE_URL;
         <div class="mx-auto max-w-[1440px]">
           <div class="relative overflow-hidden rounded-2xl bg-surface-dark dark:bg-surface-light/5 px-8 py-16 text-center md:px-16 md:py-24 shadow-2xl ring-1 ring-white/10">
             <!-- Decorative bg -->
-            <div class="absolute inset-0 z-0 opacity-20" style="background-image: radial-gradient(#f9f506 1px, transparent 1px); background-size: 32px 32px;"></div>
+            <div class="absolute inset-0 z-0 opacity-10" style="background-image: linear-gradient(#06b6d4 1px, transparent 1px), linear-gradient(to right, #06b6d4 1px, transparent 1px); background-size: 40px 40px;"></div>
+            <div class="absolute inset-0 z-0 bg-gradient-to-b from-transparent via-background-dark/80 to-background-dark"></div>
             <div class="relative z-10 mx-auto flex max-w-3xl flex-col items-center gap-6">
-              <div class="inline-flex items-center rounded-full border border-primary/30 bg-primary/10 px-3 py-1 backdrop-blur-sm">
+              <div class="inline-flex items-center rounded-full border border-secondary/30 bg-secondary/10 px-3 py-1 backdrop-blur-sm">
                 <span class="text-xs font-bold uppercase tracking-wider text-primary font-mono">v2.0 Beta Live</span>
               </div>
               <h1 class="font-display text-4xl font-black tracking-tight text-white md:text-6xl lg:text-7xl">
-                Cook Smarter, <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-white">Not Harder</span>
+                Cook Smarter, <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Not Harder</span>
               </h1>
               <p class="max-w-xl text-lg text-gray-400 md:text-xl font-light">
                 AI-powered recipes generated from your GitHub logic. Fork existing flavors or commit new culinary experiments.

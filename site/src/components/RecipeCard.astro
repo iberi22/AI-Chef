@@ -10,7 +10,7 @@ const { title, slug, image, category } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL;
 ---
 
-<div class="group relative flex flex-col overflow-hidden rounded-2xl bg-surface-light dark:bg-surface-dark shadow-sm ring-1 ring-black/5 dark:ring-white/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-neon hover:ring-primary/50">
+<div class="group relative flex flex-col overflow-hidden rounded-2xl card-glass transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-neon">
   <a href={`${baseUrl}/recipes/${slug}`} class="absolute inset-0 z-0" aria-label={`View recipe: ${title}`}></a>
 
   <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 dark:bg-gray-800 relative pointer-events-none">
@@ -26,25 +26,28 @@ const baseUrl = import.meta.env.BASE_URL;
         <span class="material-symbols-outlined text-6xl">restaurant_menu</span>
       </div>
     )}
-    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-surface-light dark:from-surface-dark via-transparent to-transparent opacity-90"></div>
 
     <!-- Favorite Button -->
     <button
-      class="fav-btn absolute right-3 top-3 z-20 flex size-10 items-center justify-center rounded-full bg-black/50 text-white backdrop-blur-md transition-all hover:bg-primary hover:text-black hover:scale-110 pointer-events-auto opacity-0 group-hover:opacity-100 focus:opacity-100"
+      class="fav-btn absolute right-3 top-3 z-20 flex size-10 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-md transition-all hover:bg-primary hover:text-black hover:scale-110 pointer-events-auto border border-white/10"
       data-slug={slug}
       aria-label="Toggle favorite"
     >
       <span class="material-symbols-outlined text-[20px] font-variation-settings-fill">favorite</span>
     </button>
+
+    {category && (
+        <div class="absolute bottom-3 left-3 flex gap-2 z-10">
+            <span class="rounded-full bg-primary/20 border border-primary/30 px-2.5 py-0.5 text-xs font-bold text-primary backdrop-blur-md capitalize">
+                {category}
+            </span>
+        </div>
+    )}
   </div>
 
   <div class="flex flex-1 flex-col p-5 pointer-events-none">
-    {category && (
-      <span class="mb-2 text-xs font-bold uppercase tracking-wider text-primary">
-        {category}
-      </span>
-    )}
-    <h3 class="font-display text-lg font-bold leading-tight text-text-light dark:text-text-dark group-hover:text-primary transition-colors">
+    <h3 class="font-display text-lg font-bold leading-tight text-text-light dark:text-white group-hover:text-primary transition-colors">
       {title}
     </h3>
 

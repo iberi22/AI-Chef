@@ -23,7 +23,7 @@ const baseUrl = import.meta.env.BASE_URL;
 		<title>{title}</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
 		<ViewTransitions />
 		<script is:inline define:vars={{ baseUrl }}>
@@ -80,7 +80,9 @@ const baseUrl = import.meta.env.BASE_URL;
 		</script>
 	</head>
 	<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark min-h-screen font-display selection:bg-primary selection:text-black transition-colors duration-300">
-		<slot />
+		<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#1a1a2e] dark:via-background-dark dark:to-background-dark">
+			<slot />
+		</div>
 	</body>
 </html>
 
@@ -91,7 +93,20 @@ const baseUrl = import.meta.env.BASE_URL;
 		border: 1px solid rgba(255, 255, 255, 0.3);
 	}
 	.dark .glass-panel {
-		background: rgba(30, 30, 30, 0.6);
+		background: rgba(18, 18, 18, 0.65);
+		backdrop-filter: blur(16px);
+		-webkit-backdrop-filter: blur(16px);
+		border: 1px solid rgba(255, 255, 255, 0.08);
+	}
+
+	.card-glass {
+		background: rgba(255, 255, 255, 0.8);
+		backdrop-filter: blur(8px);
+		border: 1px solid rgba(0, 0, 0, 0.05);
+	}
+	.dark .card-glass {
+		background: rgba(30, 30, 30, 0.4);
+		backdrop-filter: blur(8px);
 		border: 1px solid rgba(255, 255, 255, 0.05);
 	}
 
