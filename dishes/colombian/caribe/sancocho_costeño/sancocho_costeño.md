@@ -12,6 +12,12 @@ difficulty: "★★★☆☆"
 prep_time: "40 minutos"
 cook_time: "2 horas"
 servings: 10
+nutrition:
+  calories: 650
+  protein: "35g"
+  fat: "25g"
+  carbs: "50g"
+tags: ["Plato fuerte", "Sopa festiva", "Comida típica"]
 images:
   - url: "https://pixabay.com/es/photos/sancocho-costeño-colombia-6146267/"
     description: "Sancocho costeño tradicional (Pixabay)"
@@ -76,7 +82,7 @@ El Sancocho Costeño es uno de los platos más representativos de la región Car
 
 ## 📸 Galería
 
-*Próximamente...*
+![Sancocho Costeño Servido](./images/1.jpg)
 
 ---
 
@@ -94,7 +100,7 @@ El Sancocho Costeño es uno de los platos más representativos de la región Car
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El sancocho costeño es el mejor remedio para el hambre después de una fiesta, abundante y delicioso".
-- **Foro gastronómico:** "El secreto está en el ñame y el cilantro fresco, le dan el sabor auténtico de la costa".  
+- **Foro gastronómico:** "El secreto está en el ñame y el cilantro fresco, le dan el sabor auténtico de la costa".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

@@ -5,9 +5,9 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				"primary": "#06b6d4",
-				"secondary": "#a855f7",
-				"accent": "#f472b6",
+				"primary": "#FF6347", // Tomato Red
+				"secondary": "#4CAF50", // Fresh Green
+				"accent": "#FFD700", // Gold/Mustard
 				"background-light": "#f8f8f5",
 				"background-dark": "#050505",
 				"surface-light": "#ffffff",
@@ -20,13 +20,14 @@ export default {
 				"neutral-border-dark": "#44433a",
 			},
 			fontFamily: {
-				"display": ["Inter", "sans-serif"],
+				"display": ["Patrick Hand", "cursive"],
+				"sans": ["Open Sans", "sans-serif"],
 				"mono": ["Space Mono", "monospace"],
 			},
 			boxShadow: {
-				"neon": "0 0 15px rgba(6, 182, 212, 0.4)",
-				"neon-hover": "0 0 30px rgba(6, 182, 212, 0.6)",
-				"neon-purple": "0 0 20px rgba(168, 85, 247, 0.3)",
+				"neon": "0 0 15px rgba(255, 99, 71, 0.4)",
+				"neon-hover": "0 0 30px rgba(255, 99, 71, 0.6)",
+				"neon-purple": "0 0 20px rgba(76, 175, 80, 0.3)",
 			}
 		},
 	},

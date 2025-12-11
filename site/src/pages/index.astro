@@ -2,25 +2,77 @@
 import Layout from '../layouts/Layout.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import ThemeToggle from '../components/ThemeToggle.astro';
+import Footer from '../components/Footer.astro';
 import { getCollection } from 'astro:content';
 
 const allRecipes = await getCollection('dishes');
 
 // Helper to find image in category
+// Helper to find image in category
 function findImage(recipe: any) {
   const body = recipe.body;
+
   // Match markdown image ![alt](url) or HTML <img src="url">
-  const mdMatch = body.match(/!\[.*?\]\((.*?)\)/);
-  if (mdMatch && !mdMatch[1].endsWith('.svg')) return mdMatch[1]; // Avoid SVGs if possible
-  const htmlMatch = body.match(/<img.*?src=["'](.*?)["']/);
-  if (htmlMatch && !htmlMatch[1].endsWith('.svg')) return htmlMatch[1];
-  return null;
+  let imagePath = null;
+  // Improved regex to handle one level of parentheses in filenames e.g. image(1).jpg
+  const mdMatch = body.match(/!\[.*?\]\(((?:[^()]+|\([^()]*\))+)\)/);
+  if (mdMatch && !mdMatch[1].endsWith('.svg')) {
+     imagePath = mdMatch[1];
+  } else {
+     const htmlMatch = body.match(/<img.*?src=["'](.*?)["']/);
+     if (htmlMatch && !htmlMatch[1].endsWith('.svg')) {
+        imagePath = htmlMatch[1];
+     }
+  }
+
+  if (!imagePath) return undefined;
+
+  // 1. Check for external URLs (http/https)
+  if (imagePath.match(/^https?:\/\//)) {
+      return imagePath;
+  }
+
+  // 2. Resolve relative paths
+  if (imagePath.startsWith('./') || !imagePath.startsWith('/')) {
+     // Remove ./ if present
+     const cleanPath = imagePath.replace(/^\.\//, '');
+
+     // Construct path based on recipe ID location
+     // recipe.id = "drink/some-drink.md" -> dir = "drink"
+     const lastSlashIndex = recipe.id.lastIndexOf('/');
+     const dir = lastSlashIndex !== -1 ? recipe.id.substring(0, lastSlashIndex) : '';
+
+     // Final path: /AI-Chef/dishes/{dir}/{image_filename}
+     // Note: This relies on the fact we copied 'dishes' to 'public/dishes'
+     return `${import.meta.env.BASE_URL}/dishes/${dir}/${cleanPath}`.replace(/\/+/g, '/'); // ensure no double slashes
+  }
+
+  return imagePath;
+}
+
+function getTitle(recipe: any) {
+    if (recipe.data.title) return recipe.data.title;
+    // Try to extract from first H1 in body
+    const match = recipe.body.match(/^#\s+(.+)$/m);
+    if (match) return match[1];
+    // Fallback to slug last segment (filename)
+    const filename = recipe.slug.split('/').pop();
+    return filename ? decodeURIComponent(filename) : 'Untitled';
 }
 
 const recipesWithImages = allRecipes.map(recipe => ({
   ...recipe,
-  image: findImage(recipe) || undefined // Let RecipeCard handle fallback
-}));
+  image: findImage(recipe),
+  computedTitle: getTitle(recipe)
+})).filter(recipe => {
+    // FILTER: Only show "Complete" recipes (Standard metadata present)
+    // The user wants to hide Chinese recipes that lack this standard for now.
+    const hasRegion = !!recipe.data.region;
+    const hasNutrition = !!recipe.data.nutrition;
+    // We can also check for specific flags if we want to force specific ones
+    // return hasRegion && hasNutrition;
+    return hasRegion; // Start with Region check as a strong signal of "New Standard"
+});
 
 const categories = [...new Set(allRecipes.map(r => r.slug.split('/')[0]))].sort();
 const baseUrl = import.meta.env.BASE_URL;
@@ -33,8 +85,8 @@ const baseUrl = import.meta.env.BASE_URL;
       <div class="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-6 lg:px-10">
         <!-- Logo -->
         <div class="flex items-center gap-4">
-          <div class="flex size-10 items-center justify-center rounded-xl bg-primary/10 border border-primary/20 text-primary shadow-neon">
-            <span class="material-symbols-outlined">smart_toy</span>
+          <div class="flex size-10 items-center justify-center rounded-xl overflow-hidden shadow-neon">
+            <img src={`${baseUrl}/images/logo.png`} alt="Logo" class="h-full w-full object-cover" />
           </div>
           <h2 class="hidden text-xl font-bold tracking-tight md:block bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">AI-Chef</h2>
         </div>
@@ -60,7 +112,7 @@ const baseUrl = import.meta.env.BASE_URL;
               <span class="material-symbols-outlined">notifications</span>
             </button>
             <button class="group relative flex size-10 items-center justify-center overflow-hidden rounded-full border border-gray-200 dark:border-gray-700">
-              <div class="bg-center bg-no-repeat bg-cover w-full h-full" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBa_ERdViMKBBV_NFGGpWqbINN7V5Ow-uiSFDotemqHv68yLsDAShKM9u7pKINwq8c3lJS2Ey9SStaRywCPqohsv69Y6Mj8J41laFu3pAViHQhM184wPpzLWfdpeTtCSHA9aFs9ZQwkoyWLXwU6zUEDhpgViHcJ1WeSXTShZqhLE7BN6eadAUB228UMqJuOlDhtkEZYAyp1PzAstACKLWalH5hilUUJNECUBt9_8jJdJXsn0l06jVDuYwCLF-wcgmQqPfY2jo09mD4");'></div>
+              <div class="bg-center bg-no-repeat bg-cover w-full h-full" style={`background-image: url("${baseUrl}/images/cover_collage.png");`}></div>
             </button>
           </div>
         </div>
@@ -74,7 +126,8 @@ const baseUrl = import.meta.env.BASE_URL;
         <div class="mx-auto max-w-[1440px]">
           <div class="relative overflow-hidden rounded-2xl bg-surface-dark dark:bg-surface-light/5 px-8 py-16 text-center md:px-16 md:py-24 shadow-2xl ring-1 ring-white/10">
             <!-- Decorative bg -->
-            <div class="absolute inset-0 z-0 opacity-10" style="background-image: linear-gradient(#06b6d4 1px, transparent 1px), linear-gradient(to right, #06b6d4 1px, transparent 1px); background-size: 40px 40px;"></div>
+            <div class="absolute inset-0 z-0 opacity-10" style="background-image: linear-gradient(#FF6347 1px, transparent 1px), linear-gradient(to right, #FF6347 1px, transparent 1px); background-size: 40px 40px;"></div>
+            <div class="absolute inset-0 z-0 bg-cover bg-center opacity-20" style={`background-image: url("${baseUrl}/images/cover_collage.png");`}></div>
             <div class="absolute inset-0 z-0 bg-gradient-to-b from-transparent via-background-dark/80 to-background-dark"></div>
             <div class="relative z-10 mx-auto flex max-w-3xl flex-col items-center gap-6">
               <div class="inline-flex items-center rounded-full border border-secondary/30 bg-secondary/10 px-3 py-1 backdrop-blur-sm">
@@ -123,12 +176,18 @@ const baseUrl = import.meta.env.BASE_URL;
       <div class="mx-auto max-w-[1440px] px-6 py-8 lg:px-10">
         <div id="recipe-grid" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {recipesWithImages.map(recipe => (
-            <div class="recipe-item" data-category={recipe.slug.split('/')[0]} data-title={recipe.data.title?.toLowerCase() || ''}>
+            <div class="recipe-item" data-category={recipe.slug.split('/')[0]} data-title={recipe.computedTitle.toLowerCase()}>
               <RecipeCard
-                title={recipe.data.title}
+                title={recipe.computedTitle}
                 slug={recipe.slug}
                 image={recipe.image}
                 category={recipe.slug.split('/')[0]}
+                region={recipe.data.region}
+                originalName={recipe.data.original_name}
+                difficulty={recipe.data.difficulty}
+                time={recipe.data.cook_time}
+                calories={recipe.data.nutrition?.calories}
+                rating={recipe.data.rating}
               />
             </div>
           ))}
@@ -144,6 +203,7 @@ const baseUrl = import.meta.env.BASE_URL;
         </div>
       </div>
     </main>
+    <Footer />
   </div>
 </Layout>
 
@@ -235,6 +295,36 @@ const baseUrl = import.meta.env.BASE_URL;
     // Initialize
     initFavoriteButtons();
 
+    // Random shuffle Logic
+    function shuffleArray(array: any[]) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    // Shuffle grid items on load (only if not sorting explicitly)
+    function randomShuffleGrid() {
+        const grid = document.getElementById('recipe-grid');
+        if (!grid) return;
+
+        const items = Array.from(grid.children);
+        const shuffled = shuffleArray(items);
+
+        // Use DocumentFragment for performance
+        const fragment = document.createDocumentFragment();
+        shuffled.forEach(item => fragment.appendChild(item));
+        grid.appendChild(fragment);
+    }
+
+    // Execute shuffle
+    randomShuffleGrid();
+
+    // Load persisted filters if any (Optional - for now just shuffle)
+    // const savedCategory = localStorage.getItem('ai-chef-category');
+    // if(savedCategory) { ... }
+
     // Search Event
     searchInput?.addEventListener('input', (e) => {
       currentSearch = (e.target as HTMLInputElement).value.toLowerCase();
@@ -256,7 +346,12 @@ const baseUrl = import.meta.env.BASE_URL;
         btn.classList.remove('bg-white', 'text-text-light', 'dark:bg-surface-dark', 'dark:text-text-dark');
         btn.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
 
-        currentCategory = (btn as HTMLElement).dataset.category || 'all';
+        const newCategory = (btn as HTMLElement).dataset.category || 'all';
+        currentCategory = newCategory;
+
+        // Persist category preference? Maybe annoying if random is default.
+        // localStorage.setItem('ai-chef-category', newCategory);
+
         filterRecipes();
       });
     });

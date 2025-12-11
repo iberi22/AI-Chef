@@ -12,6 +12,12 @@ difficulty: "★★★★☆"
 prep_time: "30 minutos"
 cook_time: "2 horas"
 servings: 4
+nutrition:
+  calories: 1800
+  protein: "85g"
+  fat: "110g"
+  carbs: "135g"
+tags: ["Plato fuerte", "Comida típica", "Especialidad regional"]
 images:
   - url: "https://pixabay.com/es/photos/bandeja-paisa-colombia-platillo-6146254/"
     description: "Bandeja Paisa tradicional servida (Pixabay)"

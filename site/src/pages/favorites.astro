@@ -16,7 +16,7 @@ const baseUrl = import.meta.env.BASE_URL;
       <div id="favorites-grid" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <!-- Content injected by JS -->
       </div>
-      
+
       <div id="empty-state" class="hidden flex-col items-center justify-center py-20 text-center">
         <span class="material-symbols-outlined text-6xl text-gray-300 dark:text-gray-600 mb-4">favorite_border</span>
         <h3 class="text-xl font-bold text-text-light dark:text-text-dark mb-2">No favorites yet</h3>
@@ -33,36 +33,36 @@ const baseUrl = import.meta.env.BASE_URL;
       const grid = document.getElementById('favorites-grid');
       const emptyState = document.getElementById('empty-state');
       const STORAGE_KEY = 'ai_chef_favorites';
-      
+
       if (!grid || !emptyState) return;
 
       const favs = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-      
+
       if (favs.length === 0) {
         grid.classList.add('hidden');
         emptyState.classList.remove('hidden');
         emptyState.classList.add('flex');
         return;
       }
-      
+
       grid.classList.remove('hidden');
       emptyState.classList.add('hidden');
       emptyState.classList.remove('flex');
-      
+
       grid.innerHTML = favs.map(recipe => {
         const title = recipe.title || recipe.data?.title || recipe.slug;
         const slug = recipe.slug;
         const image = recipe.image || recipe.data?.image;
         const category = slug.split('/')[0];
         const recipeUrl = `${baseUrl}/recipes/${slug}`;
-        
+
         return `
           <div class="group relative flex flex-col overflow-hidden rounded-2xl bg-surface-light dark:bg-surface-dark shadow-sm ring-1 ring-black/5 dark:ring-white/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-neon hover:ring-primary/50">
             <a href="${recipeUrl}" class="absolute inset-0 z-0" aria-label="View recipe: ${title}"></a>
 
             <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 dark:bg-gray-800 relative pointer-events-none">
-              ${image ? 
-                `<img src="${image}" alt="${title}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" />` : 
+              ${image ?
+                `<img src="${image}" alt="${title}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" />` :
                 `<div class="flex h-full w-full items-center justify-center text-gray-300 dark:text-gray-600"><span class="material-symbols-outlined text-6xl">restaurant_menu</span></div>`
               }
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
@@ -76,7 +76,7 @@ const baseUrl = import.meta.env.BASE_URL;
         `;
       }).join('');
     }
-    
+
     renderFavorites();
     document.addEventListener('astro:page-load', renderFavorites);
   </script>

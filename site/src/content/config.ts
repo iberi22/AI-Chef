@@ -2,7 +2,8 @@ import { defineCollection, z } from 'astro:content';
 
 const dishesCollection = defineCollection({
   type: 'content',
-  schema: z.object({}).passthrough(),
+  // schema: z.object({ ... }).passthrough(),
+  schema: z.any(),
 });
 
 const tipsCollection = defineCollection({

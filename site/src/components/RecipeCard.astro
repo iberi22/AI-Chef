@@ -4,61 +4,120 @@ interface Props {
   slug: string;
   image?: string;
   category?: string;
+  region?: string;
+  originalName?: string;
+  difficulty?: string;
+  time?: string;
+  calories?: string | number;
+  rating?: number;
 }
 
-const { title, slug, image, category } = Astro.props;
+const { title, slug, image, category, region, originalName, difficulty, time, calories, rating } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL;
+
+function formatNumber(num: number | undefined) {
+    return num ? num.toString() : '-';
+}
 ---
 
-<div class="group relative flex flex-col overflow-hidden rounded-2xl card-glass transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-neon">
-  <a href={`${baseUrl}/recipes/${slug}`} class="absolute inset-0 z-0" aria-label={`View recipe: ${title}`}></a>
+<div class="group relative flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-black shadow-sm transition-all hover:shadow-md">
+  <!-- Instagram Header -->
+  <div class="flex items-center gap-3 p-3">
+    <div class="h-8 w-8 overflow-hidden rounded-full ring-2 ring-primary/20">
+       <img src={`${baseUrl}/images/logo.png`} alt="AI Chef" class="h-full w-full object-cover" loading="lazy" />
+    </div>
+    <div class="flex flex-col">
+      <div class="flex items-center gap-1">
+          <span class="text-xs font-bold text-text-light dark:text-text-dark">ai_chef_official</span>
+          {region && <span class="text-[10px] text-gray-400">• {region}</span>}
+      </div>
+      <span class="text-[10px] text-gray-500 capitalize">{category || 'Cooking'} • Original Audio</span>
+    </div>
+    <span class="material-symbols-outlined ml-auto text-xl text-gray-400">more_horiz</span>
+  </div>
 
-  <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 dark:bg-gray-800 relative pointer-events-none">
+  <!-- Main Image (Square) -->
+  <div class="relative aspect-square w-full overflow-hidden bg-gray-100 dark:bg-gray-900">
+    <a href={`${baseUrl}/recipes/${slug}`} class="absolute inset-0 z-10 block" aria-label={`View recipe: ${title}`}></a>
     {image ? (
       <img
         src={image}
         alt={title}
-        class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
         loading="lazy"
       />
     ) : (
-      <div class="flex h-full w-full items-center justify-center text-gray-300 dark:text-gray-600">
-        <span class="material-symbols-outlined text-6xl">restaurant_menu</span>
+      <div class="flex h-full w-full items-center justify-center text-gray-300 dark:text-gray-700">
+        <span class="material-symbols-outlined text-6xl">restaurant</span>
       </div>
     )}
-    <div class="absolute inset-0 bg-gradient-to-t from-surface-light dark:from-surface-dark via-transparent to-transparent opacity-90"></div>
 
-    <!-- Favorite Button -->
-    <button
-      class="fav-btn absolute right-3 top-3 z-20 flex size-10 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-md transition-all hover:bg-primary hover:text-black hover:scale-110 pointer-events-auto border border-white/10"
-      data-slug={slug}
-      aria-label="Toggle favorite"
-    >
-      <span class="material-symbols-outlined text-[20px] font-variation-settings-fill">favorite</span>
-    </button>
-
-    {category && (
-        <div class="absolute bottom-3 left-3 flex gap-2 z-10">
-            <span class="rounded-full bg-primary/20 border border-primary/30 px-2.5 py-0.5 text-xs font-bold text-primary backdrop-blur-md capitalize">
-                {category}
-            </span>
+    <!-- Original Name Badge (Overlay) -->
+    {originalName && (
+        <div class="absolute bottom-3 right-3 z-20">
+             <span class="rounded-md bg-black/60 px-2 py-1 text-xs font-medium text-white backdrop-blur-sm">
+                {originalName}
+             </span>
         </div>
     )}
   </div>
 
-  <div class="flex flex-1 flex-col p-5 pointer-events-none">
-    <h3 class="font-display text-lg font-bold leading-tight text-text-light dark:text-white group-hover:text-primary transition-colors">
-      {title}
-    </h3>
+  <!-- Action Bar -->
+  <div class="flex items-center justify-between px-3 py-3">
+    <div class="flex items-center gap-4">
+      <button
+        class="fav-btn group/btn flex items-center justify-center transition-transform active:scale-90"
+        data-slug={slug}
+        aria-label="Like"
+      >
+        <span class="material-symbols-outlined text-2xl text-text-light dark:text-text-dark font-variation-settings-fill group-hover/btn:text-primary transition-colors">favorite</span>
+      </button>
+      <button class="flex items-center justify-center hover:opacity-70 transition-opacity">
+        <span class="material-symbols-outlined text-2xl text-text-light dark:text-text-dark -rotate-90">chat_bubble</span>
+      </button>
+      <button class="flex items-center justify-center hover:opacity-70 transition-opacity">
+        <span class="material-symbols-outlined text-2xl text-text-light dark:text-text-dark">send</span>
+      </button>
+    </div>
+    <button class="flex items-center justify-center hover:opacity-70 transition-opacity">
+        <span class="material-symbols-outlined text-2xl text-text-light dark:text-text-dark">bookmark</span>
+    </button>
+  </div>
 
-    <div class="mt-auto pt-4 flex items-center justify-between">
-      <span class="text-xs font-medium text-gray-500 dark:text-gray-400 group-hover:text-text-light dark:group-hover:text-white transition-colors">
-        View Recipe
-      </span>
-      <span class="material-symbols-outlined text-lg text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary">
-        arrow_forward
+  <!-- Stats Grid (New) -->
+  <div class="mx-3 mb-3 grid grid-cols-4 gap-2 rounded-lg bg-gray-50 dark:bg-gray-900/50 p-2 text-center text-[10px] text-gray-500 dark:text-gray-400">
+      <div class="flex flex-col items-center gap-0.5">
+          <span class="material-symbols-outlined text-sm text-primary">schedule</span>
+          <span>{time || '-'}</span>
+      </div>
+       <div class="flex flex-col items-center gap-0.5">
+          <span class="material-symbols-outlined text-sm text-orange-400">local_fire_department</span>
+          <span>{calories ? `${calories} kcal` : '-'}</span>
+      </div>
+       <div class="flex flex-col items-center gap-0.5">
+          <span class="material-symbols-outlined text-sm text-yellow-500">star</span>
+          <span>{rating ? rating : '-'}</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+          <span class="material-symbols-outlined text-sm text-green-500">bar_chart</span>
+          <span>{difficulty || '-'}</span>
+      </div>
+  </div>
+
+  <!-- Likes & Caption -->
+  <div class="flex flex-col gap-1 px-3 pb-4">
+    <div class="text-xs font-bold text-text-light dark:text-text-dark">
+      Liked by <span class="text-text-light dark:text-text-dark">foodie_lover</span> and <span class="font-bold">others</span>
+    </div>
+    <div class="text-sm">
+      <span class="font-bold text-text-light dark:text-text-dark mr-2">ai_chef_official</span>
+      <span class="text-gray-600 dark:text-gray-300 line-clamp-2">
+        {title} 🥘 Discover the logic behind this delicious dish. #foodie #coding #{category}
       </span>
     </div>
+    <a href={`${baseUrl}/recipes/${slug}`} class="mt-1 text-xs text-gray-400 hover:text-primary uppercase font-bold tracking-wider">
+      View Recipe Logic
+    </a>
   </div>
 </div>
 
@@ -69,10 +128,9 @@ const baseUrl = import.meta.env.BASE_URL;
   }
   :global(.fav-btn.active) .font-variation-settings-fill {
     font-variation-settings: 'FILL' 1;
-    color: #f9f506; /* Primary color */
+    color: #FF0000; /* Red Heart */
   }
   :global(.fav-btn.active) {
-    opacity: 1 !important;
-    background-color: rgba(0,0,0,0.8);
+    /* No bg change needed, just icon color */
   }
 </style>

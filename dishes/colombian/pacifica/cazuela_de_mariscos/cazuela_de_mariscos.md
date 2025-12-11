@@ -12,6 +12,12 @@ difficulty: "★★★★☆"
 prep_time: "45 minutos"
 cook_time: "40 minutos"
 servings: 6
+nutrition:
+  calories: 450
+  protein: "35g"
+  fat: "28g"
+  carbs: "12g"
+tags: ["Plato fuerte", "Sopa festiva", "Comida típica"]
 images:
   - url: "https://pixabay.com/es/photos/cazuela-mariscos-colombia-6146272/"
     description: "Cazuela de mariscos tradicional del Pacífico (Pixabay)"
@@ -80,7 +86,7 @@ La Cazuela de Mariscos en la región Pacífica de Colombia es un plato festivo y
 
 ## 📸 Galería
 
-*Próximamente...*
+![Cazuela de Mariscos](./images/1.jpg)
 
 ---
 
@@ -98,7 +104,7 @@ La Cazuela de Mariscos en la región Pacífica de Colombia es un plato festivo y
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "La cazuela de mariscos del Pacífico es insuperable, cremosa y con mariscos fresquísimos. El sabor a coco y ají es único".
-- **Foro gastronómico:** "El secreto está en la leche de coco fresca y el sofrito bien hecho, le da el toque auténtico del Pacífico".  
+- **Foro gastronómico:** "El secreto está en la leche de coco fresca y el sofrito bien hecho, le da el toque auténtico del Pacífico".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

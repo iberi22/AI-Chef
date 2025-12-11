@@ -1,0 +1,52 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Patrick+Hand&display=swap');
+
+:root {
+  --md-text-font: "Open Sans", sans-serif;
+  --md-code-font: "Courier New", monospace;
+
+  /* Custom Palette - Solid Colors with Transitions */
+  --md-primary-fg-color: #ff7043; /* Warm Orange */
+  --md-primary-fg-color--light: #ff8a65;
+  --md-primary-fg-color--dark: #f4511e;
+
+  --md-accent-fg-color: #66bb6a; /* Fresh Green */
+
+  --transition-speed: 0.3s;
+}
+
+/* Typography Overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+}
+
+.md-header {
+  font-family: 'Patrick Hand', cursive;
+}
+
+body {
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+/* Friendly/Collage Card Styling */
+.collage-card {
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transform: rotate(-1deg);
+  transition: transform var(--transition-speed) ease;
+  border: 1px solid #ddd;
+}
+
+.collage-card:hover {
+  transform: rotate(0deg) scale(1.02);
+  z-index: 10;
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+/* Header Logo Adjustment */
+.md-header__button.md-logo img {
+  height: 36px;
+  width: auto;
+}

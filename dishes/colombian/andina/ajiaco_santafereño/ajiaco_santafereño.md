@@ -12,6 +12,12 @@ difficulty: "★★★☆☆"
 prep_time: "20 minutos"
 cook_time: "1 hora y 30 minutos"
 servings: 6
+nutrition:
+  calories: 520
+  protein: "28g"
+  fat: "18g"
+  carbs: "65g"
+tags: ["Plato fuerte", "Sopa tradicional", "Comida típica"]
 images:
   - url: "https://pixabay.com/es/photos/ajiaco-soup-colombian-food-6146256/"
     description: "Ajiaco santafereño servido con guarniciones (Pixabay)"
@@ -104,7 +110,9 @@ Esta sección profundiza en los componentes del Ajiaco Santafereño y los consej
 
 ## 📸 Galería
 
-*Próximamente...*
+![Ajiaco servido](./images/1.jpg)
+
+![Ingredientes](./images/2.jpg)
 
 Referencias:
 
