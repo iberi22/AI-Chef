@@ -8,3 +8,5 @@ node_modules/
 # ¡NO ignores .husky! Los hooks deben versionarse para Husky
 # .husky/
 mkdocs.yml
+site/dist/
+site/node_modules/

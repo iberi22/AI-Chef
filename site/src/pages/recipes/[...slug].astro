@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import ThemeToggle from '../../components/ThemeToggle.astro';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('dishes');
@@ -11,45 +12,114 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+const baseUrl = import.meta.env.BASE_URL;
+
+function findImage(body) {
+  const mdMatch = body.match(/!\[.*?\]\((.*?)\)/);
+  if (mdMatch && !mdMatch[1].endsWith('.svg')) return mdMatch[1];
+  const htmlMatch = body.match(/<img.*?src=["'](.*?)["']/);
+  if (htmlMatch && !htmlMatch[1].endsWith('.svg')) return htmlMatch[1];
+  return null;
+}
+const heroImage = entry.data.image || findImage(entry.body);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": entry.data.title,
+  "headline": entry.data.title,
+  "image": heroImage || `${Astro.site}icon-512x512.png`,
+  "url": new URL(Astro.url.pathname, Astro.site).toString(),
+  "description": `Receta de ${entry.data.title} asistida por IA.`
+};
 ---
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
 
 <Layout title={entry.data.title || entry.slug}>
   <div class="relative min-h-screen w-full flex flex-col">
-    <!-- Header (Simplified for recipe page) -->
+    <!-- Header -->
     <header class="sticky top-0 z-50 w-full glass-panel border-b border-[#e6e6db] dark:border-[#333]">
       <div class="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-6 lg:px-10">
         <div class="flex items-center gap-4">
-          <a href={import.meta.env.BASE_URL} class="flex size-10 items-center justify-center rounded-xl bg-primary text-black shadow-neon hover:scale-105 transition-transform">
+          <a href={baseUrl} class="flex size-10 items-center justify-center rounded-xl bg-surface-light dark:bg-surface-dark border border-gray-200 dark:border-gray-700 text-text-light dark:text-text-dark hover:bg-primary hover:text-black hover:border-primary transition-all shadow-sm">
             <span class="material-symbols-outlined">arrow_back</span>
           </a>
-          <h2 class="text-xl font-bold tracking-tight hidden md:block">{entry.data.title}</h2>
+          <h2 class="text-xl font-bold tracking-tight hidden md:block line-clamp-1">{entry.data.title}</h2>
+        </div>
+        
+        <div class="flex items-center gap-2">
+            <button id="fav-btn" class="flex size-10 items-center justify-center rounded-xl bg-surface-light dark:bg-surface-dark border border-gray-200 dark:border-gray-700 text-text-light dark:text-text-dark hover:bg-primary hover:text-black hover:border-primary transition-all shadow-sm" aria-label="Toggle Favorite">
+              <span class="material-symbols-outlined" id="fav-icon">favorite_border</span>
+            </button>
+            <ThemeToggle />
         </div>
       </div>
     </header>
 
     <main class="flex-1 container mx-auto px-4 py-8 max-w-4xl">
-      <div class="glass-panel rounded-2xl p-8 md:p-12 shadow-xl ring-1 ring-black/5 dark:ring-white/10 bg-surface-light dark:bg-surface-dark">
-        <div class="flex flex-col gap-6 mb-8">
-          <div class="inline-flex items-center gap-2">
-             <span class="rounded-full bg-primary/90 px-3 py-1 text-xs font-bold text-black backdrop-blur-md capitalize">{entry.slug.split('/')[0]}</span>
+      <div class="glass-panel rounded-2xl p-8 md:p-12 shadow-xl ring-1 ring-black/5 dark:ring-white/10 bg-surface-light dark:bg-surface-dark relative overflow-hidden">
+        <!-- Decorative background -->
+        <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="relative z-10 flex flex-col gap-6 mb-10 border-b border-gray-100 dark:border-gray-800 pb-8">
+          <div class="inline-flex items-center gap-3 flex-wrap">
+             <span class="rounded-full bg-primary px-3 py-1 text-xs font-bold text-black shadow-neon capitalize">{entry.slug.split('/')[0]}</span>
              <span class="text-xs font-mono text-gray-500 dark:text-gray-400 uppercase tracking-widest">ID: {entry.slug}</span>
           </div>
-          <h1 class="font-display text-4xl md:text-5xl font-black tracking-tight text-text-light dark:text-text-dark">
+          <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-text-light dark:text-text-dark leading-tight">
             {entry.data.title}
           </h1>
         </div>
 
-        <article class="prose prose-lg max-w-none
+        <article class="prose prose-lg max-w-none relative z-10
           prose-headings:font-display prose-headings:font-bold prose-headings:text-text-light dark:prose-headings:text-text-dark
           prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-p:leading-relaxed
-          prose-a:text-primary hover:prose-a:text-primary/80 prose-a:no-underline
+          prose-a:text-primary hover:prose-a:text-primary/80 prose-a:no-underline prose-a:font-bold
           prose-strong:text-text-light dark:prose-strong:text-text-dark prose-strong:font-bold
           prose-code:text-primary prose-code:bg-black/5 dark:prose-code:bg-white/10 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:font-mono
-          prose-img:rounded-2xl prose-img:shadow-lg
-          prose-li:text-gray-600 dark:prose-li:text-gray-300 prose-li:marker:text-primary">
           <Content />
         </article>
       </div>
+    </main>
+  </div>
+
+  <script is:inline data-astro-rerun define:vars={{ recipe: { title: entry.data.title, slug: entry.slug, image: heroImage } }}>
+      const btn = document.getElementById('fav-btn');
+      const icon = document.getElementById('fav-icon');
+      const STORAGE_KEY = 'ai_chef_favorites';
+
+      if (btn && icon) {
+        const isFavorite = () => {
+            try {
+                const favs = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+                return favs.some(f => f.slug === recipe.slug);
+            } catch (e) { return false; }
+        };
+
+        const updateIcon = () => {
+            const active = isFavorite();
+            icon.textContent = active ? 'favorite' : 'favorite_border';
+            icon.classList.toggle('text-red-500', active);
+        };
+
+        btn.onclick = () => {
+            try {
+                const favs = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+                if (isFavorite()) {
+                    const newFavs = favs.filter(f => f.slug !== recipe.slug);
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(newFavs));
+                } else {
+                    favs.push(recipe);
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(favs));
+                }
+                updateIcon();
+            } catch (e) { console.error(e); }
+        };
+
+        updateIcon();
+      }
+  </script>
+</Layout>iv>
     </main>
   </div>
 </Layout>

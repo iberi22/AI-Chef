@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import RecipeCard from '../components/RecipeCard.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
 import { getCollection } from 'astro:content';
 
 const allRecipes = await getCollection('dishes');
@@ -17,7 +19,7 @@ function findImage(recipe: any) {
 
 const recipesWithImages = allRecipes.map(recipe => ({
   ...recipe,
-  image: findImage(recipe) || 'https://lh3.googleusercontent.com/aida-public/AB6AXuA4co0x-7E71MrGGHmDDW2O-Ma7YB6UWTEI7TxpMcz4f8DuxQh6BJlTOgTeRit7f0NBS4qJLwYjmN4VGU1usYBLhxtPS4udPQk6HTTceajIBIZnhtK4wJ3YU0Ciu7ifJMrZWK3rnYFnhFOo3V0K464bVrmteNQvbmZPESIDBirFPvcFm68OwbjaRRRPnkzhGdH0lFVi8o2p6Bf9yzgW__2qVcAWzIlk3TxuHcsxP63h5X_C2K7h4_12nkgs7xKk09B5lYgM3pFYaSA' // Default fallback
+  image: findImage(recipe) || undefined // Let RecipeCard handle fallback
 }));
 
 const categories = [...new Set(allRecipes.map(r => r.slug.split('/')[0]))].sort();
@@ -42,17 +44,18 @@ const baseUrl = import.meta.env.BASE_URL;
             <div class="flex h-full items-center justify-center pl-4 text-gray-400 dark:text-gray-500">
               <span class="material-symbols-outlined">search</span>
             </div>
-            <input class="h-full w-full border-none bg-transparent px-3 text-sm font-medium text-text-light dark:text-text-dark placeholder:text-gray-400 focus:outline-none focus:ring-0" placeholder="Search for logic-based recipes..."/>
+            <input id="search-input" class="h-full w-full border-none bg-transparent px-3 text-sm font-medium text-text-light dark:text-text-dark placeholder:text-gray-400 focus:outline-none focus:ring-0" placeholder="Search for logic-based recipes..."/>
           </label>
         </div>
         <!-- Actions -->
         <div class="flex items-center gap-3 md:gap-6">
           <nav class="hidden gap-6 md:flex">
             <a class="text-sm font-medium hover:text-primary transition-colors" href={baseUrl}>Home</a>
-            <a class="text-sm font-medium text-gray-500 hover:text-primary dark:text-gray-400 transition-colors" href="#">My Recipes</a>
+            <a class="text-sm font-medium text-gray-500 hover:text-primary dark:text-gray-400 transition-colors" href={`${baseUrl}/favorites`} id="nav-favorites">My Recipes</a>
             <a class="text-sm font-medium text-gray-500 hover:text-primary dark:text-gray-400 transition-colors" href="#">Community</a>
           </nav>
           <div class="flex items-center gap-2 border-l border-gray-200 pl-2 dark:border-gray-800 md:pl-6">
+            <ThemeToggle />
             <button class="flex size-10 items-center justify-center rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors text-gray-600 dark:text-gray-300">
               <span class="material-symbols-outlined">notifications</span>
             </button>
@@ -98,13 +101,13 @@ const baseUrl = import.meta.env.BASE_URL;
 
       <!-- Filters -->
       <div class="sticky top-20 z-30 w-full border-b border-gray-200 bg-background-light/95 backdrop-blur dark:border-gray-800 dark:bg-background-dark/95">
-        <div class="mx-auto flex max-w-[1440px] items-center gap-3 overflow-x-auto px-6 py-4 lg:px-10 scrollbar-hide">
-          <button class="flex h-10 shrink-0 items-center gap-2 rounded-full bg-black px-5 text-sm font-bold text-white transition-transform hover:scale-105 dark:bg-white dark:text-black">
+        <div class="mx-auto flex max-w-[1440px] items-center gap-3 overflow-x-auto px-6 py-4 lg:px-10 scrollbar-hide" id="category-filters">
+          <button data-category="all" class="category-btn active flex h-10 shrink-0 items-center gap-2 rounded-full border border-transparent bg-black px-5 text-sm font-bold text-white transition-transform hover:scale-105 dark:bg-white dark:text-black">
             <span class="material-symbols-outlined text-[18px]">tune</span>
             <span>All Recipes</span>
           </button>
           {categories.map(category => (
-            <button class="flex h-10 shrink-0 items-center gap-2 rounded-full border border-gray-200 bg-white px-5 text-sm font-medium text-text-light transition-all hover:border-primary hover:text-primary dark:border-gray-700 dark:bg-surface-dark dark:text-text-dark dark:hover:border-primary capitalize">
+            <button data-category={category} class="category-btn flex h-10 shrink-0 items-center gap-2 rounded-full border border-gray-200 bg-white px-5 text-sm font-medium text-text-light transition-all hover:border-primary hover:text-primary dark:border-gray-700 dark:bg-surface-dark dark:text-text-dark dark:hover:border-primary capitalize">
               <span class="material-symbols-outlined text-[18px]">category</span>
               <span>{category}</span>
             </button>
@@ -117,45 +120,158 @@ const baseUrl = import.meta.env.BASE_URL;
 
       <!-- Recipe Grid -->
       <div class="mx-auto max-w-[1440px] px-6 py-8 lg:px-10">
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div id="recipe-grid" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {recipesWithImages.map(recipe => (
-            <article class="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-surface-light shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/20 dark:border-gray-800 dark:bg-surface-dark">
-              <div class="relative aspect-video w-full overflow-hidden">
-                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style={`background-image: url("${recipe.image}");`}></div>
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60"></div>
-                <div class="absolute right-3 top-3 rounded-full bg-black/50 p-2 backdrop-blur-md transition-colors hover:bg-primary hover:text-black">
-                  <span class="material-symbols-outlined block text-[20px] text-white group-hover:text-black">favorite</span>
-                </div>
-                <div class="absolute bottom-3 left-3 flex gap-2">
-                  <span class="rounded-full bg-primary/90 px-2.5 py-0.5 text-xs font-bold text-black backdrop-blur-md capitalize">{recipe.slug.split('/')[0]}</span>
-                </div>
-              </div>
-              <div class="flex flex-1 flex-col p-5">
-                <h3 class="mb-1 text-lg font-bold leading-tight group-hover:text-primary transition-colors">
-                  <a href={`${baseUrl}/recipes/${recipe.slug}`}>{recipe.data.title}</a>
-                </h3>
-                <p class="mb-4 text-sm text-gray-500 line-clamp-2 dark:text-gray-400">{recipe.data.description || 'A delicious recipe generated by AI-Chef.'}</p>
-                <div class="mt-auto flex items-center justify-between border-t border-gray-100 pt-4 dark:border-gray-800">
-                  <div class="flex items-center gap-4 text-xs font-medium text-gray-500 dark:text-gray-400 font-mono">
-                    <div class="flex items-center gap-1">
-                      <span class="material-symbols-outlined text-[16px]">schedule</span>
-                      <span>45m</span>
-                    </div>
-                    <div class="flex items-center gap-1">
-                      <span class="material-symbols-outlined text-[16px] text-primary">local_fire_department</span>
-                      <span>520</span>
-                    </div>
-                  </div>
-                  <div class="flex items-center gap-1 text-primary">
-                    <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
-                  </div>
-                </div>
-              </div>
-            </article>
+            <div class="recipe-item" data-category={recipe.slug.split('/')[0]} data-title={recipe.data.title?.toLowerCase() || ''}>
+              <RecipeCard
+                title={recipe.data.title}
+                slug={recipe.slug}
+                image={recipe.image}
+                category={recipe.slug.split('/')[0]}
+              />
+            </div>
           ))}
+        </div>
+
+        <!-- No Results Message -->
+        <div id="no-results" class="hidden py-20 text-center">
+            <div class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-gray-100 dark:bg-gray-800 mb-4">
+                <span class="material-symbols-outlined text-3xl text-gray-400">search_off</span>
+            </div>
+            <h3 class="text-lg font-bold text-text-light dark:text-text-dark">No recipes found</h3>
+            <p class="text-gray-500 dark:text-gray-400">Try adjusting your search or filters.</p>
         </div>
       </div>
     </main>
   </div>
 </Layout>
 
+<script>
+  // Client-side filtering logic
+  document.addEventListener('astro:page-load', () => {
+    const searchInput = document.getElementById('search-input') as HTMLInputElement;
+    const categoryBtns = document.querySelectorAll('.category-btn');
+    const recipeItems = document.querySelectorAll('.recipe-item');
+    const noResults = document.getElementById('no-results');
+    const navFavorites = document.getElementById('nav-favorites');
+
+    let currentCategory = 'all';
+    let currentSearch = '';
+    let showFavoritesOnly = false;
+
+    // Load favorites from localStorage
+    const getFavorites = () => JSON.parse(localStorage.getItem('ai-chef-favorites') || '[]');
+    const setFavorites = (favs: string[]) => localStorage.setItem('ai-chef-favorites', JSON.stringify(favs));
+
+    // Initialize favorite buttons
+    function initFavoriteButtons() {
+        const favorites = getFavorites();
+        document.querySelectorAll('.fav-btn').forEach(btn => {
+            const slug = (btn as HTMLElement).dataset.slug;
+            if (slug && favorites.includes(slug)) {
+                btn.classList.add('active');
+            }
+
+            // Remove old listeners to avoid duplicates if re-running (though page-load runs once per nav)
+            const newBtn = btn.cloneNode(true);
+            btn.parentNode?.replaceChild(newBtn, btn);
+
+            newBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const target = e.currentTarget as HTMLElement;
+                const s = target.dataset.slug;
+                if (!s) return;
+
+                const currentFavs = getFavorites();
+                if (currentFavs.includes(s)) {
+                    const newFavs = currentFavs.filter(f => f !== s);
+                    setFavorites(newFavs);
+                    target.classList.remove('active');
+                } else {
+                    currentFavs.push(s);
+                    setFavorites(currentFavs);
+                    target.classList.add('active');
+                }
+
+                // If we are in favorites view, re-filter to hide removed item
+                if (showFavoritesOnly) {
+                    filterRecipes();
+                }
+            });
+        });
+    }
+
+    function filterRecipes() {
+      let visibleCount = 0;
+      const favorites = getFavorites();
+
+      recipeItems.forEach(item => {
+        const itemCategory = (item as HTMLElement).dataset.category;
+        const itemTitle = (item as HTMLElement).dataset.title;
+        // We need to get the slug from the RecipeCard link inside the item
+        // Or better, get it from the fav-btn inside
+        const favBtn = item.querySelector('.fav-btn') as HTMLElement;
+        const slug = favBtn?.dataset.slug;
+
+        const matchesCategory = currentCategory === 'all' || itemCategory === currentCategory;
+        const matchesSearch = itemTitle?.includes(currentSearch);
+        const matchesFavorite = !showFavoritesOnly || (slug && favorites.includes(slug));
+
+        if (matchesCategory && matchesSearch && matchesFavorite) {
+          item.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+
+      if (noResults) {
+        noResults.classList.toggle('hidden', visibleCount === 0);
+      }
+    }
+
+    // Initialize
+    initFavoriteButtons();
+
+    // Search Event
+    searchInput?.addEventListener('input', (e) => {
+      currentSearch = (e.target as HTMLInputElement).value.toLowerCase();
+      filterRecipes();
+    });
+
+    // Category Events
+    categoryBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Reset favorites mode if active
+        showFavoritesOnly = false;
+        navFavorites?.classList.remove('text-primary');
+
+        // Update active state
+        categoryBtns.forEach(b => {
+            b.classList.remove('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+            b.classList.add('bg-white', 'text-text-light', 'dark:bg-surface-dark', 'dark:text-text-dark');
+        });
+        btn.classList.remove('bg-white', 'text-text-light', 'dark:bg-surface-dark', 'dark:text-text-dark');
+        btn.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+
+        currentCategory = (btn as HTMLElement).dataset.category || 'all';
+        filterRecipes();
+      });
+    });
+
+    // Favorites Filter Event
+    navFavorites?.addEventListener('click', (e) => {
+        e.preventDefault();
+        showFavoritesOnly = !showFavoritesOnly;
+
+        if (showFavoritesOnly) {
+            navFavorites.classList.add('text-primary');
+            // Reset category visual state to "all" or none, but logic handles it
+        } else {
+            navFavorites.classList.remove('text-primary');
+        }
+        filterRecipes();
+    });
+  });
+</script>
