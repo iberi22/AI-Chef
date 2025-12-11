@@ -3,186 +3,134 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="API Documentation - AI Chef">
-  <div class="max-w-4xl mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-6 text-primary font-mono tracking-tighter">API Documentation</h1>
-
-    <p class="text-lg mb-8 text-muted font-mono">
-      Access all recipes programmatically through our JSON API. All endpoints return structured data
-      with recipe metadata, ingredients, and preparation details.
-    </p>
-
-    <div class="bg-surface border-l-4 border-primary p-4 mb-8">
-      <p class="font-semibold text-primary font-mono uppercase tracking-widest text-xs mb-2">Base URL</p>
-      <code class="text-sm bg-dark px-2 py-1 text-accent font-mono block w-full overflow-x-auto">https://iberi22.github.io/AI-Chef/api/</code>
-    </div>
-
-    <section class="mb-12">
-      <h2 class="text-2xl font-bold mb-4 text-light font-mono uppercase tracking-widest border-b border-gray-800 pb-2">Main Endpoints</h2>
-
-      <div class="space-y-4">
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/index.json</h3>
-          <p class="text-muted mb-2 text-sm">API index with statistics and available endpoints</p>
-          <a href="/AI-Chef/api/index.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View response</a>
-        </div>
-
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/all.json</h3>
-          <p class="text-muted mb-2 text-sm">All recipes (428 total)</p>
-          <a href="/AI-Chef/api/all.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View response</a>
-        </div>
-
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/with-metadata.json</h3>
-          <p class="text-muted mb-2 text-sm">Recipes with complete frontmatter metadata (Colombian, Peruvian)</p>
-          <a href="/AI-Chef/api/with-metadata.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View response</a>
-        </div>
-
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/without-metadata.json</h3>
-          <p class="text-muted mb-2 text-sm">Recipes without metadata (mainly Chinese recipes)</p>
-          <a href="/AI-Chef/api/without-metadata.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View response</a>
+  <div class="relative min-h-screen w-full flex flex-col">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 w-full glass-panel border-b border-[#e6e6db] dark:border-[#333]">
+      <div class="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-6 lg:px-10">
+        <div class="flex items-center gap-4">
+          <a href={import.meta.env.BASE_URL} class="flex size-10 items-center justify-center rounded-xl bg-primary text-black shadow-neon hover:scale-105 transition-transform">
+            <span class="material-symbols-outlined">arrow_back</span>
+          </a>
+          <h2 class="text-xl font-bold tracking-tight hidden md:block">API Documentation</h2>
         </div>
       </div>
-    </section>
+    </header>
 
-    <section class="mb-12">
-      <h2 class="text-2xl font-bold mb-4 text-light font-mono uppercase tracking-widest border-b border-gray-800 pb-2">By Language</h2>
+    <main class="flex-1 container mx-auto px-4 py-8 max-w-4xl">
+      <div class="glass-panel rounded-2xl p-8 md:p-12 shadow-xl ring-1 ring-black/5 dark:ring-white/10 bg-surface-light dark:bg-surface-dark">
+        <h1 class="font-display text-4xl font-black tracking-tight text-text-light dark:text-text-dark mb-6">
+          API Documentation
+        </h1>
 
-      <div class="grid md:grid-cols-2 gap-4">
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/spanish/index.json</h3>
-          <p class="text-muted mb-2 text-sm">All Spanish recipes (103)</p>
-          <a href="/AI-Chef/api/spanish/index.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View</a>
+        <p class="text-lg mb-8 text-gray-600 dark:text-gray-300">
+          Access all recipes programmatically through our JSON API. All endpoints return structured data
+          with recipe metadata, ingredients, and preparation details.
+        </p>
+
+        <div class="bg-black/5 dark:bg-white/5 rounded-xl p-6 mb-8 border border-black/10 dark:border-white/10">
+          <p class="font-bold text-primary uppercase tracking-widest text-xs mb-2">Base URL</p>
+          <code class="text-sm font-mono block w-full overflow-x-auto text-text-light dark:text-text-dark">https://iberi22.github.io/AI-Chef/api/</code>
         </div>
 
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/chinese/index.json</h3>
-          <p class="text-muted mb-2 text-sm">All Chinese recipes (325)</p>
-          <a href="/AI-Chef/api/chinese/index.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View</a>
-        </div>
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6 text-text-light dark:text-text-dark border-b border-gray-200 dark:border-gray-700 pb-2">Main Endpoints</h2>
+
+          <div class="grid gap-4">
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/index.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">API index with statistics and available endpoints</p>
+              <a href="/AI-Chef/api/index.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/all.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">All recipes (428 total)</p>
+              <a href="/AI-Chef/api/all.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/with-metadata.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">Recipes with complete frontmatter metadata (Colombian, Peruvian)</p>
+              <a href="/AI-Chef/api/with-metadata.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/without-metadata.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">Recipes without metadata (mainly Chinese recipes)</p>
+              <a href="/AI-Chef/api/without-metadata.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6 text-text-light dark:text-text-dark border-b border-gray-200 dark:border-gray-700 pb-2">By Language</h2>
+
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/spanish/index.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">All Spanish recipes (103)</p>
+              <a href="/AI-Chef/api/spanish/index.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/chinese/index.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">All Chinese recipes (325)</p>
+              <a href="/AI-Chef/api/chinese/index.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6 text-text-light dark:text-text-dark border-b border-gray-200 dark:border-gray-700 pb-2">By Country</h2>
+
+          <div class="grid md:grid-cols-3 gap-4">
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/spanish/colombia.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">Colombian recipes (101)</p>
+              <a href="/AI-Chef/api/spanish/colombia.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/chinese/china.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">Chinese recipes (324)</p>
+              <a href="/AI-Chef/api/chinese/china.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+
+            <div class="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-primary hover:shadow-md dark:border-gray-700 dark:bg-surface-dark dark:hover:border-primary">
+              <h3 class="font-mono text-sm font-bold text-primary mb-2">GET /api/spanish/peru.json</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm">Peruvian recipes (1)</p>
+              <a href="/AI-Chef/api/spanish/peru.json" class="inline-flex items-center text-sm font-bold text-text-light dark:text-text-dark hover:text-primary transition-colors">
+                View response <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="mt-6 p-6 bg-black/5 dark:bg-white/5 rounded-xl border border-black/10 dark:border-white/10">
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2 font-mono">Alternative: Country-agnostic endpoints</p>
+            <ul class="space-y-1 text-sm font-mono text-primary">
+              <li>/api/countries/colombia.json</li>
+              <li>/api/countries/china.json</li>
+              <li>/api/countries/peru.json</li>
+            </ul>
+          </div>
+        </section>
       </div>
-    </section>
-
-    <section class="mb-12">
-      <h2 class="text-2xl font-bold mb-4 text-light font-mono uppercase tracking-widest border-b border-gray-800 pb-2">By Country</h2>
-
-      <div class="grid md:grid-cols-3 gap-4">
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/spanish/colombia.json</h3>
-          <p class="text-muted mb-2 text-sm">Colombian recipes (101)</p>
-          <a href="/AI-Chef/api/spanish/colombia.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View</a>
-        </div>
-
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/chinese/china.json</h3>
-          <p class="text-muted mb-2 text-sm">Chinese recipes (324)</p>
-          <a href="/AI-Chef/api/chinese/china.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View</a>
-        </div>
-
-        <div class="bg-surface border border-gray-800 p-4 hover:border-primary transition-colors group">
-          <h3 class="font-mono text-sm text-primary mb-2 group-hover:text-white transition-colors">GET /api/spanish/peru.json</h3>
-          <p class="text-muted mb-2 text-sm">Peruvian recipes (1)</p>
-          <a href="/AI-Chef/api/spanish/peru.json" class="text-secondary hover:text-white text-xs uppercase tracking-widest">→ View</a>
-        </div>
-      </div>
-
-      <div class="mt-4 p-4 bg-dark border border-gray-800">
-        <p class="text-sm text-muted mb-2 font-mono">Alternative: Country-agnostic endpoints</p>
-        <ul class="space-y-1 text-sm font-mono text-accent">
-          <li>/api/countries/colombia.json</li>
-          <li>/api/countries/china.json</li>
-          <li>/api/countries/peru.json</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="mb-12">
-      <h2 class="text-2xl font-bold mb-4 text-gray-800">📦 Response Schema</h2>
-
-      <pre class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto text-sm"><code>{`{
-  "recipes": [
-    {
-      "id": "colombian/nacionales/chuzo",
-      "title": "Chuzo Colombiano (Brocheta Callejera)",
-      "language": "spanish",
-      "country": "colombia",
-      "hasMetadata": true,
-      "metadata": {
-        "title": "Chuzo Colombiano...",
-        "region": "Nacional",
-        "categories": ["Snack", "Comida callejera"],
-        "difficulty": "★★☆☆☆",
-        "prep_time": "40 minutos",
-        "cook_time": "30 minutos",
-        "servings": 6
-      },
-      "category": ["Snack", "Comida callejera"],
-      "difficulty": "★★☆☆☆",
-      "prepTime": "40 minutos",
-      "cookTime": "30 minutos",
-      "servings": 6,
-      "mainIngredients": ["Carne de res", "Pollo", "Papa salada"],
-      "tags": ["colombiano", "tradicional", "chuzo"],
-      "filePath": "dishes/colombian/nacionales/chuzo.md"
-    }
-  ],
-  "count": 101
-}`}</code></pre>
-    </section>
-
-    <section class="mb-12">
-      <h2 class="text-2xl font-bold mb-4 text-gray-800">💡 Usage Examples</h2>
-
-      <div class="space-y-6">
-        <div>
-          <h3 class="font-semibold mb-2 text-gray-700">JavaScript / Fetch API</h3>
-          <pre class="bg-gray-900 text-blue-300 p-4 rounded-lg overflow-x-auto text-sm"><code>{`fetch('https://iberi22.github.io/AI-Chef/api/spanish/colombia.json')
-  .then(res => res.json())
-  .then(data => {
-    console.log(\`Found \${data.count} Colombian recipes\`);
-    data.recipes.forEach(recipe => {
-      console.log(\`- \${recipe.title} (\${recipe.difficulty})\`);
-    });
-  });`}</code></pre>
-        </div>
-
-        <div>
-          <h3 class="font-semibold mb-2 text-gray-700">Python / Requests</h3>
-          <pre class="bg-gray-900 text-yellow-300 p-4 rounded-lg overflow-x-auto text-sm"><code>{`import requests
-
-response = requests.get(
-    'https://iberi22.github.io/AI-Chef/api/chinese/china.json'
-)
-data = response.json()
-
-print(f"Found {data['count']} Chinese recipes")
-for recipe in data['recipes']:
-    print(f"- {recipe['title']}")`}</code></pre>
-        </div>
-
-        <div>
-          <h3 class="font-semibold mb-2 text-gray-700">cURL</h3>
-          <pre class="bg-gray-900 text-green-300 p-4 rounded-lg overflow-x-auto text-sm"><code>curl https://iberi22.github.io/AI-Chef/api/index.json | jq '.languages'</code></pre>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-orange-50 border-l-4 border-orange-500 p-6 rounded">
-      <h2 class="text-xl font-bold mb-3 text-orange-800">📝 Notes</h2>
-      <ul class="list-disc list-inside space-y-2 text-gray-700">
-        <li><strong>Chinese recipes</strong> (325) don't have YAML frontmatter metadata</li>
-        <li><strong>Colombian & Peruvian recipes</strong> (103) have complete metadata</li>
-        <li>All endpoints support <strong>CORS</strong> - use from any domain</li>
-        <li>Data is <strong>static JSON</strong> - cached and fast</li>
-        <li>Updated on every deployment to GitHub Pages</li>
-      </ul>
-    </section>
-
-    <div class="mt-12 text-center">
-      <a href="/AI-Chef/" class="inline-block bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition">
-        ← Back to Recipes
-      </a>
-    </div>
+    </main>
   </div>
 </Layout>

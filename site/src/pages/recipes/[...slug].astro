@@ -13,33 +13,43 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Layout title={entry.id.split('/').pop()?.replace('.md', '') || 'Receta'}>
-  <div class="max-w-4xl mx-auto bg-surface border border-gray-800 rounded-none relative overflow-hidden">
-    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-accent"></div>
-
-    <div class="p-8">
-      <div class="flex justify-between items-center mb-8 border-b border-gray-800 pb-4">
-        <a href="javascript:history.back()" class="inline-flex items-center text-primary hover:text-white transition-colors font-mono text-xs uppercase tracking-widest border border-primary/30 px-4 py-2 hover:bg-primary/10 group">
-          <span class="mr-2 group-hover:-translate-x-1 transition-transform">←</span> SYSTEM.BACK
-        </a>
-        <span class="font-mono text-xs text-muted uppercase tracking-widest">ID: {entry.slug}</span>
+<Layout title={entry.data.title || entry.slug}>
+  <div class="relative min-h-screen w-full flex flex-col">
+    <!-- Header (Simplified for recipe page) -->
+    <header class="sticky top-0 z-50 w-full glass-panel border-b border-[#e6e6db] dark:border-[#333]">
+      <div class="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-6 lg:px-10">
+        <div class="flex items-center gap-4">
+          <a href={import.meta.env.BASE_URL} class="flex size-10 items-center justify-center rounded-xl bg-primary text-black shadow-neon hover:scale-105 transition-transform">
+            <span class="material-symbols-outlined">arrow_back</span>
+          </a>
+          <h2 class="text-xl font-bold tracking-tight hidden md:block">{entry.data.title}</h2>
+        </div>
       </div>
+    </header>
 
-      <article class="prose prose-invert prose-lg max-w-none
-        prose-headings:text-primary prose-headings:font-mono prose-headings:uppercase prose-headings:tracking-tight
-        prose-p:text-muted prose-p:leading-relaxed
-        prose-a:text-secondary hover:prose-a:text-white prose-a:no-underline prose-a:border-b prose-a:border-secondary/50 hover:prose-a:border-white
-        prose-strong:text-light prose-strong:font-bold
-        prose-code:text-accent prose-code:bg-dark/50 prose-code:px-1 prose-code:py-0.5 prose-code:rounded-none prose-code:font-mono
-        prose-img:rounded-none prose-img:border prose-img:border-gray-800 prose-img:shadow-none
-        prose-li:text-muted prose-li:marker:text-primary">
-        <Content />
-      </article>
+    <main class="flex-1 container mx-auto px-4 py-8 max-w-4xl">
+      <div class="glass-panel rounded-2xl p-8 md:p-12 shadow-xl ring-1 ring-black/5 dark:ring-white/10 bg-surface-light dark:bg-surface-dark">
+        <div class="flex flex-col gap-6 mb-8">
+          <div class="inline-flex items-center gap-2">
+             <span class="rounded-full bg-primary/90 px-3 py-1 text-xs font-bold text-black backdrop-blur-md capitalize">{entry.slug.split('/')[0]}</span>
+             <span class="text-xs font-mono text-gray-500 dark:text-gray-400 uppercase tracking-widest">ID: {entry.slug}</span>
+          </div>
+          <h1 class="font-display text-4xl md:text-5xl font-black tracking-tight text-text-light dark:text-text-dark">
+            {entry.data.title}
+          </h1>
+        </div>
 
-      <div class="mt-12 pt-8 border-t border-gray-800 flex justify-between items-center text-xs font-mono text-muted uppercase">
-        <span>End of File</span>
-        <span class="text-accent">●</span>
+        <article class="prose prose-lg max-w-none
+          prose-headings:font-display prose-headings:font-bold prose-headings:text-text-light dark:prose-headings:text-text-dark
+          prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-p:leading-relaxed
+          prose-a:text-primary hover:prose-a:text-primary/80 prose-a:no-underline
+          prose-strong:text-text-light dark:prose-strong:text-text-dark prose-strong:font-bold
+          prose-code:text-primary prose-code:bg-black/5 dark:prose-code:bg-white/10 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:font-mono
+          prose-img:rounded-2xl prose-img:shadow-lg
+          prose-li:text-gray-600 dark:prose-li:text-gray-300 prose-li:marker:text-primary">
+          <Content />
+        </article>
       </div>
-    </div>
+    </main>
   </div>
 </Layout>

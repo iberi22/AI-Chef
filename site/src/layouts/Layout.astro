@@ -8,7 +8,7 @@ const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" class="light">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="AI-Chef Recipes" />
@@ -16,58 +16,45 @@ const baseUrl = import.meta.env.BASE_URL;
 		<link rel="icon" type="image/svg+xml" href={`${baseUrl}/favicon.svg`} />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
 	</head>
-	<body class="bg-dark text-light min-h-screen flex flex-col font-sans selection:bg-primary selection:text-dark">
-		<div class="fixed inset-0 z-[-1] bg-[linear-gradient(to_right,#1a1a1a_1px,transparent_1px),linear-gradient(to_bottom,#1a1a1a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
-
-		<header class="bg-dark/80 backdrop-blur-md border-b border-primary/30 sticky top-0 z-50">
-			<nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-				<a href={baseUrl} class="text-2xl font-bold flex items-center gap-2 text-primary hover:text-white transition-colors tracking-tighter">
-					<span class="text-accent">&lt;</span>AI-Chef /<span class="text-accent">&gt;</span>
-				</a>
-				<div class="hidden md:flex gap-8 text-sm uppercase tracking-widest">
-					<a href={baseUrl} class="hover:text-primary transition-colors relative group">
-						Inicio
-						<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
-					</a>
-					<a href={`${baseUrl}/api-docs`} class="hover:text-primary transition-colors relative group">
-						API
-						<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
-					</a>
-					<a href="https://github.com/iberi22/AI-Chef" target="_blank" class="hover:text-primary transition-colors relative group">
-						GitHub
-						<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
-					</a>
-				</div>
-			</nav>
-		</header>
-
-		<main class="container mx-auto px-4 py-8 flex-grow relative">
-			<slot />
-		</main>
-
-		<footer class="bg-surface border-t border-gray-800 text-muted py-8 mt-auto">
-			<div class="container mx-auto px-4 text-center text-xs uppercase tracking-widest">
-				<p>&copy; {new Date().getFullYear()} AI-Chef. <span class="text-primary">System Online</span>.</p>
-			</div>
-		</footer>
+	<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark min-h-screen font-display selection:bg-primary selection:text-black transition-colors duration-300">
+		<slot />
 	</body>
 </html>
 
 <style is:global>
+	.glass-panel {
+		background: rgba(255, 255, 255, 0.7);
+		backdrop-filter: blur(12px);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+	}
+	.dark .glass-panel {
+		background: rgba(30, 30, 30, 0.6);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+	}
+
 	/* Custom scrollbar */
 	::-webkit-scrollbar {
 		width: 8px;
 	}
 	::-webkit-scrollbar-track {
-		background: #050505;
+		background: transparent;
 	}
 	::-webkit-scrollbar-thumb {
-		background: #333;
-		border-radius: 0px;
-		border: 1px solid #050505;
+		background: #e6e6db;
+		border-radius: 4px;
+	}
+	.dark ::-webkit-scrollbar-thumb {
+		background: #44433a;
 	}
 	::-webkit-scrollbar-thumb:hover {
-		background: #00f0ff;
+		background: #d1d1c6;
+	}
+	.dark ::-webkit-scrollbar-thumb:hover {
+		background: #5a594e;
 	}
 </style>
