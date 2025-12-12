@@ -1269,6 +1269,82 @@
       "filePath": "dishes/colombian/andina/empanadas/empanadas.md"
     },
     {
+      "id": "colombian/andina/lechona_tolimense/lechona_tolimense",
+      "title": "Lechona Tolimense",
+      "language": "spanish",
+      "country": "colombia",
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Lechona Tolimense",
+        "region": "Andina",
+        "categories": [
+          "Plato fuerte",
+          "Festivo",
+          "Cerdo"
+        ],
+        "sensory": {
+          "flavor": [
+            "Salado",
+            "Umami",
+            "Graso"
+          ],
+          "texture": [
+            "Crujiente",
+            "Suave",
+            "Granoso"
+          ],
+          "aroma": [
+            "Cerdo asado",
+            "Arveja",
+            "Laurel"
+          ],
+          "presentation": "Se sirve el cojín entero para cortar, con la piel dorada y crujiente visible. Se acompaña de arepa blanca e insulso."
+        },
+        "main_ingredients": [
+          "Cerdo",
+          "Arroz",
+          "Arveja",
+          "Piel de cerdo"
+        ],
+        "difficulty": "★★★★☆",
+        "prep_time": "2 horas",
+        "cook_time": "8 horas",
+        "servings": 20,
+        "nutrition": {
+          "calories": 750,
+          "protein": "45g",
+          "fat": "40g",
+          "carbs": "50g"
+        },
+        "tags": [
+          "Plato festivo",
+          "Comida típica",
+          "Tolima"
+        ]
+      },
+      "category": [
+        "Plato fuerte",
+        "Festivo",
+        "Cerdo"
+      ],
+      "difficulty": "★★★★☆",
+      "prepTime": "2 horas",
+      "cookTime": "8 horas",
+      "servings": 20,
+      "mainIngredients": [
+        "Cerdo",
+        "Arroz",
+        "Arveja",
+        "Piel de cerdo"
+      ],
+      "tags": [
+        "Plato festivo",
+        "Comida típica",
+        "Tolima"
+      ],
+      "filePath": "dishes/colombian/andina/lechona_tolimense/lechona_tolimense.md"
+    },
+    {
       "id": "colombian/bebidas/avena",
       "title": "Avena Colombiana (Bebida Fría)",
       "language": "spanish",
@@ -3098,6 +3174,84 @@
       "filePath": "dishes/colombian/nacionales/salchipapa.md"
     },
     {
+      "id": "colombian/orinoquia/mamona/mamona",
+      "title": "Mamona (Ternera a la Llanera)",
+      "language": "spanish",
+      "country": "colombia",
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Mamona (Ternera a la Llanera)",
+        "region": "Orinoquía",
+        "categories": [
+          "Plato fuerte",
+          "Asado",
+          "Comida típica"
+        ],
+        "sensory": {
+          "flavor": [
+            "Umami",
+            "Salado",
+            "Ahumado"
+          ],
+          "texture": [
+            "Jugoso",
+            "Suave",
+            "Crujiente"
+          ],
+          "aroma": [
+            "Ahumado",
+            "Herbal",
+            "Carnoso"
+          ],
+          "presentation": "Se sirve en grandes bandejas o sobre hojas de bijao, acompañado de yuca y plátano. Ideal para fiestas al aire libre."
+        },
+        "main_ingredients": [
+          "Ternera",
+          "Sal",
+          "Ajo",
+          "Orégano",
+          "Tomillo"
+        ],
+        "difficulty": "★★★★☆",
+        "prep_time": "2 horas",
+        "cook_time": "3 horas",
+        "servings": 12,
+        "nutrition": {
+          "calories": 450,
+          "protein": "35g",
+          "fat": "20g",
+          "carbs": "15g"
+        },
+        "tags": [
+          "Plato fuerte",
+          "Asado festivo",
+          "Comida típica"
+        ]
+      },
+      "category": [
+        "Plato fuerte",
+        "Asado",
+        "Comida típica"
+      ],
+      "difficulty": "★★★★☆",
+      "prepTime": "2 horas",
+      "cookTime": "3 horas",
+      "servings": 12,
+      "mainIngredients": [
+        "Ternera",
+        "Sal",
+        "Ajo",
+        "Orégano",
+        "Tomillo"
+      ],
+      "tags": [
+        "Plato fuerte",
+        "Asado festivo",
+        "Comida típica"
+      ],
+      "filePath": "dishes/colombian/orinoquia/mamona/mamona.md"
+    },
+    {
       "id": "colombian/otras_preparaciones/arequipe",
       "title": "Arequipe",
       "language": "spanish",
@@ -4908,5 +5062,5 @@
       "filePath": "dishes/colombian/snacks/pandeyuca.md"
     }
   ],
-  "count": 64
+  "count": 66
 }

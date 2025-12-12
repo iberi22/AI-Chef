@@ -5201,22 +5201,6 @@
       "filePath": "dishes/colombian/amazonia/recetas_amazonia.md"
     },
     {
-      "id": "colombian/andina/lechona_tolimense/lechona_tolimense",
-      "title": "lechona_tolimense",
-      "language": "spanish",
-      "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
-      "category": [],
-      "difficulty": null,
-      "prepTime": null,
-      "cookTime": null,
-      "servings": null,
-      "mainIngredients": [],
-      "tags": [],
-      "filePath": "dishes/colombian/andina/lechona_tolimense/lechona_tolimense.md"
-    },
-    {
       "id": "colombian/andina/manjar_blanco/manjar_blanco",
       "title": "Manjar Blanco",
       "language": "spanish",
@@ -5697,22 +5681,6 @@
       "filePath": "dishes/colombian/orinoquia/hervido_de_gumarra/hervido_de_gumarra.md"
     },
     {
-      "id": "colombian/orinoquia/mamona/mamona",
-      "title": "mamona",
-      "language": "spanish",
-      "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
-      "category": [],
-      "difficulty": null,
-      "prepTime": null,
-      "cookTime": null,
-      "servings": null,
-      "mainIngredients": [],
-      "tags": [],
-      "filePath": "dishes/colombian/orinoquia/mamona/mamona.md"
-    },
-    {
       "id": "colombian/orinoquia/pabellon_llanero/pabellon_llanero",
       "title": "Pabellón Llanero",
       "language": "spanish",
@@ -5793,5 +5761,5 @@
       "filePath": "dishes/peruvian/arroz_con_pollo.md"
     }
   ],
-  "count": 362
+  "count": 360
 }
