@@ -1,13 +1,39 @@
-# Mamona (Ternera a la Llanera)
+---
+title: "Mamona (Ternera a la Llanera)"
+region: "Orinoquía"
+categories: ["Plato fuerte", "Asado", "Comida típica"]
+sensory:
+  flavor: ["Umami", "Salado", "Ahumado"]
+  texture: ["Jugoso", "Suave", "Crujiente"]
+  aroma: ["Ahumado", "Herbal", "Carnoso"]
+  presentation: "Se sirve en grandes bandejas o sobre hojas de bijao, acompañado de yuca y plátano. Ideal para fiestas al aire libre."
+main_ingredients: ["Ternera", "Sal", "Ajo", "Orégano", "Tomillo"]
+difficulty: "★★★★☆"
+prep_time: "2 horas"
+cook_time: "3 horas"
+servings: 12
+nutrition:
+  calories: 450
+  protein: "35g"
+  fat: "20g"
+  carbs: "15g"
+tags: ["Plato fuerte", "Asado festivo", "Comida típica"]
+
+---
+## Mamona (Ternera a la Llanera)
 
 La Mamona, también conocida como Ternera a la Llanera, es el plato más emblemático de la región Orinoquía colombiana. Consiste en carne de res joven asada al calor de leña, sazonada con hierbas y acompañada de yuca, plátano y ají. Es el centro de las celebraciones llaneras y símbolo de hospitalidad.
 
 ## Información General
 
 * **Dificultad:** ★★★★☆
-* **Tiempo de preparación:** 2 horas (incluye marinado y asado)
-* **Tiempo de cocción:** 2-3 horas
+* **Tiempo de preparación:** 2 horas
+* **Tiempo de cocción:** 3 horas
 * **Porciones:** 12
+
+---
+
+## 📸 Galería
 
 ---
 
@@ -45,12 +71,6 @@ La Mamona, también conocida como Ternera a la Llanera, es el plato más emblem�
 
 ---
 
-## 📸 Galería
-
-*Próximamente...*
-
----
-
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
 ### Categorización Sensorial y de Uso
@@ -65,7 +85,7 @@ La Mamona, también conocida como Ternera a la Llanera, es el plato más emblem�
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "La mamona llanera es insuperable, el sabor ahumado y la carne tierna la hacen única".
-- **Foro gastronómico:** "El secreto está en la leña y el marinado con hierbas frescas, le da el toque auténtico llanero".  
+- **Foro gastronómico:** "El secreto está en la leña y el marinado con hierbas frescas, le da el toque auténtico llanero".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

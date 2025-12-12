@@ -1,4 +1,27 @@
-# Lechona Tolimense
+---
+title: "Lechona Tolimense"
+region: "Andina"
+categories: ["Plato fuerte", "Festivo", "Cerdo"]
+sensory:
+  flavor: ["Salado", "Umami", "Graso"]
+  texture: ["Crujiente", "Suave", "Granoso"]
+  aroma: ["Cerdo asado", "Arveja", "Laurel"]
+  presentation: "Se sirve el cojín entero para cortar, con la piel dorada y crujiente visible. Se acompaña de arepa blanca e insulso."
+main_ingredients: ["Cerdo", "Arroz", "Arveja", "Piel de cerdo"]
+difficulty: "★★★★☆"
+prep_time: "2 horas"
+cook_time: "8 horas"
+servings: 20
+nutrition:
+  calories: 750
+  protein: "45g"
+  fat: "40g"
+  carbs: "50g"
+tags: ["Plato festivo", "Comida típica", "Tolima"]
+
+---
+
+## Lechona Tolimense
 
 La Lechona Tolimense es uno de los platos más emblemáticos del Tolima y el centro de Colombia. Consiste en cerdo relleno de arroz, arveja y condimentos, horneado lentamente hasta lograr una piel crujiente y un relleno jugoso y aromático.
 
@@ -6,8 +29,12 @@ La Lechona Tolimense es uno de los platos más emblemáticos del Tolima y el cen
 
 * **Dificultad:** ★★★★☆
 * **Tiempo de preparación:** 2 horas
-* **Tiempo de cocción:** 6-8 horas
-* **Porciones:** 20+
+* **Tiempo de cocción:** 8 horas
+* **Porciones:** 20
+
+---
+
+## 📸 Galería
 
 ---
 
@@ -47,12 +74,6 @@ La Lechona Tolimense es uno de los platos más emblemáticos del Tolima y el cen
 
 ---
 
-## 📸 Galería
-
-*Próximamente...*
-
----
-
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
 ### Categorización Sensorial y de Uso
@@ -67,7 +88,7 @@ La Lechona Tolimense es uno de los platos más emblemáticos del Tolima y el cen
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "La lechona de Tolima es la mejor, la piel es como chicharrón y el relleno es muy sabroso, con el punto justo de grasa".
-- **Foro gastronómico:** "Nada supera una buena lechona en familia, el aroma al abrirla es espectacular y la piel cruje como debe ser".  
+- **Foro gastronómico:** "Nada supera una buena lechona en familia, el aroma al abrirla es espectacular y la piel cruje como debe ser".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

@@ -5982,6 +5982,17 @@
         "prep_time": "20 minutos",
         "cook_time": "1 hora y 30 minutos",
         "servings": 6,
+        "nutrition": {
+          "calories": 520,
+          "protein": "28g",
+          "fat": "18g",
+          "carbs": "65g"
+        },
+        "tags": [
+          "Plato fuerte",
+          "Sopa tradicional",
+          "Comida típica"
+        ],
         "images": [
           {
             "url": "https://pixabay.com/es/photos/ajiaco-soup-colombian-food-6146256/",
@@ -6019,7 +6030,11 @@
         "Guascas",
         "Mazorcas"
       ],
-      "tags": [],
+      "tags": [
+        "Plato fuerte",
+        "Sopa tradicional",
+        "Comida típica"
+      ],
       "filePath": "dishes/colombian/andina/ajiaco_santafereño/ajiaco_santafereño.md"
     },
     {
@@ -6070,6 +6085,17 @@
         "prep_time": "30 minutos",
         "cook_time": "2 horas",
         "servings": 4,
+        "nutrition": {
+          "calories": 1800,
+          "protein": "85g",
+          "fat": "110g",
+          "carbs": "135g"
+        },
+        "tags": [
+          "Plato fuerte",
+          "Comida típica",
+          "Especialidad regional"
+        ],
         "images": [
           {
             "url": "https://pixabay.com/es/photos/bandeja-paisa-colombia-platillo-6146254/",
@@ -6110,7 +6136,11 @@
         "Aguacate",
         "Huevo frito"
       ],
-      "tags": [],
+      "tags": [
+        "Plato fuerte",
+        "Comida típica",
+        "Especialidad regional"
+      ],
       "filePath": "dishes/colombian/andina/bandeja_paisa/bandeja_paisa.md"
     },
     {
@@ -6440,7 +6470,7 @@
     },
     {
       "id": "colombian/andina/lechona_tolimense/lechona_tolimense",
-      "title": "Lechona Tolimense",
+      "title": "lechona_tolimense",
       "language": "spanish",
       "country": "colombia",
       "hasMetadata": false,
@@ -7036,6 +7066,17 @@
         "prep_time": "30 minutos",
         "cook_time": "20 minutos",
         "servings": 10,
+        "nutrition": {
+          "calories": 320,
+          "protein": "10g",
+          "fat": "18g",
+          "carbs": "30g"
+        },
+        "tags": [
+          "Frito",
+          "Desayuno",
+          "Comida Callejera"
+        ],
         "images": [
           {
             "url": "https://pixabay.com/es/photos/arepa-de-huevo-colombia-comida-6146262/",
@@ -7071,7 +7112,11 @@
         "Aceite",
         "Carne (opcional)"
       ],
-      "tags": [],
+      "tags": [
+        "Frito",
+        "Desayuno",
+        "Comida Callejera"
+      ],
       "filePath": "dishes/colombian/caribe/arepa_de_huevo/arepa_de_huevo.md"
     },
     {
@@ -7603,6 +7648,17 @@
         "prep_time": "40 minutos",
         "cook_time": "2 horas",
         "servings": 10,
+        "nutrition": {
+          "calories": 650,
+          "protein": "35g",
+          "fat": "25g",
+          "carbs": "50g"
+        },
+        "tags": [
+          "Plato fuerte",
+          "Sopa festiva",
+          "Comida típica"
+        ],
         "images": [
           {
             "url": "https://pixabay.com/es/photos/sancocho-costeño-colombia-6146267/",
@@ -7640,7 +7696,11 @@
         "Papa criolla",
         "Plátano"
       ],
-      "tags": [],
+      "tags": [
+        "Plato fuerte",
+        "Sopa festiva",
+        "Comida típica"
+      ],
       "filePath": "dishes/colombian/caribe/sancocho_costeño/sancocho_costeño.md"
     },
     {
@@ -8735,7 +8795,7 @@
     },
     {
       "id": "colombian/orinoquia/mamona/mamona",
-      "title": "Mamona (Ternera a la Llanera)",
+      "title": "mamona",
       "language": "spanish",
       "country": "colombia",
       "hasMetadata": false,
@@ -8917,24 +8977,75 @@
       "hasMetadata": true,
       "metadata": {
         "title": "Mote de Queso",
-        "images": [
-          "https://www.misrecetas.com/fotos/photo/main/1368/mote_de_queso.jpg",
-          "https://www.recetasgratis.net/co/images/4/5/7/mote_de_queso_23754_600.jpg"
+        "region": "Caribe",
+        "categories": [
+          "Sopa",
+          "Plato fuerte",
+          "Vegetariano"
         ],
-        "sources": [
-          "https://www.mycolombianrecipes.com/es/mote-de-queso-costeno/",
-          "https://www.recetasgratis.net/receta-de-mote-de-queso-costeno-23754.html"
+        "sensory": {
+          "flavor": [
+            "Salado",
+            "Lácteo",
+            "Umami"
+          ],
+          "texture": [
+            "Cremoso",
+            "Suave",
+            "Espeso"
+          ],
+          "aroma": [
+            "Lácteo",
+            "Cebolla",
+            "Achiote"
+          ],
+          "presentation": "Se sirve en cazuela de barro, decorado con el hogao rojo y cubos de queso fresco."
+        },
+        "main_ingredients": [
+          "Ñame",
+          "Queso costeño",
+          "Suero",
+          "Hogao"
         ],
-        "license": "MIT",
-        "yaml_validation": "https://yaml-online-parser.appspot.com/"
+        "difficulty": "★★★☆☆",
+        "prep_time": "20 minutos",
+        "cook_time": "1 hora",
+        "servings": 6,
+        "nutrition": {
+          "calories": 380,
+          "protein": "12g",
+          "fat": "18g",
+          "carbs": "45g"
+        },
+        "tags": [
+          "Sopa tradicional",
+          "Vegetariano",
+          "Comida costeña"
+        ],
+        "gallery_images": [
+          "./images/1.jpg"
+        ]
       },
-      "category": [],
-      "difficulty": null,
-      "prepTime": null,
-      "cookTime": null,
-      "servings": null,
-      "mainIngredients": [],
-      "tags": [],
+      "category": [
+        "Sopa",
+        "Plato fuerte",
+        "Vegetariano"
+      ],
+      "difficulty": "★★★☆☆",
+      "prepTime": "20 minutos",
+      "cookTime": "1 hora",
+      "servings": 6,
+      "mainIngredients": [
+        "Ñame",
+        "Queso costeño",
+        "Suero",
+        "Hogao"
+      ],
+      "tags": [
+        "Sopa tradicional",
+        "Vegetariano",
+        "Comida costeña"
+      ],
       "filePath": "dishes/colombian/otras_preparaciones/mote_de_queso.md"
     },
     {
@@ -9199,6 +9310,17 @@
         "prep_time": "45 minutos",
         "cook_time": "40 minutos",
         "servings": 6,
+        "nutrition": {
+          "calories": 450,
+          "protein": "35g",
+          "fat": "28g",
+          "carbs": "12g"
+        },
+        "tags": [
+          "Plato fuerte",
+          "Sopa festiva",
+          "Comida típica"
+        ],
         "images": [
           {
             "url": "https://pixabay.com/es/photos/cazuela-mariscos-colombia-6146272/",
@@ -9235,7 +9357,11 @@
         "Pescado blanco",
         "Leche de coco"
       ],
-      "tags": [],
+      "tags": [
+        "Plato fuerte",
+        "Sopa festiva",
+        "Comida típica"
+      ],
       "filePath": "dishes/colombian/pacifica/cazuela_de_mariscos/cazuela_de_mariscos.md"
     },
     {

@@ -12,6 +12,12 @@ difficulty: "★★★☆☆"
 prep_time: "30 minutos"
 cook_time: "20 minutos"
 servings: 10
+nutrition:
+  calories: 320
+  protein: "10g"
+  fat: "18g"
+  carbs: "30g"
+tags: ["Frito", "Desayuno", "Comida Callejera"]
 images:
   - url: "https://pixabay.com/es/photos/arepa-de-huevo-colombia-comida-6146262/"
     description: "Arepa de huevo tradicional costeña (Pixabay)"
@@ -68,7 +74,7 @@ La Arepa de Huevo es uno de los íconos de la gastronomía costeña colombiana, 
 
 ## 📸 Galería
 
-*Próximamente...*
+![Arepa de Huevo con Suero](./images/1.jpg)
 
 ---
 
@@ -86,7 +92,7 @@ La Arepa de Huevo es uno de los íconos de la gastronomía costeña colombiana, 
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "Las arepas de huevo de Barranquilla son únicas, siempre crocantes y llenas de sabor".
-- **Foro gastronómico:** "El secreto está en la doble fritura y en sellar bien la arepa para que el huevo no se salga".  
+- **Foro gastronómico:** "El secreto está en la doble fritura y en sellar bien la arepa para que el huevo no se salga".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

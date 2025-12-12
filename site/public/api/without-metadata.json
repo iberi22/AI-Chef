@@ -5202,7 +5202,7 @@
     },
     {
       "id": "colombian/andina/lechona_tolimense/lechona_tolimense",
-      "title": "Lechona Tolimense",
+      "title": "lechona_tolimense",
       "language": "spanish",
       "country": "colombia",
       "hasMetadata": false,
@@ -5698,7 +5698,7 @@
     },
     {
       "id": "colombian/orinoquia/mamona/mamona",
-      "title": "Mamona (Ternera a la Llanera)",
+      "title": "mamona",
       "language": "spanish",
       "country": "colombia",
       "hasMetadata": false,

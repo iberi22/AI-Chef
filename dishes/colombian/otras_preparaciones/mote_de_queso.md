@@ -1,13 +1,25 @@
 ---
 title: "Mote de Queso"
-images:
-  - "https://www.misrecetas.com/fotos/photo/main/1368/mote_de_queso.jpg"
-  - "https://www.recetasgratis.net/co/images/4/5/7/mote_de_queso_23754_600.jpg"
-sources:
-  - "https://www.mycolombianrecipes.com/es/mote-de-queso-costeno/"
-  - "https://www.recetasgratis.net/receta-de-mote-de-queso-costeno-23754.html"
-license: "MIT"
-yaml_validation: "https://yaml-online-parser.appspot.com/"
+region: "Caribe"
+categories: ["Sopa", "Plato fuerte", "Vegetariano"]
+sensory:
+  flavor: ["Salado", "Lácteo", "Umami"]
+  texture: ["Cremoso", "Suave", "Espeso"]
+  aroma: ["Lácteo", "Cebolla", "Achiote"]
+  presentation: "Se sirve en cazuela de barro, decorado con el hogao rojo y cubos de queso fresco."
+main_ingredients: ["Ñame", "Queso costeño", "Suero", "Hogao"]
+difficulty: "★★★☆☆"
+prep_time: "20 minutos"
+cook_time: "1 hora"
+servings: 6
+nutrition:
+  calories: 380
+  protein: "12g"
+  fat: "18g"
+  carbs: "45g"
+tags: ["Sopa tradicional", "Vegetariano", "Comida costeña"]
+gallery_images:
+  - "./images/1.jpg"
 ---
 
 ## Ingredientes
@@ -29,3 +41,9 @@ yaml_validation: "https://yaml-online-parser.appspot.com/"
 5. Cocina por 5 minutos más, justo hasta que el queso se ablande pero no se derrita por completo.
 6. Retira del fuego y, si lo deseas, añade el suero costeño justo antes de servir.
 7. Ajusta de sal y pimienta y sirve caliente.
+
+---
+
+## 📸 Galería
+
+![Mote de Queso Costeño](./images/1.jpg)
