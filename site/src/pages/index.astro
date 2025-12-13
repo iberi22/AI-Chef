@@ -112,6 +112,8 @@ const baseUrl = import.meta.env.BASE_URL;
             <a class="text-sm font-medium text-gray-500 hover:text-primary dark:text-gray-400 transition-colors" href="#">Community</a>
           </nav>
           <div class="flex items-center gap-2 border-l border-gray-200 pl-2 dark:border-gray-800 md:pl-6">
+            <!-- Language Selector -->
+            <div id="google_translate_element" class="hidden md:block"></div>
             <ThemeToggle />
             <button class="flex size-10 items-center justify-center rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors text-gray-600 dark:text-gray-300">
               <span class="material-symbols-outlined">notifications</span>
@@ -180,8 +182,13 @@ const baseUrl = import.meta.env.BASE_URL;
       <!-- Recipe Grid -->
       <div class="mx-auto max-w-[1440px] px-6 py-8 lg:px-10">
         <div id="recipe-grid" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {recipesWithImages.map(recipe => (
-            <div class="recipe-item" data-category={recipe.slug.split('/')[0]} data-title={recipe.computedTitle.toLowerCase()}>
+          {recipesWithImages.map((recipe, index) => (
+            <div
+              class={`recipe-item ${index >= 20 ? 'hidden' : ''}`}
+              data-category={recipe.slug.split('/')[0]}
+              data-title={recipe.computedTitle.toLowerCase()}
+              data-index={index}
+            >
               <RecipeCard
                 title={recipe.computedTitle}
                 slug={recipe.slug}
@@ -196,6 +203,22 @@ const baseUrl = import.meta.env.BASE_URL;
               />
             </div>
           ))}
+        </div>
+
+        <!-- Loading indicator for infinite scroll -->
+        <div id="loading-more" class="hidden py-8 text-center">
+          <div class="inline-flex items-center gap-2 text-gray-500 dark:text-gray-400">
+            <span class="material-symbols-outlined animate-spin">progress_activity</span>
+            <span>Cargando más recetas...</span>
+          </div>
+        </div>
+
+        <!-- End of recipes indicator -->
+        <div id="end-of-recipes" class="hidden py-8 text-center">
+          <div class="inline-flex items-center gap-2 text-gray-400 dark:text-gray-500">
+            <span class="material-symbols-outlined">check_circle</span>
+            <span>¡Has visto todas las recetas!</span>
+          </div>
         </div>
 
         <!-- No Results Message -->
@@ -374,5 +397,76 @@ const baseUrl = import.meta.env.BASE_URL;
         }
         filterRecipes();
     });
+
+    // =============================================
+    // INFINITE SCROLL LOGIC
+    // =============================================
+    const ITEMS_PER_PAGE = 20;
+    let currentlyShown = ITEMS_PER_PAGE;
+    let isLoading = false;
+    const loadingIndicator = document.getElementById('loading-more');
+    const endIndicator = document.getElementById('end-of-recipes');
+    const allRecipeItems = Array.from(recipeItems) as HTMLElement[];
+    const totalRecipes = allRecipeItems.length;
+
+    function loadMoreRecipes() {
+        if (isLoading || currentlyShown >= totalRecipes) return;
+
+        isLoading = true;
+        loadingIndicator?.classList.remove('hidden');
+
+        // Simulate slight delay for UX (can be removed for instant load)
+        setTimeout(() => {
+            const nextBatch = Math.min(currentlyShown + ITEMS_PER_PAGE, totalRecipes);
+
+            for (let i = currentlyShown; i < nextBatch; i++) {
+                const item = allRecipeItems[i];
+                if (item) {
+                    item.classList.remove('hidden');
+                    // Add fade-in animation
+                    item.style.opacity = '0';
+                    item.style.transform = 'translateY(20px)';
+                    requestAnimationFrame(() => {
+                        item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                        item.style.opacity = '1';
+                        item.style.transform = 'translateY(0)';
+                    });
+                }
+            }
+
+            currentlyShown = nextBatch;
+            isLoading = false;
+            loadingIndicator?.classList.add('hidden');
+
+            // Check if we've loaded all recipes
+            if (currentlyShown >= totalRecipes) {
+                endIndicator?.classList.remove('hidden');
+            }
+
+            // Reinitialize favorite buttons for newly loaded items
+            initFavoriteButtons();
+        }, 300);
+    }
+
+    // Intersection Observer for infinite scroll
+    const scrollObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !isLoading) {
+                loadMoreRecipes();
+            }
+        });
+    }, {
+        rootMargin: '200px' // Load more when 200px from bottom
+    });
+
+    // Observe the loading indicator
+    if (loadingIndicator) {
+        // Create a sentinel element at the bottom
+        const sentinel = document.createElement('div');
+        sentinel.id = 'scroll-sentinel';
+        sentinel.style.height = '1px';
+        loadingIndicator.parentNode?.insertBefore(sentinel, loadingIndicator);
+        scrollObserver.observe(sentinel);
+    }
   });
 </script>
