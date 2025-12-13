@@ -44,4 +44,4 @@ tags: ["Sopa tradicional", "Vegetariano", "Comida costeña"]
 
 ## 📸 Galería
 
-*Próximamente: imagen del Mote de Queso tradicional*
+![Mote de Queso Tradicional](../caribe/mote_de_queso/images/1.png)

@@ -81,7 +81,7 @@ El Sancocho de Pescado es una sopa tradicional y emblemática de la región Pac�
 
 ## 📸 Galería
 
-*Próximamente...*
+![Sancocho de Pescado del Pacífico](./images/1.png)
 
 ---
 

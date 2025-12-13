@@ -73,7 +73,7 @@ El Ceviche de Camarón es un plato fresco y vibrante de la región Caribe colomb
 
 ## 📸 Galería
 
-*Próximamente...*
+![Ceviche de Camarón](./images/1.png)
 
 ---
 

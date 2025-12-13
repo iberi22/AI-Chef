@@ -72,7 +72,7 @@ La Butifarra Soledeña es un embutido típico de Soledad, Atlántico, y un ícon
 
 ## 📸 Galería
 
-*Próximamente...*
+![Butifarra Soledeña](./images/1.png)
 
 ---
 

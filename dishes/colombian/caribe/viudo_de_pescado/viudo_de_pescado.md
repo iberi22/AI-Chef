@@ -77,7 +77,7 @@ El Viudo de Pescado es un plato tradicional de la región Caribe y de los ríos 
 
 ## 📸 Galería
 
-*Próximamente...*
+![Viudo de Pescado](./images/1.png)
 
 ---
 
