@@ -78,7 +78,7 @@ El Encocado de Pescado es uno de los platos más emblemáticos del Pacífico col
 
 ## 📸 Galería
 
-*Próximamente...*
+![Encocado de Pescado del Pacífico](./images/1.png)
 
 ---
 
@@ -96,7 +96,7 @@ El Encocado de Pescado es uno de los platos más emblemáticos del Pacífico col
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El encocado de pescado del Pacífico es insuperable, cremoso y con pescado fresquísimo. El sabor a coco y ají es único".
-- **Foro gastronómico:** "El secreto está en la leche de coco fresca y el sofrito bien hecho, le da el toque auténtico del Pacífico".  
+- **Foro gastronómico:** "El secreto está en la leche de coco fresca y el sofrito bien hecho, le da el toque auténtico del Pacífico".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

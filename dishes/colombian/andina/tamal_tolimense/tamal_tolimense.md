@@ -50,7 +50,7 @@ El Tamal Tolimense es un plato tradicional del Tolima y la región andina de Col
 
 ## 📸 Galería
 
-*Próximamente...*
+![Tamal Tolimense Tradicional](./images/1.png)
 
 ---
 
@@ -68,7 +68,7 @@ El Tamal Tolimense es un plato tradicional del Tolima y la región andina de Col
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El tamal tolimense es mi desayuno favorito, la hoja le da un toque especial y siempre viene bien acompañado de chocolate caliente".
-- **Foro gastronómico:** "La textura suave de la masa y el relleno jugoso son insuperables. Es un plato que une a la familia".  
+- **Foro gastronómico:** "La textura suave de la masa y el relleno jugoso son insuperables. Es un plato que une a la familia".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

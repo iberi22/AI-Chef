@@ -31,7 +31,7 @@ function formatNumber(num: number | undefined) {
           <span class="text-xs font-bold text-text-light dark:text-text-dark">ai_chef_official</span>
           {region && <span class="text-[10px] text-gray-400">• {region}</span>}
       </div>
-      <span class="text-[10px] text-gray-500 capitalize">{category || 'Cooking'} • Original Audio</span>
+      <span class="text-[10px] text-gray-500 capitalize">{category || 'Cooking'} {time && `• ⏱️ ${time}`}</span>
     </div>
     <span class="material-symbols-outlined ml-auto text-xl text-gray-400">more_horiz</span>
   </div>

@@ -71,7 +71,7 @@ Las Carimañolas son un pasaboca tradicional de la región Caribe colombiana, es
 
 ## 📸 Galería
 
-*Próximamente...*
+![Carimañolas Costeñas](./images/1.png)
 
 ---
 
@@ -89,7 +89,7 @@ Las Carimañolas son un pasaboca tradicional de la región Caribe colombiana, es
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "Las carimañolas de la tiendita de la esquina son insuperables, siempre crocantes y llenas de sabor".
-- **Foro gastronómico:** "El suero costeño marca la diferencia, le da el toque ácido justo".  
+- **Foro gastronómico:** "El suero costeño marca la diferencia, le da el toque ácido justo".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)
