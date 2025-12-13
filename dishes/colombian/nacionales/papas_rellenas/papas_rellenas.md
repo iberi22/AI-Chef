@@ -72,7 +72,7 @@ Las papas rellenas son un clásico de la comida callejera colombiana. Consisten 
 
 ## 📸 Galería
 
-*Próximamente...*
+![Papas Rellenas Colombianas](./images/1.png)
 
 ---
 

@@ -71,12 +71,9 @@ El chuzo es una brocheta de carne, pollo o mixto, marinada y asada a la parrilla
 
 ## 📸 Galería
 
-![Chuzo colombiano - Pixabay](img/chorizo-2314640_640.jpg)
+![Chuzo Colombiano - Brocheta de Carne](./images/1.png)
 
-- [Ejemplo de chuzo (Pixabay)](https://pixabay.com/es/images/search/chuzo%20de%20chorizo%20con%20menestra%20de%20lentejas%20y%20arroz/)
-- [Imágenes de chuzo en Pixabay](https://pixabay.com/es/images/search/chuzo/)
-
-*Imagen principal: Pixabay/chorizo-2314640_640.jpg. Imágenes libres de derechos, consulta términos en cada banco.*
+*Imagen generada por AI-Chef.*
 
 ---
 
