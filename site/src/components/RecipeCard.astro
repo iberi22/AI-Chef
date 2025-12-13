@@ -115,9 +115,21 @@ function formatNumber(num: number | undefined) {
         {title} 🥘 Discover the logic behind this delicious dish. #foodie #coding #{category}
       </span>
     </div>
-    <a href={`${baseUrl}/recipes/${slug}`} class="mt-1 text-xs text-gray-400 hover:text-primary uppercase font-bold tracking-wider">
-      View Recipe Logic
-    </a>
+    <div class="mt-1 flex items-center gap-3">
+      <a href={`${baseUrl}/recipes/${slug}`} class="text-xs text-gray-400 hover:text-primary uppercase font-bold tracking-wider">
+        View Recipe Logic
+      </a>
+      <a
+        href={`https://github.com/iberi22/AI-Chef/issues/new?title=${encodeURIComponent(`📸 Add image for: ${title}`)}&body=${encodeURIComponent(`## Recipe Image Submission\n\n**Recipe:** ${title}\n**Path:** dishes/${slug}/images/\n\n### Instructions:\n1. Attach your image(s) below\n2. Images should be high quality food photography\n3. Accepted formats: JPG, PNG, WebP\n\n### Your Image(s):\n<!-- Drag and drop your images here -->\n\n### Photographer Credit (optional):\n`)}&labels=community-image`}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center gap-1 text-xs text-gray-400 hover:text-secondary transition-colors"
+        title="Submit your own image for this recipe"
+      >
+        <span class="material-symbols-outlined text-sm">add_a_photo</span>
+        <span class="uppercase font-bold tracking-wider">Add Photo</span>
+      </a>
+    </div>
   </div>
 </div>
 

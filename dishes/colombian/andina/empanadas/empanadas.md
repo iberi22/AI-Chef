@@ -74,7 +74,7 @@ Las empanadas andinas son uno de los pasabocas más populares de la región, cru
 
 ## 📸 Galería
 
-*Próximamente...*
+![Empanadas Andinas Colombianas](./images/1.png)
 
 ---
 
@@ -92,7 +92,7 @@ Las empanadas andinas son uno de los pasabocas más populares de la región, cru
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "Las empanadas de la tiendita de la esquina son insuperables, siempre crocantes y llenas de sabor".
-- **Foro gastronómico:** "El ají casero marca la diferencia, le da el toque picante justo".  
+- **Foro gastronómico:** "El ají casero marca la diferencia, le da el toque picante justo".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

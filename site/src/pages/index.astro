@@ -65,16 +65,21 @@ const recipesWithImages = allRecipes.map(recipe => ({
   image: findImage(recipe),
   computedTitle: getTitle(recipe)
 })).filter(recipe => {
-    // FILTER: Only show "Complete" recipes (Standard metadata present)
-    // The user wants to hide Chinese recipes that lack this standard for now.
+    // FILTER: Only show Colombian recipes for now
+    const isColombianRecipe = recipe.slug.startsWith('colombian');
     const hasRegion = !!recipe.data.region;
-    const hasNutrition = !!recipe.data.nutrition;
-    // We can also check for specific flags if we want to force specific ones
-    // return hasRegion && hasNutrition;
-    return hasRegion; // Start with Region check as a strong signal of "New Standard"
+    return isColombianRecipe && hasRegion;
+}).sort((a, b) => {
+    // SORT: Recipes with images first
+    const aHasImage = !!a.image;
+    const bHasImage = !!b.image;
+    if (aHasImage && !bHasImage) return -1;
+    if (!aHasImage && bHasImage) return 1;
+    return 0;
 });
 
-const categories = [...new Set(allRecipes.map(r => r.slug.split('/')[0]))].sort();
+// Only show Colombian category for now (China, Peru disabled)
+const categories = ['colombian'];
 const baseUrl = import.meta.env.BASE_URL;
 ---
 
@@ -318,8 +323,8 @@ const baseUrl = import.meta.env.BASE_URL;
         grid.appendChild(fragment);
     }
 
-    // Execute shuffle
-    randomShuffleGrid();
+    // Execute shuffle - DISABLED to keep images-first order
+    // randomShuffleGrid();
 
     // Load persisted filters if any (Optional - for now just shuffle)
     // const savedCategory = localStorage.getItem('ai-chef-category');

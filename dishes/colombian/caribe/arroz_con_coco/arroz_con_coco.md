@@ -70,7 +70,7 @@ El Arroz con Coco es un acompañamiento y plato típico de la región Caribe col
 
 ## 📸 Galería
 
-*Próximamente...*
+![Arroz con Coco del Caribe Colombiano](./images/1.png)
 
 ---
 
@@ -88,7 +88,7 @@ El Arroz con Coco es un acompañamiento y plato típico de la región Caribe col
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El arroz con coco de la costa es único, el titoté le da un sabor y textura inigualables".
-- **Foro gastronómico:** "El secreto está en no apresurarse, el titoté debe quedar bien dorado para el mejor sabor".  
+- **Foro gastronómico:** "El secreto está en no apresurarse, el titoté debe quedar bien dorado para el mejor sabor".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

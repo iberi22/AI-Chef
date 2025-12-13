@@ -68,7 +68,7 @@ La Changua es una sopa de desayuno tradicional de la región andina, especialmen
 
 ## 📸 Galería
 
-*Próximamente...*
+![Changua Colombiana](./images/1.png)
 
 ---
 
@@ -86,7 +86,7 @@ La Changua es una sopa de desayuno tradicional de la región andina, especialmen
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "Nada mejor que una changua caliente en Bogotá, el pan absorbe todo el sabor y el huevo es una delicia".
-- **Foro gastronómico:** "La clave está en no hervir la leche para que no se corte y el huevo quede en su punto".  
+- **Foro gastronómico:** "La clave está en no hervir la leche para que no se corte y el huevo quede en su punto".
 calificación: ★★★★☆ 4.5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)
