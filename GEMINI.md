@@ -57,4 +57,15 @@ embedding_version: 1
 - Mantener consistencia con estándares existentes en `dishes/`.
 - Respetar recetas ya enriquecidas (no degradar calidad).
 
+## Requisitos Estructurales Adicionales
+
+### Sección: Análisis Detallado y Sabiduría Colectiva
+Toda receta DEBE incluir una sección H2 titulada "Análisis Detallado y Sabiduría Colectiva" al final, que contenga:
+1.  **Categorización Sensorial**: Perfil de sabor, textura, aroma.
+2.  **Experiencia de Usuario**: Citas o resumen de opiniones.
+3.  **Perfil Nutricional Detallado**:
+    -   Tabla con ingredientes clave.
+    -   Calorías, Macros (Proteína, Carbs, Grasas).
+    -   **Micronutrientes**: Vitaminas y minerales destacados (ej. Magnesio, Vitamina C) basados en las porciones.
+
 Gracias por mantener el proyecto libre y útil para la comunidad.

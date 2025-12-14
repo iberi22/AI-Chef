@@ -127,56 +127,7 @@ const schema = {
                     </div>
                 </div>
 
-                <!-- 2. Timeline Stepper (Improved) -->
-                <div class="rounded-3xl bg-white dark:bg-[#18181b] p-8 shadow-xl shadow-gray-200/50 dark:shadow-none ring-1 ring-black/5 dark:ring-white/5 relative overflow-hidden">
-                    <div class="absolute top-0 right-0 p-4 opacity-5">
-                        <span class="material-symbols-outlined text-9xl">timer</span>
-                    </div>
-
-                    <h4 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-8 flex items-center gap-2 relative z-10">
-                       <span class="material-symbols-outlined text-lg text-primary">schedule</span> Process Timeline
-                    </h4>
-
-                    <div class="relative pl-2 space-y-8 z-10">
-                        <!-- Vertical connecting line -->
-                        <div class="absolute top-3 bottom-3 left-[19px] w-0.5 bg-gradient-to-b from-blue-500 via-orange-500 to-green-500 opacity-30 rounded-full"></div>
-
-                        <!-- Prep -->
-                        <div class="relative flex items-center group">
-                            <div class="z-10 flex size-10 shrink-0 items-center justify-center rounded-full bg-blue-50 dark:bg-blue-900/30 ring-4 ring-white dark:ring-[#18181b] group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-blue-500 text-sm">kitchen</span>
-                            </div>
-                            <div class="ml-4">
-                                <span class="block text-[10px] font-bold text-blue-500 uppercase tracking-widest mb-0.5">Prep</span>
-                                <span class="block text-lg font-bold text-gray-900 dark:text-gray-100">{prep_time || "--"}</span>
-                            </div>
-                        </div>
-
-                        <!-- Cook -->
-                        <div class="relative flex items-center group">
-                            <div class="z-10 flex size-10 shrink-0 items-center justify-center rounded-full bg-orange-50 dark:bg-orange-900/30 ring-4 ring-white dark:ring-[#18181b] group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-orange-500 text-sm">skillet</span>
-                            </div>
-                            <div class="ml-4">
-                                <span class="block text-[10px] font-bold text-orange-500 uppercase tracking-widest mb-0.5">Cook</span>
-                                <span class="block text-lg font-bold text-gray-900 dark:text-gray-100">{cook_time || "--"}</span>
-                            </div>
-                        </div>
-
-                        <!-- Serve -->
-                         <div class="relative flex items-center group">
-                            <div class="z-10 flex size-10 shrink-0 items-center justify-center rounded-full bg-green-50 dark:bg-green-900/30 ring-4 ring-white dark:ring-[#18181b] group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-green-500 text-sm">restaurant</span>
-                            </div>
-                            <div class="ml-4">
-                                <span class="block text-[10px] font-bold text-green-500 uppercase tracking-widest mb-0.5">Yield</span>
-                                <span class="block text-lg font-bold text-gray-900 dark:text-gray-100">{servings || "--"} P</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 3. Nutrition (Grid) -->
+                <!-- 2. Nutrition (Grid) -->
                 {nutrition && (
                 <div class="rounded-3xl bg-white dark:bg-[#18181b] p-6 shadow-xl shadow-gray-200/50 dark:shadow-none ring-1 ring-black/5 dark:ring-white/5">
                     <h4 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 flex items-center gap-2">
@@ -228,6 +179,50 @@ const schema = {
                   </div>
                </div>
 
+               <!-- Process Timeline (New Horizontal) -->
+               <div class="mb-12 rounded-3xl bg-gray-50 dark:bg-white/5 p-6 ring-1 ring-black/5 dark:ring-white/5">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 flex items-center gap-2">
+                       <span class="material-symbols-outlined text-lg text-primary">schedule</span> Process Timeline
+                    </h4>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
+                        <!-- Horizontal connecting line (Desktop only) -->
+                        <div class="hidden md:block absolute top-1/2 left-10 right-10 h-0.5 bg-gradient-to-r from-blue-500 via-orange-500 to-green-500 opacity-20 -translate-y-1/2"></div>
+
+                        <!-- Prep -->
+                        <div class="relative flex flex-col items-center text-center group">
+                            <div class="z-10 flex size-12 shrink-0 items-center justify-center rounded-full bg-blue-50 dark:bg-blue-900/30 ring-4 ring-white dark:ring-[#18181b] group-hover:scale-110 transition-transform mb-3">
+                                <span class="material-symbols-outlined text-blue-500">kitchen</span>
+                            </div>
+                            <div>
+                                <span class="block text-[10px] font-bold text-blue-500 uppercase tracking-widest mb-0.5">Prep</span>
+                                <span class="block text-lg font-bold text-gray-900 dark:text-gray-100">{prep_time || "--"}</span>
+                            </div>
+                        </div>
+
+                        <!-- Cook -->
+                        <div class="relative flex flex-col items-center text-center group">
+                            <div class="z-10 flex size-12 shrink-0 items-center justify-center rounded-full bg-orange-50 dark:bg-orange-900/30 ring-4 ring-white dark:ring-[#18181b] group-hover:scale-110 transition-transform mb-3">
+                                <span class="material-symbols-outlined text-orange-500">skillet</span>
+                            </div>
+                            <div>
+                                <span class="block text-[10px] font-bold text-orange-500 uppercase tracking-widest mb-0.5">Cook</span>
+                                <span class="block text-lg font-bold text-gray-900 dark:text-gray-100">{cook_time || "--"}</span>
+                            </div>
+                        </div>
+
+                        <!-- Yield -->
+                         <div class="relative flex flex-col items-center text-center group">
+                            <div class="z-10 flex size-12 shrink-0 items-center justify-center rounded-full bg-green-50 dark:bg-green-900/30 ring-4 ring-white dark:ring-[#18181b] group-hover:scale-110 transition-transform mb-3">
+                                <span class="material-symbols-outlined text-green-500">restaurant</span>
+                            </div>
+                            <div>
+                                <span class="block text-[10px] font-bold text-green-500 uppercase tracking-widest mb-0.5">Yield</span>
+                                <span class="block text-lg font-bold text-gray-900 dark:text-gray-100">{servings || "--"} P</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                <!-- Markdown Content with Enhanced Typography -->
                <article class="prose prose-lg md:prose-xl max-w-none
                   prose-headings:font-display prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-white
@@ -242,10 +237,16 @@ const schema = {
                   [&_ul_li]:relative [&_ul_li]:pl-8
                   [&_ul_li]:before:content-[''] [&_ul_li]:before:absolute [&_ul_li]:before:left-0 [&_ul_li]:before:top-[0.6em] [&_ul_li]:before:size-2.5 [&_ul_li]:before:bg-primary [&_ul_li]:before:rounded-full [&_ul_li]:before:shadow-[0_0_10px_rgba(255,99,71,0.5)]
 
-                  /* Custom Ordered Lists Styling */
-                  [&_ol]:list-none [&_ol]:counter-reset-step [&_ol]:space-y-6
-                  [&_ol_li]:relative [&_ol_li]:pl-12 [&_ol_li]:counter-increment-step
-                  [&_ol_li]:before:content-[counter(step)] [&_ol_li]:before:absolute [&_ol_li]:before:left-0 [&_ol_li]:before:top-0 [&_ol_li]:before:flex [&_ol_li]:before:size-8 [&_ol_li]:before:items-center [&_ol_li]:before:justify-center [&_ol_li]:before:rounded-full [&_ol_li]:before:bg-gray-100 dark:[&_ol_li]:before:bg-white/10 [&_ol_li]:before:text-primary [&_ol_li]:before:font-black [&_ol_li]:before:text-sm
+                  /* Custom Ordered Lists Styling (Stepper) */
+                  [&_ol]:list-none [&_ol]:counter-reset-step [&_ol]:space-y-0 [&_ol]:relative
+                  /* Continuous line line */
+                  [&_ol]:before:content-[''] [&_ol]:before:absolute [&_ol]:before:left-[15px] [&_ol]:before:top-4 [&_ol]:before:bottom-0 [&_ol]:before:w-0.5 [&_ol]:before:bg-gray-200 dark:[&_ol]:before:bg-gray-800
+
+                  [&_ol_li]:relative [&_ol_li]:pl-16 [&_ol_li]:pb-12 [&_ol_li]:counter-increment-step
+                  [&_ol_li]:last-child:pb-0
+
+                  /* Step Circle */
+                  [&_ol_li]:before:content-[counter(step)] [&_ol_li]:before:absolute [&_ol_li]:before:left-0 [&_ol_li]:before:top-0 [&_ol_li]:before:z-10 [&_ol_li]:before:flex [&_ol_li]:before:size-8 [&_ol_li]:before:items-center [&_ol_li]:before:justify-center [&_ol_li]:before:rounded-full [&_ol_li]:before:bg-primary [&_ol_li]:before:text-white [&_ol_li]:before:font-black [&_ol_li]:before:text-sm [&_ol_li]:before:shadow-lg [&_ol_li]:before:ring-4 [&_ol_li]:before:ring-white dark:[&_ol_li]:before:ring-[#18181b]
 
                   /* Headings */
                   [&_h2]:text-3xl [&_h2]:mt-12 [&_h2]:mb-8 [&_h2]:flex [&_h2]:items-center [&_h2]:gap-3
