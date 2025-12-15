@@ -1,29 +1,56 @@
 ---
-title: "Viudo de Pescado"
-region: "Caribe"
-categories: ["Plato fuerte", "Sopa de pescado", "Comida típica"]
+title: Viudo de Pescado
+region: Caribe
+categories:
+- Plato fuerte
+- Sopa de pescado
+- Comida típica
 sensory:
-  flavor: ["Umami", "Salado"]
-  texture: ["Jugoso", "Suave"]
-  aroma: ["Marino", "Herbal", "Ahumado"]
-  presentation: "Se sirve en platos hondos, con trozos generosos de pescado y tubérculos, acompañado de arroz y ají. Es el centro de reuniones familiares y festividades ribereñas."
-main_ingredients: ["Pescado de río", "Yuca", "Plátano verde", "Papa criolla", "Mazorcas"]
-difficulty: "★★★☆☆"
-prep_time: "30 minutos"
-cook_time: "1 hora"
+  flavor:
+  - Umami
+  - Salado
+  texture:
+  - Jugoso
+  - Suave
+  aroma:
+  - Marino
+  - Herbal
+  - Ahumado
+  presentation: Se sirve en platos hondos, con trozos generosos de pescado y tubérculos,
+    acompañado de arroz y ají. Es el centro de reuniones familiares y festividades
+    ribereñas.
+main_ingredients:
+- Pescado de río
+- Yuca
+- Plátano verde
+- Papa criolla
+- Mazorcas
+difficulty: ★★★☆☆
+prep_time: 30 minutos
+cook_time: 1 hora
 servings: 6
 images:
-  - url: "https://pixabay.com/es/photos/viudo-pescado-colombia-6146268/"
-    description: "Viudo de pescado tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/viudo-de-pescado"
-    description: "Variaciones de viudo de pescado en Unsplash"
+- url: https://pixabay.com/es/photos/viudo-pescado-colombia-6146268/
+  description: Viudo de pescado tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/viudo-de-pescado
+  description: Variaciones de viudo de pescado en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-viudo-de-pescado-57933"
-  - "https://www.gastronomiacolombiana.com/foro/viudo-de-pescado"
-  - "https://www.google.com/maps/search/viudo+de+pescado"
-  - "https://www.youtube.com/results?search_query=viudo+de+pescado"
-  - "https://www.tiktok.com/tag/viudodepescado"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-viudo-de-pescado-57933
+- https://www.gastronomiacolombiana.com/foro/viudo-de-pescado
+- https://www.google.com/maps/search/viudo+de+pescado
+- https://www.youtube.com/results?search_query=viudo+de+pescado
+- https://www.tiktok.com/tag/viudodepescado
+license: MIT
+description: El Viudo de Pescado es un plato tradicional de la región Caribe y de
+  los ríos colombianos, especialmente preparado en festividades y reuniones familiares.
+  Consiste en pescado de río cocido con yuca, plátano y verduras, servido en caldo
+  aromático y acompañado de arroz blanco y ají.
+nutrition:
+  calories: 1303
+  macros:
+    protein_g: 29.9
+    fat_g: 5.8
+    carbs_g: 300.0
 ---## Viudo de Pescado
 
 El Viudo de Pescado es un plato tradicional de la región Caribe y de los ríos colombianos, especialmente preparado en festividades y reuniones familiares. Consiste en pescado de río cocido con yuca, plátano y verduras, servido en caldo aromático y acompañado de arroz blanco y ají.

@@ -1,35 +1,57 @@
 ---
-title: "Arepa de Huevo"
-region: "Caribe"
-categories: ["Snack", "Desayuno", "Entrada", "Pasaboca"]
+title: Arepa de Huevo
+region: Caribe
+categories:
+- Snack
+- Desayuno
+- Entrada
+- Pasaboca
 sensory:
-  flavor: ["Salado"]
-  texture: ["Crujiente", "Cremoso"]
-  aroma: ["Maíz tostado", "Aceite"]
-  presentation: "Se sirven calientes, recién fritas, en porciones individuales. Son infaltables en fiestas y desayunos costeños."
-main_ingredients: ["Harina de maíz", "Huevo", "Aceite", "Carne (opcional)"]
-difficulty: "★★★☆☆"
-prep_time: "30 minutos"
-cook_time: "20 minutos"
+  flavor:
+  - Salado
+  texture:
+  - Crujiente
+  - Cremoso
+  aroma:
+  - Maíz tostado
+  - Aceite
+  presentation: Se sirven calientes, recién fritas, en porciones individuales. Son
+    infaltables en fiestas y desayunos costeños.
+main_ingredients:
+- Harina de maíz
+- Huevo
+- Aceite
+- Carne (opcional)
+difficulty: ★★★☆☆
+prep_time: 30 minutos
+cook_time: 20 minutos
 servings: 10
 nutrition:
-  calories: 320
-  protein: "10g"
-  fat: "18g"
-  carbs: "30g"
-tags: ["Frito", "Desayuno", "Comida Callejera"]
+  calories: 1244
+  macros:
+    protein_g: 78.1
+    fat_g: 73.9
+    carbs_g: 81.5
+tags:
+- Frito
+- Desayuno
+- Comida Callejera
 images:
-  - url: "https://pixabay.com/es/photos/arepa-de-huevo-colombia-comida-6146262/"
-    description: "Arepa de huevo tradicional costeña (Pixabay)"
-  - url: "https://unsplash.com/s/photos/arepa-de-huevo"
-    description: "Variaciones de arepa de huevo en Unsplash"
+- url: https://pixabay.com/es/photos/arepa-de-huevo-colombia-comida-6146262/
+  description: Arepa de huevo tradicional costeña (Pixabay)
+- url: https://unsplash.com/s/photos/arepa-de-huevo
+  description: Variaciones de arepa de huevo en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-arepa-de-huevo-46804"
-  - "https://www.gastronomiacolombiana.com/foro/arepa-de-huevo"
-  - "https://www.google.com/maps/search/arepa+de+huevo"
-  - "https://www.youtube.com/results?search_query=arepa+de+huevo"
-  - "https://www.tiktok.com/tag/arepadehuevo"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-arepa-de-huevo-46804
+- https://www.gastronomiacolombiana.com/foro/arepa-de-huevo
+- https://www.google.com/maps/search/arepa+de+huevo
+- https://www.youtube.com/results?search_query=arepa+de+huevo
+- https://www.tiktok.com/tag/arepadehuevo
+license: MIT
+description: La Arepa de Huevo es uno de los íconos de la gastronomía costeña colombiana,
+  especialmente popular en Barranquilla y Cartagena. Es una arepa de maíz frita, rellena
+  con huevo y, a veces, carne, crujiente por fuera y suave por dentro. Ideal para
+  desayunos, meriendas o como pasaboca en celebraciones.
 ---## Arepa de Huevo
 
 La Arepa de Huevo es uno de los íconos de la gastronomía costeña colombiana, especialmente popular en Barranquilla y Cartagena. Es una arepa de maíz frita, rellena con huevo y, a veces, carne, crujiente por fuera y suave por dentro. Ideal para desayunos, meriendas o como pasaboca en celebraciones.

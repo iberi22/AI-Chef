@@ -1,29 +1,53 @@
 ---
-title: "Butifarra Soledeña"
-region: "Caribe"
-categories: ["Snack", "Pasaboca", "Acompañamiento"]
+title: Butifarra Soledeña
+region: Caribe
+categories:
+- Snack
+- Pasaboca
+- Acompañamiento
 sensory:
-  flavor: ["Salado", "Umami"]
-  texture: ["Firme", "Jugoso"]
-  aroma: ["Especiado", "Cárnico"]
-  presentation: "Se sirve en porciones pequeñas, acompañado de bollo de yuca y limón. Es protagonista en ferias, mercados y celebraciones costeñas."
-main_ingredients: ["Carne de res", "Carne de cerdo", "Grasa de cerdo", "Tripas de cerdo"]
-difficulty: "★★★☆☆"
-prep_time: "1 hora"
-cook_time: "1 hora"
+  flavor:
+  - Salado
+  - Umami
+  texture:
+  - Firme
+  - Jugoso
+  aroma:
+  - Especiado
+  - Cárnico
+  presentation: Se sirve en porciones pequeñas, acompañado de bollo de yuca y limón.
+    Es protagonista en ferias, mercados y celebraciones costeñas.
+main_ingredients:
+- Carne de res
+- Carne de cerdo
+- Grasa de cerdo
+- Tripas de cerdo
+difficulty: ★★★☆☆
+prep_time: 1 hora
+cook_time: 1 hora
 servings: 30
 images:
-  - url: "https://pixabay.com/es/photos/butifarra-soledeña-colombia-6146264/"
-    description: "Butifarra soledeña tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/butifarra-soledeña"
-    description: "Variaciones de butifarra soledeña en Unsplash"
+- url: https://pixabay.com/es/photos/butifarra-soledeña-colombia-6146264/
+  description: Butifarra soledeña tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/butifarra-soledeña
+  description: Variaciones de butifarra soledeña en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-butifarra-soledeña-35793"
-  - "https://www.gastronomiacolombiana.com/foro/butifarra-soledeña"
-  - "https://www.google.com/maps/search/butifarra+soledeña"
-  - "https://www.youtube.com/results?search_query=butifarra+soledeña"
-  - "https://www.tiktok.com/tag/butifarrasoledeña"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-butifarra-soledeña-35793
+- https://www.gastronomiacolombiana.com/foro/butifarra-soledeña
+- https://www.google.com/maps/search/butifarra+soledeña
+- https://www.youtube.com/results?search_query=butifarra+soledeña
+- https://www.tiktok.com/tag/butifarrasoledeña
+license: MIT
+description: La Butifarra Soledeña es un embutido típico de Soledad, Atlántico, y
+  un ícono de la gastronomía de la región Caribe colombiana. Es una pequeña salchicha
+  de carne de res y cerdo, sazonada y cocida, que se sirve tradicionalmente con bollo
+  de yuca y limón.
+nutrition:
+  calories: 2178
+  macros:
+    protein_g: 260.4
+    fat_g: 110.0
+    carbs_g: 2.0
 ---## Butifarra Soledeña
 
 La Butifarra Soledeña es un embutido típico de Soledad, Atlántico, y un ícono de la gastronomía de la región Caribe colombiana. Es una pequeña salchicha de carne de res y cerdo, sazonada y cocida, que se sirve tradicionalmente con bollo de yuca y limón.

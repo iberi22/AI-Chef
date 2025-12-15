@@ -1,28 +1,54 @@
 ---
-title: "Deditos de Queso"
-region: "Nacional"
-categories: ["Snack", "Desayuno", "Merienda"]
+title: Deditos de Queso
+region: Nacional
+categories:
+- Snack
+- Desayuno
+- Merienda
 sensory:
-  flavor: ["Lácteo", "Salado"]
-  texture: ["Crujiente por fuera", "Fundido por dentro"]
-  aroma: ["Queso", "Mantequilla"]
-  presentation: "Se sirven calientes, ideales para fiestas, onces o como snack escolar."
-main_ingredients: ["Queso", "Masa de hojaldre"]
-difficulty: "★☆☆☆☆"
-prep_time: "25 minutos"
-cook_time: "12-15 minutos"
+  flavor:
+  - Lácteo
+  - Salado
+  texture:
+  - Crujiente por fuera
+  - Fundido por dentro
+  aroma:
+  - Queso
+  - Mantequilla
+  presentation: Se sirven calientes, ideales para fiestas, onces o como snack escolar.
+main_ingredients:
+- Queso
+- Masa de hojaldre
+difficulty: ★☆☆☆☆
+prep_time: 25 minutos
+cook_time: 12-15 minutos
 servings: 12
 images:
-  - url: "https://pixabay.com/photos/cheese-sticks-snack-colombian-4567890/"
-    description: "Deditos de queso tradicionales (Pixabay)"
-  - url: "https://www.pexels.com/photo/deditos-de-queso-colombianos-4567890/"
-    description: "Deditos de queso recién hechos (Pexels)"
+- url: https://pixabay.com/photos/cheese-sticks-snack-colombian-4567890/
+  description: Deditos de queso tradicionales (Pixabay)
+- url: https://www.pexels.com/photo/deditos-de-queso-colombianos-4567890/
+  description: Deditos de queso recién hechos (Pexels)
 sources:
-  - "https://elgourmet.com/recetas/deditos-de-queso/"
-  - "https://www.youtube.com/results?search_query=deditos+de+queso+colombianos"
-  - "https://www.tiktok.com/tag/deditosdequeso"
-license: "MIT"
-tags: ["colombiano", "tradicional", "snack", "queso", "deditos", "open source"]
+- https://elgourmet.com/recetas/deditos-de-queso/
+- https://www.youtube.com/results?search_query=deditos+de+queso+colombianos
+- https://www.tiktok.com/tag/deditosdequeso
+license: MIT
+tags:
+- colombiano
+- tradicional
+- snack
+- queso
+- deditos
+- open source
+description: Los deditos de queso son snacks fritos o horneados, rellenos de queso
+  fundido, populares en panaderías, colegios y fiestas infantiles de Colombia. Son
+  tendencia por su sencillez y sabor irresistible.
+nutrition:
+  calories: 721
+  macros:
+    protein_g: 42.5
+    fat_g: 59.5
+    carbs_g: 6.5
 ---
 
 ## Deditos de Queso
@@ -111,3 +137,27 @@ Los deditos de queso son snacks fritos o horneados, rellenos de queso fundido, p
 - "El secreto es sellar bien la masa para que no se salga el queso."
 - "Sírvelos calientes y acompaña con salsa rosada o guacamole."
 - "Perfectos para fiestas, onces o como snack escolar."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Lutein & Zeaxanthin, Choline, Bioactive Peptides, Lipids
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 721 kcal (Total receta)
+- **Proteína:** 42.5g
+- **Grasas:** 59.5g
+- **Carbohidratos:** 6.5g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

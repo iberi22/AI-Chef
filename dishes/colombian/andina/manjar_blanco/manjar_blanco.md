@@ -1,3 +1,23 @@
+---
+title: Manjar Blanco
+description: El Manjar Blanco es un postre tradicional de la región andina colombiana,
+  especialmente popular en el Valle del Cauca y Boyacá. Se elabora a base de leche,
+  azúcar y arroz, cocido lentamente hasta obtener una textura cremosa y un sabor delicadamente
+  dulce.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 3485
+  macros:
+    protein_g: 71.0
+    fat_g: 66.7
+    carbs_g: 666.0
+embedding_version: 1
+---
+
 # Manjar Blanco
 
 El Manjar Blanco es un postre tradicional de la región andina colombiana, especialmente popular en el Valle del Cauca y Boyacá. Se elabora a base de leche, azúcar y arroz, cocido lentamente hasta obtener una textura cremosa y un sabor delicadamente dulce.
@@ -42,7 +62,7 @@ El Manjar Blanco es un postre tradicional de la región andina colombiana, espec
 
 ## 📸 Galería
 
-*Próximamente...*
+![Manjar blanco cremoso](./images/1.png)
 
 ---
 
@@ -60,7 +80,7 @@ El Manjar Blanco es un postre tradicional de la región andina colombiana, espec
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El manjar blanco de Boyacá es el mejor, suave y nada empalagoso, ideal para acompañar con brevas".
-- **Foro gastronómico:** "El secreto está en revolver sin parar para que no se pegue y quede cremoso".  
+- **Foro gastronómico:** "El secreto está en revolver sin parar para que no se pegue y quede cremoso".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

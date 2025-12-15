@@ -1,3 +1,20 @@
+---
+title: 10 recetas más emblemáticas de la región Caribe de Colombia
+description: 1. Sancocho Costeño
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 0
+  macros:
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 0
+embedding_version: 1
+---
+
 # 10 recetas más emblemáticas de la región Caribe de Colombia
 
 1. Sancocho Costeño
@@ -10,3 +27,27 @@
 8. Butifarra Soledeña
 9. Alegrías
 10. Ceviche de Camarón
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** [Pendiente]
+- **Textura:** [Pendiente]
+- **Aroma:** [Pendiente]
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** ~0 kcal
+- **Proteína:** ~0g
+- **Grasas:** ~0g
+- **Carbohidratos:** ~0g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

@@ -1,29 +1,54 @@
 ---
-title: "Mote de Queso"
-region: "Caribe"
-categories: ["Sopa", "Plato fuerte", "Comida típica"]
+title: Mote de Queso
+region: Caribe
+categories:
+- Sopa
+- Plato fuerte
+- Comida típica
 sensory:
-  flavor: ["Salado", "Lácteo", "Ácido"]
-  texture: ["Cremoso", "Suave"]
-  aroma: ["Lácteo", "Herbal"]
-  presentation: "Se sirve en tazón hondo, decorado con cilantro y acompañado de suero costeño. Es el plato estrella en festividades y reuniones familiares de la costa Caribe."
-main_ingredients: ["Ñame", "Queso costeño", "Suero costeño"]
-difficulty: "★★☆☆☆"
-prep_time: "20 minutos"
-cook_time: "1 hora"
+  flavor:
+  - Salado
+  - Lácteo
+  - Ácido
+  texture:
+  - Cremoso
+  - Suave
+  aroma:
+  - Lácteo
+  - Herbal
+  presentation: Se sirve en tazón hondo, decorado con cilantro y acompañado de suero
+    costeño. Es el plato estrella en festividades y reuniones familiares de la costa
+    Caribe.
+main_ingredients:
+- Ñame
+- Queso costeño
+- Suero costeño
+difficulty: ★★☆☆☆
+prep_time: 20 minutos
+cook_time: 1 hora
 servings: 6
 images:
-  - url: "https://pixabay.com/es/photos/mote-queso-colombia-6146264/"
-    description: "Mote de queso tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/mote-de-queso"
-    description: "Variaciones de mote de queso en Unsplash"
+- url: https://pixabay.com/es/photos/mote-queso-colombia-6146264/
+  description: Mote de queso tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/mote-de-queso
+  description: Variaciones de mote de queso en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-mote-de-queso-35792"
-  - "https://www.gastronomiacolombiana.com/foro/mote-de-queso"
-  - "https://www.google.com/maps/search/mote+de+queso"
-  - "https://www.youtube.com/results?search_query=mote+de+queso"
-  - "https://www.tiktok.com/tag/motedequeso"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-mote-de-queso-35792
+- https://www.gastronomiacolombiana.com/foro/mote-de-queso
+- https://www.google.com/maps/search/mote+de+queso
+- https://www.youtube.com/results?search_query=mote+de+queso
+- https://www.tiktok.com/tag/motedequeso
+license: MIT
+description: El Mote de Queso es una sopa cremosa y emblemática de la región Caribe,
+  especialmente popular en Córdoba y Sucre. Se prepara con ñame, queso costeño y suero,
+  resultando en un plato reconfortante, salado y ligeramente ácido, ideal para celebraciones
+  y almuerzos familiares.
+nutrition:
+  calories: 1306
+  macros:
+    protein_g: 74.0
+    fat_g: 104.5
+    carbs_g: 23.7
 ---## Mote de Queso
 
 El Mote de Queso es una sopa cremosa y emblemática de la región Caribe, especialmente popular en Córdoba y Sucre. Se prepara con ñame, queso costeño y suero, resultando en un plato reconfortante, salado y ligeramente ácido, ideal para celebraciones y almuerzos familiares.

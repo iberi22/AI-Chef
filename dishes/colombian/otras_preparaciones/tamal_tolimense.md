@@ -1,13 +1,20 @@
 ---
-title: "Tamal Tolimense"
+title: Tamal Tolimense
 images:
-  - "https://www.misrecetas.com/fotos/photo/main/1368/tamal_tolimense.jpg"
-  - "https://www.recetasgratis.net/co/images/4/5/7/tamal_tolimense_23754_600.jpg"
+- https://www.misrecetas.com/fotos/photo/main/1368/tamal_tolimense.jpg
+- https://www.recetasgratis.net/co/images/4/5/7/tamal_tolimense_23754_600.jpg
 sources:
-  - "https://www.mycolombianrecipes.com/es/tamales-tolimenses/"
-  - "https://www.recetasgratis.net/receta-de-tamales-tolimenses-23754.html"
-license: "MIT"
-yaml_validation: "https://yaml-online-parser.appspot.com/"
+- https://www.mycolombianrecipes.com/es/tamales-tolimenses/
+- https://www.recetasgratis.net/receta-de-tamales-tolimenses-23754.html
+license: MIT
+yaml_validation: https://yaml-online-parser.appspot.com/
+description: '* **Para la masa**:'
+nutrition:
+  calories: 3523
+  macros:
+    protein_g: 172.5
+    fat_g: 53.9
+    carbs_g: 584.7
 ---
 
 ## Ingredientes
@@ -39,3 +46,27 @@ yaml_validation: "https://yaml-online-parser.appspot.com/"
     * Cierra el tamal formando un paquete rectangular y amárralo bien con pita o cabuya.
 5. **Cocinar los tamales**: En una olla grande (tamalera), coloca una base de hojas de plátano sobrantes y agua. Coloca los tamales, tapa bien y cocina al vapor durante al menos 3-4 horas. Asegúrate de que la olla no se quede sin agua.
 6. El tamal está listo cuando la masa se desprende fácilmente de la hoja. Se sirve caliente, tradicionalmente con arepa y chocolate.
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Lutein, Lutein & Zeaxanthin, Starch, Carbohydrates, Choline, Protein, Creatine
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 3523 kcal (Total receta)
+- **Proteína:** 172.5g
+- **Grasas:** 53.9g
+- **Carbohidratos:** 584.7g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

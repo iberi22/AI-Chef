@@ -1,28 +1,51 @@
 ---
-title: "Mojojoy"
-region: "Amazonía"
-categories: ["Entrada", "Exótico", "Ancestral"]
+title: Mojojoy
+region: Amazonía
+categories:
+- Entrada
+- Exótico
+- Ancestral
 sensory:
-  flavor: ["Umami", "Graso", "Ligeramente dulce"]
-  texture: ["Cremoso (interior)", "Crujiente (exterior)"]
-  aroma: ["Tostado", "Terroso", "Ligeramente herbal"]
-  presentation: "Se sirve como tapa o acompañante, ideal para degustaciones y experiencias gastronómicas amazónicas."
-main_ingredients: ["Mojojoy (larva amazónica)"]
-difficulty: "★★☆☆☆"
-prep_time: "10 minutos"
-cook_time: "10 minutos"
+  flavor:
+  - Umami
+  - Graso
+  - Ligeramente dulce
+  texture:
+  - Cremoso (interior)
+  - Crujiente (exterior)
+  aroma:
+  - Tostado
+  - Terroso
+  - Ligeramente herbal
+  presentation: Se sirve como tapa o acompañante, ideal para degustaciones y experiencias
+    gastronómicas amazónicas.
+main_ingredients:
+- Mojojoy (larva amazónica)
+difficulty: ★★☆☆☆
+prep_time: 10 minutos
+cook_time: 10 minutos
 servings: 4
 images:
-  - url: "https://pixabay.com/photos/mojojoy-amazonian-larva-1234567/"
-    description: "Mojojoy tradicional amazónico (Pixabay)"
-  - url: "https://unsplash.com/s/photos/mojojoy"
-    description: "Variaciones de mojojoy amazónico en Unsplash"
+- url: https://pixabay.com/photos/mojojoy-amazonian-larva-1234567/
+  description: Mojojoy tradicional amazónico (Pixabay)
+- url: https://unsplash.com/s/photos/mojojoy
+  description: Variaciones de mojojoy amazónico en Unsplash
 sources:
-  - "https://www.tripadvisor.co/ShowUserReviews-g317037-d3164418-r256317010-Tierras_Amazonicas-Leticia_Amazonas_Department.html"
-  - "https://gastronomiadecolombia.com/mojojoy/"
-  - "https://www.noticiascaracol.com/los-informantes/mojojoy-el-exotico-y-tradicional-gusano-amazonico-que-conquista-paladares-en-colombia-pr30"
-  - "https://www.pulzo.com/nacion/cual-es-comida-tipica-amazonas-pescado-seco-mojojoy-mas-recetas-PP3060584A"
-license: "MIT"
+- https://www.tripadvisor.co/ShowUserReviews-g317037-d3164418-r256317010-Tierras_Amazonicas-Leticia_Amazonas_Department.html
+- https://gastronomiadecolombia.com/mojojoy/
+- https://www.noticiascaracol.com/los-informantes/mojojoy-el-exotico-y-tradicional-gusano-amazonico-que-conquista-paladares-en-colombia-pr30
+- https://www.pulzo.com/nacion/cual-es-comida-tipica-amazonas-pescado-seco-mojojoy-mas-recetas-PP3060584A
+license: MIT
+description: El Mojojoy es uno de los manjares más exóticos y emblemáticos de la Amazonía
+  colombiana. Se trata de una larva blanca y amarillenta, consumida tradicionalmente
+  por comunidades indígenas. Se puede comer asada, frita o rellena, y es apreciada
+  por su textura cremosa y sabor intenso.
+nutrition:
+  calories: 3919
+  macros:
+    protein_g: 468.2
+    fat_g: 199.0
+    carbs_g: 1.1
 ---
 
 ## Mojojoy
@@ -67,7 +90,7 @@ El Mojojoy es uno de los manjares más exóticos y emblemáticos de la Amazonía
 
 ## 📸 Galería
 
-*Próximamente...*
+![Mojojoy asado y dorado](./images/1.png)
 
 ---
 

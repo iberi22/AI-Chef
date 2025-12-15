@@ -1,27 +1,49 @@
 ---
-title: "Buñuelo Colombiano"
-region: "Nacional"
-categories: ["Snack", "Desayuno", "Merienda"]
+title: Buñuelo Colombiano
+region: Nacional
+categories:
+- Snack
+- Desayuno
+- Merienda
 sensory:
-  flavor: ["Lácteo", "Salado"]
-  texture: ["Esponjoso", "Crocante por fuera"]
-  aroma: ["Queso", "Mantequilla"]
-  presentation: "Se sirve caliente, ideal para compartir en familia o con amigos en celebraciones."
-main_ingredients: ["Queso costeño", "Almidón de yuca", "Huevo"]
-difficulty: "★★☆☆☆"
-prep_time: "30 minutos"
-cook_time: "10 minutos"
+  flavor:
+  - Lácteo
+  - Salado
+  texture:
+  - Esponjoso
+  - Crocante por fuera
+  aroma:
+  - Queso
+  - Mantequilla
+  presentation: Se sirve caliente, ideal para compartir en familia o con amigos en
+    celebraciones.
+main_ingredients:
+- Queso costeño
+- Almidón de yuca
+- Huevo
+difficulty: ★★☆☆☆
+prep_time: 30 minutos
+cook_time: 10 minutos
 servings: 12
 images:
-  - url: "https://pixabay.com/photos/colombian-buñuelo-cheese-ball-1234567/"
-    description: "Buñuelo colombiano tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/buñuelo"
-    description: "Variaciones de buñuelo colombiano en Unsplash"
+- url: https://pixabay.com/photos/colombian-buñuelo-cheese-ball-1234567/
+  description: Buñuelo colombiano tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/buñuelo
+  description: Variaciones de buñuelo colombiano en Unsplash
 sources:
-  - "https://www.recetasdecolombia.com/bunuelos"
-  - "https://www.youtube.com/results?search_query=bu%C3%B1uelo+colombiano"
-  - "https://www.tiktok.com/tag/bu%C3%B1uelo"
-license: "MIT"
+- https://www.recetasdecolombia.com/bunuelos
+- https://www.youtube.com/results?search_query=bu%C3%B1uelo+colombiano
+- https://www.tiktok.com/tag/bu%C3%B1uelo
+license: MIT
+description: El buñuelo es un clásico de la repostería y los snacks colombianos, especialmente
+  en Navidad y celebraciones. Su textura esponjosa y sabor a queso lo hacen infaltable
+  en desayunos y onces. Es tendencia cada diciembre en redes sociales y panaderías.
+nutrition:
+  calories: 1944
+  macros:
+    protein_g: 60.8
+    fat_g: 78.1
+    carbs_g: 254.2
 ---
 
 ## Buñuelo Colombiano
@@ -114,3 +136,27 @@ El buñuelo es un clásico de la repostería y los snacks colombianos, especialm
 - "El secreto es amasar bien y freír en aceite limpio."
 - "Hazlos pequeños para que queden bien cocidos por dentro."
 - "Perfectos para acompañar con natilla o chocolate caliente."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Starch, Lutein & Zeaxanthin, Casein, Choline, Bioactive Peptides, Sucrose, Lipids
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1944 kcal (Total receta)
+- **Proteína:** 60.8g
+- **Grasas:** 78.1g
+- **Carbohidratos:** 254.2g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

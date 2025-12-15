@@ -1,28 +1,55 @@
 ---
-title: "Almojábana"
-region: "Andina"
-categories: ["Pan", "Snack", "Desayuno"]
+title: Almojábana
+region: Andina
+categories:
+- Pan
+- Snack
+- Desayuno
 sensory:
-  flavor: ["Lácteo", "Ligeramente dulce"]
-  texture: ["Suave", "Esponjoso"]
-  aroma: ["Queso", "Mantequilla"]
-  presentation: "Se sirve caliente, ideal para acompañar café, chocolate o jugos."
-main_ingredients: ["Queso fresco", "Harina de maíz", "Huevo"]
-difficulty: "★★☆☆☆"
-prep_time: "35 minutos"
-cook_time: "18-20 minutos"
+  flavor:
+  - Lácteo
+  - Ligeramente dulce
+  texture:
+  - Suave
+  - Esponjoso
+  aroma:
+  - Queso
+  - Mantequilla
+  presentation: Se sirve caliente, ideal para acompañar café, chocolate o jugos.
+main_ingredients:
+- Queso fresco
+- Harina de maíz
+- Huevo
+difficulty: ★★☆☆☆
+prep_time: 35 minutos
+cook_time: 18-20 minutos
 servings: 10
 images:
-  - url: "https://pixabay.com/photos/colombian-almojabana-cheese-bread-3456789/"
-    description: "Almojábanas tradicionales colombianas (Pixabay)"
-  - url: "https://www.pexels.com/photo/almojabana-colombiana-3456789/"
-    description: "Almojábanas recién horneadas (Pexels)"
+- url: https://pixabay.com/photos/colombian-almojabana-cheese-bread-3456789/
+  description: Almojábanas tradicionales colombianas (Pixabay)
+- url: https://www.pexels.com/photo/almojabana-colombiana-3456789/
+  description: Almojábanas recién horneadas (Pexels)
 sources:
-  - "https://elgourmet.com/recetas/almojabana/"
-  - "https://www.youtube.com/results?search_query=almojabana+colombiana"
-  - "https://www.tiktok.com/tag/almojabana"
-license: "MIT"
-tags: ["colombiano", "tradicional", "pan", "snack", "almojabana", "open source"]
+- https://elgourmet.com/recetas/almojabana/
+- https://www.youtube.com/results?search_query=almojabana+colombiana
+- https://www.tiktok.com/tag/almojabana
+license: MIT
+tags:
+- colombiano
+- tradicional
+- pan
+- snack
+- almojabana
+- open source
+description: La almojábana es un panecillo suave y esponjoso, típico de la zona andina
+  colombiana. Se elabora con queso, harina de maíz y trigo, y es protagonista de desayunos,
+  onces y cafeterías. Es tendencia en redes por su sabor y textura únicos.
+nutrition:
+  calories: 1428
+  macros:
+    protein_g: 71.1
+    fat_g: 94.3
+    carbs_g: 85.6
 ---
 
 ## Almojábana
@@ -116,3 +143,27 @@ La almojábana es un panecillo suave y esponjoso, típico de la zona andina colo
 - "El secreto es usar queso fresco y hornear hasta que estén doradas."
 - "Sírvelas calientes para que sean más suaves y esponjosas."
 - "Perfectas para acompañar chocolate o café en la tarde."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Lutein, Lutein & Zeaxanthin, Butyrate, Casein, Choline, Sucrose, Bioactive Peptides
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1428 kcal (Total receta)
+- **Proteína:** 71.1g
+- **Grasas:** 94.3g
+- **Carbohidratos:** 85.6g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

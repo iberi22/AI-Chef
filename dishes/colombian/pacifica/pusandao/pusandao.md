@@ -1,29 +1,55 @@
 ---
-title: "Pusandao (Sopa de Pescado)"
-region: "Pacífica"
-categories: ["Plato fuerte", "Sopa festiva", "Comida típica"]
+title: Pusandao (Sopa de Pescado)
+region: Pacífica
+categories:
+- Plato fuerte
+- Sopa festiva
+- Comida típica
 sensory:
-  flavor: ["Umami", "Salado", "Lácteo (coco)"]
-  texture: ["Cremoso", "Suave"]
-  aroma: ["Marino", "Herbal (cilantro cimarrón y tomillo)", "Lácteo (coco)"]
-  presentation: "Se sirve en platos hondos, decorado con cilantro cimarrón y acompañado de arroz con coco. Centro de celebraciones familiares en el Pacífico."
-main_ingredients: ["Pescado fresco", "Leche de coco", "Yuca", "Plátano verde"]
-difficulty: "★★★☆☆"
-prep_time: "30 minutos"
-cook_time: "1 hora"
+  flavor:
+  - Umami
+  - Salado
+  - Lácteo (coco)
+  texture:
+  - Cremoso
+  - Suave
+  aroma:
+  - Marino
+  - Herbal (cilantro cimarrón y tomillo)
+  - Lácteo (coco)
+  presentation: Se sirve en platos hondos, decorado con cilantro cimarrón y acompañado
+    de arroz con coco. Centro de celebraciones familiares en el Pacífico.
+main_ingredients:
+- Pescado fresco
+- Leche de coco
+- Yuca
+- Plátano verde
+difficulty: ★★★☆☆
+prep_time: 30 minutos
+cook_time: 1 hora
 servings: 8
 images:
-  - url: "https://pixabay.com/es/photos/pusandao-pacifico-colombia-6146276/"
-    description: "Pusandao tradicional del Pacífico colombiano (Pixabay)"
-  - url: "https://unsplash.com/s/photos/sopa-pescado-colombia"
-    description: "Variaciones de sopas de pescado en Unsplash"
+- url: https://pixabay.com/es/photos/pusandao-pacifico-colombia-6146276/
+  description: Pusandao tradicional del Pacífico colombiano (Pixabay)
+- url: https://unsplash.com/s/photos/sopa-pescado-colombia
+  description: Variaciones de sopas de pescado en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-pusandao-57937"
-  - "https://www.gastronomiacolombiana.com/foro/pusandao"
-  - "https://www.google.com/maps/search/pusandao+pacifico"
-  - "https://www.youtube.com/results?search_query=pusandao+pacifico"
-  - "https://www.tiktok.com/tag/pusandao"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-pusandao-57937
+- https://www.gastronomiacolombiana.com/foro/pusandao
+- https://www.google.com/maps/search/pusandao+pacifico
+- https://www.youtube.com/results?search_query=pusandao+pacifico
+- https://www.tiktok.com/tag/pusandao
+license: MIT
+description: El Pusandao es una sopa tradicional del litoral Pacífico colombiano,
+  especialmente del departamento de Nariño. Se prepara con pescado fresco, tubérculos,
+  plátano y leche de coco, y es famosa por su sabor profundo y reconfortante, ideal
+  para días lluviosos y celebraciones familiares.
+nutrition:
+  calories: 1168
+  macros:
+    protein_g: 25.2
+    fat_g: 4.1
+    carbs_g: 268.5
 ---
 
 ## Pusandao (Sopa de Pescado)

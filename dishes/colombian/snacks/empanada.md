@@ -1,28 +1,57 @@
 ---
-title: "Empanada Colombiana"
-region: "Nacional"
-categories: ["Snack", "Entrada", "Comida callejera"]
+title: Empanada Colombiana
+region: Nacional
+categories:
+- Snack
+- Entrada
+- Comida callejera
 sensory:
-  flavor: ["Salado", "Especiado"]
-  texture: ["Crujiente por fuera", "Suave y jugoso por dentro"]
-  aroma: ["Frito", "Especiado"]
-  presentation: "Se sirve caliente, en servilleta o bandeja, ideal para compartir o como merienda rápida."
-main_ingredients: ["Harina de maíz", "Papa", "Carne molida"]
-difficulty: "★★☆☆☆"
-prep_time: "40 minutos"
-cook_time: "15 minutos"
+  flavor:
+  - Salado
+  - Especiado
+  texture:
+  - Crujiente por fuera
+  - Suave y jugoso por dentro
+  aroma:
+  - Frito
+  - Especiado
+  presentation: Se sirve caliente, en servilleta o bandeja, ideal para compartir o
+    como merienda rápida.
+main_ingredients:
+- Harina de maíz
+- Papa
+- Carne molida
+difficulty: ★★☆☆☆
+prep_time: 40 minutos
+cook_time: 15 minutos
 servings: 15
 images:
-  - url: "https://pixabay.com/photos/colombian-empanada-street-food-1234567/"
-    description: "Empanada colombiana tradicional (Pixabay)"
-  - url: "https://www.pexels.com/photo/empanada-colombiana-2345678/"
-    description: "Empanadas servidas para compartir (Pexels)"
+- url: https://pixabay.com/photos/colombian-empanada-street-food-1234567/
+  description: Empanada colombiana tradicional (Pixabay)
+- url: https://www.pexels.com/photo/empanada-colombiana-2345678/
+  description: Empanadas servidas para compartir (Pexels)
 sources:
-  - "https://www.recetasdecolombia.com/empanadas"
-  - "https://www.youtube.com/results?search_query=empanada+colombiana"
-  - "https://www.tiktok.com/tag/empanadacolombiana"
-license: "MIT"
-tags: ["colombiano", "tradicional", "snack", "callejero", "empanada", "open source"]
+- https://www.recetasdecolombia.com/empanadas
+- https://www.youtube.com/results?search_query=empanada+colombiana
+- https://www.tiktok.com/tag/empanadacolombiana
+license: MIT
+tags:
+- colombiano
+- tradicional
+- snack
+- callejero
+- empanada
+- open source
+description: La empanada es uno de los snacks más emblemáticos y queridos de Colombia.
+  Su versión más popular es la empanada de papa y carne, frita y crocante, presente
+  en cada esquina, feria y reunión familiar. Es tendencia en redes por su versatilidad
+  y el ritual de acompañarla con ají casero.
+nutrition:
+  calories: 1514
+  macros:
+    protein_g: 92.0
+    fat_g: 47.3
+    carbs_g: 190.3
 ---
 
 ## Empanada Colombiana
@@ -119,3 +148,27 @@ La empanada es uno de los snacks más emblemáticos y queridos de Colombia. Su v
 - "El secreto es freírlas en aceite bien caliente para que queden crocantes."
 - "Si la masa se seca, añade un poco más de agua tibia."
 - "No olvides el ají: ¡es la pareja perfecta!"
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Lutein, Starch, Creatine, Lycopene, Kaempferol, Lipids, Allicin
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1514 kcal (Total receta)
+- **Proteína:** 92.0g
+- **Grasas:** 47.3g
+- **Carbohidratos:** 190.3g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

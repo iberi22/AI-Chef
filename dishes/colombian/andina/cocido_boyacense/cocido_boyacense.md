@@ -1,29 +1,58 @@
 ---
-title: "Cocido Boyacense"
-region: "Andina"
-categories: ["Plato fuerte", "Sopa abundante", "Comida típica"]
+title: Cocido Boyacense
+region: Andina
+categories:
+- Plato fuerte
+- Sopa abundante
+- Comida típica
 sensory:
-  flavor: ["Salado", "Umami"]
-  texture: ["Espeso", "Suave", "Jugoso"]
-  aroma: ["Herbal", "Ahumado", "Terroso"]
-  presentation: "Se sirve en platos hondos, porciones generosas, acompañado de arepa boyacense. Plato típico de reuniones familiares y celebraciones campesinas."
-main_ingredients: ["Carne de res", "Cerdo", "Longaniza boyacense", "Papa sabanera", "Papa criolla", "Arracacha", "Cubio", "Guascas"]
-difficulty: "★★★☆☆"
-prep_time: "40 minutos"
-cook_time: "3 horas"
+  flavor:
+  - Salado
+  - Umami
+  texture:
+  - Espeso
+  - Suave
+  - Jugoso
+  aroma:
+  - Herbal
+  - Ahumado
+  - Terroso
+  presentation: Se sirve en platos hondos, porciones generosas, acompañado de arepa
+    boyacense. Plato típico de reuniones familiares y celebraciones campesinas.
+main_ingredients:
+- Carne de res
+- Cerdo
+- Longaniza boyacense
+- Papa sabanera
+- Papa criolla
+- Arracacha
+- Cubio
+- Guascas
+difficulty: ★★★☆☆
+prep_time: 40 minutos
+cook_time: 3 horas
 servings: 10
 images:
-  - url: "https://pixabay.com/es/photos/cocido-boyacense-colombia-sopa-6146260/"
-    description: "Cocido boyacense tradicional servido en plato hondo (Pixabay)"
-  - url: "https://unsplash.com/s/photos/cocido-boyacense"
-    description: "Variaciones de cocido boyacense en Unsplash"
+- url: https://pixabay.com/es/photos/cocido-boyacense-colombia-sopa-6146260/
+  description: Cocido boyacense tradicional servido en plato hondo (Pixabay)
+- url: https://unsplash.com/s/photos/cocido-boyacense
+  description: Variaciones de cocido boyacense en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-cocido-boyacense-13579"
-  - "https://www.tripadvisor.com/ShowUserReviews-g1234567-d7654321-r123456789-Cocido_Boyacense.html"
-  - "https://www.gastronomiacolombiana.com/foro/cocido-boyacense"
-  - "https://www.youtube.com/results?search_query=cocido+boyacense"
-  - "https://www.tiktok.com/tag/cocidoboyacense"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-cocido-boyacense-13579
+- https://www.tripadvisor.com/ShowUserReviews-g1234567-d7654321-r123456789-Cocido_Boyacense.html
+- https://www.gastronomiacolombiana.com/foro/cocido-boyacense
+- https://www.youtube.com/results?search_query=cocido+boyacense
+- https://www.tiktok.com/tag/cocidoboyacense
+license: MIT
+description: El Cocido Boyacense es uno de los platos más emblemáticos de Boyacá y
+  la región andina de Colombia. Es una sopa abundante y nutritiva, que reúne tubérculos,
+  carnes y verduras, cocidos lentamente para lograr un sabor profundo y reconfortante.
+nutrition:
+  calories: 2730
+  macros:
+    protein_g: 211.0
+    fat_g: 65.6
+    carbs_g: 319.6
 ---## Cocido Boyacense
 
 El Cocido Boyacense es uno de los platos más emblemáticos de Boyacá y la región andina de Colombia. Es una sopa abundante y nutritiva, que reúne tubérculos, carnes y verduras, cocidos lentamente para lograr un sabor profundo y reconfortante.

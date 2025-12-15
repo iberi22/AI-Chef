@@ -1,3 +1,23 @@
+---
+title: Crab Patty (Empanada de Cangrejo)
+description: Las Crab Patties o empanadas de cangrejo son una delicia típica de San
+  Andrés y Providencia. Consisten en una masa crujiente rellena de carne de cangrejo
+  sazonada con especias, vegetales y, en ocasiones, un toque de coco. Son ideales
+  como entrada, snack o acompañante en celebraciones isleñas.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 1526
+  macros:
+    protein_g: 138.1
+    fat_g: 98.9
+    carbs_g: 6.2
+embedding_version: 1
+---
+
 # Crab Patty (Empanada de Cangrejo)
 
 Las Crab Patties o empanadas de cangrejo son una delicia típica de San Andrés y Providencia. Consisten en una masa crujiente rellena de carne de cangrejo sazonada con especias, vegetales y, en ocasiones, un toque de coco. Son ideales como entrada, snack o acompañante en celebraciones isleñas.
@@ -49,7 +69,7 @@ Las Crab Patties o empanadas de cangrejo son una delicia típica de San Andrés 
 
 ## 📸 Galería
 
-*Próximamente...*
+![Empanadas de cangrejo fritas](./images/1.png)
 
 ---
 

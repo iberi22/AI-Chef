@@ -1,23 +1,45 @@
 ---
-title: "Mote de Queso"
-region: "Caribe"
-categories: ["Sopa", "Plato fuerte", "Vegetariano"]
+title: Mote de Queso
+region: Caribe
+categories:
+- Sopa
+- Plato fuerte
+- Vegetariano
 sensory:
-  flavor: ["Salado", "Lácteo", "Umami"]
-  texture: ["Cremoso", "Suave", "Espeso"]
-  aroma: ["Lácteo", "Cebolla", "Achiote"]
-  presentation: "Se sirve en cazuela de barro, decorado con el hogao rojo y cubos de queso fresco."
-main_ingredients: ["Ñame", "Queso costeño", "Suero", "Hogao"]
-difficulty: "★★★☆☆"
-prep_time: "20 minutos"
-cook_time: "1 hora"
+  flavor:
+  - Salado
+  - Lácteo
+  - Umami
+  texture:
+  - Cremoso
+  - Suave
+  - Espeso
+  aroma:
+  - Lácteo
+  - Cebolla
+  - Achiote
+  presentation: Se sirve en cazuela de barro, decorado con el hogao rojo y cubos de
+    queso fresco.
+main_ingredients:
+- Ñame
+- Queso costeño
+- Suero
+- Hogao
+difficulty: ★★★☆☆
+prep_time: 20 minutos
+cook_time: 1 hora
 servings: 6
 nutrition:
-  calories: 380
-  protein: "12g"
-  fat: "18g"
-  carbs: "45g"
-tags: ["Sopa tradicional", "Vegetariano", "Comida costeña"]
+  calories: 1389
+  macros:
+    protein_g: 92.4
+    fat_g: 100.3
+    carbs_g: 36.6
+tags:
+- Sopa tradicional
+- Vegetariano
+- Comida costeña
+description: '* 2 libras de ñame pelado y en cubos'
 ---
 
 ## Ingredientes
@@ -45,3 +67,27 @@ tags: ["Sopa tradicional", "Vegetariano", "Comida costeña"]
 ## 📸 Galería
 
 ![Mote de Queso Tradicional](../caribe/mote_de_queso/images/1.png)
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Quercetin, Bioactive Peptides, Citric Acid, Hesperidin
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1389 kcal (Total receta)
+- **Proteína:** 92.4g
+- **Grasas:** 100.3g
+- **Carbohidratos:** 36.6g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

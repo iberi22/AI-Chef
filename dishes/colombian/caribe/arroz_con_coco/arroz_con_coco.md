@@ -1,29 +1,54 @@
 ---
-title: "Arroz con Coco"
-region: "Caribe"
-categories: ["Acompañamiento", "Plato principal", "Comida típica"]
+title: Arroz con Coco
+region: Caribe
+categories:
+- Acompañamiento
+- Plato principal
+- Comida típica
 sensory:
-  flavor: ["Dulce", "Salado"]
-  texture: ["Suelto", "Cremoso", "Crujiente"]
-  aroma: ["Lácteo (coco)", "Tostado"]
-  presentation: "Se sirve en porciones generosas, decorado con titoté y, a veces, con pasas. Es infaltable en comidas costeñas y celebraciones."
-main_ingredients: ["Arroz blanco", "Coco fresco", "Azúcar morena", "Aceite vegetal"]
-difficulty: "★★☆☆☆"
-prep_time: "15 minutos"
-cook_time: "45 minutos"
+  flavor:
+  - Dulce
+  - Salado
+  texture:
+  - Suelto
+  - Cremoso
+  - Crujiente
+  aroma:
+  - Lácteo (coco)
+  - Tostado
+  presentation: Se sirve en porciones generosas, decorado con titoté y, a veces, con
+    pasas. Es infaltable en comidas costeñas y celebraciones.
+main_ingredients:
+- Arroz blanco
+- Coco fresco
+- Azúcar morena
+- Aceite vegetal
+difficulty: ★★☆☆☆
+prep_time: 15 minutos
+cook_time: 45 minutos
 servings: 6
 images:
-  - url: "https://pixabay.com/es/photos/arroz-con-coco-colombia-comida-6146259/"
-    description: "Arroz con coco tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/arroz-con-coco"
-    description: "Variaciones de arroz con coco en Unsplash"
+- url: https://pixabay.com/es/photos/arroz-con-coco-colombia-comida-6146259/
+  description: Arroz con coco tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/arroz-con-coco
+  description: Variaciones de arroz con coco en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-arroz-con-coco-24681"
-  - "https://www.gastronomiacolombiana.com/foro/arroz-con-coco"
-  - "https://www.google.com/maps/search/arroz+con+coco"
-  - "https://www.youtube.com/results?search_query=arroz+con+coco"
-  - "https://www.tiktok.com/tag/arrozconcoco"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-arroz-con-coco-24681
+- https://www.gastronomiacolombiana.com/foro/arroz-con-coco
+- https://www.google.com/maps/search/arroz+con+coco
+- https://www.youtube.com/results?search_query=arroz+con+coco
+- https://www.tiktok.com/tag/arrozconcoco
+license: MIT
+description: El Arroz con Coco es un acompañamiento y plato típico de la región Caribe
+  colombiana, especialmente servido con pescados y mariscos. Su sabor dulce y salado,
+  junto con el aroma a coco tostado, lo convierten en un clásico infaltable en la
+  mesa costeña.
+nutrition:
+  calories: 1953
+  macros:
+    protein_g: 28.0
+    fat_g: 32.8
+    carbs_g: 378.8
 ---## Arroz con Coco
 
 El Arroz con Coco es un acompañamiento y plato típico de la región Caribe colombiana, especialmente servido con pescados y mariscos. Su sabor dulce y salado, junto con el aroma a coco tostado, lo convierten en un clásico infaltable en la mesa costeña.

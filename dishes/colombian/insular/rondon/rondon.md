@@ -1,3 +1,23 @@
+---
+title: Rondón (Run Down)
+description: El Rondón es el plato insignia de la región Insular de Colombia, especialmente
+  de San Andrés y Providencia. Es un guiso cremoso de pescado, caracol, cangrejo,
+  cerdo, tubérculos, plátano y dumplings, todo cocido en leche de coco y aromatizado
+  con especias isleñas. Su sabor y textura evocan la riqu...
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 2254
+  macros:
+    protein_g: 193.5
+    fat_g: 78.3
+    carbs_g: 172.1
+embedding_version: 1
+---
+
 # Rondón (Run Down)
 
 El Rondón es el plato insignia de la región Insular de Colombia, especialmente de San Andrés y Providencia. Es un guiso cremoso de pescado, caracol, cangrejo, cerdo, tubérculos, plátano y dumplings, todo cocido en leche de coco y aromatizado con especias isleñas. Su sabor y textura evocan la riqueza multicultural y marítima del archipiélago.
@@ -56,7 +76,7 @@ El Rondón es el plato insignia de la región Insular de Colombia, especialmente
 
 ## 📸 Galería
 
-*Próximamente...*
+![Rondón isleño cremoso](./images/1.png)
 
 ---
 

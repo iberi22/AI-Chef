@@ -1,3 +1,23 @@
+---
+title: Alegrías
+description: Alegrías son un dulce tradicional de la región Caribe colombiana, especialmente
+  popular en Cartagena y los pueblos costeros. Se elaboran con semillas de amaranto,
+  panela y coco, formando barras energéticas y nutritivas que son parte esencial de
+  la cultura festiva costeña.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 760
+  macros:
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 196.0
+embedding_version: 1
+---
+
 # Alegrías
 
 Alegrías son un dulce tradicional de la región Caribe colombiana, especialmente popular en Cartagena y los pueblos costeros. Se elaboran con semillas de amaranto, panela y coco, formando barras energéticas y nutritivas que son parte esencial de la cultura festiva costeña.
@@ -43,7 +63,7 @@ Alegrías son un dulce tradicional de la región Caribe colombiana, especialment
 
 ## 📸 Galería
 
-*Próximamente...*
+![Alegrías de amaranto y coco](./images/1.png)
 
 ---
 
@@ -61,7 +81,7 @@ Alegrías son un dulce tradicional de la región Caribe colombiana, especialment
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "Las alegrías de Cartagena son únicas, el coco y el amaranto hacen la mezcla perfecta".
-- **Foro gastronómico:** "El secreto está en el punto del almíbar y en usar hojas frescas para envolverlas".  
+- **Foro gastronómico:** "El secreto está en el punto del almíbar y en usar hojas frescas para envolverlas".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

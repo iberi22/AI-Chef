@@ -1,13 +1,20 @@
 ---
-title: "Postre de Natas"
+title: Postre de Natas
 images:
-  - "https://www.misrecetas.com/fotos/photo/main/1368/postre_de_natas.jpg"
-  - "https://www.recetasgratis.net/co/images/4/5/7/postre_de_natas_23754_600.jpg"
+- https://www.misrecetas.com/fotos/photo/main/1368/postre_de_natas.jpg
+- https://www.recetasgratis.net/co/images/4/5/7/postre_de_natas_23754_600.jpg
 sources:
-  - "https://www.mycolombianrecipes.com/es/postre-de-natas/"
-  - "https://www.recetasgratis.net/receta-de-postre-de-natas-23754.html"
-license: "MIT"
-yaml_validation: "https://yaml-online-parser.appspot.com/"
+- https://www.mycolombianrecipes.com/es/postre-de-natas/
+- https://www.recetasgratis.net/receta-de-postre-de-natas-23754.html
+license: MIT
+yaml_validation: https://yaml-online-parser.appspot.com/
+description: '* 2 litros de leche entera'
+nutrition:
+  calories: 2135
+  macros:
+    protein_g: 77.0
+    fat_g: 77.0
+    carbs_g: 293.1
 ---
 
 ## Ingredientes
@@ -28,3 +35,27 @@ yaml_validation: "https://yaml-online-parser.appspot.com/"
 6. Cocina por 2-3 minutos más sin dejar que hierva.
 7. Retira del fuego, añade la vainilla y las pasas con el licor (si los usas).
 8. Vierte en moldes individuales o en una refractaria y deja enfriar. Refrigera por al menos 4 horas antes de servir.
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Casein, Sucrose, Choline, Lutein & Zeaxanthin
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 2135 kcal (Total receta)
+- **Proteína:** 77.0g
+- **Grasas:** 77.0g
+- **Carbohidratos:** 293.1g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

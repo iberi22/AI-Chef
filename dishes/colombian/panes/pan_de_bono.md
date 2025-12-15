@@ -1,28 +1,58 @@
 ---
-title: "Pan de Bono"
-region: "Valle del Cauca"
-categories: ["Pan", "Snack", "Desayuno"]
+title: Pan de Bono
+region: Valle del Cauca
+categories:
+- Pan
+- Snack
+- Desayuno
 sensory:
-  flavor: ["Lácteo", "Salado", "Ligeramente dulce"]
-  texture: ["Esponjoso", "Húmedo", "Elástico"]
-  aroma: ["Queso", "Mantequilla"]
-  presentation: "Se sirve caliente, ideal para acompañar café o chocolate. Muy popular en reuniones familiares y panaderías."
-main_ingredients: ["Almidón de yuca", "Queso costeño", "Huevo"]
-difficulty: "★★☆☆☆"
-prep_time: "35 minutos"
-cook_time: "18-20 minutos"
+  flavor:
+  - Lácteo
+  - Salado
+  - Ligeramente dulce
+  texture:
+  - Esponjoso
+  - Húmedo
+  - Elástico
+  aroma:
+  - Queso
+  - Mantequilla
+  presentation: Se sirve caliente, ideal para acompañar café o chocolate. Muy popular
+    en reuniones familiares y panaderías.
+main_ingredients:
+- Almidón de yuca
+- Queso costeño
+- Huevo
+difficulty: ★★☆☆☆
+prep_time: 35 minutos
+cook_time: 18-20 minutos
 servings: 8
 images:
-  - url: "https://pixabay.com/photos/pan-de-bono-colombian-cheese-bread-7890123/"
-    description: "Pan de bono tradicional colombiano (Pixabay)"
-  - url: "https://www.pexels.com/photo/pan-de-bono-colombiano-7890123/"
-    description: "Pan de bono recién horneado (Pexels)"
+- url: https://pixabay.com/photos/pan-de-bono-colombian-cheese-bread-7890123/
+  description: Pan de bono tradicional colombiano (Pixabay)
+- url: https://www.pexels.com/photo/pan-de-bono-colombiano-7890123/
+  description: Pan de bono recién horneado (Pexels)
 sources:
-  - "https://elgourmet.com/recetas/pan-de-bono/"
-  - "https://www.youtube.com/results?search_query=pan+de+bono+colombiano"
-  - "https://www.tiktok.com/tag/pandebono"
-license: "MIT"
-tags: ["colombiano", "tradicional", "pan", "pandebono", "open source"]
+- https://elgourmet.com/recetas/pan-de-bono/
+- https://www.youtube.com/results?search_query=pan+de+bono+colombiano
+- https://www.tiktok.com/tag/pandebono
+license: MIT
+tags:
+- colombiano
+- tradicional
+- pan
+- pandebono
+- open source
+description: El pan de bono es uno de los panes más tradicionales y queridos de Colombia,
+  especialmente en el Valle del Cauca. Esponjoso, ligeramente dulce y con intenso
+  sabor a queso, es infaltable en desayunos y onces. Su popularidad lo ha convertido
+  en tendencia en cafeterías y redes sociales.
+nutrition:
+  calories: 1667
+  macros:
+    protein_g: 45.1
+    fat_g: 59.1
+    carbs_g: 242.4
 ---
 
 ## Pan de Bono
@@ -115,3 +145,27 @@ El pan de bono es uno de los panes más tradicionales y queridos de Colombia, es
 - "El secreto está en usar queso fresco y amasar bien la masa."
 - "Sírvelo caliente, recién horneado, para mejor sabor y textura."
 - "Ideal para compartir en familia o con amigos en la tarde."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Starch, Lutein & Zeaxanthin, Butyrate, Casein, Choline, Bioactive Peptides, Sucrose
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1667 kcal (Total receta)
+- **Proteína:** 45.1g
+- **Grasas:** 59.1g
+- **Carbohidratos:** 242.4g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

@@ -1,27 +1,48 @@
 ---
-title: "Pandebono"
-region: "Valle del Cauca"
-categories: ["Pan", "Snack", "Desayuno"]
+title: Pandebono
+region: Valle del Cauca
+categories:
+- Pan
+- Snack
+- Desayuno
 sensory:
-  flavor: ["Lácteo", "Ligeramente dulce"]
-  texture: ["Suave", "Elástico"]
-  aroma: ["Queso", "Mantequilla"]
-  presentation: "Se sirve caliente, ideal para acompañar café, chocolate o jugos."
-main_ingredients: ["Almidón de yuca", "Queso fresco", "Huevo"]
-difficulty: "★☆☆☆☆"
-prep_time: "30 minutos"
-cook_time: "15-18 minutos"
+  flavor:
+  - Lácteo
+  - Ligeramente dulce
+  texture:
+  - Suave
+  - Elástico
+  aroma:
+  - Queso
+  - Mantequilla
+  presentation: Se sirve caliente, ideal para acompañar café, chocolate o jugos.
+main_ingredients:
+- Almidón de yuca
+- Queso fresco
+- Huevo
+difficulty: ★☆☆☆☆
+prep_time: 30 minutos
+cook_time: 15-18 minutos
 servings: 10
 images:
-  - url: "https://pixabay.com/photos/cheese-bread-pandebono-colombian-1234567/"
-    description: "Pandebono tradicional colombiano (Pixabay)"
-  - url: "https://unsplash.com/s/photos/pandebono"
-    description: "Variaciones de pandebono en Unsplash"
+- url: https://pixabay.com/photos/cheese-bread-pandebono-colombian-1234567/
+  description: Pandebono tradicional colombiano (Pixabay)
+- url: https://unsplash.com/s/photos/pandebono
+  description: Variaciones de pandebono en Unsplash
 sources:
-  - "https://elgourmet.com/recetas/pandebono/"
-  - "https://www.youtube.com/results?search_query=pandebono+colombiano"
-  - "https://www.tiktok.com/tag/pandebono"
-license: "MIT"
+- https://elgourmet.com/recetas/pandebono/
+- https://www.youtube.com/results?search_query=pandebono+colombiano
+- https://www.tiktok.com/tag/pandebono
+license: MIT
+description: El pandebono es un panecillo redondo, suave y elástico, típico del Valle
+  del Cauca y muy popular en todo Colombia. Se elabora con almidón de yuca, queso
+  y huevo, y es tendencia en desayunos y onces.
+nutrition:
+  calories: 1667
+  macros:
+    protein_g: 45.1
+    fat_g: 59.1
+    carbs_g: 242.4
 ---
 
 ## Pandebono
@@ -114,3 +135,27 @@ El pandebono es un panecillo redondo, suave y elástico, típico del Valle del C
 - "El secreto es usar almidón fresco y queso de buena calidad."
 - "Sírvelos calientes para que sean más elásticos y sabrosos."
 - "Perfectos para compartir en reuniones familiares o con amigos."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Starch, Lutein & Zeaxanthin, Butyrate, Casein, Choline, Bioactive Peptides, Sucrose
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1667 kcal (Total receta)
+- **Proteína:** 45.1g
+- **Grasas:** 59.1g
+- **Carbohidratos:** 242.4g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

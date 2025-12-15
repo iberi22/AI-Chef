@@ -1,29 +1,55 @@
 ---
-title: "Ceviche de Camarón"
-region: "Caribe"
-categories: ["Entrada", "Snack", "Plato frío"]
+title: Ceviche de Camarón
+region: Caribe
+categories:
+- Entrada
+- Snack
+- Plato frío
 sensory:
-  flavor: ["Ácido", "Salado", "Umami"]
-  texture: ["Jugoso", "Crujiente"]
-  aroma: ["Cítrico", "Herbal"]
-  presentation: "Se sirve frío, en copas o vasos, decorado con cilantro y acompañado de galletas saladas. Es infaltable en playas, fiestas y reuniones costeñas."
-main_ingredients: ["Camarón", "Limón", "Cilantro", "Tomate", "Cebolla"]
-difficulty: "★★☆☆☆"
-prep_time: "20 minutos"
-cook_time: "5 minutos"
+  flavor:
+  - Ácido
+  - Salado
+  - Umami
+  texture:
+  - Jugoso
+  - Crujiente
+  aroma:
+  - Cítrico
+  - Herbal
+  presentation: Se sirve frío, en copas o vasos, decorado con cilantro y acompañado
+    de galletas saladas. Es infaltable en playas, fiestas y reuniones costeñas.
+main_ingredients:
+- Camarón
+- Limón
+- Cilantro
+- Tomate
+- Cebolla
+difficulty: ★★☆☆☆
+prep_time: 20 minutos
+cook_time: 5 minutos
 servings: 6
 images:
-  - url: "https://pixabay.com/es/photos/ceviche-camaron-colombia-6146266/"
-    description: "Ceviche de camarón tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/ceviche-de-camaron"
-    description: "Variaciones de ceviche de camarón en Unsplash"
+- url: https://pixabay.com/es/photos/ceviche-camaron-colombia-6146266/
+  description: Ceviche de camarón tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/ceviche-de-camaron
+  description: Variaciones de ceviche de camarón en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-ceviche-de-camaron-35794"
-  - "https://www.gastronomiacolombiana.com/foro/ceviche-de-camaron"
-  - "https://www.google.com/maps/search/ceviche+de+camaron"
-  - "https://www.youtube.com/results?search_query=ceviche+de+camaron"
-  - "https://www.tiktok.com/tag/cevichedecamaron"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-ceviche-de-camaron-35794
+- https://www.gastronomiacolombiana.com/foro/ceviche-de-camaron
+- https://www.google.com/maps/search/ceviche+de+camaron
+- https://www.youtube.com/results?search_query=ceviche+de+camaron
+- https://www.tiktok.com/tag/cevichedecamaron
+license: MIT
+description: El Ceviche de Camarón es un plato fresco y vibrante de la región Caribe
+  colombiana, especialmente popular en Cartagena y Santa Marta. Consiste en camarones
+  cocidos en jugo de limón, mezclados con cebolla, tomate, cilantro y ají, servidos
+  fríos como entrada o snack refrescante.
+nutrition:
+  calories: 125
+  macros:
+    protein_g: 5.0
+    fat_g: 1.0
+    carbs_g: 29.7
 ---## Ceviche de Camarón
 
 El Ceviche de Camarón es un plato fresco y vibrante de la región Caribe colombiana, especialmente popular en Cartagena y Santa Marta. Consiste en camarones cocidos en jugo de limón, mezclados con cebolla, tomate, cilantro y ají, servidos fríos como entrada o snack refrescante.

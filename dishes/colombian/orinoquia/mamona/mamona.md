@@ -1,24 +1,49 @@
 ---
-title: "Mamona (Ternera a la Llanera)"
-region: "Orinoquía"
-categories: ["Plato fuerte", "Asado", "Comida típica"]
+title: Mamona (Ternera a la Llanera)
+region: Orinoquía
+categories:
+- Plato fuerte
+- Asado
+- Comida típica
 sensory:
-  flavor: ["Umami", "Salado", "Ahumado"]
-  texture: ["Jugoso", "Suave", "Crujiente"]
-  aroma: ["Ahumado", "Herbal", "Carnoso"]
-  presentation: "Se sirve en grandes bandejas o sobre hojas de bijao, acompañado de yuca y plátano. Ideal para fiestas al aire libre."
-main_ingredients: ["Ternera", "Sal", "Ajo", "Orégano", "Tomillo"]
-difficulty: "★★★★☆"
-prep_time: "2 horas"
-cook_time: "3 horas"
+  flavor:
+  - Umami
+  - Salado
+  - Ahumado
+  texture:
+  - Jugoso
+  - Suave
+  - Crujiente
+  aroma:
+  - Ahumado
+  - Herbal
+  - Carnoso
+  presentation: Se sirve en grandes bandejas o sobre hojas de bijao, acompañado de
+    yuca y plátano. Ideal para fiestas al aire libre.
+main_ingredients:
+- Ternera
+- Sal
+- Ajo
+- Orégano
+- Tomillo
+difficulty: ★★★★☆
+prep_time: 2 horas
+cook_time: 3 horas
 servings: 12
 nutrition:
-  calories: 450
-  protein: "35g"
-  fat: "20g"
-  carbs: "15g"
-tags: ["Plato fuerte", "Asado festivo", "Comida típica"]
-
+  calories: 1168
+  macros:
+    protein_g: 84.3
+    fat_g: 34.6
+    carbs_g: 122.0
+tags:
+- Plato fuerte
+- Asado festivo
+- Comida típica
+description: La Mamona, también conocida como Ternera a la Llanera, es el plato más
+  emblemático de la región Orinoquía colombiana. Consiste en carne de res joven asada
+  al calor de leña, sazonada con hierbas y acompañada de yuca, plátano y ají. Es el
+  centro de las celebraciones llaneras y símbolo de hospitalidad.
 ---
 ## Mamona (Ternera a la Llanera)
 

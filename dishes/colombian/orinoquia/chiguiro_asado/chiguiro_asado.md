@@ -1,3 +1,23 @@
+---
+title: Chigüiro Asado
+description: El Chigüiro Asado es un plato tradicional y emblemático de la Orinoquía
+  colombiana, preparado con carne de chigüiro (capibara), el roedor más grande del
+  mundo. Su carne es apreciada por su sabor suave y textura jugosa, y suele asarse
+  a la brasa y servirse con yuca, plátano y ají llanero.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 1164
+  macros:
+    protein_g: 83.8
+    fat_g: 34.4
+    carbs_g: 122.0
+embedding_version: 1
+---
+
 # Chigüiro Asado
 
 El Chigüiro Asado es un plato tradicional y emblemático de la Orinoquía colombiana, preparado con carne de chigüiro (capibara), el roedor más grande del mundo. Su carne es apreciada por su sabor suave y textura jugosa, y suele asarse a la brasa y servirse con yuca, plátano y ají llanero.

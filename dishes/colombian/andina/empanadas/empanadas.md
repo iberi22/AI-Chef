@@ -1,29 +1,55 @@
 ---
-title: "Empanadas Andinas"
-region: "Andina"
-categories: ["Snack", "Desayuno", "Entrada", "Pasaboca"]
+title: Empanadas Andinas
+region: Andina
+categories:
+- Snack
+- Desayuno
+- Entrada
+- Pasaboca
 sensory:
-  flavor: ["Salado", "Umami"]
-  texture: ["Crujiente", "Cremoso"]
-  aroma: ["Ahumado", "Herbal"]
-  presentation: "Se sirven calientes, recién fritas, en porciones individuales, ideales para compartir y acompañar con salsas."
-main_ingredients: ["Harina de maíz", "Carne molida", "Papa", "Cebolla larga", "Ajo", "Comino"]
-difficulty: "★★★☆☆"
-prep_time: "45 minutos"
-cook_time: "30 minutos"
+  flavor:
+  - Salado
+  - Umami
+  texture:
+  - Crujiente
+  - Cremoso
+  aroma:
+  - Ahumado
+  - Herbal
+  presentation: Se sirven calientes, recién fritas, en porciones individuales, ideales
+    para compartir y acompañar con salsas.
+main_ingredients:
+- Harina de maíz
+- Carne molida
+- Papa
+- Cebolla larga
+- Ajo
+- Comino
+difficulty: ★★★☆☆
+prep_time: 45 minutos
+cook_time: 30 minutos
 servings: 20
 images:
-  - url: "https://pixabay.com/es/photos/empanadas-colombia-comida-6146263/"
-    description: "Empanadas andinas tradicionales (Pixabay)"
-  - url: "https://unsplash.com/s/photos/empanadas-colombianas"
-    description: "Variaciones de empanadas en Unsplash"
+- url: https://pixabay.com/es/photos/empanadas-colombia-comida-6146263/
+  description: Empanadas andinas tradicionales (Pixabay)
+- url: https://unsplash.com/s/photos/empanadas-colombianas
+  description: Variaciones de empanadas en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-empanadas-andinas-46802"
-  - "https://www.gastronomiacolombiana.com/foro/empanadas"
-  - "https://www.google.com/maps/search/empanadas+colombianas"
-  - "https://www.youtube.com/results?search_query=empanadas+colombianas"
-  - "https://www.tiktok.com/tag/empanadascolombianas"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-empanadas-andinas-46802
+- https://www.gastronomiacolombiana.com/foro/empanadas
+- https://www.google.com/maps/search/empanadas+colombianas
+- https://www.youtube.com/results?search_query=empanadas+colombianas
+- https://www.tiktok.com/tag/empanadascolombianas
+license: MIT
+description: Las empanadas andinas son uno de los pasabocas más populares de la región,
+  crujientes por fuera y rellenas de una mezcla sabrosa de carne, papa y condimentos.
+  Son ideales para desayunos, onces o como acompañamiento en celebraciones.
+nutrition:
+  calories: 1287
+  macros:
+    protein_g: 86.2
+    fat_g: 47.0
+    carbs_g: 138.8
 ---## Empanadas Andinas
 
 Las empanadas andinas son uno de los pasabocas más populares de la región, crujientes por fuera y rellenas de una mezcla sabrosa de carne, papa y condimentos. Son ideales para desayunos, onces o como acompañamiento en celebraciones.

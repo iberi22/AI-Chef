@@ -1,3 +1,23 @@
+---
+title: Casabe
+description: El Casabe es un pan plano ancestral elaborado a base de yuca amarga,
+  tradicional en la Orinoquía y la Amazonía colombiana. Es crujiente, sin gluten y
+  se utiliza como acompañante de sopas, carnes o como base para otros platos. Su preparación
+  es un legado indígena que se mantiene vivo en la región.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 3
+  macros:
+    protein_g: 0.0
+    fat_g: 0.0
+    carbs_g: 0.8
+embedding_version: 1
+---
+
 # Casabe
 
 El Casabe es un pan plano ancestral elaborado a base de yuca amarga, tradicional en la Orinoquía y la Amazonía colombiana. Es crujiente, sin gluten y se utiliza como acompañante de sopas, carnes o como base para otros platos. Su preparación es un legado indígena que se mantiene vivo en la región.

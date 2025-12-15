@@ -17,18 +17,29 @@ const placeholderPath = path.join(repoRoot, 'dishes/colombian/nacionales/img/cho
 const baseUrl = '/AI-Chef';
 
 // Clean existing directories
-if (fs.existsSync(dishesContentDir)) {
-  fs.rmSync(dishesContentDir, { recursive: true, force: true });
-}
-if (fs.existsSync(dishesPublicDir)) {
-  fs.rmSync(dishesPublicDir, { recursive: true, force: true });
-}
-if (fs.existsSync(tipsContentDir)) {
-  fs.rmSync(tipsContentDir, { recursive: true, force: true });
-}
-if (fs.existsSync(tipsPublicDir)) {
-  fs.rmSync(tipsPublicDir, { recursive: true, force: true });
-}
+try {
+  if (fs.existsSync(dishesContentDir)) {
+    fs.rmSync(dishesContentDir, { recursive: true, force: true });
+  }
+} catch (e) { console.warn('Warning: Could not clear dishesContentDir:', e.message); }
+
+try {
+  if (fs.existsSync(dishesPublicDir)) {
+    fs.rmSync(dishesPublicDir, { recursive: true, force: true });
+  }
+} catch (e) { console.warn('Warning: Could not clear dishesPublicDir:', e.message); }
+
+try {
+  if (fs.existsSync(tipsContentDir)) {
+    fs.rmSync(tipsContentDir, { recursive: true, force: true });
+  }
+} catch (e) { console.warn('Warning: Could not clear tipsContentDir:', e.message); }
+
+try {
+  if (fs.existsSync(tipsPublicDir)) {
+    fs.rmSync(tipsPublicDir, { recursive: true, force: true });
+  }
+} catch (e) { console.warn('Warning: Could not clear tipsPublicDir:', e.message); }
 
 // Create target directories
 fs.mkdirSync(dishesContentDir, { recursive: true });
@@ -113,18 +124,29 @@ function copyDir(src, destContent, destPublic, relativePath = '') {
 
 // Clean existing content and public directories first
 console.log('Cleaning existing directories...');
-if (fs.existsSync(dishesContentDir)) {
-  fs.rmSync(dishesContentDir, { recursive: true, force: true });
-}
-if (fs.existsSync(tipsContentDir)) {
-  fs.rmSync(tipsContentDir, { recursive: true, force: true });
-}
-if (fs.existsSync(dishesPublicDir)) {
-  fs.rmSync(dishesPublicDir, { recursive: true, force: true });
-}
-if (fs.existsSync(tipsPublicDir)) {
-  fs.rmSync(tipsPublicDir, { recursive: true, force: true });
-}
+try {
+  if (fs.existsSync(dishesContentDir)) {
+    fs.rmSync(dishesContentDir, { recursive: true, force: true });
+  }
+} catch (e) { console.warn('Warning: Could not clear dishesContentDir:', e.message); }
+
+try {
+  if (fs.existsSync(tipsContentDir)) {
+    fs.rmSync(tipsContentDir, { recursive: true, force: true });
+  }
+} catch (e) { console.warn('Warning: Could not clear tipsContentDir:', e.message); }
+
+try {
+  if (fs.existsSync(dishesPublicDir)) {
+    fs.rmSync(dishesPublicDir, { recursive: true, force: true });
+  }
+} catch (e) { console.warn('Warning: Could not clear dishesPublicDir:', e.message); }
+
+try {
+  if (fs.existsSync(tipsPublicDir)) {
+    fs.rmSync(tipsPublicDir, { recursive: true, force: true });
+  }
+} catch (e) { console.warn('Warning: Could not clear tipsPublicDir:', e.message); }
 
 // Recreate directories
 fs.mkdirSync(dishesContentDir, { recursive: true });

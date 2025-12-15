@@ -1,3 +1,23 @@
+---
+title: Mute Santandereano
+description: El Mute Santandereano es uno de los platos más tradicionales del departamento
+  de Santander, Colombia. Es una sopa robusta y rica en ingredientes, famosa por su
+  textura espesa y sabor profundo, resultado de la combinación de carnes, granos y
+  tubérculos.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 2169
+  macros:
+    protein_g: 153.9
+    fat_g: 59.2
+    carbs_g: 252.5
+embedding_version: 1
+---
+
 # Mute Santandereano
 
 El Mute Santandereano es uno de los platos más tradicionales del departamento de Santander, Colombia. Es una sopa robusta y rica en ingredientes, famosa por su textura espesa y sabor profundo, resultado de la combinación de carnes, granos y tubérculos.
@@ -52,7 +72,7 @@ El Mute Santandereano es uno de los platos más tradicionales del departamento d
 
 ## 📸 Galería
 
-*Próximamente...*
+![Mute santandereano sustancioso](./images/1.png)
 
 ---
 
@@ -70,7 +90,7 @@ El Mute Santandereano es uno de los platos más tradicionales del departamento d
 ### Opiniones de usuarios
 
 - **Usuario anónimo (TripAdvisor):** "El mute santandereano es la sopa más completa y sabrosa, perfecta para un almuerzo después de una caminata por Barichara."
-- **Foro gastronómico:** "El secreto está en el chorizo y el hueso de cañada, le dan un sabor ahumado y profundo que no se olvida".  
+- **Foro gastronómico:** "El secreto está en el chorizo y el hueso de cañada, le dan un sabor ahumado y profundo que no se olvida".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

@@ -1,13 +1,20 @@
 ---
-title: "Mazamorra Antioqueña"
+title: Mazamorra Antioqueña
 images:
-  - "https://www.misrecetas.com/fotos/photo/main/1368/mazamorra.jpg"
-  - "https://www.recetasgratis.net/co/images/4/5/7/mazamorra_23754_600.jpg"
+- https://www.misrecetas.com/fotos/photo/main/1368/mazamorra.jpg
+- https://www.recetasgratis.net/co/images/4/5/7/mazamorra_23754_600.jpg
 sources:
-  - "https://www.mycolombianrecipes.com/es/mazamorra-antioquena/"
-  - "https://www.recetasgratis.net/receta-de-mazamorra-antioquena-23754.html"
-license: "MIT"
-yaml_validation: "https://yaml-online-parser.appspot.com/"
+- https://www.mycolombianrecipes.com/es/mazamorra-antioquena/
+- https://www.recetasgratis.net/receta-de-mazamorra-antioquena-23754.html
+license: MIT
+yaml_validation: https://yaml-online-parser.appspot.com/
+description: '* 1 libra de maíz blanco trillado'
+nutrition:
+  calories: 506
+  macros:
+    protein_g: 16.0
+    fat_g: 6.0
+    carbs_g: 114.6
 ---
 
 ## Ingredientes
@@ -26,3 +33,27 @@ yaml_validation: "https://yaml-online-parser.appspot.com/"
 5. Una vez cocido, puedes guardarlo en la nevera con su propia agua de cocción.
 6. Para servir, toma una porción de maíz con un poco de su agua y añade leche fría al gusto. Se sirve tradicionalmente como postre o acompañamiento.
 7. Acompaña con panela rallada o un trozo de bocadillo de guayaba.
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Lutein, Casein, Sucrose
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 506 kcal (Total receta)
+- **Proteína:** 16.0g
+- **Grasas:** 6.0g
+- **Carbohidratos:** 114.6g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

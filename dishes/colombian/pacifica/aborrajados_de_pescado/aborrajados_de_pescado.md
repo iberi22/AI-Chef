@@ -1,29 +1,57 @@
 ---
-title: "Aborrajados de Pescado"
-region: "Pacífica"
-categories: ["Snack", "Entrada", "Acompañamiento", "Comida típica"]
+title: Aborrajados de Pescado
+region: Pacífica
+categories:
+- Snack
+- Entrada
+- Acompañamiento
+- Comida típica
 sensory:
-  flavor: ["Dulce", "Salado", "Umami"]
-  texture: ["Crujiente", "Suave", "Jugoso"]
-  aroma: ["Dulce (plátano)", "Marino (pescado)", "Frito"]
-  presentation: "Se sirven calientes, acompañados de ají casero o limón, ideales para compartir en reuniones familiares y ferias gastronómicas."
-main_ingredients: ["Plátano maduro", "Pescado blanco", "Huevo", "Harina de trigo"]
-difficulty: "★★★☆☆"
-prep_time: "30 minutos"
-cook_time: "20 minutos"
+  flavor:
+  - Dulce
+  - Salado
+  - Umami
+  texture:
+  - Crujiente
+  - Suave
+  - Jugoso
+  aroma:
+  - Dulce (plátano)
+  - Marino (pescado)
+  - Frito
+  presentation: Se sirven calientes, acompañados de ají casero o limón, ideales para
+    compartir en reuniones familiares y ferias gastronómicas.
+main_ingredients:
+- Plátano maduro
+- Pescado blanco
+- Huevo
+- Harina de trigo
+difficulty: ★★★☆☆
+prep_time: 30 minutos
+cook_time: 20 minutos
 servings: 12
 images:
-  - url: "https://pixabay.com/es/photos/aborrajados-pescado-colombia-6146270/"
-    description: "Aborrajados de pescado tradicionales del Pacífico (Pixabay)"
-  - url: "https://unsplash.com/s/photos/aborrajados-de-pescado"
-    description: "Variaciones de aborrajados de pescado en Unsplash"
+- url: https://pixabay.com/es/photos/aborrajados-pescado-colombia-6146270/
+  description: Aborrajados de pescado tradicionales del Pacífico (Pixabay)
+- url: https://unsplash.com/s/photos/aborrajados-de-pescado
+  description: Variaciones de aborrajados de pescado en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-aborrajados-de-pescado-57942"
-  - "https://www.gastronomiacolombiana.com/foro/aborrajados-de-pescado"
-  - "https://www.google.com/maps/search/aborrajados+de+pescado+pacifico"
-  - "https://www.youtube.com/results?search_query=aborrajados+de+pescado"
-  - "https://www.tiktok.com/tag/aborrajadosdepescado"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-aborrajados-de-pescado-57942
+- https://www.gastronomiacolombiana.com/foro/aborrajados-de-pescado
+- https://www.google.com/maps/search/aborrajados+de+pescado+pacifico
+- https://www.youtube.com/results?search_query=aborrajados+de+pescado
+- https://www.tiktok.com/tag/aborrajadosdepescado
+license: MIT
+description: Los Aborrajados de Pescado son una delicia tradicional del Pacífico colombiano,
+  especialmente en las zonas costeras de Nariño y Cauca. Consisten en trozos de pescado
+  fresco envueltos en una masa de plátano maduro y fritos hasta quedar dorados y crujientes.
+  Son populares como entrada, snack o acom...
+nutrition:
+  calories: 285
+  macros:
+    protein_g: 19.4
+    fat_g: 18.6
+    carbs_g: 10.7
 ---## Aborrajados de Pescado
 
 Los Aborrajados de Pescado son una delicia tradicional del Pacífico colombiano, especialmente en las zonas costeras de Nariño y Cauca. Consisten en trozos de pescado fresco envueltos en una masa de plátano maduro y fritos hasta quedar dorados y crujientes. Son populares como entrada, snack o acompañamiento en celebraciones familiares.

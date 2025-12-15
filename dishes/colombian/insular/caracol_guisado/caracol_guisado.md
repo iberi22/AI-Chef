@@ -1,3 +1,23 @@
+---
+title: Caracol Guisado
+description: El Caracol Guisado es un plato icónico de la región Insular, especialmente
+  de San Andrés y Providencia. Se prepara con caracol de mar fresco, cocido lentamente
+  en un guiso de leche de coco, vegetales y especias isleñas, logrando una textura
+  tierna y un sabor profundo y marino.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 662
+  macros:
+    protein_g: 11.5
+    fat_g: 15.4
+    carbs_g: 124.5
+embedding_version: 1
+---
+
 # Caracol Guisado
 
 El Caracol Guisado es un plato icónico de la región Insular, especialmente de San Andrés y Providencia. Se prepara con caracol de mar fresco, cocido lentamente en un guiso de leche de coco, vegetales y especias isleñas, logrando una textura tierna y un sabor profundo y marino.
@@ -51,7 +71,7 @@ El Caracol Guisado es un plato icónico de la región Insular, especialmente de 
 
 ## 📸 Galería
 
-*Próximamente...*
+![Caracol guisado con coco](./images/1.png)
 
 ---
 

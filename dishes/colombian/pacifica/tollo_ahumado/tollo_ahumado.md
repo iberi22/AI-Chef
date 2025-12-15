@@ -1,29 +1,60 @@
 ---
-title: "Tollo Ahumado"
-region: "Pacífica"
-categories: ["Plato fuerte", "Guiso festivo", "Comida típica"]
+title: Tollo Ahumado
+region: Pacífica
+categories:
+- Plato fuerte
+- Guiso festivo
+- Comida típica
 sensory:
-  flavor: ["Ahumado", "Umami", "Salado", "Lácteo (coco)"]
-  texture: ["Suave", "Jugoso", "Cremoso"]
-  aroma: ["Ahumado", "Marino", "Herbal (cilantro cimarrón y tomillo)", "Lácteo (coco)"]
-  presentation: "Se sirve en cazuela de barro, decorado con cilantro cimarrón y acompañado de arroz con coco. Plato estrella en celebraciones del Pacífico."
-main_ingredients: ["Tollo (tiburón) ahumado", "Leche de coco", "Cebolla", "Ajo", "Pimentón", "Tomate"]
-difficulty: "★★★★☆"
-prep_time: "1 hora"
-cook_time: "1 hora"
+  flavor:
+  - Ahumado
+  - Umami
+  - Salado
+  - Lácteo (coco)
+  texture:
+  - Suave
+  - Jugoso
+  - Cremoso
+  aroma:
+  - Ahumado
+  - Marino
+  - Herbal (cilantro cimarrón y tomillo)
+  - Lácteo (coco)
+  presentation: Se sirve en cazuela de barro, decorado con cilantro cimarrón y acompañado
+    de arroz con coco. Plato estrella en celebraciones del Pacífico.
+main_ingredients:
+- Tollo (tiburón) ahumado
+- Leche de coco
+- Cebolla
+- Ajo
+- Pimentón
+- Tomate
+difficulty: ★★★★☆
+prep_time: 1 hora
+cook_time: 1 hora
 servings: 6
 images:
-  - url: "https://pixabay.com/es/photos/pescado-ahumado-cocina-marina-6146279/"
-    description: "Tollo ahumado tradicional del Pacífico colombiano (Pixabay)"
-  - url: "https://unsplash.com/s/photos/smoked-fish-colombia"
-    description: "Variaciones de pescado ahumado en Unsplash"
+- url: https://pixabay.com/es/photos/pescado-ahumado-cocina-marina-6146279/
+  description: Tollo ahumado tradicional del Pacífico colombiano (Pixabay)
+- url: https://unsplash.com/s/photos/smoked-fish-colombia
+  description: Variaciones de pescado ahumado en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-tollo-ahumado-57943"
-  - "https://www.gastronomiacolombiana.com/foro/tollo-ahumado"
-  - "https://www.google.com/maps/search/tollo+ahumado+pacifico"
-  - "https://www.youtube.com/results?search_query=tollo+ahumado+pacifico"
-  - "https://www.tiktok.com/tag/tolloahumado"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-tollo-ahumado-57943
+- https://www.gastronomiacolombiana.com/foro/tollo-ahumado
+- https://www.google.com/maps/search/tollo+ahumado+pacifico
+- https://www.youtube.com/results?search_query=tollo+ahumado+pacifico
+- https://www.tiktok.com/tag/tolloahumado
+license: MIT
+description: El Tollo Ahumado es un plato tradicional del Pacífico colombiano, especialmente
+  apreciado en las comunidades afrodescendientes del litoral. Se prepara con carne
+  de tiburón (tollo) ahumada artesanalmente y luego guisada con leche de coco, especias
+  y vegetales, resultando en un plato intenso y arom...
+nutrition:
+  calories: 229
+  macros:
+    protein_g: 4.3
+    fat_g: 14.8
+    carbs_g: 24.0
 ---
 
 ## Tollo Ahumado

@@ -1,28 +1,64 @@
 ---
-title: "Fritanga Colombiana"
-region: "Nacional"
-categories: ["Plato fuerte", "Comida para compartir", "Tradicional", "Street food"]
+title: Fritanga Colombiana
+region: Nacional
+categories:
+- Plato fuerte
+- Comida para compartir
+- Tradicional
+- Street food
 sensory:
-  flavor: ["Salado", "Umami"]
-  texture: ["Crujiente", "Jugoso", "Suave"]
-  aroma: ["Frito", "Ahumado", "Especiado"]
-  presentation: "Se sirve en bandeja grande o canasta, sobre hojas de plátano, para compartir en ambiente festivo."
-main_ingredients: ["Chicharrón", "Chorizo", "Morcilla", "Costilla de cerdo", "Papa criolla", "Yuca", "Plátano", "Arepa"]
-difficulty: "★★★☆☆"
-prep_time: "1 hora"
-cook_time: "1 hora"
-servings: "4-6"
+  flavor:
+  - Salado
+  - Umami
+  texture:
+  - Crujiente
+  - Jugoso
+  - Suave
+  aroma:
+  - Frito
+  - Ahumado
+  - Especiado
+  presentation: Se sirve en bandeja grande o canasta, sobre hojas de plátano, para
+    compartir en ambiente festivo.
+main_ingredients:
+- Chicharrón
+- Chorizo
+- Morcilla
+- Costilla de cerdo
+- Papa criolla
+- Yuca
+- Plátano
+- Arepa
+difficulty: ★★★☆☆
+prep_time: 1 hora
+cook_time: 1 hora
+servings: 4-6
 images:
-  - url: "https://pixabay.com/photos/fritanga-colombiana-platter-food-6277743/"
-    description: "Bandeja de fritanga colombiana tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/fritanga-colombia"
-    description: "Variaciones de fritanga en Unsplash"
+- url: https://pixabay.com/photos/fritanga-colombiana-platter-food-6277743/
+  description: Bandeja de fritanga colombiana tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/fritanga-colombia
+  description: Variaciones de fritanga en Unsplash
 sources:
-  - "https://www.recetasdecolombia.com/fritanga"
-  - "https://www.youtube.com/results?search_query=fritanga+colombiana"
-  - "https://www.tiktok.com/tag/fritanga"
-license: "MIT"
-tags: ["colombiano", "tradicional", "fritanga", "parrilla", "open source"]
+- https://www.recetasdecolombia.com/fritanga
+- https://www.youtube.com/results?search_query=fritanga+colombiana
+- https://www.tiktok.com/tag/fritanga
+license: MIT
+tags:
+- colombiano
+- tradicional
+- fritanga
+- parrilla
+- open source
+description: La fritanga es un festín de carnes y fritos típico de reuniones familiares,
+  celebraciones y restaurantes populares en Colombia. Se sirve en bandeja o canasta,
+  con variedad de embutidos, carnes, papas, plátano y arepas. Es tendencia en redes
+  por su abundancia y ambiente festivo.
+nutrition:
+  calories: 1642
+  macros:
+    protein_g: 25.4
+    fat_g: 18.5
+    carbs_g: 349.3
 ---
 
 
@@ -120,3 +156,27 @@ La fritanga es un festín de carnes y fritos típico de reuniones familiares, ce
 - "El secreto es freír en aceite bien caliente para que todo quede crocante."
 - "Sirve con mucho hogao y ají para realzar el sabor."
 - "La fritanga sabe mejor en buena compañía y con música."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Starch, Lycopene, Lipids, Resistant Starch, Allicin
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1642 kcal (Total receta)
+- **Proteína:** 25.4g
+- **Grasas:** 18.5g
+- **Carbohidratos:** 349.3g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

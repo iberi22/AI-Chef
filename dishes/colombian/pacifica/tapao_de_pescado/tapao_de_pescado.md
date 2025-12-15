@@ -1,29 +1,55 @@
 ---
-title: "Tapao de Pescado"
-region: "Pacífica"
-categories: ["Plato fuerte", "Sopa festiva", "Comida típica"]
+title: Tapao de Pescado
+region: Pacífica
+categories:
+- Plato fuerte
+- Sopa festiva
+- Comida típica
 sensory:
-  flavor: ["Umami", "Salado", "Lácteo (coco)"]
-  texture: ["Cremoso", "Suave"]
-  aroma: ["Marino", "Herbal (cilantro cimarrón y tomillo)", "Lácteo (coco)"]
-  presentation: "Se sirve en platos hondos, decorado con cilantro cimarrón y acompañado de arroz con coco. Centro de celebraciones familiares en el Pacífico."
-main_ingredients: ["Pescado fresco", "Leche de coco", "Yuca", "Plátano verde"]
-difficulty: "★★★☆☆"
-prep_time: "30 minutos"
-cook_time: "1 hora"
+  flavor:
+  - Umami
+  - Salado
+  - Lácteo (coco)
+  texture:
+  - Cremoso
+  - Suave
+  aroma:
+  - Marino
+  - Herbal (cilantro cimarrón y tomillo)
+  - Lácteo (coco)
+  presentation: Se sirve en platos hondos, decorado con cilantro cimarrón y acompañado
+    de arroz con coco. Centro de celebraciones familiares en el Pacífico.
+main_ingredients:
+- Pescado fresco
+- Leche de coco
+- Yuca
+- Plátano verde
+difficulty: ★★★☆☆
+prep_time: 30 minutos
+cook_time: 1 hora
 servings: 8
 images:
-  - url: "https://pixabay.com/es/photos/tapao-pacifico-colombia-6146278/"
-    description: "Tapao de pescado tradicional del Pacífico colombiano (Pixabay)"
-  - url: "https://unsplash.com/s/photos/tapao-pescado-colombia"
-    description: "Variaciones de tapao de pescado en Unsplash"
+- url: https://pixabay.com/es/photos/tapao-pacifico-colombia-6146278/
+  description: Tapao de pescado tradicional del Pacífico colombiano (Pixabay)
+- url: https://unsplash.com/s/photos/tapao-pescado-colombia
+  description: Variaciones de tapao de pescado en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-tapao-de-pescado-57938"
-  - "https://www.gastronomiacolombiana.com/foro/tapao-de-pescado"
-  - "https://www.google.com/maps/search/tapao+de+pescado+pacifico"
-  - "https://www.youtube.com/results?search_query=tapao+de+pescado+pacifico"
-  - "https://www.tiktok.com/tag/tapaodepescado"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-tapao-de-pescado-57938
+- https://www.gastronomiacolombiana.com/foro/tapao-de-pescado
+- https://www.google.com/maps/search/tapao+de+pescado+pacifico
+- https://www.youtube.com/results?search_query=tapao+de+pescado+pacifico
+- https://www.tiktok.com/tag/tapaodepescado
+license: MIT
+description: El Tapao de Pescado es un plato emblemático del Pacífico colombiano,
+  especialmente de la costa nariñense y chocoana. Consiste en pescado fresco cocido
+  con plátano, yuca, papas y leche de coco, resultando en una sopa espesa y aromática,
+  típica de celebraciones y encuentros familiares.
+nutrition:
+  calories: 1168
+  macros:
+    protein_g: 25.2
+    fat_g: 4.1
+    carbs_g: 268.5
 ---
 
 ## Tapao de Pescado

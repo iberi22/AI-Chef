@@ -1,28 +1,53 @@
 ---
-title: "Tacacho con Cecina"
-region: "Amazonía"
-categories: ["Desayuno", "Plato fuerte", "Tradicional"]
+title: Tacacho con Cecina
+region: Amazonía
+categories:
+- Desayuno
+- Plato fuerte
+- Tradicional
 sensory:
-  flavor: ["Ahumado", "Salado", "Ligeramente dulce (si se usa plátano maduro)"]
-  texture: ["Suave (tacacho)", "Crujiente (cecina)"]
-  aroma: ["Ahumado (cecina)", "Tostado (plátano)", "Lácteo (manteca)"]
-  presentation: "Se sirve en bolas o discos, ideal para compartir en desayunos o reuniones familiares."
-main_ingredients: ["Plátano verde", "Cecina (cerdo ahumado)", "Manteca de cerdo"]
-difficulty: "★★☆☆☆"
-prep_time: "20 minutos"
-cook_time: "25 minutos"
+  flavor:
+  - Ahumado
+  - Salado
+  - Ligeramente dulce (si se usa plátano maduro)
+  texture:
+  - Suave (tacacho)
+  - Crujiente (cecina)
+  aroma:
+  - Ahumado (cecina)
+  - Tostado (plátano)
+  - Lácteo (manteca)
+  presentation: Se sirve en bolas o discos, ideal para compartir en desayunos o reuniones
+    familiares.
+main_ingredients:
+- Plátano verde
+- Cecina (cerdo ahumado)
+- Manteca de cerdo
+difficulty: ★★☆☆☆
+prep_time: 20 minutos
+cook_time: 25 minutos
 servings: 4
 images:
-  - url: "https://pixabay.com/photos/tacacho-cecina-amazonian-1234567/"
-    description: "Tacacho con cecina tradicional amazónico (Pixabay)"
-  - url: "https://unsplash.com/s/photos/tacacho-cecina"
-    description: "Variaciones de tacacho con cecina en Unsplash"
+- url: https://pixabay.com/photos/tacacho-cecina-amazonian-1234567/
+  description: Tacacho con cecina tradicional amazónico (Pixabay)
+- url: https://unsplash.com/s/photos/tacacho-cecina
+  description: Variaciones de tacacho con cecina en Unsplash
 sources:
-  - "https://www.tripadvisor.co/ShowUserReviews-g294316-d6385585-r488085052-La_Choza_de_La_Anaconda-Lima_Lima_Region.html"
-  - "https://webturismoperu.com/tacacho-con-cecina-la-delicia-de-la-selva-amazonica-que-debes-probar-ya/"
-  - "https://perusabroso.net/cocina-regional/tacacho-cecina-desayuno-amazonico-conquistara-tu-paladar/"
-  - "https://mirecetadehoy.com/receta-tacacho-con-cecina/"
-license: "MIT"
+- https://www.tripadvisor.co/ShowUserReviews-g294316-d6385585-r488085052-La_Choza_de_La_Anaconda-Lima_Lima_Region.html
+- https://webturismoperu.com/tacacho-con-cecina-la-delicia-de-la-selva-amazonica-que-debes-probar-ya/
+- https://perusabroso.net/cocina-regional/tacacho-cecina-desayuno-amazonico-conquistara-tu-paladar/
+- https://mirecetadehoy.com/receta-tacacho-con-cecina/
+license: MIT
+description: El Tacacho con Cecina es un plato emblemático de la Amazonía, especialmente
+  popular en Perú y presente en la Amazonía colombiana. Consiste en plátano verde
+  asado y machacado, mezclado con manteca y acompañado de cecina (carne de cerdo ahumada).
+  Es un desayuno o almuerzo tradicional, lleno de ener...
+nutrition:
+  calories: 920
+  macros:
+    protein_g: 78.2
+    fat_g: 63.0
+    carbs_g: 1.0
 ---
 
 ## Tacacho con Cecina
@@ -67,7 +92,7 @@ El Tacacho con Cecina es un plato emblemático de la Amazonía, especialmente po
 
 ## 📸 Galería
 
-*Próximamente...*
+![Tacacho con cecina](./images/1.png)
 
 ---
 

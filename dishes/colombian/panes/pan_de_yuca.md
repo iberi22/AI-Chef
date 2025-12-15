@@ -1,28 +1,55 @@
 ---
-title: "Pan de Yuca"
-region: "Andina"
-categories: ["Pan", "Snack", "Desayuno"]
+title: Pan de Yuca
+region: Andina
+categories:
+- Pan
+- Snack
+- Desayuno
 sensory:
-  flavor: ["Lácteo", "Ligeramente dulce"]
-  texture: ["Suave", "Elástico"]
-  aroma: ["Queso", "Mantequilla"]
-  presentation: "Se sirve caliente, ideal para acompañar café, chocolate o jugos."
-main_ingredients: ["Almidón de yuca", "Queso fresco", "Huevo"]
-difficulty: "★☆☆☆☆"
-prep_time: "25 minutos"
-cook_time: "15-18 minutos"
+  flavor:
+  - Lácteo
+  - Ligeramente dulce
+  texture:
+  - Suave
+  - Elástico
+  aroma:
+  - Queso
+  - Mantequilla
+  presentation: Se sirve caliente, ideal para acompañar café, chocolate o jugos.
+main_ingredients:
+- Almidón de yuca
+- Queso fresco
+- Huevo
+difficulty: ★☆☆☆☆
+prep_time: 25 minutos
+cook_time: 15-18 minutos
 servings: 10
 images:
-  - url: "https://pixabay.com/photos/pan-de-yuca-colombian-cheese-bread-8901234/"
-    description: "Pan de yuca tradicional colombiano (Pixabay)"
-  - url: "https://www.pexels.com/photo/pan-de-yuca-colombiano-8901234/"
-    description: "Pan de yuca recién horneado (Pexels)"
+- url: https://pixabay.com/photos/pan-de-yuca-colombian-cheese-bread-8901234/
+  description: Pan de yuca tradicional colombiano (Pixabay)
+- url: https://www.pexels.com/photo/pan-de-yuca-colombiano-8901234/
+  description: Pan de yuca recién horneado (Pexels)
 sources:
-  - "https://elgourmet.com/recetas/pan-de-yuca/"
-  - "https://www.youtube.com/results?search_query=pan+de+yuca+colombiano"
-  - "https://www.tiktok.com/tag/pandeyuca"
-license: "MIT"
-tags: ["colombiano", "tradicional", "pan", "pandeyuca", "open source"]
+- https://elgourmet.com/recetas/pan-de-yuca/
+- https://www.youtube.com/results?search_query=pan+de+yuca+colombiano
+- https://www.tiktok.com/tag/pandeyuca
+license: MIT
+tags:
+- colombiano
+- tradicional
+- pan
+- pandeyuca
+- open source
+description: El pan de yuca es un panecillo pequeño, suave y elástico, tradicional
+  del sur de Colombia y Ecuador. Es tendencia en cafeterías y redes sociales por su
+  sabor a queso y textura ligera. Ideal para desayunos, onces y acompañar bebidas
+  calientes.
+nutrition:
+  calories: 1905
+  macros:
+    protein_g: 52.1
+    fat_g: 78.4
+    carbs_g: 252.7
 ---
 
 ## Pan de Yuca
@@ -116,3 +143,27 @@ El pan de yuca es un panecillo pequeño, suave y elástico, tradicional del sur 
 - "El secreto es usar almidón fresco y queso de buena calidad."
 - "Sírvelos calientes para que sean más elásticos y sabrosos."
 - "Perfectos para compartir en reuniones familiares o con amigos."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Starch, Lutein & Zeaxanthin, Butyrate, Casein, Choline, Bioactive Peptides, Sucrose
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1905 kcal (Total receta)
+- **Proteína:** 52.1g
+- **Grasas:** 78.4g
+- **Carbohidratos:** 252.7g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

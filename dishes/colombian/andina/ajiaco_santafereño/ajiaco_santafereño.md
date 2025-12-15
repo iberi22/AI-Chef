@@ -1,36 +1,63 @@
 ---
-title: "Ajiaco Santafereño"
-region: "Andina"
-categories: ["Plato fuerte", "Sopa tradicional", "Comida típica"]
+title: Ajiaco Santafereño
+region: Andina
+categories:
+- Plato fuerte
+- Sopa tradicional
+- Comida típica
 sensory:
-  flavor: ["Salado", "Herbal", "Umami"]
-  texture: ["Cremoso", "Suave", "Crujiente"]
-  aroma: ["Herbal", "Lácteo", "Maíz"]
-  presentation: "Se sirve en plato hondo, acompañado de crema de leche, alcaparras, arroz blanco y aguacate. Plato reconfortante, típico de reuniones familiares y festividades en Bogotá."
-main_ingredients: ["Papa criolla", "Papa pastusa", "Papa sabanera", "Pollo", "Guascas", "Mazorcas"]
-difficulty: "★★★☆☆"
-prep_time: "20 minutos"
-cook_time: "1 hora y 30 minutos"
+  flavor:
+  - Salado
+  - Herbal
+  - Umami
+  texture:
+  - Cremoso
+  - Suave
+  - Crujiente
+  aroma:
+  - Herbal
+  - Lácteo
+  - Maíz
+  presentation: Se sirve en plato hondo, acompañado de crema de leche, alcaparras,
+    arroz blanco y aguacate. Plato reconfortante, típico de reuniones familiares y
+    festividades en Bogotá.
+main_ingredients:
+- Papa criolla
+- Papa pastusa
+- Papa sabanera
+- Pollo
+- Guascas
+- Mazorcas
+difficulty: ★★★☆☆
+prep_time: 20 minutos
+cook_time: 1 hora y 30 minutos
 servings: 6
 nutrition:
-  calories: 520
-  protein: "28g"
-  fat: "18g"
-  carbs: "65g"
-tags: ["Plato fuerte", "Sopa tradicional", "Comida típica"]
+  calories: 1915
+  macros:
+    protein_g: 160.7
+    fat_g: 55.6
+    carbs_g: 204.0
+tags:
+- Plato fuerte
+- Sopa tradicional
+- Comida típica
 images:
-  - url: "https://pixabay.com/es/photos/ajiaco-soup-colombian-food-6146256/"
-    description: "Ajiaco santafereño servido con guarniciones (Pixabay)"
-  - url: "https://unsplash.com/s/photos/ajiaco"
-    description: "Variaciones de ajiaco en Unsplash"
+- url: https://pixabay.com/es/photos/ajiaco-soup-colombian-food-6146256/
+  description: Ajiaco santafereño servido con guarniciones (Pixabay)
+- url: https://unsplash.com/s/photos/ajiaco
+  description: Variaciones de ajiaco en Unsplash
 sources:
-  - "https://www.lamacarena.com.co/"
-  - "https://www.elcielo.com.co/"
-  - "https://www.andrescarnederes.com.co/"
-  - "https://www.recetasdecolombia.com/ajiaco"
-  - "https://www.youtube.com/results?search_query=ajiaco+santafere%C3%B1o"
-  - "https://www.tiktok.com/tag/ajiaco"
-license: "MIT"
+- https://www.lamacarena.com.co/
+- https://www.elcielo.com.co/
+- https://www.andrescarnederes.com.co/
+- https://www.recetasdecolombia.com/ajiaco
+- https://www.youtube.com/results?search_query=ajiaco+santafere%C3%B1o
+- https://www.tiktok.com/tag/ajiaco
+license: MIT
+description: El Ajiaco Santafereño es la sopa más representativa de Bogotá, la capital
+  de Colombia. Es una preparación sustanciosa y llena de historia, caracterizada por
+  la mezcla de diferentes tipos de papas y el sabor inconfundible de las guascas.
 ---## Ajiaco Santafereño
 
 El Ajiaco Santafereño es la sopa más representativa de Bogotá, la capital de Colombia. Es una preparación sustanciosa y llena de historia, caracterizada por la mezcla de diferentes tipos de papas y el sabor inconfundible de las guascas.

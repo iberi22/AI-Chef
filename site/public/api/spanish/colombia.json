@@ -55,7 +55,16 @@
           "https://delamazonas.com/platos-tipicos/casabe-pan-de-la-amazonia/",
           "https://fdc.nal.usda.gov/"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Ají Negro es una salsa ancestral de la Amazonía, elaborada a partir de ajíes amazónicos fermentados y yuca amarga. Es un condimento esencial en la cocina indígena, con sabor intenso, picante y notas ahumadas, ideal para acompañar casabe, pescados y carnes.",
+        "nutrition": {
+          "calories": 6511,
+          "macros": {
+            "protein_g": 780,
+            "fat_g": 330,
+            "carbs_g": 0.4
+          }
+        }
       },
       "category": [
         "Salsa",
@@ -123,7 +132,16 @@
           "https://www.greenforestecolodge.com/blog/importancia-del-casabe",
           "https://www.tripadvisor.com.mx/ShowUserReviews-g664838-d1049853-r55338727-Casabe-Cabo_Rojo_Puerto_Rico.html"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Casabe es un pan plano ancestral elaborado a base de yuca amarga, tradicional en la Amazonía y la Orinoquía. Es crujiente, sin gluten y se utiliza como acompañante de sopas, pescados o como base para otros platos. Su preparación artesanal es un legado indígena que se mantiene vivo en la región.",
+        "nutrition": {
+          "calories": 3,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0.8
+          }
+        }
       },
       "category": [
         "Pan plano",
@@ -192,7 +210,16 @@
           "https://tipishca.blogspot.com/2014/09/estampas-de-la-amazonia-2.html",
           "https://www.tripadvisor.co/ShowUserReviews-g317037-d3164418-r750285171-Tierras_Amazonicas-Leticia_Amazonas_Department.html"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La Fariña es un alimento ancestral de la Amazonía, elaborado a partir de yuca amarga rallada, secada y tostada hasta obtener una harina gruesa y crujiente. Es un acompañante esencial en la dieta indígena y amazónica, ideal para sopas, caldos, pescados y como base de bebidas refrescantes.",
+        "nutrition": {
+          "calories": 3,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0.8
+          }
+        }
       },
       "category": [
         "Acompañante",
@@ -266,7 +293,16 @@
           "https://www.recetasnestle.com.pe/recetas/inchicapi-de-gallina",
           "https://www.comida-peruana.com/recetas/sopas/inchicapi"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Inchicapi es una sopa tradicional amazónica, muy apreciada en la región por su sabor profundo y textura cremosa. Se prepara con gallina, maní, maíz y especias locales, y es símbolo de hospitalidad en reuniones familiares.",
+        "nutrition": {
+          "calories": 2344,
+          "macros": {
+            "protein_g": 326.2,
+            "fat_g": 39.3,
+            "carbs_g": 159.2
+          }
+        }
       },
       "category": [
         "Sopa",
@@ -341,7 +377,16 @@
           "https://www.deperu.com/recetas-cocina/plato-de-fondo-o-segundo/juane-de-yuca-de-amazonas-672",
           "https://www.ahorrarnuncafuetanbueno.com.pe/recetas/receta-de-juane/"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "Los Juanes de Yuca son un plato festivo y tradicional de la Amazonía, especialmente asociado a la festividad de San Juan. Consisten en una masa de yuca rellena con carne (pollo, pescado o cerdo), envuelta en hojas de bijao y cocida al vapor. Son símbolo de identidad y celebración en la región.",
+        "nutrition": {
+          "calories": 1155,
+          "macros": {
+            "protein_g": 169.5,
+            "fat_g": 43.1,
+            "carbs_g": 13.1
+          }
+        }
       },
       "category": [
         "Plato festivo",
@@ -415,7 +460,16 @@
           "https://www.noticiascaracol.com/los-informantes/mojojoy-el-exotico-y-tradicional-gusano-amazonico-que-conquista-paladares-en-colombia-pr30",
           "https://www.pulzo.com/nacion/cual-es-comida-tipica-amazonas-pescado-seco-mojojoy-mas-recetas-PP3060584A"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Mojojoy es uno de los manjares más exóticos y emblemáticos de la Amazonía colombiana. Se trata de una larva blanca y amarillenta, consumida tradicionalmente por comunidades indígenas. Se puede comer asada, frita o rellena, y es apreciada por su textura cremosa y sabor intenso.",
+        "nutrition": {
+          "calories": 3919,
+          "macros": {
+            "protein_g": 468.2,
+            "fat_g": 199,
+            "carbs_g": 1.1
+          }
+        }
       },
       "category": [
         "Entrada",
@@ -490,7 +544,16 @@
           "https://www.tripadvisor.com/",
           "https://www.gastronomiacolombiana.com/foro/patarasca"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La Patarasca es uno de los platos más emblemáticos de la Amazonía colombiana y peruana. Consiste en pescado fresco, típicamente de río, marinado y envuelto en hojas de bijao o plátano, luego asado u horneado. Es un platillo ancestral, lleno de aromas selváticos y apreciado por su jugosidad y sabo...",
+        "nutrition": {
+          "calories": 195,
+          "macros": {
+            "protein_g": 2.3,
+            "fat_g": 14.4,
+            "carbs_g": 18
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -566,7 +629,8 @@
           "https://colombia.gastronomia.com/noticia/8830/tradicion-amazonica-pescado-moqueado",
           "https://comidadecolombia.blogspot.com/2010/11/pescado-moquiao.html"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Pescado Moqueado es una preparación ancestral de la Amazonía colombiana, utilizada por pueblos indígenas para conservar y realzar el sabor del pescado de río. Consiste en ahumar el pescado lentamente sobre brasas y hojas, lo que le otorga un aroma y sabor únicos, además de una textura firme."
       },
       "category": [
         "Plato fuerte",
@@ -642,7 +706,16 @@
           "https://www.eltiempo.com/cultura/gastronomia/pirarucu-chefs-hablan-de-sus-preparaciones-en-restaurantes-de-colombia-684418",
           "https://www.tripadvisor.com/"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Pirarucú es el pez de agua dulce más grande de la Amazonía y uno de los más emblemáticos de la región. Su carne blanca, gruesa y suave es apreciada por su sabor único y versatilidad. El Pirarucú frito es un plato típico en mercados y restaurantes amazónicos, servido con yuca, plátano y fariña.",
+        "nutrition": {
+          "calories": 591,
+          "macros": {
+            "protein_g": 5.5,
+            "fat_g": 2.2,
+            "carbs_g": 140
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -668,8 +741,25 @@
       "title": "10 recetas más emblemáticas de la región Amazónica de Colombia",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "10 recetas más emblemáticas de la región Amazónica de Colombia",
+        "description": "1. Patarasca (Pescado en Hojas)",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 0,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -735,7 +825,16 @@
           "https://perusabroso.net/cocina-regional/tacacho-cecina-desayuno-amazonico-conquistara-tu-paladar/",
           "https://mirecetadehoy.com/receta-tacacho-con-cecina/"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Tacacho con Cecina es un plato emblemático de la Amazonía, especialmente popular en Perú y presente en la Amazonía colombiana. Consiste en plátano verde asado y machacado, mezclado con manteca y acompañado de cecina (carne de cerdo ahumada). Es un desayuno o almuerzo tradicional, lleno de ener...",
+        "nutrition": {
+          "calories": 920,
+          "macros": {
+            "protein_g": 78.2,
+            "fat_g": 63,
+            "carbs_g": 1
+          }
+        }
       },
       "category": [
         "Desayuno",
@@ -799,10 +898,12 @@
         "cook_time": "1 hora y 30 minutos",
         "servings": 6,
         "nutrition": {
-          "calories": 520,
-          "protein": "28g",
-          "fat": "18g",
-          "carbs": "65g"
+          "calories": 1915,
+          "macros": {
+            "protein_g": 160.7,
+            "fat_g": 55.6,
+            "carbs_g": 204
+          }
         },
         "tags": [
           "Plato fuerte",
@@ -827,7 +928,8 @@
           "https://www.youtube.com/results?search_query=ajiaco+santafere%C3%B1o",
           "https://www.tiktok.com/tag/ajiaco"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Ajiaco Santafereño es la sopa más representativa de Bogotá, la capital de Colombia. Es una preparación sustanciosa y llena de historia, caracterizada por la mezcla de diferentes tipos de papas y el sabor inconfundible de las guascas."
       },
       "category": [
         "Plato fuerte",
@@ -902,10 +1004,12 @@
         "cook_time": "2 horas",
         "servings": 4,
         "nutrition": {
-          "calories": 1800,
-          "protein": "85g",
-          "fat": "110g",
-          "carbs": "135g"
+          "calories": 3309,
+          "macros": {
+            "protein_g": 221.4,
+            "fat_g": 125,
+            "carbs_g": 317.2
+          }
         },
         "tags": [
           "Plato fuerte",
@@ -929,7 +1033,8 @@
           "https://www.youtube.com/results?search_query=bandeja+paisa",
           "https://www.tiktok.com/tag/bandejapaisa"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La Bandeja Paisa es el plato más emblemático de la región andina de Colombia, especialmente de Antioquia. Es una comida abundante y deliciosa, perfecta para compartir y disfrutar de una explosión de sabores tradicionales."
       },
       "category": [
         "Plato fuerte",
@@ -1016,7 +1121,16 @@
           "https://www.youtube.com/results?search_query=caldo+de+costilla",
           "https://www.tiktok.com/tag/caldodecostilla"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Caldo de Costilla es un desayuno típico de la región andina colombiana, especialmente en Bogotá y los pueblos de Cundinamarca y Boyacá. Es una sopa reconfortante hecha con costilla de res, papa, cebolla y cilantro, famosa como remedio para el “guayabo” (resaca) y para comenzar el día con energía.",
+        "nutrition": {
+          "calories": 722,
+          "macros": {
+            "protein_g": 19.8,
+            "fat_g": 1.2,
+            "carbs_g": 163.5
+          }
+        }
       },
       "category": [
         "Desayuno",
@@ -1095,7 +1209,16 @@
           "https://www.youtube.com/results?search_query=changua",
           "https://www.tiktok.com/tag/changua"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La Changua es una sopa de desayuno tradicional de la región andina, especialmente popular en Bogotá y Boyacá. Se prepara a base de leche, agua, huevo y cebolla, y se sirve con pan (calado) en el mismo tazón. Es reconfortante, suave y perfecta para los días fríos.",
+        "nutrition": {
+          "calories": 832,
+          "macros": {
+            "protein_g": 53.6,
+            "fat_g": 48.6,
+            "carbs_g": 48.3
+          }
+        }
       },
       "category": [
         "Desayuno",
@@ -1178,7 +1301,16 @@
           "https://www.youtube.com/results?search_query=cocido+boyacense",
           "https://www.tiktok.com/tag/cocidoboyacense"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Cocido Boyacense es uno de los platos más emblemáticos de Boyacá y la región andina de Colombia. Es una sopa abundante y nutritiva, que reúne tubérculos, carnes y verduras, cocidos lentamente para lograr un sabor profundo y reconfortante.",
+        "nutrition": {
+          "calories": 2730,
+          "macros": {
+            "protein_g": 211,
+            "fat_g": 65.6,
+            "carbs_g": 319.6
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -1261,7 +1393,16 @@
           "https://www.youtube.com/results?search_query=empanadas+colombianas",
           "https://www.tiktok.com/tag/empanadascolombianas"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "Las empanadas andinas son uno de los pasabocas más populares de la región, crujientes por fuera y rellenas de una mezcla sabrosa de carne, papa y condimentos. Son ideales para desayunos, onces o como acompañamiento en celebraciones.",
+        "nutrition": {
+          "calories": 1287,
+          "macros": {
+            "protein_g": 86.2,
+            "fat_g": 47,
+            "carbs_g": 138.8
+          }
+        }
       },
       "category": [
         "Snack",
@@ -1327,16 +1468,19 @@
         "cook_time": "8 horas",
         "servings": 20,
         "nutrition": {
-          "calories": 750,
-          "protein": "45g",
-          "fat": "40g",
-          "carbs": "50g"
+          "calories": 86,
+          "macros": {
+            "protein_g": 3.2,
+            "fat_g": 0.3,
+            "carbs_g": 19.7
+          }
         },
         "tags": [
           "Plato festivo",
           "Comida típica",
           "Tolima"
-        ]
+        ],
+        "description": "La Lechona Tolimense es uno de los platos más emblemáticos del Tolima y el centro de Colombia. Consiste en cerdo relleno de arroz, arveja y condimentos, horneado lentamente hasta lograr una piel crujiente y un relleno jugoso y aromático."
       },
       "category": [
         "Plato fuerte",
@@ -1365,8 +1509,25 @@
       "title": "Manjar Blanco",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Manjar Blanco",
+        "description": "El Manjar Blanco es un postre tradicional de la región andina colombiana, especialmente popular en el Valle del Cauca y Boyacá. Se elabora a base de leche, azúcar y arroz, cocido lentamente hasta obtener una textura cremosa y un sabor delicadamente dulce.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 3485,
+          "macros": {
+            "protein_g": 71,
+            "fat_g": 66.7,
+            "carbs_g": 666
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -1381,8 +1542,25 @@
       "title": "Mute Santandereano",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Mute Santandereano",
+        "description": "El Mute Santandereano es uno de los platos más tradicionales del departamento de Santander, Colombia. Es una sopa robusta y rica en ingredientes, famosa por su textura espesa y sabor profundo, resultado de la combinación de carnes, granos y tubérculos.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 2169,
+          "macros": {
+            "protein_g": 153.9,
+            "fat_g": 59.2,
+            "carbs_g": 252.5
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -1397,8 +1575,25 @@
       "title": "10 recetas más emblemáticas de la región Andina de Colombia",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "10 recetas más emblemáticas de la región Andina de Colombia",
+        "description": "1. Bandeja Paisa",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 0,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -1413,8 +1608,25 @@
       "title": "Tamal Tolimense",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Tamal Tolimense",
+        "description": "El Tamal Tolimense es un plato tradicional del Tolima y la región andina de Colombia. Se trata de una masa de maíz rellena de carnes, verduras y condimentos, envuelta en hojas de plátano y cocida al vapor, resultando en un bocado suave, aromático y reconfortante.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 2525,
+          "macros": {
+            "protein_g": 319.8,
+            "fat_g": 95.6,
+            "carbs_g": 71.8
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -1425,7 +1637,7 @@
       "filePath": "dishes/colombian/andina/tamal_tolimense/tamal_tolimense.md"
     },
     {
-      "id": "colombian/bebidas/avena",
+      "id": "colombian/bebidas/avena/avena",
       "title": "Avena Colombiana (Bebida Fría)",
       "language": "spanish",
       "country": "colombia",
@@ -1478,7 +1690,16 @@
           "https://www.youtube.com/results?search_query=avena+fria+colombiana",
           "https://www.tiktok.com/tag/avenafria"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La avena es una bebida refrescante y cremosa, tradicional en hogares y ventas callejeras de Colombia. Se prepara con avena, leche, canela y azúcar, y es tendencia por su sabor suave y su aporte nutricional.",
+        "nutrition": {
+          "calories": 838,
+          "macros": {
+            "protein_g": 32,
+            "fat_g": 33,
+            "carbs_g": 106.8
+          }
+        }
       },
       "category": [
         "Bebida fría",
@@ -1496,10 +1717,10 @@
         "Azúcar"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/bebidas/avena.md"
+      "filePath": "dishes/colombian/bebidas/avena/avena.md"
     },
     {
-      "id": "colombian/bebidas/champus",
+      "id": "colombian/bebidas/champus/champus",
       "title": "Champús Colombiano",
       "language": "spanish",
       "country": "colombia",
@@ -1554,7 +1775,16 @@
           "https://www.youtube.com/results?search_query=champus+colombiano",
           "https://www.tiktok.com/tag/champus"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El champús es una bebida tradicional del suroccidente colombiano, especialmente del Valle del Cauca y Nariño. Se prepara con maíz, frutas (lulo, piña), panela y especias. Es tendencia en festividades y ferias por su sabor exótico y refrescante.",
+        "nutrition": {
+          "calories": 324,
+          "macros": {
+            "protein_g": 6.4,
+            "fat_g": 2.4,
+            "carbs_g": 77.2
+          }
+        }
       },
       "category": [
         "Bebida tradicional",
@@ -1573,10 +1803,10 @@
         "Canela"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/bebidas/champus.md"
+      "filePath": "dishes/colombian/bebidas/champus/champus.md"
     },
     {
-      "id": "colombian/bebidas/chocolate_santafereño",
+      "id": "colombian/bebidas/chocolate_santafereño/chocolate_santafereño",
       "title": "Chocolate Santafereño",
       "language": "spanish",
       "country": "colombia",
@@ -1629,7 +1859,16 @@
           "https://www.youtube.com/results?search_query=chocolate+con+queso+colombiano",
           "https://www.tiktok.com/tag/chocolateconqueso"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El chocolate santafereño es una bebida caliente tradicional de Bogotá y el altiplano cundiboyacense. Se prepara con chocolate de mesa, leche y agua, y se sirve con queso, almojábana o pan. Es tendencia por su ritual de \"chocolate con queso\" y su presencia en desayunos y onces.",
+        "nutrition": {
+          "calories": 507,
+          "macros": {
+            "protein_g": 30.8,
+            "fat_g": 33.2,
+            "carbs_g": 23.2
+          }
+        }
       },
       "category": [
         "Bebida caliente",
@@ -1646,10 +1885,10 @@
         "Queso fresco"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/bebidas/chocolate_santafereño.md"
+      "filePath": "dishes/colombian/bebidas/chocolate_santafereño/chocolate_santafereño.md"
     },
     {
-      "id": "colombian/bebidas/lulada",
+      "id": "colombian/bebidas/lulada/lulada",
       "title": "Lulada",
       "language": "spanish",
       "country": "colombia",
@@ -1703,7 +1942,16 @@
           "https://www.youtube.com/results?search_query=lulada+cali",
           "https://www.tiktok.com/tag/lulada"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La lulada es una bebida refrescante tradicional del Valle del Cauca y muy popular en todo el suroccidente colombiano. Su base es la pulpa de lulo fresca, mezclada con hielo, azúcar y, a veces, limón o soda. Es símbolo de la cultura caleña y tendencia en redes sociales por su color y sabor exótico.",
+        "nutrition": {
+          "calories": 123,
+          "macros": {
+            "protein_g": 0.2,
+            "fat_g": 0.1,
+            "carbs_g": 32.4
+          }
+        }
       },
       "category": [
         "Bebida refrescante",
@@ -1721,10 +1969,10 @@
         "Limón"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/bebidas/lulada.md"
+      "filePath": "dishes/colombian/bebidas/lulada/lulada.md"
     },
     {
-      "id": "colombian/bebidas/refajo",
+      "id": "colombian/bebidas/refajo/refajo",
       "title": "Refajo Colombiano",
       "language": "spanish",
       "country": "colombia",
@@ -1775,7 +2023,16 @@
           "https://www.youtube.com/results?search_query=refajo+colombiano",
           "https://www.tiktok.com/tag/refajo"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El refajo es una bebida tradicional y refrescante, mezcla de cerveza y gaseosa roja (Colombiana), popular en asados, fiestas y reuniones familiares. Es tendencia por su sabor dulce y burbujeante, y su asociación con celebraciones.",
+        "nutrition": {
+          "calories": 9,
+          "macros": {
+            "protein_g": 0.2,
+            "fat_g": 0.1,
+            "carbs_g": 3
+          }
+        }
       },
       "category": [
         "Bebida alcohólica",
@@ -1791,10 +2048,10 @@
         "Gaseosa roja"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/bebidas/refajo.md"
+      "filePath": "dishes/colombian/bebidas/refajo/refajo.md"
     },
     {
-      "id": "colombian/bebidas/salpicon",
+      "id": "colombian/bebidas/salpicon/salpicon",
       "title": "Salpicón Colombiano",
       "language": "spanish",
       "country": "colombia",
@@ -1858,7 +2115,16 @@
           "bebida",
           "salpicon",
           "open source"
-        ]
+        ],
+        "description": "El salpicón es una bebida-postre refrescante y colorida, tradicional en ferias, plazas y cafeterías de Colombia. Se prepara con frutas frescas picadas y jugo de sandía o gaseosa roja, y es tendencia en redes por su presentación vistosa y sabor frutal.",
+        "nutrition": {
+          "calories": 157,
+          "macros": {
+            "protein_g": 4,
+            "fat_g": 0.2,
+            "carbs_g": 36
+          }
+        }
       },
       "category": [
         "Bebida",
@@ -1885,15 +2151,32 @@
         "salpicon",
         "open source"
       ],
-      "filePath": "dishes/colombian/bebidas/salpicon.md"
+      "filePath": "dishes/colombian/bebidas/salpicon/salpicon.md"
     },
     {
       "id": "colombian/caribe/alegrias/alegrias",
       "title": "Alegrías",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Alegrías",
+        "description": "Alegrías son un dulce tradicional de la región Caribe colombiana, especialmente popular en Cartagena y los pueblos costeros. Se elaboran con semillas de amaranto, panela y coco, formando barras energéticas y nutritivas que son parte esencial de la cultura festiva costeña.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 760,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 196
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -1943,10 +2226,12 @@
         "cook_time": "20 minutos",
         "servings": 10,
         "nutrition": {
-          "calories": 320,
-          "protein": "10g",
-          "fat": "18g",
-          "carbs": "30g"
+          "calories": 1244,
+          "macros": {
+            "protein_g": 78.1,
+            "fat_g": 73.9,
+            "carbs_g": 81.5
+          }
         },
         "tags": [
           "Frito",
@@ -1970,7 +2255,8 @@
           "https://www.youtube.com/results?search_query=arepa+de+huevo",
           "https://www.tiktok.com/tag/arepadehuevo"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La Arepa de Huevo es uno de los íconos de la gastronomía costeña colombiana, especialmente popular en Barranquilla y Cartagena. Es una arepa de maíz frita, rellena con huevo y, a veces, carne, crujiente por fuera y suave por dentro. Ideal para desayunos, meriendas o como pasaboca en celebraciones."
       },
       "category": [
         "Snack",
@@ -2052,7 +2338,16 @@
           "https://www.youtube.com/results?search_query=arroz+con+coco",
           "https://www.tiktok.com/tag/arrozconcoco"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Arroz con Coco es un acompañamiento y plato típico de la región Caribe colombiana, especialmente servido con pescados y mariscos. Su sabor dulce y salado, junto con el aroma a coco tostado, lo convierten en un clásico infaltable en la mesa costeña.",
+        "nutrition": {
+          "calories": 1953,
+          "macros": {
+            "protein_g": 28,
+            "fat_g": 32.8,
+            "carbs_g": 378.8
+          }
+        }
       },
       "category": [
         "Acompañamiento",
@@ -2128,7 +2423,16 @@
           "https://www.youtube.com/results?search_query=butifarra+soledeña",
           "https://www.tiktok.com/tag/butifarrasoledeña"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La Butifarra Soledeña es un embutido típico de Soledad, Atlántico, y un ícono de la gastronomía de la región Caribe colombiana. Es una pequeña salchicha de carne de res y cerdo, sazonada y cocida, que se sirve tradicionalmente con bollo de yuca y limón.",
+        "nutrition": {
+          "calories": 2178,
+          "macros": {
+            "protein_g": 260.4,
+            "fat_g": 110,
+            "carbs_g": 2
+          }
+        }
       },
       "category": [
         "Snack",
@@ -2205,7 +2509,16 @@
           "https://www.youtube.com/results?search_query=carimañolas",
           "https://www.tiktok.com/tag/carimañolas"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "Las Carimañolas son un pasaboca tradicional de la región Caribe colombiana, especialmente en la costa norte. Se elaboran con masa de yuca rellena de carne o queso y se fríen hasta quedar doradas y crujientes. Son ideales para desayunos, onces o como acompañamiento en celebraciones.",
+        "nutrition": {
+          "calories": 846,
+          "macros": {
+            "protein_g": 80.6,
+            "fat_g": 47.4,
+            "carbs_g": 16.3
+          }
+        }
       },
       "category": [
         "Snack",
@@ -2287,7 +2600,16 @@
           "https://www.youtube.com/results?search_query=cazuela+de+mariscos",
           "https://www.tiktok.com/tag/cazuelademariscos"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La Cazuela de Mariscos es un plato icónico de la región Caribe colombiana, especialmente en ciudades costeras como Cartagena y Barranquilla. Es una sopa cremosa y aromática, repleta de mariscos frescos, leche de coco y especias, perfecta para celebraciones y ocasiones especiales.",
+        "nutrition": {
+          "calories": 1640,
+          "macros": {
+            "protein_g": 87.7,
+            "fat_g": 130,
+            "carbs_g": 26.4
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -2368,7 +2690,16 @@
           "https://www.youtube.com/results?search_query=ceviche+de+camaron",
           "https://www.tiktok.com/tag/cevichedecamaron"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Ceviche de Camarón es un plato fresco y vibrante de la región Caribe colombiana, especialmente popular en Cartagena y Santa Marta. Consiste en camarones cocidos en jugo de limón, mezclados con cebolla, tomate, cilantro y ají, servidos fríos como entrada o snack refrescante.",
+        "nutrition": {
+          "calories": 125,
+          "macros": {
+            "protein_g": 5,
+            "fat_g": 1,
+            "carbs_g": 29.7
+          }
+        }
       },
       "category": [
         "Entrada",
@@ -2445,7 +2776,16 @@
           "https://www.youtube.com/results?search_query=mote+de+queso",
           "https://www.tiktok.com/tag/motedequeso"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Mote de Queso es una sopa cremosa y emblemática de la región Caribe, especialmente popular en Córdoba y Sucre. Se prepara con ñame, queso costeño y suero, resultando en un plato reconfortante, salado y ligeramente ácido, ideal para celebraciones y almuerzos familiares.",
+        "nutrition": {
+          "calories": 1306,
+          "macros": {
+            "protein_g": 74,
+            "fat_g": 104.5,
+            "carbs_g": 23.7
+          }
+        }
       },
       "category": [
         "Sopa",
@@ -2469,8 +2809,25 @@
       "title": "10 recetas más emblemáticas de la región Caribe de Colombia",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "10 recetas más emblemáticas de la región Caribe de Colombia",
+        "description": "1. Sancocho Costeño",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 0,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2525,10 +2882,12 @@
         "cook_time": "2 horas",
         "servings": 10,
         "nutrition": {
-          "calories": 650,
-          "protein": "35g",
-          "fat": "25g",
-          "carbs": "50g"
+          "calories": 1255,
+          "macros": {
+            "protein_g": 28.1,
+            "fat_g": 5.4,
+            "carbs_g": 287.7
+          }
         },
         "tags": [
           "Plato fuerte",
@@ -2552,7 +2911,8 @@
           "https://www.youtube.com/results?search_query=sancocho+costeño",
           "https://www.tiktok.com/tag/sancochocosteño"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Sancocho Costeño es uno de los platos más representativos de la región Caribe colombiana. Es una sopa abundante y festiva, preparada con variedad de carnes, tubérculos y plátano, y servida en grandes reuniones familiares o celebraciones."
       },
       "category": [
         "Plato fuerte",
@@ -2637,7 +2997,16 @@
           "https://www.youtube.com/results?search_query=viudo+de+pescado",
           "https://www.tiktok.com/tag/viudodepescado"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Viudo de Pescado es un plato tradicional de la región Caribe y de los ríos colombianos, especialmente preparado en festividades y reuniones familiares. Consiste en pescado de río cocido con yuca, plátano y verduras, servido en caldo aromático y acompañado de arroz blanco y ají.",
+        "nutrition": {
+          "calories": 1303,
+          "macros": {
+            "protein_g": 29.9,
+            "fat_g": 5.8,
+            "carbs_g": 300
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -2675,12 +3044,29 @@
       "filePath": "dishes/colombian/COLOMBIAN_RECIPES_PLAN.md"
     },
     {
-      "id": "colombian/condimentos/aji_picante",
+      "id": "colombian/condimentos/aji_picante/aji_picante",
       "title": "Ají Picante Colombiano",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Ají Picante Colombiano",
+        "description": "El ají es el condimento estrella de la comida callejera y casera en Colombia. Existen muchas variantes, pero la base es una mezcla de ají fresco, cebolla, cilantro, tomate y vinagre. Es tendencia por su presencia en snacks, empanadas y fritos.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1060,
+          "macros": {
+            "protein_g": 123.2,
+            "fat_g": 50.8,
+            "carbs_g": 15.8
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2688,15 +3074,32 @@
       "servings": null,
       "mainIngredients": [],
       "tags": [],
-      "filePath": "dishes/colombian/condimentos/aji_picante.md"
+      "filePath": "dishes/colombian/condimentos/aji_picante/aji_picante.md"
     },
     {
-      "id": "colombian/condimentos/guacamole_colombiano",
+      "id": "colombian/condimentos/guacamole_colombiano/guacamole_colombiano",
       "title": "Guacamole Colombiano",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Guacamole Colombiano",
+        "description": "El guacamole colombiano es una salsa fresca y sencilla, diferente a la versión mexicana. Se prepara con aguacate, cebolla, tomate y cilantro, y es tendencia por su uso en asados, arepas y comidas rápidas.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 412,
+          "macros": {
+            "protein_g": 10.4,
+            "fat_g": 31.4,
+            "carbs_g": 36.7
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2704,15 +3107,32 @@
       "servings": null,
       "mainIngredients": [],
       "tags": [],
-      "filePath": "dishes/colombian/condimentos/guacamole_colombiano.md"
+      "filePath": "dishes/colombian/condimentos/guacamole_colombiano/guacamole_colombiano.md"
     },
     {
-      "id": "colombian/condimentos/hogao",
+      "id": "colombian/condimentos/hogao/hogao",
       "title": "Hogao Colombiano",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Hogao Colombiano",
+        "description": "El hogao es la salsa base por excelencia de la cocina colombiana. Se usa como acompañamiento de arepas, carnes, empanadas y muchos otros platos. Su mezcla de tomate, cebolla y especias es símbolo de hogar y tradición, y tendencia en recetas virales por su sabor casero.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 357,
+          "macros": {
+            "protein_g": 4.7,
+            "fat_g": 30.9,
+            "carbs_g": 20
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2720,15 +3140,32 @@
       "servings": null,
       "mainIngredients": [],
       "tags": [],
-      "filePath": "dishes/colombian/condimentos/hogao.md"
+      "filePath": "dishes/colombian/condimentos/hogao/hogao.md"
     },
     {
-      "id": "colombian/condimentos/salsa_rosada",
+      "id": "colombian/condimentos/salsa_rosada/salsa_rosada",
       "title": "Salsa Rosada Colombiana",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Salsa Rosada Colombiana",
+        "description": "La salsa rosada es un aderezo básico y muy popular en Colombia, mezcla de mayonesa y kétchup, usada en salchipapas, hamburguesas, perros calientes y snacks. Es tendencia por su sabor suave y su presencia en la comida rápida urbana.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 4,
+          "macros": {
+            "protein_g": 0.1,
+            "fat_g": 0,
+            "carbs_g": 1.5
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2736,15 +3173,32 @@
       "servings": null,
       "mainIngredients": [],
       "tags": [],
-      "filePath": "dishes/colombian/condimentos/salsa_rosada.md"
+      "filePath": "dishes/colombian/condimentos/salsa_rosada/salsa_rosada.md"
     },
     {
-      "id": "colombian/condimentos/suero_costeño",
+      "id": "colombian/condimentos/suero_costeño/suero_costeño",
       "title": "Suero Costeño",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Suero Costeño",
+        "description": "El suero costeño es un lácteo fermentado típico de la Costa Caribe colombiana, similar a la crema agria, con sabor ácido y textura cremosa. Es tendencia por su uso en arepas, mote de queso, yuca y comidas típicas de la región.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 928,
+          "macros": {
+            "protein_g": 18.5,
+            "fat_g": 85.2,
+            "carbs_g": 26.1
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2752,15 +3206,32 @@
       "servings": null,
       "mainIngredients": [],
       "tags": [],
-      "filePath": "dishes/colombian/condimentos/suero_costeño.md"
+      "filePath": "dishes/colombian/condimentos/suero_costeño/suero_costeño.md"
     },
     {
       "id": "colombian/insular/bolas_de_pescado/bolas_de_pescado",
       "title": "Bolas de Pescado (Fish Balls)",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Bolas de Pescado (Fish Balls)",
+        "description": "Las Bolas de Pescado son un clásico de la cocina isleña de San Andrés y Providencia. Se preparan a partir de pescado fresco desmenuzado, sazonado con especias y vegetales, y luego se forman bolas que se fríen hasta dorar. Son ideales como entrada, acompañante o plato principal.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1359,
+          "macros": {
+            "protein_g": 139.3,
+            "fat_g": 74.9,
+            "carbs_g": 16.9
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2775,8 +3246,25 @@
       "title": "Caracol Guisado",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Caracol Guisado",
+        "description": "El Caracol Guisado es un plato icónico de la región Insular, especialmente de San Andrés y Providencia. Se prepara con caracol de mar fresco, cocido lentamente en un guiso de leche de coco, vegetales y especias isleñas, logrando una textura tierna y un sabor profundo y marino.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 662,
+          "macros": {
+            "protein_g": 11.5,
+            "fat_g": 15.4,
+            "carbs_g": 124.5
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2791,8 +3279,25 @@
       "title": "Cocadas",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Cocadas",
+        "description": "Las cocadas son uno de los dulces más tradicionales de la región Insular y de toda la costa Caribe colombiana. En San Andrés y Providencia, se preparan con coco fresco rallado, azúcar y, en ocasiones, leche condensada o frutas tropicales. Son ideales como postre o snack para compartir.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 2510,
+          "macros": {
+            "protein_g": 110.4,
+            "fat_g": 50.6,
+            "carbs_g": 401.6
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2807,8 +3312,25 @@
       "title": "Crab Backs (Cangrejo Relleno)",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Crab Backs (Cangrejo Relleno)",
+        "description": "Crab Backs es uno de los platos más representativos de San Andrés y Providencia. Consiste en cangrejo fresco desmenuzado, mezclado con especias, vegetales y pan rallado, luego rellenado en su propio caparazón y gratinado al horno. Es una delicia isleña que destaca por su sabor marino y su present...",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1287,
+          "macros": {
+            "protein_g": 137.9,
+            "fat_g": 72,
+            "carbs_g": 6.2
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2823,8 +3345,25 @@
       "title": "Crab Patty (Empanada de Cangrejo)",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Crab Patty (Empanada de Cangrejo)",
+        "description": "Las Crab Patties o empanadas de cangrejo son una delicia típica de San Andrés y Providencia. Consisten en una masa crujiente rellena de carne de cangrejo sazonada con especias, vegetales y, en ocasiones, un toque de coco. Son ideales como entrada, snack o acompañante en celebraciones isleñas.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1526,
+          "macros": {
+            "protein_g": 138.1,
+            "fat_g": 98.9,
+            "carbs_g": 6.2
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2839,8 +3378,25 @@
       "title": "Frijoles con Cola de Cerdo (Pig Tail Beans)",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Frijoles con Cola de Cerdo (Pig Tail Beans)",
+        "description": "Este plato es una de las recetas tradicionales de la región Insular, especialmente en San Andrés y Providencia. Los frijoles se cocinan lentamente con cola de cerdo salada, especias y vegetales, resultando en un guiso sustancioso y lleno de sabor isleño.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1753,
+          "macros": {
+            "protein_g": 115.9,
+            "fat_g": 6.1,
+            "carbs_g": 320
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2909,7 +3465,16 @@
           "https://elrinconcolombiano.com/dumplings-drop-dumplings/",
           "https://astelus.com/platos-tipicos-colombia/la-preparacion-de-los-dumplings-de-san-andres-y-providencia/"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Pollo Guisado con Dumplings es un plato reconfortante y festivo de la región Insular, especialmente en San Andrés y Providencia. Combina pollo sazonado y guisado lentamente con vegetales y especias isleñas, acompañado de dumplings esponjosos cocidos en el mismo caldo, creando una experiencia r...",
+        "nutrition": {
+          "calories": 2501,
+          "macros": {
+            "protein_g": 437.4,
+            "fat_g": 65,
+            "carbs_g": 15
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -2935,8 +3500,25 @@
       "title": "10 recetas más emblemáticas de la región Insular de Colombia",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "10 recetas más emblemáticas de la región Insular de Colombia",
+        "description": "1. Rondón (Run Down)",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 0,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2951,8 +3533,25 @@
       "title": "Rondón (Run Down)",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Rondón (Run Down)",
+        "description": "El Rondón es el plato insignia de la región Insular de Colombia, especialmente de San Andrés y Providencia. Es un guiso cremoso de pescado, caracol, cangrejo, cerdo, tubérculos, plátano y dumplings, todo cocido en leche de coco y aromatizado con especias isleñas. Su sabor y textura evocan la riqu...",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 2254,
+          "macros": {
+            "protein_g": 193.5,
+            "fat_g": 78.3,
+            "carbs_g": 172.1
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2967,8 +3566,25 @@
       "title": "Sopa de Cangrejo (Crab Soup)",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Sopa de Cangrejo (Crab Soup)",
+        "description": "La Sopa de Cangrejo es uno de los platos más emblemáticos de San Andrés y Providencia. Este caldo espeso y aromático combina carne de cangrejo, leche de coco, tubérculos y especias isleñas, evocando la tradición marinera y el mestizaje cultural del archipiélago.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 735,
+          "macros": {
+            "protein_g": 11.5,
+            "fat_g": 1.3,
+            "carbs_g": 172.1
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2983,8 +3599,25 @@
       "title": "Torta de Calabaza (Pumpkin Cake)",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Torta de Calabaza (Pumpkin Cake)",
+        "description": "La Torta de Calabaza es un postre tradicional de las islas de San Andrés y Providencia, apreciado por su textura húmeda y su sabor especiado. Se elabora con calabaza cocida, especias, azúcar y, en ocasiones, un toque de coco rallado. Es ideal para celebraciones y reuniones familiares.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 2426,
+          "macros": {
+            "protein_g": 21.3,
+            "fat_g": 178.5,
+            "carbs_g": 197.8
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -2995,12 +3628,33 @@
       "filePath": "dishes/colombian/insular/torta_de_calabaza/torta_de_calabaza.md"
     },
     {
-      "id": "colombian/nacionales/arroz_con_pollo",
+      "id": "colombian/nacionales/arroz_con_pollo/arroz_con_pollo",
       "title": "Arroz con Pollo Colombiano",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Arroz con Pollo Colombiano",
+        "description": "El arroz con pollo colombiano es un clásico de las celebraciones familiares, fiestas de cumpleaños y paseos. Es un plato muy completo y rendidor, caracterizado por su color amarillo y la mezcla de pollo desmechado con verduras.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "compilation_data": {
+          "description": "El arroz con pollo colombiano es un clásico de las celebraciones familiares, fiestas de cumpleaños y paseos. Es un plato muy completo y rendidor, caracterizado por su color amarillo y la mezcla de pollo desmechado con verduras.",
+          "category": "Plato Principal"
+        },
+        "media": [],
+        "nutrition": {
+          "calories": 6283,
+          "macros": {
+            "protein_g": 649.6,
+            "fat_g": 88.6,
+            "carbs_g": 663.6
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3008,10 +3662,10 @@
       "servings": null,
       "mainIngredients": [],
       "tags": [],
-      "filePath": "dishes/colombian/nacionales/arroz_con_pollo.md"
+      "filePath": "dishes/colombian/nacionales/arroz_con_pollo/arroz_con_pollo.md"
     },
     {
-      "id": "colombian/nacionales/chuzo",
+      "id": "colombian/nacionales/chuzo/chuzo",
       "title": "Chuzo Colombiano (Brocheta Callejera)",
       "language": "spanish",
       "country": "colombia",
@@ -3071,7 +3725,16 @@
           "tradicional",
           "chuzo",
           "open source"
-        ]
+        ],
+        "description": "El chuzo es una brocheta de carne, pollo o mixto, marinada y asada a la parrilla, muy popular en ventas ambulantes y ferias de Colombia. Se sirve con papa salada, arepa y salsas. Es tendencia por su sabor ahumado y su presencia en celebraciones nocturnas.",
+        "nutrition": {
+          "calories": 1832,
+          "macros": {
+            "protein_g": 174.5,
+            "fat_g": 49,
+            "carbs_g": 168.8
+          }
+        }
       },
       "category": [
         "Snack",
@@ -3095,10 +3758,10 @@
         "chuzo",
         "open source"
       ],
-      "filePath": "dishes/colombian/nacionales/chuzo.md"
+      "filePath": "dishes/colombian/nacionales/chuzo/chuzo.md"
     },
     {
-      "id": "colombian/nacionales/fritanga",
+      "id": "colombian/nacionales/fritanga/fritanga",
       "title": "Fritanga Colombiana",
       "language": "spanish",
       "country": "colombia",
@@ -3165,7 +3828,16 @@
           "fritanga",
           "parrilla",
           "open source"
-        ]
+        ],
+        "description": "La fritanga es un festín de carnes y fritos típico de reuniones familiares, celebraciones y restaurantes populares en Colombia. Se sirve en bandeja o canasta, con variedad de embutidos, carnes, papas, plátano y arepas. Es tendencia en redes por su abundancia y ambiente festivo.",
+        "nutrition": {
+          "calories": 1642,
+          "macros": {
+            "protein_g": 25.4,
+            "fat_g": 18.5,
+            "carbs_g": 349.3
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -3194,10 +3866,10 @@
         "parrilla",
         "open source"
       ],
-      "filePath": "dishes/colombian/nacionales/fritanga.md"
+      "filePath": "dishes/colombian/nacionales/fritanga/fritanga.md"
     },
     {
-      "id": "colombian/nacionales/hamburguesa_colombiana",
+      "id": "colombian/nacionales/hamburguesa_colombiana/hamburguesa_colombiana",
       "title": "Hamburguesa Colombiana",
       "language": "spanish",
       "country": "colombia",
@@ -3263,7 +3935,16 @@
           "tradicional",
           "hamburguesa colombiana",
           "open source"
-        ]
+        ],
+        "description": "La hamburguesa colombiana es una versión local de este clásico internacional, famosa por su abundancia de ingredientes y salsas. Se caracteriza por incluir papas a la francesa, queso, jamón, huevo y variedad de salsas, convirtiéndose en tendencia en redes y food trucks urbanos.",
+        "nutrition": {
+          "calories": 1967,
+          "macros": {
+            "protein_g": 239.6,
+            "fat_g": 81.9,
+            "carbs_g": 58.4
+          }
+        }
       },
       "category": [
         "Comida rápida",
@@ -3290,10 +3971,10 @@
         "hamburguesa colombiana",
         "open source"
       ],
-      "filePath": "dishes/colombian/nacionales/hamburguesa_colombiana.md"
+      "filePath": "dishes/colombian/nacionales/hamburguesa_colombiana/hamburguesa_colombiana.md"
     },
     {
-      "id": "colombian/nacionales/papas_aborrajadas",
+      "id": "colombian/nacionales/papas_aborrajadas/papas_aborrajadas",
       "title": "Papas Aborrajadas",
       "language": "spanish",
       "country": "colombia",
@@ -3352,7 +4033,16 @@
           "tradicional",
           "papas aborrajadas",
           "open source"
-        ]
+        ],
+        "description": "Las papas aborrajadas son un snack callejero y casero, típico de ferias y ventas ambulantes en Colombia. Consisten en rodajas de papa cocida, rebozadas en masa y fritas hasta lograr una textura crujiente por fuera y suave por dentro. Son tendencia por su sencillez y sabor reconfortante.",
+        "nutrition": {
+          "calories": 785,
+          "macros": {
+            "protein_g": 24.9,
+            "fat_g": 26.7,
+            "carbs_g": 115.1
+          }
+        }
       },
       "category": [
         "Snack",
@@ -3376,10 +4066,10 @@
         "papas aborrajadas",
         "open source"
       ],
-      "filePath": "dishes/colombian/nacionales/papas_aborrajadas.md"
+      "filePath": "dishes/colombian/nacionales/papas_aborrajadas/papas_aborrajadas.md"
     },
     {
-      "id": "colombian/nacionales/papas_rellenas",
+      "id": "colombian/nacionales/papas_rellenas/papas_rellenas",
       "title": "Papas Rellenas Colombianas",
       "language": "spanish",
       "country": "colombia",
@@ -3439,7 +4129,16 @@
           "tradicional",
           "papas rellenas",
           "open source"
-        ]
+        ],
+        "description": "Las papas rellenas son un clásico de la comida callejera colombiana. Consisten en papas cocidas y rellenas de carne, huevo y condimentos, empanizadas y fritas hasta lograr una corteza dorada y crujiente. Son tendencia por su sabor reconfortante y su presencia en ferias y ventas ambulantes.",
+        "nutrition": {
+          "calories": 5150,
+          "macros": {
+            "protein_g": 390.2,
+            "fat_g": 290.6,
+            "carbs_g": 243.5
+          }
+        }
       },
       "category": [
         "Snack",
@@ -3464,10 +4163,10 @@
         "papas rellenas",
         "open source"
       ],
-      "filePath": "dishes/colombian/nacionales/papas_rellenas.md"
+      "filePath": "dishes/colombian/nacionales/papas_rellenas/papas_rellenas.md"
     },
     {
-      "id": "colombian/nacionales/salchipapa",
+      "id": "colombian/nacionales/salchipapa/salchipapa",
       "title": "Salchipapa",
       "language": "spanish",
       "country": "colombia",
@@ -3530,7 +4229,16 @@
           "tradicional",
           "salchipapa",
           "open source"
-        ]
+        ],
+        "description": "La salchipapa es uno de los platos callejeros más populares y virales de Colombia. Consiste en papas fritas cortadas en bastones y salchichas fritas, acompañadas de salsas, queso rallado y a veces huevo, carne o chorizo. Es un ícono de la comida rápida urbana y protagonista de ferias, puestos noc...",
+        "nutrition": {
+          "calories": 1028,
+          "macros": {
+            "protein_g": 66.4,
+            "fat_g": 48,
+            "carbs_g": 80.8
+          }
+        }
       },
       "category": [
         "Snack",
@@ -3555,15 +4263,32 @@
         "salchipapa",
         "open source"
       ],
-      "filePath": "dishes/colombian/nacionales/salchipapa.md"
+      "filePath": "dishes/colombian/nacionales/salchipapa/salchipapa.md"
     },
     {
       "id": "colombian/orinoquia/arroz_llanero/arroz_llanero",
       "title": "Arroz Llanero",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Arroz Llanero",
+        "description": "El Arroz Llanero es un plato emblemático de la Orinoquía colombiana, preparado con arroz, carnes variadas (res, cerdo, pollo), verduras y condimentos locales. Es una receta festiva, ideal para grandes reuniones y celebraciones en los llanos.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 5405,
+          "macros": {
+            "protein_g": 461.1,
+            "fat_g": 146.9,
+            "carbs_g": 501.4
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3578,8 +4303,25 @@
       "title": "Cachama Asada",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Cachama Asada",
+        "description": "La Cachama Asada es un plato típico de la Orinoquía colombiana, preparado con cachama (pez de río) asada a la brasa y acompañada de yuca, plátano y ají llanero. Es muy apreciado en las zonas ribereñas y en festividades llaneras por su sabor suave y carne jugosa.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1157,
+          "macros": {
+            "protein_g": 83,
+            "fat_g": 34,
+            "carbs_g": 122
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3594,8 +4336,25 @@
       "title": "Carne a la Perra",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Carne a la Perra",
+        "description": "La Carne a la Perra es un plato tradicional de los llanos orientales de Colombia, característico por su preparación rústica al fuego directo. Se trata de carne de res asada en grandes trozos sobre brasas, sazonada con hierbas y servida con yuca, plátano y ají llanero. Es símbolo de fraternidad y ...",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1166,
+          "macros": {
+            "protein_g": 84,
+            "fat_g": 34.5,
+            "carbs_g": 122
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3610,8 +4369,25 @@
       "title": "Casabe",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Casabe",
+        "description": "El Casabe es un pan plano ancestral elaborado a base de yuca amarga, tradicional en la Orinoquía y la Amazonía colombiana. Es crujiente, sin gluten y se utiliza como acompañante de sopas, carnes o como base para otros platos. Su preparación es un legado indígena que se mantiene vivo en la región.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 3,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0.8
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3626,8 +4402,25 @@
       "title": "Chigüiro Asado",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Chigüiro Asado",
+        "description": "El Chigüiro Asado es un plato tradicional y emblemático de la Orinoquía colombiana, preparado con carne de chigüiro (capibara), el roedor más grande del mundo. Su carne es apreciada por su sabor suave y textura jugosa, y suele asarse a la brasa y servirse con yuca, plátano y ají llanero.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1164,
+          "macros": {
+            "protein_g": 83.8,
+            "fat_g": 34.4,
+            "carbs_g": 122
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3642,8 +4435,25 @@
       "title": "Entreverado",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Entreverado",
+        "description": "El Entreverado es un plato típico de la Orinoquía colombiana, especialmente en los llanos orientales. Es una mezcla de diferentes tipos de carnes (res, cerdo, pollo, chigüiro) asadas al carbón y servidas juntas, acompañadas de yuca, plátano y ají llanero. Es el plato estrella en celebraciones y r...",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1403,
+          "macros": {
+            "protein_g": 85.9,
+            "fat_g": 34.8,
+            "carbs_g": 179
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3658,8 +4468,25 @@
       "title": "Hervido de Gumarra",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Hervido de Gumarra",
+        "description": "El Hervido de Gumarra es una sopa tradicional de la Orinoquía colombiana, preparada con carne de gumarra (pez de río), tubérculos y verduras locales. Es un plato reconfortante, muy apreciado en las comunidades ribereñas de los llanos orientales.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 1169,
+          "macros": {
+            "protein_g": 25.4,
+            "fat_g": 4.2,
+            "carbs_g": 268.5
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3713,16 +4540,19 @@
         "cook_time": "3 horas",
         "servings": 12,
         "nutrition": {
-          "calories": 450,
-          "protein": "35g",
-          "fat": "20g",
-          "carbs": "15g"
+          "calories": 1168,
+          "macros": {
+            "protein_g": 84.3,
+            "fat_g": 34.6,
+            "carbs_g": 122
+          }
         },
         "tags": [
           "Plato fuerte",
           "Asado festivo",
           "Comida típica"
-        ]
+        ],
+        "description": "La Mamona, también conocida como Ternera a la Llanera, es el plato más emblemático de la región Orinoquía colombiana. Consiste en carne de res joven asada al calor de leña, sazonada con hierbas y acompañada de yuca, plátano y ají. Es el centro de las celebraciones llaneras y símbolo de hospitalidad."
       },
       "category": [
         "Plato fuerte",
@@ -3752,8 +4582,25 @@
       "title": "Pabellón Llanero",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Pabellón Llanero",
+        "description": "El Pabellón Llanero es un plato representativo de la Orinoquía colombiana, inspirado en la cocina criolla de los llanos. Consiste en carne desmechada, arroz blanco, tajadas de plátano maduro, caraotas (frijoles negros) y queso rallado, todo dispuesto en un solo plato colorido y abundante.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 3502,
+          "macros": {
+            "protein_g": 155.7,
+            "fat_g": 61.4,
+            "carbs_g": 581.3
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3768,8 +4615,25 @@
       "title": "Pan de Arroz",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Pan de Arroz",
+        "description": "El Pan de Arroz es una delicia tradicional de la Orinoquía colombiana, especialmente popular en los Llanos Orientales. Se elabora con arroz molido, queso llanero y manteca, resultando en un panecillo crujiente por fuera y suave por dentro, perfecto para acompañar desayunos o meriendas.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 2272,
+          "macros": {
+            "protein_g": 70.8,
+            "fat_g": 72.6,
+            "carbs_g": 326.6
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3784,8 +4648,25 @@
       "title": "Recetas de la Orinoquía",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Recetas de la Orinoquía",
+        "description": "La gastronomía de la Orinoquía colombiana es un reflejo de su cultura llanera, con una fuerte presencia de carnes a la parrilla y productos locales.",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 0,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -3812,7 +4693,16 @@
           "https://www.recetasgratis.net/receta-de-arequipe-casero-colombiano-23754.html"
         ],
         "license": "MIT",
-        "yaml_validation": "https://yaml-online-parser.appspot.com/"
+        "yaml_validation": "https://yaml-online-parser.appspot.com/",
+        "description": "* 4 litros de leche entera",
+        "nutrition": {
+          "calories": 6240,
+          "macros": {
+            "protein_g": 128,
+            "fat_g": 132,
+            "carbs_g": 1172
+          }
+        }
       },
       "category": [],
       "difficulty": null,
@@ -3840,7 +4730,16 @@
           "https://www.recetasgratis.net/receta-de-cayeye-23754.html"
         ],
         "license": "MIT",
-        "yaml_validation": "https://yaml-online-parser.appspot.com/"
+        "yaml_validation": "https://yaml-online-parser.appspot.com/",
+        "description": "* 6-8 guineos verdes (bananos verdes pequeños)",
+        "nutrition": {
+          "calories": 592,
+          "macros": {
+            "protein_g": 2.7,
+            "fat_g": 62.8,
+            "carbs_g": 10.1
+          }
+        }
       },
       "category": [],
       "difficulty": null,
@@ -3868,7 +4767,16 @@
           "https://www.recetasgratis.net/receta-de-envueltos-de-mazorca-23754.html"
         ],
         "license": "MIT",
-        "yaml_validation": "https://yaml-online-parser.appspot.com/"
+        "yaml_validation": "https://yaml-online-parser.appspot.com/",
+        "description": "* 10 mazorcas tiernas y grandes",
+        "nutrition": {
+          "calories": 4242,
+          "macros": {
+            "protein_g": 60.8,
+            "fat_g": 258,
+            "carbs_g": 487.5
+          }
+        }
       },
       "category": [],
       "difficulty": null,
@@ -3896,7 +4804,16 @@
           "https://www.recetasgratis.net/receta-de-mazamorra-antioquena-23754.html"
         ],
         "license": "MIT",
-        "yaml_validation": "https://yaml-online-parser.appspot.com/"
+        "yaml_validation": "https://yaml-online-parser.appspot.com/",
+        "description": "* 1 libra de maíz blanco trillado",
+        "nutrition": {
+          "calories": 506,
+          "macros": {
+            "protein_g": 16,
+            "fat_g": 6,
+            "carbs_g": 114.6
+          }
+        }
       },
       "category": [],
       "difficulty": null,
@@ -3950,19 +4867,19 @@
         "cook_time": "1 hora",
         "servings": 6,
         "nutrition": {
-          "calories": 380,
-          "protein": "12g",
-          "fat": "18g",
-          "carbs": "45g"
+          "calories": 1389,
+          "macros": {
+            "protein_g": 92.4,
+            "fat_g": 100.3,
+            "carbs_g": 36.6
+          }
         },
         "tags": [
           "Sopa tradicional",
           "Vegetariano",
           "Comida costeña"
         ],
-        "gallery_images": [
-          "./images/1.jpg"
-        ]
+        "description": "* 2 libras de ñame pelado y en cubos"
       },
       "category": [
         "Sopa",
@@ -4003,7 +4920,16 @@
           "https://www.recetasgratis.net/receta-de-postre-de-natas-23754.html"
         ],
         "license": "MIT",
-        "yaml_validation": "https://yaml-online-parser.appspot.com/"
+        "yaml_validation": "https://yaml-online-parser.appspot.com/",
+        "description": "* 2 litros de leche entera",
+        "nutrition": {
+          "calories": 2135,
+          "macros": {
+            "protein_g": 77,
+            "fat_g": 77,
+            "carbs_g": 293.1
+          }
+        }
       },
       "category": [],
       "difficulty": null,
@@ -4031,7 +4957,16 @@
           "https://www.recetasgratis.net/receta-de-tamales-tolimenses-23754.html"
         ],
         "license": "MIT",
-        "yaml_validation": "https://yaml-online-parser.appspot.com/"
+        "yaml_validation": "https://yaml-online-parser.appspot.com/",
+        "description": "* **Para la masa**:",
+        "nutrition": {
+          "calories": 3523,
+          "macros": {
+            "protein_g": 172.5,
+            "fat_g": 53.9,
+            "carbs_g": 584.7
+          }
+        }
       },
       "category": [],
       "difficulty": null,
@@ -4102,7 +5037,16 @@
           "https://www.youtube.com/results?search_query=aborrajados+de+pescado",
           "https://www.tiktok.com/tag/aborrajadosdepescado"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "Los Aborrajados de Pescado son una delicia tradicional del Pacífico colombiano, especialmente en las zonas costeras de Nariño y Cauca. Consisten en trozos de pescado fresco envueltos en una masa de plátano maduro y fritos hasta quedar dorados y crujientes. Son populares como entrada, snack o acom...",
+        "nutrition": {
+          "calories": 285,
+          "macros": {
+            "protein_g": 19.4,
+            "fat_g": 18.6,
+            "carbs_g": 10.7
+          }
+        }
       },
       "category": [
         "Snack",
@@ -4183,7 +5127,16 @@
           "https://www.youtube.com/results?search_query=arroz+atollado+mariscos",
           "https://www.tiktok.com/tag/arrozatolladomariscos"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Arroz Atollado con Mariscos es un plato típico de la región Pacífica colombiana, especialmente en los departamentos de Nariño, Cauca y Valle del Cauca. Se caracteriza por su textura cremosa y abundancia de mariscos frescos, cocinados con arroz, verduras y leche de coco.",
+        "nutrition": {
+          "calories": 1819,
+          "macros": {
+            "protein_g": 31.9,
+            "fat_g": 33.5,
+            "carbs_g": 341
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -4249,10 +5202,12 @@
         "cook_time": "40 minutos",
         "servings": 6,
         "nutrition": {
-          "calories": 450,
-          "protein": "35g",
-          "fat": "28g",
-          "carbs": "12g"
+          "calories": 359,
+          "macros": {
+            "protein_g": 3.9,
+            "fat_g": 30.7,
+            "carbs_g": 21
+          }
         },
         "tags": [
           "Plato fuerte",
@@ -4276,7 +5231,8 @@
           "https://www.youtube.com/results?search_query=cazuela+de+mariscos+pacifico",
           "https://www.tiktok.com/tag/cazuelademariscos"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "La Cazuela de Mariscos en la región Pacífica de Colombia es un plato festivo y abundante, preparado con mariscos frescos, leche de coco y especias autóctonas. Es símbolo de la riqueza gastronómica afrocolombiana y se sirve en celebraciones y reuniones familiares."
       },
       "category": [
         "Plato fuerte",
@@ -4359,7 +5315,16 @@
           "https://www.youtube.com/results?search_query=chancacas+pacifico",
           "https://www.tiktok.com/tag/chancacas"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "Las Chancacas, también conocidas como cocadas del Pacífico, son un dulce tradicional de la región Pacífica colombiana, especialmente popular en Buenaventura y Tumaco. Se preparan con coco rallado, panela y especias, formando bocados dulces y aromáticos que son parte esencial de la cultura festiva...",
+        "nutrition": {
+          "calories": 1632,
+          "macros": {
+            "protein_g": 104.1,
+            "fat_g": 44,
+            "carbs_g": 197.5
+          }
+        }
       },
       "category": [
         "Dulce",
@@ -4438,7 +5403,8 @@
           "https://www.youtube.com/results?search_query=empanadas+de+jaiba+pacifico",
           "https://www.tiktok.com/tag/empanadasdejaiba"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "Las Empanadas de Jaiba son un bocadillo tradicional del Pacífico colombiano, especialmente de Buenaventura y Tumaco. Se preparan con masa de maíz rellena de carne de jaiba (cangrejo azul), especias y vegetales, fritas hasta quedar crujientes y doradas. Son populares en fiestas, ferias y como snac..."
       },
       "category": [
         "Snack",
@@ -4517,7 +5483,16 @@
           "https://www.youtube.com/results?search_query=encocado+de+pescado+pacifico",
           "https://www.tiktok.com/tag/encocadodepescado"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Encocado de Pescado es uno de los platos más emblemáticos del Pacífico colombiano, especialmente en el Chocó y Nariño. Se prepara con pescado fresco cocido en una salsa cremosa de leche de coco, cebolla, pimentón y especias, resultando en un plato aromático, intenso y lleno de tradición afroco...",
+        "nutrition": {
+          "calories": 229,
+          "macros": {
+            "protein_g": 4.3,
+            "fat_g": 14.8,
+            "carbs_g": 24
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -4595,7 +5570,16 @@
           "https://www.youtube.com/results?search_query=pusandao+pacifico",
           "https://www.tiktok.com/tag/pusandao"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Pusandao es una sopa tradicional del litoral Pacífico colombiano, especialmente del departamento de Nariño. Se prepara con pescado fresco, tubérculos, plátano y leche de coco, y es famosa por su sabor profundo y reconfortante, ideal para días lluviosos y celebraciones familiares.",
+        "nutrition": {
+          "calories": 1168,
+          "macros": {
+            "protein_g": 25.2,
+            "fat_g": 4.1,
+            "carbs_g": 268.5
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -4620,8 +5604,25 @@
       "title": "10 recetas más emblemáticas de la región Pacífica de Colombia",
       "language": "spanish",
       "country": "colombia",
-      "hasMetadata": false,
-      "metadata": {},
+      "hasMetadata": true,
+      "metadata": {
+        "title": "10 recetas más emblemáticas de la región Pacífica de Colombia",
+        "description": "1. Cazuela de Mariscos",
+        "region": "Colombia",
+        "language": "es",
+        "license": "MIT",
+        "sources": [],
+        "media": [],
+        "nutrition": {
+          "calories": 0,
+          "macros": {
+            "protein_g": 0,
+            "fat_g": 0,
+            "carbs_g": 0
+          }
+        },
+        "embedding_version": 1
+      },
       "category": [],
       "difficulty": null,
       "prepTime": null,
@@ -4689,7 +5690,16 @@
           "https://www.youtube.com/results?search_query=sancocho+de+pescado+pacifico",
           "https://www.tiktok.com/tag/sancochodepescado"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Sancocho de Pescado es una sopa tradicional y emblemática de la región Pacífica de Colombia. Se prepara con pescado fresco, tubérculos, plátano y leche de coco, resultando en un plato reconfortante, aromático y lleno de sabor afrocolombiano.",
+        "nutrition": {
+          "calories": 1168,
+          "macros": {
+            "protein_g": 25.2,
+            "fat_g": 4.1,
+            "carbs_g": 268.5
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -4767,7 +5777,16 @@
           "https://www.youtube.com/results?search_query=tapao+de+pescado+pacifico",
           "https://www.tiktok.com/tag/tapaodepescado"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Tapao de Pescado es un plato emblemático del Pacífico colombiano, especialmente de la costa nariñense y chocoana. Consiste en pescado fresco cocido con plátano, yuca, papas y leche de coco, resultando en una sopa espesa y aromática, típica de celebraciones y encuentros familiares.",
+        "nutrition": {
+          "calories": 1168,
+          "macros": {
+            "protein_g": 25.2,
+            "fat_g": 4.1,
+            "carbs_g": 268.5
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -4850,7 +5869,16 @@
           "https://www.youtube.com/results?search_query=tollo+ahumado+pacifico",
           "https://www.tiktok.com/tag/tolloahumado"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El Tollo Ahumado es un plato tradicional del Pacífico colombiano, especialmente apreciado en las comunidades afrodescendientes del litoral. Se prepara con carne de tiburón (tollo) ahumada artesanalmente y luego guisada con leche de coco, especias y vegetales, resultando en un plato intenso y arom...",
+        "nutrition": {
+          "calories": 229,
+          "macros": {
+            "protein_g": 4.3,
+            "fat_g": 14.8,
+            "carbs_g": 24
+          }
+        }
       },
       "category": [
         "Plato fuerte",
@@ -4934,7 +5962,16 @@
           "pan",
           "aliñado",
           "open source"
-        ]
+        ],
+        "description": "El pan aliñado es un pan suave, aromático y ligeramente dulce, típico de panaderías colombianas. Se caracteriza por su aroma a mantequilla y especias, y es tendencia por su versatilidad en desayunos y meriendas.",
+        "nutrition": {
+          "calories": 1185,
+          "macros": {
+            "protein_g": 21.7,
+            "fat_g": 84,
+            "carbs_g": 91.6
+          }
+        }
       },
       "category": [
         "Pan",
@@ -5021,7 +6058,16 @@
           "pan",
           "pandebono",
           "open source"
-        ]
+        ],
+        "description": "El pan de bono es uno de los panes más tradicionales y queridos de Colombia, especialmente en el Valle del Cauca. Esponjoso, ligeramente dulce y con intenso sabor a queso, es infaltable en desayunos y onces. Su popularidad lo ha convertido en tendencia en cafeterías y redes sociales.",
+        "nutrition": {
+          "calories": 1667,
+          "macros": {
+            "protein_g": 45.1,
+            "fat_g": 59.1,
+            "carbs_g": 242.4
+          }
+        }
       },
       "category": [
         "Pan",
@@ -5106,7 +6152,16 @@
           "pan",
           "pandeyuca",
           "open source"
-        ]
+        ],
+        "description": "El pan de yuca es un panecillo pequeño, suave y elástico, tradicional del sur de Colombia y Ecuador. Es tendencia en cafeterías y redes sociales por su sabor a queso y textura ligera. Ideal para desayunos, onces y acompañar bebidas calientes.",
+        "nutrition": {
+          "calories": 1905,
+          "macros": {
+            "protein_g": 52.1,
+            "fat_g": 78.4,
+            "carbs_g": 252.7
+          }
+        }
       },
       "category": [
         "Pan",
@@ -5192,7 +6247,16 @@
           "snack",
           "almojabana",
           "open source"
-        ]
+        ],
+        "description": "La almojábana es un panecillo suave y esponjoso, típico de la zona andina colombiana. Se elabora con queso, harina de maíz y trigo, y es protagonista de desayunos, onces y cafeterías. Es tendencia en redes por su sabor y textura únicos.",
+        "nutrition": {
+          "calories": 1428,
+          "macros": {
+            "protein_g": 71.1,
+            "fat_g": 94.3,
+            "carbs_g": 85.6
+          }
+        }
       },
       "category": [
         "Pan",
@@ -5271,7 +6335,16 @@
           "https://www.youtube.com/results?search_query=bu%C3%B1uelo+colombiano",
           "https://www.tiktok.com/tag/bu%C3%B1uelo"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El buñuelo es un clásico de la repostería y los snacks colombianos, especialmente en Navidad y celebraciones. Su textura esponjosa y sabor a queso lo hacen infaltable en desayunos y onces. Es tendencia cada diciembre en redes sociales y panaderías.",
+        "nutrition": {
+          "calories": 1944,
+          "macros": {
+            "protein_g": 60.8,
+            "fat_g": 78.1,
+            "carbs_g": 254.2
+          }
+        }
       },
       "category": [
         "Snack",
@@ -5350,7 +6423,16 @@
           "queso",
           "deditos",
           "open source"
-        ]
+        ],
+        "description": "Los deditos de queso son snacks fritos o horneados, rellenos de queso fundido, populares en panaderías, colegios y fiestas infantiles de Colombia. Son tendencia por su sencillez y sabor irresistible.",
+        "nutrition": {
+          "calories": 721,
+          "macros": {
+            "protein_g": 42.5,
+            "fat_g": 59.5,
+            "carbs_g": 6.5
+          }
+        }
       },
       "category": [
         "Snack",
@@ -5436,7 +6518,16 @@
           "callejero",
           "empanada",
           "open source"
-        ]
+        ],
+        "description": "La empanada es uno de los snacks más emblemáticos y queridos de Colombia. Su versión más popular es la empanada de papa y carne, frita y crocante, presente en cada esquina, feria y reunión familiar. Es tendencia en redes por su versatilidad y el ritual de acompañarla con ají casero.",
+        "nutrition": {
+          "calories": 1514,
+          "macros": {
+            "protein_g": 92,
+            "fat_g": 47.3,
+            "carbs_g": 190.3
+          }
+        }
       },
       "category": [
         "Snack",
@@ -5515,7 +6606,16 @@
           "https://www.youtube.com/results?search_query=pandebono+colombiano",
           "https://www.tiktok.com/tag/pandebono"
         ],
-        "license": "MIT"
+        "license": "MIT",
+        "description": "El pandebono es un panecillo redondo, suave y elástico, típico del Valle del Cauca y muy popular en todo Colombia. Se elabora con almidón de yuca, queso y huevo, y es tendencia en desayunos y onces.",
+        "nutrition": {
+          "calories": 1667,
+          "macros": {
+            "protein_g": 45.1,
+            "fat_g": 59.1,
+            "carbs_g": 242.4
+          }
+        }
       },
       "category": [
         "Pan",
@@ -5595,7 +6695,16 @@
           "snack",
           "pandeyuca",
           "open source"
-        ]
+        ],
+        "description": "El pan de yuca, conocido también como pandeyuca, es un panecillo pequeño, suave y elástico, típico del sur de Colombia y Ecuador. Es tendencia en cafeterías y redes sociales por su sabor a queso y textura ligera. Ideal para desayunos, onces y acompañar bebidas calientes.",
+        "nutrition": {
+          "calories": 1905,
+          "macros": {
+            "protein_g": 52.1,
+            "fat_g": 78.4,
+            "carbs_g": 252.7
+          }
+        }
       },
       "category": [
         "Pan",

@@ -1,13 +1,20 @@
 ---
-title: "Arequipe"
+title: Arequipe
 images:
-  - "https://www.misrecetas.com/fotos/photo/main/1368/arequipe_casero.jpg"
-  - "https://www.recetasgratis.net/co/images/4/5/7/arequipe_casero_colombiano_23754_600.jpg"
+- https://www.misrecetas.com/fotos/photo/main/1368/arequipe_casero.jpg
+- https://www.recetasgratis.net/co/images/4/5/7/arequipe_casero_colombiano_23754_600.jpg
 sources:
-  - "https://www.mycolombianrecipes.com/es/arequipe-dulce-de-leche-colombiano/"
-  - "https://www.recetasgratis.net/receta-de-arequipe-casero-colombiano-23754.html"
-license: "MIT"
-yaml_validation: "https://yaml-online-parser.appspot.com/"
+- https://www.mycolombianrecipes.com/es/arequipe-dulce-de-leche-colombiano/
+- https://www.recetasgratis.net/receta-de-arequipe-casero-colombiano-23754.html
+license: MIT
+yaml_validation: https://yaml-online-parser.appspot.com/
+description: '* 4 litros de leche entera'
+nutrition:
+  calories: 6240
+  macros:
+    protein_g: 128.0
+    fat_g: 132.0
+    carbs_g: 1172.0
 ---
 
 ## Ingredientes
@@ -26,3 +33,27 @@ yaml_validation: "https://yaml-online-parser.appspot.com/"
 5. El proceso es largo (puede tomar de 2 a 3 horas). Sabrás que está listo cuando la mezcla haya espesado y tenga un color caramelo oscuro.
 6. Para probar el punto, puedes poner un poco en un plato frío; si no se esparce, está listo.
 7. Retira del fuego, quita la astilla de canela y deja enfriar. Se espesará más al enfriarse.
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Casein, Sucrose
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 6240 kcal (Total receta)
+- **Proteína:** 128.0g
+- **Grasas:** 132.0g
+- **Carbohidratos:** 1172.0g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

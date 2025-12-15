@@ -1,29 +1,55 @@
 ---
-title: "Caldo de Costilla"
-region: "Andina"
-categories: ["Desayuno", "Sopa reconfortante", "Comida típica"]
+title: Caldo de Costilla
+region: Andina
+categories:
+- Desayuno
+- Sopa reconfortante
+- Comida típica
 sensory:
-  flavor: ["Salado", "Umami"]
-  texture: ["Caldo claro", "Suave"]
-  aroma: ["Herbal", "Cárnico"]
-  presentation: "Se sirve en tazón grande, con trozos generosos de costilla y papa, acompañado de arepa y chocolate caliente. Plato para 'levantar muertos' y reuniones familiares matutinas."
-main_ingredients: ["Costilla de res", "Papa sabanera", "Cilantro", "Cebolla larga", "Ajo"]
-difficulty: "★★☆☆☆"
-prep_time: "15 minutos"
-cook_time: "1 hora"
+  flavor:
+  - Salado
+  - Umami
+  texture:
+  - Caldo claro
+  - Suave
+  aroma:
+  - Herbal
+  - Cárnico
+  presentation: Se sirve en tazón grande, con trozos generosos de costilla y papa,
+    acompañado de arepa y chocolate caliente. Plato para 'levantar muertos' y reuniones
+    familiares matutinas.
+main_ingredients:
+- Costilla de res
+- Papa sabanera
+- Cilantro
+- Cebolla larga
+- Ajo
+difficulty: ★★☆☆☆
+prep_time: 15 minutos
+cook_time: 1 hora
 servings: 6
 images:
-  - url: "https://pixabay.com/es/photos/caldo-de-costilla-colombia-sopa-6146257/"
-    description: "Caldo de costilla tradicional servido en tazón (Pixabay)"
-  - url: "https://unsplash.com/s/photos/caldo-de-costilla"
-    description: "Variaciones de caldo de costilla en Unsplash"
+- url: https://pixabay.com/es/photos/caldo-de-costilla-colombia-sopa-6146257/
+  description: Caldo de costilla tradicional servido en tazón (Pixabay)
+- url: https://unsplash.com/s/photos/caldo-de-costilla
+  description: Variaciones de caldo de costilla en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-caldo-de-costilla-35791"
-  - "https://www.gastronomiacolombiana.com/foro/caldo-de-costilla"
-  - "https://www.google.com/maps/search/caldo+de+costilla"
-  - "https://www.youtube.com/results?search_query=caldo+de+costilla"
-  - "https://www.tiktok.com/tag/caldodecostilla"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-caldo-de-costilla-35791
+- https://www.gastronomiacolombiana.com/foro/caldo-de-costilla
+- https://www.google.com/maps/search/caldo+de+costilla
+- https://www.youtube.com/results?search_query=caldo+de+costilla
+- https://www.tiktok.com/tag/caldodecostilla
+license: MIT
+description: El Caldo de Costilla es un desayuno típico de la región andina colombiana,
+  especialmente en Bogotá y los pueblos de Cundinamarca y Boyacá. Es una sopa reconfortante
+  hecha con costilla de res, papa, cebolla y cilantro, famosa como remedio para el
+  “guayabo” (resaca) y para comenzar el día con energía.
+nutrition:
+  calories: 722
+  macros:
+    protein_g: 19.8
+    fat_g: 1.2
+    carbs_g: 163.5
 ---## Caldo de Costilla
 
 El Caldo de Costilla es un desayuno típico de la región andina colombiana, especialmente en Bogotá y los pueblos de Cundinamarca y Boyacá. Es una sopa reconfortante hecha con costilla de res, papa, cebolla y cilantro, famosa como remedio para el “guayabo” (resaca) y para comenzar el día con energía.

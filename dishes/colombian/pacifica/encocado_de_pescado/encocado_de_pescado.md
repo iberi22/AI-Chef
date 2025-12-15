@@ -1,29 +1,55 @@
 ---
-title: "Encocado de Pescado"
-region: "Pacífica"
-categories: ["Plato fuerte", "Guiso festivo", "Comida típica"]
+title: Encocado de Pescado
+region: Pacífica
+categories:
+- Plato fuerte
+- Guiso festivo
+- Comida típica
 sensory:
-  flavor: ["Umami", "Salado", "Lácteo (coco)"]
-  texture: ["Cremoso", "Suave"]
-  aroma: ["Marino", "Herbal (cilantro cimarrón y tomillo)", "Lácteo (coco)"]
-  presentation: "Se sirve en cazuela de barro, decorado con cilantro cimarrón y acompañado de arroz con coco. Plato estrella en celebraciones del Pacífico."
-main_ingredients: ["Pescado fresco", "Leche de coco", "Cilantro cimarrón", "Ají"]
-difficulty: "★★★☆☆"
-prep_time: "25 minutos"
-cook_time: "40 minutos"
+  flavor:
+  - Umami
+  - Salado
+  - Lácteo (coco)
+  texture:
+  - Cremoso
+  - Suave
+  aroma:
+  - Marino
+  - Herbal (cilantro cimarrón y tomillo)
+  - Lácteo (coco)
+  presentation: Se sirve en cazuela de barro, decorado con cilantro cimarrón y acompañado
+    de arroz con coco. Plato estrella en celebraciones del Pacífico.
+main_ingredients:
+- Pescado fresco
+- Leche de coco
+- Cilantro cimarrón
+- Ají
+difficulty: ★★★☆☆
+prep_time: 25 minutos
+cook_time: 40 minutos
 servings: 6
 images:
-  - url: "https://pixabay.com/es/photos/encocado-pescado-colombia-6146275/"
-    description: "Encocado de pescado tradicional del Pacífico (Pixabay)"
-  - url: "https://unsplash.com/s/photos/encocado-colombia"
-    description: "Variaciones de encocado en Unsplash"
+- url: https://pixabay.com/es/photos/encocado-pescado-colombia-6146275/
+  description: Encocado de pescado tradicional del Pacífico (Pixabay)
+- url: https://unsplash.com/s/photos/encocado-colombia
+  description: Variaciones de encocado en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-encocado-de-pescado-57939"
-  - "https://www.gastronomiacolombiana.com/foro/encocado-de-pescado"
-  - "https://www.google.com/maps/search/encocado+de+pescado+pacifico"
-  - "https://www.youtube.com/results?search_query=encocado+de+pescado+pacifico"
-  - "https://www.tiktok.com/tag/encocadodepescado"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-encocado-de-pescado-57939
+- https://www.gastronomiacolombiana.com/foro/encocado-de-pescado
+- https://www.google.com/maps/search/encocado+de+pescado+pacifico
+- https://www.youtube.com/results?search_query=encocado+de+pescado+pacifico
+- https://www.tiktok.com/tag/encocadodepescado
+license: MIT
+description: El Encocado de Pescado es uno de los platos más emblemáticos del Pacífico
+  colombiano, especialmente en el Chocó y Nariño. Se prepara con pescado fresco cocido
+  en una salsa cremosa de leche de coco, cebolla, pimentón y especias, resultando
+  en un plato aromático, intenso y lleno de tradición afroco...
+nutrition:
+  calories: 229
+  macros:
+    protein_g: 4.3
+    fat_g: 14.8
+    carbs_g: 24.0
 ---
 
 ## Encocado de Pescado

@@ -1,3 +1,23 @@
+---
+title: Torta de Calabaza (Pumpkin Cake)
+description: La Torta de Calabaza es un postre tradicional de las islas de San Andrés
+  y Providencia, apreciado por su textura húmeda y su sabor especiado. Se elabora
+  con calabaza cocida, especias, azúcar y, en ocasiones, un toque de coco rallado.
+  Es ideal para celebraciones y reuniones familiares.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 2426
+  macros:
+    protein_g: 21.3
+    fat_g: 178.5
+    carbs_g: 197.8
+embedding_version: 1
+---
+
 # Torta de Calabaza (Pumpkin Cake)
 
 La Torta de Calabaza es un postre tradicional de las islas de San Andrés y Providencia, apreciado por su textura húmeda y su sabor especiado. Se elabora con calabaza cocida, especias, azúcar y, en ocasiones, un toque de coco rallado. Es ideal para celebraciones y reuniones familiares.
@@ -47,7 +67,7 @@ La Torta de Calabaza es un postre tradicional de las islas de San Andrés y Prov
 
 ## 📸 Galería
 
-*Próximamente...*
+![Torta de calabaza especiada](./images/1.png)
 
 ---
 

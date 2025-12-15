@@ -1,28 +1,56 @@
 ---
-title: "Pan Aliñado Colombiano"
-region: "Nacional"
-categories: ["Pan", "Desayuno", "Merienda"]
+title: Pan Aliñado Colombiano
+region: Nacional
+categories:
+- Pan
+- Desayuno
+- Merienda
 sensory:
-  flavor: ["Dulce", "Lácteo", "Especiado"]
-  texture: ["Suave", "Esponjoso"]
-  aroma: ["Mantequilla", "Canela", "Vainilla"]
-  presentation: "Se sirve en bollos, ideal para acompañar café, chocolate o jugos."
-main_ingredients: ["Harina de trigo", "Mantequilla", "Huevo"]
-difficulty: "★★☆☆☆"
-prep_time: "2 horas (incluye levado)"
-cook_time: "20-25 minutos"
+  flavor:
+  - Dulce
+  - Lácteo
+  - Especiado
+  texture:
+  - Suave
+  - Esponjoso
+  aroma:
+  - Mantequilla
+  - Canela
+  - Vainilla
+  presentation: Se sirve en bollos, ideal para acompañar café, chocolate o jugos.
+main_ingredients:
+- Harina de trigo
+- Mantequilla
+- Huevo
+difficulty: ★★☆☆☆
+prep_time: 2 horas (incluye levado)
+cook_time: 20-25 minutos
 servings: 10
 images:
-  - url: "https://pixabay.com/photos/pan-aliñado-colombiano-6789012/"
-    description: "Pan aliñado colombiano tradicional (Pixabay)"
-  - url: "https://www.pexels.com/photo/pan-aliñado-colombiano-6789012/"
-    description: "Pan aliñado recién horneado (Pexels)"
+- url: https://pixabay.com/photos/pan-aliñado-colombiano-6789012/
+  description: Pan aliñado colombiano tradicional (Pixabay)
+- url: https://www.pexels.com/photo/pan-aliñado-colombiano-6789012/
+  description: Pan aliñado recién horneado (Pexels)
 sources:
-  - "https://elgourmet.com/recetas/pan-ali%C3%B1ado/"
-  - "https://www.youtube.com/results?search_query=pan+aliñado+colombiano"
-  - "https://www.tiktok.com/tag/panaliñado"
-license: "MIT"
-tags: ["colombiano", "tradicional", "pan", "aliñado", "open source"]
+- https://elgourmet.com/recetas/pan-ali%C3%B1ado/
+- https://www.youtube.com/results?search_query=pan+aliñado+colombiano
+- https://www.tiktok.com/tag/panaliñado
+license: MIT
+tags:
+- colombiano
+- tradicional
+- pan
+- aliñado
+- open source
+description: El pan aliñado es un pan suave, aromático y ligeramente dulce, típico
+  de panaderías colombianas. Se caracteriza por su aroma a mantequilla y especias,
+  y es tendencia por su versatilidad en desayunos y meriendas.
+nutrition:
+  calories: 1185
+  macros:
+    protein_g: 21.7
+    fat_g: 84.0
+    carbs_g: 91.6
 ---
 
 ## Pan Aliñado Colombiano
@@ -118,3 +146,27 @@ El pan aliñado es un pan suave, aromático y ligeramente dulce, típico de pana
 - "El secreto es amasar bien y dejar levar el tiempo suficiente."
 - "Sírvelo caliente para mejor sabor y aroma."
 - "Perfecto para acompañar con mantequilla, queso o mermelada."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Lutein & Zeaxanthin, Butyrate, Casein, Sucrose, Choline
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 1185 kcal (Total receta)
+- **Proteína:** 21.7g
+- **Grasas:** 84.0g
+- **Carbohidratos:** 91.6g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

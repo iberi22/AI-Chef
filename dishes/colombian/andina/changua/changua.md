@@ -1,29 +1,55 @@
 ---
-title: "Changua"
-region: "Andina"
-categories: ["Desayuno", "Sopa ligera", "Comida típica"]
+title: Changua
+region: Andina
+categories:
+- Desayuno
+- Sopa ligera
+- Comida típica
 sensory:
-  flavor: ["Lácteo", "Salado"]
-  texture: ["Cremoso", "Suave", "Crujiente"]
-  aroma: ["Lácteo", "Herbal"]
-  presentation: "Se sirve en tazón hondo, con pan calado sumergido y huevo entero. Reconfortante, ideal para mañanas frías y desayunos familiares."
-main_ingredients: ["Leche entera", "Huevo", "Pan calado", "Cebolla larga", "Cilantro"]
-difficulty: "★★☆☆☆"
-prep_time: "10 minutos"
-cook_time: "10 minutos"
+  flavor:
+  - Lácteo
+  - Salado
+  texture:
+  - Cremoso
+  - Suave
+  - Crujiente
+  aroma:
+  - Lácteo
+  - Herbal
+  presentation: Se sirve en tazón hondo, con pan calado sumergido y huevo entero.
+    Reconfortante, ideal para mañanas frías y desayunos familiares.
+main_ingredients:
+- Leche entera
+- Huevo
+- Pan calado
+- Cebolla larga
+- Cilantro
+difficulty: ★★☆☆☆
+prep_time: 10 minutos
+cook_time: 10 minutos
 servings: 4
 images:
-  - url: "https://pixabay.com/es/photos/changua-colombia-sopa-leche-6146255/"
-    description: "Changua tradicional servida en tazón (Pixabay)"
-  - url: "https://unsplash.com/s/photos/changua"
-    description: "Variaciones de changua en Unsplash"
+- url: https://pixabay.com/es/photos/changua-colombia-sopa-leche-6146255/
+  description: Changua tradicional servida en tazón (Pixabay)
+- url: https://unsplash.com/s/photos/changua
+  description: Variaciones de changua en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-changua-24680"
-  - "https://www.gastronomiacolombiana.com/foro/changua"
-  - "https://www.google.com/maps/search/changua"
-  - "https://www.youtube.com/results?search_query=changua"
-  - "https://www.tiktok.com/tag/changua"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-changua-24680
+- https://www.gastronomiacolombiana.com/foro/changua
+- https://www.google.com/maps/search/changua
+- https://www.youtube.com/results?search_query=changua
+- https://www.tiktok.com/tag/changua
+license: MIT
+description: La Changua es una sopa de desayuno tradicional de la región andina, especialmente
+  popular en Bogotá y Boyacá. Se prepara a base de leche, agua, huevo y cebolla, y
+  se sirve con pan (calado) en el mismo tazón. Es reconfortante, suave y perfecta
+  para los días fríos.
+nutrition:
+  calories: 832
+  macros:
+    protein_g: 53.6
+    fat_g: 48.6
+    carbs_g: 48.3
 ---## Changua
 
 La Changua es una sopa de desayuno tradicional de la región andina, especialmente popular en Bogotá y Boyacá. Se prepara a base de leche, agua, huevo y cebolla, y se sirve con pan (calado) en el mismo tazón. Es reconfortante, suave y perfecta para los días fríos.

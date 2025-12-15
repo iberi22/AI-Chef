@@ -1,35 +1,61 @@
 ---
-title: "Sancocho Costeño"
-region: "Caribe"
-categories: ["Plato fuerte", "Sopa festiva", "Comida típica"]
+title: Sancocho Costeño
+region: Caribe
+categories:
+- Plato fuerte
+- Sopa festiva
+- Comida típica
 sensory:
-  flavor: ["Salado", "Umami"]
-  texture: ["Espeso", "Suave", "Jugoso"]
-  aroma: ["Herbal", "Cárnico", "Ahumado"]
-  presentation: "Se sirve en platos hondos, porciones generosas, acompañado de arroz y aguacate. Es el centro de las celebraciones y reuniones familiares en la costa."
-main_ingredients: ["Costilla de res", "Pollo", "Cerdo", "Ñame", "Yuca", "Papa criolla", "Plátano"]
-difficulty: "★★★☆☆"
-prep_time: "40 minutos"
-cook_time: "2 horas"
+  flavor:
+  - Salado
+  - Umami
+  texture:
+  - Espeso
+  - Suave
+  - Jugoso
+  aroma:
+  - Herbal
+  - Cárnico
+  - Ahumado
+  presentation: Se sirve en platos hondos, porciones generosas, acompañado de arroz
+    y aguacate. Es el centro de las celebraciones y reuniones familiares en la costa.
+main_ingredients:
+- Costilla de res
+- Pollo
+- Cerdo
+- Ñame
+- Yuca
+- Papa criolla
+- Plátano
+difficulty: ★★★☆☆
+prep_time: 40 minutos
+cook_time: 2 horas
 servings: 10
 nutrition:
-  calories: 650
-  protein: "35g"
-  fat: "25g"
-  carbs: "50g"
-tags: ["Plato fuerte", "Sopa festiva", "Comida típica"]
+  calories: 1255
+  macros:
+    protein_g: 28.1
+    fat_g: 5.4
+    carbs_g: 287.7
+tags:
+- Plato fuerte
+- Sopa festiva
+- Comida típica
 images:
-  - url: "https://pixabay.com/es/photos/sancocho-costeño-colombia-6146267/"
-    description: "Sancocho costeño tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/sancocho-costeño"
-    description: "Variaciones de sancocho costeño en Unsplash"
+- url: https://pixabay.com/es/photos/sancocho-costeño-colombia-6146267/
+  description: Sancocho costeño tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/sancocho-costeño
+  description: Variaciones de sancocho costeño en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-sancocho-costeno-13580"
-  - "https://www.gastronomiacolombiana.com/foro/sancocho-costeno"
-  - "https://www.google.com/maps/search/sancocho+costeño"
-  - "https://www.youtube.com/results?search_query=sancocho+costeño"
-  - "https://www.tiktok.com/tag/sancochocosteño"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-sancocho-costeno-13580
+- https://www.gastronomiacolombiana.com/foro/sancocho-costeno
+- https://www.google.com/maps/search/sancocho+costeño
+- https://www.youtube.com/results?search_query=sancocho+costeño
+- https://www.tiktok.com/tag/sancochocosteño
+license: MIT
+description: El Sancocho Costeño es uno de los platos más representativos de la región
+  Caribe colombiana. Es una sopa abundante y festiva, preparada con variedad de carnes,
+  tubérculos y plátano, y servida en grandes reuniones familiares o celebraciones.
 ---## Sancocho Costeño
 
 El Sancocho Costeño es uno de los platos más representativos de la región Caribe colombiana. Es una sopa abundante y festiva, preparada con variedad de carnes, tubérculos y plátano, y servida en grandes reuniones familiares o celebraciones.

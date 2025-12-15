@@ -1,28 +1,56 @@
 ---
-title: "Papas Rellenas Colombianas"
-region: "Nacional"
-categories: ["Snack", "Comida callejera", "Merienda", "Tradicional"]
+title: Papas Rellenas Colombianas
+region: Nacional
+categories:
+- Snack
+- Comida callejera
+- Merienda
+- Tradicional
 sensory:
-  flavor: ["Salado"]
-  texture: ["Crujiente por fuera", "Suave y jugoso por dentro"]
-  aroma: ["Frito", "Especiado"]
-  presentation: "Se sirve caliente, ideal para comer en la calle o en reuniones informales."
-main_ingredients: ["Papa", "Carne molida", "Huevo", "Harina de trigo", "Aceite"]
-difficulty: "★★☆☆☆"
-prep_time: "1 hora"
-cook_time: "30 minutos"
-servings: "8 unidades"
+  flavor:
+  - Salado
+  texture:
+  - Crujiente por fuera
+  - Suave y jugoso por dentro
+  aroma:
+  - Frito
+  - Especiado
+  presentation: Se sirve caliente, ideal para comer en la calle o en reuniones informales.
+main_ingredients:
+- Papa
+- Carne molida
+- Huevo
+- Harina de trigo
+- Aceite
+difficulty: ★★☆☆☆
+prep_time: 1 hora
+cook_time: 30 minutos
+servings: 8 unidades
 images:
-  - url: "https://pixabay.com/photos/papas-rellenas-colombia-snack-6146291/"
-    description: "Papas rellenas colombianas tradicionales (Pixabay)"
-  - url: "https://unsplash.com/s/photos/papas-rellenas"
-    description: "Variaciones de papas rellenas en Unsplash"
+- url: https://pixabay.com/photos/papas-rellenas-colombia-snack-6146291/
+  description: Papas rellenas colombianas tradicionales (Pixabay)
+- url: https://unsplash.com/s/photos/papas-rellenas
+  description: Variaciones de papas rellenas en Unsplash
 sources:
-  - "https://www.recetasdecolombia.com/papas-rellenas"
-  - "https://www.youtube.com/results?search_query=papas+rellenas+colombianas"
-  - "https://www.tiktok.com/tag/papasrellenas"
-license: "MIT"
-tags: ["colombiano", "tradicional", "papas rellenas", "open source"]
+- https://www.recetasdecolombia.com/papas-rellenas
+- https://www.youtube.com/results?search_query=papas+rellenas+colombianas
+- https://www.tiktok.com/tag/papasrellenas
+license: MIT
+tags:
+- colombiano
+- tradicional
+- papas rellenas
+- open source
+description: Las papas rellenas son un clásico de la comida callejera colombiana.
+  Consisten en papas cocidas y rellenas de carne, huevo y condimentos, empanizadas
+  y fritas hasta lograr una corteza dorada y crujiente. Son tendencia por su sabor
+  reconfortante y su presencia en ferias y ventas ambulantes.
+nutrition:
+  calories: 5150
+  macros:
+    protein_g: 390.2
+    fat_g: 290.6
+    carbs_g: 243.5
 ---
 
 
@@ -119,3 +147,27 @@ Las papas rellenas son un clásico de la comida callejera colombiana. Consisten 
 - "El secreto es que la papa esté bien fría antes de rellenar y freír."
 - "No escatimes en relleno, ¡la sorpresa es lo mejor!"
 - "Perfectas para acompañar con ají y jugo de fruta natural."
+
+## 🔬 Análisis Detallado y Sabiduría Colectiva
+
+### Categorización Sensorial y de Uso
+
+- **Perfil de sabor:** Rico en nutrientes activos: Starch, Lutein & Zeaxanthin, Allicin, Lycopene, Choline, Kaempferol, Lipids, Creatine
+- **Textura:** Variada (Ver Ingredientes)
+- **Aroma:** Aromático y especiado
+
+### Perfil Nutricional (Estimado)
+
+- **Calorías:** 5150 kcal (Total receta)
+- **Proteína:** 390.2g
+- **Grasas:** 290.6g
+- **Carbohidratos:** 243.5g
+
+### Sabiduría Colectiva
+
+- **Variantes:** [Pendiente]
+- **Consejos:** [Pendiente]
+
+### Fuentes
+
+- [Pendiente]

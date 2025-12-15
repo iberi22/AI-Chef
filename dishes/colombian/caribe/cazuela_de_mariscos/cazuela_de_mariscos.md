@@ -1,29 +1,58 @@
 ---
-title: "Cazuela de Mariscos"
-region: "Caribe"
-categories: ["Plato fuerte", "Sopa festiva", "Comida típica"]
+title: Cazuela de Mariscos
+region: Caribe
+categories:
+- Plato fuerte
+- Sopa festiva
+- Comida típica
 sensory:
-  flavor: ["Umami", "Salado", "Lácteo"]
-  texture: ["Cremosa", "Suave"]
-  aroma: ["Marino", "Herbal", "Lácteo (coco)"]
-  presentation: "Se sirve en cazuela de barro, decorada con cilantro y acompañada de arroz o patacones. Es el plato estrella en celebraciones costeñas."
-main_ingredients: ["Camarón", "Calamar", "Pulpo", "Mejillón", "Pescado blanco", "Leche de coco", "Crema de leche"]
-difficulty: "★★★★☆"
-prep_time: "45 minutos"
-cook_time: "40 minutos"
+  flavor:
+  - Umami
+  - Salado
+  - Lácteo
+  texture:
+  - Cremosa
+  - Suave
+  aroma:
+  - Marino
+  - Herbal
+  - Lácteo (coco)
+  presentation: Se sirve en cazuela de barro, decorada con cilantro y acompañada de
+    arroz o patacones. Es el plato estrella en celebraciones costeñas.
+main_ingredients:
+- Camarón
+- Calamar
+- Pulpo
+- Mejillón
+- Pescado blanco
+- Leche de coco
+- Crema de leche
+difficulty: ★★★★☆
+prep_time: 45 minutos
+cook_time: 40 minutos
 servings: 6
 images:
-  - url: "https://pixabay.com/es/photos/cazuela-mariscos-colombia-6146263/"
-    description: "Cazuela de mariscos tradicional (Pixabay)"
-  - url: "https://unsplash.com/s/photos/cazuela-de-mariscos"
-    description: "Variaciones de cazuela de mariscos en Unsplash"
+- url: https://pixabay.com/es/photos/cazuela-mariscos-colombia-6146263/
+  description: Cazuela de mariscos tradicional (Pixabay)
+- url: https://unsplash.com/s/photos/cazuela-de-mariscos
+  description: Variaciones de cazuela de mariscos en Unsplash
 sources:
-  - "https://www.eltiempo.com/vida/receta-cazuela-de-mariscos-57932"
-  - "https://www.gastronomiacolombiana.com/foro/cazuela-de-mariscos"
-  - "https://www.google.com/maps/search/cazuela+de+mariscos"
-  - "https://www.youtube.com/results?search_query=cazuela+de+mariscos"
-  - "https://www.tiktok.com/tag/cazuelademariscos"
-license: "MIT"
+- https://www.eltiempo.com/vida/receta-cazuela-de-mariscos-57932
+- https://www.gastronomiacolombiana.com/foro/cazuela-de-mariscos
+- https://www.google.com/maps/search/cazuela+de+mariscos
+- https://www.youtube.com/results?search_query=cazuela+de+mariscos
+- https://www.tiktok.com/tag/cazuelademariscos
+license: MIT
+description: La Cazuela de Mariscos es un plato icónico de la región Caribe colombiana,
+  especialmente en ciudades costeras como Cartagena y Barranquilla. Es una sopa cremosa
+  y aromática, repleta de mariscos frescos, leche de coco y especias, perfecta para
+  celebraciones y ocasiones especiales.
+nutrition:
+  calories: 1640
+  macros:
+    protein_g: 87.7
+    fat_g: 130.0
+    carbs_g: 26.4
 ---## Cazuela de Mariscos
 
 La Cazuela de Mariscos es un plato icónico de la región Caribe colombiana, especialmente en ciudades costeras como Cartagena y Barranquilla. Es una sopa cremosa y aromática, repleta de mariscos frescos, leche de coco y especias, perfecta para celebraciones y ocasiones especiales.

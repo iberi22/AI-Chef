@@ -1,3 +1,23 @@
+---
+title: Sopa de Cangrejo (Crab Soup)
+description: La Sopa de Cangrejo es uno de los platos más emblemáticos de San Andrés
+  y Providencia. Este caldo espeso y aromático combina carne de cangrejo, leche de
+  coco, tubérculos y especias isleñas, evocando la tradición marinera y el mestizaje
+  cultural del archipiélago.
+region: Colombia
+language: es
+license: MIT
+sources: []
+media: []
+nutrition:
+  calories: 735
+  macros:
+    protein_g: 11.5
+    fat_g: 1.3
+    carbs_g: 172.1
+embedding_version: 1
+---
+
 # Sopa de Cangrejo (Crab Soup)
 
 La Sopa de Cangrejo es uno de los platos más emblemáticos de San Andrés y Providencia. Este caldo espeso y aromático combina carne de cangrejo, leche de coco, tubérculos y especias isleñas, evocando la tradición marinera y el mestizaje cultural del archipiélago.
@@ -49,7 +69,7 @@ La Sopa de Cangrejo es uno de los platos más emblemáticos de San Andrés y Pro
 
 ## 📸 Galería
 
-*Próximamente...*
+![Sopa de cangrejo cremosa](./images/1.png)
 
 ---
 
