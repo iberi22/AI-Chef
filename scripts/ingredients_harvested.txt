@@ -1,33 +1,71 @@
 44: sal y pimienta al gusto
+36: dientes de ajo
+25: fuente
+16: pimentón rojo
+16: hoja de laurel
+15: plátanos verdes
+15: tomates maduros
 14: 鸡蛋
 14: aceite para freír
+14: ramita de tomillo
+13: yucas medianas
 12: agua suficiente
+11: cucharadita de polvo de hornear
 10: 生抽
+10: huevos
+10: huevo
 9: 老抽
 9: sal al gusto
+9: pizca de sal
 8: aceite vegetal
+8: cucharadita de sal
 7: 料酒
 7: 胡椒粉
+7: imones
+7: de carne de res
+7: cucharadas de azúcar
+7: chile picante
+7: pimiento dulce
+7: s de leche de coco fresca
 7: ají chombo o picante al gusto
 7: cilantro cimarrón para decorar
 6: 酱油
 6: 小葱
+6: cucharadita de comino
+6: de agua
 6: ají llanero al gusto
 5: 大蒜
 5: 蚝油
 5: 米饭
 5: 食用油
 5: agua
+5: de pollo
+5: diente de ajo
+5: cucharadita de esencia de vainilla
+5: cucharadas de mantequilla
 5: jugo de 1 limón
 5: sal gruesa al gusto
 5: pimienta negra al gusto
-5: hojas de bijao para servir
+5: ramas de orégano fresco
+5: ramas de tomillo
+5: de almidón de yuca
 4: 洋葱
 4: 白糖
 4: 葱花
 4: 猪油
 4: 白胡椒粉
+4: de yuca amarga
+4: yuca mediana
+4: de carne molida
+4: tomate maduro
+4: de azúcar
+4: rama de canela
+4: s de arroz
 4: sal
+4: de harina de trigo
+4: cabezas de ajo
+4: mazorca de maíz tierno
+4: de queso fresco rallado
 3: 生姜
 3: 番茄酱
 3: 鸡精
@@ -37,7 +75,27 @@
 3: 面粉
 3: 胡萝卜
 3: 虾仁
+3: ramita de cilantro
+3: ají amazónico
+3: huevos duros
+3: mazorcas de maíz tierno
+3: plátanos maduros
+3: de cerdo
+3: zanahorias
 3: comino al gusto
+3: s de harina de maíz precocida amarilla
+3: s de agua tibia
+3: papas medianas
+3: itros de leche entera
+3: zanahoria
+3: manojo de cilantro
+3: de carne de cerdo
+3: de camarones
+3: de pescado blanco
+3: de caldo de pescado
+3: s de caldo de pollo
+3: papas grandes
+3: de leche
 3: leche
 2: 淀粉
 2: 芝麻油
@@ -47,6 +105,7 @@
 2: 猪肉末
 2: 火腿肠
 2: 冬笋
+2: 调味料
 2: 牛奶
 2: 黄瓜
 2: 香油
@@ -55,16 +114,52 @@
 2: 葱、姜、蒜
 2: 饮用水
 2: 皮蛋
-2: 小碗若干
 2: limón al gusto
+2: ramas de cilantro
 2: aceite vegetal para freír
+2: cucharadas de manteca de cerdo
+2: de arroz blanco
+2: de costilla de res
+2: manojo de cilantro fresco
+2: s de leche
+2: s de agua
+2: cucharadita de color
+2: de arveja verde
+2: itro de agua
+2: ulos maduros
+2: clavos de olor
+2: itros de agua
 2: hielo al gusto
 2: azúcar al gusto
 2: hielo picado
+2: naranja
+2: de coco rallado
+2: s de arroz blanco
+2: de leche de coco
+2: de crema de leche
 2: cilantro fresco para decorar
-2: **para los dumplings:** 1 taza de harina
-2: salsas: rosada
+2: tomate pequeño
+2: de cilantro fresco
+2: cucharadas de aceite
+2: tomate maduro picado
+2: itro de leche de coco
+2: de carne de cangrejo fresca
+2: cucharadas de leche de coco
+2: s de harina de trigo
+2: de pescado fresco
+2: cucharadita de canela en polvo
+2: dientes de ajo picados
+2: arepas pequeñas
+2: salsas
+2: de queso llanero rallado
+2: de hogao
+2: ibra de maíz blanco trillado
+2: de calamar
+2: de piangua
+2: cucharadas de aceite de achiote
 2: aceite de achiote
+2: cucharadas de leche
+2: cucharada de mantequilla
 1: 青蟹
 1: 咖喱块
 1: 椰浆
@@ -85,17 +180,14 @@
 1: 蒜瓣
 1: 量杯
 1: 厨房秤
-1: 大不锈钢碗
 1: 生蚝
 1: 刷子
 1: 姜、蒜瓣、干辣椒
 1: 油、盐、料酒、醋、酱油、白砂糖
-1: 注：如果有可能
 1: 大葱、姜、大蒜、香菜、美人椒
 1: 油、盐、鸡精、生抽、老抽、陈醋、黑胡椒粉、料酒
 1: 八角、干辣椒
 1: 鱼头一个
-1: 注：市场直接贩卖的鱼头一般分为两种：白鲢、花鲢。前者价格便宜
 1: 大葱、姜、大蒜、干辣椒
 1: 油、盐、生抽、老抽、陈醋、蚝油、料酒、白糖
 1: 鲤鱼、五花肉
@@ -115,24 +207,20 @@
 1: 咸肉
 1: 擀面杖
 1: 冷水
-1: 直径 30cm 以上的盆
 1: 芝麻香油
-1: 面食材料：可以是手工面条、龙须面、面鱼
-1: 菜类材料：建议荤素搭配
+1: 面食材料
+1: 菜类材料
 1: 牛羊鱼虾等肉类
 1: 鸡蛋鸭蛋鹅蛋鸵鸟蛋等蛋类
 1: 豆块豆筋豆腐皮等豆制品类
 1: 生菜菠菜油麦菜
 1: 青椒番茄胡萝卜等蔬菜类。
 1: 年糕/白粿
-1: 调味料: 酱油
-1: ：鸡蛋
 1: 方便面
 1: 炒河粉、猪肉/牛肉
-1: 炒料：盐、味精、老抽、生抽、孜然粉
-1: 其他调味料：胡椒粉
+1: 炒料
+1: 其他调味料
 1: 黄瓜、面筋块、绿豆芽、鸡蛋、蒜瓣、小葱、淀粉
-1: 盆、盘子
 1: 馒头
 1: 孜然粉
 1: 五香粉
@@ -162,8 +250,6 @@
 1: 猪五花肉
 1: 芹菜
 1: 鲜面条）
-1: 蒸锅
-1: 炒锅
 1: 花椒
 1: 干红椒
 1: 玉米粒
@@ -177,7 +263,6 @@
 1: 油泼辣子
 1: 香醋
 1: 小米辣
-1: 一口有点深度的锅
 1: 小汤圆
 1: 醪糟
 1: 枸杞
@@ -192,9 +277,7 @@
 1: 蒸笼垫
 1: 风干快熟面/任何牌子的快熟面
 1: 麻油
-1: 调味料：火锅底料、花生酱、全脂牛奶、生抽、辣椒油、醋、花椒油
-1: 原料：半干荞麦面、娃娃菜、生菜
-1: 洗菜盆、直径 18cm 的小锅
+1: 原料
 1: 白蘑菇
 1: 黄油
 1: 淡奶油
@@ -203,7 +286,6 @@
 1: 瘦肉
 1: 香菜
 1: 生菜
-1: 电饭锅
 1: 植物油
 1: 紫菜
 1: 蔬菜高汤
@@ -212,8 +294,6 @@
 1: 花生
 1: 红豆
 1: 红枣
-1: 粥锅
-1: 中号玻璃碗
 1: 西红柿
 1: 味素
 1: 金针菇
@@ -224,73 +304,236 @@
 1: 玉竹
 1: 麦冬
 1: 煲汤盅
-1: el yaml permite futura vectorización y uso por agentes de ia culinaria.
-1: **enriquecimiento sensorial y nutricional:**
-1: para cada receta se documenta sabor dominante
-1: se incluye tabla nutricional de ingredientes clave
-1: **fuentes y sabiduría colectiva:**
-1: se citan explícitamente enlaces a menús
-1: se sintetizan comentarios y consejos de la comunidad
-1: **imágenes libres y criterios de selección:**
-1: solo se usan imágenes libres de derechos
-1: si no hay imagen adecuada
-1: **compatibilidad y calidad markdown:**
-1: se corrigen encabezados
-1: **licencia abierta definitiva:**
-1: todas las recetas y documentación se publican bajo licencia mit
-1: **clasificación sensorial y de uso:**
-1: cada receta se etiqueta según sabor dominante
-1: se prioriza la diversidad sensorial y el valor cultural en la selección y documentación.
-1: para cada receta emblemática:
+1: ajíes amazónicos frescos
+1: allina entera o pollo de campo
+1: de maní tostado y molido
+1: de harina de maíz
+1: de yuca fresca
+1: ramita de culantro
 1: hojas de bijao para envolver
+1: mojojoys frescos
 1: ajo o hierbas amazónicas
+1: pescado de río entero  de 1-1.5 kg
 1: hojas de bijao o plátano para envolver
+1: pescado grande de río
 1: hojas de plátano o bijao
 1: bejucos o cuerdas naturales para atar
 1: brasas de leña
+1: de filete de pirarucú
+1: de harina de yuca  o maíz
 1: yuca cocida y plátano frito para acompañar
-1: **para la sopa:**
-1: **para servir:**
+1: de cecina
+1: pechugas de pollo grandes
+1: de papa pastusa
+1: de papa sabanera
+1: manojo grande de guascas frescas
 1: crema de leche
 1: alcaparras en vinagre
 1: aguacate en rodajas
 1: arroz blanco
-1: **para el plato principal:**
-1: **para el hogao :**
+1: de frijoles rojos
+1: chorizos
+1: morcillas
+1: arepas antioqueñas
+1: aguacates
+1: tomate grande
+1: papas sabaneras medianas
+1: manojo pequeño de cilantro fresco
+1: onganiza boyacense
+1: ibra de papa sabanera
+1: arracacha
+1: cubio
+1: nabo
+1: repollo pequeño
+1: manojo de guascas
+1: echón  o 5 kg de pierna y costilla de cerdo
+1: de arveja amarilla pelada
+1: cucharadas de comino molido
+1: cucharadas de color
+1: manojo de laurel y tomillo
+1: de cuero de cerdo
+1: de arroz
 1: canela en polvo para decorar
+1: chorizos santandereanos
+1: de maíz pelado
+1: papas sabaneras
+1: plátano verde
+1: ahuyama pequeña
 1: comino y color al gusto
+1: de masa de maíz precocida
+1: de tocino
+1: papas
+1: pimentones
+1: manojo de hojas de plátano
 1: comino
+1: de avena en hojuelas
+1: itro de leche
 1: esencia de vainilla
-1: almojábanas o pan para acompañar
+1: de maíz trillado
+1: piña madura
+1: hojas de naranjo agrio
+1: tabletas de chocolate de mesa colombiano
+1: de queso campesino o doble crema
+1: -3 cucharadas de azúcar
+1: imón
 1: agua fría o soda
+1: itro de cerveza rubia
+1: itro de gaseosa roja
 1: rodajas de limón
+1: s de sandía en cubos
+1: de papaya en cubos
+1: de piña en cubos
+1: de banano en rodajas
+1: de mango en cubos
+1: ata de gaseosa roja  o soda
+1: s de semillas de amaranto
+1: de miel de caña
 1: hojas de bijao o plátano
+1: de carne molida o desmechada
+1: coco fresco grande
+1: cucharadas de azúcar morena
+1: cucharadas de aceite vegetal
+1: pizca de canela
+1: hoja de plátano
+1: de carne de res molida
+1: de carne de cerdo molida
+1: de grasa de cerdo
+1: cucharada de orégano seco
+1: cucharadita de pimienta negra
+1: cucharada de sal
 1: tripas de cerdo limpias
+1: de yuca
+1: de carne molida  o queso costeño
+1: de calamares
+1: de pulpo
+1: de mejillones
 1: ají picante al gusto
+1: de camarones medianos
+1: imones grandes
+1: ají picante
 1: salsa de tomate
 1: galletas saladas para acompañar
+1: de ñame
+1: de queso costeño
+1: de suero costeño
+1: ñame pequeño
+1: mazorcas de maíz
+1: -4 ajíes picantes frescos
+1: cucharadas de vinagre blanco
+1: cucharadas de agua
+1: aguacates maduros
+1: tomates rojos maduros
 1: cilantro fresco
+1: de mayonesa
+1: de kétchup
+1: cucharada de jugo de limón
+1: cucharadita de mostaza
+1: s de leche entera
+1: cucharada de jugo de limón o vinagre
+1: de pescado blanco fresco
+1: de caracol de mar limpio y ablandado
+1: cocos frescos rallados
+1: s de azúcar
+1: de leche condensada
 1: frutas confitadas o pasas
+1: caparazones de cangrejo limpios
 1: aceite o mantequilla
+1: cucharadas de mantequilla o aceite
+1: de frijoles rojos o negros
+1: de cola de cerdo salada
+1: pollo entero troceado
+1: ramita de apio
 1: aceite de coco o vegetal
+1: de caracol limpio
+1: de cangrejo o langosta
+1: de carne de cerdo salada
+1: ñames medianos
+1: s de leche de coco
+1: de cangrejo azul o cangrejo de mar limpio
+1: de calabaza cocida y hecha puré
+1: de azúcar morena
+1: de aceite vegetal o mantequilla derretida
+1: cucharadita de nuez moscada
+1: pechugas de pollo
+1: pimentón rojo picado
+1: de arvejas precocidas
+1: de zanahoria en cubos pequeños
+1: de habichuelas  picadas
 1: condimento con color
 1: cilantro picado para decorar
+1: cucharadas de salsa soya
+1: cucharadita de paprika
+1: pimentón en trozos
+1: papas saladas pequeñas
 1: palitos para brocheta
+1: de chorizo
+1: de morcilla
+1: de chicharrón
+1: de costilla de cerdo
+1: ibra de yuca
 1: hogao y ají para acompañar
+1: hamburguesas de res o pollo
+1: onjas de queso doble crema
+1: onjas de jamón
 1: lechuga
 1: sal y pimienta
-1: harina de trigo o pan rallado
+1: salchichas tipo viena o ranchera
 1: queso rallado
 1: chorizo o carne desmechada
+1: chorizo llanero
+1: cachamas medianas
+1: de carne de chigüiro
+1: de chigüiro
+1: de carne de gumarra
+1: de carne de ternera
+1: s de caraotas  cocidos
+1: s de arroz blanco cocido y frío
 1: hojas de plátano para hornear
+1: -8 guineos verdes
 1: queso costeño rallado al gusto
+1: mazorcas tiernas y grandes
+1: de mantequilla derretida
+1: de leche o crema de leche
 1: queso campesino o cuajada en cubos
-1: leche al gusto para servir
-1: panela rallada o bocadillo en trozos para acompañar
-1: opcional: uvas pasas y un chorrito de ron o brandy
-1: **para la masa**:
+1: ibras de ñame pelado y en cubos
+1: ibra de queso costeño duro
+1: de suero costeño o crema agria
+1: yemas de huevo
+1: ibra de arroz cocido
 1: caldo de cocción de las carnes
 1: achiote para dar color
-1: **para el relleno**:
+1: ibra de costilla de cerdo en trozos
+1: ibra de tocino con cuero
+1: pechuga de pollo en presas
+1: huevos cocidos
+1: ibra de arveja amarilla seca
+1: ibra de zanahoria en rodajas
+1: ibra de papa en rodajas
 1: hojas de plátano soasadas
-1: opcional: 1 astilla de canela
+1: kilo de azúcar
+1: cucharadita de bicarbonato de sodio
+1: plátanos maduros grandes
+1: de filete de pescado blanco
+1: pizca de pimienta
+1: de jaiba
+1: s de coco fresco rallado
+1: cucharadita de ralladura de limón
+1: de carne de tollo  ahumado
+1: de leche tibia
+1: de mantequilla
+1: de levadura seca
+1: de queso costeño o campesino rallado
+1: huevo grande
+1: de harina de maíz precocida
+1: cucharadas de mantequilla derretida
+1: de queso costeño rallado
+1: ámina de masa de hojaldre
+1: de queso mozzarella o doble crema
+1: cucharada de color
+1: presas de pollo
+1: de pasta de ají amarillo
+1: de culantro  licuado con un poco de agua
+1: de cerveza negra
+1: de arvejas
+1: de choclo  desgranado
+1: pimiento rojo cortado en tiras

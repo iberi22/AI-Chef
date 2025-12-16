@@ -27,6 +27,12 @@ scientific_registry:
   synonyms: []
   cultivars: []
 
+# --- Popularidad y Uso Global ---
+global_popularity:
+  tier: "Unknown" # High, Medium, Niche
+  culinary_importance: "Unknown" # Essential, Common, Rare
+  regional_prevalence: []
+
 # --- Nutrition (per 100g) ---
 portions:
   default_g: 100
@@ -44,24 +50,40 @@ micronutrients:
   potassium_mg: 0
   magnesium_mg: 0
 
-# --- Active Compounds ---
-active_compounds: []
+# --- Composición Química y Compuestos Activos ---
+active_compounds:
+  - name: "Unknown"
+    type: "Unknown"
+    approximate_content_percent: 0
+    role: "Unknown"
+    benefit: "Unknown"
 
-# --- Safety & Allergy Profile ---
+# --- Perfil de Seguridad y Alergias ---
 safety_profile:
   safety_score: 50
+  consumption_limit: "Unknown"
   concerns: []
 
 allergy_profile:
   risk_level: "Unknown"
   allergens: []
+  cross_reactivity: []
   prevalence_percent: 0
 
-# --- Sensory Profile ---
+# --- Perfil Sensorial y Organoléptico ---
 sensory_profile:
-  taste_notes: []
+  visual_color: "Unknown"
+  aroma_notes: []
+  flavor_notes: []
   texture_notes: []
+  mouthfeel: "Unknown"
   spice_level: 0
+
+# --- Sustitutos y Relacionados ---
+substitutes:
+  - name: "Unknown"
+    similarity_score: 0.0
+    notes: "Unknown"
 
 embedding_version: 2
 last_updated: "{date}"
@@ -153,7 +175,15 @@ def batch_create_stubs():
             if len(raw_name) < 2: continue
 
             # Stopwords/Noise filter
-            if raw_name in ['sal', 'pimienta', 'agua', 'aceite', 'azúcar', 'sugar', 'salt', 'oil', 'water', 'sal y pimienta al gusto']:
+            # Stopwords/Noise filter
+            stop_words = [
+                'sal', 'pimienta', 'agua', 'aceite', 'azúcar', 'sugar', 'salt', 'oil', 'water',
+                'sal y pimienta al gusto', 'sal al gusto', 'pimienta al gusto', 'aceite vegetal',
+                'aceite de oliva', 'olive oil', 'vegetable oil', 'sal gruesa', 'pimienta negra',
+                'agua suficiente', 'hielo', 'ice', 'opcional', 'optional', 'al gusto', 'to taste'
+            ]
+
+            if raw_name.lower() in stop_words or any(x in raw_name.lower() for x in ['al gusto', 'optional', 'opcional']):
                 continue
 
             safe_name = normalize_name(raw_name)

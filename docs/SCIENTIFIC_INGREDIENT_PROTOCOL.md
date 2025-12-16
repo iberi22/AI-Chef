@@ -12,81 +12,101 @@ Cada archivo de ingrediente (`ingredients/**/*.md`) debe cumplir con el siguient
 
 ```yaml
 ---
-name: "Tomato" # Primary ID (English preferred for filename/ID)
-scientific_name: "Solanum lycopersicum"
-group: "Vegetable"
-image: "../../images/nombre_ingrediente.jpg"
+name: "Lemon" # Primary ID (English preferred for filename/ID)
+scientific_name: "Citrus limon"
+group: "Fruit"
+image: "../../images/lemon.jpg"
 
 # --- Internationalization (I18n) ---
 i18n:
   en:
-    common_name: "Tomato"
-    other_names: []
-    culinary_intro: "The edible berry of the plant Solanum lycopersicum."
+    common_name: "Lemon"
+    other_names: ["Yellow Citrus"]
+    culinary_intro: "Acidic citrus fruit used for juice and zest."
   es:
-    common_name: "Tomate"
-    other_names: ["Jitomate"]
-    culinary_intro: "Fruto de la planta Solanum lycopersicum, básico en guisos."
+    common_name: "Limón"
+    other_names: ["Limón amarillo"]
+    culinary_intro: "Cítrico ácido usado por su jugo y ralladura."
   zh:
-    common_name: "番茄"
-    other_names: ["西红柿"]
-    culinary_intro: "茄科茄属植物的果实."
+    common_name: "柠檬"
+    other_names: []
+    culinary_intro: "酸味柑橘水果."
 
 # --- Taxonomía y Clasificación ---
 scientific_registry:
-  family: "Solanaceae" # Familia botánica
-  genus: "Solanum"
-  synonyms: ["Nombre alternativo 1", "Nombre regional"]
-  cultivars: ["Cherry", "Roma", "Beefsteak"]
+  family: "Rutaceae"
+  genus: "Citrus"
+  synonyms: ["Citrus limonum"]
+  cultivars: ["Eureka", "Lisbon", "Meyer"]
+
+# --- Popularidad y Uso Global ---
+global_popularity:
+  tier: "High" # High, Medium, Niche
+  culinary_importance: "Essential" # Essential, Common, Rare
+  regional_prevalence: ["Mediterranean", "Asian", "Latin American"]
 
 # --- Perfil Nutricional (por 100g) ---
 portions:
   default_g: 100
 nutrition_per_100g:
-  calories: 18
-  protein_g: 0.9
-  fat_g: 0.2
-  carbs_g: 3.9
-  fiber_g: 1.2
-  sugar_g: 2.6
+  calories: 29
+  protein_g: 1.1
+  fat_g: 0.3
+  carbs_g: 9.3
+  fiber_g: 2.8
+  sugar_g: 2.5
 
 # --- Micronutrientes Clave ---
 micronutrients:
-  vitamin_c_mg: 13.7
-  potassium_mg: 237
-  magnesium_mg: 11
+  vitamin_c_mg: 53
+  potassium_mg: 138
+  magnesium_mg: 8
 
-# --- Compuestos Activos ---
+# --- Composición Química y Compuestos Activos ---
 active_compounds:
-  - name: "Licopeno"
-    type: "Carotenoid"
-    benefit: "Antioxidante potente, salud prostática."
-    solubility: "Liposoluble (necesita grasa)"
-    scientific_ref: "NIH/PubMed ID"
+  - name: "Ácido Cítrico"
+    type: "Organic Acid"
+    approximate_content_percent: 5 # Ej. 5-6%
+    role: "Sabor ácido, conservante natural"
+    benefit: "Alcalinizante, digestión"
+  - name: "D-Limoneno"
+    type: "Terpene"
+    approximate_content_percent: 70 # (En el aceite esencial)
+    role: "Aroma cítrico característico"
+    benefit: "Antiinflamatorio, ansiolítico"
 
-# --- Perfil de Seguridad y Alergias (NUEVO) ---
+# --- Perfil de Seguridad y Alergias ---
 safety_profile:
-  safety_score: 95 # 0-100 (100 = Muy seguro)
-  consumption_limit: "Ninguno para población general"
+  safety_score: 95
+  consumption_limit: "Moderado (acidez dental)"
   concerns:
-    - condition: "Acidez"
-      risk: "Puede causar reflujo en personas sensibles."
-    - condition: "Toxicidad (Hojas)"
-      risk: "Las hojas contienen solanina, son tóxicas."
+    - condition: "Erosión dental"
+      risk: "El ácido puede dañar el esmalte con consumo directo excesivo."
 
 allergy_profile:
-  risk_level: "Low" # Low, Medium, High
-  allergens: ["LTP (Lipid Transfer Protein)", "Profilin"]
-  cross_reactivity: ["Polen de pasto", "Látex"]
-  prevalence_percent: 1.5 # % estimado de población afectada
+  risk_level: "Low"
+  allergens: ["Citrus allergens (Cit l 1, Cit l 3)"]
+  cross_reactivity: ["Orange", "Lime", "Pollen"]
+  prevalence_percent: 0.5
 
-# --- Perfil Sensorial ---
+# --- Perfil Sensorial y Organoléptico ---
 sensory_profile:
-  taste_notes: ["Ácido", "Dulce", "Umami"]
-  texture_notes: ["Jugoso", "Firme"]
-  spice_level: 0 # Escala Scoville o 0-10
+  visual_color: "Amarillo brillante (cáscara), Amarillo pálido (pulpa)"
+  aroma_notes: ["Cítrico", "Fresco", "Terpenoso"]
+  flavor_notes: ["Ácido", "Astringente", "Ligeramente amargo (albedo)"]
+  texture_notes: ["Firme (cáscara)", "Jugosa (pulpa)"]
+  mouthfeel: "Astringente, refrescante"
+  spice_level: 0
 
-# --- Metadatos de Enriquecimiento ---
+# --- Sustitutos y Relacionados ---
+substitutes:
+  - name: "Lima"
+    similarity_score: 0.8
+    notes: "Más ácida y floral, verde."
+  - name: "Vinagre"
+    similarity_score: 0.6
+    notes: "Aporta acidez pero sin aroma frutal."
+
 embedding_version: 2
 last_updated: "YYYY-MM-DD"
 ---

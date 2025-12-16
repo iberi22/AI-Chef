@@ -5,49 +5,63 @@ from collections import Counter
 def harvest_ingredients(base_dir):
     ingredient_counter = Counter()
 
-    # Headers to look for (Spanish, English, Chinese)
-    # "必备原料和工具" is used in HowToCook
-    header_pattern = re.compile(r'##\s+.*?(?:Ingredientes|Ingredients|必备原料和工具|原料)(.*?)(?:##|---)', re.DOTALL | re.IGNORECASE)
-
     for root, dirs, files in os.walk(base_dir):
         for file in files:
-            if file.endswith(".md") and file != "README.md":
+            if file.endswith(".md") and "README" not in file and "PLAN" not in file:
                 file_path = os.path.join(root, file)
                 try:
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
 
-                    # Find Ingredients section
-                    match = header_pattern.search(content)
-                    if match:
-                        ing_block = match.group(1)
-                        lines = ing_block.split('\n')
-                        for line in lines:
-                            line = line.strip()
-                            if line.startswith('-') or line.startswith('*'):
+                    lines = content.split('\n')
+                    capturing = False
+
+                    # 1. Identify start of ingredients section
+                    for line in lines:
+                        # Clean header check
+                        if re.match(r'^##\s+.*?(?:Ingredientes|Ingredients|必备原料和工具|原料|食材)', line, re.IGNORECASE):
+                            capturing = True
+                            continue
+
+                        # Stop if we hit next header or metadata separator
+                        if capturing:
+                            if line.strip().startswith('##') or line.strip().startswith('---'):
+                                capturing = False
+                                continue
+
+                            # Valid list item check
+                            stripped = line.strip()
+                            if stripped.startswith('-') or stripped.startswith('*'):
                                 # Cleaning logic
                                 # 1. Remove bullet
-                                cleaned = re.sub(r'^[-*]\s*', '', line)
-                                # 2. Remove typical quantity patterns (100g, 1 cup, 1/2) - tricky for Chinese
-                                # For now, split by common delimiters to assume the first part is the name or name + qty
+                                cleaned = re.sub(r'^[-*]\s*', '', stripped)
 
-                                # Remove text in parenthesis (often variants or notes)
+                                # 2. Filter out Markdown formatting used for headers inside lists
+                                if cleaned.startswith('**') or cleaned.startswith('#'):
+                                    continue
+
+                                # 3. Content in parenthesis
                                 cleaned = re.sub(r'[\(（].*?[\)）]', '', cleaned)
 
-                                # Split by common separators to isolate main item
-                                # Spanish/English often use commas. Chinese might not.
-                                parts = re.split(r'[,，]', cleaned)
+                                # 4. Split by separators
+                                parts = re.split(r'[,，:：]', cleaned)
                                 candidate = parts[0].strip()
 
-                                # Basic noise filter
-                                if len(candidate) > 1 and not candidate[0].isdigit():
-                                     # Remove quantity info if it appears at start?
-                                     # E.g. "100g Tomato" -> "Tomato"
-                                     # This regex attempts to strip leading numbers/units
-                                     candidate = re.sub(r'^[\d\s\./]+(?:g|kg|ml|l|oz|lb|cup|taza|cda|tsp|tbsp|克|毫升|个|只|瓣|块|根)?\s*', '', candidate, flags=re.IGNORECASE)
+                                # 5. Quantity removal (improved)
+                                # Remove leading digits/fractions/units
+                                candidate = re.sub(r'^[\d\s\./½¼¾]+(?:g|kg|ml|l|oz|lb|cup|taza|vaso|cda|tsp|tbsp|gramos|litros|onzas|libras|克|毫升|个|只|瓣|块|根|把|勺|大勺|小勺|片|条|段|适量|少许)?\s*', '', candidate, flags=re.IGNORECASE)
 
-                                     if candidate:
-                                        ingredient_counter[candidate.lower()] += 1
+                                # 6. Utensil/Noise filter keywords
+                                noise_keywords = [
+                                    'olla', 'sartén', 'licuadora', 'horno', 'bowl', 'cuchillo', 'tabla', 'pan', 'pot', 'blender', 'knife', 'board',
+                                    '锅', '碗', '盆', '勺', '注：', '注意', '可选', 'opcional', 'optional', 'para servir', 'for serving', 'ingredients:', 'ingredientes:',
+                                    'el yaml permite', 'enriquecimiento sensorial', 'imágenes libres', 'compatibilidad', 'licencia abierta', 'clasificación sensorial'
+                                ]
+                                if any(kw in candidate.lower() for kw in noise_keywords):
+                                    continue
+
+                                if len(candidate) > 1 and len(candidate) < 50 and not candidate[0].isdigit():
+                                     ingredient_counter[candidate.lower()] += 1
                 except Exception as e:
                     print(f"Error reading {file_path}: {e}")
 
