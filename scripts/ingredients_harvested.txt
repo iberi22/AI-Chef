@@ -1,0 +1,296 @@
+44: sal y pimienta al gusto
+14: 鸡蛋
+14: aceite para freír
+12: agua suficiente
+10: 生抽
+9: 老抽
+9: sal al gusto
+8: aceite vegetal
+7: 料酒
+7: 胡椒粉
+7: ají chombo o picante al gusto
+7: cilantro cimarrón para decorar
+6: 酱油
+6: 小葱
+6: ají llanero al gusto
+5: 大蒜
+5: 蚝油
+5: 米饭
+5: 食用油
+5: agua
+5: jugo de 1 limón
+5: sal gruesa al gusto
+5: pimienta negra al gusto
+5: hojas de bijao para servir
+4: 洋葱
+4: 白糖
+4: 葱花
+4: 猪油
+4: 白胡椒粉
+4: sal
+3: 生姜
+3: 番茄酱
+3: 鸡精
+3: 清水
+3: 豆瓣酱
+3: 大米
+3: 面粉
+3: 胡萝卜
+3: 虾仁
+3: comino al gusto
+3: leche
+2: 淀粉
+2: 芝麻油
+2: 青椒
+2: 甜面酱
+2: 冰糖
+2: 猪肉末
+2: 火腿肠
+2: 冬笋
+2: 牛奶
+2: 黄瓜
+2: 香油
+2: 牛肉
+2: 番茄
+2: 葱、姜、蒜
+2: 饮用水
+2: 皮蛋
+2: 小碗若干
+2: limón al gusto
+2: aceite vegetal para freír
+2: hielo al gusto
+2: azúcar al gusto
+2: hielo picado
+2: cilantro fresco para decorar
+2: **para los dumplings:** 1 taza de harina
+2: salsas: rosada
+2: aceite de achiote
+1: 青蟹
+1: 咖喱块
+1: 椰浆
+1: 生粉
+1: 鳝丝
+1: 姜末
+1: 食用盐
+1: 蒜末
+1: 黑鳕鱼
+1: 青葱
+1: 花生油
+1: 密封袋
+1: 巴沙鱼
+1: 蔬菜
+1: 红油豆瓣酱
+1: 藤椒油
+1: 菜籽油
+1: 蒜瓣
+1: 量杯
+1: 厨房秤
+1: 大不锈钢碗
+1: 生蚝
+1: 刷子
+1: 姜、蒜瓣、干辣椒
+1: 油、盐、料酒、醋、酱油、白砂糖
+1: 注：如果有可能
+1: 大葱、姜、大蒜、香菜、美人椒
+1: 油、盐、鸡精、生抽、老抽、陈醋、黑胡椒粉、料酒
+1: 八角、干辣椒
+1: 鱼头一个
+1: 注：市场直接贩卖的鱼头一般分为两种：白鲢、花鲢。前者价格便宜
+1: 大葱、姜、大蒜、干辣椒
+1: 油、盐、生抽、老抽、陈醋、蚝油、料酒、白糖
+1: 鲤鱼、五花肉
+1: 肉蟹
+1: 土豆
+1: 年糕
+1: 干辣椒
+1: 红椒
+1: 海鲜酱
+1: 黄豆酱
+1: 啤酒
+1: 螃蟹
+1: 菜油
+1: 老姜
+1: 可乐
+1: 青菜
+1: 咸肉
+1: 擀面杖
+1: 冷水
+1: 直径 30cm 以上的盆
+1: 芝麻香油
+1: 面食材料：可以是手工面条、龙须面、面鱼
+1: 菜类材料：建议荤素搭配
+1: 牛羊鱼虾等肉类
+1: 鸡蛋鸭蛋鹅蛋鸵鸟蛋等蛋类
+1: 豆块豆筋豆腐皮等豆制品类
+1: 生菜菠菜油麦菜
+1: 青椒番茄胡萝卜等蔬菜类。
+1: 年糕/白粿
+1: 调味料: 酱油
+1: ：鸡蛋
+1: 方便面
+1: 炒河粉、猪肉/牛肉
+1: 炒料：盐、味精、老抽、生抽、孜然粉
+1: 其他调味料：胡椒粉
+1: 黄瓜、面筋块、绿豆芽、鸡蛋、蒜瓣、小葱、淀粉
+1: 盆、盘子
+1: 馒头
+1: 孜然粉
+1: 五香粉
+1: 肉丁/肉末
+1: 面条
+1: 菜码
+1: 热干面特有的碱水面
+1: 酸豆角
+1: 肉末
+1: 蒜水
+1: 肉汤汁
+1: 萝卜干
+1: 芝麻酱
+1: 辣椒油
+1: 食盐
+1: 鸡腿
+1: 蜂蜜
+1: 黑椒碎
+1: 黑椒粉
+1: 西兰花
+1: 泡面
+1: 猪油渣
+1: 老干妈
+1: 肉馅
+1: 红葱油
+1: 干面条
+1: 猪五花肉
+1: 芹菜
+1: 鲜面条）
+1: 蒸锅
+1: 炒锅
+1: 花椒
+1: 干红椒
+1: 玉米粒
+1: 青豆
+1: 火腿肠或鸡胸肉
+1: 冷饭
+1: 火腿
+1: 香葱
+1: 灯影牛肉丝/午餐肉/腊肠/卤肉...等熟肉
+1: 蕨根粉
+1: 油泼辣子
+1: 香醋
+1: 小米辣
+1: 一口有点深度的锅
+1: 小汤圆
+1: 醪糟
+1: 枸杞
+1: 韭菜
+1: 烧卖皮
+1: 生姜末
+1: 葱末
+1: 高汤或浓汤宝
+1: 皮冻
+1: 香菇
+1: 复配食品增稠剂
+1: 蒸笼垫
+1: 风干快熟面/任何牌子的快熟面
+1: 麻油
+1: 调味料：火锅底料、花生酱、全脂牛奶、生抽、辣椒油、醋、花椒油
+1: 原料：半干荞麦面、娃娃菜、生菜
+1: 洗菜盆、直径 18cm 的小锅
+1: 白蘑菇
+1: 黄油
+1: 淡奶油
+1: 黑胡椒碎
+1: 小米
+1: 瘦肉
+1: 香菜
+1: 生菜
+1: 电饭锅
+1: 植物油
+1: 紫菜
+1: 蔬菜高汤
+1: 牛肉高汤
+1: 糯米
+1: 花生
+1: 红豆
+1: 红枣
+1: 粥锅
+1: 中号玻璃碗
+1: 西红柿
+1: 味素
+1: 金针菇
+1: 排骨
+1: 陈皮
+1: 西洋参
+1: 石斛
+1: 玉竹
+1: 麦冬
+1: 煲汤盅
+1: el yaml permite futura vectorización y uso por agentes de ia culinaria.
+1: **enriquecimiento sensorial y nutricional:**
+1: para cada receta se documenta sabor dominante
+1: se incluye tabla nutricional de ingredientes clave
+1: **fuentes y sabiduría colectiva:**
+1: se citan explícitamente enlaces a menús
+1: se sintetizan comentarios y consejos de la comunidad
+1: **imágenes libres y criterios de selección:**
+1: solo se usan imágenes libres de derechos
+1: si no hay imagen adecuada
+1: **compatibilidad y calidad markdown:**
+1: se corrigen encabezados
+1: **licencia abierta definitiva:**
+1: todas las recetas y documentación se publican bajo licencia mit
+1: **clasificación sensorial y de uso:**
+1: cada receta se etiqueta según sabor dominante
+1: se prioriza la diversidad sensorial y el valor cultural en la selección y documentación.
+1: para cada receta emblemática:
+1: hojas de bijao para envolver
+1: ajo o hierbas amazónicas
+1: hojas de bijao o plátano para envolver
+1: hojas de plátano o bijao
+1: bejucos o cuerdas naturales para atar
+1: brasas de leña
+1: yuca cocida y plátano frito para acompañar
+1: **para la sopa:**
+1: **para servir:**
+1: crema de leche
+1: alcaparras en vinagre
+1: aguacate en rodajas
+1: arroz blanco
+1: **para el plato principal:**
+1: **para el hogao :**
+1: canela en polvo para decorar
+1: comino y color al gusto
+1: comino
+1: esencia de vainilla
+1: almojábanas o pan para acompañar
+1: agua fría o soda
+1: rodajas de limón
+1: hojas de bijao o plátano
+1: tripas de cerdo limpias
+1: ají picante al gusto
+1: salsa de tomate
+1: galletas saladas para acompañar
+1: cilantro fresco
+1: frutas confitadas o pasas
+1: aceite o mantequilla
+1: aceite de coco o vegetal
+1: condimento con color
+1: cilantro picado para decorar
+1: palitos para brocheta
+1: hogao y ají para acompañar
+1: lechuga
+1: sal y pimienta
+1: harina de trigo o pan rallado
+1: queso rallado
+1: chorizo o carne desmechada
+1: hojas de plátano para hornear
+1: opcional: 1 astilla de canela
+1: queso costeño rallado al gusto
+1: queso campesino o cuajada en cubos
+1: leche al gusto para servir
+1: panela rallada o bocadillo en trozos para acompañar
+1: opcional: uvas pasas y un chorrito de ron o brandy
+1: **para la masa**:
+1: caldo de cocción de las carnes
+1: achiote para dar color
+1: **para el relleno**:
+1: hojas de plátano soasadas

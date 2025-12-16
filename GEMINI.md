@@ -59,13 +59,19 @@ embedding_version: 1
 
 ## Requisitos Estructurales Adicionales
 
+### Protocolo de Ingredientes
+
+Para la creación de nuevos ingredientes, consultar `docs/SCIENTIFIC_INGREDIENT_PROTOCOL.md`.
+
 ### Sección: Análisis Detallado y Sabiduría Colectiva
+
 Toda receta DEBE incluir una sección H2 titulada "Análisis Detallado y Sabiduría Colectiva" al final, que contenga:
-1.  **Categorización Sensorial**: Perfil de sabor, textura, aroma.
-2.  **Experiencia de Usuario**: Citas o resumen de opiniones.
-3.  **Perfil Nutricional Detallado**:
-    -   Tabla con ingredientes clave.
-    -   Calorías, Macros (Proteína, Carbs, Grasas).
-    -   **Micronutrientes**: Vitaminas y minerales destacados (ej. Magnesio, Vitamina C) basados en las porciones.
+
+1. **Categorización Sensorial**: Perfil de sabor, textura, aroma.
+2. **Experiencia de Usuario**: Citas o resumen de opiniones.
+3. **Perfil Nutricional Detallado**:
+    - Tabla con ingredientes clave.
+    - Calorías, Macros (Proteína, Carbs, Grasas).
+    - **Micronutrientes**: Vitaminas y minerales destacados (ej. Magnesio, Vitamina C) basados en las porciones.
 
 Gracias por mantener el proyecto libre y útil para la comunidad.
