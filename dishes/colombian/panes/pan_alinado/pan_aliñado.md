@@ -27,10 +27,8 @@ prep_time: 2 horas (incluye levado)
 cook_time: 20-25 minutos
 servings: 10
 images:
-- url: https://pixabay.com/photos/pan-aliñado-colombiano-6789012/
-  description: Pan aliñado colombiano tradicional (Pixabay)
-- url: https://www.pexels.com/photo/pan-aliñado-colombiano-6789012/
-  description: Pan aliñado recién horneado (Pexels)
+- url: ./images/pan_aliñado.png
+  description: Pan aliñado dorado y esponjoso (Generada por AI)
 sources:
 - https://elgourmet.com/recetas/pan-ali%C3%B1ado/
 - https://www.youtube.com/results?search_query=pan+aliñado+colombiano

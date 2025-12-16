@@ -34,10 +34,8 @@ prep_time: 1 hora
 cook_time: 1 hora
 servings: 6
 images:
-- url: https://pixabay.com/es/photos/pescado-ahumado-cocina-marina-6146279/
-  description: Tollo ahumado tradicional del Pacífico colombiano (Pixabay)
-- url: https://unsplash.com/s/photos/smoked-fish-colombia
-  description: Variaciones de pescado ahumado en Unsplash
+- url: ./images/tollo_ahumado.png
+  description: Tollo ahumado en salsa de coco (Generada por AI)
 sources:
 - https://www.eltiempo.com/vida/receta-tollo-ahumado-57943
 - https://www.gastronomiacolombiana.com/foro/tollo-ahumado
@@ -127,7 +125,7 @@ El Tollo Ahumado es un plato tradicional del Pacífico colombiano, especialmente
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El tollo ahumado del Pacífico es insuperable, el sabor ahumado y el coco lo hacen único".
-- **Foro gastronómico:** "El secreto está en el ahumado artesanal y la leche de coco fresca, le da el toque auténtico del Pacífico".  
+- **Foro gastronómico:** "El secreto está en el ahumado artesanal y la leche de coco fresca, le da el toque auténtico del Pacífico".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)
