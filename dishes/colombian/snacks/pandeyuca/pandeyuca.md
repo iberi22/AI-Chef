@@ -25,10 +25,8 @@ prep_time: 25 minutos
 cook_time: 15-18 minutos
 servings: 10
 images:
-- url: https://pixabay.com/photos/pandeyuca-colombian-cheese-bread-5678901/
-  description: Pandeyuca tradicional colombiano (Pixabay)
-- url: https://www.pexels.com/photo/pan-de-yuca-colombiano-5678901/
-  description: Pandeyuca recién horneado (Pexels)
+- url: ./images/pandeyuca.png
+  description: Pandeyucas dorados recién horneados (Generada por AI)
 sources:
 - https://elgourmet.com/recetas/pandeyuca/
 - https://www.youtube.com/results?search_query=pandeyuca+colombiano

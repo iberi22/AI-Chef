@@ -10,3 +10,4 @@ node_modules/
 mkdocs.yml
 site/dist/
 site/node_modules/
+.cache/
