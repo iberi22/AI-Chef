@@ -27,10 +27,8 @@ prep_time: 30 minutos
 cook_time: 20 minutos
 servings: 12 unidades
 images:
-- url: https://pixabay.com/photos/papas-aborrajadas-colombia-snack-6146290/
-  description: Papas aborrajadas tradicionales (Pixabay)
-- url: https://unsplash.com/s/photos/papas-aborrajadas
-  description: Variaciones de papas aborrajadas en Unsplash
+- url: ./images/papas_aborrajadas.png
+  description: Papas aborrajadas doradas y crujientes (Generada por AI)
 sources:
 - https://www.recetasdecolombia.com/papas-aborrajadas
 - https://www.youtube.com/results?search_query=papas+aborrajadas+colombianas

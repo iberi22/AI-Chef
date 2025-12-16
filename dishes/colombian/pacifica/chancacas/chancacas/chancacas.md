@@ -27,10 +27,8 @@ prep_time: 15 minutos
 cook_time: 20 minutos
 servings: 20
 images:
-- url: https://pixabay.com/es/photos/chancacas-cocadas-colombia-6146273/
-  description: Chancacas o cocadas tradicionales del Pacífico (Pixabay)
-- url: https://unsplash.com/s/photos/cocadas-colombia
-  description: Variaciones de cocadas en Unsplash
+- url: ./images/chancacas.png
+  description: Chancacas de coco y panela en hoja de plátano (Generada por AI)
 sources:
 - https://www.eltiempo.com/vida/receta-chancacas-57944
 - https://www.gastronomiacolombiana.com/foro/chancacas
@@ -110,7 +108,7 @@ Las Chancacas, también conocidas como cocadas del Pacífico, son un dulce tradi
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "Las chancacas del Pacífico son únicas, el coco y la panela hacen la mezcla perfecta".
-- **Foro gastronómico:** "El secreto está en el punto del almíbar y en usar coco fresco para la textura".  
+- **Foro gastronómico:** "El secreto está en el punto del almíbar y en usar coco fresco para la textura".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

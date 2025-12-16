@@ -30,10 +30,8 @@ prep_time: 40 minutos
 cook_time: 20 minutos
 servings: 20
 images:
-- url: https://pixabay.com/es/photos/empanadas-jaiba-colombia-6146274/
-  description: Empanadas de jaiba tradicionales del Pacífico (Pixabay)
-- url: https://unsplash.com/s/photos/empanadas-colombia
-  description: Variaciones de empanadas en Unsplash
+- url: ./images/empanadas_de_jaiba.png
+  description: Empanadas de jaiba crocantes con ají (Generada por AI)
 sources:
 - https://www.eltiempo.com/vida/receta-empanadas-de-jaiba-57941
 - https://www.gastronomiacolombiana.com/foro/empanadas-de-jaiba
@@ -121,7 +119,7 @@ Las Empanadas de Jaiba son un bocadillo tradicional del Pacífico colombiano, es
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "Las empanadas de jaiba de Buenaventura son insuperables, el sabor a mar y el toque de ají las hacen únicas".
-- **Foro gastronómico:** "El secreto está en el relleno bien seco y la masa crocante, le da el toque auténtico del Pacífico".  
+- **Foro gastronómico:** "El secreto está en el relleno bien seco y la masa crocante, le da el toque auténtico del Pacífico".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

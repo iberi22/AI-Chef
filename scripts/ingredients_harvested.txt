@@ -283,7 +283,6 @@
 1: queso rallado
 1: chorizo o carne desmechada
 1: hojas de plátano para hornear
-1: opcional: 1 astilla de canela
 1: queso costeño rallado al gusto
 1: queso campesino o cuajada en cubos
 1: leche al gusto para servir
@@ -294,3 +293,4 @@
 1: achiote para dar color
 1: **para el relleno**:
 1: hojas de plátano soasadas
+1: opcional: 1 astilla de canela

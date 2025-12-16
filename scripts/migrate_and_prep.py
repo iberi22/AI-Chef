@@ -16,12 +16,11 @@ def migrate_recipes():
 
     # List of relative paths (from colombian dir) to process
     targets = [
-        'snacks/deditos_de_queso.md',
-        'snacks/pandeyuca.md',
-        'panes/pan_aliñado.md',
-        'panes/pan_de_yuca.md',
-        'pacifica/tollo_ahumado/tollo_ahumado.md', # Check if folder exists
-        'pacifica/tollo_ahumado.md'
+        'pacifica/pusandao/pusandao.md',
+        'pacifica/tapao_de_pescado/tapao_de_pescado.md',
+        'pacifica/chancacas/chancacas.md',
+        'pacifica/empanadas_de_jaiba/empanadas_de_jaiba.md',
+        'nacionales/papas_aborrajadas/papas_aborrajadas.md'
     ]
 
     print(f"Starting migration in {colombian_dir}...\n")

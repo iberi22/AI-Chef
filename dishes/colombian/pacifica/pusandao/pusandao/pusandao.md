@@ -1,5 +1,5 @@
 ---
-title: Tapao de Pescado
+title: Pusandao (Sopa de Pescado)
 region: Pacífica
 categories:
 - Plato fuerte
@@ -29,21 +29,19 @@ prep_time: 30 minutos
 cook_time: 1 hora
 servings: 8
 images:
-- url: https://pixabay.com/es/photos/tapao-pacifico-colombia-6146278/
-  description: Tapao de pescado tradicional del Pacífico colombiano (Pixabay)
-- url: https://unsplash.com/s/photos/tapao-pescado-colombia
-  description: Variaciones de tapao de pescado en Unsplash
+- url: ./images/pusandao.png
+  description: Pusandao, sopa de pescado con coco (Generada por AI)
 sources:
-- https://www.eltiempo.com/vida/receta-tapao-de-pescado-57938
-- https://www.gastronomiacolombiana.com/foro/tapao-de-pescado
-- https://www.google.com/maps/search/tapao+de+pescado+pacifico
-- https://www.youtube.com/results?search_query=tapao+de+pescado+pacifico
-- https://www.tiktok.com/tag/tapaodepescado
+- https://www.eltiempo.com/vida/receta-pusandao-57937
+- https://www.gastronomiacolombiana.com/foro/pusandao
+- https://www.google.com/maps/search/pusandao+pacifico
+- https://www.youtube.com/results?search_query=pusandao+pacifico
+- https://www.tiktok.com/tag/pusandao
 license: MIT
-description: El Tapao de Pescado es un plato emblemático del Pacífico colombiano,
-  especialmente de la costa nariñense y chocoana. Consiste en pescado fresco cocido
-  con plátano, yuca, papas y leche de coco, resultando en una sopa espesa y aromática,
-  típica de celebraciones y encuentros familiares.
+description: El Pusandao es una sopa tradicional del litoral Pacífico colombiano,
+  especialmente del departamento de Nariño. Se prepara con pescado fresco, tubérculos,
+  plátano y leche de coco, y es famosa por su sabor profundo y reconfortante, ideal
+  para días lluviosos y celebraciones familiares.
 nutrition:
   calories: 1168
   macros:
@@ -52,9 +50,9 @@ nutrition:
     carbs_g: 268.5
 ---
 
-## Tapao de Pescado
+## Pusandao (Sopa de Pescado)
 
-El Tapao de Pescado es un plato emblemático del Pacífico colombiano, especialmente de la costa nariñense y chocoana. Consiste en pescado fresco cocido con plátano, yuca, papas y leche de coco, resultando en una sopa espesa y aromática, típica de celebraciones y encuentros familiares.
+El Pusandao es una sopa tradicional del litoral Pacífico colombiano, especialmente del departamento de Nariño. Se prepara con pescado fresco, tubérculos, plátano y leche de coco, y es famosa por su sabor profundo y reconfortante, ideal para días lluviosos y celebraciones familiares.
 
 ## Información General
 
@@ -67,7 +65,7 @@ El Tapao de Pescado es un plato emblemático del Pacífico colombiano, especialm
 
 ## 📝 Ingredientes
 
-- 1,5 kg de pescado fresco (róbalo, pargo, tollo o similar)
+- 1,5 kg de pescado fresco (pargo, róbalo, tollo u otro)
 - 2 plátanos verdes
 - 2 yucas medianas
 - 4 papas criollas
@@ -89,9 +87,9 @@ El Tapao de Pescado es un plato emblemático del Pacífico colombiano, especialm
 ## 👨‍🍳 Instrucciones
 
 1. **Preparar el pescado:** Limpia y corta el pescado en trozos. Marina con sal, pimienta y jugo de limón (opcional).
-2. **Preparar el caldo:** Sofríe cebolla, ajo, pimentón y tomate en una olla grande. Añade agua, laurel y tomillo. Lleva a ebullición.
+2. **Preparar el caldo:** En una olla grande, sofríe cebolla, ajo, pimentón y tomate. Añade agua, laurel y tomillo. Lleva a ebullición.
 3. **Agregar tubérculos y verduras:** Incorpora yuca, plátano, papa y mazorca. Cocina hasta que estén blandos.
-4. **Cocinar el pescado:** Añade el pescado y la leche de coco. Cocina a fuego medio hasta que el pescado esté tierno y el caldo espeso.
+4. **Cocinar el pescado:** Añade el pescado y la leche de coco. Cocina a fuego medio hasta que el pescado esté tierno y jugoso.
 5. **Finalizar:** Ajusta sal, pimienta y ají al gusto. Añade cilantro cimarrón antes de servir.
 6. **Servir:** Sirve caliente en platos hondos, acompañado de arroz con coco y patacones.
 
@@ -120,12 +118,12 @@ El Tapao de Pescado es un plato emblemático del Pacífico colombiano, especialm
 - **Textura principal:** Cremoso (caldo), Suave (pescado y tubérculos)
 - **Aroma destacado:** Marino, Herbal (cilantro cimarrón y tomillo), Lácteo (coco)
 - **Presentación y experiencia:** Se sirve en platos hondos, decorado con cilantro cimarrón y acompañado de arroz con coco. Es el centro de celebraciones y reuniones familiares del Pacífico.
-- **Opiniones y experiencia de usuario:** "El tapao de pescado es reconfortante, lleno de sabor a mar y coco, y perfecto para días festivos". "Nada como un buen tapao para compartir en familia en la costa". (Opiniones extraídas de Google Maps y foros gastronómicos)
+- **Opiniones y experiencia de usuario:** "El pusandao es reconfortante, lleno de sabor a mar y coco, y perfecto para días lluviosos". "Nada como un buen pusandao para compartir en familia en la costa". (Opiniones extraídas de Google Maps y foros gastronómicos)
 
 ### Opiniones de usuarios
 
-- **Usuario anónimo (Google Maps):** "El tapao de pescado del Pacífico es insuperable, el sabor a coco y el pescado fresco lo hacen único".
-- **Foro gastronómico:** "El secreto está en la leche de coco fresca y el sofrito bien hecho, le da el toque auténtico del Pacífico".  
+- **Usuario anónimo (Google Maps):** "El pusandao del Pacífico es insuperable, el sabor a coco y el pescado fresco lo hacen único".
+- **Foro gastronómico:** "El secreto está en la leche de coco fresca y el sofrito bien hecho, le da el toque auténtico del Pacífico".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)
@@ -150,6 +148,6 @@ calificación: ★★★★★ 5/5
 
 ## Fuentes consultadas y enlaces
 
-- [Receta tradicional de tapao de pescado del Pacífico - El Tiempo](https://www.eltiempo.com/vida/receta-tapao-de-pescado-57938)
-- [Google Maps: Opiniones sobre tapao de pescado Pacífico](https://www.google.com/maps/search/tapao+de+pescado+pacifico)
-- [Foro gastronómico colombiano](https://www.gastronomiacolombiana.com/foro/tapao-de-pescado)
+- [Receta tradicional de pusandao del Pacífico - El Tiempo](https://www.eltiempo.com/vida/receta-pusandao-57937)
+- [Google Maps: Opiniones sobre pusandao Pacífico](https://www.google.com/maps/search/pusandao+pacifico)
+- [Foro gastronómico colombiano](https://www.gastronomiacolombiana.com/foro/pusandao)
