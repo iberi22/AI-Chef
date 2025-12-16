@@ -83,7 +83,7 @@
       "filePath": "dishes/colombian/amazonia/aji_negro/aji_negro.md"
     },
     {
-      "id": "colombian/amazonia/casabe/casabe",
+      "id": "colombian/amazonia/casabe/casabe/casabe",
       "title": "Casabe (Pan de Yuca Amazónico)",
       "language": "spanish",
       "country": "colombia",
@@ -156,7 +156,7 @@
         "Yuca amarga"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/amazonia/casabe/casabe.md"
+      "filePath": "dishes/colombian/amazonia/casabe/casabe/casabe.md"
     },
     {
       "id": "colombian/amazonia/farina/farina",
@@ -3974,7 +3974,7 @@
       "filePath": "dishes/colombian/nacionales/hamburguesa_colombiana/hamburguesa_colombiana.md"
     },
     {
-      "id": "colombian/nacionales/papas_aborrajadas/papas_aborrajadas",
+      "id": "colombian/nacionales/papas_aborrajadas/papas_aborrajadas/papas_aborrajadas",
       "title": "Papas Aborrajadas",
       "language": "spanish",
       "country": "colombia",
@@ -4014,12 +4014,8 @@
         "servings": "12 unidades",
         "images": [
           {
-            "url": "https://pixabay.com/photos/papas-aborrajadas-colombia-snack-6146290/",
-            "description": "Papas aborrajadas tradicionales (Pixabay)"
-          },
-          {
-            "url": "https://unsplash.com/s/photos/papas-aborrajadas",
-            "description": "Variaciones de papas aborrajadas en Unsplash"
+            "url": "./images/papas_aborrajadas.png",
+            "description": "Papas aborrajadas doradas y crujientes (Generada por AI)"
           }
         ],
         "sources": [
@@ -4066,7 +4062,7 @@
         "papas aborrajadas",
         "open source"
       ],
-      "filePath": "dishes/colombian/nacionales/papas_aborrajadas/papas_aborrajadas.md"
+      "filePath": "dishes/colombian/nacionales/papas_aborrajadas/papas_aborrajadas/papas_aborrajadas.md"
     },
     {
       "id": "colombian/nacionales/papas_rellenas/papas_rellenas",
@@ -4578,7 +4574,7 @@
       "filePath": "dishes/colombian/orinoquia/mamona/mamona.md"
     },
     {
-      "id": "colombian/orinoquia/pabellon_llanero/pabellon_llanero",
+      "id": "colombian/orinoquia/pabellon_llanero/pabellon_llanero/pabellon_llanero",
       "title": "Pabellón Llanero",
       "language": "spanish",
       "country": "colombia",
@@ -4608,7 +4604,7 @@
       "servings": null,
       "mainIngredients": [],
       "tags": [],
-      "filePath": "dishes/colombian/orinoquia/pabellon_llanero/pabellon_llanero.md"
+      "filePath": "dishes/colombian/orinoquia/pabellon_llanero/pabellon_llanero/pabellon_llanero.md"
     },
     {
       "id": "colombian/orinoquia/pan_de_arroz/pan_de_arroz",
@@ -4677,7 +4673,7 @@
       "filePath": "dishes/colombian/orinoquia/recetas_orinoquia.md"
     },
     {
-      "id": "colombian/otras_preparaciones/arequipe",
+      "id": "colombian/otras_preparaciones/arequipe/arequipe",
       "title": "Arequipe",
       "language": "spanish",
       "country": "colombia",
@@ -4711,7 +4707,7 @@
       "servings": null,
       "mainIngredients": [],
       "tags": [],
-      "filePath": "dishes/colombian/otras_preparaciones/arequipe.md"
+      "filePath": "dishes/colombian/otras_preparaciones/arequipe/arequipe.md"
     },
     {
       "id": "colombian/otras_preparaciones/cayeye",
@@ -5159,7 +5155,7 @@
       "filePath": "dishes/colombian/pacifica/arroz_atollado_con_mariscos/arroz_atollado_con_mariscos.md"
     },
     {
-      "id": "colombian/pacifica/cazuela_de_mariscos/cazuela_de_mariscos",
+      "id": "colombian/pacifica/cazuela_de_mariscos/cazuela_de_mariscos/cazuela_de_mariscos",
       "title": "Cazuela de Mariscos Pacífica",
       "language": "spanish",
       "country": "colombia",
@@ -5256,10 +5252,10 @@
         "Sopa festiva",
         "Comida típica"
       ],
-      "filePath": "dishes/colombian/pacifica/cazuela_de_mariscos/cazuela_de_mariscos.md"
+      "filePath": "dishes/colombian/pacifica/cazuela_de_mariscos/cazuela_de_mariscos/cazuela_de_mariscos.md"
     },
     {
-      "id": "colombian/pacifica/chancacas/chancacas",
+      "id": "colombian/pacifica/chancacas/chancacas/chancacas",
       "title": "Chancacas (Cocadas del Pacífico)",
       "language": "spanish",
       "country": "colombia",
@@ -5300,12 +5296,8 @@
         "servings": 20,
         "images": [
           {
-            "url": "https://pixabay.com/es/photos/chancacas-cocadas-colombia-6146273/",
-            "description": "Chancacas o cocadas tradicionales del Pacífico (Pixabay)"
-          },
-          {
-            "url": "https://unsplash.com/s/photos/cocadas-colombia",
-            "description": "Variaciones de cocadas en Unsplash"
+            "url": "./images/chancacas.png",
+            "description": "Chancacas de coco y panela en hoja de plátano (Generada por AI)"
           }
         ],
         "sources": [
@@ -5342,10 +5334,10 @@
         "Clavo de olor"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/pacifica/chancacas/chancacas.md"
+      "filePath": "dishes/colombian/pacifica/chancacas/chancacas/chancacas.md"
     },
     {
-      "id": "colombian/pacifica/empanadas_de_jaiba/empanadas_de_jaiba",
+      "id": "colombian/pacifica/empanadas_de_jaiba/empanadas_de_jaiba/empanadas_de_jaiba",
       "title": "Empanadas de Jaiba",
       "language": "spanish",
       "country": "colombia",
@@ -5388,12 +5380,8 @@
         "servings": 20,
         "images": [
           {
-            "url": "https://pixabay.com/es/photos/empanadas-jaiba-colombia-6146274/",
-            "description": "Empanadas de jaiba tradicionales del Pacífico (Pixabay)"
-          },
-          {
-            "url": "https://unsplash.com/s/photos/empanadas-colombia",
-            "description": "Variaciones de empanadas en Unsplash"
+            "url": "./images/empanadas_de_jaiba.png",
+            "description": "Empanadas de jaiba crocantes con ají (Generada por AI)"
           }
         ],
         "sources": [
@@ -5423,7 +5411,7 @@
         "Ají"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/pacifica/empanadas_de_jaiba/empanadas_de_jaiba.md"
+      "filePath": "dishes/colombian/pacifica/empanadas_de_jaiba/empanadas_de_jaiba/empanadas_de_jaiba.md"
     },
     {
       "id": "colombian/pacifica/encocado_de_pescado/encocado_de_pescado",
@@ -5513,7 +5501,7 @@
       "filePath": "dishes/colombian/pacifica/encocado_de_pescado/encocado_de_pescado.md"
     },
     {
-      "id": "colombian/pacifica/pusandao/pusandao",
+      "id": "colombian/pacifica/pusandao/pusandao/pusandao",
       "title": "Pusandao (Sopa de Pescado)",
       "language": "spanish",
       "country": "colombia",
@@ -5555,12 +5543,8 @@
         "servings": 8,
         "images": [
           {
-            "url": "https://pixabay.com/es/photos/pusandao-pacifico-colombia-6146276/",
-            "description": "Pusandao tradicional del Pacífico colombiano (Pixabay)"
-          },
-          {
-            "url": "https://unsplash.com/s/photos/sopa-pescado-colombia",
-            "description": "Variaciones de sopas de pescado en Unsplash"
+            "url": "./images/pusandao.png",
+            "description": "Pusandao, sopa de pescado con coco (Generada por AI)"
           }
         ],
         "sources": [
@@ -5597,7 +5581,7 @@
         "Plátano verde"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/pacifica/pusandao/pusandao.md"
+      "filePath": "dishes/colombian/pacifica/pusandao/pusandao/pusandao.md"
     },
     {
       "id": "colombian/pacifica/recetas_pacificas",
@@ -5720,7 +5704,7 @@
       "filePath": "dishes/colombian/pacifica/sancocho_de_pescado/sancocho_de_pescado.md"
     },
     {
-      "id": "colombian/pacifica/tapao_de_pescado/tapao_de_pescado",
+      "id": "colombian/pacifica/tapao_de_pescado/tapao_de_pescado/tapao_de_pescado",
       "title": "Tapao de Pescado",
       "language": "spanish",
       "country": "colombia",
@@ -5762,12 +5746,8 @@
         "servings": 8,
         "images": [
           {
-            "url": "https://pixabay.com/es/photos/tapao-pacifico-colombia-6146278/",
-            "description": "Tapao de pescado tradicional del Pacífico colombiano (Pixabay)"
-          },
-          {
-            "url": "https://unsplash.com/s/photos/tapao-pescado-colombia",
-            "description": "Variaciones de tapao de pescado en Unsplash"
+            "url": "./images/tapao_de_pescado.png",
+            "description": "Tapao de pescado con plátano y yuca (Generada por AI)"
           }
         ],
         "sources": [
@@ -5804,10 +5784,10 @@
         "Plátano verde"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/pacifica/tapao_de_pescado/tapao_de_pescado.md"
+      "filePath": "dishes/colombian/pacifica/tapao_de_pescado/tapao_de_pescado/tapao_de_pescado.md"
     },
     {
-      "id": "colombian/pacifica/tollo_ahumado/tollo_ahumado",
+      "id": "colombian/pacifica/tollo_ahumado/tollo_ahumado/tollo_ahumado",
       "title": "Tollo Ahumado",
       "language": "spanish",
       "country": "colombia",
@@ -5854,12 +5834,8 @@
         "servings": 6,
         "images": [
           {
-            "url": "https://pixabay.com/es/photos/pescado-ahumado-cocina-marina-6146279/",
-            "description": "Tollo ahumado tradicional del Pacífico colombiano (Pixabay)"
-          },
-          {
-            "url": "https://unsplash.com/s/photos/smoked-fish-colombia",
-            "description": "Variaciones de pescado ahumado en Unsplash"
+            "url": "./images/tollo_ahumado.png",
+            "description": "Tollo ahumado en salsa de coco (Generada por AI)"
           }
         ],
         "sources": [
@@ -5898,10 +5874,10 @@
         "Tomate"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/pacifica/tollo_ahumado/tollo_ahumado.md"
+      "filePath": "dishes/colombian/pacifica/tollo_ahumado/tollo_ahumado/tollo_ahumado.md"
     },
     {
-      "id": "colombian/panes/pan_aliñado",
+      "id": "colombian/panes/pan_alinado/pan_aliñado",
       "title": "Pan Aliñado Colombiano",
       "language": "spanish",
       "country": "colombia",
@@ -5942,12 +5918,8 @@
         "servings": 10,
         "images": [
           {
-            "url": "https://pixabay.com/photos/pan-aliñado-colombiano-6789012/",
-            "description": "Pan aliñado colombiano tradicional (Pixabay)"
-          },
-          {
-            "url": "https://www.pexels.com/photo/pan-aliñado-colombiano-6789012/",
-            "description": "Pan aliñado recién horneado (Pexels)"
+            "url": "./images/pan_aliñado.png",
+            "description": "Pan aliñado dorado y esponjoso (Generada por AI)"
           }
         ],
         "sources": [
@@ -5994,10 +5966,10 @@
         "aliñado",
         "open source"
       ],
-      "filePath": "dishes/colombian/panes/pan_aliñado.md"
+      "filePath": "dishes/colombian/panes/pan_alinado/pan_aliñado.md"
     },
     {
-      "id": "colombian/panes/pan_de_bono",
+      "id": "colombian/panes/pan_de_bono/pan_de_bono",
       "title": "Pan de Bono",
       "language": "spanish",
       "country": "colombia",
@@ -6090,10 +6062,10 @@
         "pandebono",
         "open source"
       ],
-      "filePath": "dishes/colombian/panes/pan_de_bono.md"
+      "filePath": "dishes/colombian/panes/pan_de_bono/pan_de_bono.md"
     },
     {
-      "id": "colombian/panes/pan_de_yuca",
+      "id": "colombian/panes/pan_de_yuca/pan_de_yuca",
       "title": "Pan de Yuca",
       "language": "spanish",
       "country": "colombia",
@@ -6132,12 +6104,8 @@
         "servings": 10,
         "images": [
           {
-            "url": "https://pixabay.com/photos/pan-de-yuca-colombian-cheese-bread-8901234/",
-            "description": "Pan de yuca tradicional colombiano (Pixabay)"
-          },
-          {
-            "url": "https://www.pexels.com/photo/pan-de-yuca-colombiano-8901234/",
-            "description": "Pan de yuca recién horneado (Pexels)"
+            "url": "./images/pan_de_yuca.png",
+            "description": "Pan de yuca dorado recién horneado (Generada por AI)"
           }
         ],
         "sources": [
@@ -6184,10 +6152,10 @@
         "pandeyuca",
         "open source"
       ],
-      "filePath": "dishes/colombian/panes/pan_de_yuca.md"
+      "filePath": "dishes/colombian/panes/pan_de_yuca/pan_de_yuca.md"
     },
     {
-      "id": "colombian/snacks/almojabana",
+      "id": "colombian/snacks/almojabana/almojabana",
       "title": "Almojábana",
       "language": "spanish",
       "country": "colombia",
@@ -6226,12 +6194,8 @@
         "servings": 10,
         "images": [
           {
-            "url": "https://pixabay.com/photos/colombian-almojabana-cheese-bread-3456789/",
-            "description": "Almojábanas tradicionales colombianas (Pixabay)"
-          },
-          {
-            "url": "https://www.pexels.com/photo/almojabana-colombiana-3456789/",
-            "description": "Almojábanas recién horneadas (Pexels)"
+            "url": "./images/almojabana.png",
+            "description": "Almojábanas doradas recién horneadas (Generada por AI)"
           }
         ],
         "sources": [
@@ -6280,10 +6244,10 @@
         "almojabana",
         "open source"
       ],
-      "filePath": "dishes/colombian/snacks/almojabana.md"
+      "filePath": "dishes/colombian/snacks/almojabana/almojabana.md"
     },
     {
-      "id": "colombian/snacks/buñuelo",
+      "id": "colombian/snacks/bunuelo/buñuelo",
       "title": "Buñuelo Colombiano",
       "language": "spanish",
       "country": "colombia",
@@ -6322,12 +6286,8 @@
         "servings": 12,
         "images": [
           {
-            "url": "https://pixabay.com/photos/colombian-buñuelo-cheese-ball-1234567/",
-            "description": "Buñuelo colombiano tradicional (Pixabay)"
-          },
-          {
-            "url": "https://unsplash.com/s/photos/buñuelo",
-            "description": "Variaciones de buñuelo colombiano en Unsplash"
+            "url": "./images/bunuelo.png",
+            "description": "Buñuelos colombianos dorados y redondos (Generada por AI)"
           }
         ],
         "sources": [
@@ -6361,10 +6321,10 @@
         "Huevo"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/snacks/buñuelo.md"
+      "filePath": "dishes/colombian/snacks/bunuelo/buñuelo.md"
     },
     {
-      "id": "colombian/snacks/deditos_de_queso",
+      "id": "colombian/snacks/deditos_de_queso/deditos_de_queso",
       "title": "Deditos de Queso",
       "language": "spanish",
       "country": "colombia",
@@ -6402,12 +6362,8 @@
         "servings": 12,
         "images": [
           {
-            "url": "https://pixabay.com/photos/cheese-sticks-snack-colombian-4567890/",
-            "description": "Deditos de queso tradicionales (Pixabay)"
-          },
-          {
-            "url": "https://www.pexels.com/photo/deditos-de-queso-colombianos-4567890/",
-            "description": "Deditos de queso recién hechos (Pexels)"
+            "url": "./images/deditos.png",
+            "description": "Deditos de queso dorados recién hechos (Generada por AI)"
           }
         ],
         "sources": [
@@ -6455,10 +6411,10 @@
         "deditos",
         "open source"
       ],
-      "filePath": "dishes/colombian/snacks/deditos_de_queso.md"
+      "filePath": "dishes/colombian/snacks/deditos_de_queso/deditos_de_queso.md"
     },
     {
-      "id": "colombian/snacks/empanada",
+      "id": "colombian/snacks/empanada/empanada",
       "title": "Empanada Colombiana",
       "language": "spanish",
       "country": "colombia",
@@ -6497,12 +6453,8 @@
         "servings": 15,
         "images": [
           {
-            "url": "https://pixabay.com/photos/colombian-empanada-street-food-1234567/",
-            "description": "Empanada colombiana tradicional (Pixabay)"
-          },
-          {
-            "url": "https://www.pexels.com/photo/empanada-colombiana-2345678/",
-            "description": "Empanadas servidas para compartir (Pexels)"
+            "url": "./images/empanada.png",
+            "description": "Empanadas Colombianas fritas y crocantes (Generada por AI)"
           }
         ],
         "sources": [
@@ -6551,10 +6503,10 @@
         "empanada",
         "open source"
       ],
-      "filePath": "dishes/colombian/snacks/empanada.md"
+      "filePath": "dishes/colombian/snacks/empanada/empanada.md"
     },
     {
-      "id": "colombian/snacks/pandebono",
+      "id": "colombian/snacks/pandebono/pandebono",
       "title": "Pandebono",
       "language": "spanish",
       "country": "colombia",
@@ -6593,12 +6545,8 @@
         "servings": 10,
         "images": [
           {
-            "url": "https://pixabay.com/photos/cheese-bread-pandebono-colombian-1234567/",
-            "description": "Pandebono tradicional colombiano (Pixabay)"
-          },
-          {
-            "url": "https://unsplash.com/s/photos/pandebono",
-            "description": "Variaciones de pandebono en Unsplash"
+            "url": "./images/pandebono.png",
+            "description": "Pandebonos frescos y suaves (Generada por AI)"
           }
         ],
         "sources": [
@@ -6632,10 +6580,10 @@
         "Huevo"
       ],
       "tags": [],
-      "filePath": "dishes/colombian/snacks/pandebono.md"
+      "filePath": "dishes/colombian/snacks/pandebono/pandebono.md"
     },
     {
-      "id": "colombian/snacks/pandeyuca",
+      "id": "colombian/snacks/pandeyuca/pandeyuca",
       "title": "Pan de Yuca (Pandeyuca)",
       "language": "spanish",
       "country": "colombia",
@@ -6674,12 +6622,8 @@
         "servings": 10,
         "images": [
           {
-            "url": "https://pixabay.com/photos/pandeyuca-colombian-cheese-bread-5678901/",
-            "description": "Pandeyuca tradicional colombiano (Pixabay)"
-          },
-          {
-            "url": "https://www.pexels.com/photo/pan-de-yuca-colombiano-5678901/",
-            "description": "Pandeyuca recién horneado (Pexels)"
+            "url": "./images/pandeyuca.png",
+            "description": "Pandeyucas dorados recién horneados (Generada por AI)"
           }
         ],
         "sources": [
@@ -6728,7 +6672,7 @@
         "pandeyuca",
         "open source"
       ],
-      "filePath": "dishes/colombian/snacks/pandeyuca.md"
+      "filePath": "dishes/colombian/snacks/pandeyuca/pandeyuca.md"
     },
     {
       "id": "peruvian/arroz_con_pollo",
