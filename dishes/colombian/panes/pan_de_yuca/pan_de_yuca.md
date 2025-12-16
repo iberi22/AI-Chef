@@ -25,10 +25,8 @@ prep_time: 25 minutos
 cook_time: 15-18 minutos
 servings: 10
 images:
-- url: https://pixabay.com/photos/pan-de-yuca-colombian-cheese-bread-8901234/
-  description: Pan de yuca tradicional colombiano (Pixabay)
-- url: https://www.pexels.com/photo/pan-de-yuca-colombiano-8901234/
-  description: Pan de yuca recién horneado (Pexels)
+- url: ./images/pan_de_yuca.png
+  description: Pan de yuca dorado recién horneado (Generada por AI)
 sources:
 - https://elgourmet.com/recetas/pan-de-yuca/
 - https://www.youtube.com/results?search_query=pan+de+yuca+colombiano
