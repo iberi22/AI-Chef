@@ -5,5 +5,8 @@ export default defineConfig({
   site: 'https://iberi22.github.io',
   base: '/AI-Chef',
   output: 'static',
+  build: {
+    assets: 'assets'
+  },
   integrations: [tailwind()]
 });
