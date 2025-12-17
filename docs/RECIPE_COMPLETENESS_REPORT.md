@@ -1,0 +1,189 @@
+# Reporte de Completitud de Recetas Científicas
+
+## Resumen
+
+- **Completas (o casi completas):** 100
+- **Parciales:** 50
+- **Faltantes (Prioridad Alta):** 23
+
+## 🔴 Recetas sin Análisis Detallado (Prioridad)
+
+- [ ] `colombian\README.md`
+- [ ] `colombian\amazonia\README.md`
+- [ ] `colombian\andina\README.md`
+- [ ] `colombian\bebidas\README.md`
+- [ ] `colombian\caribe\README.md`
+- [ ] `colombian\condimentos\README.md`
+- [ ] `colombian\insular\README.md`
+- [ ] `colombian\nacionales\README.md`
+- [ ] `colombian\orinoquia\README.md`
+- [ ] `colombian\otras_preparaciones\README.md`
+- [ ] `colombian\pacifica\README.md`
+- [ ] `colombian\panes\README.md`
+- [ ] `colombian\snacks\README.md`
+- [ ] `peruvian\README.md`
+- [ ] `peruvian\arroz_con_pollo.md`
+- [ ] `peruvian\bebidas\README.md`
+- [ ] `peruvian\condimentos\README.md`
+- [ ] `peruvian\costa\README.md`
+- [ ] `peruvian\otras_preparaciones\README.md`
+- [ ] `peruvian\panes\README.md`
+- [ ] `peruvian\selva\README.md`
+- [ ] `peruvian\sierra\README.md`
+- [ ] `peruvian\snacks\README.md`
+
+## 🟡 Recetas Parciales (Falta información específica)
+
+- [ ] `china\mariscos\咖喱炒蟹\咖喱炒蟹.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\响油鳝丝\响油鳝丝.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\微波葱姜黑鳕鱼\微波葱姜黑鳕鱼.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\水煮鱼\水煮鱼.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\清蒸生蚝\清蒸生蚝.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\红烧鱼\红烧鱼.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\红烧鱼头\红烧鱼头.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\红烧鲤鱼\红烧鲤鱼.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\肉蟹煲\肉蟹煲.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\mariscos\酱炖蟹\酱炖蟹.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\可乐炒饭\可乐炒饭.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\咸肉菜饭\咸肉菜饭.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\手工水饺\手工水饺.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\汤面\汤面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\炒年糕\炒年糕.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\炒方便面\炒方便面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\炒河粉\炒河粉.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\炒馍\炒馍.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\炸酱面\炸酱面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\热干面\热干面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\照烧鸡腿饭\照烧鸡腿饭.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\煮泡面加蛋\煮泡面加蛋.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\猪油拌饭\猪油拌饭.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\老干妈拌面\老干妈拌面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\肉蛋盖饭\肉蛋盖饭.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\葱油拌面\葱油拌面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\蒸卤面\蒸卤面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\蛋包饭\蛋包饭.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\蛋炒饭\蛋炒饭.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\螺蛳粉\螺蛳粉.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\酸辣蕨根粉\酸辣蕨根粉.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\醪糟小汤圆\醪糟小汤圆.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\韭菜盒子\韭菜盒子.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\鲜肉烧卖\鲜肉烧卖.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\麻油拌面\麻油拌面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\principales\麻辣减脂荞麦面\麻辣减脂荞麦面.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\奶油蘑菇汤\奶油蘑菇汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\小米粥\小米粥.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\生汆丸子汤\生汆丸子汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\番茄牛肉蛋花汤\番茄牛肉蛋花汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\皮蛋瘦肉粥\皮蛋瘦肉粥.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\米粥\米粥.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\紫菜蛋花汤\紫菜蛋花汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\罗宋汤\罗宋汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\腊八粥\腊八粥.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\西红柿鸡蛋汤\西红柿鸡蛋汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\金针菇汤\金针菇汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\陈皮排骨汤\陈皮排骨汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `china\sopas\黄瓜皮蛋汤\黄瓜皮蛋汤.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Datos Sensoriales_
+- [ ] `colombian\COLOMBIAN_RECIPES_PLAN.md` _Falta: Sección Principal (Análisis Detallado/Sensorial), Información Nutricional_
+
+## 🟢 Recetas con Estructura Base Completa
+
+- [x] `colombian\amazonia\aji_negro\aji_negro.md`
+- [x] `colombian\amazonia\casabe\casabe\casabe.md`
+- [x] `colombian\amazonia\farina\farina.md`
+- [x] `colombian\amazonia\inchicapi\inchicapi.md`
+- [x] `colombian\amazonia\juanes_de_yuca\juanes_de_yuca.md`
+- [x] `colombian\amazonia\mojojoy\mojojoy.md`
+- [x] `colombian\amazonia\patarasca\patarasca.md`
+- [x] `colombian\amazonia\pescado_moqueado\pescado_moqueado.md`
+- [x] `colombian\amazonia\pirarucu_frito\pirarucu_frito.md`
+- [x] `colombian\amazonia\recetas_amazonia.md`
+- [x] `colombian\amazonia\tacacho_con_cecina\tacacho_con_cecina.md`
+- [x] `colombian\andina\ajiaco_santafereño\ajiaco_santafereño.md`
+- [x] `colombian\andina\bandeja_paisa\bandeja_paisa.md`
+- [x] `colombian\andina\caldo_de_costilla\caldo_de_costilla.md`
+- [x] `colombian\andina\changua\changua.md`
+- [x] `colombian\andina\cocido_boyacense\cocido_boyacense.md`
+- [x] `colombian\andina\empanadas\empanadas.md`
+- [x] `colombian\andina\lechona_tolimense\lechona_tolimense.md`
+- [x] `colombian\andina\manjar_blanco\manjar_blanco.md`
+- [x] `colombian\andina\mute_santandereano\mute_santandereano.md`
+- [x] `colombian\andina\recetas_andinas.md`
+- [x] `colombian\andina\tamal_tolimense\tamal_tolimense.md`
+- [x] `colombian\bebidas\avena\avena.md`
+- [x] `colombian\bebidas\champus\champus.md`
+- [x] `colombian\bebidas\chocolate_santafereño\chocolate_santafereño.md`
+- [x] `colombian\bebidas\lulada\lulada.md`
+- [x] `colombian\bebidas\refajo\refajo.md`
+- [x] `colombian\bebidas\salpicon\salpicon.md`
+- [x] `colombian\caribe\alegrias\alegrias.md`
+- [x] `colombian\caribe\arepa_de_huevo\arepa_de_huevo.md`
+- [x] `colombian\caribe\arroz_con_coco\arroz_con_coco.md`
+- [x] `colombian\caribe\butifarra_soledeña\butifarra_soledeña.md`
+- [x] `colombian\caribe\carimañolas\carimañolas.md`
+- [x] `colombian\caribe\cazuela_de_mariscos\cazuela_de_mariscos.md`
+- [x] `colombian\caribe\ceviche_de_camaron\ceviche_de_camaron.md`
+- [x] `colombian\caribe\mote_de_queso\mote_de_queso.md`
+- [x] `colombian\caribe\recetas_caribe.md`
+- [x] `colombian\caribe\sancocho_costeño\sancocho_costeño.md`
+- [x] `colombian\caribe\viudo_de_pescado\viudo_de_pescado.md`
+- [x] `colombian\condimentos\aji_picante\aji_picante.md`
+- [x] `colombian\condimentos\guacamole_colombiano\guacamole_colombiano.md`
+- [x] `colombian\condimentos\hogao\hogao.md`
+- [x] `colombian\condimentos\salsa_rosada\salsa_rosada.md`
+- [x] `colombian\condimentos\suero_costeño\suero_costeño.md`
+- [x] `colombian\insular\bolas_de_pescado\bolas_de_pescado.md`
+- [x] `colombian\insular\caracol_guisado\caracol_guisado.md`
+- [x] `colombian\insular\cocadas\cocadas.md`
+- [x] `colombian\insular\crab_backs\crab_backs.md`
+- [x] `colombian\insular\crab_patty\crab_patty.md`
+- [x] `colombian\insular\frijoles_con_cola_de_cerdo\frijoles_con_cola_de_cerdo.md`
+- [x] `colombian\insular\pollo_guisado_con_dumplings\pollo_guisado_con_dumplings.md`
+- [x] `colombian\insular\recetas_insulares.md`
+- [x] `colombian\insular\rondon\rondon.md`
+- [x] `colombian\insular\sopa_de_cangrejo\sopa_de_cangrejo.md`
+- [x] `colombian\insular\torta_de_calabaza\torta_de_calabaza.md`
+- [x] `colombian\nacionales\arroz_con_pollo\arroz_con_pollo.md`
+- [x] `colombian\nacionales\chuzo\chuzo.md`
+- [x] `colombian\nacionales\fritanga\fritanga.md`
+- [x] `colombian\nacionales\hamburguesa_colombiana\hamburguesa_colombiana.md`
+- [x] `colombian\nacionales\papas_aborrajadas\papas_aborrajadas\papas_aborrajadas.md`
+- [x] `colombian\nacionales\papas_rellenas\papas_rellenas.md`
+- [x] `colombian\nacionales\salchipapa\salchipapa.md`
+- [x] `colombian\orinoquia\arroz_llanero\arroz_llanero.md`
+- [x] `colombian\orinoquia\cachama_asada\cachama_asada.md`
+- [x] `colombian\orinoquia\carne_a_la_perra\carne_a_la_perra.md`
+- [x] `colombian\orinoquia\casabe\casabe.md`
+- [x] `colombian\orinoquia\chiguiro_asado\chiguiro_asado.md`
+- [x] `colombian\orinoquia\entreverado\entreverado.md`
+- [x] `colombian\orinoquia\hervido_de_gumarra\hervido_de_gumarra.md`
+- [x] `colombian\orinoquia\mamona\mamona.md`
+- [x] `colombian\orinoquia\pabellon_llanero\pabellon_llanero\pabellon_llanero.md`
+- [x] `colombian\orinoquia\pan_de_arroz\pan_de_arroz.md`
+- [x] `colombian\orinoquia\recetas_orinoquia.md`
+- [x] `colombian\otras_preparaciones\arequipe\arequipe.md`
+- [x] `colombian\otras_preparaciones\cayeye.md`
+- [x] `colombian\otras_preparaciones\envueltos.md`
+- [x] `colombian\otras_preparaciones\mazamorra.md`
+- [x] `colombian\otras_preparaciones\mote_de_queso.md`
+- [x] `colombian\otras_preparaciones\postre_de_natas.md`
+- [x] `colombian\otras_preparaciones\tamal_tolimense.md`
+- [x] `colombian\pacifica\aborrajados_de_pescado\aborrajados_de_pescado.md`
+- [x] `colombian\pacifica\arroz_atollado_con_mariscos\arroz_atollado_con_mariscos.md`
+- [x] `colombian\pacifica\cazuela_de_mariscos\cazuela_de_mariscos\cazuela_de_mariscos.md`
+- [x] `colombian\pacifica\chancacas\chancacas\chancacas.md`
+- [x] `colombian\pacifica\empanadas_de_jaiba\empanadas_de_jaiba\empanadas_de_jaiba.md`
+- [x] `colombian\pacifica\encocado_de_pescado\encocado_de_pescado.md`
+- [x] `colombian\pacifica\pusandao\pusandao\pusandao.md`
+- [x] `colombian\pacifica\recetas_pacificas.md`
+- [x] `colombian\pacifica\sancocho_de_pescado\sancocho_de_pescado.md`
+- [x] `colombian\pacifica\tapao_de_pescado\tapao_de_pescado\tapao_de_pescado.md`
+- [x] `colombian\pacifica\tollo_ahumado\tollo_ahumado\tollo_ahumado.md`
+- [x] `colombian\panes\pan_alinado\pan_aliñado.md`
+- [x] `colombian\panes\pan_de_bono\pan_de_bono.md`
+- [x] `colombian\panes\pan_de_yuca\pan_de_yuca.md`
+- [x] `colombian\snacks\almojabana\almojabana.md`
+- [x] `colombian\snacks\bunuelo\buñuelo.md`
+- [x] `colombian\snacks\deditos_de_queso\deditos_de_queso.md`
+- [x] `colombian\snacks\empanada\empanada.md`
+- [x] `colombian\snacks\pandebono\pandebono.md`
+- [x] `colombian\snacks\pandeyuca\pandeyuca.md`

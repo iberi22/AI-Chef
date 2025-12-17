@@ -237,16 +237,21 @@ const schema = {
                   [&_ul_li]:relative [&_ul_li]:pl-8
                   [&_ul_li]:before:content-[''] [&_ul_li]:before:absolute [&_ul_li]:before:left-0 [&_ul_li]:before:top-[0.6em] [&_ul_li]:before:size-2.5 [&_ul_li]:before:bg-primary [&_ul_li]:before:rounded-full [&_ul_li]:before:shadow-[0_0_10px_rgba(255,99,71,0.5)]
 
-                  /* Custom Ordered Lists Styling (Stepper) */
-                  [&_ol]:list-none [&_ol]:counter-reset-step [&_ol]:space-y-0 [&_ol]:relative
-                  /* Continuous line line */
-                  [&_ol]:before:content-[''] [&_ol]:before:absolute [&_ol]:before:left-[15px] [&_ol]:before:top-4 [&_ol]:before:bottom-0 [&_ol]:before:w-0.5 [&_ol]:before:bg-gray-200 dark:[&_ol]:before:bg-gray-800
+                   /* Custom Ordered Lists Styling (Stepper with Animations) - Applied via JS */
+                   [&_ol]:list-none [&_ol]:[counter-reset:step] [&_ol]:space-y-0 [&_ol]:relative [&_ol]:recipe-steps-list
+                   /* Continuous line - animated */
+                   [&_ol]:before:content-[''] [&_ol]:before:absolute [&_ol]:before:left-[15px] [&_ol]:before:top-4 [&_ol]:before:bottom-0 [&_ol]:before:w-0.5 [&_ol]:before:bg-gradient-to-b [&_ol]:before:from-primary [&_ol]:before:via-orange-400 [&_ol]:before:to-green-400 [&_ol]:before:opacity-30
+                   [&_ol]:after:content-[''] [&_ol]:after:absolute [&_ol]:after:left-[15px] [&_ol]:after:top-4 [&_ol]:after:w-0.5 [&_ol]:after:bg-gradient-to-b [&_ol]:after:from-primary [&_ol]:after:via-orange-400 [&_ol]:after:to-green-400 [&_ol]:after:h-0 [&_ol]:after:transition-all [&_ol]:after:duration-1000 [&_ol]:after:ease-out
 
-                  [&_ol_li]:relative [&_ol_li]:pl-16 [&_ol_li]:pb-12 [&_ol_li]:counter-increment-step
-                  [&_ol_li]:last-child:pb-0
+                   [&_ol_li]:relative [&_ol_li]:pl-16 [&_ol_li]:pb-12 [&_ol_li]:[counter-increment:step] [&_ol_li]:recipe-step
+                   /* Opacity handled by JS class .step-waiting to ensure visibility fallback */
+                   [&_ol_li]:last-child:pb-0
 
-                  /* Step Circle */
-                  [&_ol_li]:before:content-[counter(step)] [&_ol_li]:before:absolute [&_ol_li]:before:left-0 [&_ol_li]:before:top-0 [&_ol_li]:before:z-10 [&_ol_li]:before:flex [&_ol_li]:before:size-8 [&_ol_li]:before:items-center [&_ol_li]:before:justify-center [&_ol_li]:before:rounded-full [&_ol_li]:before:bg-primary [&_ol_li]:before:text-white [&_ol_li]:before:font-black [&_ol_li]:before:text-sm [&_ol_li]:before:shadow-lg [&_ol_li]:before:ring-4 [&_ol_li]:before:ring-white dark:[&_ol_li]:before:ring-[#18181b]
+                   /* Step Circle with animations */
+                   [&_ol_li]:before:content-[counter(step)] [&_ol_li]:before:absolute [&_ol_li]:before:left-0 [&_ol_li]:before:top-0 [&_ol_li]:before:z-10 [&_ol_li]:before:flex [&_ol_li]:before:size-8 [&_ol_li]:before:items-center [&_ol_li]:before:justify-center [&_ol_li]:before:rounded-full [&_ol_li]:before:bg-gray-300 dark:[&_ol_li]:before:bg-gray-600 [&_ol_li]:before:text-white [&_ol_li]:before:font-black [&_ol_li]:before:text-sm [&_ol_li]:before:shadow-lg [&_ol_li]:before:ring-4 [&_ol_li]:before:ring-white dark:[&_ol_li]:before:ring-[#18181b] [&_ol_li]:before:transition-all [&_ol_li]:before:duration-500 [&_ol_li]:before:cursor-pointer
+
+                   /* Hover effects on steps */
+                   [&_ol_li]:hover:before:scale-110 [&_ol_li]:hover:before:shadow-xl [&_ol_li]:hover:before:shadow-primary/30
 
                   /* Headings */
                   [&_h2]:text-3xl [&_h2]:mt-12 [&_h2]:mb-8 [&_h2]:flex [&_h2]:items-center [&_h2]:gap-3
@@ -272,6 +277,90 @@ const schema = {
           to {
               opacity: 1;
               transform: translateY(0);
+          }
+      }
+
+      /* Recipe Stepper Animations */
+      /* Base state for steps managed by JS to avoid invisibility issues */
+      .step-waiting {
+          opacity: 0;
+          transform: translateY(20px);
+      }
+
+      .step-visible {
+          opacity: 1 !important;
+          transform: translateY(0) !important;
+          transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .step-completed::before {
+          background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+          box-shadow: 0 4px 20px rgba(34, 197, 94, 0.4) !important;
+          animation: stepComplete 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          content: '✓'; /* Add checkmark directly implies completed */
+      }
+
+      .step-active::before {
+          background: linear-gradient(135deg, #f97316 0%, #ea580c 100%) !important;
+          box-shadow: 0 4px 25px rgba(249, 115, 22, 0.5) !important;
+          animation: stepPulse 2s ease-in-out infinite;
+      }
+
+      .step-pending::before {
+          background: linear-gradient(135deg, #9ca3af 0%, #6b7280 100%) !important;
+      }
+
+      @keyframes stepComplete {
+          0% { transform: scale(1); }
+          50% { transform: scale(1.2); }
+          100% { transform: scale(1); }
+      }
+
+      @keyframes stepPulse {
+          0%, 100% {
+              transform: scale(1);
+              box-shadow: 0 4px 25px rgba(249, 115, 22, 0.5);
+          }
+          50% {
+              transform: scale(1.08);
+              box-shadow: 0 6px 35px rgba(249, 115, 22, 0.7);
+          }
+      }
+
+      /* Progress Line Animation */
+      .progress-line-animated::after {
+          animation: progressGrow 1.5s ease-out forwards;
+          animation-delay: 0.3s;
+      }
+
+      @keyframes progressGrow {
+          from { height: 0; }
+          to { height: calc(100% - 2rem); }
+      }
+
+      /* Step hover glow effect */
+      article ol li:hover {
+          transform: translateX(4px);
+          transition: transform 0.3s ease;
+      }
+
+      /* Step click ripple effect */
+      .step-ripple::before {
+          animation: rippleEffect 0.6s ease-out;
+      }
+
+      @keyframes rippleEffect {
+          0% {
+              transform: scale(1);
+              box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7);
+          }
+          70% {
+              transform: scale(1.15);
+              box-shadow: 0 0 0 15px rgba(249, 115, 22, 0);
+          }
+          100% {
+              transform: scale(1);
+              box-shadow: 0 0 0 0 rgba(249, 115, 22, 0);
           }
       }
   </style>
@@ -317,5 +406,131 @@ const schema = {
 
         updateIcon();
       }
+  </script>
+
+  <!-- Recipe Stepper Animation Script -->
+  <script is:inline define:vars={{ recipeSlug: entry.slug }}>
+      document.addEventListener('DOMContentLoaded', () => {
+          // Find all ordered lists within the article (recipe steps)
+          const articleOls = document.querySelectorAll('article ol');
+
+          articleOls.forEach(ol => {
+              const steps = ol.querySelectorAll('li');
+              if (steps.length === 0) return;
+
+              // Add progress line animation class
+              ol.classList.add('progress-line-animated');
+
+              // Get saved progress from localStorage
+              const PROGRESS_KEY = `recipe_progress_${recipeSlug}`;
+              let completedSteps = [];
+              try {
+                  completedSteps = JSON.parse(localStorage.getItem(PROGRESS_KEY) || '[]');
+              } catch (e) { completedSteps = []; }
+
+              // Initialize step states
+              const updateStepStates = () => {
+                  steps.forEach((step, index) => {
+                      // Ensure wait class is removed if present
+                      step.classList.remove('step-waiting');
+                      step.classList.remove('step-completed', 'step-active', 'step-pending');
+
+                      if (completedSteps.includes(index)) {
+                          step.classList.add('step-completed');
+                      } else if (completedSteps.length === index) {
+                          step.classList.add('step-active');
+                      } else {
+                          step.classList.add('step-pending');
+                      }
+                  });
+              };
+
+              // Animate steps on scroll using IntersectionObserver
+              const observerOptions = {
+                  threshold: 0.1, // Lower threshold for better mobile detection
+                  rootMargin: '0px 0px -50px 0px'
+              };
+
+              const stepObserver = new IntersectionObserver((entries) => {
+                  entries.forEach(entry => {
+                      if (entry.isIntersecting) {
+                          const step = entry.target;
+                          const index = Array.from(steps).indexOf(step);
+
+                          // Remove waiting state and animate
+                          step.classList.remove('step-waiting');
+
+                          // Staggered animation delay
+                          setTimeout(() => {
+                              step.classList.add('step-visible');
+                          }, index * 100); // Faster stagger
+
+                          stepObserver.unobserve(step);
+                      }
+                  });
+              }, observerOptions);
+
+              steps.forEach(step => {
+                   // Add waiting class initially for animation
+                   // Only if we want to animate. If JS fails, this won't run, so steps stay visible.
+                  step.classList.add('step-waiting');
+                  stepObserver.observe(step);
+              });
+
+              // Make steps clickable to toggle completion
+              steps.forEach((step, index) => {
+                  step.style.cursor = 'pointer';
+
+                  step.addEventListener('click', (e) => {
+                      // Don't trigger if clicking on a link inside the step
+                      if (e.target.tagName === 'A') return;
+
+                      // Add ripple effect
+                      step.classList.add('step-ripple');
+                      setTimeout(() => step.classList.remove('step-ripple'), 600);
+
+                      // Toggle completion
+                      if (completedSteps.includes(index)) {
+                          // Remove this and all subsequent completions
+                          completedSteps = completedSteps.filter(i => i < index);
+                      } else {
+                          // Complete all steps up to and including this one
+                          for (let i = 0; i <= index; i++) {
+                              if (!completedSteps.includes(i)) {
+                                  completedSteps.push(i);
+                              }
+                          }
+                          completedSteps.sort((a, b) => a - b);
+                      }
+
+                      // Save to localStorage
+                      try {
+                          localStorage.setItem(PROGRESS_KEY, JSON.stringify(completedSteps));
+                      } catch (e) { console.error('Could not save progress:', e); }
+
+                      updateStepStates();
+                  });
+              });
+
+              // Initial state update
+              updateStepStates();
+
+              // Add reset button if there's progress
+              if (completedSteps.length > 0) {
+                  const resetBtn = document.createElement('button');
+                  resetBtn.innerHTML = '<span class="material-symbols-outlined text-sm">restart_alt</span> Reiniciar pasos';
+                  resetBtn.className = 'mt-4 flex items-center gap-2 text-xs text-gray-400 hover:text-primary transition-colors';
+                  resetBtn.onclick = () => {
+                      completedSteps = [];
+                      try {
+                          localStorage.removeItem(PROGRESS_KEY);
+                      } catch (e) {}
+                      updateStepStates();
+                      resetBtn.remove();
+                  };
+                  ol.parentNode.insertBefore(resetBtn, ol.nextSibling);
+              }
+          });
+      });
   </script>
 </Layout>

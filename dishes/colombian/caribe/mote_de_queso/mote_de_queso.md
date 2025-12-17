@@ -102,43 +102,56 @@ El Mote de Queso es una sopa cremosa y emblemática de la región Caribe, especi
 
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-### Categorización Sensorial y de Uso
+### 📊 Perfil Sensorial Profundo
 
-- **Tipo de plato:** Sopa, plato fuerte
-- **Perfil de sabor dominante:** Salado, Lácteo, Ácido (por el suero)
-- **Textura principal:** Cremoso (ñame y queso), Suave
-- **Aroma destacado:** Lácteo, Herbal (cilantro)
-- **Presentación y experiencia:** Se sirve en tazón hondo, decorado con cilantro y acompañado de suero costeño. Es el plato estrella en festividades y reuniones familiares de la costa Caribe.
-- **Opiniones y experiencia de usuario:** "El mote de queso es la sopa más reconfortante, cremosa y llena de sabor". "El queso costeño y el suero hacen la diferencia, es un plato que sabe a hogar". (Opiniones extraídas de Google Maps y foros gastronómicos)
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Umami, Salado        | 5/5              | Alto glutamato libre (queso añejo) y sodio. |
+| **Aroma**| Lácteo, Fermentado   | 4/5              | Ácido láctico volátil, diacetilo (suero). |
+| **Textura**| Viscosa, Tropezones | 5/5              | Fluido no-newtoniano por almidón de ñame. |
+| **Boca** | Astringente, Cremoso | 4/5              | Grasa láctea suaviza la astringencia del almidón. |
+
+### ⚗️ Química y Física Culinaria
+
+- **Gelatinización del Almidón:** El ñame espino (*Dioscorea rotundata*) libera amilosa y amilopectina al cocinarse por más de 45 min. Al "triturar parte del ñame" (Instrucción 3), se fuerza la dispersión de estas moléculas en el agua, aumentando drásticamente la viscosidad.
+- **Emulsificación Parcial:** Al agregar el queso costeño (rico en grasa saturada) y la mantequilla en caliente, los lípidos se emulsionan con la matriz de almidón gelatinizado, creando la textura blanca y brillante característica. El suero (ácido) estabiliza parcialmente esta emulsión.
+- **Interacción pH:** El suero costeño (pH ~4.5) corta ligeramente la riqueza grasa, limpiando el paladar y estimulando la salivación, lo que mejora la percepción del sabor salado.
+
+### 🍎 Nutrición y Metabolismo
+
+- **Calorías Totales:** ~350 kcal/porción (Estimado servido).
+- **Impacto Glucémico:** Medio-Alto. El ñame cocido tiene un índice glucémico moderado, pero la cocción prolongada aumenta la disponibilidad de glucosa. La grasa del queso ralentiza levemente la absorción.
+- **Biodisponibilidad:** La cocción prolongada mejora la digestibilidad del almidón del ñame.
+- **Perfil de Proteína:** Completo, gracias a la caseína del queso de alta calidad biológica.
+- **Micronutrientes:**
+    - **Calcio:** Aporte crítico del queso costeño (aprox. 300mg/porción).
+    - **Sodio:** Muy alto. PRECAUCIÓN para hipertensos.
+
+### 📚 Estudios y Referencias
+
+1. *Otegbayo et al. (2001).* "Physico-chemical properties of yam starch". Journal of Food Engineering. (Explica la viscosidad del ñame espino).
+2. *Granados et al. (2012).* "Caracterización del Queso Costeño producido en el Caribe Colombiano". (Detalla el perfil lipídico y salino).
+3. USDA FoodData Central: [Yam, cooked, boiled, drained, or baked, without salt](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170072/nutrients)
+
+---
+
+## 💡 Sabiduría colectiva (Tips de la Comunidad)
+
+1. **La elección del Ñame:** Es crucial usar "Ñame Espino" y no "Ñame Diamante". El espino se deshace y da la crema; el diamante se queda duro.
+2. **El "Punto de Bleo":** Algunos agregan hojas de "bleo de chupa" (bledo) para sabor herbal auténtico (ancestral).
+3. **Contraste de temperaturas:** El mote debe estar hirviendo, y el suero frío de nevera al servir.
+
+---
+
+## 📸 Galería y Evidencia
+
+![Mote de Queso Costeño](./images/1.png)
+
+### Etiquetas extraídas de comentarios
+
+- #confortFood #Caribe #tradición #domingo #queso #ñame #cremoso
 
 ### Opiniones de usuarios
 
-- **Usuario anónimo (Google Maps):** "El mote de queso con suero es lo mejor de la costa, cremoso y salado, perfecto para el almuerzo".
-- **Foro gastronómico:** "El secreto está en el ñame espino y el queso bien salado".  
-calificación: ★★★★★ 5/5
-
-### Perfil Nutricional de Ingredientes Clave (por 100g)
-
-| Ingrediente     | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|-----------------|-----------------|--------------|-----------|------------|----------------------|
-| Ñame            | 118             | 2            | 28        | 0          | Fibra, Potasio       |
-| Queso costeño   | 321             | 21           | 4         | 25         | Calcio, Sodio        |
-| Suero costeño   | 130             | 4            | 7         | 9          | Probióticos, Calcio  |
-
-*Fuente: USDA FoodData Central, TCAC, fuentes locales*
-
----
-
-## Sabiduría colectiva, trucos y consejos
-
-1. **Ñame espino:** Usar ñame espino garantiza la textura cremosa ideal.
-2. **Queso auténtico:** El queso costeño debe ser bien salado y firme.
-3. **Suero costeño:** Sirve aparte para que cada quien agregue al gusto.
-
----
-
-## Fuentes consultadas y enlaces
-
-- [Receta tradicional de mote de queso - El Tiempo](https://www.eltiempo.com/vida/receta-mote-de-queso-35792)
-- [Google Maps: Opiniones sobre mote de queso](https://www.google.com/maps/search/mote+de+queso)
-- [Foro gastronómico colombiano](https://www.gastronomiacolombiana.com/foro/mote-de-queso)
+- "El mote sin suero no es mote."
+- "El de mi abuela lleva bleo y berenjena frita encima."

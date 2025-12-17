@@ -1,49 +1,81 @@
+
 import os
-import yaml
 import re
 
-def audit_recipes(base_dir):
-    missing_front_matter = []
-    missing_description = []
-    missing_analysis_section = []
-    missing_nutrition = []
+DISHES_DIR = r"e:\scripts-python\AI-Chef\dishes"
+OUTPUT_FILE = r"e:\scripts-python\AI-Chef\docs\RECIPE_COMPLETENESS_REPORT.md"
 
-    for root, dirs, files in os.walk(base_dir):
+REQUIRED_SECTIONS = [
+    "Análisis Detallado y Sabiduría Colectiva",
+    "Categorización Sensorial",
+    "Perfil Nutricional",
+    "Opiniones"
+]
+
+def analyze_recipes():
+    results = {
+        "complete": [],
+        "partial": [],
+        "missing": []
+    }
+
+    for root, dirs, files in os.walk(DISHES_DIR):
         for file in files:
-            if file.endswith(".md"):
-                file_path = os.path.join(root, file)
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
+            if file.endswith(".md") and not file.startswith("_"):
+                path = os.path.join(root, file)
+                try:
+                    with open(path, "r", encoding="utf-8") as f:
+                        content = f.read()
 
-                # Check Front Matter
-                front_matter_match = re.search(r'^---\n(.*?)\n---', content, re.DOTALL)
-                if not front_matter_match:
-                    missing_front_matter.append(file_path)
-                else:
-                    try:
-                        fm = yaml.safe_load(front_matter_match.group(1))
-                        if 'description' not in fm:
-                            missing_description.append(file_path)
-                        if 'nutrition' not in fm:
-                            missing_nutrition.append(file_path)
-                    except yaml.YAMLError:
-                        print(f"Error parsing YAML in {file_path}")
+                        missing_sections = []
+                        found_sections = 0
 
-                # Check for "Análisis Detallado y Sabiduría Colectiva"
-                if "Análisis Detallado y Sabiduría Colectiva" not in content:
-                    missing_analysis_section.append(file_path)
+                        # Check main section with flexibility in title
+                        if "Análisis Detallado" not in content and "Análisis Sensorial" not in content:
+                           missing_sections.append("Sección Principal (Análisis Detallado/Sensorial)")
+                        else:
+                            found_sections += 1
 
-    print(f"Total files missing Front Matter: {len(missing_front_matter)}")
-    for f in missing_front_matter:
-        print(f"  - {f}")
+                        # Check specifics
+                        if "Perfil de sabor" not in content and "Categorización Sensorial" not in content:
+                            missing_sections.append("Datos Sensoriales")
 
-    print(f"\nTotal files missing Description (but have FM): {len(missing_description)}")
-    for f in missing_description:
-        print(f"  - {f}")
+                        if "nutrition:" not in content and "Perfil Nutricional" not in content:
+                             missing_sections.append("Información Nutricional")
 
-    print(f"\nTotal files missing Analysis Section: {len(missing_analysis_section)}")
-    for f in missing_analysis_section:
-        print(f"  - {f}")
+                        relative_path = os.path.relpath(path, DISHES_DIR)
+
+                        if not missing_sections:
+                            results["complete"].append(relative_path)
+                        elif len(missing_sections) < 3: # Has some info
+                            results["partial"].append((relative_path, missing_sections))
+                        else:
+                            results["missing"].append(relative_path)
+
+                except Exception as e:
+                    print(f"Error checking {path}: {e}")
+
+    # Generate Report
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write("# Reporte de Completitud de Recetas Científicas\n\n")
+
+        f.write(f"## Resumen\n")
+        f.write(f"- **Completas (o casi completas):** {len(results['complete'])}\n")
+        f.write(f"- **Parciales:** {len(results['partial'])}\n")
+        f.write(f"- **Faltantes (Prioridad Alta):** {len(results['missing'])}\n\n")
+
+        f.write("## 🔴 Recetas sin Análisis Detallado (Prioridad)\n")
+        for path in sorted(results["missing"]):
+            f.write(f"- [ ] `{path}`\n")
+
+        f.write("\n## 🟡 Recetas Parciales (Falta información específica)\n")
+        for path, missing in sorted(results["partial"]):
+            f.write(f"- [ ] `{path}` _Falta: {', '.join(missing)}_\n")
+
+        f.write("\n## 🟢 Recetas con Estructura Base Completa\n")
+        for path in sorted(results["complete"]):
+            f.write(f"- [x] `{path}`\n")
 
 if __name__ == "__main__":
-    audit_recipes(r"e:\scripts-python\AI-Chef\dishes\colombian")
+    analyze_recipes()
+    print(f"Analysis saved to {OUTPUT_FILE}")
