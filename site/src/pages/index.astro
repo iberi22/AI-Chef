@@ -238,7 +238,7 @@ const baseUrl = import.meta.env.BASE_URL;
 <script>
   // Client-side filtering logic
   document.addEventListener('astro:page-load', () => {
-    const searchInput = document.getElementById('search-input') as HTMLInputElement;
+    const searchInput = document.getElementById('search-input');
     const categoryBtns = document.querySelectorAll('.category-btn');
     const recipeItems = document.querySelectorAll('.recipe-item');
     const noResults = document.getElementById('no-results');
@@ -250,13 +250,13 @@ const baseUrl = import.meta.env.BASE_URL;
 
     // Load favorites from localStorage
     const getFavorites = () => JSON.parse(localStorage.getItem('ai-chef-favorites') || '[]');
-    const setFavorites = (favs: string[]) => localStorage.setItem('ai-chef-favorites', JSON.stringify(favs));
+    const setFavorites = (favs) => localStorage.setItem('ai-chef-favorites', JSON.stringify(favs));
 
     // Initialize favorite buttons
     function initFavoriteButtons() {
         const favorites = getFavorites();
         document.querySelectorAll('.fav-btn').forEach(btn => {
-            const slug = (btn as HTMLElement).dataset.slug;
+            const slug = btn.dataset.slug;
             if (slug && favorites.includes(slug)) {
                 btn.classList.add('active');
             }
@@ -268,7 +268,7 @@ const baseUrl = import.meta.env.BASE_URL;
             newBtn.addEventListener('click', (e) => {
                 e.preventDefault();
                 e.stopPropagation();
-                const target = e.currentTarget as HTMLElement;
+                const target = e.currentTarget;
                 const s = target.dataset.slug;
                 if (!s) return;
 
@@ -296,11 +296,11 @@ const baseUrl = import.meta.env.BASE_URL;
       const favorites = getFavorites();
 
       recipeItems.forEach(item => {
-        const itemCategory = (item as HTMLElement).dataset.category;
-        const itemTitle = (item as HTMLElement).dataset.title;
+        const itemCategory = item.dataset.category;
+        const itemTitle = item.dataset.title;
         // We need to get the slug from the RecipeCard link inside the item
         // Or better, get it from the fav-btn inside
-        const favBtn = item.querySelector('.fav-btn') as HTMLElement;
+        const favBtn = item.querySelector('.fav-btn');
         const slug = favBtn?.dataset.slug;
 
         const matchesCategory = currentCategory === 'all' || itemCategory === currentCategory;
@@ -324,7 +324,7 @@ const baseUrl = import.meta.env.BASE_URL;
     initFavoriteButtons();
 
     // Random shuffle Logic
-    function shuffleArray(array: any[]) {
+    function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [array[i], array[j]] = [array[j], array[i]];
@@ -355,7 +355,7 @@ const baseUrl = import.meta.env.BASE_URL;
 
     // Search Event
     searchInput?.addEventListener('input', (e) => {
-      currentSearch = (e.target as HTMLInputElement).value.toLowerCase();
+      currentSearch = e.target.value.toLowerCase();
       filterRecipes();
     });
 
@@ -374,7 +374,7 @@ const baseUrl = import.meta.env.BASE_URL;
         btn.classList.remove('bg-white', 'text-text-light', 'dark:bg-surface-dark', 'dark:text-text-dark');
         btn.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
 
-        const newCategory = (btn as HTMLElement).dataset.category || 'all';
+        const newCategory = btn.dataset.category || 'all';
         currentCategory = newCategory;
 
         // Persist category preference? Maybe annoying if random is default.
@@ -406,7 +406,7 @@ const baseUrl = import.meta.env.BASE_URL;
     let isLoading = false;
     const loadingIndicator = document.getElementById('loading-more');
     const endIndicator = document.getElementById('end-of-recipes');
-    const allRecipeItems = Array.from(recipeItems) as HTMLElement[];
+    const allRecipeItems = Array.from(recipeItems);
     const totalRecipes = allRecipeItems.length;
 
     function loadMoreRecipes() {

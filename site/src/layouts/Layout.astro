@@ -42,7 +42,7 @@ const baseUrl = import.meta.env.BASE_URL;
 				// Auto-translate if browser language is not Spanish
 				if (langCode !== 'es') {
 					setTimeout(() => {
-						const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
+						const select = document.querySelector('.goog-te-combo');
 						if (select) {
 							select.value = langCode;
 							select.dispatchEvent(new Event('change'));
