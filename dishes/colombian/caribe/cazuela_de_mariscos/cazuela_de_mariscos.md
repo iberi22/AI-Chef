@@ -110,46 +110,56 @@ La Cazuela de Mariscos es un plato icónico de la región Caribe colombiana, esp
 
 ## 📸 Galería
 
-*Próximamente...*
+![Cazuela de Mariscos Tradicional](./images/1.png)
 
 ---
 
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-### Categorización Sensorial y de Uso
+### 📊 Perfil Sensorial Estandarizado
 
-- **Tipo de plato:** Plato fuerte, sopa festiva
-- **Perfil de sabor dominante:** Umami, Salado, Lácteo (por la leche de coco)
-- **Textura principal:** Cremosa (caldo), Suave (mariscos y pescado)
-- **Aroma destacado:** Marino, Herbal (cilantro y tomillo), Lácteo (coco)
-- **Presentación y experiencia:** Se sirve en cazuela de barro, decorada con cilantro y acompañada de arroz o patacones. Es el plato estrella en celebraciones costeñas.
-- **Opiniones y experiencia de usuario:** "La cazuela de mariscos es cremosa y llena de sabor, cada bocado es una explosión marina". "Ideal para ocasiones especiales y para disfrutar en la playa". (Opiniones extraídas de Google Maps y foros gastronómicos)
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Dulce/Salado, Coco   | 5/5              | Lactonas del **[Leche de Coco](../../ingredients/leche_coco)** + Salinidad marina + **[Camarón](../../ingredients/camaron)**. |
+| **Aroma**| Coco, Mar            | 5/5              | Compuestos sulfurosos volátiles de mariscos frescos. |
+| **Textura**| Cremosa, Tropezones  | 4/5              | Emulsión densa con trozos firmes de **[Pulpo](../../ingredients/pulpo)** y suaves de pescado. |
+| **Boca** | Aterciopelada        | 5/5              | Grasa de coco + colágeno disuelto de pescado. |
 
-### Opiniones de usuarios
+### ⚗️ Química y Física Culinaria
 
-- **Usuario anónimo (Google Maps):** "La cazuela de mariscos de Cartagena es insuperable, cremosa y con mariscos fresquísimos".
-- **Foro gastronómico:** "El secreto está en la leche de coco y el sofrito bien hecho, le da el toque caribeño auténtico".  
-calificación: ★★★★★ 5/5
+- **Emulsión de Coco:** La **[Leche de Coco](../../ingredients/leche_coco)** es rica en ácidos grasos saturados (MCT). Al reducirse, espesa naturalmente. Sin embargo, el calor excesivo o el ácido (limón) pueden cortarla. Se debe agregar al final o mantener hervor suave.
+- **Puntos de Cocción del Marisco:**
+    - **[Pulpo](../../ingredients/pulpo)**: Requiere precocción larga para hidrolizar colágeno.
+    - **[Camarón](../../ingredients/camaron)**: Proteínas miofibrilares contraen rápido. Solo necesita 2 minutos o se pone cauchudo.
+    - **Pescado:** Estructura de miotomas delicados. Se deshace si se remueve mucho.
+- **Sinérgia Umami:** La combinación de tomate (glutamato) + mariscos (nucleótidos inosinato) crea una explosión de sabor umami super-aditivo.
 
-### Perfil Nutricional de Ingredientes Clave (por 100g)
+### 🍎 Nutrición y Metabolismo
 
-| Ingrediente      | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|------------------|-----------------|--------------|-----------|------------|----------------------|
-| Camarón          | 99              | 24           | 0         | 0.3        | Selenio, Yodo        |
-| Calamar          | 92              | 15           | 3         | 1          | Vitamina B12         |
-| Pulpo            | 82              | 15           | 2         | 1          | Hierro, Cobre        |
-| Leche de coco    | 230             | 2            | 6         | 24         | Ácidos grasos MCT    |
-| Crema de leche   | 193             | 2            | 3         | 20         | Calcio, Vitamina A   |
+- **Grasas Saludables:** Alta en MCTs del coco, de fácil metabolización energética.
+- **Proteína Magra:** Los mariscos son pura proteína sin casi grasa saturada animal.
+- **Minerales:** Bomba de Zinc, Selenio y Yodo (tiroides).
 
-*Fuente: USDA FoodData Central, TCAC, fuentes locales*
+### 🕰️ Contexto Socio-Cultural y Saberes Ancestrales
+
+- **Historia y Origen:** Herencia afrodescendiente pura. La técnica del "encocado" o guiso con leche de coco es fundamental en la diáspora africana del Caribe y Pacífico.
+- **Saberes Ancestrales:**
+    - "Cazuela que no lleve sofrito de **[Cebolla Junca](../../ingredients/cebolla_junca)** y ajo no tiene alma".
+    - "El pulpo se asusta (se mete y saca del agua hirviendo) para que no se pele".
+    - "Si se corta la leche de coco, se arregla con una cucharada de maicena disuelta (truco moderno)".
+
+### 📚 Estudios y Referencias
+
+1. *McGee, H.* "On Food and Cooking". (Química de geles de pescado y leche de coco).
+2. *Fundación ACUA.* "Recetario de Saberes del Pacífico y Caribe".
 
 ---
 
 ## Sabiduría colectiva, trucos y consejos
 
-1. **Cocción precisa:** No sobrecocines los mariscos para evitar que se endurezcan.
-2. **Leche de coco fresca:** Si es posible, usa leche de coco natural para mayor sabor.
-3. **Presentación:** Sirve en cazuela de barro y decora con cilantro fresco para el toque auténtico.
+1. **Cocción escalonada:** No tirar todo junto. Primero el sofrito, luego líquidos, luego pulpo precocido, calamar, pescado, y **[Camarón](../../ingredients/camaron)** al apagar el fuego.
+2. **Leche de Coco:** Usar la "primera leche" (crema espesa) solo al final para máxima cremosidad.
+3. **Cazuela de Barro:** Mantiene el calor por 20 minutos en la mesa. Curarla antes de usar.
 
 ---
 

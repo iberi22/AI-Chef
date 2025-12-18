@@ -67,7 +67,9 @@ El Chigüiro Asado es un plato tradicional y emblemático de la Orinoquía colom
 
 ## 📸 Galería
 
-*Próximamente...*
+## 📸 Galería
+
+![Chigüiro Asado Llanero](./images/1.png)
 
 ---
 
@@ -85,7 +87,7 @@ El Chigüiro Asado es un plato tradicional y emblemático de la Orinoquía colom
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El chigüiro asado de los llanos es insuperable, el sabor ahumado y la carne tierna lo hacen único".
-- **Foro gastronómico:** "El secreto está en la leña y el marinado con hierbas frescas, le da el toque auténtico llanero".  
+- **Foro gastronómico:** "El secreto está en la leña y el marinado con hierbas frescas, le da el toque auténtico llanero".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

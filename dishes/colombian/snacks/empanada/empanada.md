@@ -103,41 +103,41 @@ La empanada es uno de los snacks más emblemáticos y queridos de Colombia. Su v
 
 ---
 
-## 🔬 Análisis Sensorial y de Uso
+## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-- **Tipo de plato:** Snack, entrada, comida callejera
-- **Perfil de sabor dominante:** Salado
-- **Textura principal:** Crujiente por fuera, suave y jugoso por dentro
-- **Aroma destacado:** Frito, especiado
-- **Presentación y experiencia:** Se sirve caliente, en servilleta o bandeja, ideal para compartir o como merienda rápida.
+### 📊 Perfil Sensorial Estandarizado
 
----
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Salado, Maíz, Umami  | 5/5              | Maíz tostado + relleno condimentado con comino y **[Achiote](../../ingredients/achiote)**. |
+| **Aroma**| Fritura, Especiado   | 5/5              | Aldehídos de la Reacción de Maillard y terpenos del comino. |
+| **Textura**| Crujiente / Suave    | 5/5              | Costra vítrea externa vs. interior húmedo y suave. |
+| **Boca** | Caliente, Grasosa    | 4/5              | Sensación térmica y lipídica placentera. |
 
-## 🗣️ Opiniones y Experiencia de Usuario
+### ⚗️ Química y Física Culinaria
 
-- "Las empanadas colombianas son mi vicio, no hay fiesta sin ellas." (Instagram)
-- "El ají es obligatorio, le da el toque perfecto." (YouTube)
-- "Me gustan rellenas de todo, ¡son adictivas!" (TikTok)
+- **Transición Vítrea (Glass Transition):** Al freír la **[Harina de Maíz](../../ingredients/harina_maiz)** a >170°C, el agua superficial se evapora instantáneamente, dejando una matriz de almidón y proteína deshidratada que forma una estructura "vidriosa" y crujiente. Si la temperatura baja, absorbe aceite y queda grasosa.
+- **Color y Sabor del Achiote:** El **[Achiote](../../ingredients/achiote)** no solo da el color amarillo solar; la bixina liposoluble y trazas de compuestos aromáticos aportan un sabor "terroso" que complementa el maíz.
+- **Relleno Húmedo:** La papa actúa como matriz que retiene los jugos de la carne y el guiso, evitando que la empanada se sienta seca por dentro a pesar de la fritura profunda.
 
----
+### 🍎 Nutrición y Metabolismo
 
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
+- **Calorías:** Densidad calórica alta por la fritura. Snack energético.
+- **Macronutrientes:** Equilibrio Carbohidrato/Grasa. Baja proteína si tiene mucha papa.
+- **Consideración:** El consumo frecuente de aceites recalentados (oxidación lipídica) no es recomendable. Mejor freír en casa con aceite fresco.
 
-| Ingrediente   | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|---------------|-----------------|--------------|-----------|------------|----------------------|
-| Harina de maíz| 350             | 7            | 73        | 1.5        | Hierro, fibra        |
-| Papa          | 77              | 2            | 17        | 0.1        | Vitamina C, potasio  |
-| Carne molida  | 250             | 17           | 0         | 20         | Zinc, hierro         |
+### 🕰️ Contexto Socio-Cultural y Saberes Ancestrales
 
-*Fuente: USDA FoodData Central, blogs de cocina colombiana*
+- **Historia y Origen:** Adaptación mestiza de la empanada española (de trigo y horno) y árabe (fatay). En Colombia se "indigenizó" usando maíz y fritura (influencia africana).
+- **Saberes Ancestrales:**
+    - "Empanada que se respete mancha la servilleta de grasa (pero poquito)".
+    - "El ají no es opcional, es parte del plato: el ácido corta la grasa".
+    - "La masa debe ser amarilla (mona), si es blanca parece arepa".
 
----
+### 📚 Estudios y Referencias
 
-## 📚 Fuentes y Enlaces
-
-- [Receta de empanadas - Recetas de Colombia](https://www.recetasdecolombia.com/empanadas)
-- [Empanadas colombianas - YouTube](https://www.youtube.com/results?search_query=empanada+colombiana)
-- [TikTok #empanadacolombiana](https://www.tiktok.com/tag/empanadacolombiana)
+1. *Varela, G.* "Frying of Food". (Ciencia de la fritura profunda).
+2. *Lovera, J.* "Gastronomía Caribeña". (Historia de la fritura en América).
 
 ---
 
@@ -146,27 +146,3 @@ La empanada es uno de los snacks más emblemáticos y queridos de Colombia. Su v
 - "El secreto es freírlas en aceite bien caliente para que queden crocantes."
 - "Si la masa se seca, añade un poco más de agua tibia."
 - "No olvides el ají: ¡es la pareja perfecta!"
-
-## 🔬 Análisis Detallado y Sabiduría Colectiva
-
-### Categorización Sensorial y de Uso
-
-- **Perfil de sabor:** Rico en nutrientes activos: Lutein, Starch, Creatine, Lycopene, Kaempferol, Lipids, Allicin
-- **Textura:** Variada (Ver Ingredientes)
-- **Aroma:** Aromático y especiado
-
-### Perfil Nutricional (Estimado)
-
-- **Calorías:** 1514 kcal (Total receta)
-- **Proteína:** 92.0g
-- **Grasas:** 47.3g
-- **Carbohidratos:** 190.3g
-
-### Sabiduría Colectiva
-
-- **Variantes:** [Pendiente]
-- **Consejos:** [Pendiente]
-
-### Fuentes
-
-- [Pendiente]

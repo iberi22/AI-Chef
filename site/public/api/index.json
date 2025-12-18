@@ -1,5 +1,5 @@
 {
-  "totalRecipes": 151,
+  "totalRecipes": 152,
   "languages": [
     {
       "language": "chinese",
@@ -8,7 +8,7 @@
     },
     {
       "language": "spanish",
-      "count": 102,
+      "count": 103,
       "endpoint": "/api/spanish/index.json"
     }
   ],
@@ -20,7 +20,7 @@
     },
     {
       "country": "colombia",
-      "count": 101,
+      "count": 102,
       "endpoint": "/api/countries/colombia.json"
     },
     {

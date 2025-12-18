@@ -114,35 +114,43 @@ El Sancocho Costeño es uno de los platos más representativos de la región Car
 
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-### Categorización Sensorial y de Uso
+### 📊 Perfil Sensorial Estandarizado
 
-- **Tipo de plato:** Plato fuerte, sopa festiva
-- **Perfil de sabor dominante:** Salado, Umami
-- **Textura principal:** Espeso (por el ñame y la yuca), Suave (carnes y tubérculos), Jugoso (caldo)
-- **Aroma destacado:** Herbal (cilantro), Cárnico, Ahumado
-- **Presentación y experiencia:** Se sirve en platos hondos, porciones generosas, acompañado de arroz y aguacate. Es el centro de las celebraciones y reuniones familiares en la costa.
-- **Opiniones y experiencia de usuario:** "El sancocho costeño es la definición de fiesta y unión familiar, su sabor es profundo y reconfortante". "Nada como un buen sancocho al aire libre con toda la familia". (Opiniones extraídas de Google Maps y foros gastronómicos)
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Salado, Umami        | 5/5              | Sinergia de glutamatos (3 carnes) + nucleótidos. |
+| **Aroma**| Cárnico, Herbal      | 5/5              | Aldehídos del **[Cilantro](../../ingredients/cilantro)** y terpenos del comino. |
+| **Textura**| Espesa, Tropezuda    | 5/5              | Suspensión de almidones de **[Yuca](../../ingredients/yuca_dulce)** y ñame. |
+| **Boca** | Untuoso, Llenador    | 5/5              | Grasa emulsionada de la costilla y colágeno disuelto. |
 
-### Opiniones de usuarios
+### ⚗️ Química y Física Culinaria
 
-- **Usuario anónimo (Google Maps):** "El sancocho costeño es el mejor remedio para el hambre después de una fiesta, abundante y delicioso".
-- **Foro gastronómico:** "El secreto está en el ñame y el cilantro fresco, le dan el sabor auténtico de la costa".
-calificación: ★★★★★ 5/5
+- **La "Trifecta" de Almidones:** El sancocho usa **[Plátano Verde](../../ingredients/platano_verde)** (almidón resistente, estructura), **[Yuca](../../ingredients/yuca_dulce)** (gel translúcido, espesor "chicudo") y Ñame (mucílago, densidad). Esta combinación crea una viscosidad única que no se logra con harina. El ñame, en particular, debe "desbaratarse" para amarrar el caldo.
+- **Extracción de Colágeno:** La costilla de res y el hueso de cerdo requieren cocción prolongada en medio húmedo para convertir el colágeno duro en gelatina. Esta gelatina da la sensación pegajosa en los labios (*lip-sticking*) apreciada en un buen sancocho.
+- **Sinergia Umami:** Al combinar res (inosinato), pollo y cerdo, se multiplica la percepción de sabrosura (umami) exponencialmente más que usando una sola carne.
 
-### Perfil Nutricional de Ingredientes Clave (por 100g)
+### 🍎 Nutrición y Metabolismo
 
-| Ingrediente     | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|-----------------|-----------------|--------------|-----------|------------|----------------------|
-| Costilla de res | 294             | 25           | 0         | 21         | Hierro, Zinc         |
-| Pollo           | 165             | 31           | 0         | 4          | Niacina, Selenio     |
-| Cerdo           | 242             | 27           | 0         | 14         | Hierro, Zinc         |
-| Yuca            | 160             | 1            | 38        | 0          | Almidón resistente   |
-| Ñame            | 118             | 2            | 28        | 0          | Fibra, Potasio       |
-| Papa criolla    | 70              | 1            | 17        | 0          | Vitamina C           |
+- **Calorías:** Alto (~700-900 kcal). Es un plato completo.
+- **Carbohidratos:** Muy alto. Carga de glucógeno masiva por la mezcla de tubérculos + arroz acompañante.
+- **Proteína:** Alta y completa (mix de animales).
+- **Micronutrientes:**
+    - **Potasio:** Abundante en el plátano y tubérculos (excelente para rehidratación/resaca).
+    - **Vitamina C:** La **Papa Criolla** y el cilantro crudo aportan algo, si no se oxidan totalmente.
 
-*Fuente: USDA FoodData Central, TCAC, fuentes locales*
+### 🕰️ Contexto Socio-Cultural y Saberes Ancestrales
 
----
+- **Historia y Origen:** Derivado del *Ajiaco Taíno* (Indígena) y la *Olla Podrida* española. Es el plato de la "Olla Comunitaria" por excelencia; símbolo de unión vecinal y celebración.
+- **Saberes Ancestrales:**
+    - "El sancocho se menea con cucharón de palo, el metal lo 'pasma' (corta el sabor)".
+    - "La carne se sella con limón primero para matar el chuquía (olor fuerte)".
+    - "Sancocho sin ñame es sopa de carne". El ñame es el diferenciador costeño clave.
+
+### 📚 Estudios y Referencias
+
+1. *Cartay, R.* "Historia de la alimentación en el Nuevo Mundo".
+2. *Dufour, D.L.* "Cyanide content of cassava (Manihot esculenta) cultivars used by Tukanoan Indians". (Contexto sobre yuca dulce vs amarga).
+3. *McGee, H.* "On Food and Cooking". (Hidrólisis del colágeno).
 
 ## Sabiduría colectiva, trucos y consejos
 

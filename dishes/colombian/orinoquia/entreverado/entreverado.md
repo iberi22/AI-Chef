@@ -70,7 +70,9 @@ El Entreverado es un plato típico de la Orinoquía colombiana, especialmente en
 
 ## 📸 Galería
 
-*Próximamente...*
+## 📸 Galería
+
+![Entreverado Llanero](./images/1.png)
 
 ---
 
@@ -88,7 +90,7 @@ El Entreverado es un plato típico de la Orinoquía colombiana, especialmente en
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El entreverado llanero es insuperable, la variedad de carnes y el sabor ahumado lo hacen único".
-- **Foro gastronómico:** "El secreto está en la leña y el marinado con hierbas frescas, le da el toque auténtico llanero".  
+- **Foro gastronómico:** "El secreto está en la leña y el marinado con hierbas frescas, le da el toque auténtico llanero".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

@@ -102,42 +102,45 @@ La Arepa de Huevo es uno de los íconos de la gastronomía costeña colombiana, 
 
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-### Categorización Sensorial y de Uso
+### 📊 Perfil Sensorial Estandarizado
 
-- **Tipo de plato:** Snack, desayuno, entrada
-- **Perfil de sabor dominante:** Salado
-- **Textura principal:** Crujiente (masa frita), Cremoso (huevo)
-- **Aroma destacado:** Maíz tostado, Aceite
-- **Presentación y experiencia:** Se sirven calientes, recién fritas, en porciones individuales. Son infaltables en fiestas y desayunos costeños.
-- **Opiniones y experiencia de usuario:** "La arepa de huevo es el mejor desayuno de la costa, crujiente por fuera y con el huevo jugoso por dentro". "Perfectas para cualquier ocasión, no pueden faltar en una fiesta". (Opiniones extraídas de Google Maps y foros gastronómicos)
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Salado, Graso, Maíz  | 5/5              | Yema fluida + Maíz frito. Contraste ácido si se usa **[Suero Costeño](../../ingredients/suero_costeno)**. |
+| **Aroma**| Fritura, Maíz Tostado| 5/5              | Pirazinas (Maíz tostado) y aldehídos lipídicos. |
+| **Textura**| Dual (Crocante/Suave)| 5/5              | Costra exterior rígida vs interior vaporoso y huevo tierno. |
+| **Boca** | Caliente, Untuoso    | 5/5              | La yema líquida actúa como salsa interna. |
 
-### Opiniones de usuarios
+### ⚗️ Química y Física Culinaria
 
-- **Usuario anónimo (Google Maps):** "Las arepas de huevo de Barranquilla son únicas, siempre crocantes y llenas de sabor".
-- **Foro gastronómico:** "El secreto está en la doble fritura y en sellar bien la arepa para que el huevo no se salga".
-calificación: ★★★★★ 5/5
+- **La "Cámara de Aire":** El secreto es que la masa de **[Harina de Maíz](../../ingredients/harina_maiz)** se infle en la primera fritura. Esto ocurre porque el agua de la masa se evapora violentamente, y si la costra externa sella rápido, el vapor presuriza el interior, separando las paredes.
+- **Cocción Diferencial:** El **[Huevo](../../ingredients/huevo)** entra crudo. Al volver a freír, la masa protege al huevo del contacto directo con el aceite (180°C). El huevo se cocina esencialmente "al vapor" dentro de la arepa, permitiendo una clara coagulada pero una yema aún cremosa.
+- **Sellado con Masa:** El uso de masa cruda para sellar el orificio crea un "tapón" de almidón que gelatiniza instantáneamente al tocar el aceite, hermetizando la arepa.
 
-### Perfil Nutricional de Ingredientes Clave (por 100g)
+### 🍎 Nutrición y Metabolismo
 
-| Ingrediente        | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|--------------------|-----------------|--------------|-----------|------------|----------------------|
-| Harina de maíz     | 350             | 7            | 73        | 1          | Fibra, Magnesio      |
-| Huevo              | 155             | 13           | 1         | 11         | Colina, Vitamina D   |
+- **Proteína Completa:** Combinación de cereal (Maíz) + Proteína animal de alto valor (**[Huevo](../../ingredients/huevo)**).
+- **Densidad Energética:** Alta debido a la doble absorción de aceite.
+- **Recomendación:** Consumir con moderación o escurrir muy bien. El **[Suero Costeño](../../ingredients/suero_costeno)** añade probióticos (si es artesanal) pero también más grasa.
 
-*Fuente: USDA FoodData Central, TCAC, fuentes locales*
+### 🕰️ Contexto Socio-Cultural y Saberes Ancestrales
+
+- **Historia y Origen:** Luruaco (Atlántico) se autodenomina la cuna de la arepa de huevo. Tienen incluso el Festival de la Arepa de Huevo. Es herencia indígena (maíz) + técnica de fritura africana + gallina (europea/asiática).
+- **Saberes Ancestrales:**
+    - "El aceite no debe estar arrebatado (humeando) o se quema la masa y el huevo queda crudo".
+    - "La masa debe ser amarilla para que quede 'mona'".
+    - "El mejor acompañante es el picante de suero".
+
+### 📚 Estudios y Referencias
+
+1. *García, L.* "Técnicas de fritura en el Caribe Colombiano".
+2. *MinCultura.* "Patrimonio Gastronómico de Luruaco".
 
 ---
 
 ## Sabiduría colectiva, trucos y consejos
 
-1. **Masa bien hidratada:** Amasa bien y deja reposar para evitar que se agriete al freír.
-2. **Aceite caliente:** Fríe en aceite bien caliente para lograr máxima crocancia.
-3. **Relleno jugoso:** Introduce el huevo con cuidado y sella bien la abertura antes de la segunda fritura.
-
----
-
-## Fuentes consultadas y enlaces
-
-- [Receta tradicional de arepa de huevo - El Tiempo](https://www.eltiempo.com/vida/receta-arepa-de-huevo-46804)
-- [Google Maps: Opiniones sobre arepa de huevo](https://www.google.com/maps/search/arepa+de+huevo)
-- [Foro gastronómico colombiano](https://www.gastronomiacolombiana.com/foro/arepa-de-huevo)
+1. **La prueba de la bolita:** Tira una bolita de masa al aceite; si sube burbujeando en 3 segundos, está listo.
+2. **Hidratación Perfecta:** La masa no puede estar seca (se raja y se sale el huevo) ni muy aguada (no infla).
+3. **El Huevo:** Poner el huevo primero en un pocillo pequeño facilita verterlo dentro de la arepa sin regueros.
+4. **Rescate:** Si se rompe un poquito, sella con un "parche" de masa cruda inmediatamente.

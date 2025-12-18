@@ -78,42 +78,42 @@ El Mute Santandereano es uno de los platos más tradicionales del departamento d
 
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-### Categorización Sensorial y de Uso
+### 📊 Perfil Sensorial Estandarizado
 
-- **Tipo de plato:** Plato fuerte, sopa espesa
-- **Perfil de sabor dominante:** Salado, Umami
-- **Textura principal:** Espeso, Cremoso (por los tubérculos y maíz), Suave (carnes desmenuzadas)
-- **Aroma destacado:** Ahumado (chorizo), Herbal (cilantro), Maíz
-- **Presentación y experiencia:** Se sirve en plato hondo, porciones generosas, acompañado de arepa santandereana. Es un plato reconfortante, típico de fiestas patronales y reuniones familiares.
-- **Opiniones y experiencia de usuario:** "El mute es una sopa que reconforta el alma, su textura espesa y el sabor del chorizo la hacen inolvidable". "Cada cucharada es una explosión de sabores tradicionales santandereanos". (Opiniones extraídas de TripAdvisor y foros gastronómicos)
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Umami, Ahumado       | 5/5              | Inosinato (Carnes) y Fenoles (Chorizo Ahumado). |
+| **Aroma**| Maíz, Humo           | 5/5              | 2-Acetil-1-pirrolina (Maíz) y Guayacol (Humo). |
+| **Textura**| Viscosa, Densa       | 5/5              | Gel de almidón de **[Maíz Peto](../../ingredients/maiz_peto)** y **[Papa Sabanera](../../ingredients/papa_sabanera)**. |
+| **Boca** | Masticable           | 4/5              | Callos (si lleva), carne desmechada, maíz entero. |
 
-### Opiniones de usuarios
+### ⚗️ Química y Física Culinaria
 
-- **Usuario anónimo (TripAdvisor):** "El mute santandereano es la sopa más completa y sabrosa, perfecta para un almuerzo después de una caminata por Barichara."
-- **Foro gastronómico:** "El secreto está en el chorizo y el hueso de cañada, le dan un sabor ahumado y profundo que no se olvida".
-calificación: ★★★★★ 5/5
+- **Gelatinización Alcalina (Nixtamal):** El **[Maíz Peto](../../ingredients/maiz_peto)** pre-cocido aporta un espesor único. Al cocinarse, el almidón dañado por la trilla absorbe agua masivamente, creando un "engrudo" suave que suspende los demás ingredientes.
+- **Complejidad de Tubérculos:** La mezcla de **[Papa Criolla](../../ingredients/papa_criolla)** (se disuelve, espesa), **[Papa Sabanera](../../ingredients/papa_sabanera)** (mantiene forma, textura cerosa) y **[Yuca](../../ingredients/yuca_dulce)** crea un espectro de texturas desde el puré hasta el trozo firme.
+- **Emulsión del Chorizo:** La grasa paprika/achiote del chorizo santandereano se funde y emulsiona parcialmente con el caldo espeso, distribuyendo el sabor ahumado uniformemente.
 
-### Perfil Nutricional de Ingredientes Clave (por 100g)
+### 🍎 Nutrición y Metabolismo
 
-| Ingrediente           | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|-----------------------|-----------------|--------------|-----------|------------|----------------------|
-| Carne de res          | 250             | 26           | 0         | 17         | Hierro, Zinc         |
-| Cerdo                 | 270             | 24           | 0         | 20         | Tiamina, Selenio     |
-| Chorizo santandereano | 320             | 18           | 2         | 28         | Grasas saturadas     |
-| Maíz pelado           | 110             | 3            | 23        | 1          | Carotenoides         |
-| Papa criolla          | 70              | 1            | 17        | 0          | Vitamina C           |
-| Yuca                  | 160             | 1            | 38        | 0          | Almidón resistente   |
+- **Calorías:** Extremadamente alto (>800 kcal). Comida de una sola ingesta diaria en tiempos antiguos.
+- **Fibra:** Altísima, gracias al maíz entero, garbanzos (si lleva) y vegetales.
+- **Proteína:** Completa y abundante.
+- **Micronutrientes:** La **[Ahuyama](../../ingredients/ahuyama)** aporta Vitamina A (retinol) y color dorado al caldo.
 
-*Fuente: USDA FoodData Central, TCAC, fuentes locales*
+### 🕰️ Contexto Socio-Cultural y Saberes Ancestrales
+
+- **Historia y Origen:** Plato insignia de Santander, nacido de la fusión de la cocina española de cocido con los maíces indígenas. Es comida de arrieros y campesinos para jornadas duras en el cañón del Chicamocha.
+- **Saberes Ancestrales:**
+    - "El mute sabe mejor 'trasnochado' (recalentado al día siguiente)". Esto permite que los sabores se amalgamen y el almidón retrograde.
+    - "Debe llevar mano de res o hueso de porcino para que la gelatina pegue los labios".
+    - "La ceniza de leña se usaba originalmente para pelar el maíz (nixtamalización casera)".
+
+### 📚 Estudios y Referencias
+
+1. *Ministerio de Cultura.* "Biblioteca Básica de Cocinas Tradicionales de Colombia".
+2. *FAO.* "Maize in human nutrition". (Nixtamalización y bio-disponibilidad).
 
 ---
-
-## Sabiduría colectiva, trucos y consejos
-
-1. **Preparación previa:** Remojar el maíz y cocinarlo bien antes de agregar los demás ingredientes.
-2. **Chorizo auténtico:** Usar chorizo santandereano artesanal para un sabor inigualable.
-3. **Caldo potente:** Cocinar las carnes con hueso para obtener un caldo más sabroso.
-4. **Acompañamiento:** Servir siempre con arepa santandereana y ají casero.
 
 ---
 

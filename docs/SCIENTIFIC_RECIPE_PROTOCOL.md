@@ -35,9 +35,17 @@ Ir más allá de las calorías. Usar datos de fuentes confiables (USDA, FAO).
 - **Compuestos Bioactivos:** Mencionar antioxidantes, polifenoles, probióticos, etc. (ej. *Licopeno* en tomates, *Capsaicina* en ajíes).
 - **Impacto Metabólico (Estimado):** Índice Glucémico (IG), Carga Glucémica (CG) aproximada, digestibilidad.
 
-### 1.4. Contexto Socio-Cultural y Estudios
+### 1.4. Contexto Socio-Cultural y Saberes Ancestrales
 
-- **Historia/Origen:** Breve reseña antropológica validada.
+Esta sección es crucial para preservar la memoria histórica y cultural.
+
+- **Historia y Origen:**
+    - Origen geográfico validado (ej. "Andes Centrales").
+    - Evolución histórica (ej. "Adaptación mestiza de un cocido español").
+- **Saberes Ancestrales y Mitos:**
+    - Creencias populares (ej. "Cortar el aguacate con cuchillo de metal lo pone negro").
+    - Usos medicinales tradicionales de los ingredientes en el contexto del plato.
+    - Refranes o dichos asociados.
 - **Referencias Científicas:** Si existen estudios sobre los beneficios o propiedades de los ingredientes clave, citarlos (DOI o nombre del estudio).
 
 ---

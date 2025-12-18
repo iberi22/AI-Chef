@@ -127,37 +127,44 @@ La Bandeja Paisa es el plato más emblemático de la región andina de Colombia,
 
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-Esta sección profundiza en los componentes de la Bandeja Paisa y los consejos de la comunidad para llevarla al siguiente nivel.
+### 📊 Perfil Sensorial Estandarizado
 
-### Categorización Sensorial y de Uso
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Salado, Umami, Graso | 5/5              | Glutamatos (carnes), Sodio (chorizo), Lípidos oxidados (chicharrón). |
+| **Aroma**| Ahumado, Cerdo       | 5/5              | Compuestos fenólicos (humo), Aldehídos (grasa frita). |
+| **Textura**| Compleja (Mix)       | 5/5              | Crujiente (chicharrón) vs. Cremoso (frijol) vs. Suave (arroz). |
+| **Boca** | Recubrimiento Graso  | 5/5              | Alta palatabilidad por la combinación de grasas saturadas y almidones. |
 
-- **Tipo de plato:** Plato fuerte
-- **Perfil de sabor dominante:** Salado, Umami
-- **Textura principal:** Crujiente (chicharrón), Cremoso (frijoles), Suave (arroz, plátano)
-- **Aroma destacado:** Ahumado, Lácteo, el ahucate le da un toque neutro y herbal fresco, el huevo frito le da un una sabor caramelo junto a la taja de platano.
-- **Presentación y experiencia:** Se sirve en bandeja grande, porciones generosas, acompañado de aguacate, arepa y huevo frito. Ideal para reuniones familiares o celebraciones.
-- **Opiniones y experiencia de usuario:** "La combinación de texturas y sabores es adictiva, el chicharrón es el favorito de todos, y el sabor ahumado de los embutidos resalta sobre el fondo cremoso de los frijoles". "Es un plato que reconforta y sorprende por su abundancia y generosidad". (Opiniones extraídas de Google Maps, TripAdvisor y Restaurant Guru)
+### ⚗️ Química y Física Culinaria
 
-### Opiniones de usuarios
+- **Reacción de Maillard & Pirodextrinas:** El **Chicharrón** y el **Plátano Maduro** fritos son ejemplos de manual. En el plátano, los azúcares reductores reaccionan con aminoácidos a >140°C creando colores pardos y sabores a caramelo. En el chicharrón, la piel deshidratada explota por la presión de vapor (ver *Sus scrofa* en ingredientes), creando una estructura de "espuma sólida" crujiente.
+- **Emulsificación de Almidón (Frijoles):** Los frijoles rojos (*Phaseolus vulgaris*) liberan amilosa durante la cocción lenta. Al mezclarse con el colágeno de la pezuña (si se usa) y la grasa del hogao, se forma un "potaje" coloidal espeso que cubre el paladar, contrastando con el arroz seco.
+- **Contraste de pH:** El chorizo y la morcilla suelen tener un pH ligeramente ácido (por fermentación o vinagre), lo que ayuda a "cortar" la sensación grasa de los fritos, limpiando parcialmente las papilas gustativas.
 
-- **iberi22 (github user):** "Este plato cautiva de inmediato por su imponente presencia visual. Su aroma, característico por el embutido (chorizo), el chicharrón y los frijoles, conforma el tridente perfecto de un sabor intenso. La carne molida actúa como un comodín versátil que enriquece aún más esta base. Posteriormente, la incorporación del aguacate, la yema blanda del huevo y un trozo de tajada de plátano maduro frito crea un exquisito cóctel de sabores. Este manjar se complementa idealmente con arroz o arepa, cada opción aportando un matiz distintivo que hace de su disfrute una experiencia verdaderamente increíble en un solo plato.".
-calificación:★★★★★ 5/5
+### 🍎 Nutrición y Metabolismo
 
-### Perfil Nutricional de Ingredientes Clave (por 100g)
+- **Calorías Totales:** >1500 kcal/porción (Hipercalórico).
+- **Impacto Metabólico:** Carga glucémica extrema y alto contenido de grasas saturadas. Es un plato de "resistencia" diseñado para jornadas laborales agrícolas intensas, no para sedentarismo.
+- **Perfil Proteico:** Muy alto (>50g), combinando fuentes animales (huevo, cerdo, res) y vegetales (frijol).
+- **Micronutrientes:**
+    - **Hierro Hemo:** Alta biodisponibilidad (morcilla, carnes).
+    - **Potasio:** Aporte significativo del plátano y aguacate.
+- **Bioactivos:** Licopeno (tomate del hogao) y compuestos fenólicos (frijoles oscuros).
 
-| Ingrediente           | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados                                       |
-|-----------------------|-----------------|---------------|-----------|------------|-------------------------------------------------------------|
-| **Frijoles Rojos**    | 127             | 8.7           | 22.8      | 0.5        | Fibra, Folato (B9), Hierro, Fósforo                         |
-| **Arroz Blanco**      | 130             | 2.7           | 28.2      | 0.3        | Manganeso, Selenio                                          |
-| **Carne Molida**      | 269             | 25.9          | 0         | 17.4       | Hierro Hemo, Zinc, Vitamina B12                             |
-| **Chicharrón**        | 544             | 61.3          | 0         | 30.9       | Colágeno, Selenio                                           |
-| **Chorizo de Cerdo**  | 344             | 14.2          | 1.9       | 30.4       | Sodio, Selenio, Vitamina B1                                 |
-| **Aguacate**          | 160             | 2             | 8.5       | 14.7       | Grasas Monoinsaturadas, Potasio, Vitamina K, Fibra         |
-| **Plátano Maduro Frito**| 161             | 0.8           | 32.4      | 3.2        | Potasio, Vitamina C, Vitamina B6                            |
-| **Huevo Frito**       | 196             | 13.6          | 0.8       | 14.8       | Colina, Luteína, Selenio, Vitamina B12, Vitamina D          |
-| **Arepa de Maíz**     | 219             | 5.5           | 37.1      | 5.4        | Fósforo, Calcio, Vitamina A                                 |
+### 🕰️ Contexto Socio-Cultural y Saberes Ancestrales
 
-*Fuente: Datos recopilados y promediados de USDA FoodData Central y fuentes de nutrición especializadas.*
+- **Historia y Origen:** La Bandeja Paisa es una evolución moderna (siglo XX) del "Envuelto Antioqueño" que llevaban los arrieros. Era una comida hipercalórica diseñada para sostener largas jornadas de caminata cruzando montañas. Su consolidación como plato turístico "bandeja" ocurren en restaurantes de paso.
+- **Saberes Ancestrales:**
+    - "El frijol debe ser cargamanto para que *cale* (espese) bien el caldo".
+    - "Al chicharrón hay que 'sobarlo' con bicarbonato para que la piel toteé (explote) y quede galleta".
+    - Se dice que los 9 ingredientes representan la abundancia de la tierra antioqueña.
+
+### 📚 Estudios y Referencias
+
+1. *McGee, H. (2004).* "On Food and Cooking". (Mecánica de la fritura de piel de cerdo).
+2. *Reyes et al.* "Antioxidant capacity of common bean (Phaseolus vulgaris L.) cultivars grown in Colombia".
+3. USDA FoodData Central: Pork, cured, bacon.
 
 ### Sabores y Consejos de Restaurantes Emblemáticos
 

@@ -99,31 +99,41 @@ La Lechona Tolimense es uno de los platos más emblemáticos del Tolima y el cen
 
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-### Categorización Sensorial y de Uso
+### 📊 Perfil Sensorial Estandarizado
 
-- **Tipo de plato:** Plato fuerte, festivo
-- **Perfil de sabor dominante:** Salado, Umami
-- **Textura principal:** Crujiente (piel), Jugoso (relleno de arroz y carne), Suave (arveja)
-- **Aroma destacado:** Ahumado, Herbal (laurel y tomillo), Graso
-- **Presentación y experiencia:** Se sirve en porciones generosas, con piel crocante, relleno jugoso y arepa blanca. Es el plato estrella en fiestas y celebraciones familiares.
-- **Opiniones y experiencia de usuario:** "La piel crocante es adictiva, el relleno es jugoso y aromático, y la combinación con arepa y limón hace que cada bocado sea inolvidable". "Ideal para compartir en fiestas y celebraciones". (Opiniones extraídas de reseñas de Google Maps y foros gastronómicos)
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Umami, Cárnico       | 5/5              | Nucleótidos (cerdo), Glutamato (arveja). |
+| **Aroma**| Cerdo Asado, Hierbas | 4/5              | Reacción de Maillard (piel), Terpenos (laurel/tomillo). |
+| **Textura**| Contraste Extremo    | 5/5              | Piel vítrea crujiente vs. Relleno húmedo y suave. |
+| **Boca** | Untuoso              | 4/5              | Recubrimiento lipídico (manteca). |
 
-### Opiniones de usuarios
+### ⚗️ Química y Física Culinaria
 
-- **Usuario anónimo (Google Maps):** "La lechona de Tolima es la mejor, la piel es como chicharrón y el relleno es muy sabroso, con el punto justo de grasa".
-- **Foro gastronómico:** "Nada supera una buena lechona en familia, el aroma al abrirla es espectacular y la piel cruje como debe ser".
-calificación: ★★★★★ 5/5
+- **El Fenómeno de la Piel ("Leather to Glass"):** La piel del cerdo es colágeno duro. La cocción lenta (6-8h) hidroliza el colágeno en gelatina suave. El golpe de calor final (o la deshidratación progresiva) evapora el agua restante en la superficie, dejando una matriz proteica seca y frágil que cruje como vidrio (*glassy state transition*), no correosa.
+- **Confitado Interno:** El relleno no se hornea en seco. La grasa intramuscular del cerdo y la adicionada se funden (renderizan), percolando hacia abajo a través del arroz y las arvejas. Esto cocina los granos en un medio graso (confitado), evitando que el arroz se abra ("floree") excesivamente y manteniéndolo suelto pero húmedo.
+- **Difusión de Aromas:** Al estar sellado ("cojín"), los compuestos volátiles de las hierbas y especias no escapan, sino que recirculan y se impregnan en la grasa, que actúa como solvente excelente para los aromas liposolubles.
 
-### Perfil Nutricional de Ingredientes Clave (por 100g)
+### 🍎 Nutrición y Metabolismo
 
-| Ingrediente           | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|-----------------------|-----------------|--------------|-----------|------------|----------------------|
-| Cerdo (carne magra)   | 242             | 27           | 0         | 14         | Hierro, Zinc         |
-| Piel de cerdo         | 544             | 61           | 0         | 31         | Colágeno             |
-| Arroz blanco          | 130             | 2.5          | 28        | 0.3        | Almidón              |
-| Arveja amarilla       | 118             | 8.3          | 21        | 0.4        | Fibra, Folato        |
+- **Calorías:** Muy alta densidad calórica por la grasa absorbida.
+- **Perfil Proteico:** Excelente calidad. El cerdo aporta todos los aminoácidos esenciales, complementado por la arveja y el arroz (aunque el arroz es minoritario en la lechona tolimense auténtica).
+- **Colágeno:** La piel y el tejido conectivo disuelto aportan glicina y prolina.
+- **Digestibilidad:** La cocción extremadamente larga predigiere las proteínas y almidones, facilitando la asimilación, aunque la alta carga grasa retarda el vaciado gástrico (sensación de llenura prolongada).
 
-*Fuente: USDA FoodData Central, TCAC, fuentes locales*
+### 🕰️ Contexto Socio-Cultural y Saberes Ancestrales
+
+- **Historia y Origen:** La Lechona es una adaptación mestiza del "Asado Castellano" (cerdo asado) español. Al no haber trigo abundante para el pan acompañante, se reemplazó por arepa de maíz; y el relleno evolucionó para usar ingredientes locales.
+- **Saberes Ancestrales:**
+    - "Lechona que se respete *no* lleva arroz" (Dicho popular en Huila, aunque la Tolimense *sí* lo lleva por definición para rendirla).
+    - "El horno de barro le da un sabor que el de gas nunca igualará".
+    - Tradicionalmente era el plato de la Nochebuena y celebraciones de San Juan y San Pedro.
+
+### 📚 Estudios y Referencias
+
+1. *Varela, G.* "Frying of Food". (Principios de transferencia de calor y masa en fritura/horneado graso).
+2. *Pork Checkoff.* "Nutritional value of pork skin and lard".
+3. *Gisslen, W.* "Professional Cooking" (Técnicas de asado y confitado).
 
 ---
 

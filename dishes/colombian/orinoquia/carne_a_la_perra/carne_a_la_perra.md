@@ -67,7 +67,7 @@ La Carne a la Perra es un plato tradicional de los llanos orientales de Colombia
 
 ## 📸 Galería
 
-*Próximamente...*
+![Carne a la Perra Llanera](./images/1.png)
 
 ---
 
@@ -85,7 +85,7 @@ La Carne a la Perra es un plato tradicional de los llanos orientales de Colombia
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "La carne a la perra es insuperable, el sabor ahumado y la carne jugosa la hacen única".
-- **Foro gastronómico:** "El secreto está en la leña y el marinado con hierbas frescas, le da el toque auténtico llanero".  
+- **Foro gastronómico:** "El secreto está en la leña y el marinado con hierbas frescas, le da el toque auténtico llanero".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

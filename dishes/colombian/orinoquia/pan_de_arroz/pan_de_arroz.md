@@ -62,7 +62,9 @@ El Pan de Arroz es una delicia tradicional de la Orinoquía colombiana, especial
 
 ## 📸 Galería
 
-*Próximamente...*
+## 📸 Galería
+
+![Pan de Arroz Llanero](./images/1.png)
 
 ---
 
@@ -80,7 +82,7 @@ El Pan de Arroz es una delicia tradicional de la Orinoquía colombiana, especial
 ### Opiniones de usuarios
 
 - **Usuario anónimo (Google Maps):** "El pan de arroz llanero es delicioso, el queso y la textura lo hacen único".
-- **Foro gastronómico:** "El secreto está en el queso llanero fresco y moler bien el arroz".  
+- **Foro gastronómico:** "El secreto está en el queso llanero fresco y moler bien el arroz".
 calificación: ★★★★★ 5/5
 
 ### Perfil Nutricional de Ingredientes Clave (por 100g)

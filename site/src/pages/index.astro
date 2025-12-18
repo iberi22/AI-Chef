@@ -236,137 +236,185 @@ const baseUrl = import.meta.env.BASE_URL;
 </Layout>
 
 <script>
-  // Client-side filtering logic
-  document.addEventListener('astro:page-load', () => {
+  // Client-side filtering and search logic
+  document.addEventListener('astro:page-load', async () => {
     const searchInput = document.getElementById('search-input');
     const categoryBtns = document.querySelectorAll('.category-btn');
-    const recipeItems = document.querySelectorAll('.recipe-item');
+    const recipeGrid = document.getElementById('recipe-grid');
     const noResults = document.getElementById('no-results');
     const navFavorites = document.getElementById('nav-favorites');
+    const loadingIndicator = document.getElementById('loading-more');
 
+    let allRecipes = []; // Will hold the fetched search index
     let currentCategory = 'all';
     let currentSearch = '';
     let showFavoritesOnly = false;
+    const baseUrl = import.meta.env.BASE_URL === '/' ? '' : import.meta.env.BASE_URL;
 
     // Load favorites from localStorage
-    const getFavorites = () => JSON.parse(localStorage.getItem('ai-chef-favorites') || '[]');
-    const setFavorites = (favs) => localStorage.setItem('ai-chef-favorites', JSON.stringify(favs));
+    const getFavorites = () => JSON.parse(localStorage.getItem('ai_chef_favorites') || '[]');
+    const setFavorites = (favs) => localStorage.setItem('ai_chef_favorites', JSON.stringify(favs));
 
-    // Initialize favorite buttons
-    function initFavoriteButtons() {
+    // Fetch Search Index
+    try {
+        const response = await fetch(`${baseUrl}/search-index.json`);
+        allRecipes = await response.json();
+    } catch (error) {
+        console.error("Failed to load search index:", error);
+    }
+
+    // Initialize favorite buttons delegated event
+    // We delegate because we re-render grid items dynamically
+    recipeGrid?.addEventListener('click', (e) => {
+        const btn = e.target.closest('.fav-btn');
+        if (!btn) return;
+
+        e.preventDefault();
+        e.stopPropagation();
+
+        const slug = btn.dataset.slug;
+        if (!slug) return;
+
+        const currentFavs = getFavorites();
+        if (currentFavs.some(f => f.slug === slug)) { // Check by slug
+             const newFavs = currentFavs.filter(f => f.slug !== slug);
+             setFavorites(newFavs);
+             btn.classList.remove('active');
+        } else {
+             // Find recipe data to save minimal info
+             const recipeData = allRecipes.find(r => r.slug === slug);
+             if (recipeData) {
+                 // Save minimal data needed for rendering favorites page
+                 currentFavs.push({
+                     slug: recipeData.slug,
+                     title: recipeData.title,
+                     image: recipeData.image
+                 });
+                 setFavorites(currentFavs);
+                 btn.classList.add('active');
+             }
+        }
+
+        // Update styling if in favorites mode
+        if (showFavoritesOnly) {
+            renderRecipes();
+        }
+    });
+
+    // Initial Active States for SSR buttons
+    function updateFavoriteButtons() {
         const favorites = getFavorites();
         document.querySelectorAll('.fav-btn').forEach(btn => {
             const slug = btn.dataset.slug;
-            if (slug && favorites.includes(slug)) {
+            if (favorites.some(f => f.slug === slug)) {
                 btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
             }
-
-            // Remove old listeners to avoid duplicates if re-running (though page-load runs once per nav)
-            const newBtn = btn.cloneNode(true);
-            btn.parentNode?.replaceChild(newBtn, btn);
-
-            newBtn.addEventListener('click', (e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                const target = e.currentTarget;
-                const s = target.dataset.slug;
-                if (!s) return;
-
-                const currentFavs = getFavorites();
-                if (currentFavs.includes(s)) {
-                    const newFavs = currentFavs.filter(f => f !== s);
-                    setFavorites(newFavs);
-                    target.classList.remove('active');
-                } else {
-                    currentFavs.push(s);
-                    setFavorites(currentFavs);
-                    target.classList.add('active');
-                }
-
-                // If we are in favorites view, re-filter to hide removed item
-                if (showFavoritesOnly) {
-                    filterRecipes();
-                }
-            });
         });
     }
 
-    function filterRecipes() {
-      let visibleCount = 0;
-      const favorites = getFavorites();
+    function generateCardHTML(recipe) {
+        // Fallback for SSR items that might differ slightly in data structure
+        // But here we rely on search-index.json structure
+        const isFav = getFavorites().some(f => f.slug === recipe.slug);
+        const imageSrc = recipe.image || '';
 
-      recipeItems.forEach(item => {
-        const itemCategory = item.dataset.category;
-        const itemTitle = item.dataset.title;
-        // We need to get the slug from the RecipeCard link inside the item
-        // Or better, get it from the fav-btn inside
-        const favBtn = item.querySelector('.fav-btn');
-        const slug = favBtn?.dataset.slug;
+        // Replicating RecipeCard structure roughly
+        return `
+            <div
+              class="recipe-item group relative flex flex-col overflow-hidden rounded-2xl bg-surface-light dark:bg-surface-dark shadow-sm ring-1 ring-black/5 dark:ring-white/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-neon hover:ring-primary/50"
+              data-category="${recipe.category || 'other'}"
+              data-title="${recipe.title.toLowerCase()}"
+            >
+              <a href="${baseUrl}/dishes/${recipe.slug}" class="absolute inset-0 z-0" aria-label="View recipe: ${recipe.title}"></a>
 
-        const matchesCategory = currentCategory === 'all' || itemCategory === currentCategory;
-        const matchesSearch = itemTitle?.includes(currentSearch);
-        const matchesFavorite = !showFavoritesOnly || (slug && favorites.includes(slug));
+              <div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 dark:bg-gray-800 relative pointer-events-none">
+                ${imageSrc ?
+                   `<img src="${imageSrc}" alt="${recipe.title}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" />`
+                   : `<div class="flex h-full w-full items-center justify-center text-gray-300 dark:text-gray-600"><span class="material-symbols-outlined text-6xl">restaurant_menu</span></div>`
+                }
 
-        if (matchesCategory && matchesSearch && matchesFavorite) {
-          item.classList.remove('hidden');
-          visibleCount++;
+                <div class="absolute top-3 right-3 z-20 pointer-events-auto">
+                  <button class="fav-btn flex size-8 items-center justify-center rounded-full bg-white/90 backdrop-blur-sm text-gray-400 shadow-sm transition-all hover:scale-110 hover:text-red-500 dark:bg-black/60 ${isFav ? 'active' : ''}" data-slug="${recipe.slug}" aria-label="Add to favorites">
+                    <span class="material-symbols-outlined text-[20px] font-variation-settings-fill ${isFav ? 'text-red-500 fill-1' : ''}">favorite</span>
+                  </button>
+                </div>
+                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                 ${recipe.region ? `<div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-md bg-black/60 px-2 py-1 text-xs font-medium text-white backdrop-blur-md">${recipe.region}</span></div>` : ''}
+              </div>
+
+              <div class="flex flex-1 flex-col p-5 pointer-events-none">
+                 <div class="mb-2 flex items-center justify-between">
+                    <span class="text-xs font-bold uppercase tracking-wider text-primary">${recipe.category || 'Recipe'}</span>
+                    ${recipe.rating ? `<div class="flex items-center gap-1 text-xs font-bold text-yellow-500"><span class="material-symbols-outlined text-[14px] fill-1">star</span><span>${recipe.rating}</span></div>` : ''}
+                 </div>
+                 <h3 class="mb-2 font-display text-xl font-bold leading-tight text-text-light dark:text-text-dark group-hover:text-primary transition-colors line-clamp-2">
+                    ${recipe.title}
+                 </h3>
+                 <div class="mt-auto flex items-center gap-4 text-xs font-medium text-gray-500 dark:text-gray-400">
+                    <div class="flex items-center gap-1">
+                        <span class="material-symbols-outlined text-[16px]">schedule</span>
+                        <span>${recipe.time || 'N/A'}</span>
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <span class="material-symbols-outlined text-[16px]">local_fire_department</span>
+                        <span>${recipe.calories || 'N/A'} cal</span>
+                    </div>
+                 </div>
+              </div>
+            </div>
+        `;
+    }
+
+    function renderRecipes() {
+        if (!allRecipes.length) return; // Wait until index is loaded
+
+        const favorites = getFavorites();
+
+        let filtered = allRecipes.filter(r => {
+             // Category Filter
+             const matchCat = currentCategory === 'all' || r.category === currentCategory;
+
+             // Search Filter (Title + Ingredients)
+             const searchLower = currentSearch.toLowerCase();
+             const matchSearch = !currentSearch ||
+                                 r.title.toLowerCase().includes(searchLower) ||
+                                 (r.ingredients && r.ingredients.includes(searchLower));
+
+             // Favorites Filter
+             const matchFav = !showFavoritesOnly || favorites.some(f => f.slug === r.slug);
+
+             return matchCat && matchSearch && matchFav;
+        });
+
+        // Limit results if too many? For now render all but maybe implement pagination if needed in future
+        // We'll just render them all for simplicity as requested "el buscador funcione"
+
+        if (filtered.length === 0) {
+             noResults.classList.remove('hidden');
+             recipeGrid.innerHTML = '';
         } else {
-          item.classList.add('hidden');
+             noResults.classList.add('hidden');
+             // Rebuild Grid
+             recipeGrid.innerHTML = filtered.map(generateCardHTML).join('');
         }
-      });
-
-      if (noResults) {
-        noResults.classList.toggle('hidden', visibleCount === 0);
-      }
     }
-
-    // Initialize
-    initFavoriteButtons();
-
-    // Random shuffle Logic
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
-    }
-
-    // Shuffle grid items on load (only if not sorting explicitly)
-    function randomShuffleGrid() {
-        const grid = document.getElementById('recipe-grid');
-        if (!grid) return;
-
-        const items = Array.from(grid.children);
-        const shuffled = shuffleArray(items);
-
-        // Use DocumentFragment for performance
-        const fragment = document.createDocumentFragment();
-        shuffled.forEach(item => fragment.appendChild(item));
-        grid.appendChild(fragment);
-    }
-
-    // Execute shuffle - DISABLED to keep images-first order
-    // randomShuffleGrid();
-
-    // Load persisted filters if any (Optional - for now just shuffle)
-    // const savedCategory = localStorage.getItem('ai-chef-category');
-    // if(savedCategory) { ... }
 
     // Search Event
     searchInput?.addEventListener('input', (e) => {
-      currentSearch = e.target.value.toLowerCase();
-      filterRecipes();
+      currentSearch = e.target.value;
+      if (allRecipes.length) {
+          renderRecipes();
+      }
     });
 
     // Category Events
     categoryBtns.forEach(btn => {
       btn.addEventListener('click', () => {
-        // Reset favorites mode if active
         showFavoritesOnly = false;
         navFavorites?.classList.remove('text-primary');
 
-        // Update active state
         categoryBtns.forEach(b => {
             b.classList.remove('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
             b.classList.add('bg-white', 'text-text-light', 'dark:bg-surface-dark', 'dark:text-text-dark');
@@ -374,13 +422,8 @@ const baseUrl = import.meta.env.BASE_URL;
         btn.classList.remove('bg-white', 'text-text-light', 'dark:bg-surface-dark', 'dark:text-text-dark');
         btn.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
 
-        const newCategory = btn.dataset.category || 'all';
-        currentCategory = newCategory;
-
-        // Persist category preference? Maybe annoying if random is default.
-        // localStorage.setItem('ai-chef-category', newCategory);
-
-        filterRecipes();
+        currentCategory = btn.dataset.category || 'all';
+        renderRecipes();
       });
     });
 
@@ -391,82 +434,27 @@ const baseUrl = import.meta.env.BASE_URL;
 
         if (showFavoritesOnly) {
             navFavorites.classList.add('text-primary');
-            // Reset category visual state to "all" or none, but logic handles it
         } else {
             navFavorites.classList.remove('text-primary');
         }
-        filterRecipes();
+        renderRecipes();
     });
 
-    // =============================================
-    // INFINITE SCROLL LOGIC
-    // =============================================
-    const ITEMS_PER_PAGE = 20;
-    let currentlyShown = ITEMS_PER_PAGE;
-    let isLoading = false;
-    const loadingIndicator = document.getElementById('loading-more');
-    const endIndicator = document.getElementById('end-of-recipes');
-    const allRecipeItems = Array.from(recipeItems);
-    const totalRecipes = allRecipeItems.length;
+    // Initial buttons update
+    updateFavoriteButtons();
 
-    function loadMoreRecipes() {
-        if (isLoading || currentlyShown >= totalRecipes) return;
+    // Auto-load index if not loaded yet
+    setTimeout(() => {
+        if (allRecipes.length === 0) {
+             // Retry or just wait for fetch
+        } else {
+            // Optional: Re-render if you want to ensure parity between SSR and Client content
+            // but SSR content is fine for initial view.
+            // Actually, we should probably establish our "truth" from the index to enable full search immediately
+            // But lets wait for user interaction or index load.
+        }
+    }, 500);
 
-        isLoading = true;
-        loadingIndicator?.classList.remove('hidden');
-
-        // Simulate slight delay for UX (can be removed for instant load)
-        setTimeout(() => {
-            const nextBatch = Math.min(currentlyShown + ITEMS_PER_PAGE, totalRecipes);
-
-            for (let i = currentlyShown; i < nextBatch; i++) {
-                const item = allRecipeItems[i];
-                if (item) {
-                    item.classList.remove('hidden');
-                    // Add fade-in animation
-                    item.style.opacity = '0';
-                    item.style.transform = 'translateY(20px)';
-                    requestAnimationFrame(() => {
-                        item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
-                        item.style.opacity = '1';
-                        item.style.transform = 'translateY(0)';
-                    });
-                }
-            }
-
-            currentlyShown = nextBatch;
-            isLoading = false;
-            loadingIndicator?.classList.add('hidden');
-
-            // Check if we've loaded all recipes
-            if (currentlyShown >= totalRecipes) {
-                endIndicator?.classList.remove('hidden');
-            }
-
-            // Reinitialize favorite buttons for newly loaded items
-            initFavoriteButtons();
-        }, 300);
-    }
-
-    // Intersection Observer for infinite scroll
-    const scrollObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting && !isLoading) {
-                loadMoreRecipes();
-            }
-        });
-    }, {
-        rootMargin: '200px' // Load more when 200px from bottom
-    });
-
-    // Observe the loading indicator
-    if (loadingIndicator) {
-        // Create a sentinel element at the bottom
-        const sentinel = document.createElement('div');
-        sentinel.id = 'scroll-sentinel';
-        sentinel.style.height = '1px';
-        loadingIndicator.parentNode?.insertBefore(sentinel, loadingIndicator);
-        scrollObserver.observe(sentinel);
-    }
   });
 </script>
+

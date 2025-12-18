@@ -102,7 +102,9 @@ La salchipapa es uno de los platos callejeros más populares y virales de Colomb
 
 ## 📸 Galería
 
-*Próximamente...*
+## 📸 Galería
+
+![Salchipapa Costeña](./images/1.png)
 
 ---
 

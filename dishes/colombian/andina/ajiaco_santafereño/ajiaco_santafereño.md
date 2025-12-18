@@ -114,24 +114,45 @@ El Ajiaco Santafereño es la sopa más representativa de Bogotá, la capital de 
 
 ## 🔬 Análisis Detallado y Sabiduría Colectiva
 
-Esta sección profundiza en los componentes del Ajiaco Santafereño y los consejos de la comunidad para llevarlo al siguiente nivel.
+### 📊 Perfil Sensorial Estandarizado
 
-### Categorización Sensorial y de Uso
+| Atributo | Descriptor Principal | Intensidad (1-5) | Notas Químicas |
+|----------|----------------------|------------------|----------------|
+| **Sabor**| Salado, Umami        | 4/5              | Glutamato libre (pollo, maíz) y cloruro de sodio. |
+| **Aroma**| Herbal, Lácteo       | 5/5              | Compuestos terpenoides de las guascas (*G. parviflora*). |
+| **Textura**| Cremosa, Espesa      | 5/5              | Alta viscosidad por amilopectina de papa criolla. |
+| **Boca** | Suave, Aterciopelada | 5/5              | Recubrimiento graso por crema de leche y aguacate. |
 
-- **Tipo de plato:** Plato fuerte, sopa tradicional
-- **Perfil de sabor dominante:** Salado, Herbal, Umami
-- **Textura principal:** Cremoso (caldo espeso de papa), Suave (pollo desmechado, papas), Crujiente (mazorca y guarniciones)
-- **Aroma destacado:** Herbal (guasca fresca), Lácteo (crema), Maíz
-- **Presentación y experiencia:** Se sirve en plato hondo, acompañado de crema de leche, alcaparras, arroz blanco y aguacate. Es un plato reconfortante, típico de reuniones familiares, domingos y festividades en Bogotá.
-- **Opiniones y experiencia de usuario:** "El sabor herbal de la guasca es inconfundible y reconfortante, la mezcla de papas crea una textura cremosa única". "La combinación de acompañamientos permite personalizar cada cucharada, y el aroma es profundamente hogareño". (Opiniones extraídas de Google Maps, TripAdvisor y reseñas de Infobae)
+### ⚗️ Química y Física Culinaria
 
-### Perfil Nutricional de Ingredientes Clave (por 100g)
+- **Espesamiento por Amilopectina:** La **Papa Criolla** (*Solanum phureja*) tiene un alto contenido de amilopectina y paredes celulares frágiles. Al hervir, los gránulos de almidón absorben agua, se hinchan y estallan rápidamente (gelatinización), liberando el almidón en el caldo y creando la textura espesa característica sin necesidad de harina.
+- **Extracción de Aromas (Guascas):** Las **Guascas** se agregan en dos tiempos (o al final) para preservar sus aceites esenciales volátiles (terpenos) que dan el aroma "aserrado" y herbal único. Una cocción excesiva degradaría estos compuestos.
+- **Emulsión Láctea:** La crema de leche añadida al momento de servir crea una emulsión grasa-agua temporal que suaviza la textura y equilibra el perfil salado.
+- **Reacción de Maillard:** Limitada en la sopa (hervido), pero presente si se sella el pollo previamente o en el maíz tostado si se usa como acompañante.
 
-* **Papa Criolla:** 70 kcal, 17g de carbohidratos, 1g de proteínas, 0g de grasas
-* **Papa Pastusa:** 60 kcal, 15g de carbohidratos, 1g de proteínas, 0g de grasas
-* **Papa Sabanera:** 65 kcal, 16g de carbohidratos, 1g de proteínas, 0g de grasas
-* **Pollo:** 110 kcal, 0g de carbohidratos, 25g de proteínas, 3g de grasas
-* **Guascas:** 20 kcal, 4g de carbohidratos, 1g de proteínas, 0g de grasas
+### 🍎 Nutrición y Metabolismo
+
+- **Calorías Totales:** ~450 kcal/porción (con guarniciones).
+- **Perfil:** Alto en carbohidratos complejos (tres tipos de papa, maíz). La proteína del pollo es de alto valor biológico.
+- **Bioactivos:**
+    - **Zeaxantina:** Pigmento carotenoide de la papa criolla, antioxidante visual.
+    - **Flavonoides:** Presentes en las guascas.
+- **Carga Glucémica:** Alta. La degradación térmica prolongada del almidón facilita su conversión a glucosa. Se recomienda moderar la porción de arroz acompañante.
+- **Micronutrientes:** Potasio (papas), Vitamina B6 (pollo).
+
+### 🕰️ Contexto Socio-Cultural y Saberes Ancestrales
+
+- **Historia y Origen:** El Ajiaco tiene sus raíces en una sopa muisca de maíz y papa, transformada con la llegada de los españoles que aportaron el pollo y las alcaparras. Su nombre podría derivar del término indígena *Aji* (picante), aunque la versión moderna no lo es.
+- **Saberes Ancestrales:**
+    - "La guasca se debe agregar con la mano y no con cuchillo para que no se negree".
+    - "El espesor lo da la mano de la cocinera, no solo la papa criolla; hay que revolver constantemente en la misma dirección".
+    - Se considera un "plato de domingo" sagrado para unir a la familia.
+
+### 📚 Estudios y Referencias
+
+1. *Cichy et al. (2012).* "Nutritional composition of native potato cultivars". (Sobre *Solanum phureja*).
+2. USDA FoodData Central.
+3. *Vargas et al.* "Etnobotánica de Galinsoga parviflora en los Andes".
 
 ---
 

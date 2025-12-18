@@ -201,4 +201,17 @@ const baseUrl = import.meta.env.BASE_URL;
 		background: var(--color-primary);
 		filter: brightness(1.1);
 	}
+
+    @media print {
+        header, footer, .no-print { display: none !important; }
+        body { background: white !important; color: black !important; }
+        .glass-panel, .card-glass { background: transparent !important; border: none !important; box-shadow: none !important; }
+        .min-h-screen { min-height: 0 !important; }
+
+        /* Ensure content is visible */
+        article, main { width: 100% !important; margin: 0 !important; padding: 0 !important; }
+
+        /* Hide animations and interactive elements */
+        .animate-fade-in-up { opacity: 1 !important; transform: none !important; }
+    }
 </style>

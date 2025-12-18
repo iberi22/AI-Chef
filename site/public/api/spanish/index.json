@@ -1538,6 +1538,97 @@
       "filePath": "dishes/colombian/andina/manjar_blanco/manjar_blanco.md"
     },
     {
+      "id": "colombian/andina/mondongo_antioqueño/mondongo_antioqueño",
+      "title": "Mondongo Antioqueño",
+      "language": "spanish",
+      "country": "colombia",
+      "hasMetadata": true,
+      "metadata": {
+        "title": "Mondongo Antioqueño",
+        "region": "Andina",
+        "categories": [
+          "Sopa",
+          "Plato fuerte",
+          "Tradicional"
+        ],
+        "sensory": {
+          "flavor": [
+            "Cárnico",
+            "Especiado",
+            "Umami"
+          ],
+          "texture": [
+            "Espeso",
+            "Tropezudo",
+            "Masticable"
+          ],
+          "aroma": [
+            "Comino",
+            "Cerdo",
+            "Cilantro"
+          ],
+          "presentation": "Se sirve en plato hondo, muy caliente, acompañado de aguacate, banano, arroz y arepa."
+        },
+        "main_ingredients": [
+          "Mondongo",
+          "Carne de cerdo",
+          "Chorizo",
+          "Papa criolla",
+          "Papa capira",
+          "Yuca",
+          "Arveja"
+        ],
+        "difficulty": "★★★★☆",
+        "prep_time": "45 minutos",
+        "cook_time": "2 horas",
+        "servings": 8,
+        "nutrition": {
+          "calories": 650,
+          "macros": {
+            "protein_g": 45,
+            "fat_g": 25,
+            "carbs_g": 55
+          }
+        },
+        "tags": [
+          "Sopa",
+          "Fin de semana",
+          "Tradicional"
+        ],
+        "images": [
+          {
+            "url": "https://pixabay.com/es/photos/mondongo-soup-colombian-food-6146244/",
+            "description": "Sopa de mondongo tradicional (Pixabay)"
+          }
+        ],
+        "description": "El Mondongo Antioqueño es una sopa espesa y contundente hecha a base de callos (panza de res), carne de cerdo y verduras. es un plato emblemático de los fines de semana en Antioquia."
+      },
+      "category": [
+        "Sopa",
+        "Plato fuerte",
+        "Tradicional"
+      ],
+      "difficulty": "★★★★☆",
+      "prepTime": "45 minutos",
+      "cookTime": "2 horas",
+      "servings": 8,
+      "mainIngredients": [
+        "Mondongo",
+        "Carne de cerdo",
+        "Chorizo",
+        "Papa criolla",
+        "Papa capira",
+        "Yuca",
+        "Arveja"
+      ],
+      "tags": [
+        "Sopa",
+        "Fin de semana",
+        "Tradicional"
+      ],
+      "filePath": "dishes/colombian/andina/mondongo_antioqueño/mondongo_antioqueño.md"
+    },
+    {
       "id": "colombian/andina/mute_santandereano/mute_santandereano",
       "title": "Mute Santandereano",
       "language": "spanish",
@@ -6691,5 +6782,5 @@
       "filePath": "dishes/peruvian/arroz_con_pollo.md"
     }
   ],
-  "count": 102
+  "count": 103
 }
