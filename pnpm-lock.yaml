@@ -36,7 +36,7 @@ importers:
     dependencies:
       '@swal/ui':
         specifier: github:iberi22/swal-ui
-        version: https://codeload.github.com/iberi22/swal-ui/tar.gz/a9fbf6a381a4b3d1f9af9211046a9bceedc9756c(svelte@5.57.0)
+        version: https://codeload.github.com/iberi22/swal-ui/tar.gz/9e2d78110a7b2857da0a603657e6878b1fc8d300(svelte@5.57.0)
       '@xenova/transformers':
         specifier: ^2.17.2
         version: 2.17.2(@types/node@26.4.0)
@@ -2131,8 +2131,8 @@ packages:
       svelte: ^5.0.0
       vite: ^6.0.0
 
-  '@swal/ui@https://codeload.github.com/iberi22/swal-ui/tar.gz/a9fbf6a381a4b3d1f9af9211046a9bceedc9756c':
-    resolution: {gitHosted: true, integrity: sha512-4Ov9VqFco06atIiWehtDUxw35eXxL6g72aQY6Xz2FFdYSAfGeWwrsz53FQ8y55NTHmOwTOxROfOg1F92oJvV3g==, tarball: https://codeload.github.com/iberi22/swal-ui/tar.gz/a9fbf6a381a4b3d1f9af9211046a9bceedc9756c}
+  '@swal/ui@https://codeload.github.com/iberi22/swal-ui/tar.gz/9e2d78110a7b2857da0a603657e6878b1fc8d300':
+    resolution: {gitHosted: true, integrity: sha512-NWBnCqGQWxzNWXM3IOqOo1NcSP2xre2lu5DfoDbU6kDxtj7y5Y9gPAROIvb954P27lom7WAgbdTXvoQK/LBtkQ==, tarball: https://codeload.github.com/iberi22/swal-ui/tar.gz/9e2d78110a7b2857da0a603657e6878b1fc8d300}
     version: 0.2.0
     peerDependencies:
       svelte: ^5.0.0
@@ -6716,7 +6716,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@swal/ui@https://codeload.github.com/iberi22/swal-ui/tar.gz/a9fbf6a381a4b3d1f9af9211046a9bceedc9756c(svelte@5.57.0)':
+  '@swal/ui@https://codeload.github.com/iberi22/swal-ui/tar.gz/9e2d78110a7b2857da0a603657e6878b1fc8d300(svelte@5.57.0)':
     dependencies:
       svelte: 5.57.0
 
