@@ -21,7 +21,7 @@ tags:
   - GOS Catalog
   - HI Wave-1
 main_ingredients:
-  - Harina multigrano (Bhajanee: garbanzo, trigo, mijo, sorgo)
+  - "Harina multigrano (Bhajanee: garbanzo, trigo, mijo, sorgo)"
   - Cebolla picada
   - Cilantro fresco
   - Semillas de ajonjolí
