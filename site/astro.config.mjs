@@ -11,12 +11,22 @@ export default defineConfig({
   output: 'static',
   integrations: [svelte()],
   vite: {
+    // sigma/graphology se importan dinámicamente (SSR-safe): forzar
+    // pre-bundle para que /node_modules/.vite/deps/*.js exista en dev.
+    // Sin esto el browser da 504 Outdated Optimize Dep.
+    optimizeDeps: {
+      include: ['graphology', 'graphology-layout-forceatlas2', 'sigma'],
+    },
     plugins: [
       tailwindcss(),
       VitePWA({
         registerType: 'autoUpdate',
         includeAssets: ['favicon.svg', 'icons/*', 'images/*'],
         manifest: false,
+        // SW desactivado en dev: un SW registrado intercepta localhost y
+        // sirve respuestas rancias/rotas (incidente 2026-09-06: clone de
+        // Response + deps 504). En prod (preview/build) sigue activo.
+        devOptions: { enabled: false },
         workbox: {
           globPatterns: ['**/*.{js,css,html,svg,png,woff2,webp}'],
           runtimeCaching: [
