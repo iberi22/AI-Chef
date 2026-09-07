@@ -66,6 +66,7 @@ El Chashu es el infaltable topping de panceta de cerdo enrollada y guisada a fue
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Panceta de cerdo con piel

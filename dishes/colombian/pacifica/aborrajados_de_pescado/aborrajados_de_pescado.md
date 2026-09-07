@@ -68,6 +68,7 @@ Los Aborrajados de Pescado son una delicia tradicional del Pacífico colombiano,
 * **Porciones:** 12 aborrajados
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 plátanos maduros grandes

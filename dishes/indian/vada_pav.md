@@ -61,6 +61,7 @@ Vada Pav es uno de los platos más emblemáticos de la gastronomía de Bombay / 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Bola de patata frita especiada

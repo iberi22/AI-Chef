@@ -65,6 +65,7 @@ El refajo es la respuesta colombiana a la necesidad de acompañar comidas pesada
 * **Porciones:** 4 vasos (o una jarra)
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 litro de Gaseosa Colombiana (o cualquier soda roja sabor "kola")

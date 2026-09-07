@@ -68,6 +68,7 @@ La Sopa de Tortilla es una sopa tradicional mexicana cuyo caldo concentrado de j
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Caldo de pollo

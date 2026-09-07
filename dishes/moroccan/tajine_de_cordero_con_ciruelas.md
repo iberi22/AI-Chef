@@ -66,6 +66,7 @@ Tajine de Cordero con Ciruelas y Almendras es uno de los platos más emblemátic
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Cordero

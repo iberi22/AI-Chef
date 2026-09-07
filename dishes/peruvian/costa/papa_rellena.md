@@ -73,6 +73,7 @@ La Papa Rellena es una de las entradas y "snacks" al paso más populares del Per
 * **Porciones:** 6 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para la Masa de Papa:**

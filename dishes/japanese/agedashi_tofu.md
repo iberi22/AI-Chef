@@ -67,6 +67,7 @@ El Agedashi Tofu consiste en cubos de tofu rebozados en almidón de patata y fri
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Tofu firme escurrido

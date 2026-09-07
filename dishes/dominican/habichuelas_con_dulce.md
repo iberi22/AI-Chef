@@ -80,6 +80,7 @@ Las Habichuelas con Dulce son la cumbre de la originalidad culinaria de la Repú
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Crema de Habichuelas Dulce:**

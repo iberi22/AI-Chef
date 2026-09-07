@@ -68,6 +68,7 @@ La Cochinita Pibil es un orgullo yucateco de origen maya, donde el cerdo se mari
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de cerdo (cabeza de lomo)

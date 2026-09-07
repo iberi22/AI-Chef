@@ -73,6 +73,7 @@ El Chupe de Camarones es un plato monumental, cumbre de la cocina de picantería
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Camarón (El Protagonista):**

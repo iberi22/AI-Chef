@@ -70,6 +70,7 @@ El Pernil Asado es el corazón de las fiestas puertorriqueñas. El aroma del per
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Cerdo:**

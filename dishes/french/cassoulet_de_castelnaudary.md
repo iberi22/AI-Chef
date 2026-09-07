@@ -62,6 +62,7 @@ Cassoulet de Castelnaudary es uno de los platos más emblemáticos de la gastron
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Alubias blancas

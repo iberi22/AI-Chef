@@ -75,6 +75,7 @@ El Choripán es la comida callejera suprema y el alma de los estadios de fútbol
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Ingredientes de la parrillada:**

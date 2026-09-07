@@ -64,6 +64,7 @@ Los Tamales Oaxaqueños se distinguen por estar envueltos en hoja de plátano en
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - Masa de maíz nixtamalizado

@@ -76,6 +76,7 @@ La Milanesa a la Napolitana es el símbolo supremo de los bodegones y de la coci
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para la milanesa base:**

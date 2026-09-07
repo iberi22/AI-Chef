@@ -63,6 +63,7 @@ Ghriba de Almendra y Sésamo es uno de los platos más emblemáticos de la gastr
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Almendra molida

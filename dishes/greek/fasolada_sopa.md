@@ -63,6 +63,7 @@ Fasolada (Sopa de Alubias Blancas) es uno de los platos más emblemáticos de la
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Alubias blancas

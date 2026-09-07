@@ -74,6 +74,7 @@ Los Pastelitos Criollos son sinónimo de las tardes patrias de invierno en la Ar
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para la masa de hojaldre criollo:**

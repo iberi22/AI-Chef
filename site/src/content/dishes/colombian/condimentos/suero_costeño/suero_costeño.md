@@ -20,16 +20,7 @@ description: >-
   su uso en arepas, mote de queso, yuca y comidas típicas de la región.
 media: []
 embedding_version: 1
-main_ingredients:
-  - Leche entera
-  - Cultivo láctico o vinagre
-  - Sal
-prep_time: 48
 cook_time: 30
-servings: 1
-categories:
-  - Salsa
-  - Acompañamiento
 sensory:
   flavor:
     - Ácido láctico
@@ -38,6 +29,15 @@ sensory:
     - Cremoso untuoso
   aroma:
     - Lácteo fermentado
+servings: 1
+prep_time: 48 horas (fermentación)
+main_ingredients:
+  - Leche entera
+  - Cultivo láctico o vinagre
+  - Sal
+categories:
+  - Salsa
+  - Acompañamiento
 ---
 # Suero Costeño
 

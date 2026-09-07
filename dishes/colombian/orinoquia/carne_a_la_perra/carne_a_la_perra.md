@@ -62,6 +62,7 @@ La Carne a la Perra es un plato tradicional de los llanos orientales de Colombia
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - 4 kg de carne de res (preferiblemente costilla, pecho o cadera)

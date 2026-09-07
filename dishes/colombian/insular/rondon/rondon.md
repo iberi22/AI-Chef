@@ -69,6 +69,7 @@ El Rondón es el plato insignia de la región Insular de Colombia, especialmente
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de pescado fresco (pargo, róbalo o similar)

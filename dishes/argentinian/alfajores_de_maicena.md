@@ -75,6 +75,7 @@ El Alfajor de Maicena es el compañero inseparable de las meriendas de la tarde 
 * **Porciones:** 12
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para las tapas de alfajor:**

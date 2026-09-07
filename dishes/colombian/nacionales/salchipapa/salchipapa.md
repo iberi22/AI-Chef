@@ -70,6 +70,7 @@ La salchipapa es uno de los platos callejeros más populares y virales de Colomb
 * **Porciones:** 2-3
 
 ---
+
 ## 📝 Ingredientes
 
 - 3 papas grandes (sabanera o capira)

@@ -63,6 +63,7 @@ Soupe à l'Oignon Gratinée es uno de los platos más emblemáticos de la gastro
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Cebolla

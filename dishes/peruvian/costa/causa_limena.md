@@ -72,6 +72,7 @@ La Causa Limeña es uno de los platos más vistosos y deliciosos del recetario c
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para la Masa de Causa:**

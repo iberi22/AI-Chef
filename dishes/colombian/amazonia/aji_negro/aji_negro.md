@@ -63,6 +63,7 @@ El Ají Negro es una salsa ancestral de la Amazonía, elaborada a partir de ají
 * **Porciones:** 20
 
 ---
+
 ## 📝 Ingredientes
 
 - 20 ajíes amazónicos frescos (charapita, piquín, etc.)

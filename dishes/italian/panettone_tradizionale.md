@@ -65,6 +65,7 @@ El Panettone milanés es la joya de la repostería navideña italiana: un pan du
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - Harina panificable de gran fuerza

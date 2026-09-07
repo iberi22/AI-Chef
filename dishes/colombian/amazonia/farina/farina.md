@@ -57,6 +57,7 @@ La Fariña es un alimento ancestral de la Amazonía, elaborado a partir de yuca 
 * **Porciones:** 20
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 kg de yuca amarga (yuca brava)

@@ -68,6 +68,7 @@ La Sopa de Cangrejo es uno de los platos más emblemáticos de San Andrés y Pro
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de cangrejo azul o cangrejo de mar limpio

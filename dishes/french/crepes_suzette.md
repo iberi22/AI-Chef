@@ -62,6 +62,7 @@ Crêpes Suzette es uno de los platos más emblemáticos de la gastronomía de Co
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Masa de crepe

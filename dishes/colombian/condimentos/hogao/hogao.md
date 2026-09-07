@@ -55,6 +55,7 @@ El hogao es la salsa base por excelencia de la cocina colombiana. Se usa como ac
 * **Porciones:** 1 taza
 
 ---
+
 ## 📝 Ingredientes
 
 - 3 tomates rojos maduros

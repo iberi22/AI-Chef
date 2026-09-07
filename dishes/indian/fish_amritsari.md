@@ -62,6 +62,7 @@ Amritsari Fish Fry es uno de los platos más emblemáticos de la gastronomía de
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pescado blanco en tacos

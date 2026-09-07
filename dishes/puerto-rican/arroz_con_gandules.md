@@ -70,6 +70,7 @@ El Arroz con Gandules es el corazón culinario de Puerto Rico. Este arroz destac
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Arroz y Gandules:**

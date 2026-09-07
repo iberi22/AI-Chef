@@ -65,6 +65,7 @@ Los Gnocchi di Patate son delicadas bolitas de patata y harina servidas con Pest
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Patatas harinosas

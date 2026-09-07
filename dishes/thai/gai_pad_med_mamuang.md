@@ -65,6 +65,7 @@ Gai Pad Med Mamuang (Pollo con Anacardos) es uno de los platos más emblemático
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pollo en dados

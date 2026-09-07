@@ -54,6 +54,7 @@ El guacamole colombiano es una salsa fresca y sencilla, diferente a la versión 
 * **Porciones:** 1 taza
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 aguacates maduros

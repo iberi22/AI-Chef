@@ -69,6 +69,7 @@ El Encocado de Pescado es uno de los platos más emblemáticos del Pacífico col
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de pescado fresco (pargo, róbalo, tollo u otro)

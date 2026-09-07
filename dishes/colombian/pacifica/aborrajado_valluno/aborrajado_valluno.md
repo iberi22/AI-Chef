@@ -68,6 +68,7 @@ El Aborrajado es un ícono del Valle del Cauca, descendiente de la tradición de
 * **Porciones:** 8 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 4 plátanos hartones muy maduros (cáscara amarilla con negro)

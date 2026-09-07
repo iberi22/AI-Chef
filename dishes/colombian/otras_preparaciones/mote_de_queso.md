@@ -69,6 +69,7 @@ description: '* 2 libras de ñame pelado y en cubos'
 7. Ajusta de sal y pimienta y sirve caliente.
 
 ---
+
 ## 📸 Galería
 
 ![Mote de Queso Tradicional](../caribe/mote_de_queso/images/1.png)

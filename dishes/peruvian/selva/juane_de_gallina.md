@@ -72,6 +72,7 @@ El Juane de Gallina es el símbolo indiscutible de la cocina amazónica peruana.
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Gallina y el Aderezo (La Mishquina):**

@@ -73,6 +73,7 @@ Moros y Cristianos es el arroz que define la mesa cubana. A diferencia de los ar
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Los Frijoles Negros y su Caldo:**

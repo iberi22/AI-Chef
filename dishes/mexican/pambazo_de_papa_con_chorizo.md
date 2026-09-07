@@ -67,6 +67,7 @@ El Pambazo es un emparedado popular capitalino cuyo pan se sumerge por completo 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pan telera o pambazo

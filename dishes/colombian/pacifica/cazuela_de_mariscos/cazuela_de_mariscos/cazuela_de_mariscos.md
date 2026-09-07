@@ -70,6 +70,7 @@ La Cazuela de Mariscos en la región Pacífica de Colombia es un plato festivo y
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 300 g de camarones

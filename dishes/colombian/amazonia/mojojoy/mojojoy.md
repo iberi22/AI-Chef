@@ -67,6 +67,7 @@ El Mojojoy es uno de los manjares más exóticos y emblemáticos de la Amazonía
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - 12 mojojoys frescos (larvas amazónicas)

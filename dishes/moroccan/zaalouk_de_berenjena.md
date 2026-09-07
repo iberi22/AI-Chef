@@ -64,6 +64,7 @@ Zaalouk de Berenjena y Tomate es uno de los platos más emblemáticos de la gast
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Berenjena asada

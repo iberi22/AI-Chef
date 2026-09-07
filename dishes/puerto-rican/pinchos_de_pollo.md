@@ -69,6 +69,7 @@ Los Pinchos de Pollo son el bocado por excelencia de la comida rápida boricua. 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Los Pinchos de Pollo:**

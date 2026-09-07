@@ -74,6 +74,7 @@ El Pollo Guisado es el rey de la comida casera dominicana. Se trata de una prepa
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Pollo y su Marinado:**

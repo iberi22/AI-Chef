@@ -69,6 +69,7 @@ La Hayaca Llanera es un plato festivo y ancestral de los llanos colombo-venezola
 * **Porciones:** 12
 
 ---
+
 ## 📝 Ingredientes
 
 ### Para el Guiso (El alma de la hayaca)

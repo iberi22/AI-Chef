@@ -71,6 +71,7 @@ El Ají de Gallina es uno de los platos más representativos y queridos del Per�
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Gallina y el Caldo:**

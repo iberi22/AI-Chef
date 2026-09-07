@@ -65,6 +65,7 @@ Spanakopita (Pastel de Espinacas y Feta) es uno de los platos más emblemáticos
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Masa filo

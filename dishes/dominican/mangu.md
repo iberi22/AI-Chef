@@ -77,6 +77,7 @@ El Mangú es el alma de la cocina dominicana. Consumido a diario en el desayuno 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Mangú de Plátano:**

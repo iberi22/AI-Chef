@@ -65,6 +65,7 @@ La empanada es uno de los snacks más emblemáticos y queridos de Colombia. Su v
 * **Porciones:** 15 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de harina de maíz precocida amarilla

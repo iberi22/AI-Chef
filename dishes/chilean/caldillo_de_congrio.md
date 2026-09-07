@@ -76,6 +76,7 @@ Inmortalizado por el Premio Nobel Pablo Neruda en su 'Oda al Caldillo de Congrio
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para el caldo concentrado (fondo de pescado):**

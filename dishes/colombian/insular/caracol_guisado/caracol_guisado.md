@@ -66,6 +66,7 @@ El Caracol Guisado es un plato icónico de la región Insular, especialmente de 
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de caracol de mar limpio y ablandado

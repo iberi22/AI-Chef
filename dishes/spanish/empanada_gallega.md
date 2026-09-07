@@ -63,6 +63,7 @@ Empanada Gallega de Atún es uno de los platos más emblemáticos de la gastrono
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Masa de empanada

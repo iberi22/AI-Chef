@@ -66,6 +66,7 @@ La Insalata Caprese proviene de la isla de Capri, luciendo los colores italianos
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Mozzarella de Búfala Campana DOP

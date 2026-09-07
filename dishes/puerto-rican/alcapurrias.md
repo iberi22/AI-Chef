@@ -69,6 +69,7 @@ Las Alcapurrias son una de las máximas expresiones de la cultura de las fritura
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Masa de Alcapurria:**

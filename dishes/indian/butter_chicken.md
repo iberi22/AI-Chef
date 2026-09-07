@@ -63,6 +63,7 @@ Butter Chicken (Murgh Makhani) es uno de los platos más emblemáticos de la gas
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pollo marinado

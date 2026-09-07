@@ -73,6 +73,7 @@ El Chimichurri Dominicano, o simplemente *Chimi*, es la comida callejera nocturn
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Carne Sazonada del Chimi:**

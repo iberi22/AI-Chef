@@ -62,6 +62,7 @@ Escargots de Bourgogne es uno de los platos más emblemáticos de la gastronomí
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Caracoles

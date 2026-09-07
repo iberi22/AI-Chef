@@ -78,6 +78,7 @@ El Mondongo Antioqueño es mucho más que una sopa; es una institución de los d
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **Carnes:**

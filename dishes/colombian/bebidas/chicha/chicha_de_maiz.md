@@ -68,6 +68,7 @@ La Chicha es mucho más que una bebida alcohólica; es un símbolo de identidad 
 * **Porciones:** 20 vasos
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de maíz amarillo seco (entero o quebrado)

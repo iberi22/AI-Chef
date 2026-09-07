@@ -73,6 +73,7 @@ La Moqueca es una de las joyas de la corona de la cocina del estado de Bahía, B
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Pescado y Marinado:**

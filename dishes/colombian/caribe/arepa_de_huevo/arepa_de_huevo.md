@@ -71,6 +71,7 @@ La Arepa de Huevo es uno de los íconos de la gastronomía costeña colombiana, 
 * **Porciones:** 10 arepas
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de harina de maíz precocida amarilla

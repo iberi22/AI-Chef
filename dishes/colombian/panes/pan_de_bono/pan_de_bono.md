@@ -67,6 +67,7 @@ El pan de bono es uno de los panes más tradicionales y queridos de Colombia, es
 * **Porciones:** 8 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 250 g de almidón de yuca (tapioca)

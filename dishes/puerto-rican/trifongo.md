@@ -76,6 +76,7 @@ El Trifongo es una obra de arte culinaria de Puerto Rico. Al unir de forma equil
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Trifongo (Tres Almidones a Partes Iguales):**

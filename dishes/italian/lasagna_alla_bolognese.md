@@ -68,6 +68,7 @@ La Lasagna alla Bolognese es un festín de Bolonia compuesto por finas capas de 
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Láminas de pasta al huevo

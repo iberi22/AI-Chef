@@ -76,6 +76,7 @@ La Bandeja Paisa es el plato más emblemático de la región andina de Colombia,
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para el plato principal:**

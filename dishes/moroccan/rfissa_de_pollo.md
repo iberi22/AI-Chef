@@ -63,6 +63,7 @@ Rfissa de Pollo con Lentejas es uno de los platos más emblemáticos de la gastr
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pan msemmen troceado

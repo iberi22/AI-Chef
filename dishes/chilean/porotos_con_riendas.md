@@ -72,6 +72,7 @@ El origen de los 'Porotos con Riendas' se remonta a las zonas rurales de Chile, 
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Ingredientes del guiso:**

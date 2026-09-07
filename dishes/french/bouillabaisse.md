@@ -63,6 +63,7 @@ Bouillabaisse de Marsella es uno de los platos más emblemáticos de la gastrono
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pescado variado

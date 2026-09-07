@@ -69,6 +69,7 @@ Si la arepa de huevo es la reina, la carimañola es la princesa de los fritos co
 * **Porciones:** 10 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 * **Masa:**

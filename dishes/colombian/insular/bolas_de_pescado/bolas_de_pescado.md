@@ -56,6 +56,7 @@ Las Bolas de Pescado son un clásico de la cocina isleña de San Andrés y Provi
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de pescado blanco fresco (pargo, róbalo, mojarra)

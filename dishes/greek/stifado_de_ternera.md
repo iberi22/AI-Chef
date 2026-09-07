@@ -64,6 +64,7 @@ Stifado de Ternera con Cebollitas es uno de los platos más emblemáticos de la 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de ternera

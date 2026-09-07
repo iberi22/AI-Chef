@@ -74,6 +74,7 @@ El Vatapá es una de las preparaciones culinarias más ricas y complejas de Bah�
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Base de Pan y Líquidos:**

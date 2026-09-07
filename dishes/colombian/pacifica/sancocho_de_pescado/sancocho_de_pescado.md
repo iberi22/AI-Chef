@@ -64,6 +64,7 @@ El Sancocho de Pescado es una sopa tradicional y emblemática de la región Pac�
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 1,5 kg de pescado fresco (pargo, róbalo, tollo u otro)

@@ -59,6 +59,7 @@ Jamón Ibérico de Bellota es uno de los platos más emblemáticos de la gastron
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Jamón ibérico de bellota cortado a cuchillo

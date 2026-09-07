@@ -71,6 +71,7 @@ La Caipirinha es la máxima expresión de la coctelería brasileña. Protegida p
 * **Porciones:** 1
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Cóctel:**

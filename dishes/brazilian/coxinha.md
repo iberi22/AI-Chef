@@ -72,6 +72,7 @@ La Coxinha (literalmente "muslito") es la reina indiscutible de las panaderías 
 * **Porciones:** 6 (rinde unas 15 coxinhas medianas)
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Relleno de Pollo:**

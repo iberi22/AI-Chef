@@ -71,6 +71,7 @@ Los Anticuchos de Corazón son el emblema indiscutible de la cocina callejera y 
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Carne (Corazón):**

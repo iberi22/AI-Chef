@@ -55,6 +55,7 @@ El ají es el condimento estrella de la comida callejera y casera en Colombia. E
 * **Porciones:** 1 taza
 
 ---
+
 ## 📝 Ingredientes
 
 - 3-4 ajíes picantes frescos (ají dulce, rocoto, etc.)

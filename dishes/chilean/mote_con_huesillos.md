@@ -73,6 +73,7 @@ El Mote con Huesillos es el rey indiscutido del verano chileno. Es una preparaci
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Ingredientes principales:**

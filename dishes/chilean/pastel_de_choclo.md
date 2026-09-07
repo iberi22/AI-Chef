@@ -71,6 +71,7 @@ El Pastel de Choclo representa una de las cumbres del mestizaje culinario chilen
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para la pastelera de choclo (cubierta):**

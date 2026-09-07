@@ -67,6 +67,7 @@ El chuzo es una brocheta de carne, pollo o mixto, marinada y asada a la parrilla
 * **Porciones:** 6 chuzos
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de carne de res (o pollo, cerdo, mixto)

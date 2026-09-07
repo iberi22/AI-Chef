@@ -66,6 +66,7 @@ Las Albóndigas en Chipotle son un clásico reconfortante del hogar mexicano, do
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne molida de res y cerdo

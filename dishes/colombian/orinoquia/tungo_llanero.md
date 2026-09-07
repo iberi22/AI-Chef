@@ -68,6 +68,7 @@ Los Tungos son envueltos de arroz típicos del departamento del Meta y la regió
 * **Porciones:** 15
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de arroz de grano largo

@@ -75,6 +75,7 @@ El Mute Santandereano es uno de los platos más tradicionales del departamento d
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de carne de res (costilla o falda)

@@ -63,6 +63,7 @@ Tajine de Kefta con Tomate y Huevos es uno de los platos más emblemáticos de l
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne picada especiada (kefta)

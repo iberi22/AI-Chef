@@ -66,6 +66,7 @@ Horiatiki (Ensalada Griega Tradicional) es uno de los platos más emblemáticos 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Tomate

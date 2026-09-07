@@ -63,6 +63,7 @@ Fluffy Pancakes con Maple Syrup es uno de los platos más emblemáticos de la ga
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Harina de trigo

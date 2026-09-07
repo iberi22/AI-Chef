@@ -72,6 +72,7 @@ El Tamal Tolimense es un plato tradicional del Tolima y la región andina de Col
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de masa de maíz precocida

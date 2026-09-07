@@ -70,6 +70,7 @@ El Brigadeiro es, sin duda alguna, el rey indiscutible de la repostería brasile
 * **Porciones:** 12 (rinde unas 20-25 unidades pequeñas)
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Mezcla Base:**

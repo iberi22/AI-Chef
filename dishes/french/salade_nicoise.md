@@ -63,6 +63,7 @@ Salade Niçoise es uno de los platos más emblemáticos de la gastronomía de Ni
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Atún

@@ -71,6 +71,7 @@ El Asopao de Pollo es el plato reconfortante supremo de Puerto Rico. A medio cam
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Pollo y su Sazón:**

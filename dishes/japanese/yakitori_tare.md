@@ -67,6 +67,7 @@ El Yakitori en Tare son brochetas de pollo ensartadas con cebolleta, asadas a fu
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Muslo de pollo troceado

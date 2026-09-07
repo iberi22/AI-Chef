@@ -65,6 +65,7 @@ El pan de yuca es un panecillo pequeño, suave y elástico, tradicional del sur 
 * **Porciones:** 10 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 250 g de almidón de yuca (tapioca)

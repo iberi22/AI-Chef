@@ -75,6 +75,7 @@ Los Pasteles de Masa son el alma de la Navidad en Puerto Rico. No se preparan de
 * **Porciones:** 8 (rinde unos 16 pasteles medianos)
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Relleno de Cerdo Guisado:**

@@ -69,6 +69,7 @@ Las empanadas andinas son uno de los pasabocas más populares de la región, cru
 * **Porciones:** 20 empanadas
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de harina de maíz precocida amarilla

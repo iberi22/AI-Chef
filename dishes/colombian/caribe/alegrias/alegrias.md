@@ -65,6 +65,7 @@ Las Alegrías son un dulce tradicional de la región Caribe colombiana, especial
 * **Porciones:** 20 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 * **Base:**

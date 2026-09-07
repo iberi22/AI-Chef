@@ -71,6 +71,7 @@ El Seco de Cabrito es el guiso más emblemático y festivo de las regiones de La
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Carne y su Macerado:**

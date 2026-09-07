@@ -57,6 +57,7 @@ Este plato es una de las recetas tradicionales de la región Insular, especialme
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de frijoles rojos o negros

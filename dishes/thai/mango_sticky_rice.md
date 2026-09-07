@@ -65,6 +65,7 @@ Khao Niew Mamuang (Mango Sticky Rice) es uno de los platos más emblemáticos de
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Arroz glutinoso

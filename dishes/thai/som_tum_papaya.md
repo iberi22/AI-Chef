@@ -65,6 +65,7 @@ Som Tum (Ensalada de Papaya) es uno de los platos más emblemáticos de la gastr
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Papaya verde rallada

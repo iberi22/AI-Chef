@@ -73,6 +73,7 @@ La Carapulcra es una de las joyas más antiguas y complejas de la gastronomía p
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Elemento Ancestral:**

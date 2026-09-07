@@ -71,6 +71,7 @@ La Chicha Morada es el refresco nacional del Perú, amado por niños y adultos p
 * **Porciones:** 8 vasos (aproximadamente 2 litros)
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Base de Maíz y Frutas:**

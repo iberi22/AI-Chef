@@ -62,6 +62,7 @@ La Cachama Asada es un plato típico de la Orinoquía colombiana, preparado con 
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 cachamas medianas (1,5 kg en total)

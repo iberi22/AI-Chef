@@ -62,6 +62,7 @@ Chana Masala es uno de los platos más emblemáticos de la gastronomía de Punja
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Garbanzos

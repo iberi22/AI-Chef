@@ -63,6 +63,7 @@ Baghrir (Panqueques de Mil Hoyos) es uno de los platos más emblemáticos de la 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Sémola fina de trigo

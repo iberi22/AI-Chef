@@ -53,6 +53,7 @@ La salsa rosada es un aderezo básico y muy popular en Colombia, mezcla de mayon
 * **Porciones:** 1 taza
 
 ---
+
 ## 📝 Ingredientes
 
 - 1/2 taza de mayonesa

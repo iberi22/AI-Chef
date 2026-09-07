@@ -67,6 +67,7 @@ El Pollo alla Cacciatora ('al estilo del cazador') es un guiso toscano rústico 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pollo entero troceado

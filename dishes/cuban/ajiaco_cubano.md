@@ -74,6 +74,7 @@ El Ajiaco es el plato nacional de Cuba. No es una simple sopa; es un crisol de s
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **Las Carnes Mixtas:**

@@ -69,6 +69,7 @@ La Ginger Beer es la bebida fermentada por excelencia de San Andrés y Providenc
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de jengibre fresco, rallado o machacado

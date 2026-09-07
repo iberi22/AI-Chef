@@ -68,6 +68,7 @@ El Sukiyaki es un plato de cazuela (nabemono) donde finas láminas de res de alt
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de res para sukiyaki (wagyu)

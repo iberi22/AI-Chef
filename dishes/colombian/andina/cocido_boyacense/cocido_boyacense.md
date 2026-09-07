@@ -75,6 +75,7 @@ El Cocido Boyacense es uno de los platos más emblemáticos de Boyacá y la regi
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de carne de res (falda o costilla)

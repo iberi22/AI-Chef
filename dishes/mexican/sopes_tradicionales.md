@@ -67,6 +67,7 @@ Los Sopes son pellizcadas de masa gruesa de maíz fritas en manteca, servidas co
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Masa de maíz nixtamalizado

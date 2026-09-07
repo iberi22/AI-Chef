@@ -69,6 +69,7 @@ El Aguachile Verde es un plato marinero del Pacífico mexicano donde los camaron
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Camarones frescos limpios

@@ -78,6 +78,7 @@ La Carbonada Criolla representa una de las combinaciones más singulares de la c
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para el zapallo contenedor (presentación):**

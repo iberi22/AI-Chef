@@ -68,6 +68,7 @@ La Pizza Margherita es el estandarte de Nápoles, creada en honor a la reina Mar
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Harina Tipo 00

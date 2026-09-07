@@ -63,6 +63,7 @@ Leche Frita Tradicional es uno de los platos más emblemáticos de la gastronom�
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Leche infusionada con canela y limón

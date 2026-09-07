@@ -67,6 +67,7 @@ La Tlayuda es bautizada como la 'pizza oaxaqueña': una enorme tortilla tostada 
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Tortilla tlayuda de maíz de 30cm

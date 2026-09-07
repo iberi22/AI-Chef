@@ -69,6 +69,7 @@ El Churrasco es más que una comida en Brasil; es una institución social, un ar
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Carne y Sazón:**

@@ -66,6 +66,7 @@ Las Enmoladas son primas de las enchiladas pero bañadas en un mole rico y compl
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Tortillas de maíz

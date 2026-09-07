@@ -71,6 +71,7 @@ El Mole Poblano es la cúspide de la gastronomía barroca mexicana, combinando m
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Pollo entero

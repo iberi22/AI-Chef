@@ -77,6 +77,7 @@ El Locro Criollo es una síntesis perfecta del mestizaje culinario del Cono Sur.
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **Ingredientes de la base seca:**

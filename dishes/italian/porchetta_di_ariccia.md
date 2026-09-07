@@ -66,6 +66,7 @@ La Porchetta di Ariccia es un asado tradicional de cerdo entero deshuesado, cond
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - Cerdo entero deshuesado con piel

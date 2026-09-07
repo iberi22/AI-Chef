@@ -60,6 +60,7 @@ Las Chancacas, también conocidas como cocadas del Pacífico, son un dulce tradi
 * **Porciones:** 20 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de coco fresco rallado

@@ -72,6 +72,7 @@ Originaria del puerto de Valparaíso, la Chorrillana es el símbolo definitivo d
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Ingredientes de la Chorrillana:**

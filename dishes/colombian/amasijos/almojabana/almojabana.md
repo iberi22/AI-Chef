@@ -67,6 +67,7 @@ La Almojábana es el ícono de los departamentos de Boyacá y Cundinamarca. A di
 * **Porciones:** 12 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de Cuajada fresca (queso de leche de vaca sin prensar, húmedo)

@@ -76,6 +76,7 @@ La Lechona Tolimense es uno de los platos más emblemáticos del Tolima y el cen
 * **Porciones:** 20
 
 ---
+
 ## 📸 Galería
 
 ---

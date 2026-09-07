@@ -63,6 +63,7 @@ Pot-au-Feu Tradicional es uno de los platos más emblemáticos de la gastronomí
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de res con hueso

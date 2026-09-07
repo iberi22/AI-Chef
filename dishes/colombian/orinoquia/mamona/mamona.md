@@ -68,6 +68,7 @@ La Mamona, también conocida como Ternera a la Llanera, es el plato más emblem�
 * **Porciones:** 12
 
 ---
+
 ## 📸 Galería
 
 ---

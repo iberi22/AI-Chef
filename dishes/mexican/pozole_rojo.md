@@ -69,6 +69,7 @@ El Pozole Rojo es una sopa festiva ancestral a base de granos de maíz cacahuazi
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - Maíz cacahuazintle precocido

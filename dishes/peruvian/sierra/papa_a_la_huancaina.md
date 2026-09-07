@@ -72,6 +72,7 @@ La Papa a la Huancaína es un clásico indiscutible que acompaña casi cualquier
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Base de la Entrada:**

@@ -63,6 +63,7 @@ Palak Paneer es uno de los platos más emblemáticos de la gastronomía de Norte
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Queso Paneer

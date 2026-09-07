@@ -70,6 +70,7 @@ A diferencia del ceviche peruano (leche de tigre ácida/picante), el ceviche o c
 * **Porciones:** 4 copas
 
 ---
+
 ## 📝 Ingredientes
 
 * **Proteína:**

@@ -63,6 +63,7 @@ El pan aliñado es un pan suave, aromático y ligeramente dulce, típico de pana
 * **Porciones:** 10 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de harina de trigo

@@ -75,6 +75,7 @@ El Coquito es el ponche navideño que define la Navidad en Puerto Rico. Es el re
 * **Porciones:** 12 (rinde unas 2 botellas de cristal medianas)
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Coquito:**

@@ -62,6 +62,7 @@ Quiche Lorraine es uno de los platos más emblemáticos de la gastronomía de Lo
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Masa quebrada

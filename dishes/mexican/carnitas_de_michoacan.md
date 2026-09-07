@@ -67,6 +67,7 @@ Las Carnitas son pedazos de cerdo confitados lentamente en su propia manteca den
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de cerdo (costilla, lomo, maciza)

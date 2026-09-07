@@ -68,6 +68,7 @@ El Pollo Guisado con Dumplings es un plato reconfortante y festivo de la región
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 pollo entero troceado (aprox. 1.5 kg)

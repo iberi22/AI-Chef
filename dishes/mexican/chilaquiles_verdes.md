@@ -68,6 +68,7 @@ Los Chilaquiles Verdes son el desayuno reconfortante definitivo en México: toto
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Totopos de maíz fritos

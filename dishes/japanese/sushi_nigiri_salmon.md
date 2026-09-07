@@ -65,6 +65,7 @@ El Nigiri Sushi es la máxima expresión de simplicidad japonesa: una bola de ar
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Arroz de grano corto para sushi

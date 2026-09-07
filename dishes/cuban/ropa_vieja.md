@@ -73,6 +73,7 @@ La Ropa Vieja es la indiscutible carta de presentación de la culinaria de Cuba.
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Carne de Res y su Caldo:**

@@ -72,6 +72,7 @@ Las Masitas de Cerdo (o masitas de puerco) son una de las preparaciones de carne
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Las Masitas y Marinado:**

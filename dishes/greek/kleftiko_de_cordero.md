@@ -64,6 +64,7 @@ Kleftiko de Cordero en Papel es uno de los platos más emblemáticos de la gastr
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de cordero

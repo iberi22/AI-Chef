@@ -61,6 +61,7 @@ Pav Bhaji es uno de los platos más emblemáticos de la gastronomía de Mumbai, 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Puré de verduras especiado

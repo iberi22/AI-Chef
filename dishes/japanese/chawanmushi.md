@@ -67,6 +67,7 @@ El Chawanmushi es un natilla o flan salado al vapor preparado a partir de huevo 
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Huevos frescos

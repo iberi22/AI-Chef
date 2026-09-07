@@ -74,6 +74,7 @@ El Lomo Saltado es uno de los platos más populares y queridos de la gastronomí
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Proteína y Sellado:**

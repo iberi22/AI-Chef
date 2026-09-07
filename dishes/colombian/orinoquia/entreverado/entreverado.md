@@ -62,6 +62,7 @@ El Entreverado es un plato típico de la Orinoquía colombiana, especialmente en
 * **Porciones:** 12
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de carne de res (costilla, lomo, pecho)

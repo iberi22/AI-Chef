@@ -64,6 +64,7 @@ Garides Saganaki (Camarones con Feta) es uno de los platos más emblemáticos de
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Queso Kefalotyri

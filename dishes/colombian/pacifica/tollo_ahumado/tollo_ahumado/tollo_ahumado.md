@@ -70,6 +70,7 @@ El Tollo Ahumado es un plato tradicional del Pacífico colombiano, especialmente
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de carne de tollo (tiburón) ahumado

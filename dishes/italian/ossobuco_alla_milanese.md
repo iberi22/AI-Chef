@@ -68,6 +68,7 @@ El Ossobuco alla Milanese es un corte transversal de jarrete de ternera estofado
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Jarrete de ternera (Ossobuco)

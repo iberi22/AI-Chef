@@ -56,6 +56,7 @@ Crab Backs es uno de los platos más representativos de San Andrés y Providenci
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 6 caparazones de cangrejo limpios

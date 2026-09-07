@@ -67,6 +67,7 @@ El Guarapo es la bebida diaria del campesino en las regiones cafeteras y andinas
 * **Porciones:** 10 vasos
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de panela picada

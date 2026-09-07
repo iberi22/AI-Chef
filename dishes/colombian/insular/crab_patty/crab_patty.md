@@ -57,6 +57,7 @@ Las Crab Patties o empanadas de cangrejo son una delicia típica de San Andrés 
 * **Porciones:** 10 empanadas
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de harina de trigo

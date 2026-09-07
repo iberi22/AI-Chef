@@ -73,6 +73,7 @@ El Asado Criollo no es simplemente una técnica de cocción, sino un pilar de la
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Cortes de carne y embutidos:**

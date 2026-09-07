@@ -69,6 +69,7 @@ El salpicón es una bebida-postre refrescante y colorida, tradicional en ferias,
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de sandía en cubos

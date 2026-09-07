@@ -61,6 +61,7 @@ Croque Monsieur es uno de los platos más emblemáticos de la gastronomía de Pa
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pan de molde

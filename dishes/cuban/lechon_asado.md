@@ -73,6 +73,7 @@ El Lechón Asado es sinónimo de fiesta familiar y celebración tradicional en C
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Cerdo:**

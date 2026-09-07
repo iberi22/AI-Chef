@@ -67,6 +67,7 @@ El Minestrone alla Genovese es una rica sopa de verduras de estación y alubias 
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Alubias blancas (Canellini)

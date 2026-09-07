@@ -69,6 +69,7 @@ El arroz con pollo peruano es uno de los platos más emblemáticos de la gastron
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Proteína:**

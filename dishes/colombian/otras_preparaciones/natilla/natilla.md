@@ -69,6 +69,7 @@ La natilla es un postre de origen español (natillas) que en Colombia evolucion�
 * **Porciones:** 12 porciones
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 litro de leche entera

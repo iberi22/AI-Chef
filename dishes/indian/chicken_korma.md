@@ -62,6 +62,7 @@ Chicken Korma es uno de los platos más emblemáticos de la gastronomía de Mogo
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pollo

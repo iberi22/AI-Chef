@@ -63,6 +63,7 @@ Gaeng Phet Ped Yang es uno de los platos más emblemáticos de la gastronomía d
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pato asado

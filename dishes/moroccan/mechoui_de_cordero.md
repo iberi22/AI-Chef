@@ -62,6 +62,7 @@ Mechoui de Cordero Asado es uno de los platos más emblemáticos de la gastronom
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Cordero entero o paletilla

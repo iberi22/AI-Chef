@@ -63,6 +63,7 @@ Daube Provençale es uno de los platos más emblemáticos de la gastronomía de 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de res

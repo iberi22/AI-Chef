@@ -72,6 +72,7 @@ El Rocoto Relleno es el rey de las picanterías arequipeñas. Su característica
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Los Rocotos y su Desalado (Paso Fundamental):**

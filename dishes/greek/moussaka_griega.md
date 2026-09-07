@@ -63,6 +63,7 @@ Moussaka Griega Tradicional es uno de los platos más emblemáticos de la gastro
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Berenjena

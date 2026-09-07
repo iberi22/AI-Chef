@@ -72,6 +72,7 @@ El Picadillo a la Habanera es un plato hogareño y tradicional por excelencia en
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Carne y su Sazón:**

@@ -69,6 +69,7 @@ Las Enchiladas Verdes son tortillas de maíz ligeramente fritas, rellenas de pol
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Tortillas de maíz

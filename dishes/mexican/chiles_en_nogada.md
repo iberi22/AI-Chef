@@ -70,6 +70,7 @@ Los Chiles en Nogada son el plato patrio por excelencia de Puebla, luciendo los 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Chiles poblanos

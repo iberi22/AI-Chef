@@ -62,6 +62,7 @@ El Chigüiro Asado es un plato tradicional y emblemático de la Orinoquía colom
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 3 kg de carne de chigüiro (pierna o lomo)

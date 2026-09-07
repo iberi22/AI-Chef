@@ -73,6 +73,7 @@ La cazuela es un pilar fundamental del menú del hogar chileno. Su nombre deriva
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Ingredientes principales:**

@@ -72,6 +72,7 @@ Las Humitas chilenas son un tesoro culinario de la temporada estival. A diferenc
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Ingredientes principales:**

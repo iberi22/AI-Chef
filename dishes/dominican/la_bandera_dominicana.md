@@ -74,6 +74,7 @@ La Bandera Dominicana es el pilar culinario cotidiano de la República Dominican
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Pollo Guisado Dominicano:**

@@ -76,6 +76,7 @@ El Mojito es el embajador líquido de Cuba en el mundo entero. Su origen se remo
 * **Porciones:** 1
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Cóctel:**

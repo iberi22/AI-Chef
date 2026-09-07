@@ -66,6 +66,7 @@ El Kitsune Udon destaca por sus reconfortantes fideos gruesos de trigo servidos 
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Fideos Udon frescos

@@ -64,6 +64,7 @@ Pad Krapow Moo (Cerdo con Albahaca) es uno de los platos más emblemáticos de l
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Cerdo picado

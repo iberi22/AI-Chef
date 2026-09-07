@@ -61,6 +61,7 @@ Masala Dosa es uno de los platos más emblemáticos de la gastronomía de Sur de
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Masa fermentada de arroz y lenteja

@@ -63,6 +63,7 @@ Gigantes Plaki (Alubias al Horno) es uno de los platos más emblemáticos de la 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Garrofón / Alubias gigantes

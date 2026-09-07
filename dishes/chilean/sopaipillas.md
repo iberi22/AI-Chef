@@ -75,6 +75,7 @@ La Sopaipilla es el alimento callejero por excelencia en las frías y lluviosas 
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Ingredientes para la masa:**

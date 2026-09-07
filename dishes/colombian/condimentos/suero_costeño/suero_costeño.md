@@ -50,6 +50,7 @@ El suero costeño es un lácteo fermentado típico de la Costa Caribe colombiana
 * **Porciones:** 1 taza
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de leche entera

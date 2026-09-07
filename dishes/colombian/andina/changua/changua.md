@@ -73,6 +73,7 @@ La Changua es una sopa de desayuno tradicional de la región andina, especialmen
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - 4 tazas de leche

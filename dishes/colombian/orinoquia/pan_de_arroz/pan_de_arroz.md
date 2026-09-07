@@ -54,6 +54,7 @@ El Pan de Arroz es una delicia tradicional de la Orinoquía colombiana, especial
 * **Porciones:** 12
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de arroz blanco cocido y frío

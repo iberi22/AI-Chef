@@ -76,6 +76,7 @@ El Ajiaco Santafereño es la sopa más representativa de Bogotá, la capital de 
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para la sopa:**

@@ -68,6 +68,7 @@ El Gyudon es un popular donburi japonés consistente en finísimas lonchas de re
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de res cortada muy fina

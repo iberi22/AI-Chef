@@ -70,6 +70,7 @@ El Pusandao es una sopa tradicional del litoral Pacífico colombiano, especialme
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 1,5 kg de pescado fresco (pargo, róbalo, tollo u otro)

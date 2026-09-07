@@ -74,6 +74,7 @@ El Mofongo es un ícono de la gastronomía de la República Dominicana y Puerto 
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Mofongo:**

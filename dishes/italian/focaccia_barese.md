@@ -68,6 +68,7 @@ La Focaccia Barese de Apulia incluye patata cocida en su masa para lograr una mi
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Harina de trigo de fuerza

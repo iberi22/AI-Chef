@@ -65,6 +65,7 @@ Tajine de Pollo con Limón Encurtido y Aceitunas es uno de los platos más emble
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pollo

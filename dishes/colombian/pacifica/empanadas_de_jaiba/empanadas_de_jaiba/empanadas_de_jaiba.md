@@ -57,6 +57,7 @@ Las Empanadas de Jaiba son un bocadillo tradicional del Pacífico colombiano, es
 * **Porciones:** 20 empanadas
 
 ---
+
 ## 📝 Ingredientes
 
 ### Para la masa

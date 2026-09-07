@@ -54,6 +54,7 @@ El Pabellón Llanero es un plato representativo de la Orinoquía colombiana, ins
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de carne de res (falda o sobrebarriga)

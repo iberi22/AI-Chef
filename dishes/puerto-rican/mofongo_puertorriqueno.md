@@ -70,6 +70,7 @@ El Mofongo de Camarones es el almuerzo playero por excelencia en Puerto Rico. Es
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Mofongo:**

@@ -70,6 +70,7 @@ Es el acompañante indiscutible del pescado frito y los patacones en la costa Ca
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Coco:**

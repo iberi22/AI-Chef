@@ -70,6 +70,7 @@ El Pão de Queijo es uno de los bocados más queridos y famosos de Brasil. Nacid
 * **Porciones:** 6 (rinde aproximadamente 25-30 panecillos pequeños)
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Masa Base:**

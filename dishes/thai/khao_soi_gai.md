@@ -61,6 +61,7 @@ Khao Soi Gai es uno de los platos más emblemáticos de la gastronomía de Chian
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Fideos de huevo

@@ -71,6 +71,7 @@ El Sancocho Costeño es uno de los platos más representativos de la región Car
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de costilla de res

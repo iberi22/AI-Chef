@@ -71,6 +71,7 @@ La Feijoada es el plato nacional y el corazón de la gastronomía de Brasil. Est
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **Frijoles y Base:**

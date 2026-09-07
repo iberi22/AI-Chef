@@ -66,6 +66,7 @@ La Patarasca es uno de los platos más emblemáticos de la Amazonía colombiana 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 pescado de río entero (dorado, bocachico, bagre, etc.) de 1-1.5 kg

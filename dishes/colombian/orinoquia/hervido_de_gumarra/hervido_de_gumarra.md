@@ -57,6 +57,7 @@ El Hervido de Gumarra es una sopa tradicional de la Orinoquía colombiana, prepa
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 gallina criolla (gumarra) despresada (aprox. 2 kg)

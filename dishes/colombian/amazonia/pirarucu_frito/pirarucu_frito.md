@@ -70,6 +70,7 @@ El Pirarucú (*Arapaima gigas*) es el "rey del Amazonas", un pez prehistórico q
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Pescado:**

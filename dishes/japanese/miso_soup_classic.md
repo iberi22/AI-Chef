@@ -65,6 +65,7 @@ La Sopa de Miso es la espina dorsal de cualquier comida tradicional japonesa, co
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Caldo Dashi

@@ -63,6 +63,7 @@ Chicken Tikka Masala es uno de los platos más emblemáticos de la gastronomía 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pollo asado en tandoor

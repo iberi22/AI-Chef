@@ -55,6 +55,7 @@ La Torta de Calabaza es un postre tradicional de las islas de San Andrés y Prov
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de calabaza cocida y hecha puré

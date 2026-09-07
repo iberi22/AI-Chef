@@ -74,6 +74,7 @@ El Charquicán es uno de los platos más antiguos de Chile. Su origen precolombi
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Guiso principal:**

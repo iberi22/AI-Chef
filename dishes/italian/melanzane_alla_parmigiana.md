@@ -66,6 +66,7 @@ La Parmigiana di Melanzane es un pastel del sur de Italia elaborado con capas de
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Berenjenas grandes

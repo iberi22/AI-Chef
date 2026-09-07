@@ -70,6 +70,7 @@ El Tapao de Pescado es un plato emblemático del Pacífico colombiano, especialm
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 1,5 kg de pescado fresco (róbalo, pargo, tollo o similar)

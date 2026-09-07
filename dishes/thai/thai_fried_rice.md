@@ -63,6 +63,7 @@ Khao Pad Kung es uno de los platos más emblemáticos de la gastronomía de Bang
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Arroz Jasmine cocido

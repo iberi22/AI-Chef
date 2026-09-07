@@ -63,6 +63,7 @@ Taktouka de Pimientos Asados es uno de los platos más emblemáticos de la gastr
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pimientos rojos y verdes asados

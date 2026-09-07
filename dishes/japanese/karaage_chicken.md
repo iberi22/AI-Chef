@@ -68,6 +68,7 @@ El Karaage es el pollo frito al estilo japonés: trozos de muslo marinados en so
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Contramuslos de pollo deshuesados

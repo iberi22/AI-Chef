@@ -62,6 +62,7 @@ Los Juanes de Yuca son un plato festivo y tradicional de la Amazonía, especialm
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 kg de yuca fresca

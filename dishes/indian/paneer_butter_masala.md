@@ -63,6 +63,7 @@ Paneer Butter Masala es uno de los platos más emblemáticos de la gastronomía 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Queso Paneer

@@ -67,6 +67,7 @@ Nikujaga literalmente significa 'carne y patatas', siendo el guiso casero por ex
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de res en lonchas finas

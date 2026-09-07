@@ -72,6 +72,7 @@ La Cazuela de Mariscos es un plato icónico de la región Caribe colombiana, esp
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 300 g de camarones

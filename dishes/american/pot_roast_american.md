@@ -63,6 +63,7 @@ Classic American Pot Roast es uno de los platos más emblemáticos de la gastron
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de res para estofar

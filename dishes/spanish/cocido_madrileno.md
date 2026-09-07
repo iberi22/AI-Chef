@@ -64,6 +64,7 @@ Cocido Madrileño es uno de los platos más emblemáticos de la gastronomía de 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Garbanzos

@@ -69,6 +69,7 @@ El Arroz Atollado con Mariscos es un plato típico de la región Pacífica colom
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 tazas de arroz

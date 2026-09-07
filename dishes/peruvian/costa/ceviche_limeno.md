@@ -74,6 +74,7 @@ El ceviche limeño es el plato bandera del Perú, conocido por su frescura, equi
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **Proteína Marina:**

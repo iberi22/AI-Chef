@@ -68,6 +68,7 @@ El Buñuelo es el rey de la Navidad en Colombia. A diferencia de los buñuelos d
 * **Porciones:** 15 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de Queso Costeño molido (debe ser queso seco y salado)

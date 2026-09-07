@@ -67,6 +67,7 @@ La Garulla es el patrimonio gastronómico oficial del municipio de Soacha, Cundi
 * **Porciones:** 10 unidades
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de harina de maíz porva (maíz amarillo tostado y molido)

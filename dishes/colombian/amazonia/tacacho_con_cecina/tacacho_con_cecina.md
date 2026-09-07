@@ -64,6 +64,7 @@ El Tacacho con Cecina es un plato emblemático de la Amazonía, especialmente po
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - 6 plátanos verdes

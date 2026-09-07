@@ -69,6 +69,7 @@ description: >-
 * **Porciones:** 30 unidades (aprox.)
 
 ---
+
 ## 📝 Ingredientes
 
 * **Carnes:**

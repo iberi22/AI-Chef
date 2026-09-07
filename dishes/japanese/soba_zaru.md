@@ -63,6 +63,7 @@ El Zaru Soba consiste en fideos de trigo sarraceno servidos helados sobre bambú
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Fideos Soba (80% trigo sarraceno)

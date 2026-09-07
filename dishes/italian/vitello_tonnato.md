@@ -67,6 +67,7 @@ El Vitello Tonnato es un clásico refinado del Piamonte servido frío: finas lon
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Peceto o redondo de ternera

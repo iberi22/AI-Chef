@@ -73,6 +73,7 @@ Pocos platos despiertan tanto orgullo nacional en Chile como la empanada de pino
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 * **Para el pino de carne (relleno):**

@@ -76,6 +76,7 @@ El Tembleque recibe su divertido nombre de su consistencia característica: un f
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 * **El Tembleque:**

@@ -58,6 +58,7 @@ El Pescado Moqueado es una preparación ancestral de la Amazonía colombiana, ut
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 pescado grande de río (dorado, bocachico, bagre, etc.)

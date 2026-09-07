@@ -73,6 +73,7 @@ La Birria de Res es un guiso tradicional jalisciense de carne adobada en especia
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - Carne de res (diezmillo/morcillo)

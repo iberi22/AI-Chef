@@ -58,6 +58,7 @@ El Casabe es un pan plano ancestral elaborado a base de yuca amarga, tradicional
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 kg de yuca amarga (no dulce)

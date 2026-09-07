@@ -67,6 +67,7 @@ La auténtica Carbonara romana no lleva nata ni cebolla: se basa en la emulsión
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Spaghetti de sémola

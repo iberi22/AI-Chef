@@ -55,6 +55,7 @@ Las cocadas son uno de los dulces más tradicionales de la región Insular y de 
 * **Porciones:** 20 cocadas
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 cocos frescos rallados (aprox. 4 tazas)

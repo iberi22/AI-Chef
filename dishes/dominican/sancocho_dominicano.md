@@ -77,6 +77,7 @@ El Sancocho de Siete Carnes es el monarca absoluto de la mesa dominicana. No es 
 * **Porciones:** 10
 
 ---
+
 ## 📝 Ingredientes
 
 * **Las "Siete Carnes":**

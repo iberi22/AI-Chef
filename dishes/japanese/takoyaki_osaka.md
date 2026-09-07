@@ -67,6 +67,7 @@ Los Takoyaki son famosísimas bolitas de masa de dashi rellenadas con un trozo d
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pulpo cocido en dados

@@ -72,6 +72,7 @@ El Pescado con Coco es el plato insignia de la cocina costera dominicana, especÃ
 * **Porciones:** 4
 
 ---
+
 ## ğŸ“ Ingredientes
 
 * **El Pescado y Marinado:**

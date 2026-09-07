@@ -69,6 +69,7 @@ El Acarajé es una de las expresiones gastronómicas y culturales más poderosas
 * **Porciones:** 6 (rinde unas 12 piezas grandes)
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Masa del Buñuelo (Acarajé):**

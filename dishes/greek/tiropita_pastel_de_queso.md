@@ -65,6 +65,7 @@ Tiropita (Pastel Hojaldrado de Feta) es uno de los platos más emblemáticos de 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Masa filo

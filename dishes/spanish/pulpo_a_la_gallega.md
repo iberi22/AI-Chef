@@ -63,6 +63,7 @@ Pulpo a la Gallega (Polbo á Feira) es uno de los platos más emblemáticos de l
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Pulpo cocido

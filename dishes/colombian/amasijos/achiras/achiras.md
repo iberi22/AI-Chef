@@ -67,6 +67,7 @@ El Bizcocho de Achira es el símbolo del departamento del Huila y tiene Denomina
 * **Porciones:** 20 bizcochos
 
 ---
+
 ## 📝 Ingredientes
 
 - 500 g de almidón de achira (Sagú)

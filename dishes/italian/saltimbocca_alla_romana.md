@@ -66,6 +66,7 @@ Saltimbocca literalmente significa 'salta en la boca': finos filetes de ternera 
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Escalopes finos de ternera

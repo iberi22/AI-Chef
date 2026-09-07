@@ -72,6 +72,7 @@ El Mote de Queso es una sopa cremosa y emblemática de la región Caribe, especi
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de ñame (preferiblemente ñame espino)

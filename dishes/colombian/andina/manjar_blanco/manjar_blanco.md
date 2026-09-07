@@ -70,6 +70,7 @@ El Manjar Blanco es un postre tradicional de la región andina colombiana, espec
 * **Porciones:** 8
 
 ---
+
 ## 📝 Ingredientes
 
 - 2 litros de leche entera

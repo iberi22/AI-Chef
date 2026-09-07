@@ -72,6 +72,7 @@ La Yuca con Mojo es una de las joyas más humildes y sabrosas de la cocina cuban
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 * **La Yuca:**

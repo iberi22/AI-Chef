@@ -68,6 +68,7 @@ El Okonomiyaki de Osaka es una sabrosa tortilla salada de col y harina cocinada 
 * **Porciones:** 2
 
 ---
+
 ## 📝 Ingredientes
 
 - Col rizada picada

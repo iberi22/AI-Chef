@@ -65,6 +65,7 @@ Revithokeftedes (Croquetas de Garbanzo) es uno de los platos más emblemáticos 
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Garbanzos

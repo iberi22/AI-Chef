@@ -63,6 +63,7 @@ El Inchicapi es una sopa tradicional amazónica, muy apreciada en la región por
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 gallina entera o pollo de campo (1.5 kg)

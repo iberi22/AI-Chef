@@ -64,6 +64,7 @@ Pad Thai Kung (con Camarones) es uno de los platos más emblemáticos de la gast
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Fideos de arroz

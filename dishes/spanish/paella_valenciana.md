@@ -64,6 +64,7 @@ Paella Valenciana Tradicional es uno de los platos más emblemáticos de la gast
 * **Porciones:** 4
 
 ---
+
 ## 📝 Ingredientes
 
 - Arroz bomba

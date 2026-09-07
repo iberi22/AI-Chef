@@ -70,6 +70,7 @@ El Caldo de Costilla es un desayuno típico de la región andina colombiana, esp
 * **Porciones:** 6
 
 ---
+
 ## 📝 Ingredientes
 
 - 1 kg de costilla de res
