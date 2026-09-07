@@ -4,8 +4,8 @@ region: Sinaloa
 language: es
 license: MIT
 source:
-  name: Gastronomic Open Standard (GOS) Database
-  url: pending
+  name: Animal Gourmet
+  url: 'https://animalgourmet.com/2021/04/14/receta-aguachile-verde-de-camaron/'
   date_retrieved: '2026-09-03'
   notes: Derived from GOS Database
 categories:
