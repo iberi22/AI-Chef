@@ -23,6 +23,10 @@ export default defineConfig({
         registerType: 'autoUpdate',
         includeAssets: ['favicon.svg', 'icons/*', 'images/*'],
         manifest: false,
+        // SW desactivado en dev: un SW registrado intercepta localhost y
+        // sirve respuestas rancias/rotas (incidente 2026-09-06: clone de
+        // Response + deps 504). En prod (preview/build) sigue activo.
+        devOptions: { enabled: false },
         workbox: {
           globPatterns: ['**/*.{js,css,html,svg,png,woff2,webp}'],
           runtimeCaching: [
