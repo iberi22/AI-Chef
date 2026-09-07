@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content'
 import Layout from '../../layouts/Layout.astro'
+import { INGREDIENT_PLACEHOLDER, resolveIngredientHero } from '../../lib/images'
 export async function getStaticPaths() {
   const col = await getCollection('ingredients')
   return col.map((entry) => ({ params: { slug: entry.id }, props: { entry } }))
@@ -9,6 +10,10 @@ const { entry } = Astro.props
 const { Content } = await render(entry)
 const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 const data = entry.data
+// Hero: image del frontmatter o placeholder (0/552 ingredientes traen
+// imagen hoy; el pipeline de contenido las generará — gap anotado).
+const heroImage = resolveIngredientHero(data)
+const heroIsPlaceholder = heroImage === INGREDIENT_PLACEHOLDER
 const ingredientUrl = `https://gos-site.pages.dev/ingredients/${entry.id}`
 const nutrition = data.nutrition_per_100g || {}
 const jsonLd = {
@@ -16,6 +21,7 @@ const jsonLd = {
   '@type': 'IndividualProduct',
   name: data.name || entry.id,
   url: ingredientUrl,
+  image: heroIsPlaceholder ? undefined : heroImage,
   description: `${data.name || entry.id} — ${data.group || 'ingrediente'} — contenido nutricional por 100g`,
   category: data.group || 'Food',
   nutrition: {
@@ -29,11 +35,20 @@ const jsonLd = {
   },
 }
 ---
-<Layout title={`${(entry.data as any).name} — Ingrediente GOS`}>
+<Layout title={`${(entry.data as any).name} — Ingrediente GOS`} image={heroIsPlaceholder ? undefined : heroImage}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <a href={`${base}/ingredients`} class="back">← Ingredientes</a>
   <article class="article">
     <h1>{(entry.data as any).name} <span class="sci">{(entry.data as any).scientific_name ? `(${(entry.data as any).scientific_name})` : ''}</span></h1>
+    <figure class="hero">
+      <img
+        src={heroImage}
+        alt={`Foto de ${(entry.data as any).name || entry.id}`}
+        loading="lazy"
+        data-fallback="/images/placeholders/ingredient.svg"
+        class:list={['hero-img', { 'hero-placeholder': heroIsPlaceholder }]}
+      />
+    </figure>
     {(entry.data as any).group && <p class="group">Grupo: <strong>{(entry.data as any).group}</strong></p>}
     {(entry.data as any).nutrition_per_100g && (
       <div class="box">
@@ -72,11 +87,25 @@ const jsonLd = {
     )}
     <div class="prose"><Content /></div>
   </article>
+  <script is:inline>
+    // Si el hero falla, cae al placeholder en vez de mostrar icono roto.
+    document.querySelectorAll('img.hero-img[data-fallback]').forEach((img) => {
+      const swap = () => {
+        const fb = img.dataset.fallback;
+        if (fb && !img.src.endsWith(fb)) img.src = fb;
+      };
+      img.addEventListener('error', swap);
+      if (img.complete && img.naturalWidth === 0) swap();
+    });
+  </script>
 <style>
   .back{ font-size:12px; color: var(--swal-accent); text-decoration:none; }
   .article{ border:1px solid var(--swal-border); background: var(--swal-surface); border-radius:20px; padding:22px; margin-top:12px; }
   .article h1{ margin:0; font-size:26px; color: var(--swal-text); }
   .sci{ font-weight:400; color: var(--swal-text-muted); font-size:16px; font-style:italic; }
+  .hero{ margin:16px 0 0; }
+  .hero-img{ width:100%; max-height:320px; object-fit:cover; border-radius:12px; border:1px solid var(--swal-border); }
+  .hero-img.hero-placeholder{ object-fit:contain; max-height:160px; padding:20px; background: var(--swal-bg); }
   .group{ color: var(--swal-text-secondary); }
   .box{ border:1px solid var(--swal-border); border-radius:16px; padding:14px; background: var(--swal-bg); margin:16px 0; }
   .box.accent{ border-color: color-mix(in srgb, var(--swal-accent) 25%, var(--swal-border)); background: color-mix(in srgb, var(--swal-accent) 6%, var(--swal-surface)); }
