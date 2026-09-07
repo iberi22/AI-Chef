@@ -41,7 +41,12 @@ export const LOCALES: Record<string, LocaleInfo> = {
   fr: { code: 'fr', name: 'French', nativeName: 'Français', hreflang: 'fr' },
   ta: { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', hreflang: 'ta' },
   ur: { code: 'ur', name: 'Urdu', nativeName: 'اردو', hreflang: 'ur' },
-  id: { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', hreflang: 'id' },
+  id: {
+    code: 'id',
+    name: 'Indonesian',
+    nativeName: 'Bahasa Indonesia',
+    hreflang: 'id',
+  },
   mr: { code: 'mr', name: 'Marathi', nativeName: 'मराठी', hreflang: 'mr' },
 }
 

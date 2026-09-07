@@ -16,7 +16,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const DRY = process.argv.includes('--dry-run')
-const REPO = process.env.GOS_REPO || '/home/belal/proyectosSWAL/apps/gastronomic-open-standard-GOS'
+const REPO =
+  process.env.GOS_REPO ||
+  '/home/belal/proyectosSWAL/apps/gastronomic-open-standard-GOS'
 const QUEUE = path.join(REPO, 'docs/research/queue.json')
 
 function gh(...args) {
@@ -117,26 +119,41 @@ pnpm --filter gos-site exec astro check 2>&1 | grep -E " errors"
 
 function main() {
   const q = JSON.parse(fs.readFileSync(QUEUE, 'utf-8'))
-  const next = q.entries.filter((e) => e.status === 'pending').sort((a, b) => a.day - b.day)[0]
+  const next = q.entries
+    .filter((e) => e.status === 'pending')
+    .sort((a, b) => a.day - b.day)[0]
   if (!next) {
-    console.log('QUEUE-EMPTY: all entries done — refill docs/research/queue.json')
+    console.log(
+      'QUEUE-EMPTY: all entries done — refill docs/research/queue.json',
+    )
     return
   }
   const title = `feat-daily-research-${next.id} — ${next.title}`
   console.log(`NEXT: ${next.id} — ${title}`)
   if (DRY) {
-    console.log('DRY-RUN: issue NOT created. Body preview:');
-    console.log(`${bodyFor(next).slice(0, 400)}...`);
+    console.log('DRY-RUN: issue NOT created. Body preview:')
+    console.log(`${bodyFor(next).slice(0, 400)}...`)
     return
   }
-  const url = gh('issue', 'create', '--title', title, '--body', bodyFor(next), '--label', 'gos-daily')
+  const url = gh(
+    'issue',
+    'create',
+    '--title',
+    title,
+    '--body',
+    bodyFor(next),
+    '--label',
+    'gos-daily',
+  )
   console.log(`CREATED: ${url}`)
   const num = url.split('/').pop()
   const body = gh('issue', 'view', num, '--json', 'body', '--jq', '.body')
   const sections = body.split('\n').filter((l) => l.startsWith('## ')).length
   console.log(`SECTIONS: ${sections}`)
   if (sections < 11) {
-    console.log('VERIFY-FAIL: <11 sections, jules label NOT applied. Fix template.');
+    console.log(
+      'VERIFY-FAIL: <11 sections, jules label NOT applied. Fix template.',
+    )
     process.exitCode = 2
     return
   }
