@@ -1233,6 +1233,32 @@ function computeLayout(nodes, edges) {
   settings.scalingRatio = 20
   settings.gravity = 0.02
   forceAtlas2.assign(g, { iterations, settings })
+  // Normalización ROBUSTA a [0,1] (convención sigma: cámara default
+  // (0.5, 0.5, ratio 1) encuadra [0,1]). Mediana + span p99-p1 (NO min-max:
+  // unos pocos outliers estiraban el frame y la masa densa quedaba en un
+  // rincón). Clamp de outliers a [0,1]. Determinista.
+  const xs = []
+  const ys = []
+  g.forEachNode((_id, a) => {
+    xs.push(a.x)
+    ys.push(a.y)
+  })
+  xs.sort((a, b) => a - b)
+  ys.sort((a, b) => a - b)
+  const q = (arr, p) =>
+    arr[Math.min(arr.length - 1, Math.floor(arr.length * p))]
+  const xmed = q(xs, 0.5)
+  const ymed = q(ys, 0.5)
+  const span = Math.max(
+    q(xs, 0.99) - q(xs, 0.01),
+    q(ys, 0.99) - q(ys, 0.01),
+    1e-9,
+  )
+  const clamp01 = (v) => Math.min(1, Math.max(0, v))
+  g.forEachNode((id, a) => {
+    g.setNodeAttribute(id, 'x', clamp01(0.5 + ((a.x - xmed) / span) * 0.8))
+    g.setNodeAttribute(id, 'y', clamp01(0.5 + ((a.y - ymed) / span) * 0.8))
+  })
   g.forEachNode((id, attrs) => {
     const n = nodes.get(id)
     if (n) {
