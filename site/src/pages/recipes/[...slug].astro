@@ -3,14 +3,48 @@ import { getCollection, render } from 'astro:content'
 import dishImages from '../../data/dish-images.json'
 import Layout from '../../layouts/Layout.astro'
 import { resolveDishHero } from '../../lib/images'
+import {
+  buildIngredientLinker,
+  countryFromSlug,
+  formatMinutes,
+  hasNutrition,
+  isJunkIngredient,
+} from '../../lib/recipe-standard'
 import { recipeJsonLd } from '../../lib/seo'
 
 export async function getStaticPaths() {
   const col = await getCollection('dishes')
-  return col.map((entry) => ({ params: { slug: entry.id }, props: { entry } }))
+  const ings = await getCollection('ingredients')
+  const link = buildIngredientLinker(
+    ings.map((i) => ({
+      id: i.id,
+      name: String((i.data as { name?: unknown }).name || ''),
+    })),
+  )
+  return col.map((entry) => {
+    const d = entry.data as {
+      main_ingredients?: unknown
+      region?: unknown
+    }
+    const raw = Array.isArray(d.main_ingredients)
+      ? d.main_ingredients.map(String)
+      : []
+    const linked = raw
+      .filter((name) => !isJunkIngredient(name))
+      .map((name) => ({ name, href: link(name) }))
+    return { params: { slug: entry.id }, props: { entry, linked } }
+  })
 }
 
-const { entry } = Astro.props
+interface LinkedIngredient {
+  name: string
+  href: string | null
+}
+// biome-ignore lint/suspicious/noExplicitAny: colecciones con passthrough, como ingredients/[...slug]
+const { entry, linked } = Astro.props as {
+  entry: any
+  linked: LinkedIngredient[]
+}
 const { Content } = await render(entry)
 const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 const data = entry.data
@@ -22,49 +56,102 @@ const heroImage = resolveDishHero(
   dishImages as Record<string, string>,
 )
 const heroIsPlaceholder = heroImage === '/images/placeholders/recipe.svg'
+// Estándar de ficha: país derivado del slug (no existe campo country),
+// tiempos normalizados, nutrición solo si trae datos reales (>0).
+const country = countryFromSlug(entry.id)
+const prep = formatMinutes((data as { prep_time?: unknown }).prep_time)
+const cook = formatMinutes((data as { cook_time?: unknown }).cook_time)
+const servings = (data as { servings?: unknown }).servings
+const categories =
+  ((data as { categories?: unknown }).categories as string[]) || []
+const tags = ((data as { tags?: unknown }).tags as string[]) || []
+const description = (data as { description?: unknown }).description as
+  | string
+  | undefined
+const nutrition = (data as { nutrition?: unknown }).nutrition as
+  | {
+      calories?: unknown
+      macros?: { protein_g?: unknown; fat_g?: unknown; carbs_g?: unknown }
+    }
+  | undefined
+const showNutrition = hasNutrition(nutrition)
+// Mapeo a schema.org NutritionInformation (el frontmatter trae
+// {calories, macros:{protein_g,fat_g,carbs_g}}).
+const nutritionLd = showNutrition
+  ? {
+      calories: nutrition?.calories ? `${nutrition.calories} kcal` : undefined,
+      proteinContent: nutrition?.macros?.protein_g
+        ? `${nutrition.macros.protein_g}g`
+        : undefined,
+      fatContent: nutrition?.macros?.fat_g
+        ? `${nutrition.macros.fat_g}g`
+        : undefined,
+      carbohydrateContent: nutrition?.macros?.carbs_g
+        ? `${nutrition.macros.carbs_g}g`
+        : undefined,
+    }
+  : undefined
+const recipeTitle = (data as { title?: unknown }).title || entry.id
 
 const jsonLd = recipeJsonLd({
   slug: entry.id,
-  title: data.title || entry.id,
+  title: recipeTitle,
   description:
     data.sensory?.presentation ||
-    `${data.title || entry.id} — receta tradicional del Gastronomic Open Standard`,
+    `${recipeTitle} — receta tradicional del Gastronomic Open Standard`,
   image: heroImage,
-  prepTime: data.prep_time ? `PT${data.prep_time}M` : undefined,
-  cookTime: data.cook_time ? `PT${data.cook_time}M` : undefined,
-  recipeYield: data.servings ? `${data.servings} servings` : undefined,
-  recipeIngredient: data.main_ingredients || [],
-  recipeCategory: data.categories?.[0] || 'Main dish',
-  recipeCuisine: data.region || 'Colombian',
-  keywords: data.tags || [],
-  nutrition: data.nutrition_per_serving,
+  prepTime: prep ? `PT${prep.replace(/\D/g, '')}M` : undefined,
+  cookTime: cook ? `PT${cook.replace(/\D/g, '')}M` : undefined,
+  recipeYield: servings ? `${servings} servings` : undefined,
+  recipeIngredient: linked.map((l) => l.name),
+  recipeCategory: categories[0] || 'Main dish',
+  recipeCuisine: country || data.region || 'Colombian',
+  keywords: tags,
+  nutrition: nutritionLd,
 })
 ---
 <Layout
-  title={`${data.title || entry.id} — Receta GOS`}
-  description={data.sensory?.presentation || `${data.title || entry.id} — receta tradicional del Gastronomic Open Standard`}
+  title={`${recipeTitle} — Receta GOS`}
+  description={data.sensory?.presentation || `${recipeTitle} — receta tradicional del Gastronomic Open Standard`}
   image={heroImage}
 >
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
   <a href={`${base}/recipes`} class="back">← Recetas</a>
   <article class="article">
-    <h1>{data.title || entry.id}</h1>
+    <h1>{recipeTitle}</h1>
     <figure class="hero">
       <img
         src={heroImage}
-        alt={`Foto de ${data.title || entry.id}`}
+        alt={`Foto de ${recipeTitle}`}
         loading="lazy"
         data-fallback="/images/placeholders/recipe.svg"
         class:list={['hero-img', { 'hero-placeholder': heroIsPlaceholder }]}
       />
     </figure>
     <div class="meta">
+      {country && <span class="pill country">🌍 {country}</span>}
       {data.region && <span class="pill">{data.region}</span>}
-      {data.difficulty && <span class="pill">{data.difficulty}</span>}
-      {data.prep_time && <span class="pill muted">prep {data.prep_time} min</span>}
-      {data.cook_time && <span class="pill muted">cook {data.cook_time} min</span>}
-      {data.servings && <span class="pill">🍽️ {data.servings}</span>}
+      {data.difficulty && <span class="pill">Dificultad {data.difficulty}</span>}
+      {prep && <span class="pill muted">⏱️ Prep {prep}</span>}
+      {cook && <span class="pill muted">🔥 Cocción {cook}</span>}
+      {servings && <span class="pill">🍽️ {String(servings)} porciones</span>}
+      {categories.map((c) => <span class="pill cat">{c}</span>)}
     </div>
+    {description && <p class="lede">{description}</p>}
+    {linked.length > 0 && (
+      <div class="ings-box">
+        <h3>Ingredientes clave</h3>
+        <div class="ings-list">
+          {linked.map((l) =>
+            l.href ? (
+              <a class="ing link" href={`${base}/ingredients/${l.href}`}>{l.name}</a>
+            ) : (
+              <span class="ing">{l.name}</span>
+            ),
+          )}
+        </div>
+      </div>
+    )}
     {data.sensory && (
       <div class="sensory">
         {data.sensory.flavor && <div><strong>Sabor:</strong> {Array.isArray(data.sensory.flavor) ? data.sensory.flavor.join(', ') : data.sensory.flavor}</div>}
@@ -73,7 +160,20 @@ const jsonLd = recipeJsonLd({
       </div>
     )}
     <div class="prose"><Content /></div>
-    {data.main_ingredients && <p class="ings"><strong>Ingredientes clave:</strong> {data.main_ingredients.join(' • ')}</p>}
+    {showNutrition && (
+      <div class="box">
+        <h3>Nutrición por porción</h3>
+        <div class="grid-nut">
+          {nutrition?.calories ? <div class="nut"><span class="k">Calorías</span><span class="v">{String(nutrition.calories)} kcal</span></div> : null}
+          {nutrition?.macros?.protein_g ? <div class="nut"><span class="k">Proteínas</span><span class="v">{String(nutrition.macros.protein_g)} g</span></div> : null}
+          {nutrition?.macros?.fat_g ? <div class="nut"><span class="k">Grasas</span><span class="v">{String(nutrition.macros.fat_g)} g</span></div> : null}
+          {nutrition?.macros?.carbs_g ? <div class="nut"><span class="k">Carbohidratos</span><span class="v">{String(nutrition.macros.carbs_g)} g</span></div> : null}
+        </div>
+      </div>
+    )}
+    {tags.length > 0 && (
+      <div class="tags">{tags.map((t) => <span class="pill muted">#{t}</span>)}</div>
+    )}
   </article>
   <script is:inline>
     // Si el hero falla (puntero LFS local, hotlink caído, offline),
@@ -97,11 +197,24 @@ const jsonLd = recipeJsonLd({
   .meta{ display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
   .pill{ font-size:11px; padding:4px 10px; border-radius:999px; background: var(--swal-bg); border:1px solid var(--swal-border); color: var(--swal-text-secondary); }
   .pill.muted{ color: var(--swal-text-muted); }
+  .pill.country{ border-color: color-mix(in srgb, var(--swal-accent) 40%, var(--swal-border)); color: var(--swal-text); }
+  .pill.cat{ background: color-mix(in srgb, var(--swal-accent) 10%, var(--swal-bg)); }
+  .lede{ color: var(--swal-text); font-size:15px; line-height:1.7; margin:14px 0 0; }
+  .ings-box{ margin:16px 0; padding:14px; border:1px solid var(--swal-border); border-radius:16px; background: var(--swal-bg); }
+  .ings-box h3, .box h3{ margin:0 0 10px; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color: var(--swal-text-muted); }
+  .ings-list{ display:flex; gap:8px; flex-wrap:wrap; }
+  .ing{ font-size:12px; padding:5px 12px; border-radius:999px; border:1px solid var(--swal-border); color: var(--swal-text-secondary); background: var(--swal-surface); }
+  .ing.link{ color: var(--swal-accent); border-color: color-mix(in srgb, var(--swal-accent) 35%, var(--swal-border)); text-decoration:none; }
+  .ing.link:hover{ background: var(--swal-accent-muted); }
+  .box{ border:1px solid var(--swal-border); border-radius:16px; padding:14px; background: var(--swal-bg); margin:16px 0; }
+  .grid-nut{ display:grid; grid-template-columns: repeat(auto-fill, minmax(150px,1fr)); gap:8px; }
+  .nut{ display:flex; justify-content:space-between; border:1px solid var(--swal-border); background: var(--swal-surface); padding:8px 10px; border-radius:10px; font-family: var(--swal-font-mono); font-size:12px; }
+  .nut .k{ color: var(--swal-text-muted); } .nut .v{ color: var(--swal-text); font-weight:700; }
+  .tags{ display:flex; gap:6px; flex-wrap:wrap; margin-top:12px; }
   .sensory{ margin:16px 0; padding:12px; border:1px solid var(--swal-border); border-radius:16px; background: var(--swal-bg); font-size:13px; color: var(--swal-text-secondary); display:grid; gap:4px; }
   .prose{ color: var(--swal-text-secondary); line-height:1.75; }
   .prose :global(h2){ color: var(--swal-text); margin-top:1.2em; }
   .prose :global(img){ max-width:100%; border-radius:12px; border:1px solid var(--swal-border); }
-  .ings{ font-family: var(--swal-font-mono); font-size:12px; color: var(--swal-text-muted); margin-top:12px; }
   .src{ color: var(--swal-text-muted); }
 </style>
 </Layout>

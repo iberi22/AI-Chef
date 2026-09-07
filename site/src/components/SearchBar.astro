@@ -10,6 +10,7 @@ export interface SearchItem {
   difficulty?: string
   scientific_name?: string
   health?: string
+  time?: string
 }
 
 interface Props {
@@ -160,6 +161,7 @@ const {
                 ${item.group ? `<span class="pill">${escapeHtml(item.group)}</span>` : ''}
                 ${item.region ? `<span class="pill">${escapeHtml(item.region)}</span>` : ''}
                 ${item.difficulty ? `<span class="pill">${escapeHtml(item.difficulty)}</span>` : ''}
+                ${item.time ? `<span class="pill">⏱️ ${escapeHtml(item.time)}</span>` : ''}
                 ${item.health ? `<span class="pill">${escapeHtml(item.health)}</span>` : ''}
               </div>
             </a>`,

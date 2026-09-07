@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content'
 import SearchBar from '../../components/SearchBar.astro'
 // site/src/pages/recipes/index.astro — searchable + faceted recipe catalog
 import Layout from '../../layouts/Layout.astro'
+import { formatMinutes } from '../../lib/recipe-standard'
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 interface DishFrontmatter {
@@ -35,6 +36,8 @@ const sorted = recipes
 // Build search index (full list, no slicing)
 const items = sorted.map((r) => {
   const d = r.data as DishFrontmatter
+  const prep = formatMinutes(d.prep_time)
+  const cook = formatMinutes(d.cook_time)
   return {
     id: r.id,
     name: d.title || r.id.split('/').pop() || r.id,
@@ -42,6 +45,9 @@ const items = sorted.map((r) => {
     difficulty: d.difficulty || '',
     scientific_name: d.categories?.join(', ') || '',
     health: (d.main_ingredients || []).join(', '),
+    time: [prep && `prep ${prep}`, cook && `cocción ${cook}`]
+      .filter(Boolean)
+      .join(' · '),
   }
 })
 
