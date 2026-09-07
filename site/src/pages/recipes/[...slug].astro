@@ -1,6 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content'
+import dishImages from '../../data/dish-images.json'
 import Layout from '../../layouts/Layout.astro'
+import { resolveDishHero } from '../../lib/images'
 import { recipeJsonLd } from '../../lib/seo'
 
 export async function getStaticPaths() {
@@ -12,6 +14,14 @@ const { entry } = Astro.props
 const { Content } = await render(entry)
 const base = import.meta.env.BASE_URL.replace(/\/$/, '')
 const data = entry.data
+// Hero: images[0] válido → image singular → foto local → placeholder.
+// Filtra basura del contenido ("pending", homepages, rutas rotas).
+const heroImage = resolveDishHero(
+  data,
+  entry.id,
+  dishImages as Record<string, string>,
+)
+const heroIsPlaceholder = heroImage === '/images/placeholders/recipe.svg'
 
 const jsonLd = recipeJsonLd({
   slug: entry.id,
@@ -19,7 +29,7 @@ const jsonLd = recipeJsonLd({
   description:
     data.sensory?.presentation ||
     `${data.title || entry.id} — receta tradicional del Gastronomic Open Standard`,
-  image: data.images?.[0]?.url,
+  image: heroImage,
   prepTime: data.prep_time ? `PT${data.prep_time}M` : undefined,
   cookTime: data.cook_time ? `PT${data.cook_time}M` : undefined,
   recipeYield: data.servings ? `${data.servings} servings` : undefined,
@@ -33,12 +43,21 @@ const jsonLd = recipeJsonLd({
 <Layout
   title={`${data.title || entry.id} — Receta GOS`}
   description={data.sensory?.presentation || `${data.title || entry.id} — receta tradicional del Gastronomic Open Standard`}
-  image={data.images?.[0]?.url}
+  image={heroImage}
 >
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
   <a href={`${base}/recipes`} class="back">← Recetas</a>
   <article class="article">
     <h1>{data.title || entry.id}</h1>
+    <figure class="hero">
+      <img
+        src={heroImage}
+        alt={`Foto de ${data.title || entry.id}`}
+        loading="lazy"
+        data-fallback="/images/placeholders/recipe.svg"
+        class:list={['hero-img', { 'hero-placeholder': heroIsPlaceholder }]}
+      />
+    </figure>
     <div class="meta">
       {data.region && <span class="pill">{data.region}</span>}
       {data.difficulty && <span class="pill">{data.difficulty}</span>}
@@ -56,10 +75,25 @@ const jsonLd = recipeJsonLd({
     <div class="prose"><Content /></div>
     {data.main_ingredients && <p class="ings"><strong>Ingredientes clave:</strong> {data.main_ingredients.join(' • ')}</p>}
   </article>
+  <script is:inline>
+    // Si el hero falla (puntero LFS local, hotlink caído, offline),
+    // cae al placeholder en vez de mostrar icono roto.
+    document.querySelectorAll('img.hero-img[data-fallback]').forEach((img) => {
+      const swap = () => {
+        const fb = img.dataset.fallback;
+        if (fb && !img.src.endsWith(fb)) img.src = fb;
+      };
+      img.addEventListener('error', swap);
+      if (img.complete && img.naturalWidth === 0) swap();
+    });
+  </script>
 <style>
   .back{ color: var(--swal-accent); text-decoration:none; font-size:12px; }
   .article{ border:1px solid var(--swal-border); background: var(--swal-surface); border-radius:20px; padding:22px; margin-top:12px; }
   .article h1{ margin:0; font-size:24px; color: var(--swal-text); }
+  .hero{ margin:16px 0 0; }
+  .hero-img{ width:100%; max-height:320px; object-fit:cover; border-radius:12px; border:1px solid var(--swal-border); }
+  .hero-img.hero-placeholder{ object-fit:contain; max-height:160px; padding:20px; background: var(--swal-bg); }
   .meta{ display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
   .pill{ font-size:11px; padding:4px 10px; border-radius:999px; background: var(--swal-bg); border:1px solid var(--swal-border); color: var(--swal-text-secondary); }
   .pill.muted{ color: var(--swal-text-muted); }

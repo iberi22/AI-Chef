@@ -15,6 +15,7 @@ const dishesCollection = defineCollection({
       servings: z.union([z.string(), z.number()]).optional(),
       categories: z.array(z.string()).optional(),
       tags: z.array(z.string()).optional(),
+      image: z.string().optional(),
       aliases: z.record(z.string(), z.array(z.string())).optional(),
       main_ingredients: z.array(z.string()).optional(),
       nutrition_per_serving: z.record(z.string(), z.unknown()).optional(),
