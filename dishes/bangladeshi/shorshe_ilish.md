@@ -39,7 +39,7 @@ sensory:
     - Tierno
     - Jugoso
     - Salsa cremosa
-  aroma: 
+  aroma:
     - Aroma penetrante a mostaza recién molida y grasa de pescado noble.
   presentation: Servido en plato profundo de barro con rodajas de chile verde fresco y un hilo de aceite de mostaza crudo.
 nutrition:

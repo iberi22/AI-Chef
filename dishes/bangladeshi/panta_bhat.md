@@ -38,7 +38,7 @@ sensory:
     - Acuoso
     - Crujiente
     - Suave
-  aroma: 
+  aroma:
     - Aroma fermentado láctico suave combinado con la fragancia del pescado frito crujiente.
   presentation: Servido en plato hondo de barro con el líquido de fermentación, acompañado de una rodaja de Hilsa frito, chile verde picado y mostaza.
 nutrition:

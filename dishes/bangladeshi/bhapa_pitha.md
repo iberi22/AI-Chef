@@ -36,7 +36,7 @@ sensory:
     - Esponjoso
     - Tierno
     - Húmedo
-  aroma: 
+  aroma:
     - Aroma reconfortante a vapor de arroz, caramelo profundo de melaza de palma nolen gur y coco.
   presentation: Pasteles circulares blancos envueltos tradicionalmente en gasa fina, recién salidos de la vaporera de barro.
 nutrition:

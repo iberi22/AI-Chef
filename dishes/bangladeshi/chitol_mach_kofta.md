@@ -39,7 +39,7 @@ sensory:
     - Firme
     - Elástico
     - Jugoso
-  aroma: 
+  aroma:
     - Aroma rico a especias tostadas, caldo concentrado de pescado y jengibre.
   presentation: Bocados oblongos de pescado sumergidos en un curry dorado y espeso decorado con cilantro picado.
 nutrition:

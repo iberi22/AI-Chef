@@ -36,7 +36,7 @@ sensory:
     - Firme
     - Sedoso
     - Cremoso denso
-  aroma: 
+  aroma:
     - Aroma envolvente a caramelo tostado, leche reducida y ligera nota fermentada dulce.
   presentation: Servido tradicionalmente en vasijas individuales de barro cocido sin esmaltar (matka) que absorben el exceso de humedad.
 nutrition:

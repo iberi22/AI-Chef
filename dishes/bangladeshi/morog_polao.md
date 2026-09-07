@@ -38,7 +38,7 @@ sensory:
   texture:
     - Granos sueltos
     - Pollo jugoso y tierno
-  aroma: 
+  aroma:
     - Intenso aroma floral a agua de kewra, ghee clarificado y especias reales de la antigua corte Nawabi.
   presentation: Servido en bandeja amplia con presas de pollo enterradas en arroz blanco brillante, decorado con huevos duros y cebolla frita crocante.
 nutrition:

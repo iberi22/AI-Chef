@@ -37,7 +37,7 @@ sensory:
   texture:
     - Pastoso rústico
     - Fibroso
-  aroma: 
+  aroma:
     - Aroma intenso y penetrante característico del pescado curado al sol mezclado con ajo asado y chile.
   presentation: Presentado en pequeñas porciones esféricas intensamente rojas en platos tradicionales de terracota.
 nutrition:
