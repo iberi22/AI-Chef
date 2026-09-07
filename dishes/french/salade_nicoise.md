@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Atún
+  - Huevos cocidos
+  - Anchoas
+  - Aceitunas
+  - Judías verdes
+  - Tomate
 sensory:
   flavor:
     - Salado
@@ -48,7 +50,6 @@ description: >-
   Salade Niçoise es uno de los platos más emblemáticos de la gastronomía de
   Niza, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Salade Niçoise
 
 Salade Niçoise es uno de los platos más emblemáticos de la gastronomía de Niza, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +66,12 @@ Salade Niçoise es uno de los platos más emblemáticos de la gastronomía de Ni
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Atún
+- Huevos cocidos
+- Anchoas
+- Aceitunas
+- Judías verdes
+- Tomate
 
 ---
 

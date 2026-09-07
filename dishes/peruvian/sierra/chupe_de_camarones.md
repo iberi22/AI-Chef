@@ -61,7 +61,6 @@ description: >-
   arroz y queso andino en un caldo sustancioso aromatizado con ají panca y
   huacatay, enriquecido con leche evaporada y huevo.
 ---
-
 # Chupe de Camarones
 
 El Chupe de Camarones es un plato monumental, cumbre de la cocina de picantería arequipeña. Esta sopa espesa destaca por el profundo sabor umami marino aportado por el coral y las carcasas del camarón, equilibrado magistralmente con la cremosidad de los lácteos andinos y el aroma inconfundible del huacatay, una hierba silvestre andina sumamente fragante.

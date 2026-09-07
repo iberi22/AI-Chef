@@ -63,7 +63,6 @@ description: >-
   'tubérculos perdidos' (cubios, ibias, chuguas), cada uno aportando un perfil
   químico y de sabor único, desde lo picante hasta lo ácido.
 ---
-
 ## Cocido Boyacense
 
 El Cocido Boyacense es uno de los platos más emblemáticos de Boyacá y la región andina de Colombia. Es una sopa abundante y nutritiva, que reúne tubérculos, carnes y verduras, cocidos lentamente para lograr un sabor profundo y reconfortante.

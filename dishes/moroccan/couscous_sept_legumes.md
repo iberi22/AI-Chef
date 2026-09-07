@@ -20,10 +20,13 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Sémola de cuscús
+  - Calabaza
+  - Zanahoria
+  - Calabacín
+  - Nabo
+  - Garbanzos
+  - Carne de ternera
 sensory:
   flavor:
     - Salado
@@ -49,7 +52,6 @@ description: >-
   gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Couscous Real aux Sept Légumes
 
 Couscous Real aux Sept Légumes es uno de los platos más emblemáticos de la gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +68,13 @@ Couscous Real aux Sept Légumes es uno de los platos más emblemáticos de la ga
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Sémola de cuscús
+- Calabaza
+- Zanahoria
+- Calabacín
+- Nabo
+- Garbanzos
+- Carne de ternera
 
 ---
 

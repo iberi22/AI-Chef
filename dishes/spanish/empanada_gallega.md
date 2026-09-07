@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa de empanada
+  - Atún o bonito
+  - Pimentón
+  - Cebolla
+  - Pimiento rojo
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Galicia, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Empanada Gallega de Atún
 
 Empanada Gallega de Atún es uno de los platos más emblemáticos de la gastronomía de Galicia, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Empanada Gallega de Atún es uno de los platos más emblemáticos de la gastrono
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa de empanada
+- Atún o bonito
+- Pimentón
+- Cebolla
+- Pimiento rojo
 
 ---
 

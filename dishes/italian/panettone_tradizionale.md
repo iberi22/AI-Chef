@@ -52,7 +52,6 @@ description: >-
   dulce de masa madre con 48h de fermentación, repleto de mantequilla y frutas
   confitadas.
 ---
-
 # Panettone Artigianale
 
 El Panettone milanés es la joya de la repostería navideña italiana: un pan dulce de masa madre con 48h de fermentación, repleto de mantequilla y frutas confitadas.

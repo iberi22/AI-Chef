@@ -58,7 +58,6 @@ description: >-
   Consiste en arroz de grano medio cocinado directamente en un caldo rico de
   gandules verdes saborizado con sofrito boricua.
 ---
-
 # Arroz con Gandules Puertorriqueño
 
 El Arroz con Gandules es el corazón culinario de Puerto Rico. Este arroz destaca por el uso del sofrito boricua (*recaito*), una base aromática hecha con culantro, ajíes dulces, cebolla, ajo y pimientos, que junto al aceite de achiote aporta un color y sabor herbal inconfundible de forma espectacular.

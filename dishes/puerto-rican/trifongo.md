@@ -64,7 +64,6 @@ description: >-
   con ajo machacado, aceite de oliva y trozos crujientes de chicharrón de cerdo,
   logrando una masa cohesiva y densa de sabor sutilmente agridulce inigualable.
 ---
-
 # Trifongo Puertorriqueño de Chicharrón
 
 El Trifongo es una obra de arte culinaria de Puerto Rico. Al unir de forma equilibrada la firmeza del plátano verde, la dulzura caramelizada del plátano maduro y la consistencia suave y harinosa de la yuca cocida y frita, se obtiene una masa de mofongo mucho más compleja de sabores y texturas que se funde en boca de forma aterciopelada de textura similar a una natilla fina, perfumándose con ajo machacado y chicharrón.

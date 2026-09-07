@@ -57,7 +57,6 @@ description: >-
   los lípidos del coco capturan los aceites esenciales del 'recao de azotea'
   para envolver suavemente la proteína del pescado sin opacarla.
 ---
-
 ## Encocado de Pescado
 
 El Encocado de Pescado es uno de los platos más emblemáticos del Pacífico colombiano, especialmente en el Chocó y Nariño. Se prepara con pescado fresco cocido en una salsa cremosa de leche de coco, cebolla, pimentón y especias, resultando en un plato aromático, intenso y lleno de tradición afrocolombiana.

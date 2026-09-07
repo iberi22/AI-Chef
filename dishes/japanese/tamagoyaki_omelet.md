@@ -53,7 +53,6 @@ description: >-
   rectangular (makiyakinabe), superponiendo finas capas de huevo batido con
   dashi.
 ---
-
 # Tamagoyaki (Tortilla Dulce)
 
 El Tamagoyaki es la famosa tortilla enrollada japonesa hecha en sartén rectangular (makiyakinabe), superponiendo finas capas de huevo batido con dashi.

@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pescado variado
+  - Mariscos
+  - Azafrán
+  - Hinojo
+  - Tomate
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Marsella, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Bouillabaisse de Marsella
 
 Bouillabaisse de Marsella es uno de los platos más emblemáticos de la gastronomía de Marsella, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Bouillabaisse de Marsella es uno de los platos más emblemáticos de la gastrono
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pescado variado
+- Mariscos
+- Azafrán
+- Hinojo
+- Tomate
 
 ---
 

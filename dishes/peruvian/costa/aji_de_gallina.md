@@ -59,7 +59,6 @@ description: >-
   una reducción de caldo de gallina espesada con pan, leche evaporada, pecanas
   licuadas y enriquecida con abundante pasta de ají amarillo aromático.
 ---
-
 # Ají de Gallina
 
 El Ají de Gallina es uno de los platos más representativos y queridos del Perú. Este guiso destaca por su textura sedosa y su característico color amarillo vibrante provisto por el ají amarillo. Su origen fusiona la tradición medieval europea del manjar blanco de gallina con los ajíes autóctonos peruanos, creando una joya de la cocina criolla.

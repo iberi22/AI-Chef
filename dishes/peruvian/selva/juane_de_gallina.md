@@ -60,7 +60,6 @@ description: >-
   junio). Consiste en arroz sazonado con especias amazónicas y sacha culantro,
   relleno de gallina, envuelto en hojas de bijao y cocido al vapor.
 ---
-
 # Juane de Gallina
 
 El Juane de Gallina es el símbolo indiscutible de la cocina amazónica peruana. Este plato combina la sazón festiva de la selva con una técnica prehispánica de cocción al vapor en envoltorios vegetales. Envuelto en las olorosas hojas de bijao, el juane adquiere un perfume selvático único e inconfundible que evoca la riqueza natural de la Amazonía.

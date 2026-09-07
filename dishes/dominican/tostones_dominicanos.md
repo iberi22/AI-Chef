@@ -58,7 +58,6 @@ description: >-
   en un baño de agua salada con ajo machacado antes de la segunda fritura
   rápida.
 ---
-
 # Tostones Dominicanos con Agua de Ajo
 
 Los Tostones dominicanos, conocidos coloquialmente como *fritos verdes*, son un componente vital del almuerzo dominicano diario. El secreto de la variante dominicana radica en el remojo rápido del plátano aplastado en una solución de agua salada con ajo machacado antes de sumergirlo en la segunda fritura. Esto aporta una salinidad profunda y un sutil sabor a ajo.

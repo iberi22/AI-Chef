@@ -61,7 +61,6 @@ tags:
 - Criollo
 title: Papa Rellena
 ---
-
 # Papa Rellena
 
 La Papa Rellena es una de las entradas y "snacks" al paso más populares del Perú. Destaca por el contraste de texturas entre su delgada corteza exterior frita sumamente crujiente, la suavidad del puré de papa interior y la jugosidad de su relleno de carne especiada. Se sirve tradicionalmente con salsa criolla.

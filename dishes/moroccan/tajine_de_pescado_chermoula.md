@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pescado de roca
+  - Salsa chermoula (cilantro, ajo, comino, limón)
+  - Tomate
+  - Pimentón
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   gastronomía de Essaouira, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Tajine de Pescado con Chermoula
 
 Tajine de Pescado con Chermoula es uno de los platos más emblemáticos de la gastronomía de Essaouira, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +65,10 @@ Tajine de Pescado con Chermoula es uno de los platos más emblemáticos de la ga
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pescado de roca
+- Salsa chermoula (cilantro, ajo, comino, limón)
+- Tomate
+- Pimentón
 
 ---
 

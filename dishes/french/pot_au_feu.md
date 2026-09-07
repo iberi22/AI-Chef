@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de res con hueso
+  - Zanahorias
+  - Puerro
+  - Nabo
+  - Patata
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de Francia Nacional, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Pot-au-Feu Tradicional
 
 Pot-au-Feu Tradicional es uno de los platos más emblemáticos de la gastronomía de Francia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Pot-au-Feu Tradicional es uno de los platos más emblemáticos de la gastronomí
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de res con hueso
+- Zanahorias
+- Puerro
+- Nabo
+- Patata
 
 ---
 

@@ -50,8 +50,6 @@ description: >-
   sirve con queso, almojábana o pan. Es tendencia por su ritual de "chocolate
   con queso" y su presencia en desayunos y onces.
 ---
-
-
 El chocolate santafereño es una bebida caliente tradicional de Bogotá y el altiplano cundiboyacense. Se prepara con chocolate de mesa, leche y agua, y se sirve con queso, almojábana o pan. Es tendencia por su ritual de "chocolate con queso" y su presencia en desayunos y onces.
 
 ## Información General

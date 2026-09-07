@@ -62,7 +62,6 @@ description: >-
   "viandas" como yuca, malanga, ñame, plátanos verdes y maduros, maíz y
   calabaza, sazonada con un sofrito de ajo y limón.
 ---
-
 # Ajiaco Criollo Cubano
 
 El Ajiaco es el plato nacional de Cuba. No es una simple sopa; es un crisol de sabores que define la historia de la isla. El ajiaco reúne en una sola olla las carnes de res, cerdo y pollo con las llamadas *viandas* o raíces tropicales. El resultado es un guiso espeso, densamente nutritivo, reconfortante y con un sutil equilibrio entre lo salado de las carnes y lo dulce de los plátanos maduros.

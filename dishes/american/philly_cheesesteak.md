@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Ternera cortada fina
+  - Queso Provolone o Cheez Whiz
+  - Pan de bocadillo
+  - Cebolla
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   Filadelfia, PA, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Philly Cheesesteak
 
 Philly Cheesesteak es uno de los platos más emblemáticos de la gastronomía de Filadelfia, PA, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +65,10 @@ Philly Cheesesteak es uno de los platos más emblemáticos de la gastronomía de
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Ternera cortada fina
+- Queso Provolone o Cheez Whiz
+- Pan de bocadillo
+- Cebolla
 
 ---
 

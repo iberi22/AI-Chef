@@ -21,8 +21,29 @@ description: >-
   recetas virales por su sabor casero.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Tomate maduro
+  - Cebolla larga
+  - Ajo
+  - Comino
+  - Aceite vegetal
+prep_time: 20
+cook_time: 30
+servings: 1
+categories:
+  - Salsa
+  - Acompañamiento
+sensory:
+  flavor:
+    - Umami
+    - Salado
+    - Dulce vegetal
+  texture:
+    - Espeso
+    - Salsa suave
+  aroma:
+    - Sofrito de tomate y cebolla
 ---
-
 # Hogao Colombiano
 
 El hogao es la salsa base por excelencia de la cocina colombiana. Se usa como acompañamiento de arepas, carnes, empanadas y muchos otros platos. Su mezcla de tomate, cebolla y especias es símbolo de hogar y tradición, y tendencia en recetas virales por su sabor casero.

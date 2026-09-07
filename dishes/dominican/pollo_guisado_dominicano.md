@@ -62,7 +62,6 @@ description: >-
   directamente en el aceite caliente, seguida de una cocción lenta en una salsa
   criolla sumamente rica y aromática.
 ---
-
 # Pollo Guisado Dominicano
 
 El Pollo Guisado es el rey de la comida casera dominicana. Se trata de una preparación jugosa, tierna y profundamente aromática. El secreto de su inigualable sabor radica en dos técnicas dominicanas fundamentales: el "sazonado" inicial utilizando abundante orégano dominicano y ajo machacado, y el dorado rápido en azúcar quemada, un proceso químico que tuesta la piel del pollo aportando una complejidad de sabor umami cobrizo inigualable.

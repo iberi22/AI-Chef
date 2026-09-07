@@ -52,7 +52,6 @@ description: >-
   leche de coco, resultando en un plato reconfortante, aromático y lleno de
   sabor afrocolombiano.
 ---
-
 ## Sancocho de Pescado Pacífico
 
 El Sancocho de Pescado es una sopa tradicional y emblemática de la región Pacífica de Colombia. Se prepara con pescado fresco, tubérculos, plátano y leche de coco, resultando en un plato reconfortante, aromático y lleno de sabor afrocolombiano.

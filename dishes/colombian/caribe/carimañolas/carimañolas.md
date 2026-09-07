@@ -57,7 +57,6 @@ description: >-
   corteza vitrificada (glass-like) extremadamente crujiente, protegiendo un
   interior suave como la seda.
 ---
-
 # Carimañolas
 
 Si la arepa de huevo es la reina, la carimañola es la princesa de los fritos costeños. Su contraste de texturas —una costra fina y crujiente que rompe hacia una masa de yuca suave como puré y un núcleo sabroso— es una obra maestra de ingeniería culinaria básica.

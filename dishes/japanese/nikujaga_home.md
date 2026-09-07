@@ -54,7 +54,6 @@ description: >-
   Nikujaga literalmente significa 'carne y patatas', siendo el guiso casero por
   excelencia que evoca la calidez del hogar en la cocina japonesa.
 ---
-
 # Nikujaga (Res con Patatas)
 
 Nikujaga literalmente significa 'carne y patatas', siendo el guiso casero por excelencia que evoca la calidez del hogar en la cocina japonesa.

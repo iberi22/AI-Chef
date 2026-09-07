@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa crujiente
+  - Patatas
+  - Guisantes
+  - Comino
+  - Cilantro
+  - Garam masala
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   gastronomía de Norte de India, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Samosa de Patata y Guisantes
 
 Samosa de Patata y Guisantes es uno de los platos más emblemáticos de la gastronomía de Norte de India, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Samosa de Patata y Guisantes es uno de los platos más emblemáticos de la gastr
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa crujiente
+- Patatas
+- Guisantes
+- Comino
+- Cilantro
+- Garam masala
 
 ---
 

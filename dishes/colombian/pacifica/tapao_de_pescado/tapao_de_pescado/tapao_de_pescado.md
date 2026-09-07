@@ -58,7 +58,6 @@ description: >-
   propio jugo, preservando nutrientes y compuestos volátiles que suelen perderse
   en ollas abiertas.
 ---
-
 ## Tapao de Pescado
 
 El Tapao de Pescado es un plato emblemático del Pacífico colombiano, especialmente de la costa nariñense y chocoana. Consiste en pescado fresco cocido con plátano, yuca, papas y leche de coco, resultando en una sopa espesa y aromática, típica de celebraciones y encuentros familiares.

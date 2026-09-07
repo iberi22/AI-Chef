@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pescado blanco en tacos
+  - Harina de garbanzo (besan)
+  - Semillas de carambola (ajwain)
+  - Zumo de limón
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   Amritsar, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Amritsari Fish Fry
 
 Amritsari Fish Fry es uno de los platos más emblemáticos de la gastronomía de Amritsar, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +65,10 @@ Amritsari Fish Fry es uno de los platos más emblemáticos de la gastronomía de
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pescado blanco en tacos
+- Harina de garbanzo (besan)
+- Semillas de carambola (ajwain)
+- Zumo de limón
 
 ---
 

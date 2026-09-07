@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Harina de trigo
+  - Agua
+  - Sal
+  - Aceite para freír
+  - Chocolate espeso
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de Madrid, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Churros con Chocolate
 
 Churros con Chocolate es uno de los platos más emblemáticos de la gastronomía de Madrid, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Churros con Chocolate es uno de los platos más emblemáticos de la gastronomía
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Harina de trigo
+- Agua
+- Sal
+- Aceite para freír
+- Chocolate espeso
 
 ---
 

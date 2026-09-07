@@ -54,7 +54,6 @@ description: >-
   El Agedashi Tofu consiste en cubos de tofu rebozados en almidón de patata y
   fritos hasta quedar dorados, servidos en un caldo caliente tentsuyu.
 ---
-
 # Agedashi Tofu
 
 El Agedashi Tofu consiste en cubos de tofu rebozados en almidón de patata y fritos hasta quedar dorados, servidos en un caldo caliente tentsuyu.

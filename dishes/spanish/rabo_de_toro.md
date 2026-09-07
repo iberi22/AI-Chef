@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Rabo de toro
+  - Vino tinto
+  - Zanahoria
+  - Cebolla
+  - Puerro
+  - Ajo
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   de Andalucía, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Rabo de Toro Estofado
 
 Rabo de Toro Estofado es uno de los platos más emblemáticos de la gastronomía de Andalucía, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Rabo de Toro Estofado es uno de los platos más emblemáticos de la gastronomía
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Rabo de toro
+- Vino tinto
+- Zanahoria
+- Cebolla
+- Puerro
+- Ajo
 
 ---
 

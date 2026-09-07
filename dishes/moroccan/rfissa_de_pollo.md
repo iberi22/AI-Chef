@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pan msemmen troceado
+  - Pollo campero
+  - Lentejas
+  - Fenogreco
+  - Ras el hanout
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Casablanca, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Rfissa de Pollo con Lentejas
 
 Rfissa de Pollo con Lentejas es uno de los platos más emblemáticos de la gastronomía de Casablanca, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Rfissa de Pollo con Lentejas es uno de los platos más emblemáticos de la gastr
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pan msemmen troceado
+- Pollo campero
+- Lentejas
+- Fenogreco
+- Ras el hanout
 
 ---
 

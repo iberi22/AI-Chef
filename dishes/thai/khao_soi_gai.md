@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Fideos de huevo
+  - Muslo de pollo
+  - Caldo de curry amarillo y leche de coco
+  - Fideos crujientes fritos
 sensory:
   flavor:
     - Salado
@@ -48,7 +48,6 @@ description: >-
   Khao Soi Gai es uno de los platos más emblemáticos de la gastronomía de Chiang
   Mai, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Khao Soi Gai
 
 Khao Soi Gai es uno de los platos más emblemáticos de la gastronomía de Chiang Mai, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +64,10 @@ Khao Soi Gai es uno de los platos más emblemáticos de la gastronomía de Chian
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Fideos de huevo
+- Muslo de pollo
+- Caldo de curry amarillo y leche de coco
+- Fideos crujientes fritos
 
 ---
 

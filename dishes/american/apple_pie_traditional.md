@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Manzana
+  - Masa para pie
+  - Canela
+  - Mantequilla
+  - Azúcar
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de EE.UU. Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Traditional American Apple Pie
 
 Traditional American Apple Pie es uno de los platos más emblemáticos de la gastronomía de EE.UU. Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Traditional American Apple Pie es uno de los platos más emblemáticos de la gas
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Manzana
+- Masa para pie
+- Canela
+- Mantequilla
+- Azúcar
 
 ---
 

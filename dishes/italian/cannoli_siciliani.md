@@ -54,7 +54,6 @@ description: >-
   Los Cannoli Siciliani son tubos fritos de masa crujiente aromatizada con
   Marsala, rellenos al instante con dulce crema de ricotta de oveja y pistachos.
 ---
-
 # Cannoli Siciliani al Pistacchio
 
 Los Cannoli Siciliani son tubos fritos de masa crujiente aromatizada con Marsala, rellenos al instante con dulce crema de ricotta de oveja y pistachos.

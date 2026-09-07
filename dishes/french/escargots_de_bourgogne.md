@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Caracoles
+  - Mantequilla
+  - Ajo
+  - Perejil
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   de Borgoña, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Escargots de Bourgogne
 
 Escargots de Bourgogne es uno de los platos más emblemáticos de la gastronomía de Borgoña, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +65,10 @@ Escargots de Bourgogne es uno de los platos más emblemáticos de la gastronomí
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Caracoles
+- Mantequilla
+- Ajo
+- Perejil
 
 ---
 

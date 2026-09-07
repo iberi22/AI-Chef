@@ -61,7 +61,6 @@ description: >-
   andina deshidratada y tostada), guisada lentamente con carne de cerdo,
   abundante ají panca, ajo, comino, vino dulce y maní molido.
 ---
-
 # Carapulcra Limeña
 
 La Carapulcra es una de las joyas más antiguas y complejas de la gastronomía peruana. Su ingrediente estelar es la "papa seca", una forma prehispánica de conservación de la papa andina mediante deshidratación solar. Este guiso, densamente perfumado, representa la perfecta fusión entre las técnicas ancestrales andinas, los ingredientes traídos por los conquistadores españoles y el toque de la cocina afroperuana de la costa sur (Chincha).

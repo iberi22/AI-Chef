@@ -53,7 +53,6 @@ description: >-
   ternera coronados con salvia y prosciutto, salteados rápidamente en vino y
   mantequilla.
 ---
-
 # Saltimbocca alla Romana
 
 Saltimbocca literalmente significa 'salta en la boca': finos filetes de ternera coronados con salvia y prosciutto, salteados rápidamente en vino y mantequilla.

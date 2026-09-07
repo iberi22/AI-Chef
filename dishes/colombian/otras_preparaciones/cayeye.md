@@ -34,8 +34,18 @@ images:
 image: 'https://www.misrecetas.com/fotos/photo/main/1368/cayeye.jpg'
 description: '* 6-8 guineos verdes (bananos verdes pequeños)'
 yaml_validation: 'https://yaml-online-parser.appspot.com/'
+main_ingredients:
+  - Guineo verde (plátano verde)
+  - Mantequilla
+  - Queso costeño rallado
+  - Refrito de hogao
+prep_time: 1
+cook_time: 30
+servings: 4
+categories:
+  - Plato fuerte
+  - Tradicional
 ---
-
 ## Ingredientes
 
 * 6-8 guineos verdes (bananos verdes pequeños)

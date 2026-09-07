@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa fermentada de arroz y lenteja
+  - Relleno de patata especiada
+  - Chutney de coco
+  - Sambar
 sensory:
   flavor:
     - Salado
@@ -48,7 +48,6 @@ description: >-
   Masala Dosa es uno de los platos más emblemáticos de la gastronomía de Sur de
   India, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Masala Dosa
 
 Masala Dosa es uno de los platos más emblemáticos de la gastronomía de Sur de India, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +64,10 @@ Masala Dosa es uno de los platos más emblemáticos de la gastronomía de Sur de
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa fermentada de arroz y lenteja
+- Relleno de patata especiada
+- Chutney de coco
+- Sambar
 
 ---
 

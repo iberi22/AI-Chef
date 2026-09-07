@@ -53,7 +53,6 @@ description: >-
   precolombina. Son barras energéticas naturales hechas de semillas de amaranto
   (millo) recubiertas de un melado de panela y coco.
 ---
-
 # Alegrías
 
 Las Alegrías son un dulce tradicional de la región Caribe colombiana, especialmente popular en Cartagena y San Basilio de Palenque. Se elaboran con semillas de amaranto tostado, panela y coco, formando barras o bolas energéticas y nutritivas que son vendidas tradicionalmente por las "palenqueras".

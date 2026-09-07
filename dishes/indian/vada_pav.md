@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Bola de patata frita especiada
+  - Panecillo pav
+  - Chutney de ajo seco
+  - Guindilla verde frita
 sensory:
   flavor:
     - Salado
@@ -48,7 +48,6 @@ description: >-
   Vada Pav es uno de los platos más emblemáticos de la gastronomía de Bombay /
   Mumbai, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Vada Pav
 
 Vada Pav es uno de los platos más emblemáticos de la gastronomía de Bombay / Mumbai, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +64,10 @@ Vada Pav es uno de los platos más emblemáticos de la gastronomía de Bombay / 
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Bola de patata frita especiada
+- Panecillo pav
+- Chutney de ajo seco
+- Guindilla verde frita
 
 ---
 

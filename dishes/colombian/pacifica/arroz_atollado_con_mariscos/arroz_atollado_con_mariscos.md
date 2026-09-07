@@ -57,7 +57,6 @@ description: >-
   arroz donde se busca la máxima liberación de almidón para crear una matriz
   melosa que encapsula los jugos marinos y la grasa del coco.
 ---
-
 ## Arroz Atollado con Mariscos
 
 El Arroz Atollado con Mariscos es un plato típico de la región Pacífica colombiana, especialmente en los departamentos de Nariño, Cauca y Valle del Cauca. Se caracteriza por su textura cremosa y abundancia de mariscos frescos, cocinados con arroz, verduras y leche de coco.

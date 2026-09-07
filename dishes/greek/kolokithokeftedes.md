@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Calabacín rallado
+  - Queso Feta
+  - Eneldo
+  - Menta
+  - Harina
 sensory:
   flavor:
     - Salado
@@ -51,7 +52,6 @@ description: >-
   emblemáticos de la gastronomía de Creta, conocido por su equilibrio de sabores
   e ingredientes de alta calidad.
 ---
-
 # Kolokithokeftedes (Buñuelos de Calabacín)
 
 Kolokithokeftedes (Buñuelos de Calabacín) es uno de los platos más emblemáticos de la gastronomía de Creta, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -68,10 +68,11 @@ Kolokithokeftedes (Buñuelos de Calabacín) es uno de los platos más emblemáti
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Calabacín rallado
+- Queso Feta
+- Eneldo
+- Menta
+- Harina
 
 ---
 

@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de res para estofar
+  - Patatas
+  - Zanahorias
+  - Cebolla
+  - Caldo de carne
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Medio Oeste, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Classic American Pot Roast
 
 Classic American Pot Roast es uno de los platos más emblemáticos de la gastronomía de Medio Oeste, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Classic American Pot Roast es uno de los platos más emblemáticos de la gastron
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de res para estofar
+- Patatas
+- Zanahorias
+- Cebolla
+- Caldo de carne
 
 ---
 

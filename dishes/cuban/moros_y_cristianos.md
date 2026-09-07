@@ -61,7 +61,6 @@ description: >-
   cerdo, logrando que los granos de arroz absorban el color y el sabor terroso
   de los frijoles negros.
 ---
-
 # Moros y Cristianos Tradicionales
 
 Moros y Cristianos es el arroz que define la mesa cubana. A diferencia de los arroces con frijoles de otros países del Caribe donde los componentes se sirven por separado, en Cuba los frijoles negros (los "Moros") y el arroz blanco (los "Cristianos") se cocinan juntos en la misma olla. Esto produce un arroz graneado, suelto y de color gris oscuro, perfumado con un sofrito criollo cargado de comino y tocino.

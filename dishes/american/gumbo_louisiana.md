@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Camarones
+  - Salchicha andouille
+  - Okra
+  - Roux
+  - Arroz
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Nueva Orleans, LA, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Louisiana Seafood Gumbo
 
 Louisiana Seafood Gumbo es uno de los platos más emblemáticos de la gastronomía de Nueva Orleans, LA, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Louisiana Seafood Gumbo es uno de los platos más emblemáticos de la gastronom�
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Camarones
+- Salchicha andouille
+- Okra
+- Roux
+- Arroz
 
 ---
 

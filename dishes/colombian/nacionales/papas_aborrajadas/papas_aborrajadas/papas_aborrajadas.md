@@ -53,9 +53,6 @@ description: >-
   en masa y fritas hasta lograr una textura crujiente por fuera y suave por
   dentro. Son tendencia por su sencillez y sabor reconfortante.
 ---
-
-
-
 Las papas aborrajadas son un snack callejero y casero, típico de ferias y ventas ambulantes en Colombia. Consisten en rodajas de papa cocida, rebozadas en masa y fritas hasta lograr una textura crujiente por fuera y suave por dentro. Son tendencia por su sencillez y sabor reconfortante.
 
 ## Información General

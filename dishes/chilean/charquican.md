@@ -62,7 +62,6 @@ description: >-
   sofrita, cebolla, condimentos, choclo desgranado y arvejas. Se corona
   comúnmente con un huevo frito.
 ---
-
 # Charquicán Chileno
 
 El Charquicán es uno de los platos más antiguos de Chile. Su origen precolombino se remonta a los pueblos indígenas andinos y mapuches, quienes cocinaban papas, zapallo y maíz junto a 'charqui' (carne de camélido secada al sol y salada). Con la llegada de los españoles, la carne fresca de vacuno y los condimentos europeos se integraron al guiso, dando forma al charquicán cremoso y reconfortante que se disfruta hoy.

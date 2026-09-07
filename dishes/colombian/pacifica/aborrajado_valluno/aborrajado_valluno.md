@@ -56,7 +56,6 @@ description: >-
   dulce-salado en Colombia. Un plátano muy maduro se aplasta, se rellena de
   queso, se cierra y se reboza en una mezcla especial (funga) para ser frito.
 ---
-
 # Aborrajado Valluno
 
 El Aborrajado es un ícono del Valle del Cauca, descendiente de la tradición de las "frugas" o rebozados españoles, pero adaptado magistralmente con el plátano hartón maduro. Es un plato que desafía al paladar con su intensidad: grasa, azúcar, sal y crujido en un solo bocado.

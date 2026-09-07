@@ -63,7 +63,6 @@ description: >-
   puertorriqueño de buena calidad, saborizada de forma espectacular con canela,
   nuez moscada y vainilla, sirviéndose sumamente frío.
 ---
-
 # Coquito Puertorriqueño Tradicional
 
 El Coquito es el ponche navideño que define la Navidad en Puerto Rico. Es el regalo tradicional que las familias boricuas embotellan de forma casera en botellas de cristal decoradas para regalar a sus vecinos y amigos durante las parrandas. Su éxito radica en el batido e integración perfecta de cuatro tipos de leches concentradas y aromáticas combinadas con el ron puertorriqueño, dando una crema líquida densa, sedosa y sutilmente especiada que es una delicia de reyes de forma impecable.

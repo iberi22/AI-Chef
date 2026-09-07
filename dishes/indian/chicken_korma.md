@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo
+  - Yogur
+  - Pasta de anacardos
+  - Nata
+  - Especias suaves
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Chicken Korma es uno de los platos más emblemáticos de la gastronomía de
   Mogolla, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Chicken Korma
 
 Chicken Korma es uno de los platos más emblemáticos de la gastronomía de Mogolla, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +65,11 @@ Chicken Korma es uno de los platos más emblemáticos de la gastronomía de Mogo
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo
+- Yogur
+- Pasta de anacardos
+- Nata
+- Especias suaves
 
 ---
 

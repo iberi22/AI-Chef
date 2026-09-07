@@ -62,7 +62,6 @@ tags:
 - Chifa
 title: Lomo Saltado
 ---
-
 # Lomo Saltado
 
 El Lomo Saltado es uno de los platos más populares y queridos de la gastronomía peruana. Representa de manera perfecta la técnica oriental del salteado a fuego extremadamente alto (wok) adaptada con ingredientes criollos peruanos como el ají amarillo, cebollas rojas, tomates y papas autóctonas.

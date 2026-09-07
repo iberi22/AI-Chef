@@ -57,7 +57,6 @@ description: >-
   tamaño para cocción rápida en agua y se aumentó el uso de pimienta para actuar
   como antimicrobiano natural.
 ---
-
 # Butifarra Soledeña
 
 "En Soledad la butifarra es religión". Este embutido es el pasaboca callejero por excelencia en el Atlántico. Su técnica de preparación es un legado de la inmigración catalana adaptada al paladar y los ingredientes locales (más picante, cocción en agua).

@@ -51,8 +51,6 @@ description: >-
   fresca, mezclada con hielo, azúcar y, a veces, limón o soda. Es símbolo de la
   cultura caleña y tendencia en redes sociales por su color y sabor exótico.
 ---
-
-
 La lulada es una bebida refrescante tradicional del Valle del Cauca y muy popular en todo el suroccidente colombiano. Su base es la pulpa de lulo fresca, mezclada con hielo, azúcar y, a veces, limón o soda. Es símbolo de la cultura caleña y tendencia en redes sociales por su color y sabor exótico.
 
 ## Información General

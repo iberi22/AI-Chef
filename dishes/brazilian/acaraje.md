@@ -57,7 +57,6 @@ description: >-
   batida de frijol carilla y cebolla, frito en abundante aceite de dendê. Es un
   alimento sagrado del Candomblé y símbolo cultural de las Baianas de Acarajé.
 ---
-
 # Acarajé Baiano
 
 El Acarajé es una de las expresiones gastronómicas y culturales más poderosas de Brasil, íntimamente ligada a la cultura afrobrasileña y al estado de Bahía. Estos crujientes y aromáticos buñuelos de frijol carilla fritos en aceite de palma roja (*dendê*) representan no solo un manjar culinario excepcional, sino también un elemento patrimonial protegido, preparado tradicionalmente por las icónicas *Baianas de Acarajé* vestidas de encaje blanco.
