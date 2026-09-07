@@ -61,7 +61,6 @@ description: >-
   en agua con canela, chancaca y azúcar, servido con trigo mote tierno cocido en
   el fondo del vaso.
 ---
-
 # Mote con Huesillos
 
 El Mote con Huesillos es el rey indiscutido del verano chileno. Es una preparación refrescante que combina el durazno seco rehidratado con trigo mote procesado. Se vende típicamente en carritos callejeros en los calurosos días estivales de Santiago y de todo el país, sirviendo tanto de postre como de bebida para mitigar las altas temperaturas.

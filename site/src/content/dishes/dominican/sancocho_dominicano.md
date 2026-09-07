@@ -65,7 +65,6 @@ tags:
 - Tradicional
 title: Sancocho Dominicano de Siete Carnes
 ---
-
 # Sancocho Dominicano de Siete Carnes
 
 El Sancocho de Siete Carnes es el monarca absoluto de la mesa dominicana. No es una comida ordinaria; es un evento comunitario y una celebración de la abundancia. Este suntuoso guiso reúne hasta siete cortes de carnes diferentes, cocinados de forma paciente junto con una gran variedad de raíces tropicales y tubérculos autóctonos. El resultado es un caldo sumamente denso, espeso y de consistencia aterciopelada que reconforta el espíritu.

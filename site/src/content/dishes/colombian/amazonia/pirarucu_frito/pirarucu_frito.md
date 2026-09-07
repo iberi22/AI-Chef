@@ -58,7 +58,6 @@ description: >-
   carne firme y sin espinas del pez de escama más grande de la cuenca.
   Empanizado con harina local y frito, ofrece un contraste perfecto de texturas.
 ---
-
 ## 🍲 Pirarucú Frito
 
 El Pirarucú (*Arapaima gigas*) es el "rey del Amazonas", un pez prehistórico que puede alcanzar los 3 metros. Su carne es única entre los pescados de río: blanca, firme, sin espinas intermusculares y con un sabor suave que absorbe bien los condimentos. Esta preparación frita es omnipresente en los mercados de Leticia y Puerto Nariño.

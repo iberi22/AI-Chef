@@ -48,7 +48,6 @@ nutrition:
     carbs_g: 36.6
 description: '* 2 libras de ñame pelado y en cubos'
 ---
-
 ## Ingredientes
 
 * 2 libras de ñame pelado y en cubos

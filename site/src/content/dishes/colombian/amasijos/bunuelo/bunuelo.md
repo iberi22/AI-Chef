@@ -56,7 +56,6 @@ description: >-
   harina de trigo; es un equilibrio termodinámico complejo entre quesos salados
   y almidones que deben expandirse en aceite tibio sin explotar.
 ---
-
 # Buñuelo (Esfera Navideña)
 
 El Buñuelo es el rey de la Navidad en Colombia. A diferencia de los buñuelos de viento españoles o mexicanos (hechos de trigo), el colombiano es una masa densa de queso y fécula que se aligera mágicamente en el aceite. Su preparación es considerada una "ciencia oculta" debido a la dificultad de lograr la temperatura exacta del aceite para que "volteen" solos.

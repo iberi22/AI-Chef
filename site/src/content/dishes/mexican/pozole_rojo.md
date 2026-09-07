@@ -56,7 +56,6 @@ description: >-
   El Pozole Rojo es una sopa festiva ancestral a base de granos de maíz
   cacahuazintle reventados en un caldo espeso sazonado con chiles secos y cerdo.
 ---
-
 # Pozole Rojo de Jalisco
 
 El Pozole Rojo es una sopa festiva ancestral a base de granos de maíz cacahuazintle reventados en un caldo espeso sazonado con chiles secos y cerdo.

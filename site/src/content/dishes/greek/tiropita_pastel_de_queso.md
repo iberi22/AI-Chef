@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa filo
+  - Queso Feta
+  - Queso Ricotta
+  - Huevos
+  - Mantequilla
 sensory:
   flavor:
     - Salado
@@ -51,7 +52,6 @@ description: >-
   la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Tiropita (Pastel Hojaldrado de Feta)
 
 Tiropita (Pastel Hojaldrado de Feta) es uno de los platos más emblemáticos de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -68,10 +68,11 @@ Tiropita (Pastel Hojaldrado de Feta) es uno de los platos más emblemáticos de 
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa filo
+- Queso Feta
+- Queso Ricotta
+- Huevos
+- Mantequilla
 
 ---
 

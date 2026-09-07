@@ -59,7 +59,6 @@ description: >-
   azúcar blanca refinada y abundante hielo, destaca por su sabor cítrico, dulce
   y sumamente refrescante.
 ---
-
 # Caipirinha Tradicional Brasileira
 
 La Caipirinha es la máxima expresión de la coctelería brasileña. Protegida por la ley nacional como una marca registrada de su patrimonio cultural, esta bebida nació en el estado de São Paulo durante el siglo XIX. Su magia radica en la perfecta combinación de los aceites aromáticos de la cáscara del limón machacados directamente con azúcar blanca, la potencia del aguardiente de caña de azúcar (*cachaça*) y el frío refrescante del hielo picado.

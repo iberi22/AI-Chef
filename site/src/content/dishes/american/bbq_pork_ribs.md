@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Costillas de cerdo
+  - Salsa BBQ
+  - Pimentón
+  - Ajo
+  - Miel
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Missouri / Memphis, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # St. Louis Style BBQ Pork Ribs
 
 St. Louis Style BBQ Pork Ribs es uno de los platos más emblemáticos de la gastronomía de Missouri / Memphis, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ St. Louis Style BBQ Pork Ribs es uno de los platos más emblemáticos de la gast
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Costillas de cerdo
+- Salsa BBQ
+- Pimentón
+- Ajo
+- Miel
 
 ---
 

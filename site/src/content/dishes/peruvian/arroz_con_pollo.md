@@ -57,7 +57,6 @@ description: >-
   aportado por la cerveza negra y el ají amarillo. Es una adaptación mestiza de
   la paella española.
 ---
-
 # Arroz con Pollo Peruano
 
 El arroz con pollo peruano es uno de los platos más emblemáticos de la gastronomía criolla. Su característica principal es su intenso color verde y su profundo sabor, que se obtiene gracias al culantro (cilantro) licuado y la cerveza negra. Es un plato de fiesta, de reunión familiar y de orgullo nacional.

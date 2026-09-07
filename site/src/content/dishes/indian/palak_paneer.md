@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Queso Paneer
+  - Puré de espinacas
+  - Ajo
+  - Jengibre
+  - Garam masala
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de India, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Palak Paneer
 
 Palak Paneer es uno de los platos más emblemáticos de la gastronomía de Norte de India, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Palak Paneer es uno de los platos más emblemáticos de la gastronomía de Norte
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Queso Paneer
+- Puré de espinacas
+- Ajo
+- Jengibre
+- Garam masala
 
 ---
 

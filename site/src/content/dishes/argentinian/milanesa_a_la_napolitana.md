@@ -64,7 +64,6 @@ description: >-
   rebanadas de jamón cocido, abundante queso mozzarella derretido y un toque de
   orégano.
 ---
-
 # Milanesa a la Napolitana
 
 La Milanesa a la Napolitana es el símbolo supremo de los bodegones y de la cocina casera de Buenos Aires. Aunque el empanado de carne tiene raíces europeas (como el Schnitzel o la Cotoletta), la versión 'a la Napolitana' es un invento 100% porteño nacido en frente al estadio de Luna Park, que añade la exuberancia de la salsa, el jamón y el queso derretido en un plato rebosante de sabor.

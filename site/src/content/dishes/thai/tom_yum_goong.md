@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Camarones
+  - Lemongrass
+  - Galanga
+  - Hojas de lima kaffir
+  - Chile thai
+  - Zumo de lima
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   Central Thailand, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Tom Yum Goong
 
 Tom Yum Goong es uno de los platos más emblemáticos de la gastronomía de Central Thailand, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Tom Yum Goong es uno de los platos más emblemáticos de la gastronomía de Cent
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Camarones
+- Lemongrass
+- Galanga
+- Hojas de lima kaffir
+- Chile thai
+- Zumo de lima
 
 ---
 

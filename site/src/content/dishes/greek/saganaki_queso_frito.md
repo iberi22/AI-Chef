@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Queso Kefalotyri
+  - Harina
   - Aceite de oliva
+  - Limón
 sensory:
   flavor:
     - Salado
@@ -51,7 +51,6 @@ description: >-
   la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Garides Saganaki (Camarones con Feta)
 
 Garides Saganaki (Camarones con Feta) es uno de los platos más emblemáticos de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -68,10 +67,10 @@ Garides Saganaki (Camarones con Feta) es uno de los platos más emblemáticos de
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Queso Kefalotyri
+- Harina
 - Aceite de oliva
+- Limón
 
 ---
 

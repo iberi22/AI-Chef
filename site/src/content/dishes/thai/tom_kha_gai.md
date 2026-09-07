@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo
+  - Leche de coco
+  - Galanga
+  - Hierbaluisa (lemongrass)
+  - Hojas de lima kaffir
+  - Champiñones
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   Thailand, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Tom Kha Gai
 
 Tom Kha Gai es uno de los platos más emblemáticos de la gastronomía de Central Thailand, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Tom Kha Gai es uno de los platos más emblemáticos de la gastronomía de Centra
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo
+- Leche de coco
+- Galanga
+- Hierbaluisa (lemongrass)
+- Hojas de lima kaffir
+- Champiñones
 
 ---
 

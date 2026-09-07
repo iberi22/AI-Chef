@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Tomate maduro
+  - Pimiento verde
+  - Pepino
+  - Ajo
   - Aceite de oliva
+  - Vinagre de Jerez
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   Andalucía, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Gazpacho Andaluz
 
 Gazpacho Andaluz es uno de los platos más emblemáticos de la gastronomía de Andalucía, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Gazpacho Andaluz es uno de los platos más emblemáticos de la gastronomía de A
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Tomate maduro
+- Pimiento verde
+- Pepino
+- Ajo
 - Aceite de oliva
+- Vinagre de Jerez
 
 ---
 

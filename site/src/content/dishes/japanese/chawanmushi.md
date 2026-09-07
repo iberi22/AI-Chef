@@ -54,7 +54,6 @@ description: >-
   El Chawanmushi es un natilla o flan salado al vapor preparado a partir de
   huevo y caldo dashi enriquecido con pollo, langostino y setas.
 ---
-
 # Chawanmushi (Flan Salado)
 
 El Chawanmushi es un natilla o flan salado al vapor preparado a partir de huevo y caldo dashi enriquecido con pollo, langostino y setas.

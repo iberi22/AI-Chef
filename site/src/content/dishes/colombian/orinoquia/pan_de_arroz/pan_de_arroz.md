@@ -21,8 +21,27 @@ description: >-
   suave por dentro, perfecto para acompañar desayunos o meriendas.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Harina de arroz
+  - Cuajada o queso fresco
+  - Mantequilla
+  - Huevos
+prep_time: 30
+cook_time: 30
+servings: 12
+categories:
+  - Pan
+  - Amasijo
+sensory:
+  flavor:
+    - Salado
+    - Quesero
+    - Tostado
+  texture:
+    - Crocante rosca horneada
+  aroma:
+    - Queso horneado y arroz tostado
 ---
-
 # Pan de Arroz
 
 El Pan de Arroz es una delicia tradicional de la Orinoquía colombiana, especialmente popular en los Llanos Orientales. Se elabora con arroz molido, queso llanero y manteca, resultando en un panecillo crujiente por fuera y suave por dentro, perfecto para acompañar desayunos o meriendas.

@@ -53,7 +53,6 @@ description: >-
   Los Panuchos son una delicia de Yucatán: tortillas de maíz hechas a mano que
   se abren para meter frijol negro colado y luego se fríen ligeramente.
 ---
-
 # Panuchos Yucatecos
 
 Los Panuchos son una delicia de Yucatán: tortillas de maíz hechas a mano que se abren para meter frijol negro colado y luego se fríen ligeramente.

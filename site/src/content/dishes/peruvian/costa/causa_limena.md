@@ -60,7 +60,6 @@ description: >-
   y aceite, rellena tradicionalmente de pollo deshilachado o atún con mayonesa y
   palta.
 ---
-
 # Causa Limeña
 
 La Causa Limeña es uno de los platos más vistosos y deliciosos del recetario criollo peruano. Destaca por su masa de papa amarilla, sumamente delicada, perfumada con el limón sutil y el ají amarillo. Se sirve fría y es una de las entradas favoritas de las mesas festivas limeñas.

@@ -55,7 +55,6 @@ description: >-
   La Lasagna alla Bolognese es un festín de Bolonia compuesto por finas capas de
   pasta al huevo intercaladas con ragù cárnico tradicional y salsa bechamel.
 ---
-
 # Lasagna alla Bolognese
 
 La Lasagna alla Bolognese es un festín de Bolonia compuesto por finas capas de pasta al huevo intercaladas con ragù cárnico tradicional y salsa bechamel.

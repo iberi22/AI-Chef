@@ -54,9 +54,6 @@ description: >-
   fritas hasta lograr una corteza dorada y crujiente. Son tendencia por su sabor
   reconfortante y su presencia en ferias y ventas ambulantes.
 ---
-
-
-
 Las papas rellenas son un clásico de la comida callejera colombiana. Consisten en papas cocidas y rellenas de carne, huevo y condimentos, empanizadas y fritas hasta lograr una corteza dorada y crujiente. Son tendencia por su sabor reconfortante y su presencia en ferias y ventas ambulantes.
 
 ## Información General

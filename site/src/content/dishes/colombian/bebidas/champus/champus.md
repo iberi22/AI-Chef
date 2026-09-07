@@ -57,8 +57,6 @@ description: >-
   la categorización: es un refresco, un postre y una sopa fría de frutas, donde
   el maíz actúa como el cuerpo estructurante.
 ---
-
-
 El champús es una bebida tradicional del suroccidente colombiano, especialmente del Valle del Cauca y Nariño. Se prepara con maíz, frutas (lulo, piña), panela y especias. Es tendencia en festividades y ferias por su sabor exótico y refrescante.
 
 ## Información General

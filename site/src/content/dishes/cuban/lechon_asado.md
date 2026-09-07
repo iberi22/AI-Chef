@@ -61,7 +61,6 @@ description: >-
   horno hasta que la carne quede extremadamente tierna y la piel exterior se
   transforme en un cuerito super crujiente.
 ---
-
 # Lechón Asado Cubano
 
 El Lechón Asado es sinónimo de fiesta familiar y celebración tradicional en Cuba. El aroma del cerdo asándose lentamente impregnado del característico mojo de ajo y naranja agria anuncia las festividades navideñas en toda la isla. El éxito del plato radica en un asado paciente a baja temperatura para ablandar las fibras musculares de la carne, seguido por un golpe de calor fuerte final para lograr el codiciado "cuerito" crujiente.

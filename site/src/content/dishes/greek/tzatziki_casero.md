@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Yogur griego
+  - Pepino rallado
+  - Ajo
   - Aceite de oliva
+  - Eneldo o menta
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de Grecia Nacional, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Tzatziki Tradicional
 
 Tzatziki Tradicional es uno de los platos más emblemáticos de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Tzatziki Tradicional es uno de los platos más emblemáticos de la gastronomía 
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Yogur griego
+- Pepino rallado
+- Ajo
 - Aceite de oliva
+- Eneldo o menta
 
 ---
 

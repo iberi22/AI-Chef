@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Queso Gruyère
+  - Huevos
+  - Mantequilla
+  - Harina
+  - Leche
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Soufflé au Fromage es uno de los platos más emblemáticos de la gastronomía de
   París, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Soufflé au Fromage
 
 Soufflé au Fromage es uno de los platos más emblemáticos de la gastronomía de París, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +65,11 @@ Soufflé au Fromage es uno de los platos más emblemáticos de la gastronomía d
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Queso Gruyère
+- Huevos
+- Mantequilla
+- Harina
+- Leche
 
 ---
 

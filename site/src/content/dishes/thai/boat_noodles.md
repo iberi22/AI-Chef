@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Fideos de arroz
+  - Carne de res o cerdo
+  - Caldo especiado oscuro
+  - Brotes de soja
+  - Albahaca thai
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Kuay Teow Reua (Boat Noodles)
 
 Kuay Teow Reua (Boat Noodles) es uno de los platos más emblemáticos de la gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Kuay Teow Reua (Boat Noodles) es uno de los platos más emblemáticos de la gast
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Fideos de arroz
+- Carne de res o cerdo
+- Caldo especiado oscuro
+- Brotes de soja
+- Albahaca thai
 
 ---
 

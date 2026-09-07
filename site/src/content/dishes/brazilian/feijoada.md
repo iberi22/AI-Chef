@@ -59,7 +59,6 @@ description: >-
   ahumadas y frescas de cerdo y res. Es un plato festivo que celebra la unión y
   la diversidad cultural de Brasil.
 ---
-
 # Feijoada Completa Brasileira
 
 La Feijoada es el plato nacional y el corazón de la gastronomía de Brasil. Este guiso combina frijoles negros con una rica selección de carnes de cerdo y res, cocidas a fuego lento hasta lograr una textura cremosa y un sabor profundo y ahumado. Es sinónimo de reuniones familiares, fines de semana festivos y celebración cultural.

@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa warqa
+  - Pollo deshebrado
+  - Almendras tostadas molidas
+  - Canela
+  - Azúcar glas
 sensory:
   flavor:
     - Salado
@@ -51,7 +52,6 @@ description: >-
   de la gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Pastilla (Bastilla) de Pollo y Almendras
 
 Pastilla (Bastilla) de Pollo y Almendras es uno de los platos más emblemáticos de la gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -68,10 +68,11 @@ Pastilla (Bastilla) de Pollo y Almendras es uno de los platos más emblemáticos
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa warqa
+- Pollo deshebrado
+- Almendras tostadas molidas
+- Canela
+- Azúcar glas
 
 ---
 

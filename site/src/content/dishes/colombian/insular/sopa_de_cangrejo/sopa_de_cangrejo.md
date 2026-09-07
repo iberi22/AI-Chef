@@ -56,7 +56,6 @@ description: >-
   caparazón como catalizador de sabor, extrayendo calcio y quitina para crear un
   fondo de complejidad umami inigualable, suavizado por la leche de coco.
 ---
-
 # Sopa de Cangrejo (Crab Soup)
 
 La Sopa de Cangrejo es uno de los platos más emblemáticos de San Andrés y Providencia. Este caldo espeso y aromático combina carne de cangrejo, leche de coco, tubérculos y especias isleñas, evocando la tradición marinera y el mestizaje cultural del archipiélago.

@@ -56,7 +56,6 @@ description: >-
   Las Enchiladas Verdes son tortillas de maíz ligeramente fritas, rellenas de
   pollo y bañadas en una salsa tibia de tomatillo y chiles verdes.
 ---
-
 # Enchiladas Verdes
 
 Las Enchiladas Verdes son tortillas de maíz ligeramente fritas, rellenas de pollo y bañadas en una salsa tibia de tomatillo y chiles verdes.

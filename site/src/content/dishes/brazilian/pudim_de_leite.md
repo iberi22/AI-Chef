@@ -58,7 +58,6 @@ description: >-
   condensada como base principal, resultando en un dulce sumamente denso, sedoso
   y suave que se hornea a baño María y se sirve bañado de caramelo.
 ---
-
 # Pudim de Leite Condensado
 
 El Pudim de Leite es el dulce más querido de la mesa familiar brasileña. Es el postre clásico de los almuerzos de domingo. Su sencillez de ingredientes contrasta con su sofisticación de textura: un flan increíblemente sedoso, sin burbujas de aire (en la versión tradicional más codiciada) o con ellas (para los que prefieren una consistencia más rústica), bañado por una abundante salsa líquida de caramelo ámbar brillante.

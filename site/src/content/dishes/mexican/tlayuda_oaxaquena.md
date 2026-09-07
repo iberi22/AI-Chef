@@ -54,7 +54,6 @@ description: >-
   La Tlayuda es bautizada como la 'pizza oaxaqueña': una enorme tortilla tostada
   al carbón untada con asiento de cerdo, frijoles, quesillo y filete de tasajo.
 ---
-
 # Tlayuda Oaxaqueña con Tasajo
 
 La Tlayuda es bautizada como la 'pizza oaxaqueña': una enorme tortilla tostada al carbón untada con asiento de cerdo, frijoles, quesillo y filete de tasajo.

@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Puré de verduras especiado
+  - Panecillos suaves (pav)
+  - Mantequilla abundante
+  - Cebolla picada
 sensory:
   flavor:
     - Salado
@@ -48,7 +48,6 @@ description: >-
   Pav Bhaji es uno de los platos más emblemáticos de la gastronomía de Mumbai,
   conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Pav Bhaji
 
 Pav Bhaji es uno de los platos más emblemáticos de la gastronomía de Mumbai, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +64,10 @@ Pav Bhaji es uno de los platos más emblemáticos de la gastronomía de Mumbai, 
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Puré de verduras especiado
+- Panecillos suaves (pav)
+- Mantequilla abundante
+- Cebolla picada
 
 ---
 

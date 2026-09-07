@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa quebrada
+  - Bacon
+  - Huevos
+  - Crema de leche
+  - Queso
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Quiche Lorraine es uno de los platos más emblemáticos de la gastronomía de
   Lorena, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Quiche Lorraine
 
 Quiche Lorraine es uno de los platos más emblemáticos de la gastronomía de Lorena, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +65,11 @@ Quiche Lorraine es uno de los platos más emblemáticos de la gastronomía de Lo
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa quebrada
+- Bacon
+- Huevos
+- Crema de leche
+- Queso
 
 ---
 

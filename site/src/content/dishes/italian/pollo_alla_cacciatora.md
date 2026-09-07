@@ -54,7 +54,6 @@ description: >-
   El Pollo alla Cacciatora ('al estilo del cazador') es un guiso toscano rústico
   de pollo dorado y estofado con vino tinto, tomates, romero y aceitunas.
 ---
-
 # Pollo alla Cacciatora
 
 El Pollo alla Cacciatora ('al estilo del cazador') es un guiso toscano rústico de pollo dorado y estofado con vino tinto, tomates, romero y aceitunas.

@@ -66,7 +66,6 @@ description: >-
   de forma tradicional dentro de la corteza de un zapallo criollo grande
   previamente horneado.
 ---
-
 # Carbonada Criolla
 
 La Carbonada Criolla representa una de las combinaciones más singulares de la cocina colonial argentina: la fusión de carnes saladas con hortalizas nativas, maíz tierno y frutas secas dulces (orejones de durazno). Este guiso espeso de invierno, de sabor sutilmente agridulce y color anaranjado vibrante, se sirve de manera espectacular dentro de la propia calabaza zapallo horneada, permitiendo raspar su pulpa suave al servir cada porción.

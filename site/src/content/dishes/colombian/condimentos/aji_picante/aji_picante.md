@@ -21,8 +21,29 @@ description: >-
   y fritos.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Ají rojo picante
+  - Cebolla larga
+  - Tomate
+  - Cilantro
+  - Vinagre
+  - Agua
+prep_time: 10
+cook_time: 30
+servings: 1
+categories:
+  - Salsa
+  - Acompañamiento
+sensory:
+  flavor:
+    - Picante
+    - Ácido
+    - Herbáceo
+  texture:
+    - Líquido con vegetales picados
+  aroma:
+    - Vinagre y cilantro fresco
 ---
-
 # Ají Picante Colombiano
 
 El ají es el condimento estrella de la comida callejera y casera en Colombia. Existen muchas variantes, pero la base es una mezcla de ají fresco, cebolla, cilantro, tomate y vinagre. Es tendencia por su presencia en snacks, empanadas y fritos.

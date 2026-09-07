@@ -20,8 +20,29 @@ description: >-
   por su uso en asados, arepas y comidas rápidas.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Aguacate maduro
+  - Tomate
+  - Cebolla larga
+  - Cilantro
+  - Zumo de limón
+  - Huevos cocidos (opcional)
+prep_time: 10
+cook_time: 30
+servings: 1
+categories:
+  - Salsa
+  - Acompañamiento
+sensory:
+  flavor:
+    - Suave
+    - Cremoso
+    - Cítrico
+  texture:
+    - Cremoso con trozos de vegetales
+  aroma:
+    - Aguacate fresco y cilantro
 ---
-
 # Guacamole Colombiano
 
 El guacamole colombiano es una salsa fresca y sencilla, diferente a la versión mexicana. Se prepara con aguacate, cebolla, tomate y cilantro, y es tendencia por su uso en asados, arepas y comidas rápidas.

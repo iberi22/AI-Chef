@@ -58,7 +58,6 @@ description: >-
   reponer electrolitos y energía tras una noche de fiesta (o simplemente para el
   frío). Su ciencia radica en la extracción de sabor del hueso de costilla.
 ---
-
 ## Caldo de Costilla
 
 El Caldo de Costilla es un desayuno típico de la región andina colombiana, especialmente en Bogotá y los pueblos de Cundinamarca y Boyacá. Es una sopa reconfortante hecha con costilla de res, papa, cebolla y cilantro, famosa como remedio para el “guayabo” (resaca) y para comenzar el día con energía.

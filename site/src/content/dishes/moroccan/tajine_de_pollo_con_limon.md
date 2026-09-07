@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo
+  - Limones encurtidos
+  - Aceitunas verdes
+  - Jengibre
+  - Azafrán
 sensory:
   flavor:
     - Salado
@@ -51,7 +52,6 @@ description: >-
   emblemáticos de la gastronomía de Casablanca, conocido por su equilibrio de
   sabores e ingredientes de alta calidad.
 ---
-
 # Tajine de Pollo con Limón Encurtido y Aceitunas
 
 Tajine de Pollo con Limón Encurtido y Aceitunas es uno de los platos más emblemáticos de la gastronomía de Casablanca, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -68,10 +68,11 @@ Tajine de Pollo con Limón Encurtido y Aceitunas es uno de los platos más emble
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo
+- Limones encurtidos
+- Aceitunas verdes
+- Jengibre
+- Azafrán
 
 ---
 

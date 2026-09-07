@@ -55,7 +55,6 @@ description: >-
   Margarita con los colores de la bandera italiana: tomate, mozzarella y
   albahaca.
 ---
-
 # Pizza Margherita Napoletana
 
 La Pizza Margherita es el estandarte de Nápoles, creada en honor a la reina Margarita con los colores de la bandera italiana: tomate, mozzarella y albahaca.

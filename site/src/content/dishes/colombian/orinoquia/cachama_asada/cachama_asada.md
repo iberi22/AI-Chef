@@ -41,8 +41,15 @@ description: >-
   por su sabor suave y carne jugosa.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Ingredientes tradicionales
+prep_time: 30
+cook_time: 45
+servings: 6
+categories:
+  - Tradicional
+  - Plato fuerte
 ---
-
 # Cachama Asada
 
 La Cachama Asada es un plato típico de la Orinoquía colombiana, preparado con cachama (pez de río) asada a la brasa y acompañada de yuca, plátano y ají llanero. Es muy apreciado en las zonas ribereñas y en festividades llaneras por su sabor suave y carne jugosa.

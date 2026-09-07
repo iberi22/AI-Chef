@@ -55,7 +55,6 @@ description: >-
   El Okonomiyaki de Osaka es una sabrosa tortilla salada de col y harina
   cocinada a la plancha teppan con lonchas de cerdo y salsas umami.
 ---
-
 # Okonomiyaki Estilo Osaka
 
 El Okonomiyaki de Osaka es una sabrosa tortilla salada de col y harina cocinada a la plancha teppan con lonchas de cerdo y salsas umami.

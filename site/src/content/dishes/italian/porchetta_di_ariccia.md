@@ -53,7 +53,6 @@ description: >-
   La Porchetta di Ariccia es un asado tradicional de cerdo entero deshuesado,
   condimentado con romero, hinojo y ajo, con una corteza crujiente legendaria.
 ---
-
 # Porchetta di Ariccia
 
 La Porchetta di Ariccia es un asado tradicional de cerdo entero deshuesado, condimentado con romero, hinojo y ajo, con una corteza crujiente legendaria.

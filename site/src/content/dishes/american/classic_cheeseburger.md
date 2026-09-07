@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de res picada
+  - Queso cheddar
+  - Pan de hamburguesa
+  - Lechuga
+  - Tomate
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Texas / California, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Classic American Cheeseburger
 
 Classic American Cheeseburger es uno de los platos más emblemáticos de la gastronomía de Texas / California, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Classic American Cheeseburger es uno de los platos más emblemáticos de la gast
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de res picada
+- Queso cheddar
+- Pan de hamburguesa
+- Lechuga
+- Tomate
 
 ---
 

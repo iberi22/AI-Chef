@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Alubias blancas
+  - Confit de pato
+  - Salchicha
+  - Tocino
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   gastronomía de Languedoc, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Cassoulet de Castelnaudary
 
 Cassoulet de Castelnaudary es uno de los platos más emblemáticos de la gastronomía de Languedoc, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +65,10 @@ Cassoulet de Castelnaudary es uno de los platos más emblemáticos de la gastron
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Alubias blancas
+- Confit de pato
+- Salchicha
+- Tocino
 
 ---
 

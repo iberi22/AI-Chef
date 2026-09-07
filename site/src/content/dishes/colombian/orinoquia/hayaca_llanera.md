@@ -57,7 +57,6 @@ description: >-
   alcaparras y aceitunas, y una técnica de atado que garantiza un sello
   hermético durante el hervido largo.
 ---
-
 # Hayaca Llanera
 
 La Hayaca Llanera es un plato festivo y ancestral de los llanos colombo-venezolanos. A diferencia de otros tamales colombianos, su masa es más delicada y su guiso incorpora elementos del mestizaje como alcaparras y pasas, envuelto en hojas de plátano que le confieren un aroma ahumado inconfundible.

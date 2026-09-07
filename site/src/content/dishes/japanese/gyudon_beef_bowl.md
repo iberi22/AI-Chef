@@ -55,7 +55,6 @@ description: >-
   El Gyudon es un popular donburi japonés consistente en finísimas lonchas de
   res y cebolla cocidas a fuego lento en un dashi sazonado con soja y mirin.
 ---
-
 # Gyudon (Donburi de Res)
 
 El Gyudon es un popular donburi japonés consistente en finísimas lonchas de res y cebolla cocidas a fuego lento en un dashi sazonado con soja y mirin.

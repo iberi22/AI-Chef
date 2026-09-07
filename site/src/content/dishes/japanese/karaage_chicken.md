@@ -55,7 +55,6 @@ description: >-
   soja, jengibre y sake, rebozados en almidón de patata para una crocancia
   ligera.
 ---
-
 # Chicken Karaage
 
 El Karaage es el pollo frito al estilo japonés: trozos de muslo marinados en soja, jengibre y sake, rebozados en almidón de patata para una crocancia ligera.

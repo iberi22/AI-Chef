@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Obleas para rollito
+  - Fideos de celofán
+  - Col rallada
+  - Zanahoria
+  - Salsa agridulce
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Por Pia Tod (Rollitos Tailandeses)
 
 Por Pia Tod (Rollitos Tailandeses) es uno de los platos más emblemáticos de la gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Por Pia Tod (Rollitos Tailandeses) es uno de los platos más emblemáticos de la
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Obleas para rollito
+- Fideos de celofán
+- Col rallada
+- Zanahoria
+- Salsa agridulce
 
 ---
 

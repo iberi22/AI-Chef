@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Coditos de pasta
+  - Queso Cheddar
+  - Queso Gruyère
+  - Mantequilla
+  - Leche
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Sur de EE.UU., conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Baked Macaroni and Cheese
 
 Baked Macaroni and Cheese es uno de los platos más emblemáticos de la gastronomía de Sur de EE.UU., conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Baked Macaroni and Cheese es uno de los platos más emblemáticos de la gastrono
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Coditos de pasta
+- Queso Cheddar
+- Queso Gruyère
+- Mantequilla
+- Leche
 
 ---
 

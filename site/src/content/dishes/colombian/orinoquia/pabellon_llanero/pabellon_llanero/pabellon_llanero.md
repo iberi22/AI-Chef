@@ -21,8 +21,27 @@ description: >-
   rallado, todo dispuesto en un solo plato colorido y abundante.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Carne desmechada
+  - Arroz blanco
+  - Caraotas (frijoles negros)
+  - Plátano maduro frito
+  - Queso blanco
+prep_time: 1
+cook_time: 2
+servings: 8
+categories:
+  - Plato fuerte
+  - Tradicional
+sensory:
+  flavor:
+    - Dulce y Salado
+    - Umami
+  texture:
+    - Combinación de suave, crujiente y jugoso
+  aroma:
+    - Carne guisada y plátano frito
 ---
-
 # Pabellón Llanero
 
 El Pabellón Llanero es un plato representativo de la Orinoquía colombiana, inspirado en la cocina criolla de los llanos. Consiste en carne desmechada, arroz blanco, tajadas de plátano maduro, caraotas (frijoles negros) y queso rallado, todo dispuesto en un solo plato colorido y abundante.

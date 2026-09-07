@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de cordero
+  - Patatas
+  - Ajo
+  - Queso Feta
+  - Orégano
+  - Limón
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   gastronomía de Grecia Central, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Kleftiko de Cordero en Papel
 
 Kleftiko de Cordero en Papel es uno de los platos más emblemáticos de la gastronomía de Grecia Central, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Kleftiko de Cordero en Papel es uno de los platos más emblemáticos de la gastr
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de cordero
+- Patatas
+- Ajo
+- Queso Feta
+- Orégano
+- Limón
 
 ---
 

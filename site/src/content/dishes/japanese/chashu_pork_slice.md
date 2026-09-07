@@ -53,7 +53,6 @@ description: >-
   El Chashu es el infaltable topping de panceta de cerdo enrollada y guisada a
   fuego lento en un adobo concentrado de soja y sake hasta quedar fundente.
 ---
-
 # Chashu de Cerdo para Ramen
 
 El Chashu es el infaltable topping de panceta de cerdo enrollada y guisada a fuego lento en un adobo concentrado de soja y sake hasta quedar fundente.

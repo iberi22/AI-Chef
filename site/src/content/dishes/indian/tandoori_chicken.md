@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo en cuartos
+  - Yogur
+  - Garam masala
+  - Chile rojo
+  - Zumo de limón
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Tandoori Chicken es uno de los platos más emblemáticos de la gastronomía de
   Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Tandoori Chicken
 
 Tandoori Chicken es uno de los platos más emblemáticos de la gastronomía de Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +65,11 @@ Tandoori Chicken es uno de los platos más emblemáticos de la gastronomía de P
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo en cuartos
+- Yogur
+- Garam masala
+- Chile rojo
+- Zumo de limón
 
 ---
 
