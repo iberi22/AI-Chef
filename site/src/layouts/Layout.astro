@@ -1,6 +1,7 @@
 ---
 import { Toaster } from '@swal/ui'
 import OfflineBanner from '../components/OfflineBanner.astro'
+import TranslateMenu from '../components/TranslateMenu.astro'
 import '../styles/global.css'
 
 interface Props {
@@ -111,6 +112,7 @@ const imageUrl = image
           <a href={`${baseClean}/scientific`} class="px-3 py-2 rounded-lg text-sm hover:opacity-90" style="color: var(--swal-text-secondary);">Ciencia</a>
         </nav>
         <div class="flex items-center gap-2">
+          <TranslateMenu />
           <button id="gos-theme-toggle" class="w-9 h-9 rounded-lg border flex items-center justify-center hover:opacity-80 transition" style="background: var(--swal-surface); border-color: var(--swal-border); color: var(--swal-text-secondary);" aria-label="Toggle theme" title="Cambiar tema">
             <span id="gos-theme-icon">◐</span>
           </button>
