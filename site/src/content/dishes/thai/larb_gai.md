@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo picado
+  - Zumo de lima
+  - Salsa de pescado
+  - Chiles secos
+  - Menta
+  - Pollo de arroz tostado (khao khua)
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   gastronomía de Isan, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Larb Gai (Ensalada de Pollo)
 
 Larb Gai (Ensalada de Pollo) es uno de los platos más emblemáticos de la gastronomía de Isan, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Larb Gai (Ensalada de Pollo) es uno de los platos más emblemáticos de la gastr
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo picado
+- Zumo de lima
+- Salsa de pescado
+- Chiles secos
+- Menta
+- Pollo de arroz tostado (khao khua)
 
 ---
 

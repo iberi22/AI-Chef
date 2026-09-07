@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo marinado
+  - Mantequilla
+  - Nata fresca
+  - Tomate
+  - Garam masala
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Punjab, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Butter Chicken (Murgh Makhani)
 
 Butter Chicken (Murgh Makhani) es uno de los platos más emblemáticos de la gastronomía de Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Butter Chicken (Murgh Makhani) es uno de los platos más emblemáticos de la gas
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo marinado
+- Mantequilla
+- Nata fresca
+- Tomate
+- Garam masala
 
 ---
 

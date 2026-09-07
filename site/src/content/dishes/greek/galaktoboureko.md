@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa filo
+  - Sémola de trigo
+  - Leche
+  - Huevos
+  - Jarabe de cítricos
 sensory:
   flavor:
     - Salado
@@ -51,7 +52,6 @@ description: >-
   de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Galaktoboureko (Pastel de Semola y Miel)
 
 Galaktoboureko (Pastel de Semola y Miel) es uno de los platos más emblemáticos de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -68,10 +68,11 @@ Galaktoboureko (Pastel de Semola y Miel) es uno de los platos más emblemáticos
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa filo
+- Sémola de trigo
+- Leche
+- Huevos
+- Jarabe de cítricos
 
 ---
 

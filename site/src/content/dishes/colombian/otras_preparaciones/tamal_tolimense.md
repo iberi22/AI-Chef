@@ -36,8 +36,21 @@ images:
 image: 'https://www.misrecetas.com/fotos/photo/main/1368/tamal_tolimense.jpg'
 description: '* **Para la masa**:'
 yaml_validation: 'https://yaml-online-parser.appspot.com/'
+main_ingredients:
+  - Masa de maíz
+  - Carne de cerdo
+  - Pollo
+  - Huevo cocido
+  - Zanahoria
+  - Arvejas
+  - Hojas de plátano
+prep_time: 1
+cook_time: 30
+servings: 4
+categories:
+  - Plato fuerte
+  - Tradicional
 ---
-
 ## Ingredientes
 
 * **Para la masa**:

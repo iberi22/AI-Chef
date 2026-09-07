@@ -64,7 +64,6 @@ tags:
 - Turismo
 title: Bandeja Paisa
 ---
-
 ## 🍲 Bandeja Paisa
 
 La Bandeja Paisa es el plato más emblemático de la región andina de Colombia, especialmente de Antioquia. Es una comida abundante y deliciosa, perfecta para compartir y disfrutar de una explosión de sabores tradicionales.

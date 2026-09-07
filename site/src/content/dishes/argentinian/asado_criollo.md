@@ -61,7 +61,6 @@ description: >-
   embutidos cocinados lentamente a fuego indirecto sobre las brasas de leña o
   carbón vegetal, sazonados únicamente con sal gruesa.
 ---
-
 # Asado Criollo Argentino
 
 El Asado Criollo no es simplemente una técnica de cocción, sino un pilar de la identidad social y afectiva argentina. Surgido en las llanuras pampeanas de la mano de los gauchos, este método de cocción lenta a las brasas resalta la altísima calidad de la carne vacuna argentina, logrando una costra crujiente exterior que encierra fibras sumamente tiernas y jugosas.

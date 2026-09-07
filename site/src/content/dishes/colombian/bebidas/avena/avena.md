@@ -49,8 +49,6 @@ description: >-
   callejeras de Colombia. Se prepara con avena, leche, canela y azúcar, y es
   tendencia por su sabor suave y su aporte nutricional.
 ---
-
-
 La avena es una bebida refrescante y cremosa, tradicional en hogares y ventas callejeras de Colombia. Se prepara con avena, leche, canela y azúcar, y es tendencia por su sabor suave y su aporte nutricional.
 
 ## Información General

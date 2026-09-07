@@ -61,7 +61,6 @@ description: >-
   hebras finas y luego guisada a fuego lento en una salsa aromática a base de
   sofrito de ajo, cebolla, pimientos, tomate, vino seco, comino y orégano.
 ---
-
 # Ropa Vieja Cubana
 
 La Ropa Vieja es la indiscutible carta de presentación de la culinaria de Cuba. Este plato recibe su curioso nombre de la apariencia deshilachada y colorida que toma la carne al guisarse con tiras finas de pimientos de colores, asemejando harapos o ropa vieja y desgastada. Es un plato lleno de nostalgia, paciencia y un equilibrio perfecto de especias criollas.

@@ -21,8 +21,29 @@ description: >-
   ideales como entrada, acompañante o plato principal.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Carne de pescado blanco
+  - Pan rallado
+  - Cebolla
+  - Pimentón
+  - Especias
+prep_time: 25
+cook_time: 20
+servings: 6
+categories:
+  - Plato fuerte
+  - Fritura
+sensory:
+  flavor:
+    - Salado
+    - Marino
+    - Especiado
+  texture:
+    - Crujiente exterior
+    - Pollo tierno
+  aroma:
+    - Fritura de pescado
 ---
-
 # Bolas de Pescado (Fish Balls)
 
 Las Bolas de Pescado son un clásico de la cocina isleña de San Andrés y Providencia. Se preparan a partir de pescado fresco desmenuzado, sazonado con especias y vegetales, y luego se forman bolas que se fríen hasta dorar. Son ideales como entrada, acompañante o plato principal.

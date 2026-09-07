@@ -55,7 +55,6 @@ description: >-
   alimenta de la médula de las palmas (*Mauritia flexuosa*), lo que le confiere
   un perfil lipídico único y un sabor que recuerda a los frutos secos y el coco.
 ---
-
 ## Mojojoy
 
 El Mojojoy es uno de los manjares más exóticos y emblemáticos de la Amazonía colombiana. Se trata de una larva blanca y amarillenta, consumida tradicionalmente por comunidades indígenas. Se puede comer asada, frita o rellena, y es apreciada por su textura cremosa y sabor intenso.

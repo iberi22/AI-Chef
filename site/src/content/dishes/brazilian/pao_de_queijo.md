@@ -58,7 +58,6 @@ description: >-
   trigo, se caracteriza por tener una corteza crujiente y un interior elástico,
   chicloso y sumamente quesoso. Es un snack naturalmente libre de gluten.
 ---
-
 # Pão de Queijo Mineiro
 
 El Pão de Queijo es uno de los bocados más queridos y famosos de Brasil. Nacido en las cocinas del estado productor de lácteos de Minas Gerais durante el siglo XVIII, este panecillo no utiliza trigo, sino fécula o almidón de mandioca (yuca). Esto produce una textura increíble: un exterior crujiente y dorado, y un interior tierno, elástico y aireado cargado de queso curado.

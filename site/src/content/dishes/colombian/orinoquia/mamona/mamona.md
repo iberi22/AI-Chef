@@ -56,7 +56,6 @@ description: >-
   crucial en el auto-baño de grasas, resultando en una carne de ternura
   inigualable.
 ---
-
 ## Mamona (Ternera a la Llanera)
 
 La Mamona, también conocida como Ternera a la Llanera, es el plato más emblemático de la región Orinoquía colombiana. Consiste en carne de res joven asada al calor de leña, sazonada con hierbas y acompañada de yuca, plátano y ají. Es el centro de las celebraciones llaneras y símbolo de hospitalidad.

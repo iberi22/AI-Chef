@@ -60,9 +60,6 @@ description: >-
   papas a la francesa, queso, jamón, huevo y variedad de salsas, convirtiéndose
   en tendencia en redes y food trucks urbanos.
 ---
-
-
-
 La hamburguesa colombiana es una versión local de este clásico internacional, famosa por su abundancia de ingredientes y salsas. Se caracteriza por incluir papas a la francesa, queso, jamón, huevo y variedad de salsas, convirtiéndose en tendencia en redes y food trucks urbanos.
 
 ## Información General

@@ -53,7 +53,6 @@ description: >-
   servidos en un caldo ligero con un bolsillo de tofu frito (aburaage) guisado
   dulce.
 ---
-
 # Kitsune Udon
 
 El Kitsune Udon destaca por sus reconfortantes fideos gruesos de trigo servidos en un caldo ligero con un bolsillo de tofu frito (aburaage) guisado dulce.

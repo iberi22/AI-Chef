@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Muslos de pato
+  - Grasa de pato
+  - Ajo
+  - Tomillo
 sensory:
   flavor:
     - Salado
@@ -48,7 +48,6 @@ description: >-
   Confit de Canard es uno de los platos más emblemáticos de la gastronomía de
   Gascuña, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Confit de Canard
 
 Confit de Canard es uno de los platos más emblemáticos de la gastronomía de Gascuña, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +64,10 @@ Confit de Canard es uno de los platos más emblemáticos de la gastronomía de G
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Muslos de pato
+- Grasa de pato
+- Ajo
+- Tomillo
 
 ---
 

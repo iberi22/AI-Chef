@@ -60,7 +60,6 @@ description: >-
   aderezo o "mojo" caliente de ajo machacado frito en manteca de cerdo, jugo de
   naranja agria y rodajas finas de cebolla.
 ---
-
 # Yuca con Mojo Cubana
 
 La Yuca con Mojo es una de las joyas más humildes y sabrosas de la cocina cubana tradicional. El secreto de este plato radica en dos factores críticos: lograr que la yuca se ablande de tal forma que se "abra" revelando una textura harinosa y suave, y verter sobre ella el "mojo" caliente en el momento justo, logrando una emulsión cítrica y quesosa que envuelve el tubérculo.

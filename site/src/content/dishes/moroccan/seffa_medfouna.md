@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Fideos finos al vapor
+  - Pollo guisado
+  - Almendras
+  - Canela
+  - Azúcar glas
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Seffa Medfouna con Pollo
 
 Seffa Medfouna con Pollo es uno de los platos más emblemáticos de la gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Seffa Medfouna con Pollo es uno de los platos más emblemáticos de la gastronom
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Fideos finos al vapor
+- Pollo guisado
+- Almendras
+- Canela
+- Azúcar glas
 
 ---
 

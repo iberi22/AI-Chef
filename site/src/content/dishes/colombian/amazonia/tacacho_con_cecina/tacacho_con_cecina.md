@@ -52,7 +52,6 @@ description: >-
   verde asado y machacado, mezclado con manteca y acompañado de cecina (carne de
   cerdo ahumada). Es un desayuno o almuerzo tradicional, lleno de ener...
 ---
-
 ## Tacacho con Cecina
 
 El Tacacho con Cecina es un plato emblemático de la Amazonía, especialmente popular en Perú y presente en la Amazonía colombiana. Consiste en plátano verde asado y machacado, mezclado con manteca y acompañado de cecina (carne de cerdo ahumada). Es un desayuno o almuerzo tradicional, lleno de energía y sabor.

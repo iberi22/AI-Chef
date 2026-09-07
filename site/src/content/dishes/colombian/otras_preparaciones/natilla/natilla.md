@@ -57,7 +57,6 @@ description: >-
   tradicionalmente con panela. Su preparación es un ritual familiar que requiere
   revolver constantemente.
 ---
-
 # Natilla (El Budín de la Navidad)
 
 La natilla es un postre de origen español (natillas) que en Colombia evolucionó para usar maíz (americano) y panela, volviéndose más firme, casi cortable como un queso. Es inseparable de los buñuelos en las festividades decembrinas.

@@ -20,10 +20,13 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Garbanzos
+  - Morcillo de res
+  - Tocino
+  - Chorizo
+  - Morcilla
+  - Repollo
+  - Patata
 sensory:
   flavor:
     - Salado
@@ -48,7 +51,6 @@ description: >-
   Cocido Madrileño es uno de los platos más emblemáticos de la gastronomía de
   Madrid, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Cocido Madrileño
 
 Cocido Madrileño es uno de los platos más emblemáticos de la gastronomía de Madrid, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +67,13 @@ Cocido Madrileño es uno de los platos más emblemáticos de la gastronomía de 
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Garbanzos
+- Morcillo de res
+- Tocino
+- Chorizo
+- Morcilla
+- Repollo
+- Patata
 
 ---
 

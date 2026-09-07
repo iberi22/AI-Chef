@@ -59,7 +59,6 @@ description: >-
   junto con cáscaras de piña, manzana, canela y clavo, y se sirve fría con jugo
   de limón sutil y azúcar.
 ---
-
 # Chicha Morada
 
 La Chicha Morada es el refresco nacional del Perú, amado por niños y adultos por igual. Esta bebida destaca por su color morado intenso, casi negro, provisto por los pigmentos naturales del maíz morado andino, combinados con las notas frutales de la piña y el membrillo, y el reconfortante aroma de las especias dulces.

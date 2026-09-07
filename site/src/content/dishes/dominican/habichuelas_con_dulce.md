@@ -68,7 +68,6 @@ description: >-
   habichuelas rojas hervidas y licuadas con leche de coco, leche evaporada y
   azúcar de forma tradicional.
 ---
-
 # Habichuelas con Dulce Dominicanas
 
 Las Habichuelas con Dulce son la cumbre de la originalidad culinaria de la República Dominicana. Este postre, único en el mundo entero, desafía los conceptos de que las habichuelas rojas solo se consumen de forma salada. Preparadas tradicionalmente de forma colectiva durante la Cuaresma y Semana Santa, estas habichuelas se transforman en una crema láctea dulce, de gran poder reconstituyente.

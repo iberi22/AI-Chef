@@ -61,7 +61,6 @@ description: >-
   trigo horneada y rellena de un guiso jugoso de carne de vacuno, cebolla,
   condimentos, huevo duro, aceituna y pasas.
 ---
-
 # Empanada de Pino Chilena
 
 Pocos platos despiertan tanto orgullo nacional en Chile como la empanada de pino de horno. Se caracteriza por su masa fina, firme y dorada, y un relleno abundante llamado 'pino' (del mapudungun 'pinu' que significa trozos de carne cocida). Una empanada auténtica debe ser jugosa y llevar siempre una aceituna negra entera con cuesco, medio huevo duro y un par de pasas, horneada hasta adquirir un color dorado uniforme.

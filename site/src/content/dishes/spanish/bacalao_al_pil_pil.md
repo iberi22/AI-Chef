@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Bacalao desalado
+  - Aceite de oliva virgen extra
+  - Ajo
+  - Guindilla
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   País Vasco, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Bacalao al Pil-Pil
 
 Bacalao al Pil-Pil es uno de los platos más emblemáticos de la gastronomía de País Vasco, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +65,10 @@ Bacalao al Pil-Pil es uno de los platos más emblemáticos de la gastronomía de
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Bacalao desalado
+- Aceite de oliva virgen extra
+- Ajo
+- Guindilla
 
 ---
 

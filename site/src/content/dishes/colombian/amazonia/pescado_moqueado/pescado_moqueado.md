@@ -46,7 +46,6 @@ description: >-
   de río. Consiste en ahumar el pescado lentamente sobre brasas y hojas, lo que
   le otorga un aroma y sabor únicos, además de una textura firme.
 ---
-
 ## Pescado Moqueado
 
 El Pescado Moqueado es una preparación ancestral de la Amazonía colombiana, utilizada por pueblos indígenas para conservar y realzar el sabor del pescado de río. Consiste en ahumar el pescado lentamente sobre brasas y hojas, lo que le otorga un aroma y sabor únicos, además de una textura firme.

@@ -58,7 +58,6 @@ description: >-
   autóctonas. Es símbolo de la riqueza gastronómica afrocolombiana y se sirve en
   celebraciones y reuniones familiares.
 ---
-
 ## Cazuela de Mariscos Pacífica
 
 La Cazuela de Mariscos en la región Pacífica de Colombia es un plato festivo y abundante, preparado con mariscos frescos, leche de coco y especias autóctonas. Es símbolo de la riqueza gastronómica afrocolombiana y se sirve en celebraciones y reuniones familiares.

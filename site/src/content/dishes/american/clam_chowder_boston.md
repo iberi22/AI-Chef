@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Almejas
+  - Patatas
+  - Crema de leche
+  - Tocineta
+  - Cebolla
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Boston, MA, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # New England Clam Chowder
 
 New England Clam Chowder es uno de los platos más emblemáticos de la gastronomía de Boston, MA, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ New England Clam Chowder es uno de los platos más emblemáticos de la gastronom
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Almejas
+- Patatas
+- Crema de leche
+- Tocineta
+- Cebolla
 
 ---
 

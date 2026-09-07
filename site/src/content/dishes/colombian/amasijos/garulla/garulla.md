@@ -55,7 +55,6 @@ description: >-
   una arepa y una almojábana, enriquecida con manteca de cerdo y horneada a alta
   temperatura para crear una costra protectora única.
 ---
-
 # Garulla Soachuna
 
 La Garulla es el patrimonio gastronómico oficial del municipio de Soacha, Cundinamarca. Es un amasijo robusto, de carácter campesino, que combina la técnica de la almojábana con la adición de manteca de cerdo y una cocción agresiva que carameliza la superficie.

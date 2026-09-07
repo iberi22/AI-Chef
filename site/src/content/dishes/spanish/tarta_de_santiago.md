@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Almendra molida
+  - Azúcar
+  - Huevos
+  - Ralladura de limón
+  - Canela
+  - Azúcar glas
 sensory:
   flavor:
     - Salado
@@ -48,7 +50,6 @@ description: >-
   Tarta de Santiago es uno de los platos más emblemáticos de la gastronomía de
   Galicia, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Tarta de Santiago
 
 Tarta de Santiago es uno de los platos más emblemáticos de la gastronomía de Galicia, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +66,12 @@ Tarta de Santiago es uno de los platos más emblemáticos de la gastronomía de 
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Almendra molida
+- Azúcar
+- Huevos
+- Ralladura de limón
+- Canela
+- Azúcar glas
 
 ---
 

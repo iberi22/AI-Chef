@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de ternera
+  - Cebollitas chalotas
+  - Tomate
+  - Vino tinto
+  - Canela
+  - Clavo
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   gastronomía de Peloponeso, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Stifado de Ternera con Cebollitas
 
 Stifado de Ternera con Cebollitas es uno de los platos más emblemáticos de la gastronomía de Peloponeso, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Stifado de Ternera con Cebollitas es uno de los platos más emblemáticos de la 
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de ternera
+- Cebollitas chalotas
+- Tomate
+- Vino tinto
+- Canela
+- Clavo
 
 ---
 

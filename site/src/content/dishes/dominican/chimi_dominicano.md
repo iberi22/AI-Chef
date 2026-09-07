@@ -61,7 +61,6 @@ description: >-
   Consiste en una masa de carne de res molida sazonada con ajo, cebolla, perejil
   y ají gustoso.
 ---
-
 # Chimichurri Dominicano (Chimi)
 
 El Chimichurri Dominicano, o simplemente *Chimi*, es la comida callejera nocturna definitiva de la República Dominicana. No tiene nada que ver con el chimichurri argentino; en Santo Domingo, el chimi es una espectacular y rústica hamburguesa dominicana. Su éxito radica en el sazonado criollo de la carne, cocinada a la plancha de forma que quede sumamente jugosa, y en el uso de repollo rallado marchitado en vinagre caliente en lugar de la clásica lechuga fresca.

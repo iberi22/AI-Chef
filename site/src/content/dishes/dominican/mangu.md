@@ -65,7 +65,6 @@ description: >-
   frito, queso frito y huevo frito, combinación conocida popularmente como "Los
   Tres Golpes".
 ---
-
 # Mangú Dominicano con Los Tres Golpes
 
 El Mangú es el alma de la cocina dominicana. Consumido a diario en el desayuno o la cena, representa la herencia africana y caribeña en su máxima expresión. Su éxito radica en lograr un puré de plátano verde extremadamente terso y cremoso que no se endurezca al enfriarse, un hito técnico dominicano que se logra añadiendo agua fría durante el proceso de machacado. Saborizado con cebollas rojas encurtidas en vinagre y rodeado por los famosos "Tres Golpes", es un desayuno de reyes.

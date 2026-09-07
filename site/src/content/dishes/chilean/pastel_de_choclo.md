@@ -59,7 +59,6 @@ description: >-
   chilena, combinando una base sabrosa de pino de carne con una cubierta dulce y
   cremosa de maíz tierno y albahaca cocida al horno.
 ---
-
 # Pastel de Choclo Chileno
 
 El Pastel de Choclo representa una de las cumbres del mestizaje culinario chileno. Combina el maíz (choclo), ingrediente nativo de las Américas, procesado como una pasta suave aromatizada con albahaca, sobre el 'pino', una preparación de carne de vacuno picada y cebollas heredada de la cocina hispana. Servido hirviendo en pocillo de greda, ofrece un contraste delicioso entre dulce y salado.

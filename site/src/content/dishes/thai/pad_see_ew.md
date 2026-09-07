@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Fideos de arroz anchos
+  - Cerdo o pollo
+  - Brócoli chino (gai lan)
+  - Salsa de soja oscura
+  - Huevo
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Pad See Ew es uno de los platos más emblemáticos de la gastronomía de Bangkok,
   conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Pad See Ew
 
 Pad See Ew es uno de los platos más emblemáticos de la gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +65,11 @@ Pad See Ew es uno de los platos más emblemáticos de la gastronomía de Bangkok
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Fideos de arroz anchos
+- Cerdo o pollo
+- Brócoli chino (gai lan)
+- Salsa de soja oscura
+- Huevo
 
 ---
 

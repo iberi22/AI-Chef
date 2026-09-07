@@ -55,7 +55,6 @@ description: >-
   alta calidad se cocinan en la mesa en una salsa dulce y densa de soja y
   azúcar.
 ---
-
 # Sukiyaki Nabemono
 
 El Sukiyaki es un plato de cazuela (nabemono) donde finas láminas de res de alta calidad se cocinan en la mesa en una salsa dulce y densa de soja y azúcar.

@@ -60,7 +60,6 @@ description: >-
   tallarines (las 'riendas') y se corona con un trozo de chorizo o tocino
   dorado.
 ---
-
 # Porotos con Riendas
 
 El origen de los 'Porotos con Riendas' se remonta a las zonas rurales de Chile, donde los campesinos cortaban chicharrones o tiras de cuero de cerdo (que asemejaban las riendas de los caballos) para enriquecer el guiso de frijoles. Con el tiempo, estas tiras de cuero fueron sustituidas por fideos tallarines, dando origen a la popular y reponedora combinación que se consume hoy en día.

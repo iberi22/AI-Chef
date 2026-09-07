@@ -54,7 +54,6 @@ description: >-
   lonchas de ternera hervida cubiertas por una delicada crema de atún, anchoas y
   alcaparras.
 ---
-
 # Vitello Tonnato
 
 El Vitello Tonnato es un clásico refinado del Piamonte servido frío: finas lonchas de ternera hervida cubiertas por una delicada crema de atún, anchoas y alcaparras.

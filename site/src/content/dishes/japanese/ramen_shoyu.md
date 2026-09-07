@@ -55,7 +55,6 @@ description: >-
   El Shoyu Ramen es el estilo clásico de Tokio con caldo claro a base de pollo,
   cerdo y dashi, sazonado con tare de salsa de soja fermentada.
 ---
-
 # Shoyu Ramen Tradicional
 
 El Shoyu Ramen es el estilo clásico de Tokio con caldo claro a base de pollo, cerdo y dashi, sazonado con tare de salsa de soja fermentada.

@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Cordero entero o paletilla
+  - Mantequilla (smen)
+  - Comino
+  - Sal gruesa
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   gastronomía de Atlas / Marrakech, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Mechoui de Cordero Asado
 
 Mechoui de Cordero Asado es uno de los platos más emblemáticos de la gastronomía de Atlas / Marrakech, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +65,10 @@ Mechoui de Cordero Asado es uno de los platos más emblemáticos de la gastronom
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Cordero entero o paletilla
+- Mantequilla (smen)
+- Comino
+- Sal gruesa
 
 ---
 

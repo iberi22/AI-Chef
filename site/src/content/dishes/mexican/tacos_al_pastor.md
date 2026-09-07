@@ -60,7 +60,6 @@ tags:
 - Top 20
 title: Tacos al Pastor
 ---
-
 # Tacos al Pastor
 
 Los Tacos al Pastor son un ícono gastronómico de la Ciudad de México con influencia libanesa (shawarma). Consisten en fina carne de cerdo marinada en achiote y chiles, asada en un trompo vertical y servida con piña.

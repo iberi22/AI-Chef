@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Garbanzos
+  - Tomate
+  - Cebolla
+  - Jengibre
+  - Chana masala especias
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Chana Masala es uno de los platos más emblemáticos de la gastronomía de
   Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Chana Masala
 
 Chana Masala es uno de los platos más emblemáticos de la gastronomía de Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,10 +65,11 @@ Chana Masala es uno de los platos más emblemáticos de la gastronomía de Punja
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Garbanzos
+- Tomate
+- Cebolla
+- Jengibre
+- Chana masala especias
 
 ---
 

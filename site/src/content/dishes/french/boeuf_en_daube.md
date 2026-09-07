@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de res
+  - Vino tinto
+  - Ajo
+  - Hierbas de Provenza
+  - Cebolla
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   Provenza, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Daube Provençale
 
 Daube Provençale es uno de los platos más emblemáticos de la gastronomía de Provenza, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +66,11 @@ Daube Provençale es uno de los platos más emblemáticos de la gastronomía de 
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de res
+- Vino tinto
+- Ajo
+- Hierbas de Provenza
+- Cebolla
 
 ---
 

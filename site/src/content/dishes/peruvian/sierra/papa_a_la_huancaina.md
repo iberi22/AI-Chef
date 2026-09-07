@@ -60,7 +60,6 @@ description: >-
   de textura aterciopelada elaborada a base de queso fresco, ají amarillo
   sofrito, leche evaporada y galletas de soda.
 ---
-
 # Papa a la Huancaína
 
 La Papa a la Huancaína es un clásico indiscutible que acompaña casi cualquier plato de fiesta o almuerzo familiar en el Perú. Destaca por su salsa de textura increíblemente sedosa, color amarillo solar y picor sumamente amigable, representando el mestizaje culinario andino-criollo por excelencia.

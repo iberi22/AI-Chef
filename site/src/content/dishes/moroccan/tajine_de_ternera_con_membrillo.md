@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de ternera
+  - Membrillo caramelizado
+  - Miel
+  - Canela
+  - Jengibre
 sensory:
   flavor:
     - Salado
@@ -51,7 +52,6 @@ description: >-
   emblemáticos de la gastronomía de Meknes, conocido por su equilibrio de
   sabores e ingredientes de alta calidad.
 ---
-
 # Tajine de Ternera con Membrillo Caramelizado
 
 Tajine de Ternera con Membrillo Caramelizado es uno de los platos más emblemáticos de la gastronomía de Meknes, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -68,10 +68,11 @@ Tajine de Ternera con Membrillo Caramelizado es uno de los platos más emblemát
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de ternera
+- Membrillo caramelizado
+- Miel
+- Canela
+- Jengibre
 
 ---
 

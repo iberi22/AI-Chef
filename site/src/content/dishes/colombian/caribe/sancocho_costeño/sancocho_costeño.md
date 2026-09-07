@@ -59,7 +59,6 @@ description: >-
   denso y mantecoso que soporta una mezcla masiva de proteínas y carbohidratos
   complejos.
 ---
-
 ## Sancocho Costeño
 
 El Sancocho Costeño es uno de los platos más representativos de la región Caribe colombiana. Es una sopa abundante y festiva, preparada con variedad de carnes, tubérculos y plátano, y servida en grandes reuniones familiares o celebraciones.

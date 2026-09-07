@@ -60,7 +60,6 @@ description: >-
   de cebolla, ajo, tomate y opcionalmente queso Catupiry o requeijão, moldeada
   con forma de muslo de pollo, empanada y frita.
 ---
-
 # Coxinha de Frango Tradicional
 
 La Coxinha (literalmente "muslito") es la reina indiscutible de las panaderías (*padarias*) y fiestas brasileñas. Este salgadinho icónico combina una masa cocida sumamente sabrosa (elaborada con el mismo caldo de cocción del pollo) con un relleno jugoso de pollo desmechado y, en su versión más gloriosa, un toque de queso cremoso tipo Catupiry. Su forma de lágrima rinde homenaje al muslo de pollo que inspiró su origen histórico.

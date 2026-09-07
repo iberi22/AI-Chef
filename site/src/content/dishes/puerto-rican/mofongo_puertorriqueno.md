@@ -58,7 +58,6 @@ description: >-
   Puerto Rico. Consiste en una base de mofongo tradicional coronado
   generosamente con camarones en salsa criolla boricua.
 ---
-
 # Mofongo Puertorriqueño de Camarones
 
 El Mofongo de Camarones es el almuerzo playero por excelencia en Puerto Rico. Esta delicia de plátano macho verde machacado con chicharrón y abundante ajo se corona tradicionalmente con mariscos guisados en salsa criolla, de sabor inconfundible de forma espectacular.

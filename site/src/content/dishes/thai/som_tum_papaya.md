@@ -20,10 +20,13 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Papaya verde rallada
+  - Chiles
+  - Ajo
+  - Tomates cherry
+  - Zumo de lima
+  - Salsa de pescado
+  - Cacahuetes
 sensory:
   flavor:
     - Salado
@@ -49,7 +52,6 @@ description: >-
   gastronomía de Isan, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Som Tum (Ensalada de Papaya)
 
 Som Tum (Ensalada de Papaya) es uno de los platos más emblemáticos de la gastronomía de Isan, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +68,13 @@ Som Tum (Ensalada de Papaya) es uno de los platos más emblemáticos de la gastr
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Papaya verde rallada
+- Chiles
+- Ajo
+- Tomates cherry
+- Zumo de lima
+- Salsa de pescado
+- Cacahuetes
 
 ---
 

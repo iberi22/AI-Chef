@@ -52,7 +52,6 @@ description: >-
   Los Gnocchi di Patate son delicadas bolitas de patata y harina servidas con
   Pesto alla Genovese majado en mortero con albahaca y piñones.
 ---
-
 # Gnocchi di Patate al Pesto
 
 Los Gnocchi di Patate son delicadas bolitas de patata y harina servidas con Pesto alla Genovese majado en mortero con albahaca y piñones.

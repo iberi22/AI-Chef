@@ -58,7 +58,6 @@ description: >-
   azucarada y leche evaporada, se aromatiza con vainilla y un toque de canela,
   horneándose lentamente a baño María.
 ---
-
 # Flan de Huevo Tradicional Cubano
 
 El Flan de Huevo es la culminación dulce indiscutible de cualquier comida cubana tradicional. Heredado de la repostería clásica española, la versión cubana destaca por su consistencia sumamente densa, cremosa y de textura aterciopelada, lograda al utilizar la leche condensada en lata combinada con leche evaporada en lugar de leche fresca común.

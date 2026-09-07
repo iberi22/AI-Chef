@@ -36,8 +36,19 @@ images:
 image: 'https://www.misrecetas.com/fotos/photo/main/1368/envueltos_de_mazorca.jpg'
 description: '* 10 mazorcas tiernas y grandes'
 yaml_validation: 'https://yaml-online-parser.appspot.com/'
+main_ingredients:
+  - Maíz tierno choclo
+  - Queso fresco
+  - Mantequilla
+  - Azúcar
+  - Hojas de choclo
+prep_time: 1
+cook_time: 30
+servings: 4
+categories:
+  - Amasijo
+  - Tradicional
 ---
-
 ## Ingredientes
 
 * 10 mazorcas tiernas y grandes

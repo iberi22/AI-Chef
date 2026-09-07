@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Arroz Basmati
+  - Pollo o cordero marinado
+  - Yogur
+  - Azafrán
+  - Cebolla frita
+  - Especias enteras
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   Hyderabad, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Hyderabadi Biryani
 
 Hyderabadi Biryani es uno de los platos más emblemáticos de la gastronomía de Hyderabad, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -66,10 +67,12 @@ Hyderabadi Biryani es uno de los platos más emblemáticos de la gastronomía de
 
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Arroz Basmati
+- Pollo o cordero marinado
+- Yogur
+- Azafrán
+- Cebolla frita
+- Especias enteras
 
 ---
 

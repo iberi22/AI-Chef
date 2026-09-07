@@ -46,7 +46,6 @@ images:
 description: '* 4 litros de leche entera'
 yaml_validation: 'https://yaml-online-parser.appspot.com/'
 ---
-
 ## Ingredientes
 
 * 4 litros de leche entera

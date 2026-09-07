@@ -39,8 +39,13 @@ images:
 image: 'https://www.misrecetas.com/fotos/photo/main/1368/mazamorra.jpg'
 description: '* 1 libra de maíz blanco trillado'
 yaml_validation: 'https://yaml-online-parser.appspot.com/'
+prep_time: 1
+cook_time: 30
+servings: 4
+categories:
+  - Postre
+  - Tradicional
 ---
-
 ## Ingredientes
 
 * 1 libra de maíz blanco trillado

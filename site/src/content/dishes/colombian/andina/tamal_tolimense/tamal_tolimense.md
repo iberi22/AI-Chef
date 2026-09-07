@@ -60,7 +60,6 @@ description: >-
   maíz, la generosidad de sus carnes (pollo, cerdo, tocino) y su cocción
   prolongada que funde los sabores de la hoja de plátano con el relleno.
 ---
-
 # Tamal Tolimense
 
 El Tamal Tolimense es un plato tradicional del Tolima y la región andina de Colombia. Se trata de una masa de maíz rellena de carnes, verduras y condimentos, envuelta en hojas de plátano y cocida al vapor, resultando en un bocado suave, aromático y reconfortante.

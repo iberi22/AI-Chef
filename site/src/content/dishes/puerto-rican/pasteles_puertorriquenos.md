@@ -63,7 +63,6 @@ description: >-
   suavidad y color, rellena de un guiso rico de cerdo sofrito, envuelto
   herméticamente en hojas de plátano soasadas y hervido en agua con sal.
 ---
-
 # Pasteles Puertorriqueños de Masa
 
 Los Pasteles de Masa son el alma de la Navidad en Puerto Rico. No se preparan de forma individual; la "pastelada" es un evento familiar de un fin de semana entero donde varias generaciones se reúnen de forma alegre para rallar guineos verdes y yautía, guisar el cerdo, limpiar las hojas de plátano, armar de forma paciente cada pastel envolviéndolo en forma rectangular y amarrándolos con hilo antes de hervirlos. El resultado es una exquisitez húmeda, terna y de aroma inigualable.

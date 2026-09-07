@@ -60,7 +60,6 @@ tags:
 - Top 20
 title: Birria de Res con Consomé
 ---
-
 # Birria de Res con Consomé
 
 La Birria de Res es un guiso tradicional jalisciense de carne adobada en especias y cocida lentamente hasta quedar suave, servida junto con su consomé aromático.
