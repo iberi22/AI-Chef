@@ -1,0 +1,69 @@
+---
+// site/src/components/TranslateMenu.astro — selector ES/EN/中文/हिन्दी/FR
+// con la Translator API integrada de Chrome/Edge (on-device, sin locales).
+import { TARGET_LANGS } from '../lib/chrome-translate'
+---
+<div class="tr-wrap">
+  <label class="tr-label" for="gos-lang-select" aria-label="Idioma">🌐</label>
+  <select id="gos-lang-select" class="tr-select" aria-label="Traducir página">
+    {TARGET_LANGS.map((l) => <option value={l.code}>{l.label}</option>)}
+  </select>
+  <span id="gos-lang-status" class="tr-status" role="status" aria-live="polite"></span>
+</div>
+<style>
+  .tr-wrap { display: inline-flex; align-items: center; gap: 6px; }
+  .tr-label { font-size: 16px; }
+  .tr-select {
+    background: var(--swal-surface);
+    border: 1px solid var(--swal-border);
+    color: var(--swal-text-secondary);
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 6px 8px;
+    max-width: 118px;
+    font-family: inherit;
+  }
+  .tr-select:disabled { opacity: 0.6; }
+  .tr-status { font-size: 11px; color: var(--swal-text-muted); max-width: 150px; }
+</style>
+<script>
+  import { isSupported, translatePage } from '../lib/chrome-translate'
+
+  function initTranslateMenu() {
+    const select = document.getElementById('gos-lang-select') as HTMLSelectElement | null
+    const status = document.getElementById('gos-lang-status') as HTMLElement | null
+    if (!select || !status) return
+    const saved = localStorage.getItem('gos-lang') || 'es'
+    select.value = saved
+    const say = (t: string) => {
+      status.textContent = t
+    }
+    select.addEventListener('change', async () => {
+      const target = select.value
+      localStorage.setItem('gos-lang', target)
+      select.disabled = true
+      if (!isSupported()) {
+        say('Tu navegador no soporta traducción local (usa Chrome o Edge de escritorio).')
+        select.disabled = false
+        return
+      }
+      await translatePage(target, (p) => {
+        if (p.phase === 'checking') say('Preparando traducción…')
+        else if (p.phase === 'downloading')
+          say(`Descargando idioma… ${Math.round((p.loaded || 0) * 100)}%`)
+        else if (p.phase === 'translating') say(`Traduciendo ${p.current}/${p.total}…`)
+        else if (p.phase === 'done') say(target === 'es' ? '' : 'Traducido en tu dispositivo')
+        else if (p.phase === 'error') say(p.message || 'No se pudo traducir.')
+      })
+      select.disabled = false
+    })
+    // Reaplica el idioma guardado al navegar (modelos ya descargados: sin gesto).
+    if (saved !== 'es' && isSupported()) {
+      translatePage(saved, (p) => {
+        if (p.phase === 'done' && saved !== 'es') say('Traducido en tu dispositivo')
+        else if (p.phase === 'error') say('')
+      })
+    }
+  }
+  initTranslateMenu()
+</script>
