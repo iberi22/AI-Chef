@@ -54,7 +54,6 @@ description: >-
   en hojas de bijao o plátano, luego asado u horneado. Es un platillo ancestral,
   lleno de aromas selváticos y apreciado por su jugosidad y sabo...
 ---
-
 ## Patarasca (Pescado en Hojas)
 
 La Patarasca es uno de los platos más emblemáticos de la Amazonía colombiana y peruana. Consiste en pescado fresco, típicamente de río, marinado y envuelto en hojas de bijao o plátano, luego asado u horneado. Es un platillo ancestral, lleno de aromas selváticos y apreciado por su jugosidad y sabor único.
@@ -67,7 +66,6 @@ La Patarasca es uno de los platos más emblemáticos de la Amazonía colombiana 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 pescado de río entero (dorado, bocachico, bagre, etc.) de 1-1.5 kg

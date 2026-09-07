@@ -60,7 +60,6 @@ description: >-
   enteros frescos que se sazonan con limón, se sellan ligeramente y luego se
   cocinan a fuego lento en una exquisita y cremosa salsa de leche de coco.
 ---
-
 # Pescado con Coco Estilo Samaná
 
 El Pescado con Coco es el plato insignia de la cocina costera dominicana, específicamente de la península de Samaná, donde la abundancia de palmeras de coco se entrelaza de forma natural con los frutos del mar Atlántico. Su éxito radica en lograr una salsa de coco espesa y sedosa de color amarillo pálido brillante que recubra el pescado de forma delicada sin que este se deshaga, perfumándolo con el aroma herbal del culantro o cilantro ancho de forma espectacular.
@@ -73,7 +72,6 @@ El Pescado con Coco es el plato insignia de la cocina costera dominicana, espec�
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Pescado y Marinado:**

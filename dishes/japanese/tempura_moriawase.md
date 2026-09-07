@@ -53,7 +53,6 @@ description: >-
   Tempura Moriawase es un variado de mariscos y verduras fritos en un rebozado
   helado que crea una capa crujiente casi transparente y no grasosa.
 ---
-
 # Tempura Moriawase
 
 Tempura Moriawase es un variado de mariscos y verduras fritos en un rebozado helado que crea una capa crujiente casi transparente y no grasosa.
@@ -67,7 +66,6 @@ Tempura Moriawase es un variado de mariscos y verduras fritos en un rebozado hel
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Langostinos grandes

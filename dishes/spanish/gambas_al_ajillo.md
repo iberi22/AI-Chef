@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Gambas peladas
+  - Dientes de ajo
+  - Guindilla
+  - Aceite de oliva virgen extra
+  - Perejil
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   Andalucía, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Gambas al Ajillo
 
 Gambas al Ajillo es uno de los platos más emblemáticos de la gastronomía de Andalucía, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Gambas al Ajillo es uno de los platos más emblemáticos de la gastronomía de A
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Gambas peladas
+- Dientes de ajo
+- Guindilla
+- Aceite de oliva virgen extra
+- Perejil
 
 ---
 

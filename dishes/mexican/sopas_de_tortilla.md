@@ -55,7 +55,6 @@ description: >-
   La Sopa de Tortilla es una sopa tradicional mexicana cuyo caldo concentrado de
   jitomate y chile pasilla se vierte sobre crujientes tiras de tortilla de maíz.
 ---
-
 # Sopa de Tortilla (Ateca)
 
 La Sopa de Tortilla es una sopa tradicional mexicana cuyo caldo concentrado de jitomate y chile pasilla se vierte sobre crujientes tiras de tortilla de maíz.
@@ -69,7 +68,6 @@ La Sopa de Tortilla es una sopa tradicional mexicana cuyo caldo concentrado de j
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Caldo de pollo

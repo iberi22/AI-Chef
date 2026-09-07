@@ -54,7 +54,6 @@ description: >-
   desafía la gravedad. A diferencia del pandebono, no lleva maíz, lo que permite
   una expansión casi total, resultando en un panecillo hueco y crocante.
 ---
-
 ## Pan de Yuca
 
 El pan de yuca es un panecillo pequeño, suave y elástico, tradicional del sur de Colombia y Ecuador. Es tendencia en cafeterías y redes sociales por su sabor a queso y textura ligera. Ideal para desayunos, onces y acompañar bebidas calientes.
@@ -66,7 +65,6 @@ El pan de yuca es un panecillo pequeño, suave y elástico, tradicional del sur 
 * **Porciones:** 10 unidades
 
 ---
-
 ## 📝 Ingredientes
 
 - 250 g de almidón de yuca (tapioca)

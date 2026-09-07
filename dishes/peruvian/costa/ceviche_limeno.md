@@ -62,7 +62,6 @@ tags:
 - Marino
 title: Ceviche Limeño
 ---
-
 # Ceviche Limeño
 
 El ceviche limeño es el plato bandera del Perú, conocido por su frescura, equilibrio cítrico y picante. Es un plato frío que destaca la pureza de sus ingredientes y la calidad del pescado fresco de la costa peruana.
@@ -75,7 +74,6 @@ El ceviche limeño es el plato bandera del Perú, conocido por su frescura, equi
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **Proteína Marina:**

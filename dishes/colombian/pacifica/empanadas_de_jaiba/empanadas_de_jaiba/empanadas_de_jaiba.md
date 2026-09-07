@@ -45,7 +45,6 @@ description: >-
   de carne de jaiba (cangrejo azul), especias y vegetales, fritas hasta quedar
   crujientes y doradas. Son populares en fiestas, ferias y como snac...
 ---
-
 ## Empanadas de Jaiba
 
 Las Empanadas de Jaiba son un bocadillo tradicional del Pacífico colombiano, especialmente de Buenaventura y Tumaco. Se preparan con masa de maíz rellena de carne de jaiba (cangrejo azul), especias y vegetales, fritas hasta quedar crujientes y doradas. Son populares en fiestas, ferias y como snack callejero.
@@ -58,7 +57,6 @@ Las Empanadas de Jaiba son un bocadillo tradicional del Pacífico colombiano, es
 * **Porciones:** 20 empanadas
 
 ---
-
 ## 📝 Ingredientes
 
 ### Para la masa

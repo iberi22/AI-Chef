@@ -61,7 +61,6 @@ description: >-
   utilizando leche de coco fresca, pimientos, tomates, cebolla, cilantro y el
   indispensable aceite de dendê.
 ---
-
 # Moqueca de Peixe Baiana
 
 La Moqueca es una de las joyas de la corona de la cocina del estado de Bahía, Brasil. Con raíces que entrelazan la sabiduría indígena de cocción en barro con el uso de ingredientes introducidos por la diáspora africana (como el aceite de palma o dendê y el coco), es una explosión sensorial de color, aroma y cremosidad marina.
@@ -74,7 +73,6 @@ La Moqueca es una de las joyas de la corona de la cocina del estado de Bahía, B
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Pescado y Marinado:**

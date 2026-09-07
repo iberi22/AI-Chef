@@ -64,7 +64,6 @@ description: >-
   liberar sus aromas herbales refrescantes, destaca por su carácter sumamente
   fresco y cítrico.
 ---
-
 # Mojito Cubano Tradicional
 
 El Mojito es el embajador líquido de Cuba en el mundo entero. Su origen se remonta al siglo XVI con el corsario Sir Francis Drake, pero su consagración y fórmula definitiva nacieron en los bares de La Habana Vieja a principios del siglo XX. El secreto técnico de un buen mojito cubano radica en machacar de forma extremadamente suave la yerbabuena, liberando los aceites esenciales perfumados de las hojas sin romperlas, lo que amargaría la bebida.
@@ -77,7 +76,6 @@ El Mojito es el embajador líquido de Cuba en el mundo entero. Su origen se remo
 * **Porciones:** 1
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Cóctel:**

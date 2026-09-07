@@ -57,7 +57,6 @@ description: >-
   Consisten en un frito de masa alargado cuya masa se elabora rallando guineos
   verdes y yautía blanca, rellenas de un picadillo de carne de res.
 ---
-
 # Alcapurrias de Masa Puertorriqueñas
 
 Las Alcapurrias son una de las máximas expresiones de la cultura de las frituras en Puerto Rico. Preparadas de forma tradicional rallando a mano guineos verdes y yautía en un rallador de metal fino, esta masa requiere una consistencia viscoelástica perfecta para que se pueda rellenar de picadillo de carne y freírse sin romperse de golpe. El resultado es una fritura sumamente crujiente.
@@ -70,7 +69,6 @@ Las Alcapurrias son una de las máximas expresiones de la cultura de las fritura
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **La Masa de Alcapurria:**

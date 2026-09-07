@@ -54,7 +54,6 @@ description: >-
   El Chicken Katsu Curry combina un crujiente filete de pollo empanado en panko
   con una salsa de curry japonesa espesa, suave y reconfortante.
 ---
-
 # Chicken Katsu Curry
 
 El Chicken Katsu Curry combina un crujiente filete de pollo empanado en panko con una salsa de curry japonesa espesa, suave y reconfortante.
@@ -68,7 +67,6 @@ El Chicken Katsu Curry combina un crujiente filete de pollo empanado en panko co
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Pechuga de pollo

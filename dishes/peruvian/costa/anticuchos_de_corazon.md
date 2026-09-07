@@ -59,7 +59,6 @@ description: >-
   potente mezcla de ají panca, vinagre tinto, ajo y especias, asadas rápidamente
   a la parrilla de carbón. Un clásico absoluto de la cocina callejera peruana.
 ---
-
 # Anticuchos de Corazón
 
 Los Anticuchos de Corazón son el emblema indiscutible de la cocina callejera y de parrilla en el Perú. Consiste en finas tajadas de corazón de res ensartadas en cañas, marinadas en una sabrosa salsa de ají panca y vinagre, y asadas al carbón a fuego fuerte. Su origen se remonta a los afrodescendientes de la época colonial.
@@ -72,7 +71,6 @@ Los Anticuchos de Corazón son el emblema indiscutible de la cocina callejera y 
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **La Carne (Corazón):**

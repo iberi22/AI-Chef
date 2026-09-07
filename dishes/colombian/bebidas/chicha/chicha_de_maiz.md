@@ -56,7 +56,6 @@ description: >-
   andinos, un proceso biotecnológico precolonial que transforma el maíz en un
   elixir fermentado de alta densidad energética y mística.
 ---
-
 # Chicha de Maíz Ancestral
 
 La Chicha es mucho más que una bebida alcohólica; es un símbolo de identidad y resistencia. En el Altiplano Cundiboyacense, cada familia guarda su propio "secreto" para el fermento, que tradicionalmente se hacía masticando el maíz (insalivación) y hoy se realiza mediante cocción y reposo controlado en vasijas de barro.
@@ -69,7 +68,6 @@ La Chicha es mucho más que una bebida alcohólica; es un símbolo de identidad 
 * **Porciones:** 20 vasos
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 kg de maíz amarillo seco (entero o quebrado)

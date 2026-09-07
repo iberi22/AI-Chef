@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Cordero
+  - Ciruelas pasas
+  - Almendras fritas
+  - Canela
+  - Sésamo
+  - Azafrán
 sensory:
   flavor:
     - Salado
@@ -51,7 +53,6 @@ description: >-
   emblemáticos de la gastronomía de Marrakech, conocido por su equilibrio de
   sabores e ingredientes de alta calidad.
 ---
-
 # Tajine de Cordero con Ciruelas y Almendras
 
 Tajine de Cordero con Ciruelas y Almendras es uno de los platos más emblemáticos de la gastronomía de Marrakech, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,13 +66,14 @@ Tajine de Cordero con Ciruelas y Almendras es uno de los platos más emblemátic
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Cordero
+- Ciruelas pasas
+- Almendras fritas
+- Canela
+- Sésamo
+- Azafrán
 
 ---
 

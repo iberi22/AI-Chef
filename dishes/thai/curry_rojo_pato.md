@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pato asado
+  - Pasta de curry rojo
+  - Leche de coco
+  - Piña
+  - Tomates cherry
+  - Albahaca thai
 sensory:
   flavor:
     - Salado
@@ -48,7 +50,6 @@ description: >-
   Gaeng Phet Ped Yang es uno de los platos más emblemáticos de la gastronomía de
   Bangkok, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Gaeng Phet Ped Yang
 
 Gaeng Phet Ped Yang es uno de los platos más emblemáticos de la gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -62,13 +63,14 @@ Gaeng Phet Ped Yang es uno de los platos más emblemáticos de la gastronomía d
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pato asado
+- Pasta de curry rojo
+- Leche de coco
+- Piña
+- Tomates cherry
+- Albahaca thai
 
 ---
 

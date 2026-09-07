@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo marinado
+  - Pan pita
+  - Salsa tzatziki
+  - Tomate
+  - Cebolla roja
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Tesalónica, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Gyros de Pollo en Pan Pita
 
 Gyros de Pollo en Pan Pita es uno de los platos más emblemáticos de la gastronomía de Tesalónica, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Gyros de Pollo en Pan Pita es uno de los platos más emblemáticos de la gastron
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo marinado
+- Pan pita
+- Salsa tzatziki
+- Tomate
+- Cebolla roja
 
 ---
 

@@ -52,7 +52,6 @@ description: >-
   La Sopa de Miso es la espina dorsal de cualquier comida tradicional japonesa,
   combinando el poder probiótico de la pasta de soja con dashi aromático.
 ---
-
 # Sopa de Miso Clásica
 
 La Sopa de Miso es la espina dorsal de cualquier comida tradicional japonesa, combinando el poder probiótico de la pasta de soja con dashi aromático.
@@ -66,7 +65,6 @@ La Sopa de Miso es la espina dorsal de cualquier comida tradicional japonesa, co
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Caldo Dashi

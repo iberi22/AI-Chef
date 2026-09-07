@@ -57,7 +57,6 @@ description: >-
   sabor y como regulador selectivo de microorganismos, creando un refugio de
   efervescencia natural.
 ---
-
 # Ginger Beer (Cerveza de Jengibre Ancestral)
 
 La Ginger Beer es la bebida fermentada por excelencia de San Andrés y Providencia, heredada del legado británico y adaptada con ingredientes locales. A diferencia de las versiones comerciales, esta es una bebida "viva", cargada de probióticos y con el picante característico del jengibre fresco de la región.
@@ -70,7 +69,6 @@ La Ginger Beer es la bebida fermentada por excelencia de San Andrés y Providenc
 * **Porciones:** 10
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de jengibre fresco, rallado o machacado

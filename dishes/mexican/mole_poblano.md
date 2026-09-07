@@ -58,7 +58,6 @@ description: >-
   El Mole Poblano es la cúspide de la gastronomía barroca mexicana, combinando
   más de 20 ingredientes entre chiles secos, chocolate, frutos secos y especias.
 ---
-
 # Mole Poblano
 
 El Mole Poblano es la cúspide de la gastronomía barroca mexicana, combinando más de 20 ingredientes entre chiles secos, chocolate, frutos secos y especias.
@@ -72,7 +71,6 @@ El Mole Poblano es la cúspide de la gastronomía barroca mexicana, combinando m
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - Pollo entero

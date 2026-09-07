@@ -55,7 +55,6 @@ description: >-
   totopos de tortilla bañados en salsa verde hirviendo y acompañados de huevos o
   pollo.
 ---
-
 # Chilaquiles Verdes con Huevo
 
 Los Chilaquiles Verdes son el desayuno reconfortante definitivo en México: totopos de tortilla bañados en salsa verde hirviendo y acompañados de huevos o pollo.
@@ -69,7 +68,6 @@ Los Chilaquiles Verdes son el desayuno reconfortante definitivo en México: toto
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 - Totopos de maíz fritos

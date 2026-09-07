@@ -57,7 +57,6 @@ description: >-
   grasas naturales inhiben parcialmente el gluten, creando una miga de una
   humedad excepcional.
 ---
-
 # Pan de Coco (Coconut Bread)
 
 El Pan de Coco es el pan diario en las islas de San Andrés, Providencia y Santa Catalina. Es el acompañante inseparable del Rondón y el café matutino. Su preparación varía desde bollos sencillos hasta panes enriquecidos, pero siempre con el sello inconfundible del coco recién rallado.
@@ -70,7 +69,6 @@ El Pan de Coco es el pan diario en las islas de San Andrés, Providencia y Santa
 * **Porciones:** 12 bollos
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de harina de trigo (media fuerza o todo uso)

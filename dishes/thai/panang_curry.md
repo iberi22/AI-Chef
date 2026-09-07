@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de res o pollo
+  - Pasta de curry panang
+  - Crema de coco
+  - Hojas de lima kaffir
+  - Cacahuete
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   Central Thailand, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Panang Curry
 
 Panang Curry es uno de los platos más emblemáticos de la gastronomía de Central Thailand, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Panang Curry es uno de los platos más emblemáticos de la gastronomía de Centr
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de res o pollo
+- Pasta de curry panang
+- Crema de coco
+- Hojas de lima kaffir
+- Cacahuete
 
 ---
 

@@ -57,7 +57,6 @@ description: >-
   pescado se cocine exclusivamente por calor latente (vapor), preservando su
   mioglobina y grasas delicadas.
 ---
-
 # Viudo de Pescado
 
 El nombre "Viudo" proviene, según la leyenda, de que el pescado se servía "solo" (viudo) sin el caldo, o porque un hombre que perdió a su esposa creó el plato por simplicidad. Es un festín de la tierra y el río.
@@ -70,7 +69,6 @@ El nombre "Viudo" proviene, según la leyenda, de que el pescado se servía "sol
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Río:**

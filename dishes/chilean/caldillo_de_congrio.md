@@ -64,7 +64,6 @@ description: >-
   densa hecha con congrio (dorado o negro), papas cocidas, verduras sofritas y
   aromatizado con vino blanco y cilantro.
 ---
-
 # Caldillo de Congrio
 
 Inmortalizado por el Premio Nobel Pablo Neruda en su 'Oda al Caldillo de Congrio', este plato representa la quintaesencia de la cocina costera chilena. Elaborado con el preciado congrio, un pez de roca de carne firme y blanca, este caldillo combina la frescura marina del océano Pacífico con el calor reconfortante del sofrito campesino y el vino blanco de los valles centrales de Chile.
@@ -77,7 +76,6 @@ Inmortalizado por el Premio Nobel Pablo Neruda en su 'Oda al Caldillo de Congrio
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **Para el caldo concentrado (fondo de pescado):**

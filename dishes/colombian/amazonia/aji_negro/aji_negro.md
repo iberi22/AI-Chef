@@ -51,7 +51,6 @@ description: >-
   cocina indígena, con sabor intenso, picante y notas ahumadas, ideal para
   acompañar casabe, pescados y carnes.
 ---
-
 ## Ají Negro (Salsa Amazónica Fermentada)
 
 El Ají Negro es una salsa ancestral de la Amazonía, elaborada a partir de ajíes amazónicos fermentados y yuca amarga. Es un condimento esencial en la cocina indígena, con sabor intenso, picante y notas ahumadas, ideal para acompañar casabe, pescados y carnes.
@@ -64,7 +63,6 @@ El Ají Negro es una salsa ancestral de la Amazonía, elaborada a partir de ají
 * **Porciones:** 20
 
 ---
-
 ## 📝 Ingredientes
 
 - 20 ajíes amazónicos frescos (charapita, piquín, etc.)

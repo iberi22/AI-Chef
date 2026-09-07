@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Harina de trigo
+  - Ajo picado
+  - Cilantro fresco
+  - Mantequilla o ghee
+  - Yogur
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Ajo Naan (Pan Naan) es uno de los platos más emblemáticos de la gastronomía de
   Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Ajo Naan (Pan Naan)
 
 Ajo Naan (Pan Naan) es uno de los platos más emblemáticos de la gastronomía de Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -62,13 +62,13 @@ Ajo Naan (Pan Naan) es uno de los platos más emblemáticos de la gastronomía d
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Harina de trigo
+- Ajo picado
+- Cilantro fresco
+- Mantequilla o ghee
+- Yogur
 
 ---
 

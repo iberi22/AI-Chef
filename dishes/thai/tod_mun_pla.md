@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pasta de pescado
+  - Pasta de curry rojo
+  - Judías aladas o verdes
+  - Hojas de lima kaffir
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   gastronomía de Central Thailand, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Tod Mun Pla (Pasteles de Pescado)
 
 Tod Mun Pla (Pasteles de Pescado) es uno de los platos más emblemáticos de la gastronomía de Central Thailand, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Tod Mun Pla (Pasteles de Pescado) es uno de los platos más emblemáticos de la 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pasta de pescado
+- Pasta de curry rojo
+- Judías aladas o verdes
+- Hojas de lima kaffir
 
 ---
 

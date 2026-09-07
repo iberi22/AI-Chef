@@ -51,7 +51,6 @@ description: >-
   Los Tamales Oaxaqueños se distinguen por estar envueltos en hoja de plátano en
   lugar de totomoxtle, manteniendo una masa de maíz sumamente húmeda y sabrosa.
 ---
-
 # Tamales Oaxaqueños
 
 Los Tamales Oaxaqueños se distinguen por estar envueltos en hoja de plátano en lugar de totomoxtle, manteniendo una masa de maíz sumamente húmeda y sabrosa.
@@ -65,7 +64,6 @@ Los Tamales Oaxaqueños se distinguen por estar envueltos en hoja de plátano en
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 - Masa de maíz nixtamalizado

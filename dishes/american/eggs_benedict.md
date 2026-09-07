@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Huevos
+  - Muffin inglés
+  - Lomo embuchado o jamón
+  - Salsa holandesa
+  - Mantequilla
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   York, NY, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Eggs Benedict
 
 Eggs Benedict es uno de los platos más emblemáticos de la gastronomía de Nueva York, NY, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Eggs Benedict es uno de los platos más emblemáticos de la gastronomía de Nuev
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Huevos
+- Muffin inglés
+- Lomo embuchado o jamón
+- Salsa holandesa
+- Mantequilla
 
 ---
 

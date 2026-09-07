@@ -57,7 +57,6 @@ description: >-
   maíz hidrofóbica y crujiente que protege un núcleo húmedo de almidón (papa) y
   proteína (carne). Su éxito depende de la termodinámica de la fritura profunda.
 ---
-
 ## Empanadas Andinas
 
 Las empanadas andinas son uno de los pasabocas más populares de la región, crujientes por fuera y rellenas de una mezcla sabrosa de carne, papa y condimentos. Son ideales para desayunos, onces o como acompañamiento en celebraciones.
@@ -70,7 +69,6 @@ Las empanadas andinas son uno de los pasabocas más populares de la región, cru
 * **Porciones:** 20 empanadas
 
 ---
-
 ## 📝 Ingredientes
 
 - 2 tazas de harina de maíz precocida amarilla

@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Tomate
+  - Pepino
+  - Queso Feta
+  - Aceitunas Kalamata
   - Aceite de oliva
+  - Orégano
 sensory:
   flavor:
     - Salado
@@ -51,7 +53,6 @@ description: >-
   de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Horiatiki (Ensalada Griega Tradicional)
 
 Horiatiki (Ensalada Griega Tradicional) es uno de los platos más emblemáticos de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,13 +66,14 @@ Horiatiki (Ensalada Griega Tradicional) es uno de los platos más emblemáticos 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Tomate
+- Pepino
+- Queso Feta
+- Aceitunas Kalamata
 - Aceite de oliva
+- Orégano
 
 ---
 

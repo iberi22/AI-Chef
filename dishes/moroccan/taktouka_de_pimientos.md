@@ -20,9 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Pimientos rojos y verdes asados
+  - Tomate
+  - Ajo
+  - Comino
   - Aceite de oliva
 sensory:
   flavor:
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Taktouka de Pimientos Asados
 
 Taktouka de Pimientos Asados es uno de los platos más emblemáticos de la gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,12 +63,12 @@ Taktouka de Pimientos Asados es uno de los platos más emblemáticos de la gastr
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Pimientos rojos y verdes asados
+- Tomate
+- Ajo
+- Comino
 - Aceite de oliva
 
 ---

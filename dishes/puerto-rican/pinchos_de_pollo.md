@@ -57,7 +57,6 @@ description: >-
   todo Puerto Rico. Consisten en cubos de muslo de pollo deshuesados marinados
   en adobo boricua, asados al carbón con salsa BBQ.
 ---
-
 # Pinchos de Pollo Puertorriqueños
 
 Los Pinchos de Pollo son el bocado por excelencia de la comida rápida boricua. No hay festividad, playa o fin de semana en Puerto Rico que no esté perfumado con el humo de los pinchos asándose al carbón. El secreto de su jugosidad incomparable radica en utilizar muslos de pollo deshuesados en lugar de pechuga y el caramelizado de la salsa BBQ.
@@ -70,7 +69,6 @@ Los Pinchos de Pollo son el bocado por excelencia de la comida rápida boricua. 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **Los Pinchos de Pollo:**

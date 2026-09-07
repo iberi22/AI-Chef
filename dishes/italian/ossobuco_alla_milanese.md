@@ -55,7 +55,6 @@ description: >-
   estofado con vino blanco y coronado con gremolata fresca de limón, ajo y
   perejil.
 ---
-
 # Ossobuco alla Milanese con Gremolata
 
 El Ossobuco alla Milanese es un corte transversal de jarrete de ternera estofado con vino blanco y coronado con gremolata fresca de limón, ajo y perejil.
@@ -69,7 +68,6 @@ El Ossobuco alla Milanese es un corte transversal de jarrete de ternera estofado
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Jarrete de ternera (Ossobuco)

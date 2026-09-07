@@ -55,7 +55,6 @@ description: >-
   principal es la textura crocante y arenosa que se deshace en la boca, lograda
   por la alta temperatura de cristalización del almidón.
 ---
-
 # Achiras del Huila (Bizcocho de Achira)
 
 El Bizcocho de Achira es el símbolo del departamento del Huila y tiene Denominación de Origen Protegida. Se elabora a partir del almidón extraído de la planta de achira o sagú (*Canna indica*), mezclado con cuajada fresca y mantequilla. A diferencia de los panes de yuca o maíz, la achira busca ser totalmente crocante y seca.
@@ -68,7 +67,6 @@ El Bizcocho de Achira es el símbolo del departamento del Huila y tiene Denomina
 * **Porciones:** 20 bizcochos
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de almidón de achira (Sagú)

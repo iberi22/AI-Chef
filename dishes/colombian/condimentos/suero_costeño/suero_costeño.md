@@ -20,8 +20,25 @@ description: >-
   su uso en arepas, mote de queso, yuca y comidas típicas de la región.
 media: []
 embedding_version: 1
+cook_time: 30
+sensory:
+  flavor:
+    - Ácido láctico
+    - Salado
+  texture:
+    - Cremoso untuoso
+  aroma:
+    - Lácteo fermentado
+servings: 1
+prep_time: 48 horas (fermentación)
+main_ingredients:
+  - Leche entera
+  - Cultivo láctico o vinagre
+  - Sal
+categories:
+  - Salsa
+  - Acompañamiento
 ---
-
 # Suero Costeño
 
 El suero costeño es un lácteo fermentado típico de la Costa Caribe colombiana, similar a la crema agria, con sabor ácido y textura cremosa. Es tendencia por su uso en arepas, mote de queso, yuca y comidas típicas de la región.
@@ -33,7 +50,6 @@ El suero costeño es un lácteo fermentado típico de la Costa Caribe colombiana
 * **Porciones:** 1 taza
 
 ---
-
 ## 📝 Ingredientes
 
 - 2 tazas de leche entera

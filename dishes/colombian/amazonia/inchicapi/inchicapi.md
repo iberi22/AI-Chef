@@ -51,7 +51,6 @@ description: >-
   su sabor profundo y textura cremosa. Se prepara con gallina, maní, maíz y
   especias locales, y es símbolo de hospitalidad en reuniones familiares.
 ---
-
 ## Inchicapi (Sopa de Gallina con Maní)
 
 El Inchicapi es una sopa tradicional amazónica, muy apreciada en la región por su sabor profundo y textura cremosa. Se prepara con gallina, maní, maíz y especias locales, y es símbolo de hospitalidad en reuniones familiares.
@@ -64,7 +63,6 @@ El Inchicapi es una sopa tradicional amazónica, muy apreciada en la región por
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 gallina entera o pollo de campo (1.5 kg)

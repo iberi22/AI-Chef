@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Hojas de parra
+  - Arroz
+  - Hierbabuena
+  - Eneldo
   - Aceite de oliva
+  - Limón
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   gastronomía de Creta, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Dolmades (Hojas de Parra Rellenas)
 
 Dolmades (Hojas de Parra Rellenas) es uno de los platos más emblemáticos de la gastronomía de Creta, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +64,14 @@ Dolmades (Hojas de Parra Rellenas) es uno de los platos más emblemáticos de la
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Hojas de parra
+- Arroz
+- Hierbabuena
+- Eneldo
 - Aceite de oliva
+- Limón
 
 ---
 

@@ -58,7 +58,6 @@ description: >-
   azúcar del coco se fríen en su propio aceite hasta caramelizarse (titoté)
   antes de añadir el arroz.
 ---
-
 # Arroz con Coco (Titoté)
 
 Es el acompañante indiscutible del pescado frito y los patacones en la costa Caribe colombiana. Su magia reside en la reacción química de "quemar" la leche de coco controladamente para obtener el *titoté*.
@@ -71,7 +70,6 @@ Es el acompañante indiscutible del pescado frito y los patacones en la costa Ca
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Coco:**

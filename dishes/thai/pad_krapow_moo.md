@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Cerdo picado
+  - Albahaca sagrada thai (krapow)
+  - Ajo
+  - Chiles thai
+  - Salsa de soja
+  - Huevo frito
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   la gastronomía de Bangkok, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Pad Krapow Moo (Cerdo con Albahaca)
 
 Pad Krapow Moo (Cerdo con Albahaca) es uno de los platos más emblemáticos de la gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +64,14 @@ Pad Krapow Moo (Cerdo con Albahaca) es uno de los platos más emblemáticos de l
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Cerdo picado
+- Albahaca sagrada thai (krapow)
+- Ajo
+- Chiles thai
+- Salsa de soja
+- Huevo frito
 
 ---
 

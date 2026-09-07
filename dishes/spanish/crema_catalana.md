@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Leche
+  - Yemas de huevo
+  - Azúcar
+  - Almidón de maíz
+  - Canela
+  - Piel de limón
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   Cataluña, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Crema Catalana
 
 Crema Catalana es uno de los platos más emblemáticos de la gastronomía de Cataluña, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +64,14 @@ Crema Catalana es uno de los platos más emblemáticos de la gastronomía de Cat
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Leche
+- Yemas de huevo
+- Azúcar
+- Almidón de maíz
+- Canela
+- Piel de limón
 
 ---
 

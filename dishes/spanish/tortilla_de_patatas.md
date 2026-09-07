@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Patatas
+  - Huevos
+  - Cebolla (opcional)
   - Aceite de oliva
+  - Sal
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de España Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Tortilla de Patatas Española
 
 Tortilla de Patatas Española es uno de los platos más emblemáticos de la gastronomía de España Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Tortilla de Patatas Española es uno de los platos más emblemáticos de la gast
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Patatas
+- Huevos
+- Cebolla (opcional)
 - Aceite de oliva
+- Sal
 
 ---
 

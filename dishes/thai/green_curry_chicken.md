@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo
+  - Pasta de curry verde
+  - Leche de coco
+  - Berenjena thai
+  - Hojas de lima kaffir
+  - Albahaca
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Gaeng Keow Wan (Curry Verde)
 
 Gaeng Keow Wan (Curry Verde) es uno de los platos más emblemáticos de la gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +64,14 @@ Gaeng Keow Wan (Curry Verde) es uno de los platos más emblemáticos de la gastr
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo
+- Pasta de curry verde
+- Leche de coco
+- Berenjena thai
+- Hojas de lima kaffir
+- Albahaca
 
 ---
 

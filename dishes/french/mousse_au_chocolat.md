@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Chocolate negro
+  - Huevos
+  - Mantequilla
+  - Azúcar
 sensory:
   flavor:
     - Salado
@@ -48,7 +48,6 @@ description: >-
   Mousse au Chocolat es uno de los platos más emblemáticos de la gastronomía de
   París, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Mousse au Chocolat
 
 Mousse au Chocolat es uno de los platos más emblemáticos de la gastronomía de París, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -62,13 +61,12 @@ Mousse au Chocolat es uno de los platos más emblemáticos de la gastronomía de
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Chocolate negro
+- Huevos
+- Mantequilla
+- Azúcar
 
 ---
 

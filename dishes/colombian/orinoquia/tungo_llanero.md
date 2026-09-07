@@ -56,7 +56,6 @@ description: >-
   resultando en una textura elástica y un sabor sutilmente ácido que armoniza
   con el dulce de la panela.
 ---
-
 # Tungos Llaneros
 
 Los Tungos son envueltos de arroz típicos del departamento del Meta y la región Orinoquía. Su nombre proviene de la lengua indígena y hace referencia a su forma alargada. Son el acompañante ideal para el café de la tarde o la carne a la llanera.
@@ -69,7 +68,6 @@ Los Tungos son envueltos de arroz típicos del departamento del Meta y la regió
 * **Porciones:** 15
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 kg de arroz de grano largo

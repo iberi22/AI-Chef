@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa de crepe
+  - Mantequilla
+  - Zumo de naranja
+  - Licor Grand Marnier
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   Costa Azul, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Crêpes Suzette
 
 Crêpes Suzette es uno de los platos más emblemáticos de la gastronomía de Costa Azul, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Crêpes Suzette es uno de los platos más emblemáticos de la gastronomía de Co
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa de crepe
+- Mantequilla
+- Zumo de naranja
+- Licor Grand Marnier
 
 ---
 

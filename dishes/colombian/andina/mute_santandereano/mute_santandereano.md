@@ -63,7 +63,6 @@ description: >-
   preparación monumental que combina múltiples carnes (res, cerdo, callo) y
   legumbres, resultando en un potaje de densidad extrema.
 ---
-
 # Mute Santandereano
 
 El Mute Santandereano es uno de los platos más tradicionales del departamento de Santander, Colombia. Es una sopa robusta y rica en ingredientes, famosa por su textura espesa y sabor profundo, resultado de la combinación de carnes, granos y tubérculos.
@@ -76,7 +75,6 @@ El Mute Santandereano es uno de los platos más tradicionales del departamento d
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de carne de res (costilla o falda)

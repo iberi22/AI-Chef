@@ -21,8 +21,28 @@ description: >-
   tropicales. Son ideales como postre o snack para compartir.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Coco rallado
+  - Panela o azúcar
+  - Agua de coco
+  - Canela
+prep_time: 15
+cook_time: 30
+servings: 20
+categories:
+  - Dulce
+  - Postre
+sensory:
+  flavor:
+    - Dulce
+    - Acaramelado
+    - Coco
+  texture:
+    - Masticable
+    - Crujiente de coco
+  aroma:
+    - Coco tostado y panela
 ---
-
 # Cocadas
 
 Las cocadas son uno de los dulces más tradicionales de la región Insular y de toda la costa Caribe colombiana. En San Andrés y Providencia, se preparan con coco fresco rallado, azúcar y, en ocasiones, leche condensada o frutas tropicales. Son ideales como postre o snack para compartir.
@@ -35,7 +55,6 @@ Las cocadas son uno de los dulces más tradicionales de la región Insular y de 
 * **Porciones:** 20 cocadas
 
 ---
-
 ## 📝 Ingredientes
 
 - 2 cocos frescos rallados (aprox. 4 tazas)

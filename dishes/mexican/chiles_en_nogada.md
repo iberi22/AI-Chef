@@ -57,7 +57,6 @@ description: >-
   Los Chiles en Nogada son el plato patrio por excelencia de Puebla, luciendo
   los colores de la bandera mexicana con chile poblano, crema de nuez y granada.
 ---
-
 # Chiles en Nogada
 
 Los Chiles en Nogada son el plato patrio por excelencia de Puebla, luciendo los colores de la bandera mexicana con chile poblano, crema de nuez y granada.
@@ -71,7 +70,6 @@ Los Chiles en Nogada son el plato patrio por excelencia de Puebla, luciendo los 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Chiles poblanos

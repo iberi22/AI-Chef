@@ -53,7 +53,6 @@ description: >-
   El Tiramisù es el postre italiano más famoso del mundo: bizcochos Savoiardi
   impregnados de espresso y licor, alternados con crema de mascarpone y cacao.
 ---
-
 # Tiramisù Classico
 
 El Tiramisù es el postre italiano más famoso del mundo: bizcochos Savoiardi impregnados de espresso y licor, alternados con crema de mascarpone y cacao.
@@ -67,7 +66,6 @@ El Tiramisù es el postre italiano más famoso del mundo: bizcochos Savoiardi im
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 - Bizcochos Savoiardi (soletillas)

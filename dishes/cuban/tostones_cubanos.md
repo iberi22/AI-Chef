@@ -58,7 +58,6 @@ description: >-
   freír a alta temperatura hasta lograr una costra dorada extremadamente
   crujiente y un interior suave y harinoso.
 ---
-
 # Tostones Cubanos (Chatinos)
 
 Los Tostones son indispensables en la mesa cubana. Acompañan tanto un almuerzo informal de arroz con huevo frito como una cena festiva de lechón asado o ropa vieja. Su magia técnica radica en la doble fritura a temperaturas diferenciadas: la primera a temperatura moderada para cocinar y ablandar los almidones del plátano, y la segunda a temperatura muy alta para deshidratar la superficie.
@@ -71,7 +70,6 @@ Los Tostones son indispensables en la mesa cubana. Acompañan tanto un almuerzo 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **Los Tostones:**

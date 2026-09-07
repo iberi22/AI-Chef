@@ -52,7 +52,6 @@ description: >-
   panaderías colombianas. Se caracteriza por su aroma a mantequilla y especias,
   y es tendencia por su versatilidad en desayunos y meriendas.
 ---
-
 ## Pan Aliñado Colombiano
 
 El pan aliñado es un pan suave, aromático y ligeramente dulce, típico de panaderías colombianas. Se caracteriza por su aroma a mantequilla y especias, y es tendencia por su versatilidad en desayunos y meriendas.
@@ -64,7 +63,6 @@ El pan aliñado es un pan suave, aromático y ligeramente dulce, típico de pana
 * **Porciones:** 10 unidades
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de harina de trigo

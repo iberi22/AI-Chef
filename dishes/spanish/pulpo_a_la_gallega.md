@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Pulpo cocido
+  - Patatas cocidas (cachelos)
+  - Pimentón dulce y picante
   - Aceite de oliva
+  - Sal gorda
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Galicia, conocido por su equilibrio de sabores e ingredientes
   de alta calidad.
 ---
-
 # Pulpo a la Gallega (Polbo á Feira)
 
 Pulpo a la Gallega (Polbo á Feira) es uno de los platos más emblemáticos de la gastronomía de Galicia, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Pulpo a la Gallega (Polbo á Feira) es uno de los platos más emblemáticos de l
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Pulpo cocido
+- Patatas cocidas (cachelos)
+- Pimentón dulce y picante
 - Aceite de oliva
+- Sal gorda
 
 ---
 

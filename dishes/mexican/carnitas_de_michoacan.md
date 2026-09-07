@@ -54,7 +54,6 @@ description: >-
   dentro de coperos de cobre, logrando una carne suave por dentro y crujiente
   por fuera.
 ---
-
 # Carnitas de Michoacán
 
 Las Carnitas son pedazos de cerdo confitados lentamente en su propia manteca dentro de coperos de cobre, logrando una carne suave por dentro y crujiente por fuera.
@@ -68,7 +67,6 @@ Las Carnitas son pedazos de cerdo confitados lentamente en su propia manteca den
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - Carne de cerdo (costilla, lomo, maciza)

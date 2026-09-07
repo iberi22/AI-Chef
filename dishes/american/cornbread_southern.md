@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Harina de maíz
+  - Harina de trigo
+  - Mantequilla
+  - Leche
+  - Huevos
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Sur de EE.UU., conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Southern Skillet Cornbread
 
 Southern Skillet Cornbread es uno de los platos más emblemáticos de la gastronomía de Sur de EE.UU., conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Southern Skillet Cornbread es uno de los platos más emblemáticos de la gastron
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Harina de maíz
+- Harina de trigo
+- Mantequilla
+- Leche
+- Huevos
 
 ---
 

@@ -54,7 +54,6 @@ description: >-
   El Minestrone alla Genovese es una rica sopa de verduras de estación y alubias
   cuyo secreto radica en enriquecerse al final con auténtico pesto lígur.
 ---
-
 # Minestrone alla Genovese
 
 El Minestrone alla Genovese es una rica sopa de verduras de estación y alubias cuyo secreto radica en enriquecerse al final con auténtico pesto lígur.
@@ -68,7 +67,6 @@ El Minestrone alla Genovese es una rica sopa de verduras de estación y alubias 
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - Alubias blancas (Canellini)

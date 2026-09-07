@@ -44,8 +44,20 @@ compilation_data:
   category: Plato Principal
 media: []
 embedding_version: 1
+main_ingredients:
+  - Pollo desmechado
+  - Arroz
+  - Arvejas
+  - Zanahoria
+  - Habichuelas
+  - Pimentón
+prep_time: 1
+cook_time: 30
+servings: 4
+categories:
+  - Plato fuerte
+  - Tradicional
 ---
-
 # Arroz con Pollo Colombiano
 
 El arroz con pollo colombiano es un clásico de las celebraciones familiares, fiestas de cumpleaños y paseos. Es un plato muy completo y rendidor, caracterizado por su color amarillo y la mezcla de pollo desmechado con verduras.
@@ -90,7 +102,6 @@ El arroz con pollo colombiano es un clásico de las celebraciones familiares, fi
 ![Arroz con pollo colombiano con papas](./images/1.png)
 
 ---
-
 ### Otras Versiones
 
 Este plato tiene variantes en toda América Latina. Puedes ver la [versión peruana aquí](../../peruvian/arroz_con_pollo.md) para comparar las diferencias.

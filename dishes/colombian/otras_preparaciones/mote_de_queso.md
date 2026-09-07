@@ -48,7 +48,6 @@ nutrition:
     carbs_g: 36.6
 description: '* 2 libras de ñame pelado y en cubos'
 ---
-
 ## Ingredientes
 
 * 2 libras de ñame pelado y en cubos
@@ -70,7 +69,6 @@ description: '* 2 libras de ñame pelado y en cubos'
 7. Ajusta de sal y pimienta y sirve caliente.
 
 ---
-
 ## 📸 Galería
 
 ![Mote de Queso Tradicional](../caribe/mote_de_queso/images/1.png)

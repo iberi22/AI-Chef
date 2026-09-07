@@ -54,7 +54,6 @@ description: >-
   El Yakitori en Tare son brochetas de pollo ensartadas con cebolleta, asadas a
   fuego vivo de carbón y sumergidas en un glaseado umami concentrado.
 ---
-
 # Yakitori de Pollo en Tare
 
 El Yakitori en Tare son brochetas de pollo ensartadas con cebolleta, asadas a fuego vivo de carbón y sumergidas en un glaseado umami concentrado.
@@ -68,7 +67,6 @@ El Yakitori en Tare son brochetas de pollo ensartadas con cebolleta, asadas a fu
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Muslo de pollo troceado

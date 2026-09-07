@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne picada de ternera
+  - Menta fresca
+  - Orégano
+  - Cebolla
+  - Pan rallado
 sensory:
   flavor:
     - Salado
@@ -51,7 +52,6 @@ description: >-
   de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Keftedes (Albóndigas Griegas de Menta)
 
 Keftedes (Albóndigas Griegas de Menta) es uno de los platos más emblemáticos de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,13 +65,13 @@ Keftedes (Albóndigas Griegas de Menta) es uno de los platos más emblemáticos 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne picada de ternera
+- Menta fresca
+- Orégano
+- Cebolla
+- Pan rallado
 
 ---
 

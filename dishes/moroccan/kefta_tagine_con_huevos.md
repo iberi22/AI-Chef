@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne picada especiada (kefta)
+  - Salsa de tomate
+  - Huevos
+  - Comino
+  - Pimentón
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   la gastronomía de Marrakech, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Tajine de Kefta con Tomate y Huevos
 
 Tajine de Kefta con Tomate y Huevos es uno de los platos más emblemáticos de la gastronomía de Marrakech, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Tajine de Kefta con Tomate y Huevos es uno de los platos más emblemáticos de l
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne picada especiada (kefta)
+- Salsa de tomate
+- Huevos
+- Comino
+- Pimentón
 
 ---
 

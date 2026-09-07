@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Cebolla
+  - Caldo de res
+  - Pan tostado
+  - Queso Gruyère
+  - Mantequilla
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de París, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Soupe à l'Oignon Gratinée
 
 Soupe à l'Oignon Gratinée es uno de los platos más emblemáticos de la gastronomía de París, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Soupe à l'Oignon Gratinée es uno de los platos más emblemáticos de la gastro
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Cebolla
+- Caldo de res
+- Pan tostado
+- Queso Gruyère
+- Mantequilla
 
 ---
 

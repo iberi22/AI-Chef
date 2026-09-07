@@ -50,7 +50,6 @@ description: >-
   El Unadon es un lujoso tazón de arroz coronado con anguila de agua dulce
   abierta, ensartada y asada con un rico glaseado carmelizado (Kabayaki).
 ---
-
 # Unadon (Anguila sobre Arroz)
 
 El Unadon es un lujoso tazón de arroz coronado con anguila de agua dulce abierta, ensartada y asada con un rico glaseado carmelizado (Kabayaki).
@@ -64,7 +63,6 @@ El Unadon es un lujoso tazón de arroz coronado con anguila de agua dulce abiert
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 - Filetes de anguila (Unagi)

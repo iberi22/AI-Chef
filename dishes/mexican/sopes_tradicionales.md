@@ -54,7 +54,6 @@ description: >-
   Los Sopes son pellizcadas de masa gruesa de maíz fritas en manteca, servidas
   con una capa base de frijoles refritos y coberturas tradicionales.
 ---
-
 # Sopes Tradicionales
 
 Los Sopes son pellizcadas de masa gruesa de maíz fritas en manteca, servidas con una capa base de frijoles refritos y coberturas tradicionales.
@@ -68,7 +67,6 @@ Los Sopes son pellizcadas de masa gruesa de maíz fritas en manteca, servidas co
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Masa de maíz nixtamalizado

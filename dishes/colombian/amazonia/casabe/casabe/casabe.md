@@ -46,7 +46,6 @@ description: >-
   utiliza como acompañante de sopas, pescados o como base para otros platos. Su
   preparación artesanal es un legado indígena que se mantiene vivo en la región.
 ---
-
 ## Casabe (Pan de Yuca Amazónico)
 
 El Casabe es un pan plano ancestral elaborado a base de yuca amarga, tradicional en la Amazonía y la Orinoquía. Es crujiente, sin gluten y se utiliza como acompañante de sopas, pescados o como base para otros platos. Su preparación artesanal es un legado indígena que se mantiene vivo en la región.
@@ -59,7 +58,6 @@ El Casabe es un pan plano ancestral elaborado a base de yuca amarga, tradicional
 * **Porciones:** 10
 
 ---
-
 ## 📝 Ingredientes
 
 - 2 kg de yuca amarga (no dulce)

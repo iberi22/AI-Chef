@@ -54,7 +54,6 @@ description: >-
   completo en salsa de chile guajillo antes de dorarse a la plancha con papa y
   chorizo.
 ---
-
 # Pambazo de Papa con Chorizo
 
 El Pambazo es un emparedado popular capitalino cuyo pan se sumerge por completo en salsa de chile guajillo antes de dorarse a la plancha con papa y chorizo.
@@ -68,7 +67,6 @@ El Pambazo es un emparedado popular capitalino cuyo pan se sumerge por completo 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Pan telera o pambazo

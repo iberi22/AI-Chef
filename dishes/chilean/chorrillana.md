@@ -60,7 +60,6 @@ description: >-
   Consiste en una base generosa de papas fritas crujientes cubiertas con carne
   de vacuno salteada, cebolla caramelizada y huevos fritos o revueltos.
 ---
-
 # Chorrillana Chilena
 
 Originaria del puerto de Valparaíso, la Chorrillana es el símbolo definitivo de la gastronomía urbana y festiva chilena. Creada originalmente en el restaurante 'J. Cruz' a fines del siglo XX como un plato económico y abundante para acompañar la cerveza de los estudiantes universitarios y marineros, hoy en día se consume en todo el país como un ritual social insustituible para compartir en grupo.
@@ -73,7 +72,6 @@ Originaria del puerto de Valparaíso, la Chorrillana es el símbolo definitivo d
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **Ingredientes de la Chorrillana:**

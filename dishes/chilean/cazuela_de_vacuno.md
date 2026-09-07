@@ -61,7 +61,6 @@ description: >-
   papas enteras, trozos grandes de zapallo, mazorcas de maíz, verduras finas y
   un toque de arroz.
 ---
-
 # Cazuela de Vacuno
 
 La cazuela es un pilar fundamental del menú del hogar chileno. Su nombre deriva del recipiente de greda en el cual se cocina tradicionalmente. Es un caldo sabroso y equilibrado que reúne los aportes del vacuno con los de los tubérculos y hortalizas locales, ofreciendo un alimento reparador ideal para los meses fríos de invierno.
@@ -74,7 +73,6 @@ La cazuela es un pilar fundamental del menú del hogar chileno. Su nombre deriva
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **Ingredientes principales:**

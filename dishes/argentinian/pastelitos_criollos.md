@@ -62,7 +62,6 @@ description: >-
   forma de estrella, fritas de manera especial para que las capas se abran en
   forma de pétalos, y bañadas en almíbar brillante.
 ---
-
 # Pastelitos Criollos Argentinos
 
 Los Pastelitos Criollos son sinónimo de las tardes patrias de invierno en la Argentina. Su confección es un arte del hojaldre criollo: al freírse a dos temperaturas distintas, las capas finas de masa se separan de forma espectacular en forma de 'pétalos de flor' sumamente crujientes, que encierran un corazón caliente y fundido de dulce de membrillo, todo cubierto por un baño brillante de almíbar dulce.
@@ -75,7 +74,6 @@ Los Pastelitos Criollos son sinónimo de las tardes patrias de invierno en la Ar
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 * **Para la masa de hojaldre criollo:**

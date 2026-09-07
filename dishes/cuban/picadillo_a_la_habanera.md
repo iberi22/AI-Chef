@@ -60,7 +60,6 @@ description: >-
   se logra combinando aceitunas verdes saladas, pasas dulces de uva, alcaparras
   ácidas, un sofrito abundante con comino, vino seco y tomate.
 ---
-
 # Picadillo a la Habanera
 
 El Picadillo a la Habanera es un plato hogareño y tradicional por excelencia en Cuba. De preparación rápida pero de gran complejidad gustativa, este guiso de carne molida destaca por su audaz y exquisito perfil agridulce, una herencia directa de la culinaria andaluza y canaria adaptada al trópico caribeño. Es un plato que reconforta el paladar y se disfruta típicamente con arroz y plátano maduro frito.
@@ -73,7 +72,6 @@ El Picadillo a la Habanera es un plato hogareño y tradicional por excelencia en
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **La Carne y su Sazón:**

@@ -62,7 +62,6 @@ description: >-
   que combina los tres colores de la identidad dominicana: el blanco (arroz), el
   rojo (habichuelas rojas) y la carne guisada (pollo o res).
 ---
-
 # La Bandera Dominicana (Arroz, Habichuelas y Carne)
 
 La Bandera Dominicana es el pilar culinario cotidiano de la República Dominicana. Este almuerzo tradicional une arroz blanco suelto y graneado, habichuelas rojas guisadas de caldo espeso y cremoso, y pollo o carne de res guisada de forma jugosa. El secreto técnico dominicano radica en el caramelizado inicial del pollo utilizando azúcar blanca quemada en aceite caliente para lograr un dorado intenso y brillante, y en el uso indispensable del aromático orégano dominicano.
@@ -75,7 +74,6 @@ La Bandera Dominicana es el pilar culinario cotidiano de la República Dominican
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Pollo Guisado Dominicano:**

@@ -58,7 +58,6 @@ description: >-
   coco actúa como mediador de sabores entre la sal extrema de la carne y la
   frescura del mar.
 ---
-
 ## Pusandao (Sopa de Pescado)
 
 El Pusandao es una sopa tradicional del litoral Pacífico colombiano, especialmente del departamento de Nariño. Se prepara con pescado fresco, tubérculos, plátano y leche de coco, y es famosa por su sabor profundo y reconfortante, ideal para días lluviosos y celebraciones familiares.
@@ -71,7 +70,6 @@ El Pusandao es una sopa tradicional del litoral Pacífico colombiano, especialme
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 - 1,5 kg de pescado fresco (pargo, róbalo, tollo u otro)

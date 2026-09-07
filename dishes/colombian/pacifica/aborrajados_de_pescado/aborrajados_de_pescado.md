@@ -56,7 +56,6 @@ description: >-
   fresco, encapsulado en una masa de plátano cuya caramelización actúa como
   barrera protectora de humedad para la proteína interna.
 ---
-
 ## Aborrajados de Pescado
 
 Los Aborrajados de Pescado son una delicia tradicional del Pacífico colombiano, especialmente en las zonas costeras de Nariño y Cauca. Consisten en trozos de pescado fresco envueltos en una masa de plátano maduro y fritos hasta quedar dorados y crujientes. Son populares como entrada, snack o acompañamiento en celebraciones familiares.
@@ -69,7 +68,6 @@ Los Aborrajados de Pescado son una delicia tradicional del Pacífico colombiano,
 * **Porciones:** 12 aborrajados
 
 ---
-
 ## 📝 Ingredientes
 
 - 2 plátanos maduros grandes

@@ -60,7 +60,6 @@ description: >-
   maíz choclo fresco molido con albahaca y cebolla frita en manteca, envuelta en
   hojas tiernas de maíz y hervida en agua con sal.
 ---
-
 # Humitas Chilenas
 
 Las Humitas chilenas son un tesoro culinario de la temporada estival. A diferencia de las humitas de otros países andinos, la versión chilena se caracteriza por el uso de albahaca fresca y abundante cebolla sofrita en manteca de cerdo, sin adición de rellenos de queso o carne, ofreciendo un sabor herbal y una textura extremadamente cremosa envuelta y hervida en las propias hojas verdes del maíz.
@@ -73,7 +72,6 @@ Las Humitas chilenas son un tesoro culinario de la temporada estival. A diferenc
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **Ingredientes principales:**

@@ -58,7 +58,6 @@ description: >-
   utiliza camarones pre-cocidos (técnica de seguridad en climas cálidos) y una
   emulsión de tomate y limón que actúa como una 'Leche de Tigre' dulce-ácida.
 ---
-
 # Ceviche de Camarón Costeño
 
 A diferencia del ceviche peruano (leche de tigre ácida/picante), el ceviche o cóctel de camarón del Caribe colombiano busca un equilibrio agridulce y cremoso. Es comida de playa por excelencia.
@@ -71,7 +70,6 @@ A diferencia del ceviche peruano (leche de tigre ácida/picante), el ceviche o c
 * **Porciones:** 4 copas
 
 ---
-
 ## 📝 Ingredientes
 
 * **Proteína:**

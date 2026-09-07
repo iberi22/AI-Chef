@@ -58,7 +58,6 @@ description: >-
   sino que transforma su colágeno y elimina el exceso de urea, creando una base
   proteica única para el guiso de coco.
 ---
-
 ## Tollo Ahumado
 
 El Tollo Ahumado es un plato tradicional del Pacífico colombiano, especialmente apreciado en las comunidades afrodescendientes del litoral. Se prepara con carne de tiburón (tollo) ahumada artesanalmente y luego guisada con leche de coco, especias y vegetales, resultando en un plato intenso y aromático.
@@ -71,7 +70,6 @@ El Tollo Ahumado es un plato tradicional del Pacífico colombiano, especialmente
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 kg de carne de tollo (tiburón) ahumado

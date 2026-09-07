@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Lentejas negras urad dal
+  - Alubias rojas
+  - Mantequilla
+  - Nata
+  - Tomate
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Dal Makhani es uno de los platos más emblemáticos de la gastronomía de Punjab,
   conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Dal Makhani
 
 Dal Makhani es uno de los platos más emblemáticos de la gastronomía de Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -62,13 +62,13 @@ Dal Makhani es uno de los platos más emblemáticos de la gastronomía de Punjab
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Lentejas negras urad dal
+- Alubias rojas
+- Mantequilla
+- Nata
+- Tomate
 
 ---
 

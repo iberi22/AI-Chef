@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Melocotón
+  - Harina de trigo
+  - Mantequilla
+  - Azúcar
+  - Canela
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de Georgia, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Georgia Peach Cobbler
 
 Georgia Peach Cobbler es uno de los platos más emblemáticos de la gastronomía de Georgia, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Georgia Peach Cobbler es uno de los platos más emblemáticos de la gastronomía
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Melocotón
+- Harina de trigo
+- Mantequilla
+- Azúcar
+- Canela
 
 ---
 

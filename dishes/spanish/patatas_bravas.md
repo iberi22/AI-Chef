@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Patatas en dados
+  - Salsa brava picante (pimentón y caldo)
+  - Alioli (opcional)
+  - Aceite
 sensory:
   flavor:
     - Salado
@@ -48,7 +48,6 @@ description: >-
   Patatas Bravas es uno de los platos más emblemáticos de la gastronomía de
   Madrid, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Patatas Bravas
 
 Patatas Bravas es uno de los platos más emblemáticos de la gastronomía de Madrid, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -62,13 +61,12 @@ Patatas Bravas es uno de los platos más emblemáticos de la gastronomía de Mad
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Patatas en dados
+- Salsa brava picante (pimentón y caldo)
+- Alioli (opcional)
+- Aceite
 
 ---
 

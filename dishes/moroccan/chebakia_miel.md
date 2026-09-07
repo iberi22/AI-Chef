@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa de sésamo y anís
+  - Miel
+  - Agua de azahar
+  - Semillas de sésamo tostadas
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   gastronomía de Marruecos Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Chebakia de Sésamo y Miel
 
 Chebakia de Sésamo y Miel es uno de los platos más emblemáticos de la gastronomía de Marruecos Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Chebakia de Sésamo y Miel es uno de los platos más emblemáticos de la gastron
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa de sésamo y anís
+- Miel
+- Agua de azahar
+- Semillas de sésamo tostadas
 
 ---
 

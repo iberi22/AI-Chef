@@ -20,9 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Berenjena asada
+  - Tomate
+  - Ajo
+  - Comino
+  - Pimentón
   - Aceite de oliva
 sensory:
   flavor:
@@ -49,7 +51,6 @@ description: >-
   gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Zaalouk de Berenjena y Tomate
 
 Zaalouk de Berenjena y Tomate es uno de los platos más emblemáticos de la gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,12 +64,13 @@ Zaalouk de Berenjena y Tomate es uno de los platos más emblemáticos de la gast
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Berenjena asada
+- Tomate
+- Ajo
+- Comino
+- Pimentón
 - Aceite de oliva
 
 ---

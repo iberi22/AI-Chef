@@ -20,10 +20,9 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Pimientos del Padrón
   - Aceite de oliva
+  - Sal escamada
 sensory:
   flavor:
     - Salado
@@ -49,7 +48,6 @@ description: >-
   de Galicia, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Pimientos del Padrón
 
 Pimientos del Padrón es uno de los platos más emblemáticos de la gastronomía de Galicia, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +61,11 @@ Pimientos del Padrón es uno de los platos más emblemáticos de la gastronomía
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Pimientos del Padrón
 - Aceite de oliva
+- Sal escamada
 
 ---
 

@@ -63,7 +63,6 @@ description: >-
   servido caliente dentro de un trozo de pan francés crujiente con salsa
   chimichurri.
 ---
-
 # Choripán Argentino
 
 El Choripán es la comida callejera suprema y el alma de los estadios de fútbol y los asados de fin de semana en la Argentina. Es el bocadillo rápido por excelencia que celebra la sencillez y el sabor rústico: un embutido fresco asado a la perfección que combina de manera deliciosa con la crocancia del pan de trigo y el picor herbáceo ácido del chimichurri casero.
@@ -76,7 +75,6 @@ El Choripán es la comida callejera suprema y el alma de los estadios de fútbol
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **Ingredientes de la parrillada:**

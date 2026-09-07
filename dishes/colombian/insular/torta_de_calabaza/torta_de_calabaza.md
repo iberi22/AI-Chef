@@ -21,8 +21,28 @@ description: >-
   rallado. Es ideal para celebraciones y reuniones familiares.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Calabaza (pumpkin)
+  - Harina de trigo
+  - Huevos
+  - Mantequilla
+  - Azúcar
+  - Canela
+prep_time: 30
+cook_time: 1
+servings: 10
+categories:
+  - Postre
+  - Tradicional
+sensory:
+  flavor:
+    - Dulce
+    - Especiado
+  texture:
+    - Bizcocho suave humedecido
+  aroma:
+    - Calabaza horneada y canela
 ---
-
 # Torta de Calabaza (Pumpkin Cake)
 
 La Torta de Calabaza es un postre tradicional de las islas de San Andrés y Providencia, apreciado por su textura húmeda y su sabor especiado. Se elabora con calabaza cocida, especias, azúcar y, en ocasiones, un toque de coco rallado. Es ideal para celebraciones y reuniones familiares.
@@ -35,7 +55,6 @@ La Torta de Calabaza es un postre tradicional de las islas de San Andrés y Prov
 * **Porciones:** 10
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de calabaza cocida y hecha puré

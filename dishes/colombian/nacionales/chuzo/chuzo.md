@@ -58,7 +58,6 @@ tags:
 - open source
 title: Chuzo Colombiano (Brocheta Callejera)
 ---
-
 El chuzo es una brocheta de carne, pollo o mixto, marinada y asada a la parrilla, muy popular en ventas ambulantes y ferias de Colombia. Se sirve con papa salada, arepa y salsas. Es tendencia por su sabor ahumado y su presencia en celebraciones nocturnas.
 
 ## Información General
@@ -68,7 +67,6 @@ El chuzo es una brocheta de carne, pollo o mixto, marinada y asada a la parrilla
 * **Porciones:** 6 chuzos
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de carne de res (o pollo, cerdo, mixto)

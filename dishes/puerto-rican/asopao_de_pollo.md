@@ -59,7 +59,6 @@ description: >-
   El Asopao de Pollo es la sopa reconfortante por excelencia de Puerto Rico.
   Consiste en un guiso o sopa de arroz de grano medio.
 ---
-
 # Asopao de Pollo Puertorriqueño
 
 El Asopao de Pollo es el plato reconfortante supremo de Puerto Rico. A medio camino entre una sopa y una paella caldosa, este guiso espeso de arroz y pollo es el orgullo de los hogares boricuas. Su éxito técnico radica en utilizar arroz de grano medio y cocinarlo de forma lenta junto con el pollo y un sofrito criollo cargado de culantro (*recaito*).
@@ -72,7 +71,6 @@ El Asopao de Pollo es el plato reconfortante supremo de Puerto Rico. A medio cam
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Pollo y su Sazón:**

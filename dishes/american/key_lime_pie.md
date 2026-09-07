@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Zumo de lima Key
+  - Leche condensada
+  - Yemas de huevo
+  - Galleta Graham
+  - Mantequilla
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de Florida Keys, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Florida Key Lime Pie
 
 Florida Key Lime Pie es uno de los platos más emblemáticos de la gastronomía de Florida Keys, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Florida Key Lime Pie es uno de los platos más emblemáticos de la gastronomía 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Zumo de lima Key
+- Leche condensada
+- Yemas de huevo
+- Galleta Graham
+- Mantequilla
 
 ---
 

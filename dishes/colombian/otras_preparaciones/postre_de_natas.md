@@ -33,8 +33,19 @@ images:
 image: 'https://www.misrecetas.com/fotos/photo/main/1368/postre_de_natas.jpg'
 description: '* 2 litros de leche entera'
 yaml_validation: 'https://yaml-online-parser.appspot.com/'
+main_ingredients:
+  - Natas de leche
+  - Almíbar de azúcar
+  - Yemas de huevo
+  - Pasas
+  - Aguardiente o ron
+prep_time: 1
+cook_time: 30
+servings: 4
+categories:
+  - Postre
+  - Tradicional
 ---
-
 ## Ingredientes
 
 * 2 litros de leche entera

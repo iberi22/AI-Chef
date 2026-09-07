@@ -55,7 +55,6 @@ description: >-
   cuajada fresca reaccionando con el leudante para esponjar una masa densa de
   maíz.
 ---
-
 # Almojábana (Boyacense/Bogotana)
 
 La Almojábana es el ícono de los departamentos de Boyacá y Cundinamarca. A diferencia de los amasijos de yuca del Valle, aquí reina el maíz y la cuajada. Es un panecillo que depende enteramente de la frescura del queso: si la cuajada no está "tierna" (húmeda y ligéramente ácida), la almojábana no sube.
@@ -68,7 +67,6 @@ La Almojábana es el ícono de los departamentos de Boyacá y Cundinamarca. A di
 * **Porciones:** 12 unidades
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de Cuajada fresca (queso de leche de vaca sin prensar, húmedo)

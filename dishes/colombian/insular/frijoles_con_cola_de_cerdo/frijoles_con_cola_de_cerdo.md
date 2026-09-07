@@ -21,8 +21,30 @@ description: >-
   sustancioso y lleno de sabor isleño.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Frijoles rojos
+  - Cola de cerdo (pig tail)
+  - Plátano verde
+  - Cebolla
+  - Tomate
+  - Ajo
+prep_time: 20
+cook_time: 2
+servings: 8
+categories:
+  - Plato fuerte
+  - Guiso
+sensory:
+  flavor:
+    - Salado
+    - Sustancioso umami
+    - Ahogado
+  texture:
+    - Frijoles cremosos
+    - Carne melosa
+  aroma:
+    - Guiso de frijoles y cerdo
 ---
-
 # Frijoles con Cola de Cerdo (Pig Tail Beans)
 
 Este plato es una de las recetas tradicionales de la región Insular, especialmente en San Andrés y Providencia. Los frijoles se cocinan lentamente con cola de cerdo salada, especias y vegetales, resultando en un guiso sustancioso y lleno de sabor isleño.
@@ -35,7 +57,6 @@ Este plato es una de las recetas tradicionales de la región Insular, especialme
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de frijoles rojos o negros

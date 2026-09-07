@@ -63,7 +63,6 @@ description: >-
   un abundante relleno de dulce de leche repostero y decoradas en su borde
   circular con coco rallado fino.
 ---
-
 # Alfajores de Maicena
 
 El Alfajor de Maicena es el compañero inseparable de las meriendas de la tarde en la Argentina. Su magia reside en la textura inigualable de sus tapas: gracias al uso masivo de fécula de maíz (maicena), las tapas se deshacen literalmente en la boca ('se desmigajan') al primer mordisco, fundiéndose deliciosamente con el dulzor lácteo denso del dulce de leche repostero y la frescura tropical del coco rallado seco.
@@ -76,7 +75,6 @@ El Alfajor de Maicena es el compañero inseparable de las meriendas de la tarde 
 * **Porciones:** 12
 
 ---
-
 ## 📝 Ingredientes
 
 * **Para las tapas de alfajor:**

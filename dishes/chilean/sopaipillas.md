@@ -63,7 +63,6 @@ description: >-
   harina de trigo enriquecida con puré de zapallo amarillo maduro cocido y
   manteca, cortada en discos circulares y frita en aceite caliente.
 ---
-
 # Sopaipillas Chilenas
 
 La Sopaipilla es el alimento callejero por excelencia en las frías y lluviosas tardes de invierno chilenas. Se caracteriza por su hermoso color amarillo-anaranjado aportado por el puré de zapallo, su forma circular y los agujeros tradicionales hechos con un tenedor que evitan que la masa se infle en exceso al freírse. Es sumamente versátil, pudiendo comerse tanto salada (con pebre, mostaza o ají chileno) como dulce (pasada por una reducción caliente de chancaca, canela y naranja).
@@ -76,7 +75,6 @@ La Sopaipilla es el alimento callejero por excelencia en las frías y lluviosas 
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **Ingredientes para la masa:**

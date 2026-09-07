@@ -61,7 +61,6 @@ tags:
 - open source
 title: Salchipapa
 ---
-
 La salchipapa es uno de los platos callejeros más populares y virales de Colombia. Consiste en papas fritas cortadas en bastones y salchichas fritas, acompañadas de salsas, queso rallado y a veces huevo, carne o chorizo. Es un ícono de la comida rápida urbana y protagonista de ferias, puestos nocturnos y redes sociales.
 
 ## Información General
@@ -71,7 +70,6 @@ La salchipapa es uno de los platos callejeros más populares y virales de Colomb
 * **Porciones:** 2-3
 
 ---
-
 ## 📝 Ingredientes
 
 - 3 papas grandes (sabanera o capira)

@@ -1,4 +1,0 @@
-Bad FM headers (expect 0): 0
-READMEs/Indexes modified (expect 0): 0
-Nutrition diff count (expect 0): 0
-Junk placeholder count (expect 0): 280

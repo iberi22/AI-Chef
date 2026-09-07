@@ -64,7 +64,6 @@ description: >-
   trozo de queso fresco en su centro, envuelto en hojas tiernas de maíz (chalas)
   y hervido.
 ---
-
 # Humita en Chala
 
 La Humita en Chala del Noroeste argentino resguarda la mística de los cultivos ancestrales andinos. A diferencia de las humitas de otros países, la versión argentina incorpora puré de zapallo plomo para aportar dulzor y un hermoso tono anaranjado, sofrito de cebolla en grasa de pella, leche, y se rellena en su centro con queso de cabra o queso criollo cremoso que se funde en hilos al hervirse.
@@ -77,7 +76,6 @@ La Humita en Chala del Noroeste argentino resguarda la mística de los cultivos 
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **Ingredientes principales:**

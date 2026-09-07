@@ -54,7 +54,6 @@ description: >-
   El Risotto alla Milanese brilla por el color y aroma del azafrán puro,
   elaborado con arroz Carnaroli mantecado con mantequilla y Parmigiano Reggiano.
 ---
-
 # Risotto alla Milanese
 
 El Risotto alla Milanese brilla por el color y aroma del azafrán puro, elaborado con arroz Carnaroli mantecado con mantequilla y Parmigiano Reggiano.
@@ -68,7 +67,6 @@ El Risotto alla Milanese brilla por el color y aroma del azafrán puro, elaborad
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Arroz Carnaroli o Arborio

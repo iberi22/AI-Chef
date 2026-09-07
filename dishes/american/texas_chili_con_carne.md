@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de res en cubos
+  - Chiles secos
+  - Comino
+  - Ajo
+  - Caldo de res
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de Texas, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Texas Chili con Carne
 
 Texas Chili con Carne es uno de los platos más emblemáticos de la gastronomía de Texas, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Texas Chili con Carne es uno de los platos más emblemáticos de la gastronomía
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de res en cubos
+- Chiles secos
+- Comino
+- Ajo
+- Caldo de res
 
 ---
 

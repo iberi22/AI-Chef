@@ -60,7 +60,6 @@ description: >-
   y suero, sin cortarse. Es un estudio de la interacción entre almidones y
   ácidos lácteos.
 ---
-
 ## Mote de Queso
 
 El Mote de Queso es una sopa cremosa y emblemática de la región Caribe, especialmente popular en Córdoba y Sucre. Se prepara con ñame, queso costeño y suero, resultando en un plato reconfortante, salado y ligeramente ácido, ideal para celebraciones y almuerzos familiares.
@@ -73,7 +72,6 @@ El Mote de Queso es una sopa cremosa y emblemática de la región Caribe, especi
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 kg de ñame (preferiblemente ñame espino)

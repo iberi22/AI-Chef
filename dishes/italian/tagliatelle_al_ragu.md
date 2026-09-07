@@ -53,7 +53,6 @@ description: >-
   Las Tagliatelle al Ragù son la pareja perfecta en Bolonia: la porosidad de la
   pasta fresca al huevo retiene el espeso y sabroso estofado de carne.
 ---
-
 # Tagliatelle al Ragù Bolognese
 
 Las Tagliatelle al Ragù son la pareja perfecta en Bolonia: la porosidad de la pasta fresca al huevo retiene el espeso y sabroso estofado de carne.
@@ -67,7 +66,6 @@ Las Tagliatelle al Ragù son la pareja perfecta en Bolonia: la porosidad de la p
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Tagliatelle frescas al huevo

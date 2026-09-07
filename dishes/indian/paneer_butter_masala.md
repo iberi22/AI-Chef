@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
+  - Queso Paneer
+  - Mantequilla
+  - Salsa de tomate
+  - Anacardos
   - Especias
-  - Aceite de oliva
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de Punjab, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Paneer Butter Masala
 
 Paneer Butter Masala es uno de los platos más emblemáticos de la gastronomía de Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Paneer Butter Masala es uno de los platos más emblemáticos de la gastronomía 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
+- Queso Paneer
+- Mantequilla
+- Salsa de tomate
+- Anacardos
 - Especias
-- Aceite de oliva
 
 ---
 

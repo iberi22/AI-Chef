@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Brochetas de cerdo
+  - Orégano
   - Aceite de oliva
+  - Zumo de limón
+  - Pan pita
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Atenas, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Souvlaki de Cerdo con Pita
 
 Souvlaki de Cerdo con Pita es uno de los platos más emblemáticos de la gastronomía de Atenas, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Souvlaki de Cerdo con Pita es uno de los platos más emblemáticos de la gastron
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Brochetas de cerdo
+- Orégano
 - Aceite de oliva
+- Zumo de limón
+- Pan pita
 
 ---
 

@@ -53,7 +53,6 @@ description: >-
   El Tonkatsu es una chuleta gruesa de cerdo rebozada en copos de panko
   crujientes y frita a la perfección, servida con abundante col rallada.
 ---
-
 # Tonkatsu de Cerdo
 
 El Tonkatsu es una chuleta gruesa de cerdo rebozada en copos de panko crujientes y frita a la perfección, servida con abundante col rallada.
@@ -67,7 +66,6 @@ El Tonkatsu es una chuleta gruesa de cerdo rebozada en copos de panko crujientes
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 - Lomo o solomillo de cerdo

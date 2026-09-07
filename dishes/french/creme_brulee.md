@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Yemas de huevo
+  - Crema de leche
+  - Azúcar
+  - Vainilla
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   Francia Nacional, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Crème Brûlée
 
 Crème Brûlée es uno de los platos más emblemáticos de la gastronomía de Francia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Crème Brûlée es uno de los platos más emblemáticos de la gastronomía de Fr
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Yemas de huevo
+- Crema de leche
+- Azúcar
+- Vainilla
 
 ---
 

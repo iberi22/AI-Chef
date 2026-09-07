@@ -21,8 +21,27 @@ description: >-
   urbana.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Mayonesa
+  - Salsa de tomate (kétchup)
+  - Zumo de limón
+  - Gotas de brandy (opcional)
+prep_time: 2
+cook_time: 30
+servings: 1
+categories:
+  - Salsa
+  - Acompañamiento
+sensory:
+  flavor:
+    - Dulce suave
+    - Cremoso
+    - Ligeramente ácido
+  texture:
+    - Cremoso suave
+  aroma:
+    - Mayonesa y tomate
 ---
-
 # Salsa Rosada Colombiana
 
 La salsa rosada es un aderezo básico y muy popular en Colombia, mezcla de mayonesa y kétchup, usada en salchipapas, hamburguesas, perros calientes y snacks. Es tendencia por su sabor suave y su presencia en la comida rápida urbana.
@@ -34,7 +53,6 @@ La salsa rosada es un aderezo básico y muy popular en Colombia, mezcla de mayon
 * **Porciones:** 1 taza
 
 ---
-
 ## 📝 Ingredientes
 
 - 1/2 taza de mayonesa

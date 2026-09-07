@@ -53,7 +53,6 @@ tags:
 - Top 20
 title: Insalata Caprese Tradizionale
 ---
-
 # Insalata Caprese Tradizionale
 
 La Insalata Caprese proviene de la isla de Capri, luciendo los colores italianos mediante rodajas de tomate maduro, mozzarella de búfala y albahaca fresca.
@@ -67,7 +66,6 @@ La Insalata Caprese proviene de la isla de Capri, luciendo los colores italianos
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 - Mozzarella de Búfala Campana DOP

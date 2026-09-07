@@ -53,7 +53,6 @@ description: >-
   Las Enmoladas son primas de las enchiladas pero bañadas en un mole rico y
   complejo, representando la calidez de la cocina casera oaxaqueña.
 ---
-
 # Enmoladas de Pollo
 
 Las Enmoladas son primas de las enchiladas pero bañadas en un mole rico y complejo, representando la calidez de la cocina casera oaxaqueña.
@@ -67,7 +66,6 @@ Las Enmoladas son primas de las enchiladas pero bañadas en un mole rico y compl
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Tortillas de maíz

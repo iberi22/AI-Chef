@@ -52,7 +52,6 @@ description: >-
   El Nigiri Sushi es la máxima expresión de simplicidad japonesa: una bola de
   arroz sazonada con vinagre y moldeada a mano coronada con pescado fresco.
 ---
-
 # Nigiri Sushi de Salmón
 
 El Nigiri Sushi es la máxima expresión de simplicidad japonesa: una bola de arroz sazonada con vinagre y moldeada a mano coronada con pescado fresco.
@@ -66,7 +65,6 @@ El Nigiri Sushi es la máxima expresión de simplicidad japonesa: una bola de ar
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 - Arroz de grano corto para sushi

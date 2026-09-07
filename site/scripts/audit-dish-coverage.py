@@ -104,7 +104,13 @@ def is_collection_file(filepath):
     return False
 
 
-def audit_dishes(base_dir="site/src/content/dishes"):
+def audit_dishes(base_dir=None):
+    # Anclado al repo: corre igual desde cualquier cwd (antes crasheaba con
+    # ZeroDivisionError fuera de la raíz).
+    if base_dir is None:
+        here = os.path.dirname(os.path.abspath(__file__))
+        repo_root = os.path.dirname(os.path.dirname(here))
+        base_dir = os.path.join(repo_root, "site", "src", "content", "dishes")
     pattern = os.path.join(base_dir, "**/*.md")
     all_files = sorted(glob.glob(pattern, recursive=True))
 

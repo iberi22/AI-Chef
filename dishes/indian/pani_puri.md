@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Esferas crujientes (puri)
+  - Agua de menta y tamarindo
+  - Patata cocida
+  - Garbanzos
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   de Mumbai, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Pani Puri (Golgappa)
 
 Pani Puri (Golgappa) es uno de los platos más emblemáticos de la gastronomía de Mumbai, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Pani Puri (Golgappa) es uno de los platos más emblemáticos de la gastronomía 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Esferas crujientes (puri)
+- Agua de menta y tamarindo
+- Patata cocida
+- Garbanzos
 
 ---
 

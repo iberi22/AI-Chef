@@ -58,7 +58,6 @@ description: >-
   y jugo de sandía o gaseosa roja, y es tendencia en redes por su presentación
   vistosa y sabor frutal.
 ---
-
 ## Salpicón Colombiano
 
 El salpicón es una bebida-postre refrescante y colorida, tradicional en ferias, plazas y cafeterías de Colombia. Se prepara con frutas frescas picadas y jugo de sandía o gaseosa roja, y es tendencia en redes por su presentación vistosa y sabor frutal.
@@ -70,7 +69,6 @@ El salpicón es una bebida-postre refrescante y colorida, tradicional en ferias,
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - 2 tazas de sandía en cubos

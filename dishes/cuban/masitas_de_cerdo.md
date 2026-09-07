@@ -60,7 +60,6 @@ tags:
 - Cuba
 title: Masitas de Cerdo Fritas Cubanas
 ---
-
 # Masitas de Cerdo Fritas Cubanas
 
 Las Masitas de Cerdo (o masitas de puerco) son una de las preparaciones de carne más populares y sabrosas de Cuba. El secreto técnico de este plato radica en el método de doble cocción: primero se hierven en un caldo de adobo cítrico para ablandar las fibras colágenas del cerdo, y luego se fríen de forma crujiente en su propia manteca derretida. Esto garantiza que la carne nunca quede seca ni dura, conservando una jugosidad excepcional en el interior.
@@ -73,7 +72,6 @@ Las Masitas de Cerdo (o masitas de puerco) son una de las preparaciones de carne
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 * **Las Masitas y Marinado:**

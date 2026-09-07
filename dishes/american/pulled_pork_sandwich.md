@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Paleta de cerdo deshilachada
+  - Salsa BBQ
+  - Pan de brioche
+  - Ensalada coleslaw
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   gastronomía de Carolina del Norte, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Carolina Pulled Pork Sandwich
 
 Carolina Pulled Pork Sandwich es uno de los platos más emblemáticos de la gastronomía de Carolina del Norte, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Carolina Pulled Pork Sandwich es uno de los platos más emblemáticos de la gast
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Paleta de cerdo deshilachada
+- Salsa BBQ
+- Pan de brioche
+- Ensalada coleslaw
 
 ---
 

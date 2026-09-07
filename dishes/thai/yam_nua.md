@@ -20,10 +20,13 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Tiras de ternera a la parrilla
+  - Pepino
+  - Tomate
+  - Cebolla roja
+  - Menta
+  - Cilantro
+  - Aliño de lima y chile
 sensory:
   flavor:
     - Salado
@@ -49,7 +52,6 @@ description: >-
   gastronomía de Central Thailand, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Yam Nua (Ensalada de Res Picante)
 
 Yam Nua (Ensalada de Res Picante) es uno de los platos más emblemáticos de la gastronomía de Central Thailand, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +65,15 @@ Yam Nua (Ensalada de Res Picante) es uno de los platos más emblemáticos de la 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Tiras de ternera a la parrilla
+- Pepino
+- Tomate
+- Cebolla roja
+- Menta
+- Cilantro
+- Aliño de lima y chile
 
 ---
 

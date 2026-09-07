@@ -53,7 +53,6 @@ description: >-
   donde bolitas de carne sazonadas con hierbabuena se cocinan en salsa de
   chipotle.
 ---
-
 # Albóndigas en Salsa de Chipotle
 
 Las Albóndigas en Chipotle son un clásico reconfortante del hogar mexicano, donde bolitas de carne sazonadas con hierbabuena se cocinan en salsa de chipotle.
@@ -67,7 +66,6 @@ Las Albóndigas en Chipotle son un clásico reconfortante del hogar mexicano, do
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Carne molida de res y cerdo

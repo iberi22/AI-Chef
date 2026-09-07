@@ -47,7 +47,6 @@ description: >-
   Es un acompañante esencial en la dieta indígena y amazónica, ideal para sopas,
   caldos, pescados y como base de bebidas refrescantes.
 ---
-
 La Fariña es un alimento ancestral de la Amazonía, elaborado a partir de yuca amarga rallada, secada y tostada hasta obtener una harina gruesa y crujiente. Es un acompañante esencial en la dieta indígena y amazónica, ideal para sopas, caldos, pescados y como base de bebidas refrescantes.
 
 ## Información General
@@ -58,7 +57,6 @@ La Fariña es un alimento ancestral de la Amazonía, elaborado a partir de yuca 
 * **Porciones:** 20
 
 ---
-
 ## 📝 Ingredientes
 
 - 2 kg de yuca amarga (yuca brava)

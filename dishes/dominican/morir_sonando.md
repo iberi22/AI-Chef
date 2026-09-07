@@ -57,7 +57,6 @@ description: >-
   de forma física muy específica para evitar que la acidez de la naranja corte
   la leche.
 ---
-
 # Morir Soñando Dominicano
 
 El Morir Soñando es la bebida por excelencia del verano dominicano. Su sugerente nombre rinde homenaje a la increíble sensación de frescura y placer de su sabor. El gran reto químico de esta bebida radica en mezclar dos ingredientes tradicionalmente incompatibles: el jugo cítrico de naranja (ácido) y la leche evaporada (lácteo). Mezclados de forma correcta con abundante hielo, se logra una emulsión líquida y espumosa de gran estabilidad.
@@ -70,7 +69,6 @@ El Morir Soñando es la bebida por excelencia del verano dominicano. Su sugerent
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 * **La Bebida:**

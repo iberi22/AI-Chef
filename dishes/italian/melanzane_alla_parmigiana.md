@@ -53,7 +53,6 @@ description: >-
   La Parmigiana di Melanzane es un pastel del sur de Italia elaborado con capas
   de berenjenas fritas, salsa de tomate casera, albahaca y abundante mozzarella.
 ---
-
 # Parmigiana di Melanzane
 
 La Parmigiana di Melanzane es un pastel del sur de Italia elaborado con capas de berenjenas fritas, salsa de tomate casera, albahaca y abundante mozzarella.
@@ -67,7 +66,6 @@ La Parmigiana di Melanzane es un pastel del sur de Italia elaborado con capas de
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - Berenjenas grandes

@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne picada de res
+  - Pan rallado
+  - Huevo
+  - Cebolla
+  - Glaseado de kétchup
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de EE.UU. Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Classic Glazed Meatloaf
 
 Classic Glazed Meatloaf es uno de los platos más emblemáticos de la gastronomía de EE.UU. Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Classic Glazed Meatloaf es uno de los platos más emblemáticos de la gastronom�
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne picada de res
+- Pan rallado
+- Huevo
+- Cebolla
+- Glaseado de kétchup
 
 ---
 

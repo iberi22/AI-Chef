@@ -58,7 +58,6 @@ description: >-
   se cubre con fideos de chocolate. Es indispensable en todos los cumpleaños
   brasileños.
 ---
-
 # Brigadeiro Tradicional Brasileiro
 
 El Brigadeiro es, sin duda alguna, el rey indiscutible de la repostería brasileña. Creado en la década de 1940 en Río de Janeiro, este bocado de chocolate combina la cremosidad de la leche condensada reducida a fuego lento con el sabor profundo del cacao y la untuosidad de la mantequilla. Ninguna fiesta infantil, boda o reunión social en Brasil está completa sin una bandeja de brigadeiros recién enrollados.
@@ -71,7 +70,6 @@ El Brigadeiro es, sin duda alguna, el rey indiscutible de la repostería brasile
 * **Porciones:** 12 (rinde unas 20-25 unidades pequeñas)
 
 ---
-
 ## 📝 Ingredientes
 
 * **La Mezcla Base:**

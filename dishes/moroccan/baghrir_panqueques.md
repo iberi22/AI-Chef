@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Sémola fina de trigo
+  - Harina
+  - Levadura
+  - Miel
+  - Mantequilla derretida
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Marruecos Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Baghrir (Panqueques de Mil Hoyos)
 
 Baghrir (Panqueques de Mil Hoyos) es uno de los platos más emblemáticos de la gastronomía de Marruecos Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Baghrir (Panqueques de Mil Hoyos) es uno de los platos más emblemáticos de la 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Sémola fina de trigo
+- Harina
+- Levadura
+- Miel
+- Mantequilla derretida
 
 ---
 

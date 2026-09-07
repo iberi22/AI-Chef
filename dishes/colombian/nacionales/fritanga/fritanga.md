@@ -63,9 +63,6 @@ description: >-
   canasta, con variedad de embutidos, carnes, papas, plátano y arepas. Es
   tendencia en redes por su abundancia y ambiente festivo.
 ---
-
-
-
 La fritanga es un festín de carnes y fritos típico de reuniones familiares, celebraciones y restaurantes populares en Colombia. Se sirve en bandeja o canasta, con variedad de embutidos, carnes, papas, plátano y arepas. Es tendencia en redes por su abundancia y ambiente festivo.
 
 ## Información General

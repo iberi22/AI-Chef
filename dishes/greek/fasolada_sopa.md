@@ -20,9 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Alubias blancas
+  - Tomate
+  - Zanahoria
+  - Apio
   - Aceite de oliva
 sensory:
   flavor:
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Fasolada (Sopa de Alubias Blancas)
 
 Fasolada (Sopa de Alubias Blancas) es uno de los platos más emblemáticos de la gastronomía de Grecia Nacional, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,12 +63,12 @@ Fasolada (Sopa de Alubias Blancas) es uno de los platos más emblemáticos de la
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Alubias blancas
+- Tomate
+- Zanahoria
+- Apio
 - Aceite de oliva
 
 ---

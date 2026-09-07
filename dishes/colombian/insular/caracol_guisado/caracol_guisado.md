@@ -54,7 +54,6 @@ description: >-
   una de las proteínas más resistentes del océano a través técnica mecánica (el
   golpeo) y cocción química en grasas de coco.
 ---
-
 # Caracol Guisado
 
 El Caracol Guisado es un plato icónico de la región Insular, especialmente de San Andrés y Providencia. Se prepara con caracol de mar fresco, cocido lentamente en un guiso de leche de coco, vegetales y especias isleñas, logrando una textura tierna y un sabor profundo y marino.
@@ -67,7 +66,6 @@ El Caracol Guisado es un plato icónico de la región Insular, especialmente de 
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de caracol de mar limpio y ablandado

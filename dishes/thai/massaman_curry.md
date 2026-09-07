@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Carne de res
+  - Pasta de curry massaman
+  - Leche de coco
+  - Patatas
+  - Cacahuetes
+  - Cardamomo y canela
 sensory:
   flavor:
     - Salado
@@ -49,7 +51,6 @@ description: >-
   de Sur de Tailandia, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Massaman Curry de Res
 
 Massaman Curry de Res es uno de los platos más emblemáticos de la gastronomía de Sur de Tailandia, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +64,14 @@ Massaman Curry de Res es uno de los platos más emblemáticos de la gastronomía
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Carne de res
+- Pasta de curry massaman
+- Leche de coco
+- Patatas
+- Cacahuetes
+- Cardamomo y canela
 
 ---
 

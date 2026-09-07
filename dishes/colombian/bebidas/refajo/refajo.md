@@ -54,7 +54,6 @@ description: >-
   perfecta para cortar la grasa de asados y fritangas. Su ciencia radica en el
   equilibrio de carbonatación y pH.
 ---
-
 # Refajo (El Maridaje Nacional)
 
 El refajo es la respuesta colombiana a la necesidad de acompañar comidas pesadas y grasosas (morcilla, chicharrón, asados). Mezcla la amargura de la cerveza con el dulzor extremo de la soda local, creando un "shandy" tropical.
@@ -66,7 +65,6 @@ El refajo es la respuesta colombiana a la necesidad de acompañar comidas pesada
 * **Porciones:** 4 vasos (o una jarra)
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 litro de Gaseosa Colombiana (o cualquier soda roja sabor "kola")

@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Alitas de pollo
+  - Salsa picante Buffalo
+  - Mantequilla
+  - Ajo
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   de Buffalo, NY, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Buffalo Chicken Wings
 
 Buffalo Chicken Wings es uno de los platos más emblemáticos de la gastronomía de Buffalo, NY, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Buffalo Chicken Wings es uno de los platos más emblemáticos de la gastronomía
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Alitas de pollo
+- Salsa picante Buffalo
+- Mantequilla
+- Ajo
 
 ---
 

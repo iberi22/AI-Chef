@@ -55,7 +55,6 @@ description: >-
   El Guacamole es una salsa/dip ancestral mexicana a base de aguacate machacado
   en molcajete con chile, cilantro, cebolla y lima.
 ---
-
 # Guacamole Tradicional
 
 El Guacamole es una salsa/dip ancestral mexicana a base de aguacate machacado en molcajete con chile, cilantro, cebolla y lima.
@@ -69,7 +68,6 @@ El Guacamole es una salsa/dip ancestral mexicana a base de aguacate machacado en
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Aguacate Hass

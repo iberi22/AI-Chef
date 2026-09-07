@@ -64,7 +64,6 @@ description: >-
   costra dorada y extremadamente crujiente por fuera mientras se mantiene
   fundida e hilada en su interior.
 ---
-
 # Provoleta Argentina
 
 La Provoleta es el preludio quesero de cualquier asado argentino que se precie de tal. Creada a mediados del siglo XX por un inmigrante italiano que deseaba asar queso provolone sin que este se escurriera entre los fierros de la parrilla, esta delicia combina la crocancia sublime del queso tostado con la untuosidad elástica del provolone fundido caliente.
@@ -77,7 +76,6 @@ La Provoleta es el preludio quesero de cualquier asado argentino que se precie d
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 * **Ingredientes principales:**

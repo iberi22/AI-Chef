@@ -59,7 +59,6 @@ description: >-
   trozos de cabrito de leche macerados en chicha de jora y cocidos lentamente en
   un aderezo espeso de cilantro licuado, ajíes locales y zapallo loche rallado.
 ---
-
 # Seco de Cabrito
 
 El Seco de Cabrito es el guiso más emblemático y festivo de las regiones de Lambayeque, Piura y La Libertad, en el norte peruano. Este "seco" (que paradójicamente es un guiso con abundante y espesa salsa) destaca por el uso de la chicha de jora (bebida de maíz fermentado de origen incaico) y el zapallo loche rallado, un fruto prehispánico norteño que le aporta una untuosidad y perfume floral incomparables.
@@ -72,7 +71,6 @@ El Seco de Cabrito es el guiso más emblemático y festivo de las regiones de La
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **La Carne y su Macerado:**

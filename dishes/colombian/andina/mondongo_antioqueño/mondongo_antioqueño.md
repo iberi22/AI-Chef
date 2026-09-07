@@ -66,7 +66,6 @@ description: >-
   rico en colágeno. El contraste se logra con el cilantro fresco y el banano
   dulce.
 ---
-
 # Mondongo Antioqueño
 
 El Mondongo Antioqueño es mucho más que una sopa; es una institución de los domingos en la región paisa. Se caracteriza por su espesor, logrado por la papa y la cocción prolongada, y por la picardía de sus múltiples carnes.
@@ -79,7 +78,6 @@ El Mondongo Antioqueño es mucho más que una sopa; es una institución de los d
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 * **Carnes:**

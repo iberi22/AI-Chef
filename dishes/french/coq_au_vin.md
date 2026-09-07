@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo
+  - Vino tinto
+  - Champiñones
+  - Bacon
+  - Ajo
 sensory:
   flavor:
     - Salado
@@ -48,7 +49,6 @@ description: >-
   Coq au Vin es uno de los platos más emblemáticos de la gastronomía de Borgoña,
   conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Coq au Vin
 
 Coq au Vin es uno de los platos más emblemáticos de la gastronomía de Borgoña, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -62,13 +62,13 @@ Coq au Vin es uno de los platos más emblemáticos de la gastronomía de Borgoñ
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo
+- Vino tinto
+- Champiñones
+- Bacon
+- Ajo
 
 ---
 

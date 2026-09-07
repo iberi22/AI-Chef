@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo en dados
+  - Anacardos tostados
+  - Pimientos
+  - Salsa de ostras
+  - Chiles secos
 sensory:
   flavor:
     - Salado
@@ -51,7 +52,6 @@ description: >-
   emblemáticos de la gastronomía de Bangkok, conocido por su equilibrio de
   sabores e ingredientes de alta calidad.
 ---
-
 # Gai Pad Med Mamuang (Pollo con Anacardos)
 
 Gai Pad Med Mamuang (Pollo con Anacardos) es uno de los platos más emblemáticos de la gastronomía de Bangkok, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -65,13 +65,13 @@ Gai Pad Med Mamuang (Pollo con Anacardos) es uno de los platos más emblemático
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo en dados
+- Anacardos tostados
+- Pimientos
+- Salsa de ostras
+- Chiles secos
 
 ---
 

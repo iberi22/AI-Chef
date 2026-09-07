@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Masa de levadura
+  - Miel
+  - Canela
+  - Nueces picadas
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   gastronomía de Atenas, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Loukoumades con Miel y Canela
 
 Loukoumades con Miel y Canela es uno de los platos más emblemáticos de la gastronomía de Atenas, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Loukoumades con Miel y Canela es uno de los platos más emblemáticos de la gast
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Masa de levadura
+- Miel
+- Canela
+- Nueces picadas
 
 ---
 

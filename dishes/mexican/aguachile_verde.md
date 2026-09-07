@@ -56,7 +56,6 @@ description: >-
   camarones se curtieron rápidamente en una mezcla viva de lima, chile serrano y
   cilantro.
 ---
-
 # Aguachile Verde de Camarón
 
 El Aguachile Verde es un plato marinero del Pacífico mexicano donde los camarones se curtieron rápidamente en una mezcla viva de lima, chile serrano y cilantro.
@@ -70,7 +69,6 @@ El Aguachile Verde es un plato marinero del Pacífico mexicano donde los camaron
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Camarones frescos limpios

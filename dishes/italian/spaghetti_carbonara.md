@@ -54,7 +54,6 @@ description: >-
   de yemas de huevo, queso Pecorino Romano, grasa de guanciale y abundante
   pimienta.
 ---
-
 # Spaghetti alla Carbonara
 
 La auténtica Carbonara romana no lleva nata ni cebolla: se basa en la emulsión de yemas de huevo, queso Pecorino Romano, grasa de guanciale y abundante pimienta.
@@ -68,7 +67,6 @@ La auténtica Carbonara romana no lleva nata ni cebolla: se basa en la emulsión
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Spaghetti de sémola

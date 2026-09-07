@@ -50,7 +50,6 @@ description: >-
   yuca rellena con carne (pollo, pescado o cerdo), envuelta en hojas de bijao y
   cocida al vapor. Son símbolo de identidad y celebración en la región.
 ---
-
 ## Juanes de Yuca
 
 Los Juanes de Yuca son un plato festivo y tradicional de la Amazonía, especialmente asociado a la festividad de San Juan. Consisten en una masa de yuca rellena con carne (pollo, pescado o cerdo), envuelta en hojas de bijao y cocida al vapor. Son símbolo de identidad y celebración en la región.
@@ -63,7 +62,6 @@ Los Juanes de Yuca son un plato festivo y tradicional de la Amazonía, especialm
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 - 2 kg de yuca fresca

@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Tomate maduro
+  - Pan de telera
+  - Aceite de oliva virgen extra
+  - Ajo
+  - Huevos cocidos
+  - Jamón ibérico
 sensory:
   flavor:
     - Salado
@@ -48,7 +50,6 @@ description: >-
   Salmorejo Cordobés es uno de los platos más emblemáticos de la gastronomía de
   Córdoba, conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Salmorejo Cordobés
 
 Salmorejo Cordobés es uno de los platos más emblemáticos de la gastronomía de Córdoba, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -62,13 +63,14 @@ Salmorejo Cordobés es uno de los platos más emblemáticos de la gastronomía d
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Tomate maduro
+- Pan de telera
+- Aceite de oliva virgen extra
+- Ajo
+- Huevos cocidos
+- Jamón ibérico
 
 ---
 

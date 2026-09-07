@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Albóndigas de patata y paneer
+  - Salsa de anacardos y tomate
+  - Nata
+  - Especias suaves
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   de India, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Malai Kofta
 
 Malai Kofta es uno de los platos más emblemáticos de la gastronomía de Norte de India, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Malai Kofta es uno de los platos más emblemáticos de la gastronomía de Norte 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Albóndigas de patata y paneer
+- Salsa de anacardos y tomate
+- Nata
+- Especias suaves
 
 ---
 

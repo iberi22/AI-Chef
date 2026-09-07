@@ -20,10 +20,12 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Patatas
+  - Coliflor
+  - Cúrcuma
+  - Jengibre
+  - Comino
+  - Garam masala
 sensory:
   flavor:
     - Salado
@@ -48,7 +50,6 @@ description: >-
   Aloo Gobi es uno de los platos más emblemáticos de la gastronomía de Punjab,
   conocido por su equilibrio de sabores e ingredientes de alta calidad.
 ---
-
 # Aloo Gobi
 
 Aloo Gobi es uno de los platos más emblemáticos de la gastronomía de Punjab, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -62,13 +63,14 @@ Aloo Gobi es uno de los platos más emblemáticos de la gastronomía de Punjab, 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Patatas
+- Coliflor
+- Cúrcuma
+- Jengibre
+- Comino
+- Garam masala
 
 ---
 

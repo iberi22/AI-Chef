@@ -65,7 +65,6 @@ description: >-
   zapallo, carnes vacunas y porcinas (falda, patitas, cueritos, panceta y
   chorizo colorado) hasta lograr un guiso cremoso y espeso.
 ---
-
 # Locro Criollo Argentino
 
 El Locro Criollo es una síntesis perfecta del mestizaje culinario del Cono Sur. De origen prehispánico andino (del quechua 'ruqru'), este guiso espeso de maíz y zapallo se enriqueció enormemente con la introducción europea de la carne de cerdo, la panceta ahumada y los condimentos fritos. Hoy es el plato tradicional ineludible de las celebraciones patrias argentinas del 25 de mayo y 9 de julio.
@@ -78,7 +77,6 @@ El Locro Criollo es una síntesis perfecta del mestizaje culinario del Cono Sur.
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 * **Ingredientes de la base seca:**

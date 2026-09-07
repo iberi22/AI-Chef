@@ -20,9 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
+  - Garrofón / Alubias gigantes
+  - Tomate
+  - Ajo
+  - Orégano
   - Aceite de oliva
 sensory:
   flavor:
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Macedonia Griega, conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Gigantes Plaki (Alubias al Horno)
 
 Gigantes Plaki (Alubias al Horno) es uno de los platos más emblemáticos de la gastronomía de Macedonia Griega, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,12 +63,12 @@ Gigantes Plaki (Alubias al Horno) es uno de los platos más emblemáticos de la 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
+- Garrofón / Alubias gigantes
+- Tomate
+- Ajo
+- Orégano
 - Aceite de oliva
 
 ---

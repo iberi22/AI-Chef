@@ -54,7 +54,6 @@ description: >-
   Los Takoyaki son famosísimas bolitas de masa de dashi rellenadas con un trozo
   de pulpo jugoso y cocinadas en moldes de hierro semiesféricos.
 ---
-
 # Takoyaki de Osaka
 
 Los Takoyaki son famosísimas bolitas de masa de dashi rellenadas con un trozo de pulpo jugoso y cocinadas en moldes de hierro semiesféricos.
@@ -68,7 +67,6 @@ Los Takoyaki son famosísimas bolitas de masa de dashi rellenadas con un trozo d
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Pulpo cocido en dados

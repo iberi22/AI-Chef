@@ -20,10 +20,10 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Manzanas
+  - Azúcar
+  - Mantequilla
+  - Masa hojaldrada
 sensory:
   flavor:
     - Salado
@@ -49,7 +49,6 @@ description: >-
   del Loira, conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Tarte Tatin
 
 Tarte Tatin es uno de los platos más emblemáticos de la gastronomía de Valle del Loira, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +62,12 @@ Tarte Tatin es uno de los platos más emblemáticos de la gastronomía de Valle 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Manzanas
+- Azúcar
+- Mantequilla
+- Masa hojaldrada
 
 ---
 

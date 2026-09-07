@@ -64,7 +64,6 @@ description: >-
   servido frío con canela en polvo. Es un postre naturalmente libre de gluten y
   vegano.
 ---
-
 # Tembleque de Coco Puertorriqueño
 
 El Tembleque recibe su divertido nombre de su consistencia característica: un flan o gelatina suave de coco que "tiembla" de forma alegre en el plato al moverse. De origen colonial y conventual, este postre destaca por su sencillez de preparación física y su espectacular sabor cremoso cítrico-dulce que se funde en boca de forma aterciopelada de textura similar a una natilla fina, naturalmente libre de gluten y lácteos de origen animal.
@@ -77,7 +76,6 @@ El Tembleque recibe su divertido nombre de su consistencia característica: un f
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Tembleque:**

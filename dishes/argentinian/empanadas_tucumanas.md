@@ -62,7 +62,6 @@ description: >-
   cuchillo, cocinado con grasa de pella, cebolla, comino y pimentón, y horneado
   a temperaturas muy altas.
 ---
-
 # Empanadas Tucumanas
 
 En la provincia de Tucumán, la empanada es una cuestión de honor provincial. Declarada capital nacional de la empanada, Tucumán resguarda una receta estricta: se utiliza matambre hervido y picado finamente a mano (cuchillo), grasa de pella de vacuno en lugar de aceite vegetal, abundante cebolla blanca, cebolla de verdeo cruda al final, comino norteño y huevo duro, estando prohibido el uso de pasas, papas o aceitunas en su relleno.
@@ -75,7 +74,6 @@ En la provincia de Tucumán, la empanada es una cuestión de honor provincial. D
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 * **Para la masa casera (masa criolla):**

@@ -50,7 +50,6 @@ description: >-
   populares en panaderías, colegios y fiestas infantiles de Colombia. Son
   tendencia por su sencillez y sabor irresistible.
 ---
-
 ## Deditos de Queso
 
 Los deditos de queso son snacks fritos o horneados, rellenos de queso fundido, populares en panaderías, colegios y fiestas infantiles de Colombia. Son tendencia por su sencillez y sabor irresistible.
@@ -62,7 +61,6 @@ Los deditos de queso son snacks fritos o horneados, rellenos de queso fundido, p
 * **Porciones:** 12 unidades
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 lámina de masa de hojaldre (250 g)

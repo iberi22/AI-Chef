@@ -58,7 +58,6 @@ description: >-
   de las cenas navideñas de la isla. Consiste en un pernil de cerdo con piel y
   hueso, sazonado con un adobo mojado tradicional boricua.
 ---
-
 # Pernil Asado Puertorriqueño
 
 El Pernil Asado es el corazón de las fiestas puertorriqueñas. El aroma del pernil cocinándose lentamente en el horno impregna los hogares boricuas. Su éxito radica en un adobo paciente y profundo, y en hornear el cerdo tapado para ablandarlo al máximo, terminando con un horneado destapado a alta temperatura para lograr que la piel se deshidrate y forme el cuerito crujiente.
@@ -71,7 +70,6 @@ El Pernil Asado es el corazón de las fiestas puertorriqueñas. El aroma del per
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Cerdo:**

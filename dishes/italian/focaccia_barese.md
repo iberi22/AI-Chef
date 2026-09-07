@@ -55,7 +55,6 @@ description: >-
   miga esponjosa con un exterior dorado frito en aceite de oliva y tomates
   asados.
 ---
-
 # Focaccia Barese con Pomodorini
 
 La Focaccia Barese de Apulia incluye patata cocida en su masa para lograr una miga esponjosa con un exterior dorado frito en aceite de oliva y tomates asados.
@@ -69,7 +68,6 @@ La Focaccia Barese de Apulia incluye patata cocida en su masa para lograr una mi
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - Harina de trigo de fuerza

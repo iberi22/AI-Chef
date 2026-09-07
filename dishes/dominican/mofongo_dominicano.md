@@ -62,7 +62,6 @@ description: >-
   aceite de oliva y trozos crujientes de chicharrón de cerdo, sirviéndose con
   una taza de caldo de res caliente.
 ---
-
 # Mofongo Dominicano Tradicional
 
 El Mofongo es un ícono de la gastronomía de la República Dominicana y Puerto Rico. Este bocado rústico pero sumamente sabroso celebra la versatilidad del plátano verde y la riqueza del cerdo. Su éxito radica en lograr el equilibrio perfecto de texturas al machacarlo: los trozos de plátano frito caliente deben quedar integrados con el ajo fresco y el aceite, conservando trozos de chicharrón crujientes.
@@ -75,7 +74,6 @@ El Mofongo es un ícono de la gastronomía de la República Dominicana y Puerto 
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 * **El Mofongo:**

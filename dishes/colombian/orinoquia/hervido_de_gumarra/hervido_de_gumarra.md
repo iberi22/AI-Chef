@@ -21,8 +21,30 @@ description: >-
   llanos orientales.
 media: []
 embedding_version: 1
+main_ingredients:
+  - Gallina criolla
+  - Plátano verde
+  - Yuca
+  - Papa
+  - Cilantro de monte
+  - Ajo
+prep_time: 30
+cook_time: 2
+servings: 8
+categories:
+  - Sopa
+  - Tradicional
+sensory:
+  flavor:
+    - Caldo sustancioso
+    - Salado
+    - Herbáceo
+  texture:
+    - Caldo rico
+    - Carne de gallina firme
+  aroma:
+    - Caldo de gallina de campo
 ---
-
 # Hervido de Gumarra
 
 El Hervido de Gumarra es una sopa tradicional de la Orinoquía colombiana, preparada con "Gumarra" (gallina criolla campesina), tubérculos y verduras locales. Es un plato reconfortante, muy apreciado en las comunidades de los llanos orientales por su sabor intenso y propiedades reconstituyentes.
@@ -35,7 +57,6 @@ El Hervido de Gumarra es una sopa tradicional de la Orinoquía colombiana, prepa
 * **Porciones:** 8
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 gallina criolla (gumarra) despresada (aprox. 2 kg)

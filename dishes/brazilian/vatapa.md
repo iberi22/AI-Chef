@@ -62,7 +62,6 @@ description: >-
   jengibre y cebolla, cocinándolo todo a fuego lento con el indispensable aceite
   de dendê.
 ---
-
 # Vatapá Baiano Tradicional
 
 El Vatapá es una de las preparaciones culinarias más ricas y complejas de Bahía, Brasil. Con un profundo origen africano (yoruba) y adaptado con ingredientes de la tierra americana, este guiso espeso de consistencia sedosa y sabor exótico se consume tradicionalmente como plato principal con arroz blanco, acompañando al pescado, o como el relleno principal indispensable del crujiente *acarajé*.
@@ -75,7 +74,6 @@ El Vatapá es una de las preparaciones culinarias más ricas y complejas de Bah�
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **La Base de Pan y Líquidos:**

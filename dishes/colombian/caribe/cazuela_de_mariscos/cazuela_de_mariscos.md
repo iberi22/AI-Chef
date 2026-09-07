@@ -60,7 +60,6 @@ description: >-
   complejidad reside en la emulsión estable de leche de coco y proteínas marinas
   sin que se corte.
 ---
-
 ## Cazuela de Mariscos
 
 La Cazuela de Mariscos es un plato icónico de la región Caribe colombiana, especialmente en ciudades costeras como Cartagena y Barranquilla. Es una sopa cremosa y aromática, repleta de mariscos frescos, leche de coco y especias, perfecta para celebraciones y ocasiones especiales.
@@ -73,7 +72,6 @@ La Cazuela de Mariscos es un plato icónico de la región Caribe colombiana, esp
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - 300 g de camarones

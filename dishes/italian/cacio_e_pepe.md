@@ -51,7 +51,6 @@ description: >-
   ingredientes: pasta, queso Pecorino Romano y pimienta negra emulsionados con
   agua con almidón.
 ---
-
 # Spaghetti Cacio e Pepe
 
 Cacio e Pepe es una obra maestra de la simplicidad romana con solo tres ingredientes: pasta, queso Pecorino Romano y pimienta negra emulsionados con agua con almidón.
@@ -65,7 +64,6 @@ Cacio e Pepe es una obra maestra de la simplicidad romana con solo tres ingredie
 * **Porciones:** 2
 
 ---
-
 ## 📝 Ingredientes
 
 - Spaghetti o Tonnarelli

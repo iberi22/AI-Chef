@@ -57,7 +57,6 @@ description: >-
   fluidos: una emulsión estable de leche de coco que 'corre hacia abajo' (runs
   down) integrando proteínas terrestres y marinas con almidones en suspensión.
 ---
-
 # Rondón (Run Down)
 
 El Rondón es el plato insignia de la región Insular de Colombia, especialmente de San Andrés y Providencia. Es un guiso cremoso de pescado, caracol, cangrejo, cerdo, tubérculos, plátano y dumplings, todo cocido en leche de coco y aromatizado con especias isleñas. Su sabor y textura evocan la riqueza multicultural y marítima del archipiélago.
@@ -70,7 +69,6 @@ El Rondón es el plato insignia de la región Insular de Colombia, especialmente
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de pescado fresco (pargo, róbalo o similar)

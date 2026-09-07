@@ -55,7 +55,6 @@ description: >-
   espontánea de la panela que ofrece una hidratación cargada de electrolitos y
   energía rápida, fundamental para las jornadas de cosecha.
 ---
-
 # Guarapo (Elixir de Caña)
 
 El Guarapo es la bebida diaria del campesino en las regiones cafeteras y andinas. A diferencia de la chicha, el guarapo no requiere una base de cereal; su sustrato es puramente el azúcar de la caña (en forma de panela). Es la bebida de la "jura" o el trabajo duro, apreciada por su capacidad de calmar la sed bajo el sol inclemente.
@@ -68,7 +67,6 @@ El Guarapo es la bebida diaria del campesino en las regiones cafeteras y andinas
 * **Porciones:** 10 vasos
 
 ---
-
 ## 📝 Ingredientes
 
 - 500 g de panela picada

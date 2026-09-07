@@ -57,7 +57,6 @@ description: >-
   utilizando únicamente sal gruesa, conserva el sabor más puro e intenso de la
   carne de res.
 ---
-
 # Churrasco Gaúcho de Picanha
 
 El Churrasco es más que una comida en Brasil; es una institución social, un arte y una forma de vida que nació en las pampas del sur con los vaqueros (gaúchos) y se extendió por todo el país. La reina absoluta de cualquier churrascaría o asado familiar es la *Picanha* (tapa de cuadril o punta de ganso), un corte jugoso con una característica capa de grasa que se funde sobre la carne durante la cocción al carbón, realzando su sabor de forma espectacular utilizando solo sal gruesa (*sal grosso*).
@@ -70,7 +69,6 @@ El Churrasco es más que una comida en Brasil; es una institución social, un ar
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **La Carne y Sazón:**

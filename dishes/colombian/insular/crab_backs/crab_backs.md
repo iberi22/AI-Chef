@@ -21,8 +21,29 @@ description: >-
   horno. Es una delicia isleña que destaca por su sabor marino y su present...
 media: []
 embedding_version: 1
+main_ingredients:
+  - Carne de cangrejo
+  - Pan rallado
+  - Cebolla
+  - Pimentón
+  - Mantequilla
+  - Caparazón de cangrejo
+prep_time: 40
+cook_time: 30
+servings: 6
+categories:
+  - Plato fuerte
+  - Tradicional
+sensory:
+  flavor:
+    - Salado
+    - Marino intenso
+    - Especiado
+  texture:
+    - Gratinado suave interior
+  aroma:
+    - Cangrejo horneado
 ---
-
 # Crab Backs (Cangrejo Relleno)
 
 Crab Backs es uno de los platos más representativos de San Andrés y Providencia. Consiste en cangrejo fresco desmenuzado, mezclado con especias, vegetales y pan rallado, luego rellenado en su propio caparazón y gratinado al horno. Es una delicia isleña que destaca por su sabor marino y su presentación única.
@@ -35,7 +56,6 @@ Crab Backs es uno de los platos más representativos de San Andrés y Providenci
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - 6 caparazones de cangrejo limpios

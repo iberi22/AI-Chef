@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Almendra molida
+  - Azúcar
+  - Huevos
+  - Ralladura de limón
+  - Azúcar glas
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de
   alta calidad.
 ---
-
 # Ghriba de Almendra y Sésamo
 
 Ghriba de Almendra y Sésamo es uno de los platos más emblemáticos de la gastronomía de Fez, conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Ghriba de Almendra y Sésamo es uno de los platos más emblemáticos de la gastr
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Almendra molida
+- Azúcar
+- Huevos
+- Ralladura de limón
+- Azúcar glas
 
 ---
 

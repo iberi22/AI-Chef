@@ -56,7 +56,6 @@ description: >-
   sazonado y guisado lentamente con vegetales y especias isleñas, acompañado de
   dumplings esponjosos cocidos en el mismo caldo, creando una experiencia r...
 ---
-
 ## Pollo Guisado con Dumplings
 
 El Pollo Guisado con Dumplings es un plato reconfortante y festivo de la región Insular, especialmente en San Andrés y Providencia. Combina pollo sazonado y guisado lentamente con vegetales y especias isleñas, acompañado de dumplings esponjosos cocidos en el mismo caldo, creando una experiencia rica y hogareña.
@@ -69,7 +68,6 @@ El Pollo Guisado con Dumplings es un plato reconfortante y festivo de la región
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - 1 pollo entero troceado (aprox. 1.5 kg)

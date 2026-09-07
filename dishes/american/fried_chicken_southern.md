@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
+  - Pollo
+  - Harina de trigo
+  - Suero de leche
   - Especias
-  - Aceite de oliva
+  - Aceite para freír
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   gastronomía de Sur de EE.UU., conocido por su equilibrio de sabores e
   ingredientes de alta calidad.
 ---
-
 # Southern Crispy Fried Chicken
 
 Southern Crispy Fried Chicken es uno de los platos más emblemáticos de la gastronomía de Sur de EE.UU., conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Southern Crispy Fried Chicken es uno de los platos más emblemáticos de la gast
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
+- Pollo
+- Harina de trigo
+- Suero de leche
 - Especias
-- Aceite de oliva
+- Aceite para freír
 
 ---
 

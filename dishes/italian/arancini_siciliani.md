@@ -54,7 +54,6 @@ description: >-
   aromatizadas con azafrán, rellenadas de ragù con guisantes y mozzarella, y
   fritas hasta dorar.
 ---
-
 # Arancini Siciliani di Riso
 
 Los Arancini son el snack callejero rey de Sicilia: bolas de arroz aromatizadas con azafrán, rellenadas de ragù con guisantes y mozzarella, y fritas hasta dorar.
@@ -68,7 +67,6 @@ Los Arancini son el snack callejero rey de Sicilia: bolas de arroz aromatizadas 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
 - Arroz para risotto con azafrán

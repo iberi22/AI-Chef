@@ -60,7 +60,6 @@ description: >-
   rellenos con un guiso dulce de carne picada a cuchillo, maní y pasas,
   cubiertos de queso y horneados.
 ---
-
 # Rocoto Relleno
 
 El Rocoto Relleno es el rey de las picanterías arequipeñas. Su característica principal es el equilibrio entre el picor noble del rocoto (suavizado con una técnica tradicional de cocciones sucesivas en agua con azúcar y vinagre) y el dulzor del picadillo de carne picada a cuchillo con pasas y maní tostado. Es un plato festivo y lleno de historia.
@@ -73,7 +72,6 @@ El Rocoto Relleno es el rey de las picanterías arequipeñas. Su característica
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 * **Los Rocotos y su Desalado (Paso Fundamental):**

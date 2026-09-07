@@ -56,7 +56,6 @@ description: >-
   gracias a la expansión de gases atrapados en una red de queso y almidón
   modificado.
 ---
-
 ## Pan de Bono
 
 El pan de bono es uno de los panes más tradicionales y queridos de Colombia, especialmente en el Valle del Cauca. Esponjoso, ligeramente dulce y con intenso sabor a queso, es infaltable en desayunos y onces. Su popularidad lo ha convertido en tendencia en cafeterías y redes sociales.
@@ -68,7 +67,6 @@ El pan de bono es uno de los panes más tradicionales y queridos de Colombia, es
 * **Porciones:** 8 unidades
 
 ---
-
 ## 📝 Ingredientes
 
 - 250 g de almidón de yuca (tapioca)

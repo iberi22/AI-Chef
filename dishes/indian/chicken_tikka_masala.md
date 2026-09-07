@@ -20,10 +20,11 @@ tags:
   - GOS Catalog
   - Top 20
 main_ingredients:
-  - Ingrediente principal 1
-  - Ingrediente principal 2
-  - Especias
-  - Aceite de oliva
+  - Pollo asado en tandoor
+  - Salsa de tomate especiada
+  - Nata
+  - Comino
+  - Cilantro
 sensory:
   flavor:
     - Salado
@@ -49,7 +50,6 @@ description: >-
   de Punjab / U.K., conocido por su equilibrio de sabores e ingredientes de alta
   calidad.
 ---
-
 # Chicken Tikka Masala
 
 Chicken Tikka Masala es uno de los platos más emblemáticos de la gastronomía de Punjab / U.K., conocido por su equilibrio de sabores e ingredientes de alta calidad.
@@ -63,13 +63,13 @@ Chicken Tikka Masala es uno de los platos más emblemáticos de la gastronomía 
 * **Porciones:** 4
 
 ---
-
 ## 📝 Ingredientes
 
-- Ingrediente principal 1
-- Ingrediente principal 2
-- Especias
-- Aceite de oliva
+- Pollo asado en tandoor
+- Salsa de tomate especiada
+- Nata
+- Comino
+- Cilantro
 
 ---
 

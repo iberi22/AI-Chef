@@ -55,7 +55,6 @@ description: >-
   marina en achiote y naranja agria para cocinarse lentamente en horno
   subterráneo (pib).
 ---
-
 # Cochinita Pibil
 
 La Cochinita Pibil es un orgullo yucateco de origen maya, donde el cerdo se marina en achiote y naranja agria para cocinarse lentamente en horno subterráneo (pib).
@@ -69,7 +68,6 @@ La Cochinita Pibil es un orgullo yucateco de origen maya, donde el cerdo se mari
 * **Porciones:** 6
 
 ---
-
 ## 📝 Ingredientes
 
 - Carne de cerdo (cabeza de lomo)
