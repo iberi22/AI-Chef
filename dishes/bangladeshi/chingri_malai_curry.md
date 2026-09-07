@@ -39,7 +39,8 @@ sensory:
     - Tierno
     - Cremoso
     - Veloz
-  aroma: Fragancia sutil de leche de coco dulce, cardamomo verde aromático y langostinos fritos en ghee.
+  aroma: 
+    - Fragancia sutil de leche de coco dulce, cardamomo verde aromático y langostinos fritos en ghee.
   presentation: Langostinos enteros con cabeza presentados sobre un gravy suave de leche de coco de color marfil dorado.
 nutrition:
   calories: 480

@@ -38,7 +38,8 @@ sensory:
   texture:
     - Líquido denso
     - Sedoso
-  aroma: Aroma herbal penetrante a menta fresca, azufre mineral de sal negra y comino tostado.
+  aroma: 
+    - Aroma herbal penetrante a menta fresca, azufre mineral de sal negra y comino tostado.
   presentation: Servido en vasos de cristal altos o jarras de arcilla tradicionales, decorado con una hoja de menta y una pizca de comino tostado encima.
 nutrition:
   calories: 110

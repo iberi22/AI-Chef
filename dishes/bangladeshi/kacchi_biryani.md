@@ -40,7 +40,8 @@ sensory:
     - Esponjoso
     - Tierno
     - Meloso
-  aroma: Aroma complejo de azafrán, cardamomo, nuez moscada y carne de cordero marinada al vapor.
+  aroma: 
+    - Aroma complejo de azafrán, cardamomo, nuez moscada y carne de cordero marinada al vapor.
   presentation: Servido en una gran fuente colectiva de cobre, mostrando capas contrastantes de arroz blanco y amarillo junto con trozos jugosos de cordero y patatas doradas.
 nutrition:
   calories: 750

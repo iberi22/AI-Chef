@@ -38,7 +38,8 @@ sensory:
     - Cremoso
     - Suave
     - Sedoso
-  aroma: Penetrante aroma ahumado de piel de berenjena asada a fuego directo combinado con el picante del aceite de mostaza.
+  aroma: 
+    - Penetrante aroma ahumado de piel de berenjena asada a fuego directo combinado con el picante del aceite de mostaza.
   presentation: Servido en forma cónica o esférica sobre hoja de plátano o plato de arcilla, decorado con chiles fritos.
 nutrition:
   calories: 150

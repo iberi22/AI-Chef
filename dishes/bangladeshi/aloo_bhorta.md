@@ -38,7 +38,8 @@ sensory:
     - Cremoso
     - Denso
     - Suave
-  aroma: Aroma rústico a patata caliente, chiles fritos y el toque pungente picante del aceite de mostaza.
+  aroma: 
+    - Aroma rústico a patata caliente, chiles fritos y el toque pungente picante del aceite de mostaza.
   presentation: Moldeado a mano en esferas o montículos suaves en platos tradicionales de latón.
 nutrition:
   calories: 180

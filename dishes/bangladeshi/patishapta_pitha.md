@@ -36,7 +36,8 @@ sensory:
   texture:
     - Crepe exterior suave y fino
     - Relleno denso cremoso interior
-  aroma: Deliciosa fragancia a leche reducida lentamente, cardamomo molido y coco dulce.
+  aroma: 
+    - Deliciosa fragancia a leche reducida lentamente, cardamomo molido y coco dulce.
   presentation: Enrollados finos dorados presentados alineados en bandeja de servicio, espolvoreados opcionalmente con pistachos picados.
 nutrition:
   calories: 310

@@ -38,7 +38,8 @@ sensory:
   texture:
     - Granular meloso
     - Firme
-  aroma: Aroma irresistible a moong dal tostado en ghee, comino y jengibre fresco.
+  aroma: 
+    - Aroma irresistible a moong dal tostado en ghee, comino y jengibre fresco.
   presentation: Servido bien caliente en plato hondo de cerámica acompañado de tortilla de huevo frita o berenjena frita.
 nutrition:
   calories: 460

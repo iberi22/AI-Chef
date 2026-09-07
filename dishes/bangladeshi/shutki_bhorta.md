@@ -37,7 +37,8 @@ sensory:
   texture:
     - Pastoso rústico
     - Fibroso
-  aroma: Aroma intenso y penetrante característico del pescado curado al sol mezclado con ajo asado y chile.
+  aroma: 
+    - Aroma intenso y penetrante característico del pescado curado al sol mezclado con ajo asado y chile.
   presentation: Presentado en pequeñas porciones esféricas intensamente rojas en platos tradicionales de terracota.
 nutrition:
   calories: 220

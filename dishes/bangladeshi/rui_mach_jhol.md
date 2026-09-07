@@ -39,7 +39,8 @@ sensory:
     - Caldo fluido
     - Pescado jugoso
     - Patatas tiernas
-  aroma: Aroma fresco a caldo de pescado frito en mostaza, comino y cilantro fresco.
+  aroma: 
+    - Aroma fresco a caldo de pescado frito en mostaza, comino y cilantro fresco.
   presentation: Servido en plato hondo de porcelana con el caldo ligero traslúcido de color amarillo dorado y rodajas de tomate entero.
 nutrition:
   calories: 340
