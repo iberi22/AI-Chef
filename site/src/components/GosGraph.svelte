@@ -26,6 +26,13 @@ let renderer: SigmaType | null = null
 let stats = $state({ nodes: 0, edges: 0, recipes: 0, ingredients: 0 })
 let loading = $state(true)
 let error = $state<string | null>(null)
+let selected = $state<{
+  id: string
+  label: string
+  type: string
+  conns: number
+} | null>(null)
+let fullData: GraphData | null = null
 
 const COLORS: Record<string, string> = {
   recipe: '#FF6B6B',
@@ -85,6 +92,7 @@ onMount(() => {
         import('sigma'),
       ])
       const data = await loadGraphData()
+      fullData = data
       stats = {
         nodes: data.nodes?.length || 0,
         edges: data.edges?.length || 0,
@@ -164,11 +172,26 @@ function renderSigma(
     minCameraRatio: 0.05,
     maxCameraRatio: 3,
   })
+  // Sin cámara custom: los datos van normalizados a [0,1] y la cámara
+  // default de sigma (0.5, 0.5, ratio 1) los encuadra por convención.
 
-  // Click en mini-grafo home navega a /graph?node=<id>
+  // Click en mini-grafo muestra la ficha SIN salir del index (modal inline).
+  // El enlace "Ver en grafo" lleva a /graph?node=<id> para explorar.
   renderer.on('clickNode', (e) => {
-    const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '')
-    window.location.href = `${base}/graph?node=${encodeURIComponent(e.node)}`
+    const datum = fullData?.nodes.find((n) => n.id === e.node)
+    const conns =
+      fullData?.edges.filter(
+        (ed) => ed.source === e.node || ed.target === e.node,
+      ).length || 0
+    selected = {
+      id: e.node,
+      label: datum?.label || e.node,
+      type: datum?.type || 'misc',
+      conns,
+    }
+  })
+  renderer.on('clickStage', () => {
+    selected = null
   })
 }
 </script>
@@ -192,6 +215,44 @@ function renderSigma(
   {:else}
     <div bind:this={container} class="gos-canvas"></div>
   {/if}
+  {#if selected}
+    <div
+      class="gos-modal"
+      onclick={() => (selected = null)}
+      onkeydown={(e) => {
+        if (e.key === 'Escape') selected = null
+      }}
+      tabindex="0"
+      role="presentation"
+    >
+      <div
+        class="gos-modal-card"
+        role="dialog"
+        tabindex="-1"
+        aria-label={selected.label}
+        onclick={(e) => e.stopPropagation()}
+      >
+        <span
+          class="dot"
+          style={`background:${COLORS[selected.type] || '#888888'}`}
+        ></span>
+        <strong>{selected.label}</strong>
+        <span class="gos-modal-type"
+          >{LABELS[selected.type] || selected.type} • {selected.conns}
+          conexiones</span
+        >
+        <div class="gos-modal-actions">
+          <a
+            href={`${(import.meta.env.BASE_URL || '/').replace(/\/$/, '')}/graph?node=${encodeURIComponent(selected.id)}`}
+            class="gos-btn primary">Ver en grafo →</a
+          >
+          <button class="gos-btn" onclick={() => (selected = null)}
+            >Cerrar</button
+          >
+        </div>
+      </div>
+    </div>
+  {/if}
   <div class="gos-legend">
     {#each Object.entries(COLORS) as [k, c]}
       <span class="legend-item"><span class="dot" style={`background:${c}`}></span>{LABELS[k] || k}</span>
@@ -201,6 +262,7 @@ function renderSigma(
 
 <style>
   .gos-graph-wrap {
+    position: relative;
     border: 1px solid var(--swal-border);
     border-radius: 16px;
     overflow: hidden;
@@ -240,6 +302,51 @@ function renderSigma(
     background: var(--swal-accent);
     color: white;
     border-color: var(--swal-accent);
+  }
+  .gos-modal {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(5, 5, 8, 0.55);
+    padding: 16px;
+  }
+  .gos-modal-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    max-width: 320px;
+    width: 100%;
+    border: 1px solid var(--swal-border);
+    border-radius: 16px;
+    padding: 16px;
+    background: var(--swal-surface);
+  }
+  .gos-modal-card strong {
+    color: var(--swal-text);
+    font-size: 16px;
+  }
+  .gos-modal-card .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .gos-modal-type {
+    font-size: 12px;
+    color: var(--swal-text-muted);
+  }
+  .gos-modal-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+  }
+  .gos-modal-actions .gos-btn {
+    cursor: pointer;
+    font-family: inherit;
   }
   .gos-canvas {
     height: 480px;

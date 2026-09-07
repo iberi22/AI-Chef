@@ -69,6 +69,8 @@
   .ge-spinner { width:32px; height:32px; border:2px solid #1e1e2e; border-top-color:#7d61ff; border-radius:50%; animation:ge-spin 0.8s linear infinite; }
   @keyframes ge-spin { to{transform:rotate(360deg)} }
   .ge-zoom-btns { position:absolute; right:12px; top:68px; display:flex; flex-direction:column; gap:4px; z-index:10; }
+  .ge-hl-chip { position:absolute; top:68px; left:12px; z-index:12; background:rgba(12,12,20,0.92); border:1px solid #7d61ff; color:#e0e0ff; border-radius:999px; padding:6px 12px; font-size:11px; font-weight:600; cursor:pointer; max-width:60%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .ge-hl-chip[hidden] { display:none; }
   .ge-zoom-btn { width:30px; height:30px; background:rgba(12,12,20,0.9); border:1px solid #2a2a3e; border-radius:6px; color:#8080a0; font-size:16px; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:all 0.15s; }
   .ge-zoom-btn:hover { background:#1e1e30; color:#fff; }
 </style>
@@ -91,6 +93,7 @@
     <button class="ge-zoom-btn" id="ge-zoom-out" aria-label="Alejar">&#8722;</button>
     <button class="ge-zoom-btn" id="ge-zoom-reset" aria-label="Restablecer vista">&#8635;</button>
   </div>
+  <button class="ge-hl-chip" id="ge-hl-chip" hidden></button>
   <div class="ge-detail" id="ge-detail">
     <div class="ge-detail-header">
       <div>
@@ -153,10 +156,12 @@ import Graph from 'graphology';
   var nodeCountEl = document.getElementById('ge-node-count');
   var edgeCountEl = document.getElementById('ge-edge-count');
   var recipeCountEl = document.getElementById('ge-recipe-count');
+  var hlChip = document.getElementById('ge-hl-chip');
 
   var graphData = null;
   var graph = null;
   var renderer = null;
+  var fitState = { x: 0, y: 0, angle: 0, ratio: 1 };
   var activeTypes = new Set(Object.keys(COLORS));
   // Vista inicial legible: los tipos hoja masivos (ingredientes/sabores/texturas
   // suman ~2500 nodos y colapsan la vista). Empiezan apagados; el usuario los
@@ -283,6 +288,15 @@ import Graph from 'graphology';
     renderer.refresh();
   }
 
+  function fitCameraToData() {
+    // Los datos van normalizados a [0,1] en build: la cámara default de
+    // sigma (0.5, 0.5, ratio 1) los encuadra por convención. Este helper
+    // existe para re-encuadrar tras resize (zoom-reset lo reutiliza).
+    var state = { x: 0.5, y: 0.5, angle: 0, ratio: 1 };
+    renderer.getCamera().setState(state);
+    return state;
+  }
+
   function initSigma() {
     graph = new Graph({ multi: true });
     graphData.nodes.forEach(function(n, i) {
@@ -320,6 +334,7 @@ import Graph from 'graphology';
       minCameraRatio: 0.02,
       maxCameraRatio: 5,
     });
+    fitState = fitCameraToData();
 
     loading.style.display = 'none';
 
@@ -345,6 +360,12 @@ import Graph from 'graphology';
   function highlightNeighborhood(nodeId) {
     if (!graph || !renderer) return;
     highlightedNodeId = nodeId;
+    // Chip explicito: sin esto el dim parece un error ("pantalla oscura").
+    if (hlChip && graphData) {
+      var hlNode = graphData.nodes.find(function(n) { return n.id === nodeId; });
+      hlChip.textContent = 'Resaltando vecinos de ' + ((hlNode && (hlNode.label || hlNode.id)) || nodeId) + ' ✕';
+      hlChip.hidden = false;
+    }
     var keep = {};
     keep[nodeId] = true;
     graph.neighbors(nodeId).forEach(function(n) { keep[n] = true; });
@@ -378,6 +399,7 @@ import Graph from 'graphology';
   function resetHighlight() {
     if (!renderer) return;
     highlightedNodeId = null;
+    if (hlChip) hlChip.hidden = true;
     renderer.setSetting('nodeReducer', null);
     renderer.setSetting('edgeReducer', null);
     renderer.refresh();
@@ -545,8 +567,11 @@ import Graph from 'graphology';
     if (renderer) renderer.getCamera().animatedUnzoom({ duration: 300 });
   };
   document.getElementById('ge-zoom-reset').onclick = function() {
-    if (renderer) renderer.getCamera().animatedReset({ duration: 500 });
+    if (renderer) renderer.getCamera().animate(fitState, { duration: 500 });
   };
+  if (hlChip) {
+    hlChip.onclick = function() { resetHighlight(); };
+  }
   document.getElementById('ge-detail-close').onclick = function() {
     detail.classList.remove('open');
     resetHighlight();
