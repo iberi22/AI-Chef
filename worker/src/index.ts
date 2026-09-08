@@ -104,14 +104,29 @@ export default {
     let swalRemaining = 0
 
     // 2b. Keys swal_* → billing central (si configurado). Si no, rige legacy.
-    if (apiKey && apiKey.startsWith('swal_') && env.BILLING_URL && env.BILLING_SERVICE_SECRET) {
-      const verdict = await verifySwalKey(env.BILLING_URL, env.BILLING_SERVICE_SECRET, apiKey)
+    if (
+      apiKey &&
+      apiKey.startsWith('swal_') &&
+      env.BILLING_URL &&
+      env.BILLING_SERVICE_SECRET
+    ) {
+      const verdict = await verifySwalKey(
+        env.BILLING_URL,
+        env.BILLING_SERVICE_SECRET,
+        apiKey,
+      )
       if (!verdict) {
-        return jsonResponse({ error: 'Billing unavailable: retry shortly' }, 503)
+        return jsonResponse(
+          { error: 'Billing unavailable: retry shortly' },
+          503,
+        )
       }
       if (!verdict.active) {
         return jsonResponse(
-          { error: 'Unauthorized: Invalid or inactive API key', tier: 'invalid' },
+          {
+            error: 'Unauthorized: Invalid or inactive API key',
+            tier: 'invalid',
+          },
           401,
         )
       }
@@ -299,7 +314,11 @@ export default {
       const handling = subtotal * 0.2
       // Reporta consumo al billing central (best-effort, no bloquea respuesta).
       if (swalKey && env.BILLING_URL && env.BILLING_SERVICE_SECRET) {
-        await reportSwalUsage(env.BILLING_URL, env.BILLING_SERVICE_SECRET, swalKey)
+        await reportSwalUsage(
+          env.BILLING_URL,
+          env.BILLING_SERVICE_SECRET,
+          swalKey,
+        )
       }
       return jsonResponse({
         text,
